@@ -1,0 +1,166 @@
+{
+  "page_code": "EM-7013",
+  "section": "EM",
+  "title": "OIL SEAL REPLACEMENT",
+  "page_type": "prose_procedure",
+  "source_image": "page_EM7013.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM316C",
+      "type": "tool_illustration",
+      "description": "Using a scraper to remove traces of liquid gasket from rear oil seal retainer mating surface",
+      "bbox_percent": [
+        0,
+        2,
+        45,
+        20
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM317C",
+      "type": "tool_illustration",
+      "description": "Removing seal from rear oil seal retainer using a tool",
+      "bbox_percent": [
+        0,
+        21,
+        45,
+        38
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM318C",
+      "type": "tool_illustration",
+      "description": "Installing new oil seal into rear oil seal retainer using a suitable tool and hammer",
+      "bbox_percent": [
+        0,
+        39,
+        45,
+        56
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM319C",
+      "type": "parts_diagram",
+      "description": "Rear oil seal retainer showing location where liquid gasket is applied",
+      "bbox_percent": [
+        0,
+        57,
+        45,
+        74
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM365",
+      "type": "component_photo",
+      "description": "Engine rear view showing bolt location where thread sealant is to be applied",
+      "bbox_percent": [
+        0,
+        75,
+        45,
+        92
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL SEAL REPLACEMENT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "REAR OIL SEAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "rear_oil_seal",
+      "title": "REAR OIL SEAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove flywheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove rear oil seal retainer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove traces of liquid gasket using scraper.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove seal from rear oil seal retainer.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Apply engine oil to new oil seal and install it using a suitable tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Apply liquid gasket to rear oil seal retainer.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Apply thread sealant to the bolt indicated in the figure.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Support cover when installing seal.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Scraper",
+      "usage": "Remove traces of liquid gasket from rear oil seal retainer mating surface"
+    },
+    {
+      "part_number": null,
+      "name": "Suitable tool",
+      "usage": "Install new oil seal into rear oil seal retainer"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

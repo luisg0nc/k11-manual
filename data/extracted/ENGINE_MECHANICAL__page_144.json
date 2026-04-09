@@ -1,0 +1,179 @@
+{
+  "page_code": "EM-5011",
+  "section": "EM",
+  "title": "TIMING BELT",
+  "page_type": "parts_diagram",
+  "source_image": "EM-5011.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM250",
+      "type": "parts_diagram",
+      "description": "Exploded view of timing belt assembly showing all components with torque specifications",
+      "bbox_percent": [
+        2,
+        10,
+        98,
+        65
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING BELT"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\na. Do not bend or twist timing belt.\nb. After removing timing belt, do not turn crankshaft and camshaft separately because valves will strike piston heads.\nc. Ensure that timing belt, camshaft sprocket, crankshaft sprocket, injection pump sprocket and belt tensioner are clean and free from oil and water.",
+      "style": "caution"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Camshaft pulley",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Camshaft hub",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Injection pump pulley",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Tensioner pulley",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Idler pulley",
+          "note": ""
+        },
+        {
+          "number": 6,
+          "name": "Water pump",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "Timing belt",
+          "note": ""
+        },
+        {
+          "number": 8,
+          "name": "Upper timing belt cover",
+          "note": ""
+        },
+        {
+          "number": 9,
+          "name": "Lower timing belt cover",
+          "note": ""
+        },
+        {
+          "number": 10,
+          "name": "Crankshaft pulley",
+          "note": ""
+        },
+        {
+          "number": 11,
+          "name": "Crankshaft sprocket",
+          "note": ""
+        },
+        {
+          "number": 12,
+          "name": "Crankshaft spacer",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Camshaft pulley bolt",
+          "value": "80 (8.2, 59.0)",
+          "unit": "N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+          "condition": "With locking sealant"
+        },
+        {
+          "label": "Camshaft hub bolt",
+          "value": "25 (2.6, 18.4)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Injection pump pulley bolt",
+          "value": "25 (2.6, 18.4)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Tensioner pulley bolt",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Idler pulley bolt",
+          "value": "25 (2.6, 18.4)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Upper timing belt cover bolt",
+          "value": "7 (0.71, 62.0)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Lower timing belt cover bolt",
+          "value": "7 (0.71, 62.0)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Crankshaft pulley bolt",
+          "value": "110 (11.2, 81.1)",
+          "unit": "N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Crankshaft pulley small bolt",
+          "value": "15 (1.5, 11.1)",
+          "unit": "N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Water pump bolt",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        },
+        {
+          "label": "Timing belt cover bolt (upper region)",
+          "value": "7 (0.71, 62.0)",
+          "unit": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Tensioner pulley marked Do not re-use. Camshaft pulley bolt uses locking sealant."
+}

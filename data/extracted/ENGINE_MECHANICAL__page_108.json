@@ -1,0 +1,94 @@
+{
+  "page_code": "EM-42",
+  "section": "EM",
+  "title": "ENGINE REMOVAL \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-42.jpg",
+  "continuation": {
+    "continues_from": "EM-41",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM070",
+      "type": "parts_diagram",
+      "description": "Diagram showing centermember fitting with rear insulator and rubber component alignment (arrow indicating direction of fit)",
+      "bbox_percent": [
+        0,
+        2,
+        48,
+        22
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM071",
+      "type": "parts_diagram",
+      "description": "Diagram showing lower front insulator adjustment dimension for M/T models: 54 - 56 mm (2.13 - 2.21 in)",
+      "bbox_percent": [
+        0,
+        22,
+        48,
+        44
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Fit centermember as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "For M/T models, lower front insulator should be adjusted as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Other installation procedures are in the reverse order of removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Lower front insulator adjustment (M/T models)",
+          "value": "54 - 56",
+          "unit": "mm (2.13 - 2.21 in)",
+          "condition": "M/T models only"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Step 4 applies to M/T (Manual Transmission) models only. Lower front insulator adjustment dimension: 54 - 56 mm (2.13 - 2.21 in)."
+}

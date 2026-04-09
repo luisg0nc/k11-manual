@@ -1,0 +1,65 @@
+{
+  "page_code": "GI-1001",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "page_image",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "GI-1002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "<SUPPLEMENT-I>"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-1002"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-1003"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-1002",
+    "GI-1003"
+  ],
+  "model_notes": null
+}

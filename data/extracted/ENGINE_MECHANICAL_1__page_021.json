@@ -1,0 +1,170 @@
+{
+  "page_code": "EM-21",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": "EM-20",
+    "continues_to": "EM-22"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM109",
+      "type": "parts_diagram",
+      "description": "Timing chain sprocket alignment diagram showing upper timing chain, lower timing chain, mating marks (silver), and link counts (10 links, 14 links, 22 links) between sprockets",
+      "bbox_percent": [
+        0,
+        2,
+        48,
+        28
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM054",
+      "type": "parts_diagram",
+      "description": "Idler sprocket shaft installation diagram showing dowel and idler shaft positioning",
+      "bbox_percent": [
+        0,
+        30,
+        48,
+        48
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM877A",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt washer installation diagram showing washer orientation with cylinder head side indicated",
+      "bbox_percent": [
+        0,
+        50,
+        48,
+        65
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM124D",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt tightening sequence diagram showing numerical order for bolts 1-15",
+      "bbox_percent": [
+        0,
+        67,
+        48,
+        88
+      ],
+      "associated_step": "14"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 11,
+          "text": "Set idler sprocket by aligning the mating mark on the larger sprocket with the silver mating mark on the lower timing chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Install upper timing chain and set it by aligning the mating mark on the smaller sprocket with the silver mating marks on the upper timing chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Make sure sprocket's mating mark faces engine front."
+          ]
+        },
+        {
+          "step": 13,
+          "text": "Install idler sprocket shaft from the rear side.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Ensure that the shaft is located correctly, as shown."
+          ]
+        },
+        {
+          "step": 14,
+          "text": "Install cylinder head with new gasket.",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Do not rotate crankshaft and camshaft separately, or valves will strike piston heads."
+          ],
+          "notes": [
+            "Be sure to install washers between bolts and cylinder head."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Tightening procedure (bolts 1-10)",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tighten bolts (a) - bolts 1-10",
+          "value": "39",
+          "unit": "N\u00b7m (4.0 kg-m, 29 ft-lb)",
+          "condition": "Step a"
+        },
+        {
+          "label": "Tighten bolts (b) - bolts 1-10",
+          "value": "78",
+          "unit": "N\u00b7m (8.0 kg-m, 58 ft-lb)",
+          "condition": "Step b"
+        },
+        {
+          "label": "Loosen bolts (c) - bolts 1-10",
+          "value": "completely",
+          "unit": "",
+          "condition": "Step c"
+        },
+        {
+          "label": "Tighten bolts (d) - bolts 1-10",
+          "value": "3[?]",
+          "unit": "N\u00b7m (3.6 kg-m, 26 ft-lb)",
+          "condition": "Step d"
+        },
+        {
+          "label": "Turn bolts (e) - bolts 1-10",
+          "value": "60 degrees clockwise",
+          "unit": "",
+          "condition": "Step e"
+        },
+        {
+          "label": "Tighten bolts (f) - bolts 11 to 15",
+          "value": "6.3 to 8.3",
+          "unit": "N\u00b7m (0.64 to 0.85 kg-m, 4.6 to 6.1 ft-lb)",
+          "condition": "Step f"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

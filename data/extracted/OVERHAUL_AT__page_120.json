@@ -1,0 +1,161 @@
+{
+  "page_code": "AT-120",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-120.jpg",
+  "continuation": {
+    "continues_from": "AT-119",
+    "continues_to": "AT-121"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT259",
+      "type": "component_photo",
+      "description": "Illustration showing fitting of inner circlip to shift arm, cam plate and pin, and outer circlip",
+      "bbox_percent": [
+        0,
+        3,
+        35,
+        22
+      ],
+      "associated_step": "29-31"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT260",
+      "type": "component_photo",
+      "description": "Illustration showing securing shift arm to shift cam using new roll pin, with 15 degree angle reference, and fitting final drive assembly",
+      "bbox_percent": [
+        0,
+        23,
+        35,
+        43
+      ],
+      "associated_step": "32-33"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT261",
+      "type": "component_photo",
+      "description": "Illustration showing application of petroleum jelly (not grease) to needle bearing",
+      "bbox_percent": [
+        0,
+        44,
+        35,
+        64
+      ],
+      "associated_step": "34"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 29,
+          "text": "Fit the inner circlip to the shift arm.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Fit the cam plate and pin.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Fit the outer circlip.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "Secure the shift arm to shift cam using a new roll pin.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Fit the final drive assembly in to position.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 34,
+          "text": "Apply a thin coat of petroleum jelly to the needle bearing as shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Do not use grease."
+          ]
+        },
+        {
+          "step": 35,
+          "text": "If any of the following parts are replaced, adjust differential side bearing preload: Differential/final drive; Differential side bearing; Clutch housing; Transmission housing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 36,
+          "text": "Remove side bearing and shim.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 37,
+          "text": "Reinstall side bearing without shim.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 38,
+          "text": "Install final drive assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 39,
+          "text": "Install clutch housing on to transmission.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 40,
+          "text": "Tighten bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

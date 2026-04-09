@@ -1,0 +1,270 @@
+{
+  "page_code": "GI",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<1ST REVISION>"
+    },
+    {
+      "block_type": "table",
+      "title": "1ST REVISION Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "GI-2"
+        },
+        {
+          "topic": "HOW TO USE THIS MANUAL",
+          "page": "GI-5"
+        },
+        {
+          "topic": "HOW TO READ WIRING DIAGRAMS",
+          "page": "GI-7"
+        },
+        {
+          "topic": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+          "page": "GI-10"
+        },
+        {
+          "topic": "CONSULT CHECKING SYSTEM",
+          "page": "GI-14"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-16"
+        },
+        {
+          "topic": "LIFTING POINTS AND TOW TRUCK TOWING",
+          "page": "GI-21"
+        },
+        {
+          "topic": "TIGHTENING TORQUE OF STANDARD BOLTS (For Nissan standard bolts)",
+          "page": "GI-27"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-I>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-I Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-1002"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-1003"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-II>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-II Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-2002"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-2003"
+        },
+        {
+          "topic": "SAE J1930 TERMINOLOGY LIST",
+          "page": "GI-2004"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-III>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-III Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "GI-3002"
+        },
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-3003"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-3004"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-IV>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-IV Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-4002"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-4003"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-V>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-V Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "GI-5002"
+        },
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-5004"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-5005"
+        },
+        {
+          "topic": "LIFTING POINTS AND TOW TRUCK TOWING",
+          "page": "GI-5010"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-2",
+    "GI-5",
+    "GI-7",
+    "GI-10",
+    "GI-14",
+    "GI-16",
+    "GI-21",
+    "GI-27",
+    "GI-1002",
+    "GI-1003",
+    "GI-2002",
+    "GI-2003",
+    "GI-2004",
+    "GI-3002",
+    "GI-3003",
+    "GI-3004",
+    "GI-4002",
+    "GI-4003",
+    "GI-5002",
+    "GI-5004",
+    "GI-5005",
+    "GI-5010"
+  ],
+  "model_notes": null
+}

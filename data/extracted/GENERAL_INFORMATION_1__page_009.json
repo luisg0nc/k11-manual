@@ -1,0 +1,203 @@
+{
+  "page_code": "GI-5",
+  "section": "GI",
+  "title": "HOW TO USE THIS MANUAL",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi5.jpg",
+  "continuation": {
+    "continues_from": "GI-4",
+    "continues_to": "GI-6"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SBR364A",
+      "type": "parts_diagram",
+      "description": "Example exploded view of a disc brake caliper assembly showing tightening torques, lubrication points and component identification callouts",
+      "bbox_percent": [
+        2,
+        18,
+        98,
+        68
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO USE THIS MANUAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "how_to_use",
+      "title": "HOW TO USE THIS MANUAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "A QUICK REFERENCE INDEX, a black tab (e.g. [BR]) is provided on the first page. You can quickly find the first page of each section by mating it to the section's black tab.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "THE CONTENTS are listed on the first page of each section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "THE TITLE is indicated on the upper portion of each page and shows the part or system.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "THE PAGE NUMBER of each section consists of two letters which designate the particular section and a number (e.g. \"BR-5\").",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "THE LARGE ILLUSTRATIONS are exploded views (See below.) and contain tightening torques, lubrication points and other information necessary to perform repairs. The illustrations should be used in reference to service matters only. When ordering parts, refer to the appropriate PARTS CATALOG.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "THE SMALL ILLUSTRATIONS show the important steps such as inspection, use of special tools, work procedures and hidden or tricky steps which are not shown in the previous large illustrations. Assembly, inspection and adjustment procedures for the complicated units such as the automatic transaxle or transmission, etc. are presented in a step-by-step format where necessary.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": null,
+          "name": "Pad retainer (Upper side)",
+          "note": "Torque: 54 - 64 (5.5 - 6.5, 40 - 47) N\u00b7m (kg-m, ft-lb)"
+        },
+        {
+          "number": null,
+          "name": "Torque member",
+          "note": ""
+        },
+        {
+          "number": null,
+          "name": "Pin boot",
+          "note": ""
+        },
+        {
+          "number": null,
+          "name": "Main pin",
+          "note": "Apply grease to sliding portion"
+        },
+        {
+          "number": null,
+          "name": "Inner shim",
+          "note": ""
+        },
+        {
+          "number": null,
+          "name": "Copper washer",
+          "note": "Torque: 17 - 20 (1.7 - 2.0, 12 - 14) N\u00b7m (kg-m, ft-lb)"
+        },
+        {
+          "number": null,
+          "name": "Pad retainer (Lower side)",
+          "note": "Apply grease"
+        },
+        {
+          "number": null,
+          "name": "Outer shim",
+          "note": ""
+        },
+        {
+          "number": null,
+          "name": "Pad",
+          "note": ""
+        },
+        {
+          "number": null,
+          "name": "Dust seal",
+          "note": "Apply grease"
+        },
+        {
+          "number": null,
+          "name": "Piston seal",
+          "note": "Apply grease; Replace"
+        },
+        {
+          "number": null,
+          "name": "Piston",
+          "note": "Apply grease"
+        },
+        {
+          "number": null,
+          "name": "Brake hose",
+          "note": ""
+        },
+        {
+          "number": null,
+          "name": "Air bleeder",
+          "note": "Torque: 7 - 9 (0.7 - 0.9, 5.1 - 6.5) N\u00b7m (kg-m, ft-lb)"
+        },
+        {
+          "number": null,
+          "name": "Pin bolt",
+          "note": "Torque: 22 - 31 (2.2 - 3.2, 16 - 23) N\u00b7m (kg-m, ft-lb)"
+        },
+        {
+          "number": null,
+          "name": "Cylinder body",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Pad retainer (Upper side) bolt torque",
+          "value": "54 - 64",
+          "unit": "N\u00b7m",
+          "condition": "also (5.5 - 6.5 kg-m, 40 - 47 ft-lb)"
+        },
+        {
+          "label": "Copper washer torque",
+          "value": "17 - 20",
+          "unit": "N\u00b7m",
+          "condition": "also (1.7 - 2.0 kg-m, 12 - 14 ft-lb)"
+        },
+        {
+          "label": "Air bleeder torque",
+          "value": "7 - 9",
+          "unit": "N\u00b7m",
+          "condition": "also (0.7 - 0.9 kg-m, 5.1 - 6.5 ft-lb)"
+        },
+        {
+          "label": "Pin bolt torque",
+          "value": "22 - 31",
+          "unit": "N\u00b7m",
+          "condition": "also (2.2 - 3.2 kg-m, 16 - 23 ft-lb)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "PARTS CATALOG"
+  ],
+  "model_notes": null
+}

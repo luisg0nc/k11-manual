@@ -1,0 +1,60 @@
+{
+  "page_code": "EM-4001",
+  "section": "EM",
+  "title": "ENGINE MECHANICAL",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-4002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MECHANICAL"
+    },
+    {
+      "block_type": "prose",
+      "text": "<SUPPLEMENT-IV>",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION EM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "OUTER COMPONENT PARTS",
+          "page": "EM-4002"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM-4002"
+  ],
+  "model_notes": null
+}

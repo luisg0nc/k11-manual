@@ -1,0 +1,168 @@
+{
+  "page_code": "AT-26",
+  "section": "AT",
+  "title": "HYDRAULIC CONTROL",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-26.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT034",
+      "type": "wiring_schematic",
+      "description": "Hydraulic control circuit diagram for D Range (Overdrive) showing all hydraulic components, valves, pulleys, and pressure lines with legend",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HYDRAULIC CONTROL"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "D RANGE (Overdrive) hydraulic circuit diagram showing pressure lines and valve layout",
+      "callouts": [
+        {
+          "label": "Sensor shoe",
+          "position": "upper-left"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "upper-center-left"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "upper-center"
+        },
+        {
+          "label": "Shift cam",
+          "position": "upper-center-right"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "upper-right"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center-lower"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "right"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower-right"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "lower-left"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "lower-center-left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "lower-center"
+        },
+        {
+          "label": "Oil pump",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil filter",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "lower-right"
+        },
+        {
+          "label": "Check valve",
+          "position": "lower-center"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "bottom-center"
+        },
+        {
+          "label": "D range (Overdrive)",
+          "position": "left"
+        },
+        {
+          "label": "D",
+          "position": "upper-right"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Pressure Legend",
+      "columns": [
+        {
+          "key": "symbol",
+          "label": "Symbol"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "symbol": "thin line",
+          "description": "Line pressure"
+        },
+        {
+          "symbol": "dotted line",
+          "description": "Lubrication oil pressure"
+        },
+        {
+          "symbol": "solid black line",
+          "description": "Pitot pressure"
+        },
+        {
+          "symbol": "hatched line",
+          "description": "Primary pressure"
+        },
+        {
+          "symbol": "double hatched line",
+          "description": "Primary pressure (pre-fill)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transmission hydraulic control schematic applicable to K11 Nissan Micra with CVT. D Range (Overdrive) condition shown."
+}

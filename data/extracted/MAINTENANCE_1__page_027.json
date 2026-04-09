@@ -1,0 +1,174 @@
+{
+  "page_code": "MA-27",
+  "section": "MA",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Chassis and Body Maintenance (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "ma-27.jpg",
+  "continuation": {
+    "continues_from": "MA-26",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Chassis and Body Maintenance (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Wheel balance"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Wheel balance (Maximum allowable unbalance at rim flange)",
+          "value": "10 (0.35)",
+          "unit": "g (oz)",
+          "condition": ""
+        },
+        {
+          "label": "Tire balance weight",
+          "value": "5 - 60 (0.18 - 2.12)",
+          "unit": "g (oz)",
+          "condition": ""
+        },
+        {
+          "label": "Tire balance weight \u2014 Spacing",
+          "value": "5 (0.18)",
+          "unit": "g (oz)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Wheel bearing"
+    },
+    {
+      "block_type": "table",
+      "title": "Wheel bearing specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "front",
+          "label": "Front"
+        },
+        {
+          "key": "rear",
+          "label": "Rear"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Wheel bearing axial end play mm (in)",
+          "front": "0 (0)",
+          "rear": "0 (0)"
+        },
+        {
+          "item": "Wheel bearing lock nut \u2014 Tightening torque N\u00b7m (kg-m, ft-lb)",
+          "front": "148 - 205 (15.1 - 20.9, 109 - 151)",
+          "rear": "186 - 255 (19 - 26, 137 - 188)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TIGHTENING TORQUE"
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening Torque",
+      "columns": [
+        {
+          "key": "unit",
+          "label": "Unit"
+        },
+        {
+          "key": "nm",
+          "label": "N\u00b7m"
+        },
+        {
+          "key": "kgm",
+          "label": "kg-m"
+        },
+        {
+          "key": "ftlb",
+          "label": "ft-lb"
+        }
+      ],
+      "rows": [
+        {
+          "unit": "Clutch \u2014 Pedal stopper lock nut",
+          "nm": "16 - 22",
+          "kgm": "1.6 - 2.2",
+          "ftlb": "12 - 16"
+        },
+        {
+          "unit": "Manual transaxle \u2014 Drain plug R55F41A",
+          "nm": "10 - 20",
+          "kgm": "1.0 - 2.0",
+          "ftlb": "7 - 14"
+        },
+        {
+          "unit": "Manual transaxle \u2014 Drain plug R55F30A",
+          "nm": "25 - 34",
+          "kgm": "2.5 - 3.5",
+          "ftlb": "18 - 25"
+        },
+        {
+          "unit": "Manual transaxle \u2014 Drain plug R55F31V",
+          "nm": "25 - 34",
+          "kgm": "2.5 - 3.5",
+          "ftlb": "18 - 25"
+        },
+        {
+          "unit": "Automatic transaxle \u2014 Drain plug",
+          "nm": "23 - 27",
+          "kgm": "2.34 - 2.75",
+          "ftlb": "17 - 20"
+        },
+        {
+          "unit": "Front axle and front suspension \u2014 Tie-rod lock nut",
+          "nm": "38 - 47",
+          "kgm": "3.9 - 4.8",
+          "ftlb": "28 - 35"
+        },
+        {
+          "unit": "Brake system \u2014 Air bleed valve",
+          "nm": "7 - 9",
+          "kgm": "0.7 - 0.9",
+          "ftlb": "5.1 - 6.5"
+        },
+        {
+          "unit": "Brake system \u2014 Brake booster input rod lock nut",
+          "nm": "16 - 22",
+          "kgm": "1.6 - 2.2",
+          "ftlb": "12 - 16"
+        },
+        {
+          "unit": "Wheel and tire \u2014 Wheel nut",
+          "nm": "98 - 117",
+          "kgm": "10.0 - 12.0",
+          "ftlb": "72 - 87"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Manual transaxle drain plug torque values vary by transaxle type: R55F41A, R55F30A, R55F31V. Wheel bearing lock nut torque differs between front and rear."
+}

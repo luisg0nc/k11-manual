@@ -1,0 +1,113 @@
+{
+  "page_code": "GI-3004",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION - Model Variation",
+  "page_type": "spec_table",
+  "source_image": "page_gi3004.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Prefix and suffix designation diagram showing breakdown of model code E AN A R D F K11 E F A with annotations for each character position",
+      "bbox_percent": [
+        5,
+        35,
+        95,
+        75
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation"
+    },
+    {
+      "block_type": "table",
+      "title": "Model Variation Table",
+      "columns": [
+        {
+          "key": "body",
+          "label": "Body"
+        },
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "transaxle",
+          "label": "Transaxle"
+        },
+        {
+          "key": "grade",
+          "label": "Grade"
+        },
+        {
+          "key": "destination_australia",
+          "label": "Australia"
+        }
+      ],
+      "rows": [
+        {
+          "body": "3-door hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A",
+          "grade": "L *1",
+          "destination_australia": "EANARBF - EMA"
+        },
+        {
+          "body": "3-door hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A",
+          "grade": "SUPER S",
+          "destination_australia": "EANARTF - EMA"
+        },
+        {
+          "body": "5-door hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A",
+          "grade": "LX *2",
+          "destination_australia": "FANARDF - EMA"
+        },
+        {
+          "body": "5-door hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RE0F05A",
+          "grade": "",
+          "destination_australia": "FANARDZ - EMA"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*1 Badged LX\n*2 Badged SLX",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Prefix and suffix designations:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Model code example: E AN A R D F K11 E F A\n\nE  : 3-door Hatchback\nF  : 5-door Hatchback\n\nAN : CG13DE\n\nA  : 2-wheel drive\n\nR  : Right-hand drive\n\nB  : L grade\nD  : LX grade\nF  : SLX grade\nT  : SUPER S grade\n\nF  : 5-speed manual transaxle\nZ  : N-CVT\n\nE  : E.G.I.\n\nM  : For Australia\n\nA  : Standard equipment",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Right-hand drive only (R in model code). 3-door and 5-door hatchback variants. Transaxle options: RS5F30A (5-speed manual) or RE0F05A (N-CVT). Market: Australia (EMA suffix). Grades: L (Badged LX), SUPER S, LX (Badged SLX)."
+}

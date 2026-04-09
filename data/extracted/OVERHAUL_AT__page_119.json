@@ -1,0 +1,157 @@
+{
+  "page_code": "AT-119",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-119.jpg",
+  "continuation": {
+    "continues_from": "AT-118",
+    "continues_to": "AT-120"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT254",
+      "type": "component_photo",
+      "description": "Engine brake pipe firmly fixed into the side casing",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        22
+      ],
+      "associated_step": "brake_pipe_check"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT255",
+      "type": "component_photo",
+      "description": "Brake valve pipe with securing bolts being tightened",
+      "bbox_percent": [
+        0,
+        23,
+        42,
+        43
+      ],
+      "associated_step": "25"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT256",
+      "type": "component_photo",
+      "description": "Shift cam and park rod positioned into the casing",
+      "bbox_percent": [
+        0,
+        44,
+        42,
+        63
+      ],
+      "associated_step": "26"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT257",
+      "type": "component_photo",
+      "description": "Fork pin positioned into the shift cam, park rod into guide",
+      "bbox_percent": [
+        0,
+        63,
+        42,
+        82
+      ],
+      "associated_step": "27"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT258",
+      "type": "component_photo",
+      "description": "Shift arm inserted through casing and shift cam, retaining pin being fitted",
+      "bbox_percent": [
+        0,
+        82,
+        42,
+        100
+      ],
+      "associated_step": "28"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure the brake pipe is firmly fixed into the side casing.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 25,
+          "text": "Fit and tighten the securing bolts. Torque = 3 - 4 N\u00b7m (0.31 - 0.41 kg-m, 2 - 3 ft-lb)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 26,
+          "text": "Position the park rod and shift cam into the casing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Position the shift fork pin into the cam, and the park rod into the guide.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Insert the shift arm through the casing and shift cam. Fit the retaining pin.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Securing bolts torque (step 25)",
+          "value": "3 - 4",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Securing bolts torque (step 25)",
+          "value": "0.31 - 0.41",
+          "unit": "kg-m",
+          "condition": ""
+        },
+        {
+          "label": "Securing bolts torque (step 25)",
+          "value": "2 - 3",
+          "unit": "ft-lb",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transmission assembly procedure"
+}

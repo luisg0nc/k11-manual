@@ -1,0 +1,359 @@
+{
+  "page_code": "AT-16",
+  "section": "AT",
+  "title": "OPERATION - HYDRAULIC SYSTEM",
+  "page_type": "prose_procedure",
+  "source_image": "AT-16.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT023",
+      "type": "wiring_schematic",
+      "description": "Hydraulic system block diagram showing oil pump, control valves, pulleys, and circuit legend",
+      "bbox_percent": [
+        2,
+        32,
+        98,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "HYDRAULIC SYSTEM"
+    },
+    {
+      "block_type": "prose",
+      "text": "The hydraulic system basically consists of:",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "hydraulic_system_components",
+      "title": "Hydraulic System Components",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Oil pump driven by the engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Hydraulic control valve to control oil pressure and speed change.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Input signals relating to accelerator position, pulley ratio and engine speed.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Shift lock safety mechanism.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Oil cooler.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "1. Oil pump."
+    },
+    {
+      "block_type": "prose",
+      "text": "The oil pump is driven by the engine via a shaft passing through the primary pulley. The pump is of the external gear type. As well as providing line pressure to operate the control valve, the pump also lubricates the drive belt by spraying oil (at high pressure) directly on to it. The pulley ratio sensor is also lubricated in the same manner.",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Hydraulic System Block Diagram",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "OIL PUMP"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "PRESSURE REGULATOR VALVE"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "LINE PRESSURE SELECT SOLENOID VALVE"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "SHIFT CONTROL VALVE"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "SHIFT LOCK VALVE"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "SHIFT LOCK PLUNGER"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "ENGINE BRAKE VALVE"
+        },
+        {
+          "id": "n8",
+          "type": "action",
+          "text": "PITOT PIPE"
+        },
+        {
+          "id": "n9",
+          "type": "action",
+          "text": "PITOT SUPPLY"
+        },
+        {
+          "id": "n10",
+          "type": "action",
+          "text": "LUBE OIL PRESSURE VALVE"
+        },
+        {
+          "id": "n11",
+          "type": "action",
+          "text": "OIL COOLER CHECK VALVE"
+        },
+        {
+          "id": "n12",
+          "type": "action",
+          "text": "SECONDARY PULLEY"
+        },
+        {
+          "id": "n13",
+          "type": "action",
+          "text": "PRIMARY PULLEY"
+        },
+        {
+          "id": "n14",
+          "type": "action",
+          "text": "LUBRICATION OF VARIOUS PARTS"
+        },
+        {
+          "id": "n15",
+          "type": "action",
+          "text": "OIL COOLER"
+        },
+        {
+          "id": "n16",
+          "type": "start",
+          "text": "ECU"
+        },
+        {
+          "id": "n17",
+          "type": "start",
+          "text": "INPUT SIGNAL LINE"
+        },
+        {
+          "id": "n18",
+          "type": "start",
+          "text": "PULLEY RATIO"
+        },
+        {
+          "id": "n19",
+          "type": "start",
+          "text": "THROTTLE POSITION"
+        },
+        {
+          "id": "n20",
+          "type": "start",
+          "text": "SELECT LEVER"
+        },
+        {
+          "id": "n21",
+          "type": "start",
+          "text": "INPUT SHAFT RPM"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n2",
+          "to": "n12",
+          "label": "oil pressure to secondary pulley"
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n3",
+          "to": "n2",
+          "label": "control signal"
+        },
+        {
+          "from": "n16",
+          "to": "n3",
+          "label": "electrical signal"
+        },
+        {
+          "from": "n4",
+          "to": "n13",
+          "label": "oil pressure to primary pulley"
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "mechanical control"
+        },
+        {
+          "from": "n7",
+          "to": "n4",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n8",
+          "to": "n9",
+          "label": "pitot supply"
+        },
+        {
+          "from": "n9",
+          "to": "n7",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n9",
+          "to": "n2",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n10",
+          "to": "n14",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n11",
+          "to": "n15",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n2",
+          "to": "n10",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n2",
+          "to": "n11",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n15",
+          "to": "n14",
+          "label": "oil pressure"
+        },
+        {
+          "from": "n18",
+          "to": "n2",
+          "label": "input signal"
+        },
+        {
+          "from": "n19",
+          "to": "n4",
+          "label": "input signal"
+        },
+        {
+          "from": "n20",
+          "to": "n7",
+          "label": "mechanical control"
+        },
+        {
+          "from": "n21",
+          "to": "n8",
+          "label": "input signal"
+        },
+        {
+          "from": "n16",
+          "to": "n4",
+          "label": "electrical signal"
+        },
+        {
+          "from": "n17",
+          "to": "n18",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Diagram Legend",
+      "columns": [
+        {
+          "key": "symbol",
+          "label": "Symbol"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "symbol": "CONTROL VALVE [dashed box]",
+          "meaning": "Control Valve"
+        },
+        {
+          "symbol": "MECHANICAL CONTROL (solid arrow)",
+          "meaning": "Mechanical Control"
+        },
+        {
+          "symbol": "OIL PRESSURE CIRCUIT (double arrow)",
+          "meaning": "Oil Pressure Circuit"
+        },
+        {
+          "symbol": "ELECTRICAL CIRCUIT (dashed arrow)",
+          "meaning": "Electrical Circuit"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applicable to CVT (Continuously Variable Transmission) automatic transmission variant of K11 Nissan Micra."
+}

@@ -1,0 +1,227 @@
+{
+  "page_code": "EM-7024",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Inspection and Adjustment",
+  "page_type": "spec_table",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM188",
+      "type": "parts_diagram",
+      "description": "Valve diagram showing margin thickness T, face angle alpha, head diameter D, stem diameter d, and valve length L",
+      "bbox_percent": [
+        35,
+        5,
+        95,
+        30
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ENGINE COMPRESSION PRESSURE"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Unit",
+          "value": "kPa (bar, kg/cm\u00b2, psi)/350 rpm",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Engine model",
+          "value": "CG10DE, CGA3DE",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Standard",
+          "value": "1323 (13.2, 13.5, 192)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)",
+          "condition": "350 rpm"
+        },
+        {
+          "label": "Minimum",
+          "value": "1127 (11.34, 11.5, 164)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)",
+          "condition": "350 rpm"
+        },
+        {
+          "label": "Difference limit between cylinders",
+          "value": "98 (0.98, 1.0, 14)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "table",
+      "title": "Cylinder Head Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "engine_model",
+          "label": "Engine Model"
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "limit",
+          "label": "Limit"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Head surface flatness",
+          "engine_model": "CG10DE, CGA3DE",
+          "standard": "0.03 (0.0118)",
+          "limit": "0.1 (0.0039)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "position",
+          "label": "Position"
+        },
+        {
+          "key": "value",
+          "label": "CG10DE, CGA3DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Valve head diameter \"D\" mm (in)",
+          "position": "Intake",
+          "value": "27.40 - 27.60 (1.0787 - 1.0866)"
+        },
+        {
+          "parameter": "Valve head diameter \"D\" mm (in)",
+          "position": "Exhaust",
+          "value": "22.40 - 22.60 (0.8819 - 0.8898)"
+        },
+        {
+          "parameter": "Valve length \"L\" mm (in)",
+          "position": "Intake",
+          "value": "95.50 - 96.00 (3.7598 - 3.7795)"
+        },
+        {
+          "parameter": "Valve length \"L\" mm (in)",
+          "position": "Exhaust",
+          "value": "95.57 - 96.07 (3.7626 - 3.7823)"
+        },
+        {
+          "parameter": "Valve stem diameter \"d\" mm (in)",
+          "position": "Intake",
+          "value": "5.465 - 5.480 (0.2154 - 0.2157)"
+        },
+        {
+          "parameter": "Valve stem diameter \"d\" mm (in)",
+          "position": "Exhaust",
+          "value": "5.445 - 5.460 (0.2144 - 0.2150)"
+        },
+        {
+          "parameter": "Valve face angle \"\u03b1\"",
+          "position": "degree",
+          "value": "45\u00b015' - 45\u00b045'"
+        },
+        {
+          "parameter": "Valve margin \"T\" limit mm (in)",
+          "position": "",
+          "value": "0.6 (0.0236)"
+        },
+        {
+          "parameter": "Valve stem end surface grinding limit mm (in)",
+          "position": "",
+          "value": "Less than 0.2 (0.008)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve clearance"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Clearance Specifications",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "key": "unit",
+          "label": "Unit"
+        },
+        {
+          "key": "value",
+          "label": "CG10DE, CGA3DE"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Intake",
+          "unit": "mm (in)",
+          "value": "0.32 - 0.40 (0.0126 - 0.0157)"
+        },
+        {
+          "type": "Exhaust",
+          "unit": "mm (in)",
+          "value": "0.36 - 0.44 (0.0142 - 0.0173)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Valve clearances must always be checked when the engine is at normal operating temperature.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Specifications apply to engine models CG10DE and CGA3DE."
+}

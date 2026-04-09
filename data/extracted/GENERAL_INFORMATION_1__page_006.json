@@ -1,0 +1,123 @@
+{
+  "page_code": "GI-2",
+  "section": "GI",
+  "title": "PRECAUTIONS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi2.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI285",
+      "type": "vehicle_diagram",
+      "description": "Illustration of a car with exhaust fumes and ventilation warning",
+      "bbox_percent": [
+        2,
+        10,
+        38,
+        28
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SGI231",
+      "type": "vehicle_diagram",
+      "description": "Illustration of a person jacking up a vehicle with safety stands",
+      "bbox_percent": [
+        2,
+        29,
+        38,
+        48
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SGI232",
+      "type": "component_photo",
+      "description": "Illustration of a battery with ground cable being disconnected",
+      "bbox_percent": [
+        2,
+        49,
+        38,
+        66
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SGI233",
+      "type": "vehicle_diagram",
+      "description": "Illustration warning about hot engine parts and burns",
+      "bbox_percent": [
+        2,
+        67,
+        38,
+        84
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "prose",
+      "text": "Observe the following precautions to ensure safe and proper servicing. These precautions are not described in each individual section.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "precautions",
+      "title": "General Precautions",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Do not operate the engine for an extended period of time without proper exhaust ventilation. Keep the work area well ventilated and free of any inflammable materials. Special care should be taken when handling any inflammable or poisonous materials, such as gasoline, refrigerant gas, etc. When working in a pit or other enclosed area, be sure to properly ventilate the area before working with hazardous materials. Do not smoke while working on the vehicle.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Before jacking up the vehicle, apply wheel chocks or other tire blocks to the wheels to prevent the vehicle from moving. After jacking up the vehicle, support the vehicle weight with safety stands at the points designated for proper lifting before working on the vehicle. These operations should be done on a level surface.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "When removing a heavy component such as the engine or transaxle/transmission, be careful not to lose your balance and drop them. Also, do not allow them to strike adjacent parts, especially the brake tubes and master cylinder.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Before starting repairs which do not require battery power, always turn off the ignition switch, then disconnect the ground cable from the battery to prevent accidental short circuit.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "To prevent serious burns, avoid contact with hot metal parts such as the radiator, exhaust manifold, tail pipe and muffler. Do not remove the radiator cap when the engine is hot.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

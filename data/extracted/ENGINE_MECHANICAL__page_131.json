@@ -1,0 +1,284 @@
+{
+  "page_code": "EM-4002",
+  "section": "EM",
+  "title": "OUTER COMPONENT PARTS \u2014 Air Cleaner",
+  "page_type": "parts_diagram",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM114",
+      "type": "parts_diagram",
+      "description": "Exploded view of Air Cleaner assembly for models with manual transmission, showing cover, metal plate, filter, air cleaner body, hose, insulator, rocker cover, resonator, PCV-filter, airduct, and associated torque values.",
+      "bbox_percent": [
+        0,
+        4,
+        100,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM114",
+      "type": "parts_diagram",
+      "description": "Exploded view of Air Cleaner assembly for models with automatic transmission (N-CVT), showing cover, metal plate, filter, air cleaner body, hose, insulator, rocker cover, resonator, PCV-filter, airduct, and associated torque values.",
+      "bbox_percent": [
+        0,
+        52,
+        100,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Air Cleaner"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Models with manual transmission"
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTES:\n\u2022 Lubricate inner surface of insulator with water to ease fitting\n\u2022 Ensure insulator is correctly located on flange",
+      "style": "note"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Cover",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Metal plate",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Filter",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Air cleaner body",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Insulator",
+          "note": "See note"
+        },
+        {
+          "number": 7,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Resonator",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "PCV-filter",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Airduct",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Hose",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Hose clamp torque (air cleaner body side)",
+          "value": "2.9 - 3.9",
+          "unit": "N\u00b7m",
+          "condition": "Manual transmission model"
+        },
+        {
+          "label": "Hose clamp torque (air cleaner body side)",
+          "value": "0.30 - 0.40",
+          "unit": "kg\u00b7m",
+          "condition": "Manual transmission model"
+        },
+        {
+          "label": "Hose clamp torque (air cleaner body side)",
+          "value": "2.2 - 2.9",
+          "unit": "ft\u00b7lb",
+          "condition": "Manual transmission model"
+        },
+        {
+          "label": "Airduct/resonator/PCV-filter fastener torque",
+          "value": "3.7 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": "Manual transmission model"
+        },
+        {
+          "label": "Airduct/resonator/PCV-filter fastener torque",
+          "value": "0.38 - 0.51",
+          "unit": "kg\u00b7m",
+          "condition": "Manual transmission model"
+        },
+        {
+          "label": "Airduct/resonator/PCV-filter fastener torque",
+          "value": "2.7 - 3.7",
+          "unit": "ft\u00b7lb",
+          "condition": "Manual transmission model"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Models with automatic transmission (N\u00b7CVT)"
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTES:\n\u2022 Lubricate inner surface of insulator with water to ease fitting\n\u2022 Ensure insulator is correctly located on flange",
+      "style": "note"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig2",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Cover",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Metal plate",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Filter",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Air cleaner body",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Insulator",
+          "note": "See note"
+        },
+        {
+          "number": 7,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Resonator",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "PCV-filter",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Airduct",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Hose",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Hose clamp torque (air cleaner body side)",
+          "value": "2.9 - 3.9",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT model"
+        },
+        {
+          "label": "Hose clamp torque (air cleaner body side)",
+          "value": "0.30 - 0.40",
+          "unit": "kg\u00b7m",
+          "condition": "N-CVT model"
+        },
+        {
+          "label": "Hose clamp torque (air cleaner body side)",
+          "value": "2.2 - 2.9",
+          "unit": "ft\u00b7lb",
+          "condition": "N-CVT model"
+        },
+        {
+          "label": "Airduct/resonator/PCV-filter fastener torque",
+          "value": "3.7 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT model"
+        },
+        {
+          "label": "Airduct/resonator/PCV-filter fastener torque",
+          "value": "0.38 - 0.51",
+          "unit": "kg\u00b7m",
+          "condition": "N-CVT model"
+        },
+        {
+          "label": "Airduct/resonator/PCV-filter fastener torque",
+          "value": "2.7 - 3.7",
+          "unit": "ft\u00b7lb",
+          "condition": "N-CVT model"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Torque symbol: N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Page is divided into two sections: upper section covers models with manual transmission, lower section covers models with automatic transmission (N\u00b7CVT). Torque specifications are identical for both variants."
+}

@@ -1,0 +1,240 @@
+{
+  "page_code": "EM-7010",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": "EM-7009",
+    "continues_to": "EM-7011"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM045",
+      "type": "parts_diagram",
+      "description": "Upper and lower timing chain mating mark alignment diagram showing mating marks (silver, bronze, yellow) and link counts (5 links, 7 links, 11 links) for idler sprocket and timing chains",
+      "bbox_percent": [
+        0,
+        1,
+        45,
+        28
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM054",
+      "type": "parts_diagram",
+      "description": "Idler shaft installation showing dowel and idler shaft location, illustrating correct shaft positioning",
+      "bbox_percent": [
+        0,
+        28,
+        45,
+        48
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM047",
+      "type": "parts_diagram",
+      "description": "Camshaft sprocket and upper timing chain mating mark alignment diagram showing mating marks (silver, bronze) and link counts (5 links, 7 links, 11 links)",
+      "bbox_percent": [
+        0,
+        48,
+        45,
+        68
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM128D",
+      "type": "parts_diagram",
+      "description": "Camshaft alignment diagram showing knock pin positions on both camshafts to verify correct camshaft alignment during sprocket bolt installation",
+      "bbox_percent": [
+        0,
+        68,
+        45,
+        88
+      ],
+      "associated_step": "15"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 11,
+          "text": "Set idler sprocket by aligning the mating mark on the larger sprocket with the yellow mating mark on the lower timing chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Install upper timing chain and set it by aligning the mating mark on the smaller sprocket with the silver mating marks on the upper timing chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Make sure sprocket's mating mark faces engine front."
+          ]
+        },
+        {
+          "step": 13,
+          "text": "Install idler sprocket shaft from the rear side.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Ensure that the shaft is located correctly, as shown."
+          ]
+        },
+        {
+          "step": 14,
+          "text": "Assemble camshaft sprocket with chain.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Set timing chain by aligning mating marks with those of camshaft sprockets.",
+            "Make sure sprocket's mating marks face engine front."
+          ]
+        },
+        {
+          "step": 15,
+          "text": "Install camshaft sprocket bolts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Make sure camshafts are aligned as shown in figure."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Lower and upper timing chain mating mark positions",
+      "callouts": [
+        {
+          "label": "Mating mark (silver) \u2014 upper left sprocket",
+          "position": "upper left"
+        },
+        {
+          "label": "5 links",
+          "position": "upper area between sprockets"
+        },
+        {
+          "label": "7 links",
+          "position": "right area between sprockets"
+        },
+        {
+          "label": "11 links",
+          "position": "left area between sprockets"
+        },
+        {
+          "label": "Mating mark (bronze)",
+          "position": "right sprocket"
+        },
+        {
+          "label": "Mating mark (yellow)",
+          "position": "lower chain, idler sprocket"
+        },
+        {
+          "label": "Lower timing chain",
+          "position": "lower"
+        },
+        {
+          "label": "Upper timing chain",
+          "position": "left lower"
+        },
+        {
+          "label": "Mating mark (bronze)",
+          "position": "lower left sprocket"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Idler shaft and dowel correct installation position",
+      "callouts": [
+        {
+          "label": "Dowel",
+          "position": "upper area"
+        },
+        {
+          "label": "Idler shaft",
+          "position": "right area"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Camshaft sprocket upper timing chain mating mark positions",
+      "callouts": [
+        {
+          "label": "Mating mark (silver) \u2014 left",
+          "position": "upper left"
+        },
+        {
+          "label": "5 links",
+          "position": "upper area"
+        },
+        {
+          "label": "7 links",
+          "position": "right area"
+        },
+        {
+          "label": "11 links",
+          "position": "left area"
+        },
+        {
+          "label": "Mating mark (silver) \u2014 right",
+          "position": "right sprocket"
+        },
+        {
+          "label": "Mating mark (bronze)",
+          "position": "lower right"
+        },
+        {
+          "label": "Mating mark",
+          "position": "lower left sprocket"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "Camshaft knock pin alignment positions for correct camshaft installation",
+      "callouts": [
+        {
+          "label": "Knock pin",
+          "position": "upper right camshaft"
+        },
+        {
+          "label": "Knock pin",
+          "position": "lower left camshaft"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

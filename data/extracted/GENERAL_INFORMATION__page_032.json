@@ -1,0 +1,77 @@
+{
+  "page_code": "GI-26",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi26.jpg",
+  "continuation": {
+    "continues_from": "GI-25",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UGI010",
+      "type": "vehicle_diagram",
+      "description": "Two diagrams showing towing hook locations on the Nissan Micra K11. Top diagram shows Super S model front bumper with towing hook behind a cover. Bottom diagram shows standard model rear bumper with exposed towing hook.",
+      "bbox_percent": [
+        2,
+        5,
+        40,
+        58
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Tow Truck Towing (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TOWING POINT"
+    },
+    {
+      "block_type": "prose",
+      "text": "Always pull the cable straight out from the vehicle. Never pull on the hook at a sideways angle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Towing hook locations for Super S model (front, behind cover) and standard model (rear, exposed)",
+      "callouts": [
+        {
+          "label": "Super S model",
+          "position": "top-left of figure"
+        },
+        {
+          "label": "Towing hook",
+          "position": "front bumper area, Super S model"
+        },
+        {
+          "label": "Cover",
+          "position": "over towing hook, Super S model front bumper"
+        },
+        {
+          "label": "Towing hook",
+          "position": "rear bumper area, standard model"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-25"
+  ],
+  "model_notes": "Super S model has towing hook behind a cover on front bumper. Standard model has exposed towing hook on rear bumper."
+}

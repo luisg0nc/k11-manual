@@ -1,0 +1,200 @@
+{
+  "page_code": "EM-5004",
+  "section": "EM",
+  "title": "PREPARATION \u2014 Special Service Tools (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "19601000",
+      "type": "tool_illustration",
+      "description": "Compression gauge set (ED19601000) in carrying case",
+      "bbox_percent": [
+        10,
+        8,
+        55,
+        20
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "WS39930000",
+      "type": "tool_illustration",
+      "description": "Liquid gasket tube applicator gun (WS39930000*)",
+      "bbox_percent": [
+        10,
+        22,
+        55,
+        33
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NT030",
+      "type": "tool_illustration",
+      "description": "Piston ring expander tool in use",
+      "bbox_percent": [
+        10,
+        36,
+        55,
+        46
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NMA089",
+      "type": "tool_illustration",
+      "description": "Belt tension gauge (KV109B0030) \u2014 electronic type with display",
+      "bbox_percent": [
+        10,
+        50,
+        55,
+        64
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "109B0040",
+      "type": "tool_illustration",
+      "description": "Compression gauge adaptor (KV109B0040)",
+      "bbox_percent": [
+        10,
+        66,
+        55,
+        75
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": "109B0050",
+      "type": "tool_illustration",
+      "description": "Master piston (KV109B0050) \u2014 cylindrical block shape",
+      "bbox_percent": [
+        10,
+        78,
+        55,
+        90
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Special Service Tools (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools \u2014 VJZ Engine Application",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "engine_vjz",
+          "label": "Engine application \u2014 VJZ"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "ED19601000",
+          "tool_name": "Compression gauge",
+          "description": "Checking compression pressure",
+          "engine_vjz": "X",
+          "figure_ref": "fig1"
+        },
+        {
+          "tool_number": "WS39930000*",
+          "tool_name": "",
+          "description": "Pressing the tube of liquid gasket",
+          "engine_vjz": "X",
+          "figure_ref": "fig2"
+        },
+        {
+          "tool_number": "",
+          "tool_name": "Piston ring expander",
+          "description": "Removing and installing piston ring",
+          "engine_vjz": "X",
+          "figure_ref": "fig3"
+        },
+        {
+          "tool_number": "KV109B0030",
+          "tool_name": "Belt tension gauge",
+          "description": "Measuring belt tension",
+          "engine_vjz": "X",
+          "figure_ref": "fig4"
+        },
+        {
+          "tool_number": "KV109B0040",
+          "tool_name": "Compression gauge adaptor",
+          "description": "Measuring compression pressure",
+          "engine_vjz": "X",
+          "figure_ref": "fig5"
+        },
+        {
+          "tool_number": "KV109B0050",
+          "tool_name": "Master piston",
+          "description": "Measuring piston height",
+          "engine_vjz": "X",
+          "figure_ref": "fig6"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "ED19601000",
+      "name": "Compression gauge",
+      "usage": "Checking compression pressure"
+    },
+    {
+      "part_number": "WS39930000*",
+      "name": "Liquid gasket applicator gun",
+      "usage": "Pressing the tube of liquid gasket"
+    },
+    {
+      "part_number": "",
+      "name": "Piston ring expander",
+      "usage": "Removing and installing piston ring"
+    },
+    {
+      "part_number": "KV109B0030",
+      "name": "Belt tension gauge",
+      "usage": "Measuring belt tension"
+    },
+    {
+      "part_number": "KV109B0040",
+      "name": "Compression gauge adaptor",
+      "usage": "Measuring compression pressure"
+    },
+    {
+      "part_number": "KV109B0050",
+      "name": "Master piston",
+      "usage": "Measuring piston height"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "All tools listed apply to VJZ engine only, as indicated by X in VJZ column."
+}

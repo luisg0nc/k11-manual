@@ -1,0 +1,184 @@
+{
+  "page_code": "EM-46",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Disassembly (Cont'd) / Inspection",
+  "page_type": "prose_procedure",
+  "source_image": "EM-46.jpg",
+  "continuation": {
+    "continues_from": "EM-45",
+    "continues_to": "EM-47"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM081",
+      "type": "tool_illustration",
+      "description": "Piston pin press stand with tools KV10116610, KV10116620, and ST13040000 used for disassembling piston and connecting rod",
+      "bbox_percent": [
+        2,
+        2,
+        42,
+        18
+      ],
+      "associated_step": "piston_pin_disassembly"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM082",
+      "type": "parts_diagram",
+      "description": "Main bearing beam bolt loosening sequence diagram showing numbered bolt order",
+      "bbox_percent": [
+        2,
+        19,
+        42,
+        35
+      ],
+      "associated_step": "step8"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM083",
+      "type": "component_photo",
+      "description": "Crankcase breather bracket location on cylinder block",
+      "bbox_percent": [
+        2,
+        36,
+        42,
+        52
+      ],
+      "associated_step": "step9"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM084",
+      "type": "component_photo",
+      "description": "Filter mesh removed from crankcase breather bracket",
+      "bbox_percent": [
+        2,
+        52,
+        42,
+        68
+      ],
+      "associated_step": "step9"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM149B",
+      "type": "tool_illustration",
+      "description": "Measuring inner diameter of piston pin hole with dial bore gauge",
+      "bbox_percent": [
+        2,
+        69,
+        42,
+        88
+      ],
+      "associated_step": "inspection_step1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_contd",
+      "title": "Disassembly (Cont'd)",
+      "steps": [
+        {
+          "step": null,
+          "text": "When disassembling piston and connecting rod, use piston pin press stand at room temperature.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove main bearing beam and crankshaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Before removing main bearing beam, measure crankshaft end play (see crankshaft assembly section).",
+            "Bolts should be loosened in two or three stages and in the order shown."
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Remove the crankcase breather bracket. Remove the filter mesh. Clean filter before refitting.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON AND PISTON PIN CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_pin_clearance_inspection",
+      "title": "Piston and Piston Pin Clearance",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure inner diameter of piston pin hole.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Piston pin hole inner diameter (Standard) - CG10DE",
+          "value": "18.013 - 18.022",
+          "unit": "mm (0.7092 - 0.7095 in)",
+          "condition": "Standard diameter"
+        },
+        {
+          "label": "Piston pin hole inner diameter (Standard) - CG13DE",
+          "value": "18.003 - 18.012",
+          "unit": "mm (0.7088 - 0.7091 in)",
+          "condition": "Standard diameter"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10116610",
+      "name": "Piston pin press stand component",
+      "usage": "Disassembling piston and connecting rod at room temperature"
+    },
+    {
+      "part_number": "KV10116620",
+      "name": "Piston pin press stand component",
+      "usage": "Disassembling piston and connecting rod at room temperature"
+    },
+    {
+      "part_number": "ST13040000",
+      "name": "Piston pin press stand component",
+      "usage": "Disassembling piston and connecting rod at room temperature"
+    }
+  ],
+  "cross_references": [
+    "crankshaft assembly section"
+  ],
+  "model_notes": "Specifications differ between CG10DE and CG13DE engines."
+}

@@ -1,0 +1,152 @@
+{
+  "page_code": "AT-7",
+  "section": "AT",
+  "title": "FUNCTION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-7.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-8"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT010",
+      "type": "component_photo",
+      "description": "Electromagnetic Powder Clutch cross-section diagram showing Drive member, Coil, Driven member, Metal powder, and Current input on left; schematic diagrams on right showing engaged (with Coil, Magnetic field, Drive member, Powder, Driven member) and disengaged states",
+      "bbox_percent": [
+        2,
+        48,
+        98,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SYSTEM CONSTRUCTION"
+    },
+    {
+      "block_type": "prose",
+      "text": "The N\u00b7CVT consists of four main systems:",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "system_construction_list",
+      "title": "N\u00b7CVT Main Systems",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Electromagnetic Powder Clutch (including ECU control circuitry).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Forward and reverse synchromesh changeover system.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Steel belt and pulleys.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Final drive reduction gears.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "1. Electromagnetic Powder Clutch."
+    },
+    {
+      "block_type": "prose",
+      "text": "The electromagnetic powder clutch operates on basic principles of physics \u2013 electricity and magnetism. When iron powder is magnetised, the particles become linked in chain fashion, and the powder, put simply, \"solidifies\". If a small gap between driving and driven members is filled with powder, and current applied to it, then the members become connected and transmission torque (drive) is generated. The transmission torque is proportional to the amount of current supplied.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Current is supplied via coils located in the driven member. When the current flow is cut off, the transmission torque disappears.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Electromagnetic Powder Clutch cross-section and operating principle diagrams",
+      "callouts": [
+        {
+          "label": "Drive member",
+          "position": "top-left of cross-section"
+        },
+        {
+          "label": "Coil",
+          "position": "left of cross-section"
+        },
+        {
+          "label": "Driven member",
+          "position": "left-middle of cross-section"
+        },
+        {
+          "label": "Metal powder",
+          "position": "centre-bottom of cross-section"
+        },
+        {
+          "label": "Current",
+          "position": "bottom-left of cross-section"
+        },
+        {
+          "label": "Coil",
+          "position": "top of engaged schematic"
+        },
+        {
+          "label": "Magnetic field",
+          "position": "top-right of engaged schematic"
+        },
+        {
+          "label": "Drive member",
+          "position": "middle of engaged schematic"
+        },
+        {
+          "label": "Powder",
+          "position": "bottom-centre of engaged schematic"
+        },
+        {
+          "label": "Driven member",
+          "position": "bottom-right of engaged schematic"
+        },
+        {
+          "label": "engaged",
+          "position": "bottom-left of schematic area"
+        },
+        {
+          "label": "disengaged",
+          "position": "bottom-right of schematic area"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to N\u00b7CVT (automatic transmission variant) of K11 Nissan Micra 1993-2003."
+}

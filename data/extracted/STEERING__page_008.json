@@ -1,0 +1,144 @@
+{
+  "page_code": "ST-7",
+  "section": "ST",
+  "title": "ON-VEHICLE INSPECTION \u2014 Power steering (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": "ST-6",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST015",
+      "type": "component_photo",
+      "description": "Engine bay view showing power steering components: Reservoir, Pressure Switch, Pump, and Steering Rack",
+      "bbox_percent": [
+        0,
+        0,
+        55,
+        30
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Power steering system components in engine bay",
+      "callouts": [
+        {
+          "label": "Reservoir",
+          "position": "upper left"
+        },
+        {
+          "label": "Pressure Switch",
+          "position": "upper right"
+        },
+        {
+          "label": "Pump",
+          "position": "centre"
+        },
+        {
+          "label": "Steering Rack",
+          "position": "lower right"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Fluid Leakage"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check all hoses for damage, cracks and deterioration. Check clamps, union bolts and fixings for improper attachment or loose connection.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_fluid_leakage",
+      "title": "Checking Fluid Leakage",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Run engine at idle speed until temperature of fluid in oil reservoir rises to 60 to 80\u00b0C (140 to 176\u00b0 F).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Turn steering wheel fully clockwise and anti-clockwise several times.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Hold steering wheel at each \"lock\" position for five seconds and carefully check all fluid lines for signs of seepage.",
+          "figure_ref": null,
+          "warnings": [
+            "CAUTION: Do not hold the steering wheel in a locked position for more than 15 seconds at a time."
+          ],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "If fluid seepage at connectors is evident, check attachment is correct and free from contamination; loosen flare nut and retighten.",
+          "figure_ref": null,
+          "warnings": [
+            "Do not overtighten connector as this can damage O-ring, washer and connector."
+          ],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "If fluid seepage is evident from cracks or cuts in the hoses or fluid lines; replace defective section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Bleeding Hydraulic System"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_bleeding",
+      "title": "Bleeding Hydraulic System",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Raise front end of vehicle until wheels are clear of the ground.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Fill oil reservoir with recommended fluid, and quickly turn steering wheel several times in both directions with the engine switched off. Add extra fluid if the level drops and continue operation until the fluid level settles at the correct height in the reservoir.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Start engine and run at idle speed; conduct procedure specified at step 2 above, until the fluid level settles and the bubbles in the tank disappear.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

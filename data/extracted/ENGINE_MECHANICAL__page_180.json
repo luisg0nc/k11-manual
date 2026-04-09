@@ -1,0 +1,210 @@
+{
+  "page_code": "EM-5047",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (SDS) \u2014 Inspection and Adjustment (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "page_image.png",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM320",
+      "type": "parts_diagram",
+      "description": "Valve seat cross-section diagrams for INTAKE and EXHAUST, showing dimensions D, H, d, L, K (intake) and D, H, d, N, M (exhaust), with seat angles 15\u00b0, 45\u00b0, 45\u00b0 (intake) and 10\u00b0, 45\u00b0, 45\u00b0 (exhaust)",
+      "bbox_percent": [
+        5,
+        12,
+        95,
+        55
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Valve spring"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Free height",
+          "value": "53.2 (2.09)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Pressure \u2014 N (kg, lb) at height mm (in)",
+          "value": "22.5 - 27.5 (2.30, 5.06 - 2.81, 6.18) at 40.3 (1.59)",
+          "unit": "N (kg, lb) at mm (in)",
+          "condition": "Low load"
+        },
+        {
+          "label": "Pressure \u2014 N (kg, lb) at height mm (in)",
+          "value": "450 - 550 (45.9, 101.2 - 56.1, 123.6) at 31.3 (1.23)",
+          "unit": "N (kg, lb) at mm (in)",
+          "condition": "High load"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Valve seat"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Seat Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "sub_item",
+          "label": ""
+        },
+        {
+          "key": "sub2",
+          "label": ""
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "service",
+          "label": "Service"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Cylinder head seat recess diameter (D)",
+          "sub_item": "In",
+          "sub2": "",
+          "standard": "37.475 - 37.5 (1.4754 - 1.4764)",
+          "service": "37.775 - 37.8 (1.4872 - 1.4882)"
+        },
+        {
+          "item": "Cylinder head seat recess diameter (D)",
+          "sub_item": "Ex",
+          "sub2": "",
+          "standard": "31.975 - 32.0 (1.2589 - 1.2598)",
+          "service": "32.275 - 32.3 (1.2707 - 1.2717)"
+        },
+        {
+          "item": "Valve seat interference fit",
+          "sub_item": "In",
+          "sub2": "",
+          "standard": "0.147 (0.0058)",
+          "service": ""
+        },
+        {
+          "item": "Valve seat interference fit",
+          "sub_item": "Ex",
+          "sub2": "",
+          "standard": "0.147 (0.0058)",
+          "service": ""
+        },
+        {
+          "item": "Valve seat outer diameter (d)",
+          "sub_item": "In",
+          "sub2": "",
+          "standard": "37.622 - 37.647 (1.4812 - 1.4822)",
+          "service": "37.922 - 37.947 (1.4930 - 1.4940)"
+        },
+        {
+          "item": "Valve seat outer diameter (d)",
+          "sub_item": "Ex",
+          "sub2": "",
+          "standard": "32.122 - 32.147 (1.2646 - 1.2656)",
+          "service": "32.422 - 32.447 (1.2765 - 1.2774)"
+        },
+        {
+          "item": "Depth (H)",
+          "sub_item": "In",
+          "sub2": "",
+          "standard": "7.87 - 8.117 (0.3198 - 0.3196)",
+          "service": "8.017 - 8.167 (0.3156 - 0.3215)"
+        },
+        {
+          "item": "Depth (H)",
+          "sub_item": "Ex",
+          "sub2": "",
+          "standard": "8.10 - 8.40 (0.319 - 0.331)",
+          "service": "8.30 - 8.45 (0.327 - 0.333)"
+        },
+        {
+          "item": "Contacting width",
+          "sub_item": "In",
+          "sub2": "A",
+          "standard": "0.25 - 0.45 (0.010 - 0.018)",
+          "service": ""
+        },
+        {
+          "item": "Contacting width",
+          "sub_item": "In",
+          "sub2": "B",
+          "standard": "1.45 - 1.85 (0.057 - 0.073)",
+          "service": ""
+        },
+        {
+          "item": "Contacting width",
+          "sub_item": "Ex",
+          "sub2": "A",
+          "standard": "1.0 - 1.4 (0.04 - 0.06)",
+          "service": ""
+        },
+        {
+          "item": "Contacting width",
+          "sub_item": "Ex",
+          "sub2": "B",
+          "standard": "1.0 - 1.2 (0.04 - 0.05)",
+          "service": ""
+        },
+        {
+          "item": "Machining reference",
+          "sub_item": "In",
+          "sub2": "K",
+          "standard": "2.45 - 2.65 (0.096 - 0.104)",
+          "service": ""
+        },
+        {
+          "item": "Machining reference",
+          "sub_item": "In",
+          "sub2": "L",
+          "standard": "36 (1.42)",
+          "service": ""
+        },
+        {
+          "item": "Machining reference",
+          "sub_item": "Ex",
+          "sub2": "M",
+          "standard": "3.95 - 3.15 (0.156 - 0.124)",
+          "service": ""
+        },
+        {
+          "item": "Machining reference",
+          "sub_item": "Ex",
+          "sub2": "N",
+          "standard": "29.5 (1.161)",
+          "service": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ engine. Valve seat intake angles: 15\u00b0, 45\u00b0, 45\u00b0. Exhaust angles: 10\u00b0, 45\u00b0, 45\u00b0."
+}

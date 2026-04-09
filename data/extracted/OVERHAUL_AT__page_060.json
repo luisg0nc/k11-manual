@@ -1,0 +1,129 @@
+{
+  "page_code": "AT-60",
+  "section": "AT",
+  "title": "Electromagnetic Clutch Circuit Check",
+  "page_type": "flowchart",
+  "source_image": "AT-60.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-61"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT118",
+      "type": "wiring_schematic",
+      "description": "Brush holder connector to N-CVT C/U (pins 1 and 28) wiring diagram",
+      "bbox_percent": [
+        0,
+        4,
+        35,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT119",
+      "type": "wiring_schematic",
+      "description": "Harness connector and brush holder connector measurement diagram with voltmeter (V) and ammeter (A), showing selector in N position",
+      "bbox_percent": [
+        0,
+        22,
+        35,
+        78
+      ],
+      "associated_step": "Check input signal step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electromagnetic Clutch Circuit Check"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Electromagnetic Clutch Circuit Check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check brush holder. Refer to \"On-vehicle Service\" and \"Electrical component Inspection\""
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Repair or replace brush holder"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check input signal\n1. Remove brush holder connector as shown in figure and perform following procedures:\n\u2022 Start engine and maintain idle speed\n\u2022 Pull parking brake lever and move selector to \"N\"\nCheck that voltage and current conform to following values\nCurrent: -110 mA\nVoltage: 6 to 8 V"
+        },
+        {
+          "id": "n4",
+          "type": "reference",
+          "text": "Go to section (1) on next page"
+        },
+        {
+          "id": "n5",
+          "type": "terminal",
+          "text": "Go to next page"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Current",
+          "value": "-110",
+          "unit": "mA",
+          "condition": "Engine at idle, parking brake applied, selector in N"
+        },
+        {
+          "label": "Voltage",
+          "value": "6 to 8",
+          "unit": "V",
+          "condition": "Engine at idle, parking brake applied, selector in N"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "On-vehicle Service",
+    "Electrical component Inspection",
+    "AT-61"
+  ],
+  "model_notes": "N-CVT (continuously variable transmission) application. Connector pins referenced: N-CVT C/U pins 1 and 28."
+}

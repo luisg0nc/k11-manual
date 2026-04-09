@@ -1,0 +1,215 @@
+{
+  "page_code": "AT-51",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Self-diagnosis Items (using CONSULT) (Cont'd) \u2014 Self diagnosis display chart / Data monitor chart",
+  "page_type": "spec_table",
+  "source_image": "AT-51.jpg",
+  "continuation": {
+    "continues_from": "AT-50",
+    "continues_to": "AT-52"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Self-diagnosis Items (using CONSULT) (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Self diagnosis display chart"
+    },
+    {
+      "block_type": "table",
+      "title": "Self diagnosis display chart",
+      "columns": [
+        {
+          "key": "trouble",
+          "label": "Trouble"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "remarks",
+          "label": "Remarks"
+        }
+      ],
+      "rows": [
+        {
+          "trouble": "Vehicle speed sensor",
+          "description": "Vehicle speed sensor is not input due to disconnection",
+          "remarks": ""
+        },
+        {
+          "trouble": "Range (inhibitor) switch system",
+          "description": "Two or more range switches input simultaneously due to a short-circuit in the range switch main unit or signal circuit",
+          "remarks": ""
+        },
+        {
+          "trouble": "Accelerator switch or accelerator position switch",
+          "description": "The accelerator switch and accelerator position switch interface is incorrect due to a short-circuit in the switch, a signal short-circuit or disconnection.",
+          "remarks": ""
+        },
+        {
+          "trouble": "Torque signal",
+          "description": "Torque signal is not input correctly due to signal short-circuit or disconnection",
+          "remarks": "ON/OFF signal is output from ECCS C/U when starting"
+        },
+        {
+          "trouble": "ABS operation signal",
+          "description": "The ABS signal is not input correctly due to a short-circuit in ABS operation signal system or disconnection\nRated voltage is not applied to relay due to a short in idle-up relay output circuit or disconnection",
+          "remarks": "ON/OFF signal is output from ABS C/U when starting. On models equipped with ABS, turn ignition switch \"ON\". Turn on CONSULT and touch \"START\". Start engine N-CVT warning lamp lights and self-diagnosis display indicates that the ABS operation signal path circuit is damaged. In this case however, it is not damaged."
+        },
+        {
+          "trouble": "Electro-magnetic clutch",
+          "description": "Current does not flow correctly to clutch coil due to a short circuit in the output circuit, disconnection or clutch trouble",
+          "remarks": ""
+        },
+        {
+          "trouble": "Line pressure solenoid",
+          "description": "The rated voltage is not applied to the solenoid due to short in output circuit or disconnection.",
+          "remarks": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Data monitor chart"
+    },
+    {
+      "block_type": "table",
+      "title": "Data monitor chart",
+      "columns": [
+        {
+          "key": "item",
+          "label": "ITEM"
+        },
+        {
+          "key": "unit",
+          "label": "Unit"
+        },
+        {
+          "key": "remarks",
+          "label": "REMARKS"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Vehicle speed sensor",
+          "unit": "(km/h)",
+          "remarks": ""
+        },
+        {
+          "item": "Engine rpm",
+          "unit": "(rpm)",
+          "remarks": ""
+        },
+        {
+          "item": "Clutch reference current",
+          "unit": "(A)",
+          "remarks": "0 amps is displayed in reverse magnetization mode"
+        },
+        {
+          "item": "Clutch actual current",
+          "unit": "(A)",
+          "remarks": "0 amps is displayed in reverse magnetization mode"
+        },
+        {
+          "item": "Pulley ratio",
+          "unit": "",
+          "remarks": "Signal quality is poor below 20 km/h (12 mph)"
+        },
+        {
+          "item": "Accelerator switch (ON/OFF display)",
+          "unit": "",
+          "remarks": "(Idle switch)"
+        },
+        {
+          "item": "Accelerator position switch (ON/OFF display)",
+          "unit": "",
+          "remarks": "Accelerator position: approx. 17.5 mm where wire attaches \"ON\" turns \"OFF\""
+        },
+        {
+          "item": "Air conditioner signal (ON/OFF display)",
+          "unit": "",
+          "remarks": ""
+        },
+        {
+          "item": "Stop lamp switch (ON/OFF display)",
+          "unit": "",
+          "remarks": ""
+        },
+        {
+          "item": "R range switch (ON/OFF display)",
+          "unit": "",
+          "remarks": ""
+        },
+        {
+          "item": "D range switch (ON/OFF display)",
+          "unit": "",
+          "remarks": ""
+        },
+        {
+          "item": "Ds range switch (ON/OFF display)",
+          "unit": "",
+          "remarks": ""
+        },
+        {
+          "item": "Neutral switch (ON/OFF display)",
+          "unit": "",
+          "remarks": ""
+        },
+        {
+          "item": "ABS operation signal (ON/OFF display)",
+          "unit": "",
+          "remarks": "Also displayed in models not equipped with ABS"
+        },
+        {
+          "item": "Torque signal (ON/OFF display)",
+          "unit": "",
+          "remarks": "\"OFF\" when torque is high (line pressure increases)"
+        },
+        {
+          "item": "Engine temperature signal (ON/OFF display)",
+          "unit": "",
+          "remarks": "\"ON\" at low engine temperature"
+        },
+        {
+          "item": "Idle up solenoid (ON/OFF display)",
+          "unit": "",
+          "remarks": "\"ON\" when ABS operates. (Also displayed on models not equipped with ABS)"
+        },
+        {
+          "item": "Clutch signal (ON/OFF display)",
+          "unit": "",
+          "remarks": "\"ON\" when connected"
+        },
+        {
+          "item": "Line pressure solenoid (ON/OFF display)",
+          "unit": "",
+          "remarks": "\"OFF\" when line pressure is high"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refers to \"CONSULT Operation Manual\" for further information.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "CONSULT Operation Manual"
+  ],
+  "model_notes": "ABS operation signal notes distinguish between models equipped with ABS and those not equipped with ABS. Idle up solenoid also displayed on models not equipped with ABS."
+}

@@ -1,0 +1,168 @@
+{
+  "page_code": "EM-22",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-22.jpg",
+  "continuation": {
+    "continues_from": "EM-21",
+    "continues_to": "EM-23"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM110",
+      "type": "parts_diagram",
+      "description": "Tightening torque sequence graph showing stages a through e for timing chain bolts, with torque values on Y-axis",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        20
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM126D",
+      "type": "parts_diagram",
+      "description": "Camshaft bracket bolt tightening numerical order diagram, showing distributor bracket and apply liquid gasket note",
+      "bbox_percent": [
+        0,
+        35,
+        32,
+        60
+      ],
+      "associated_step": "16"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM111",
+      "type": "parts_diagram",
+      "description": "Timing chain assembly diagram showing mating marks (silver), 10 links, 14 links, 22 links callouts and camshaft/crankshaft sprockets",
+      "bbox_percent": [
+        0,
+        63,
+        32,
+        90
+      ],
+      "associated_step": "17"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening torque N\u00b7m (kg-m, ft-lb)",
+      "columns": [
+        {
+          "key": "bolt_group",
+          "label": "Bolt Group"
+        },
+        {
+          "key": "stage_a",
+          "label": "a"
+        },
+        {
+          "key": "stage_b",
+          "label": "b"
+        },
+        {
+          "key": "stage_c",
+          "label": "c"
+        },
+        {
+          "key": "stage_d",
+          "label": "d"
+        },
+        {
+          "key": "stage_e",
+          "label": "e"
+        }
+      ],
+      "rows": [
+        {
+          "bolt_group": "Bolts (1 - 10)",
+          "stage_a": "39 (4.0, 29)",
+          "stage_b": "78 (7.9, 57)",
+          "stage_c": "0 (0,0)",
+          "stage_d": "35 (3.6, 26)",
+          "stage_e": "60 degrees"
+        },
+        {
+          "bolt_group": "Bolts (11 - 15)",
+          "stage_a": "\u2014",
+          "stage_b": "\u2014",
+          "stage_c": "\u2014",
+          "stage_d": "\u2014",
+          "stage_e": "6.3 - 8.3 (0.64 - 0.85, 4.6 - 6.1)"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 15,
+          "text": "Install idler sprocket bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Install camshaft, camshaft brackets and distributor bracket. Tighten camshaft bracket bolts gradually in three stages:\n(a) 2 N\u00b7m (0.2 kg-m, 1 ft-lb)\n(b) 5.9 N\u00b7m (0.6 kg-m, 4 ft-lb)\n(c) 9 - 12 N\u00b7m (0.9 - 1.2 kg-m, 6 - 9 ft-lb)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "If any part of valve assembly or camshaft is replaced, check valve clearance according to the reference data.",
+            "After completing assembly check valve clearance. Refer to \"Checking\" and \"Adjusting\" in \"VALVE CLEARANCE\".",
+            "Reference data for initial setting of valve clearance (Cold): Intake 0.30 mm (0.012 in), Exhaust 0.35 mm (0.014 in)"
+          ]
+        },
+        {
+          "step": 17,
+          "text": "Assemble camshaft sprocket with chain.\n- Set timing chain by aligning mating marks with those of camshaft sprockets.\n- Make sure sprocket's mating marks face engine front.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve clearance (Cold) - Intake",
+          "value": "0.30",
+          "unit": "mm (0.012 in)",
+          "condition": "Cold, initial setting reference data"
+        },
+        {
+          "label": "Valve clearance (Cold) - Exhaust",
+          "value": "0.35",
+          "unit": "mm (0.014 in)",
+          "condition": "Cold, initial setting reference data"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "VALVE CLEARANCE - Checking",
+    "VALVE CLEARANCE - Adjusting"
+  ],
+  "model_notes": null
+}

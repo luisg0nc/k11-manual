@@ -1,0 +1,212 @@
+{
+  "page_code": "EM-18",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Removal (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_EM-18.jpg",
+  "continuation": {
+    "continues_from": "EM-17",
+    "continues_to": "EM-19"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM046",
+      "type": "component_photo",
+      "description": "Thermostat housing with arrows indicating mounting bolts to remove",
+      "bbox_percent": [
+        0,
+        2,
+        45,
+        18
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM047",
+      "type": "parts_diagram",
+      "description": "Timing chain area showing chain tensioner, idler sprocket bolt, camshaft sprocket bolts, and camshaft sprockets with arrows",
+      "bbox_percent": [
+        0,
+        19,
+        45,
+        38
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM042",
+      "type": "parts_diagram",
+      "description": "Camshaft bracket removal sequence diagram with numbered bolt positions \u2014 loosen in numerical order",
+      "bbox_percent": [
+        0,
+        38,
+        45,
+        55
+      ],
+      "associated_step": "18"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM115D",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt loosening sequence diagram with numbered bolt positions \u2014 loosen in numerical order",
+      "bbox_percent": [
+        0,
+        55,
+        45,
+        72
+      ],
+      "associated_step": "20"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM048",
+      "type": "component_photo",
+      "description": "Engine front mounting bracket removal showing jack support and bracket location",
+      "bbox_percent": [
+        0,
+        72,
+        45,
+        90
+      ],
+      "associated_step": "25"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 13,
+          "text": "Remove thermostat housing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Remove chain tensioner.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Loosen idler sprocket bolt.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Remove camshaft sprocket bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Remove camshaft sprockets.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Remove camshaft brackets and camshafts.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "These parts should be reassembled in their original positions.",
+            "Bolts should be loosened in two or three steps."
+          ]
+        },
+        {
+          "step": 19,
+          "text": "Remove idler sprocket bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Remove cylinder head with manifolds.",
+          "figure_ref": "fig4",
+          "warnings": [
+            "Head warpage or cracking could result from removing bolts in incorrect order.",
+            "Cylinder head bolts should be loosened in two or three steps."
+          ],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Remove upper timing chain.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Remove oil pan. Refer to \"Removal\" in \"OIL PAN\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Remove oil strainer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Remove crankshaft pulley.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 25,
+          "text": "Support engine with a suitable jack.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 26,
+          "text": "Remove engine front mounting bracket.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Loosen in numerical order.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "OIL PAN \u2014 Removal"
+  ],
+  "model_notes": null
+}

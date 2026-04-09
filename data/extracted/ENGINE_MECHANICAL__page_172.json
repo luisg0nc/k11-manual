@@ -1,0 +1,152 @@
+{
+  "page_code": "EM-5039",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "EEM071",
+      "type": "tool_illustration",
+      "description": "Dial bore gauge being used to measure inner diameter of main bearing installed in cylinder block with bearing cap fitted",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM506A",
+      "type": "tool_illustration",
+      "description": "Micrometer being used to measure outer diameter of crankshaft main journal",
+      "bbox_percent": [
+        0,
+        22,
+        38,
+        42
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM298",
+      "type": "parts_diagram",
+      "description": "Cylinder block showing main bearing cap code identification stamp location (No.5 cap, codes A E K O U) and Main journal No.1 flywheel side orientation",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        90
+      ],
+      "associated_step": "8b"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "main_bearing_inspection",
+      "title": "Main Bearing Clearance Inspection",
+      "steps": [
+        {
+          "step": 2,
+          "text": "Install main bearing cap to cylinder block. Tighten all bolts in correct order to the specified torque.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Measure inner diameter of each main bearing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Measure outer diameter of each main journal in crankshaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Calculate main bearing clearance. Main bearing clearance = Inner dia. - Outer dia.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "If it exceeds the standard clearance, replace bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "If clearance cannot be adjusted within the standard of any bearing, grind crankshaft journal and use undersized bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "If crankshaft, cylinder block or main bearing is reused, measure main bearing clearance. If crankshaft, cylinder block and main bearings are replaced with new ones, it is necessary to select thickness of main bearings as follows:",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "a. The code of each cylinder block halfshell is always B (black).",
+            "b. The code of each main bearing cap halfshell is punched on the crankshaft and cylinder block.",
+            "c. Select main bearing with suitable thickness according to the following tables."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Main bearing clearance (Standard)",
+          "value": "0.01 - 0.036",
+          "unit": "mm",
+          "condition": "Inner dia. minus Outer dia."
+        },
+        {
+          "label": "Main bearing clearance (Standard)",
+          "value": "0.0004 - 0.0014",
+          "unit": "in",
+          "condition": "Inner dia. minus Outer dia."
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "When grinding crank pin and crank journal:\na. Grind until clearance is within specified standard bearing clearance.\nb. Refer to S.D.S. for standard bearing clearance and available spare parts.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": null
+}

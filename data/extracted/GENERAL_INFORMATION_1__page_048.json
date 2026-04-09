@@ -1,0 +1,67 @@
+{
+  "page_code": "GI-5010",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi5010.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NGI034",
+      "type": "vehicle_diagram",
+      "description": "Two diagrams showing towing hook locations: upper image shows front towing hook location on the vehicle front bumper area; lower image shows rear towing hook location on the vehicle underside/rear bumper area.",
+      "bbox_percent": [
+        2,
+        4,
+        42,
+        45
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Tow Truck Towing"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TOWING POINT"
+    },
+    {
+      "block_type": "prose",
+      "text": "Always pull the cable straight out from the vehicle. Never pull on the hook at a sideways angle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Towing hook locations on vehicle front and rear",
+      "callouts": [
+        {
+          "label": "Towing hook",
+          "position": "front bumper area"
+        },
+        {
+          "label": "Towing hook",
+          "position": "rear underside/bumper area"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

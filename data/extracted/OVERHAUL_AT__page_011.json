@@ -1,0 +1,223 @@
+{
+  "page_code": "AT-11",
+  "section": "AT",
+  "title": "FUNCTION \u2014 OUTPUT SIGNALS",
+  "page_type": "prose_procedure",
+  "source_image": "AT-11.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT014",
+      "type": "component_photo",
+      "description": "Table/chart showing electromagnetic clutch output modes based on engine revolution, selector position, accelerator state, and vehicle speed ranges (7/8, 8/12, 16/20, 18.5/22.5, 30/35 km/h). Maps five modes: (1) Starting Mode, (2) Direct-Coupling Mode, (3) Drag Mode, (4) Reverse Excitation Mode, (5) Zero Mode.",
+      "bbox_percent": [
+        5,
+        8,
+        97,
+        45
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OUTPUT SIGNALS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "A. Electromagnetic clutch control"
+    },
+    {
+      "block_type": "prose",
+      "text": "There are five output modes to ensure smooth operation of the electromagnetic clutch:",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Electromagnetic Clutch Output Modes Chart (UAT014)",
+      "columns": [
+        {
+          "key": "engine_revolution",
+          "label": "Engine Revolution"
+        },
+        {
+          "key": "selector_position",
+          "label": "Selector Position"
+        },
+        {
+          "key": "accelerator",
+          "label": "Accelerator"
+        },
+        {
+          "key": "vehicle_speed",
+          "label": "Vehicle Speed (km/h)"
+        },
+        {
+          "key": "mode",
+          "label": "Mode"
+        }
+      ],
+      "rows": [
+        {
+          "engine_revolution": "UNDER 200 RPM",
+          "selector_position": "\u2014",
+          "accelerator": "\u2014",
+          "vehicle_speed": "All ranges",
+          "mode": "(4) REVERSE EXCITATION MODE"
+        },
+        {
+          "engine_revolution": "\u2014",
+          "selector_position": "N,P RANGE",
+          "accelerator": "\u2014",
+          "vehicle_speed": "All ranges",
+          "mode": "(4) REVERSE EXCITATION MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "D RANGE",
+          "accelerator": "RELEASED",
+          "vehicle_speed": "< 7/8",
+          "mode": "(3) DRAG MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "D RANGE",
+          "accelerator": "RELEASED",
+          "vehicle_speed": "8/12 \u2013 16/20",
+          "mode": "(5) ZERO MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "D RANGE",
+          "accelerator": "RELEASED",
+          "vehicle_speed": "> 16/20",
+          "mode": "(2) DIRECT-COUPLING MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "Ds,R RANGE",
+          "accelerator": "RELEASED",
+          "vehicle_speed": "< 7/8",
+          "mode": "(3) DRAG MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "Ds,R RANGE",
+          "accelerator": "RELEASED",
+          "vehicle_speed": "> 7/8",
+          "mode": "(2) DIRECT-COUPLING MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "D RANGE",
+          "accelerator": "PRESSED",
+          "vehicle_speed": "All ranges",
+          "mode": "(1) STARTING MODE"
+        },
+        {
+          "engine_revolution": "OVER 200 RPM",
+          "selector_position": "Ds,R RANGE",
+          "accelerator": "PRESSED",
+          "vehicle_speed": "All ranges",
+          "mode": "(1) STARTING MODE"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "1. Starting mode:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Controls the clutch when pulling away by increasing current in proportion to engine speed and rate of increase of engine speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Decel/accel shock when travelling at low speed (below 20 km/h) is eliminated by delaying clutch \"engagement\" until the N\u00b7CVT input shaft speed coincides (almost) with engine speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "2. Direct coupling mode:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Directly couples the clutch when the vehicle reaches a preset speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "3. Drag mode:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Maintains good low speed (below 7 km/h) characteristics by passing a small current through the clutch (approx. 0.2A) to create a \"drag torque\" when the accelerator pedal is released. Also prevents \"creeping\" and \"stalling\" by continuously feeding idle speed signals back to the ECU.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "4. Reverse excitation mode:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Demagnetises the clutch powder (to remove residual magnetism and prevent non-releasing of the clutch) when:",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "a) The selector lever is in \"N\" or \"P\".\nb) Engine speed is 200rev/min or less. This also prevents the vehicle from being push-started.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "5. Zero mode:"
+    },
+    {
+      "block_type": "prose",
+      "text": "De-energises the clutch while the output mode is shifting from mode 2 to mode 3 as the accelerator pedal is released in \"D\", \"Ds\" or \"R\".",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "B. Line pressure solenoid control"
+    },
+    {
+      "block_type": "prose",
+      "text": "Controls line pressure solenoid to determine torque transmission.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "C. Idle-up relay control"
+    },
+    {
+      "block_type": "prose",
+      "text": "Controls idle-up relay to maintain oil pressure during ABS operation.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to N\u00b7CVT (automatic transmission variant) of K11 Nissan Micra. Selector positions referenced: D, Ds, R, N, P ranges."
+}

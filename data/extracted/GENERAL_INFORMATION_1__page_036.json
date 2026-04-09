@@ -1,0 +1,65 @@
+{
+  "page_code": "GI-4001",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "GI-4002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "prose",
+      "text": "<SUPPLEMENT-IV>",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-4002"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-4003"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-4002",
+    "GI-4003"
+  ],
+  "model_notes": null
+}

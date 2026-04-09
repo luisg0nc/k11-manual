@@ -1,0 +1,203 @@
+{
+  "page_code": "ST-3",
+  "section": "ST",
+  "title": "PREPARATION \u2014 SPECIAL SERVICE TOOLS",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Torque adapter KV48100700 \u2014 cylindrical socket shape",
+      "bbox_percent": [
+        14,
+        10,
+        45,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Steering wheel puller ST27180001",
+      "bbox_percent": [
+        14,
+        20,
+        55,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Ball joint remover HT72520000",
+      "bbox_percent": [
+        14,
+        33,
+        55,
+        43
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Pressure gauge ST27091000 with connections to oil pump outlet, control valve, and shut-off valve",
+      "bbox_percent": [
+        14,
+        44,
+        60,
+        56
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Pressure gauge adapter KV48102500 \u2014 various adapter fittings",
+      "bbox_percent": [
+        14,
+        57,
+        55,
+        67
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "ST3127S000 set: (1) Torque wrench GG91030000, (2) Socket adapter HT62940000, (3) Socket adapter HT62900000",
+      "bbox_percent": [
+        14,
+        68,
+        55,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SPECIAL SERVICE TOOLS"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number"
+        },
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "KV48100700",
+          "tool_name": "Torque adapter",
+          "description": "Measuring pinion rotating torque"
+        },
+        {
+          "tool_number": "ST27180001",
+          "tool_name": "Steering wheel puller",
+          "description": "Removing and installing steering wheel"
+        },
+        {
+          "tool_number": "HT72520000",
+          "tool_name": "Ball joint remover",
+          "description": "Removing ball joint"
+        },
+        {
+          "tool_number": "ST27091000",
+          "tool_name": "Pressure gauge",
+          "description": "Measuring oil pressure"
+        },
+        {
+          "tool_number": "KV48102500",
+          "tool_name": "Pressure gauge adapter",
+          "description": "Measuring oil pressure"
+        },
+        {
+          "tool_number": "ST3127S000",
+          "tool_name": "Set: (1) GG91030000 Torque wrench, (2) HT62940000 Socket adapter, (3) HT62900000 Socket adapter",
+          "description": "Measuring turning torque"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV48100700",
+      "name": "Torque adapter",
+      "usage": "Measuring pinion rotating torque"
+    },
+    {
+      "part_number": "ST27180001",
+      "name": "Steering wheel puller",
+      "usage": "Removing and installing steering wheel"
+    },
+    {
+      "part_number": "HT72520000",
+      "name": "Ball joint remover",
+      "usage": "Removing ball joint"
+    },
+    {
+      "part_number": "ST27091000",
+      "name": "Pressure gauge",
+      "usage": "Measuring oil pressure"
+    },
+    {
+      "part_number": "KV48102500",
+      "name": "Pressure gauge adapter",
+      "usage": "Measuring oil pressure"
+    },
+    {
+      "part_number": "ST3127S000",
+      "name": "Turning torque measurement set",
+      "usage": "Measuring turning torque"
+    },
+    {
+      "part_number": "GG91030000",
+      "name": "Torque wrench",
+      "usage": "Measuring turning torque (component of ST3127S000)"
+    },
+    {
+      "part_number": "HT62940000",
+      "name": "Socket adapter",
+      "usage": "Measuring turning torque (component of ST3127S000)"
+    },
+    {
+      "part_number": "HT62900000",
+      "name": "Socket adapter",
+      "usage": "Measuring turning torque (component of ST3127S000)"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

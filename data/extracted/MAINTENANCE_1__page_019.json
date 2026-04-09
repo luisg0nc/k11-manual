@@ -1,0 +1,138 @@
+{
+  "page_code": "MA-19",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance",
+  "page_type": "prose_procedure",
+  "source_image": "MA-19.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SBR991",
+      "type": "component_photo",
+      "description": "Brake fluid reservoir showing MAX and MIN level markings",
+      "bbox_percent": [
+        2,
+        3,
+        38,
+        22
+      ],
+      "associated_step": "Checking Brake Fluid Level and Leaks"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SBR992",
+      "type": "component_photo",
+      "description": "Brake fluid being drained/refilled at air bleeder valve with fluid container",
+      "bbox_percent": [
+        2,
+        47,
+        38,
+        65
+      ],
+      "associated_step": "Changing Brake Fluid"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA402A",
+      "type": "component_photo",
+      "description": "Engine bay view showing brake booster, vacuum hoses, connections and check valve with arrow indicating location",
+      "bbox_percent": [
+        2,
+        65,
+        38,
+        84
+      ],
+      "associated_step": "Checking Brake Booster, Vacuum Hoses, Connections and Check Valve"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Chassis and Body Maintenance"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Brake Fluid Level and Leaks"
+    },
+    {
+      "block_type": "prose",
+      "text": "If fluid level is extremely low, check brake system for leaks, and brake pads for wear.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Brake System"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check brake fluid lines and parking brake cables for improper attachment, leaks, chafing, abrasion, deterioration, etc.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Brake Fluid"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_changing_brake_fluid",
+      "title": "Changing Brake Fluid",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain brake fluid from each air bleeder valve.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Refill until new brake fluid comes out from each air bleeder valve. Use same procedure as in bleeding hydraulic system to refill brake fluid.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Refer to section BR."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refill with recommended brake fluid \"DOT 4\".",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Never reuse drained brake fluid.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to splash brake fluid on painted areas.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Brake Booster, Vacuum Hoses, Connections and Check Valve"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check vacuum lines, connections and check valve for improper attachment, air tightness, chafing and deterioration.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "BR"
+  ],
+  "model_notes": null
+}

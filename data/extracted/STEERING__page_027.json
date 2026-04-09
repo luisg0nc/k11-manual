@@ -1,0 +1,268 @@
+{
+  "page_code": "ST-26",
+  "section": "ST",
+  "title": "POWER STEERING GEAR AND LINKAGE \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "ST-26.jpg",
+  "continuation": {
+    "continues_from": "ST-25",
+    "continues_to": "ST-27"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST587B",
+      "type": "tool_illustration",
+      "description": "Special service tool KV48100700 and ST3127S000 being used to check pinion rotating torque on steering gear assembly",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "Check pinion rotating torque"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST090B",
+      "type": "tool_illustration",
+      "description": "Tool being used to check rack sliding force on steering rack assembly",
+      "bbox_percent": [
+        0,
+        22,
+        38,
+        40
+      ],
+      "associated_step": "Check rack sliding force"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST588B",
+      "type": "tool_illustration",
+      "description": "Measuring point indicated on tie-rod outer and inner ball joint for swinging force check",
+      "bbox_percent": [
+        0,
+        54,
+        38,
+        72
+      ],
+      "associated_step": "Check ball joint for swinging force"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SST751A",
+      "type": "tool_illustration",
+      "description": "Special service tool ST3127S000 being used to check tie-rod outer ball joint rotating torque",
+      "bbox_percent": [
+        0,
+        72,
+        38,
+        90
+      ],
+      "associated_step": "Check ball joint for rotating torque"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "STEERING GEAR ASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_gear_inspection",
+      "title": "Steering Gear Assembly Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check for smooth operation through a full stroke.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check rack and tie-rod for cracks, deformation or other damage.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Check pinion rotating torque.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check rack sliding force.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Pinion rotating torque",
+          "value": "0.8 - 1.3",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Pinion rotating torque",
+          "value": "8 - 13",
+          "unit": "kg-cm",
+          "condition": ""
+        },
+        {
+          "label": "Pinion rotating torque",
+          "value": "6.9 - 11.3",
+          "unit": "in-lb",
+          "condition": ""
+        },
+        {
+          "label": "Rack sliding force",
+          "value": "284 or less",
+          "unit": "N",
+          "condition": ""
+        },
+        {
+          "label": "Rack sliding force",
+          "value": "29 or less",
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "label": "Rack sliding force",
+          "value": "64 or less",
+          "unit": "lb",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "BOOT"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check condition of dust boot. If excessively cracked, replace it.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TIE-ROD OUTER AND INNER SOCKET"
+    },
+    {
+      "block_type": "procedure",
+      "id": "tie_rod_inspection",
+      "title": "Tie-Rod Outer and Inner Socket Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check ball joint for swinging force.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check ball joint for rotating torque.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie-rod outer ball joint swinging force",
+          "value": "6.9 - 63.7",
+          "unit": "N",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod outer ball joint swinging force",
+          "value": "0.7 - 6.5",
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod outer ball joint swinging force",
+          "value": "1.5 - 14.3",
+          "unit": "lb",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod inner ball joint swinging force",
+          "value": "4.9 - 83.4",
+          "unit": "N",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod inner ball joint swinging force",
+          "value": "0.5 - 8.5",
+          "unit": "kg",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod inner ball joint swinging force",
+          "value": "1.1 - 18.7",
+          "unit": "lb",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod outer ball joint rotating torque",
+          "value": "0.3 - 2.9",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod outer ball joint rotating torque",
+          "value": "3 - 30",
+          "unit": "kg-cm",
+          "condition": ""
+        },
+        {
+          "label": "Tie-rod outer ball joint rotating torque",
+          "value": "2.6 - 26.0",
+          "unit": "in-lb",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV48100700",
+      "name": "Torque wrench adapter",
+      "usage": "Check pinion rotating torque on steering gear assembly"
+    },
+    {
+      "part_number": "ST3127S000",
+      "name": "Socket / torque checking tool",
+      "usage": "Check pinion rotating torque and tie-rod outer ball joint rotating torque"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

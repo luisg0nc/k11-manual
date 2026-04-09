@@ -1,0 +1,110 @@
+{
+  "page_code": "MA-24",
+  "section": "MA",
+  "title": "Checking Body Corrosion",
+  "page_type": "prose_procedure",
+  "source_image": "ma-24.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CHASSIS AND BODY MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Body Corrosion"
+    },
+    {
+      "block_type": "prose",
+      "text": "Visually check the body sheet metal panel for corrosion, paint damage (scratches, chipping, rubbing, etc.) or damage to the anti-corrosion materials. In particular, check the following locations.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Hemmed portion"
+    },
+    {
+      "block_type": "prose",
+      "text": "Hood front end, door lower end, trunk lid rear end, etc.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Panel joint"
+    },
+    {
+      "block_type": "prose",
+      "text": "Side sill of rear fender and center pillar, rear wheel housing of rear fender, around strut tower in engine compartment, etc.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Panel edge"
+    },
+    {
+      "block_type": "prose",
+      "text": "Trunk lid opening, sun roof opening, fender wheel-arch flange, fuel filler lid flange, around holes in panel, etc.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Parts contact"
+    },
+    {
+      "block_type": "prose",
+      "text": "Waist moulding, windshield moulding, bumper, etc.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Protectors"
+    },
+    {
+      "block_type": "prose",
+      "text": "Damage or condition of mudguard, fender protector, chipping protector, etc.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Anti-corrosion materials"
+    },
+    {
+      "block_type": "prose",
+      "text": "Damage or separation of anti-corrosion materials under the body.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Drain holes"
+    },
+    {
+      "block_type": "prose",
+      "text": "Condition of drain holes at door and side sill.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "When repairing corroded areas, refer to the Corrosion Repair Manual.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Corrosion Repair Manual"
+  ],
+  "model_notes": null
+}

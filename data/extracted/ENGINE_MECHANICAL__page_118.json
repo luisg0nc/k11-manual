@@ -1,0 +1,251 @@
+{
+  "page_code": "EM-52",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-52.jpg",
+  "continuation": {
+    "continues_from": "EM-51",
+    "continues_to": "EM-53"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM506A",
+      "type": "component_photo",
+      "description": "Measuring outer diameter of crankshaft pin journal with micrometer",
+      "bbox_percent": [
+        0,
+        0,
+        30,
+        18
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM151B",
+      "type": "component_photo",
+      "description": "Measuring inner diameter of connecting rod small end with bore gauge",
+      "bbox_percent": [
+        0,
+        42,
+        30,
+        62
+      ],
+      "associated_step": "step_conn_rod_1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM903A",
+      "type": "tool_illustration",
+      "description": "Measuring outer diameter of piston pin with micrometer",
+      "bbox_percent": [
+        0,
+        62,
+        30,
+        79
+      ],
+      "associated_step": "step_conn_rod_2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM091",
+      "type": "component_photo",
+      "description": "Flywheel runout measurement setup with dial indicator",
+      "bbox_percent": [
+        0,
+        80,
+        30,
+        100
+      ],
+      "associated_step": "step_flywheel"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "connecting_rod_bearing_clearance",
+      "title": "Connecting Rod Bearing Clearance",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Measure outer diameter of each crankshaft pin journal.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Calculate connecting rod bearing clearance. Connecting rod bearing clearance = Inner dia. \u2013 Outer dia.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "If it exceeds the limit, replace bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "If clearance cannot be adjusted within the standard of any bearing, grind crankshaft journal and use undersized bearing. Refer to step 7 of \"BEARING CLEARANCE \u2014 Main bearing\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "If bearing, crankshaft or connecting rod is replaced with a new one, select connecting rod bearing according to the following table.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod bearing clearance \u2014 Standard",
+          "value": "0.010 - 0.044",
+          "unit": "mm (0.0004 - 0.0017 in)",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod bearing clearance \u2014 Limit",
+          "value": "0.064",
+          "unit": "mm (0.0025 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Connecting rod bearing thickness",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "key": "thickness",
+          "label": "Thickness mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Standard",
+          "thickness": "1.504 - 1.508 (0.0592 - 0.0594)"
+        },
+        {
+          "type": "Undersize",
+          "thickness": "1.629 - 1.633 (0.0641 - 0.0643)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONNECTING ROD CLEARANCE (Small end)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "connecting_rod_small_end_clearance",
+      "title": "Connecting Rod Clearance (Small End)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure inner diameter of connecting rod small end.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure outer diameter of piston pin.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Calculate connecting rod bushing clearance. Connecting rod bushing clearance = Inner diameter \u2013 pin outer diameter",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "If it exceeds the limit, replace connecting rod assembly or connecting rod bushing and/or piston pin."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod small end inner diameter \u2014 Standard",
+          "value": "17.962 - 17.978",
+          "unit": "mm (0.7072 - 0.7078 in)",
+          "condition": ""
+        },
+        {
+          "label": "Piston pin outer diameter \u2014 Standard",
+          "value": "17.995 - 18.000",
+          "unit": "mm (0.7085 - 0.7087 in)",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod bushing clearance \u2014 Standard",
+          "value": "-0.017 to -0.038",
+          "unit": "mm (-0.0007 to -0.0015 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FLYWHEEL RUNOUT"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Flywheel Runout (Total indicator reading)",
+          "value": "Less than 0.15",
+          "unit": "mm (0.0059 in)",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Micrometer",
+      "usage": "Measure outer diameter of piston pin and crankshaft pin journal"
+    },
+    {
+      "part_number": "",
+      "name": "Bore gauge",
+      "usage": "Measure inner diameter of connecting rod small end"
+    },
+    {
+      "part_number": "",
+      "name": "Dial indicator",
+      "usage": "Measure flywheel runout"
+    }
+  ],
+  "cross_references": [
+    "BEARING CLEARANCE \u2014 Main bearing, step 7"
+  ],
+  "model_notes": null
+}

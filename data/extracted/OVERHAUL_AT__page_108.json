@@ -1,0 +1,158 @@
+{
+  "page_code": "AT-108",
+  "section": "AT",
+  "title": "REPAIR FOR COMPONENT PARTS \u2014 Drive Pinion Shaft Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-108.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT216",
+      "type": "component_photo",
+      "description": "Removing securing bolts from drive pinion shaft assembly in transmission case",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "Disassembly step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT217",
+      "type": "tool_illustration",
+      "description": "Fitting shaft to Tool KV319-K0080 in a vice, removing lock nut",
+      "bbox_percent": [
+        0,
+        22,
+        35,
+        43
+      ],
+      "associated_step": "Disassembly steps 2-3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT218",
+      "type": "tool_illustration",
+      "description": "Pressing out bearing and gear using drift and press",
+      "bbox_percent": [
+        0,
+        43,
+        35,
+        63
+      ],
+      "associated_step": "Disassembly step 4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT219",
+      "type": "tool_illustration",
+      "description": "Pressing gear onto shaft using press",
+      "bbox_percent": [
+        0,
+        78,
+        35,
+        98
+      ],
+      "associated_step": "Assembly step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REPAIR FOR COMPONENT PARTS \u2014 Drive Pinion Shaft Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove securing bolts. Remove shaft assembly.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Fit the shaft to Tool, and fit to a vice.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove and discard the lock nut.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Press out the bearing and gear.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the gear teeth for wear and damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the cone surface for wear or seizure damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check bearings for noise, damage or signs of seizure.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Press the gear onto the shaft.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Fit the retainer plate.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0080",
+      "name": "Shaft Holding Tool",
+      "usage": "Fit shaft to tool and secure in vice to remove lock nut during disassembly"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

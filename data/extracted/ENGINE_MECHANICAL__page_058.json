@@ -1,0 +1,266 @@
+{
+  "page_code": "EM-55",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "em-55.jpg",
+  "continuation": {
+    "continues_from": "EM-54",
+    "continues_to": "EM-56"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM097",
+      "type": "component_photo",
+      "description": "Dial gauge measuring crankshaft end play on assembled engine block",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM098",
+      "type": "component_photo",
+      "description": "Connecting rod showing connecting rod number marking",
+      "bbox_percent": [
+        0,
+        20,
+        38,
+        35
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM293C",
+      "type": "tool_illustration",
+      "description": "Piston ring compressor being used to install piston with connecting rod into cylinder",
+      "bbox_percent": [
+        0,
+        37,
+        38,
+        53
+      ],
+      "associated_step": "5a"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM099",
+      "type": "component_photo",
+      "description": "Installing and tightening connecting rod bearing cap nuts with angle wrench",
+      "bbox_percent": [
+        0,
+        55,
+        38,
+        70
+      ],
+      "associated_step": "5b"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM100",
+      "type": "component_photo",
+      "description": "Measuring connecting rod side clearance on assembled engine",
+      "bbox_percent": [
+        0,
+        72,
+        38,
+        87
+      ],
+      "associated_step": "6"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Measure crankshaft end play.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Crankshaft end play - Standard",
+              "value": "0.060 - 0.26",
+              "unit": "mm",
+              "condition": ""
+            },
+            {
+              "label": "Crankshaft end play - Standard",
+              "value": "0.0024 - 0.0102",
+              "unit": "in",
+              "condition": ""
+            },
+            {
+              "label": "Crankshaft end play - Limit",
+              "value": "0.3",
+              "unit": "mm",
+              "condition": ""
+            },
+            {
+              "label": "Crankshaft end play - Limit",
+              "value": "0.012",
+              "unit": "in",
+              "condition": ""
+            }
+          ],
+          "sub_notes": [
+            "If beyond the limit, replace thrust bearing with a new one."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Install connecting rod bearings in connecting rods and connecting rod caps.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct bearings are used. Refer to \"Inspection\"."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Install pistons with connecting rods.",
+          "figure_ref": "fig3",
+          "sub_steps": [
+            {
+              "sub_step": "a",
+              "text": "Install them into corresponding cylinders with Tool.",
+              "warnings": [
+                "Be careful not to scratch cylinder wall by connecting rod.",
+                "Arrange so that front mark on piston head faces toward front of engine."
+              ],
+              "notes": []
+            },
+            {
+              "sub_step": "b",
+              "text": "Install connecting rod bearing caps. Tighten connecting rod bearing cap nuts to the specified torque.",
+              "figure_ref": "fig4",
+              "torque_specs": [
+                {
+                  "fastener": "Connecting rod bearing nut",
+                  "step1": "Tighten to 14 to 16 N\u00b7m (1.4 to 1.6 kg-m, 10 to 12 ft-lb).",
+                  "step2": "Turn nuts to 45\u00b0 to 50\u00b0 degrees clockwise with an angle wrench."
+                }
+              ],
+              "warnings": [],
+              "notes": []
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Measure connecting rod side clearance.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Connecting rod side clearance - Standard",
+              "value": "0.200 - 0.470",
+              "unit": "mm",
+              "condition": ""
+            },
+            {
+              "label": "Connecting rod side clearance - Standard",
+              "value": "0.0079 - 0.0185",
+              "unit": "in",
+              "condition": ""
+            },
+            {
+              "label": "Connecting rod side clearance - Limit",
+              "value": "0.55",
+              "unit": "mm",
+              "condition": ""
+            },
+            {
+              "label": "Connecting rod side clearance - Limit",
+              "value": "0.0217",
+              "unit": "in",
+              "condition": ""
+            }
+          ],
+          "sub_notes": [
+            "If beyond the limit, replace connecting rod and/or crankshaft."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Crankshaft end play - Standard",
+          "value": "0.060 - 0.26 mm (0.0024 - 0.0102 in)",
+          "unit": "mm / in",
+          "condition": ""
+        },
+        {
+          "label": "Crankshaft end play - Limit",
+          "value": "0.3 mm (0.012 in)",
+          "unit": "mm / in",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod bearing nut torque - Step 1",
+          "value": "14 to 16 N\u00b7m (1.4 to 1.6 kg-m, 10 to 12 ft-lb)",
+          "unit": "N\u00b7m / kg-m / ft-lb",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod bearing nut torque - Step 2",
+          "value": "45\u00b0 to 50\u00b0 clockwise",
+          "unit": "degrees",
+          "condition": "angle wrench"
+        },
+        {
+          "label": "Connecting rod side clearance - Standard",
+          "value": "0.200 - 0.470 mm (0.0079 - 0.0185 in)",
+          "unit": "mm / in",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod side clearance - Limit",
+          "value": "0.55 mm (0.0217 in)",
+          "unit": "mm / in",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "unspecified",
+      "name": "Piston ring compressor",
+      "usage": "Install pistons with connecting rods into corresponding cylinders"
+    },
+    {
+      "part_number": "unspecified",
+      "name": "Angle wrench",
+      "usage": "Turn connecting rod bearing cap nuts 45\u00b0 to 50\u00b0 clockwise for final tightening"
+    }
+  ],
+  "cross_references": [
+    "Inspection"
+  ],
+  "model_notes": null
+}

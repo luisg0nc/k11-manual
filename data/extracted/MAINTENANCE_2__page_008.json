@@ -1,0 +1,317 @@
+{
+  "page_code": "MA-7008",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (Except for Europe) \u2014 ENGINE AND EMISSION CONTROL MAINTENANCE",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (Except for Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "ENGINE AND EMISSION CONTROL MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CG10DE/CGA3DE engines"
+    },
+    {
+      "block_type": "prose",
+      "text": "Abbreviations: I = Inspect and correct or replace as necessary.  R = Replace  A = Adjust.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Perform either at number of kilometers (miles) or months, whichever comes first.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Engine and Emission Control Maintenance Schedule \u2014 CG10DE/CGA3DE engines",
+      "columns": [
+        {
+          "key": "operation",
+          "label": "MAINTENANCE OPERATION"
+        },
+        {
+          "key": "km_1",
+          "label": "km x 1,000 = 1 / (miles x 1,000) = (0.6) / Months = 1"
+        },
+        {
+          "key": "km_10",
+          "label": "km x 1,000 = 10 / (miles x 1,000) = (6) / Months = 6"
+        },
+        {
+          "key": "km_20",
+          "label": "km x 1,000 = 20 / (miles x 1,000) = (12) / Months = 12"
+        },
+        {
+          "key": "km_30",
+          "label": "km x 1,000 = 30 / (miles x 1,000) = (18) / Months = 18"
+        },
+        {
+          "key": "km_40",
+          "label": "km x 1,000 = 40 / (miles x 1,000) = (24) / Months = 24"
+        },
+        {
+          "key": "km_50",
+          "label": "km x 1,000 = 50 / (miles x 1,000) = (30) / Months = 30"
+        },
+        {
+          "key": "km_60",
+          "label": "km x 1,000 = 60 / (miles x 1,000) = (36) / Months = 36"
+        },
+        {
+          "key": "km_70",
+          "label": "km x 1,000 = 70 / (miles x 1,000) = (42) / Months = 42"
+        },
+        {
+          "key": "km_80",
+          "label": "km x 1,000 = 80 / (miles x 1,000) = (48) / Months = 48"
+        }
+      ],
+      "rows": [
+        {
+          "operation": "Underbonnet and under vehicle (section header)",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": ""
+        },
+        {
+          "operation": "Torque of manifolds & exhaust tube nuts",
+          "km_1": "I",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": ""
+        },
+        {
+          "operation": "Intake & exhaust valve clearance \u2014 See NOTE (1)",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": ""
+        },
+        {
+          "operation": "Drive belts",
+          "km_1": "I",
+          "km_10": "",
+          "km_20": "I",
+          "km_30": "",
+          "km_40": "I",
+          "km_50": "",
+          "km_60": "I",
+          "km_70": "",
+          "km_80": "I"
+        },
+        {
+          "operation": "Engine oil (use API SE, SF, SG or SH oil) \u2605",
+          "km_1": "",
+          "km_10": "R",
+          "km_20": "R",
+          "km_30": "R",
+          "km_40": "R",
+          "km_50": "R",
+          "km_60": "R",
+          "km_70": "R",
+          "km_80": "R"
+        },
+        {
+          "operation": "Engine oil filter \u2605",
+          "km_1": "",
+          "km_10": "R",
+          "km_20": "R",
+          "km_30": "R",
+          "km_40": "R",
+          "km_50": "R",
+          "km_60": "R",
+          "km_70": "R",
+          "km_80": "R"
+        },
+        {
+          "operation": "Engine anti-freeze coolant (Ethylene glycol base)",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "R",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "R"
+        },
+        {
+          "operation": "Cooling system",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "I",
+          "km_30": "",
+          "km_40": "I",
+          "km_50": "",
+          "km_60": "I",
+          "km_70": "",
+          "km_80": "I"
+        },
+        {
+          "operation": "Fuel filter \u2605",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "R",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "R"
+        },
+        {
+          "operation": "Fuel lines",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "I",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "I"
+        },
+        {
+          "operation": "Air cleaner filter (viscous paper type) \u2605",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "R",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "R"
+        },
+        {
+          "operation": "Positive crankcase ventilation (PCV) system",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "I",
+          "km_30": "",
+          "km_40": "I",
+          "km_50": "",
+          "km_60": "I",
+          "km_70": "",
+          "km_80": "I"
+        },
+        {
+          "operation": "PCV filter \u2605",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "R",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "R"
+        },
+        {
+          "operation": "Spark plug",
+          "km_1": "",
+          "km_10": "I",
+          "km_20": "R",
+          "km_30": "I",
+          "km_40": "R",
+          "km_50": "I",
+          "km_60": "R",
+          "km_70": "I",
+          "km_80": "R"
+        },
+        {
+          "operation": "Ignition timing",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "A",
+          "km_30": "",
+          "km_40": "A",
+          "km_50": "",
+          "km_60": "A",
+          "km_70": "",
+          "km_80": "A"
+        },
+        {
+          "operation": "Vacuum hoses & connections",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "I",
+          "km_30": "",
+          "km_40": "I",
+          "km_50": "",
+          "km_60": "I",
+          "km_70": "",
+          "km_80": "I"
+        },
+        {
+          "operation": "Oxygen sensor",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "",
+          "km_30": "",
+          "km_40": "I",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "I"
+        },
+        {
+          "operation": "EVAP vapour lines (with carbon canister)",
+          "km_1": "",
+          "km_10": "",
+          "km_20": "I",
+          "km_30": "",
+          "km_40": "",
+          "km_50": "",
+          "km_60": "",
+          "km_70": "",
+          "km_80": "I"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: Maintenance items with \"\u2605\" should be performed more frequently according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(1) For three way catalyst models, periodic maintenance is not requiered. However, if valve noise increases, check valve clearance.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applicable to CG10DE and CGA3DE engines. Maintenance schedule is for non-European markets. Intervals given in km x 1,000, miles x 1,000, and months."
+}

@@ -1,0 +1,226 @@
+{
+  "page_code": "EM-41",
+  "section": "EM",
+  "title": "ENGINE REMOVAL - Removal (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-41.jpg",
+  "continuation": {
+    "continues_from": "EM-40",
+    "continues_to": "EM-42"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM055",
+      "type": "component_photo",
+      "description": "Power steering pump area showing front orientation label and pump location on engine",
+      "bbox_percent": [
+        0,
+        3,
+        42,
+        22
+      ],
+      "associated_step": "32"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM056",
+      "type": "component_photo",
+      "description": "Air conditioning compressor location on engine with front orientation label",
+      "bbox_percent": [
+        0,
+        23,
+        42,
+        42
+      ],
+      "associated_step": "38"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM067",
+      "type": "component_photo",
+      "description": "Engine slinger brackets attached to engine, showing bracket bolt locations",
+      "bbox_percent": [
+        0,
+        43,
+        42,
+        60
+      ],
+      "associated_step": "39"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM068",
+      "type": "component_photo",
+      "description": "Engine lowered view showing centremember and engine mounting area",
+      "bbox_percent": [
+        0,
+        61,
+        42,
+        77
+      ],
+      "associated_step": "40"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "engine_removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 29,
+          "text": "Remove engine harness from harness saddle on engine mounting.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Disconnect two engine temperature sensors.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Remove main earth lead from body.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "On power steering equipped models, slacken water pump drive belt. Refer to section MA. Loosen and remove power-steering pump fixing bolts. Tie power steering pump onto vehicle body.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Disconnect fuel lines.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 34,
+          "text": "Disconnect throttle cable. Disconnect kickdown cable (N\u00b7CVT).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 35,
+          "text": "Disconnect speedometer cable.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 36,
+          "text": "Disconnect carbon canister hoses.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 37,
+          "text": "Disconnect brake vacuum hose from brake servo.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 38,
+          "text": "On air conditioning equipped models, slacken alternator drive belt. Refer to section MA. Remove alternator. Loosen and remove air conditioning compressor fixing bolts. Tie air conditioning compressor onto vehicle body.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 39,
+          "text": "Attach engine slinger brackets to engine. Engine slinger brackets and engine slinger bracket bolts are described in K11 PARTS CATALOG. Tighten engine slinger bracket bolts.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 40,
+          "text": "Remove 4 centermember mounting bolts from vehicle body.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 41,
+          "text": "Remove centermember from engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 42,
+          "text": "Attach slingers to engine slinger brackets and use crane to release load from both top engine mountings.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 43,
+          "text": "Disconnect or remove engine mountings.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 44,
+          "text": "Lower engine onto transmission jack or floor.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Engine slinger bracket bolt torque",
+          "value": "16 - 21",
+          "unit": "N\u00b7m",
+          "condition": "Tightening torque"
+        },
+        {
+          "label": "Engine slinger bracket bolt torque",
+          "value": "1.6 - 2.1",
+          "unit": "kg-m",
+          "condition": "Tightening torque"
+        },
+        {
+          "label": "Engine slinger bracket bolt torque",
+          "value": "11.6 - 15.2",
+          "unit": "lb-ft",
+          "condition": "Tightening torque"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA",
+    "K11 PARTS CATALOG"
+  ],
+  "model_notes": "Step 32 applies to power steering equipped models only. Step 34 kickdown cable applies to N\u00b7CVT models only. Step 38 applies to air conditioning equipped models only."
+}

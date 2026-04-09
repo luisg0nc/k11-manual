@@ -1,0 +1,152 @@
+{
+  "page_code": "AT-92",
+  "section": "AT",
+  "title": "Removal and Installation \u2014 Electromagnetic Clutch",
+  "page_type": "prose_procedure",
+  "source_image": "AT-92.jpg",
+  "continuation": {
+    "continues_from": "AT-91",
+    "continues_to": "AT-93"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT084",
+      "type": "component_photo",
+      "description": "N-CVT main unit with electromagnetic clutch being removed, showing overall assembly",
+      "bbox_percent": [
+        0,
+        18,
+        38,
+        42
+      ],
+      "associated_step": "Electromagnetic Clutch Removal step 2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT085",
+      "type": "component_photo",
+      "description": "Electromagnetic clutch shown in storage position with slip ring facing upwards",
+      "bbox_percent": [
+        0,
+        42,
+        38,
+        65
+      ],
+      "associated_step": "Electromagnetic Clutch Removal note 3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT086",
+      "type": "component_photo",
+      "description": "Electromagnetic clutch assembly viewed from above showing slip ring side",
+      "bbox_percent": [
+        0,
+        65,
+        38,
+        88
+      ],
+      "associated_step": "Inspection \u2014 Slack Check"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection_contd",
+      "title": "Inspection (Cont'd)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install the transaxle and other parts and then check the control linkage and inhibitor switch. Refer to \"On-Vehicle Service\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Adjust the throttle wire. Refer to \"On-Vehicle Service\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Dust Cover Installation Precautions"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to deform, crack or peel off the seal rubber. Replace the seal rubber if it is damaged or deformed.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electromagnetic Clutch"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "em_clutch_removal",
+      "title": "Electromagnetic Clutch Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the N-CVT main unit from the vehicle. Refer to \"Removal and Installation\"",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove electromagnetic clutch from N-CVT main unit.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "(1) There should be no oil on the slip ring. Do not touch it with your hands or rags containing oil. If there is any oil on the slip ring, wipe it off with thinner or a solvent.",
+            "(2) Do not hit the outside of the slip ring.",
+            "(3) After removing the clutch, avoid unnecessary movement of the unit. Store the clutch with the slip ring facing upwards."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note:\n(1) There should be no oil on the slip ring. Do not touch it with your hands or rags containing oil. If there is any oil on the slip ring, wipe it off with thinner or a solvent.\n(2) Do not hit the outside of the slip ring.\n(3) After removing the clutch, avoid unnecessary movement of the unit. Store the clutch with the slip ring facing upwards.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Slack Check"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check if there is any grease around slip ring and if the bearing moves smoothly. Replace the electromagnetic clutch assembly if the grease overflows or the bearing moves unevenly.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "On-Vehicle Service",
+    "Removal and Installation"
+  ],
+  "model_notes": "Applies to N-CVT (N-continuously variable transmission) equipped Nissan Micra K11"
+}

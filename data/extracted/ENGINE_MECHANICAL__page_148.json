@@ -1,0 +1,217 @@
+{
+  "page_code": "EM-5015",
+  "section": "EM",
+  "title": "TIMING BELT - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-5014",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM259",
+      "type": "parts_diagram",
+      "description": "Timing belt sprocket area showing sprocket bolt slots and removal arrows",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "Installation step 3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM254",
+      "type": "parts_diagram",
+      "description": "Flywheel area showing flywheel locking pin SST KV109B0112 installation point",
+      "bbox_percent": [
+        0,
+        20,
+        38,
+        36
+      ],
+      "associated_step": "Tensioning step 1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM255",
+      "type": "parts_diagram",
+      "description": "Camshaft and injection pump sprocket area showing locking pin installation arrows",
+      "bbox_percent": [
+        0,
+        38,
+        38,
+        54
+      ],
+      "associated_step": "Tensioning step 2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM260",
+      "type": "parts_diagram",
+      "description": "Timing belt area showing loosening of camshaft and injection pump sprocket bolts and tensioner nut",
+      "bbox_percent": [
+        0,
+        55,
+        38,
+        70
+      ],
+      "associated_step": "Tensioning step 3"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM258",
+      "type": "parts_diagram",
+      "description": "Timing belt area showing SST KV109B0030 installed on belt edge and KV109B0080 tensioner tool",
+      "bbox_percent": [
+        0,
+        71,
+        38,
+        88
+      ],
+      "associated_step": "Tensioning steps 4-5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING BELT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Remove one bolt from each sprocket to make certain that they are not at the end of their slots.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Re-install the sprocket bolts and tighten the bolts to the specified torque while holding the sprockets from rotating with SST KV109B0070.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove all locking pins and rotate crankshaft two revolutions clockwise.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Tensioning the timing belt"
+    },
+    {
+      "block_type": "procedure",
+      "id": "tensioning_timing_belt",
+      "title": "Tensioning the timing belt",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Re-install flywheel locking pin SST KV109B0112.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Re-install camshaft and injection pump locking pins SST KV109B0111 and KV109B0110.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Loosen the camshaft and injection pump sprocket bolts slightly and loosen tensioner nut.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Install SST KV109B0030 on the edge of the belt. Take care not to obstruct any other component.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Rotate tensioner counter-clockwise to obtain a reading of: 54 SEEM units for a new belt; 44 SEEM units for a used belt. Tighten tensioner nut to the specified torque. Remove SST KV109B0030.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Timing belt tension (new belt)",
+          "value": "54",
+          "unit": "SEEM units",
+          "condition": "New belt"
+        },
+        {
+          "label": "Timing belt tension (used belt)",
+          "value": "44",
+          "unit": "SEEM units",
+          "condition": "Used belt"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0112",
+      "name": "Flywheel locking pin",
+      "usage": "Lock flywheel during timing belt tensioning"
+    },
+    {
+      "part_number": "KV109B0111",
+      "name": "Camshaft locking pin",
+      "usage": "Lock camshaft during timing belt tensioning"
+    },
+    {
+      "part_number": "KV109B0110",
+      "name": "Injection pump locking pin",
+      "usage": "Lock injection pump during timing belt tensioning"
+    },
+    {
+      "part_number": "KV109B0070",
+      "name": "Sprocket holding tool",
+      "usage": "Hold sprockets from rotating while tightening sprocket bolts"
+    },
+    {
+      "part_number": "KV109B0030",
+      "name": "Belt tension measuring tool (SEEM gauge adapter)",
+      "usage": "Installed on edge of timing belt to measure tension"
+    },
+    {
+      "part_number": "KV109B0080",
+      "name": "Tensioner counter-clockwise rotation tool",
+      "usage": "Rotate tensioner counter-clockwise to set belt tension"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant indicated by section code. Procedure references injection pump, indicating diesel engine application."
+}

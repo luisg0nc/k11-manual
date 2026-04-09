@@ -1,0 +1,284 @@
+{
+  "page_code": "EM-5025",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM720B",
+      "type": "component_photo",
+      "description": "Combustion chamber removal procedure showing glow plug and injection nozzle area with stars indicating removal points",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "Combustion Chamber Replacement step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM721B",
+      "type": "parts_diagram",
+      "description": "Combustion chamber installation showing knock pin and notch alignment",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        36
+      ],
+      "associated_step": "Combustion Chamber Replacement step 4b"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM727B",
+      "type": "component_photo",
+      "description": "Measuring inner diameter of camshaft bearings using micrometer/gauge tool",
+      "bbox_percent": [
+        0,
+        52,
+        38,
+        70
+      ],
+      "associated_step": "Camshaft Journal Clearance step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM728B",
+      "type": "component_photo",
+      "description": "Measuring outer diameter of camshaft journals using micrometer",
+      "bbox_percent": [
+        0,
+        70,
+        38,
+        88
+      ],
+      "associated_step": "Camshaft Journal Clearance step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "COMBUSTION CHAMBER REPLACEMENT"
+    },
+    {
+      "block_type": "prose",
+      "text": "Usually combustion chambers should not be removed. However, if they show cracks or extensive damage, they should be replaced.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "combustion_chamber_replacement",
+      "title": "Combustion Chamber Replacement",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove glow plug connecting plate, glow plugs and injection nozzle.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Heat cylinder head in oil to between 150 and 160\u00b0C (302 and 320\u00b0F).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove combustion chamber so that cylinder head will not be damaged.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Be careful not to scratch inside of nozzle hole."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Install combustion chamber.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "4a",
+          "text": "Heat cylinder head 150 to 160\u00b0C (302 to 320\u00b0F) in oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "4b",
+          "text": "Align combustion chamber knock pin with cylinder head notch, and install it into cylinder head using a plastic-tip hammer.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Combustion chamber protrusion",
+          "value": "0 - 0.03",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Combustion chamber protrusion",
+          "value": "0.000 - 0.001",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAMSHAFT VISUAL CHECK"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check camshaft for scratches, seizure and wear.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAMSHAFT JOURNAL CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Using micrometer"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_journal_clearance",
+      "title": "Camshaft Journal Clearance",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure the inner diameter of camshaft bearings.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure the outer diameter of camshaft journals.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard inner diameter \u2014 No. 1 (flywheel side)",
+          "value": "27.505 - 27.533",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard inner diameter \u2014 No. 1 (flywheel side)",
+          "value": "1.083 - 1.084",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Standard inner diameter \u2014 No. 2",
+          "value": "28.005 - 28.033",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard inner diameter \u2014 No. 2",
+          "value": "1.103 - 1.104",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Standard inner diameter \u2014 No. 3",
+          "value": "28.505 - 28.533",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard inner diameter \u2014 No. 3",
+          "value": "1.122 - 1.123",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Standard outer diameter \u2014 No. 1 (flywheel side)",
+          "value": "27.459 - 27.48",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard outer diameter \u2014 No. 1 (flywheel side)",
+          "value": "1.0811 - 1.0819",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Standard outer diameter \u2014 No. 2",
+          "value": "27.959 - 27.98",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard outer diameter \u2014 No. 2",
+          "value": "1.1007 - 1.1016",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Standard outer diameter \u2014 No. 3",
+          "value": "28.459 - 28.48",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard outer diameter \u2014 No. 3",
+          "value": "1.1204 - 1.1213",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Standard clearance",
+          "value": "0.025 - 0.074",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Standard clearance",
+          "value": "0.0010 - 0.0029",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Diesel engine with combustion chambers, glow plugs and injection nozzles."
+}

@@ -1,0 +1,285 @@
+{
+  "page_code": "MA-7003",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (For Europe) \u2014 Chassis and Body Maintenance",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (For Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Chassis and Body Maintenance"
+    },
+    {
+      "block_type": "prose",
+      "text": "Abbreviations: R = Replace  I = Inspect: Correct or replace if necessary",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Perform on a kilometer basis, but on an annual basis when driving less than 15,000 km (9,000 miles) in a year",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Chassis and Body Maintenance Intervals",
+      "columns": [
+        {
+          "key": "operation",
+          "label": "MAINTENANCE OPERATION"
+        },
+        {
+          "key": "km_15",
+          "label": "15 km\u00d71,000 / (9) Miles\u00d71,000 / 12 Months"
+        },
+        {
+          "key": "km_30",
+          "label": "30 km\u00d71,000 / (18) Miles\u00d71,000 / 24 Months"
+        },
+        {
+          "key": "km_45",
+          "label": "45 km\u00d71,000 / (27) Miles\u00d71,000 / 36 Months"
+        },
+        {
+          "key": "km_60",
+          "label": "60 km\u00d71,000 / (36) Miles\u00d71,000 / 48 Months"
+        },
+        {
+          "key": "km_75",
+          "label": "75 km\u00d71,000 / (45) Miles\u00d71,000 / 60 Months"
+        },
+        {
+          "key": "km_90",
+          "label": "90 km\u00d71,000 / (54) Miles\u00d71,000 / 72 Months"
+        },
+        {
+          "key": "km_105",
+          "label": "105 km\u00d71,000 / (63) Miles\u00d71,000 / 84 Months"
+        },
+        {
+          "key": "km_120",
+          "label": "120 km\u00d71,000 / (72) Miles\u00d71,000 / 96 Months"
+        }
+      ],
+      "rows": [
+        {
+          "operation": "Underhood and under vehicle (section header)",
+          "km_15": "",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": ""
+        },
+        {
+          "operation": "Headlamp aiming",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Wheel alignment (if necessary, balance & rotate wheels)",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Brake pads, discs & other components*",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Brake linings, drums & other components*",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Foot brake, parking brake & clutch (for free play, stroke & operation)",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Brake booster vacuum hoses, connections, check valve",
+          "km_15": "",
+          "km_30": "I",
+          "km_45": "",
+          "km_60": "I",
+          "km_75": "",
+          "km_90": "I",
+          "km_105": "",
+          "km_120": "I"
+        },
+        {
+          "operation": "Brake & clutch, systems and fluid (for level and leaks)",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Brake fluid*",
+          "km_15": "",
+          "km_30": "R",
+          "km_45": "",
+          "km_60": "R",
+          "km_75": "",
+          "km_90": "R",
+          "km_105": "",
+          "km_120": "R"
+        },
+        {
+          "operation": "Power steering fluid and lines (for level and leaks)",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Air bag system",
+          "km_15": "See NOTE (1)",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": ""
+        },
+        {
+          "operation": "Ventilation air filter*",
+          "km_15": "",
+          "km_30": "R",
+          "km_45": "",
+          "km_60": "R",
+          "km_75": "",
+          "km_90": "R",
+          "km_105": "",
+          "km_120": "R"
+        },
+        {
+          "operation": "ASCD Vacuum hoses",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Standard differential gear oil (check for leakage)*",
+          "km_15": "",
+          "km_30": "I",
+          "km_45": "",
+          "km_60": "I",
+          "km_75": "",
+          "km_90": "I",
+          "km_105": "",
+          "km_120": "I"
+        },
+        {
+          "operation": "Manual transmission oil (check for leakage)",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "CVT fluid*",
+          "km_15": "",
+          "km_30": "R",
+          "km_45": "",
+          "km_60": "R",
+          "km_75": "",
+          "km_90": "R",
+          "km_105": "",
+          "km_120": "R"
+        },
+        {
+          "operation": "Steering gear & linkage, axle & suspension, drive shafts and exhaust system*",
+          "km_15": "",
+          "km_30": "I",
+          "km_45": "",
+          "km_60": "I",
+          "km_75": "",
+          "km_90": "I",
+          "km_105": "",
+          "km_120": "I"
+        },
+        {
+          "operation": "Body corrosion",
+          "km_15": "See NOTE (2)",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: (1) Inspect after 10 years, then every 2 years.\n(2) Inspect once per year.\n* Maintenance items with \"*\" should be performed more frequently according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Maintenance schedule is for European market vehicles. Items marked * require more frequent service under severe driving conditions. CVT fluid and Standard differential gear oil entries indicate CVT-equipped variants. Manual transmission oil entry covers M/T variants."
+}

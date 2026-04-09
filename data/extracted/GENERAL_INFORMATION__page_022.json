@@ -1,0 +1,283 @@
+{
+  "page_code": "GI-16",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION \u2014 Model Variation",
+  "page_type": "spec_table",
+  "source_image": "page_gi16.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation"
+    },
+    {
+      "block_type": "table",
+      "title": "Model Variation",
+      "columns": [
+        {
+          "key": "body",
+          "label": "Body"
+        },
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "transaxle",
+          "label": "Transaxle"
+        },
+        {
+          "key": "grade",
+          "label": "Grade"
+        },
+        {
+          "key": "rhd_model",
+          "label": "R.H.D. models"
+        },
+        {
+          "key": "lhd_south_europe",
+          "label": "For South Europe"
+        },
+        {
+          "key": "lhd_central_europe",
+          "label": "For Central Europe"
+        },
+        {
+          "key": "lhd_north_europe",
+          "label": "For North Europe"
+        }
+      ],
+      "rows": [
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "",
+          "grade": "L",
+          "rhd_model": "EAEARBF-EEA",
+          "lhd_south_europe": "EAEALBF-EFA",
+          "lhd_central_europe": "EAEALBF-EGA",
+          "lhd_north_europe": ""
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RS5F41A",
+          "grade": "LX",
+          "rhd_model": "EAEARDF-EEA",
+          "lhd_south_europe": "EAEALDF-EFA",
+          "lhd_central_europe": "EAEALDF-EGA",
+          "lhd_north_europe": "EAEALDF-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RS5F41A",
+          "grade": "SLX",
+          "rhd_model": "\u2014",
+          "lhd_south_europe": "EAEALFF-EFA",
+          "lhd_central_europe": "\u2014",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RE0F05A",
+          "grade": "L",
+          "rhd_model": "EAEARDZ-EEA",
+          "lhd_south_europe": "\u2014",
+          "lhd_central_europe": "EAEALBZ-EGA",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RE0F05A",
+          "grade": "LX",
+          "rhd_model": "\u2014",
+          "lhd_south_europe": "\u2014",
+          "lhd_central_europe": "EAEALDZ-EGA",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RE0F05A",
+          "grade": "SLX",
+          "rhd_model": "\u2014",
+          "lhd_south_europe": "EAEALFZ-EFA",
+          "lhd_central_europe": "\u2014",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "SLX",
+          "rhd_model": "EANARDF-EEA",
+          "lhd_south_europe": "EANALDF-EFA",
+          "lhd_central_europe": "EANALDF-EGA",
+          "lhd_north_europe": "EANALDF-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "LX",
+          "rhd_model": "EANARFF-EEA",
+          "lhd_south_europe": "EANALFF-EFA",
+          "lhd_central_europe": "EANALFF-EGA",
+          "lhd_north_europe": "EANALFF-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "SLX",
+          "rhd_model": "EANARFF-EEA",
+          "lhd_south_europe": "EANALFF-EFA",
+          "lhd_central_europe": "EANALFF-EGA",
+          "lhd_north_europe": "EANALFF-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "SUPER S",
+          "rhd_model": "EANARTF-EEA",
+          "lhd_south_europe": "EANALTF-EFA",
+          "lhd_central_europe": "EANALTF-EGA",
+          "lhd_north_europe": "EANALTF-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RE0F05A",
+          "grade": "LX",
+          "rhd_model": "EANARDZ-EEA",
+          "lhd_south_europe": "EANALDZ-EFA",
+          "lhd_central_europe": "EANALDZ-EGA",
+          "lhd_north_europe": "EANALDZ-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RE0F05A",
+          "grade": "SLX",
+          "rhd_model": "EANARFZ-EEA",
+          "lhd_south_europe": "EANALFZ-EFA",
+          "lhd_central_europe": "EANAFZ-EGA",
+          "lhd_north_europe": "EANAFZ-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F41A",
+          "grade": "LX",
+          "rhd_model": "FAEARBF-EEA",
+          "lhd_south_europe": "FAEALBF-EFA",
+          "lhd_central_europe": "FAEALBF-EGA",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F41A",
+          "grade": "SLX",
+          "rhd_model": "FAEARDF-EEA",
+          "lhd_south_europe": "FAEALDF-EFA",
+          "lhd_central_europe": "FAEALDF-EGA",
+          "lhd_north_europe": "FAEALDF-ESA"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RE0F05A",
+          "grade": "\u2014",
+          "rhd_model": "\u2014",
+          "lhd_south_europe": "\u2014",
+          "lhd_central_europe": "\u2014",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RE0F05A",
+          "grade": "LX",
+          "rhd_model": "FAEARDZ-EEA",
+          "lhd_south_europe": "\u2014",
+          "lhd_central_europe": "FAEALDZ-EGA",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "3-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RE0F05A",
+          "grade": "SLX",
+          "rhd_model": "\u2014",
+          "lhd_south_europe": "\u2014",
+          "lhd_central_europe": "FAEALDZ-EGA",
+          "lhd_north_europe": "\u2014"
+        },
+        {
+          "body": "5-door Hatchback",
+          "engine": "CG10DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "SLX",
+          "rhd_model": "FANARDF-EEA",
+          "lhd_south_europe": "FANALDF-EFA",
+          "lhd_central_europe": "FANALDF-EGA",
+          "lhd_north_europe": "FANALDF-ESA"
+        },
+        {
+          "body": "5-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "LX",
+          "rhd_model": "FANARFF-EEA",
+          "lhd_south_europe": "FANALFF-EFA",
+          "lhd_central_europe": "FANALFF-EGA",
+          "lhd_north_europe": "FANALFF-ESA"
+        },
+        {
+          "body": "5-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RS5F30A/RS5F31V*",
+          "grade": "SLX",
+          "rhd_model": "FANARDZ-EEA",
+          "lhd_south_europe": "FANALDZ-EFA",
+          "lhd_central_europe": "FANALDZ-EGA",
+          "lhd_north_europe": "FANALDZ-ESA"
+        },
+        {
+          "body": "5-door Hatchback",
+          "engine": "CG13DE",
+          "transaxle": "RE0F05A",
+          "grade": "SLX",
+          "rhd_model": "FANARFZ-EEA",
+          "lhd_south_europe": "FANALFZ-EFA",
+          "lhd_central_europe": "FANALFZ-EGA",
+          "lhd_north_europe": "FANALFZ-ESA"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "* Optional for North Europe",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Table covers both R.H.D. models and L.H.D. models (For South Europe, For Central Europe, For North Europe). Body styles: 3-door Hatchback and 5-door Hatchback. Engines: CG10DE and CG13DE. Transaxles: RS5F41A, RE0F05A, RS5F30A/RS5F31V*. Grades: L, LX, SLX, SUPER S. RS5F31V marked with * as Optional for North Europe."
+}

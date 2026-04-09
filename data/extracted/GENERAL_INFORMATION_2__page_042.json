@@ -1,0 +1,58 @@
+{
+  "page_code": "GI-3003",
+  "section": "GI",
+  "title": "MODIFICATIONS",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OUTLINE OF MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "General"
+    },
+    {
+      "block_type": "prose",
+      "text": "The K11 model has been adopted for Australia.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Engine"
+    },
+    {
+      "block_type": "prose",
+      "text": "The ECM ROM data has been modified for the use of 91 octane fuel.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Body"
+    },
+    {
+      "block_type": "prose",
+      "text": "Child Restraint anchoring points have been introduced.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "K11 model adopted for Australia. ECM ROM modified for 91 octane fuel. Child Restraint anchoring points introduced."
+}

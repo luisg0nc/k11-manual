@@ -1,0 +1,216 @@
+{
+  "page_code": "EM-26",
+  "section": "EM",
+  "title": "OIL SEAL REPLACEMENT",
+  "page_type": "prose_procedure",
+  "source_image": "em-26.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-27"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM060",
+      "type": "component_photo",
+      "description": "Removing valve oil seal from cylinder head",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        18
+      ],
+      "associated_step": "Valve Oil Seal step 2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM136D",
+      "type": "tool_illustration",
+      "description": "Installing new valve oil seal using tool KV10115600",
+      "bbox_percent": [
+        0,
+        19,
+        35,
+        36
+      ],
+      "associated_step": "Valve Oil Seal step 3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM137D",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing correct valve oil seal location depth: 10.5 mm (0.413 in)",
+      "bbox_percent": [
+        0,
+        37,
+        35,
+        53
+      ],
+      "associated_step": "Valve Oil Seal step 4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM715A",
+      "type": "parts_diagram",
+      "description": "Oil seal installing direction diagram showing engine inside/outside orientation, oil seal lip and dust seal lip",
+      "bbox_percent": [
+        0,
+        54,
+        35,
+        69
+      ],
+      "associated_step": "Oil Seal Installing Direction"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM061",
+      "type": "component_photo",
+      "description": "Removing front oil seal from front cover",
+      "bbox_percent": [
+        0,
+        70,
+        35,
+        88
+      ],
+      "associated_step": "Front Oil Seal step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL SEAL REPLACEMENT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_oil_seal",
+      "title": "VALVE OIL SEAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove cylinder head.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Refer to \"Timing chain\" procedure."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Remove valve oil seal.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Apply engine oil to new valve oil seal and install it with Tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Do not re-use valve oil seals."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Ensure seal is located correctly as shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Refit cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve oil seal installation depth",
+          "value": "10.5",
+          "unit": "mm (0.413 in)",
+          "condition": "Measured from top of valve guide to top of seal"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OIL SEAL INSTALLING DIRECTION (for front & rear oil seals)"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "Diagram showing correct orientation of front and rear oil seals during installation",
+      "callouts": [
+        {
+          "label": "Engine inside",
+          "position": "left arrow"
+        },
+        {
+          "label": "Engine outside",
+          "position": "right arrow"
+        },
+        {
+          "label": "Oil seal lip",
+          "position": "lower left"
+        },
+        {
+          "label": "Dust seal lip",
+          "position": "lower right"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "front_oil_seal",
+      "title": "FRONT OIL SEAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove front cover. Refer to \"Removal\" in \"TIMING CHAIN\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove front oil seal from front cover.",
+          "figure_ref": "fig5",
+          "warnings": [
+            "Be careful not to damage oil seal retainer."
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not re-use valve oil seals.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to damage oil seal retainer.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115600",
+      "name": "Valve Oil Seal Installer",
+      "usage": "Install new valve oil seal onto valve guide"
+    }
+  ],
+  "cross_references": [
+    "TIMING CHAIN \u2014 Removal procedure",
+    "Timing chain procedure (for cylinder head removal)"
+  ],
+  "model_notes": null
+}

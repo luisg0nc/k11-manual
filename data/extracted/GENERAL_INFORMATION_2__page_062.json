@@ -1,0 +1,80 @@
+{
+  "page_code": "GI-7002",
+  "section": "GI",
+  "title": "MODIFICATIONS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi7002.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "APPLIED FROM:"
+    },
+    {
+      "block_type": "prose",
+      "text": "SJN *** K11 U4 000000\n*: Any of the possibilities. See Vehicle Identification Number arrangement.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OUTLINE OF MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "General"
+    },
+    {
+      "block_type": "prose",
+      "text": "All models comply with CEDIII regulation (E-OBD for petrol engine models).",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Engine"
+    },
+    {
+      "block_type": "prose",
+      "text": "The CG13 DE has been replaced by the CGA3DE (increased engine displacement).",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Transmission"
+    },
+    {
+      "block_type": "prose",
+      "text": "Double cone synchro on 1st and 2nd gear for petrol engine models.\nIntroduction of RE0F21A (replaces RE0F05A)",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Body"
+    },
+    {
+      "block_type": "prose",
+      "text": "Exterior changes (head lamps, rear combination lamps, etc.)\nInterior changes (trim, instrument panel, etc.)",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Vehicle Identification Number arrangement"
+  ],
+  "model_notes": "Petrol engine models noted specifically for CEDIII/E-OBD compliance, double cone synchro on 1st and 2nd gear, and RE0F21A transmission introduction."
+}

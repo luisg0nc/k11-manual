@@ -1,0 +1,50 @@
+{
+  "page_code": "GI-6003",
+  "section": "GI",
+  "title": "MODIFICATIONS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi6003.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "APPLIED FROM:"
+    },
+    {
+      "block_type": "prose",
+      "text": "SJN *** K11 U3 081095\n*: Any of the possibilities. See Vehicle Identification Number arrangement.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Outline of Modifications"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Body"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u2022 Introduction of side air bag.\n\u2022 Introduction of ISOFIX child restraint system.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Vehicle Identification Number arrangement"
+  ],
+  "model_notes": "Applied from SJN *** K11 U3 081095. Changes include introduction of side air bag and ISOFIX child restraint system."
+}

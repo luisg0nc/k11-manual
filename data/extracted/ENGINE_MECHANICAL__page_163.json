@@ -1,0 +1,78 @@
+{
+  "page_code": "EM-5030",
+  "section": "EM",
+  "title": "VALVE CLEARANCE \u2014 Adjusting (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": "EM-5029",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM289",
+      "type": "tool_illustration",
+      "description": "Illustration showing tool KV109B0100 being used on the valve adjustment mechanism on the engine",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        22
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "VALVE CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjusting (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_clearance_adjusting_contd",
+      "title": "Adjusting (Cont'd)",
+      "steps": [
+        {
+          "step": 7,
+          "text": "Remove Tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Recheck valve clearance.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Install rocker cover. Refer to \"CYLINDER HEAD\" (EM-5027).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0100",
+      "name": "Valve adjustment tool",
+      "usage": "Used during valve clearance adjustment procedure"
+    }
+  ],
+  "cross_references": [
+    "EM-5027"
+  ],
+  "model_notes": null
+}

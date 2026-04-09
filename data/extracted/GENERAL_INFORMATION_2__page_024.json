@@ -1,0 +1,95 @@
+{
+  "page_code": "GI-21",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING \u2014 Preparation",
+  "page_type": "spec_table",
+  "source_image": "GI-21.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of Board-on lift attachment (LM4086-0200), showing a flat plate bracket with mounting holes and a roller/pin assembly",
+      "bbox_percent": [
+        25,
+        8,
+        75,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of Safety stand attachment (LM4519-0000), showing a compact saddle-type adapter block",
+      "bbox_percent": [
+        25,
+        30,
+        55,
+        48
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Preparation"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "SPECIAL SERVICE TOOLS"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number_name",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number_name": "LM4086-0200\nBoard-on lift attachment",
+          "description": "[See fig1]"
+        },
+        {
+          "tool_number_name": "LM4519-0000\nSafety stand attachment",
+          "description": "[See fig2]"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "LM4086-0200",
+      "name": "Board-on lift attachment",
+      "usage": "Used as an attachment for board-on type vehicle lift"
+    },
+    {
+      "part_number": "LM4519-0000",
+      "name": "Safety stand attachment",
+      "usage": "Used as an attachment for safety stands"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

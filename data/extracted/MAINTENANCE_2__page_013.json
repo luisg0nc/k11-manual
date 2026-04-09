@@ -1,0 +1,154 @@
+{
+  "page_code": "MA-7013",
+  "section": "MA",
+  "title": "Checking CVT Fluid Level System",
+  "page_type": "prose_procedure",
+  "source_image": "MA-7013.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SMA146B",
+      "type": "vehicle_diagram",
+      "description": "Underside of vehicle showing fluid leakage drip points",
+      "bbox_percent": [
+        0,
+        1,
+        32,
+        14
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA036",
+      "type": "component_photo",
+      "description": "CVT dipstick showing COLD (MIN/MAX) and HOT (MIN/MAX) ranges with H-CVT label",
+      "bbox_percent": [
+        0,
+        14,
+        32,
+        30
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA051D",
+      "type": "component_photo",
+      "description": "A/T fluid level gauge and A/T fluid charging pipe with stopper positions (when fixing and when releasing) labeled",
+      "bbox_percent": [
+        0,
+        45,
+        32,
+        65
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SMA853B",
+      "type": "component_photo",
+      "description": "Technician checking fluid for contamination by wiping dipstick on lint-free paper",
+      "bbox_percent": [
+        0,
+        65,
+        32,
+        82
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CHASSIS AND BODY MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking CVT Fluid Level System"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc1",
+      "title": "Checking CVT Fluid Level System",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check for fluid leakage.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check fluid level. Fluid level should be checked using \"HOT\" range on dipstick at fluid temperatures of 50 to 80\u00b0C (122 to 176\u00b0F) after vehicle has been driven approximately 10 minutes in urban areas after engine is warmed up. But it can be checked at fluid temperatures of 30 to 50\u00b0C (86 to 122\u00b0F) using \"COLD\" range on dipstick for reference after engine is warmed up and before driving. However, fluid level must be rechecked using \"HOT\" range.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [],
+          "sub_steps": [
+            {
+              "sub_step": 1,
+              "text": "Park vehicle on level surface and set parking brake."
+            },
+            {
+              "sub_step": 2,
+              "text": "Start engine and then move selector lever through each gear range, ending in \"P\"."
+            },
+            {
+              "sub_step": 3,
+              "text": "Check fluid level with engine idling."
+            },
+            {
+              "sub_step": 4,
+              "text": "Remove dipstick and wipe it clean with lint-free paper."
+            },
+            {
+              "sub_step": 5,
+              "text": "Re-insert dipstick into charging pipe as far as it will go."
+            },
+            {
+              "sub_step": 6,
+              "text": "Remove dipstick and note reading. If level is at low side of either range, add fluid through the speedometer cable hole."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not overfill.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Firmly fix the dipstick using a lip attached to the fluid charging pipe.",
+      "style": "caution"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc2",
+      "title": "Check fluid condition",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Check fluid condition. Check fluid for contamination. If fluid is very dark, smells burned or contains frictional material check operation of CVT. Refer to section AT for checking operation of CVT.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT"
+  ],
+  "model_notes": "CVT (Continuously Variable Transmission) equipped vehicles only. Dipstick has both COLD and HOT MIN/MAX ranges labeled H-CVT."
+}

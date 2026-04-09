@@ -1,0 +1,181 @@
+{
+  "page_code": "GI-13",
+  "section": "GI",
+  "title": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+  "page_type": "spec_table",
+  "source_image": "page_gi13.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "connector_diagram",
+      "description": "Pin terminal check for S.M.J. type E.C.U. and A/T control unit connectors with voltmeter and ohmmeter illustration",
+      "bbox_percent": [
+        50,
+        88,
+        100,
+        98
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Key to symbols signifying measurements or procedures"
+    },
+    {
+      "block_type": "table",
+      "title": "Key to symbols signifying measurements or procedures",
+      "columns": [
+        {
+          "key": "symbol_left",
+          "label": "Symbol"
+        },
+        {
+          "key": "explanation_left",
+          "label": "Symbol explanation"
+        },
+        {
+          "key": "symbol_right",
+          "label": "Symbol"
+        },
+        {
+          "key": "explanation_right",
+          "label": "Symbol explanation"
+        }
+      ],
+      "rows": [
+        {
+          "symbol_left": "[DISCONNECT icon]",
+          "explanation_left": "Check after disconnecting the connector to be measured.",
+          "symbol_right": "[AMMETER icon]",
+          "explanation_right": "Current should be measured with an ammeter"
+        },
+        {
+          "symbol_left": "[CONNECT icon]",
+          "explanation_left": "Check after connecting the connector to be measured.",
+          "symbol_right": "[CONSULT icon]",
+          "explanation_right": "Procedure with CONSULT"
+        },
+        {
+          "symbol_left": "[KEY INSERT icon]",
+          "explanation_left": "Insert key into ignition switch.",
+          "symbol_right": "[NO CONSULT icon]",
+          "explanation_right": "Procedure without CONSULT"
+        },
+        {
+          "symbol_left": "[KEY REMOVE icon]",
+          "explanation_left": "Remove key from ignition switch.",
+          "symbol_right": "[A/C OFF icon]",
+          "explanation_right": "A/C switch is \"OFF\"."
+        },
+        {
+          "symbol_left": "[IGN OFF icon]",
+          "explanation_left": "Turn ignition switch to \"OFF\" position.",
+          "symbol_right": "[A/C ON icon]",
+          "explanation_right": "A/C switch is \"ON\"."
+        },
+        {
+          "symbol_left": "[IGN ON icon]",
+          "explanation_left": "Turn ignition switch to \"ON\" position.",
+          "symbol_right": "[FAN ON icon]",
+          "explanation_right": "Fan switch is \"ON\". (At any position except for \"OFF\" position)"
+        },
+        {
+          "symbol_left": "[IGN START icon]",
+          "explanation_left": "Turn ignition switch to \"START\" position.",
+          "symbol_right": "[FAN OFF icon]",
+          "explanation_right": "Fan switch is \"OFF\"."
+        },
+        {
+          "symbol_left": "[OFF to ACC icon]",
+          "explanation_left": "Turn ignition switch from \"OFF\" to \"ACC\" position.",
+          "symbol_right": "[BATTERY icon]",
+          "explanation_right": "Apply battery voltage directly to components."
+        },
+        {
+          "symbol_left": "[ACC to OFF icon]",
+          "explanation_left": "Turn ignition switch from \"ACC\" to \"OFF\" position.",
+          "symbol_right": "[DRIVE icon]",
+          "explanation_right": "Drive vehicle."
+        },
+        {
+          "symbol_left": "[OFF to ON icon]",
+          "explanation_left": "Turn ignition switch from \"OFF\" to \"ON\" position.",
+          "symbol_right": "[BATTERY DISCONNECT icon]",
+          "explanation_right": "Disconnect battery negative cable."
+        },
+        {
+          "symbol_left": "[ON to OFF icon]",
+          "explanation_left": "Turn ignition switch from \"ON\" to \"OFF\" position.",
+          "symbol_right": "[BRAKE DEPRESS icon]",
+          "explanation_right": "Depress brake pedal."
+        },
+        {
+          "symbol_left": "[ENGINE STOPPED icon]",
+          "explanation_left": "Do not start engine, or check with engine stopped.",
+          "symbol_right": "[BRAKE RELEASE icon]",
+          "explanation_right": "Release brake pedal."
+        },
+        {
+          "symbol_left": "[ENGINE RUNNING icon]",
+          "explanation_left": "Start engine, or check with engine running.",
+          "symbol_right": "[ACCEL DEPRESS icon]",
+          "explanation_right": "Depress accelerator pedal."
+        },
+        {
+          "symbol_left": "[PARKING BRAKE APPLY icon]",
+          "explanation_left": "Apply parking brake.",
+          "symbol_right": "[ACCEL RELEASE icon]",
+          "explanation_right": "Release accelerator pedal."
+        },
+        {
+          "symbol_left": "[PARKING BRAKE RELEASE icon]",
+          "explanation_left": "Release parking brake.",
+          "symbol_right": "[PIN TERMINAL CHECK icon]",
+          "explanation_right": "Pin terminal check for S.M.J. type E.C.U. and A/T control unit connectors. For details regarding the terminal arrangement, refer to the foldout page."
+        },
+        {
+          "symbol_left": "[WARM UP icon]",
+          "explanation_left": "Check after engine is warmed up sufficiently.",
+          "symbol_right": "",
+          "explanation_right": ""
+        },
+        {
+          "symbol_left": "[VOLTMETER icon]",
+          "explanation_left": "Voltage should be measured with a voltmeter.",
+          "symbol_right": "",
+          "explanation_right": ""
+        },
+        {
+          "symbol_left": "[OHMMETER icon]",
+          "explanation_left": "Circuit resistance should be measured with an ohmmeter.",
+          "symbol_right": "",
+          "explanation_right": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Pin terminal check for S.M.J. type E.C.U. and A/T control unit connectors. For details regarding the terminal arrangement, refer to the foldout page.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "foldout page"
+  ],
+  "model_notes": null
+}

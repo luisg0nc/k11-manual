@@ -1,0 +1,215 @@
+{
+  "page_code": "EM-14",
+  "section": "EM",
+  "title": "OIL PAN",
+  "page_type": "prose_procedure",
+  "source_image": "EM-14.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM150D",
+      "type": "vehicle_diagram",
+      "description": "Underside view showing splashguards and front tube area with arrows indicating removal points for oil pan access",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        18
+      ],
+      "associated_step": "Removal step 1-4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM883A",
+      "type": "tool_illustration",
+      "description": "Tool KV10111100 being inserted between cylinder block and oil pan",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        36
+      ],
+      "associated_step": "Removal step 5(1)"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM884A",
+      "type": "tool_illustration",
+      "description": "Tool KV10111100 being slid by tapping with hammer to remove oil pan",
+      "bbox_percent": [
+        0,
+        36,
+        38,
+        53
+      ],
+      "associated_step": "Removal step (2)"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM038",
+      "type": "parts_diagram",
+      "description": "Oil pan showing front and rear seal positions",
+      "bbox_percent": [
+        0,
+        53,
+        38,
+        68
+      ],
+      "associated_step": "Installation step 2"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM039",
+      "type": "parts_diagram",
+      "description": "Oil pan mating surface showing liquid gasket bead application dimensions: 20 (0.79) mm spacing on sides, 4.0-5.0 (0.158-0.197) mm bead width. Unit: mm (in)",
+      "bbox_percent": [
+        0,
+        68,
+        38,
+        88
+      ],
+      "associated_step": "Installation step 3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL PAN"
+    },
+    {
+      "block_type": "procedure",
+      "id": "oil_pan_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove splashguards for access to oil pan area.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain engine oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove center member.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remover front exhaust tube.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove oil pan bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "(1) Insert Tool between cylinder block and oil pan.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Be careful not to damage aluminum mating surface.",
+            "Do not insert screwdriver, or oil pan flange will be deformed."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "(2) Slide Tool by tapping its side with a hammer, and remove oil pan.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "oil_pan_installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Before installing oil pan, remove all traces of liquid gasket from mating surfaces using a scraper.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Also remove traces of liquid gasket from mating surface of cylinder block."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Fit new seals as shown. Ensure correct length, front & rear: Length \"l\": Front seal 134 mm (5.28 in) Rear seal 123 mm (4.84 in)",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Apply a continuous bead of liquid gasket to mating surface of oil pan as shown.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "Use Genuine Liquid Gasket or equivalent."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Front seal length",
+          "value": "134",
+          "unit": "mm (5.28 in)",
+          "condition": "Installation"
+        },
+        {
+          "label": "Rear seal length",
+          "value": "123",
+          "unit": "mm (4.84 in)",
+          "condition": "Installation"
+        },
+        {
+          "label": "Liquid gasket bead width",
+          "value": "4.0 - 5.0",
+          "unit": "mm (0.158 - 0.197 in)",
+          "condition": "Oil pan mating surface"
+        },
+        {
+          "label": "Liquid gasket bead position from edge",
+          "value": "20",
+          "unit": "mm (0.79 in)",
+          "condition": "Both sides"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10111100",
+      "name": "Oil Pan Removal Tool",
+      "usage": "Insert between cylinder block and oil pan, then tap with hammer to separate oil pan from block without damaging mating surfaces"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

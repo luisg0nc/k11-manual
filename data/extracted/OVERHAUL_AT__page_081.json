@@ -1,0 +1,111 @@
+{
+  "page_code": "AT-81",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Shift Characteristics Inspection (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-81.jpg",
+  "continuation": {
+    "continues_from": "AT-80",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shift Characteristics Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "7. The shift line is low for the accelerator pedal depression position"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "The shift line is low for the accelerator pedal depression position",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check the throttle wire"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Adjust or replace the throttle wire"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check the modulator linkage of the control valve"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Adjust the modulator linkage"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Check the compensation plunger operation"
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "Replace the control valve"
+        },
+        {
+          "id": "n7",
+          "type": "terminal",
+          "text": "Note: Replace the control valve assembly if the valve or body is damaged"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "O.K."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n6",
+          "to": "n7",
+          "label": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Replace the control valve assembly if the valve or body is damaged",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

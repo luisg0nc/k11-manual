@@ -1,0 +1,176 @@
+{
+  "page_code": "MA-18",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance \u2014 Checking and Changing N-CVT Fluid",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SMA146B",
+      "type": "vehicle_diagram",
+      "description": "Underside of vehicle showing fluid leakage check points (drip indicators)",
+      "bbox_percent": [
+        0,
+        1,
+        32,
+        13
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA036",
+      "type": "component_photo",
+      "description": "N-CVT dipstick showing COLD and HOT MIN/MAX ranges",
+      "bbox_percent": [
+        0,
+        13,
+        32,
+        33
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA853B",
+      "type": "tool_illustration",
+      "description": "Technician checking fluid for contamination by examining dipstick",
+      "bbox_percent": [
+        0,
+        55,
+        32,
+        74
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UMA037",
+      "type": "component_photo",
+      "description": "N-CVT drain plug location on transmission pan (arrow indicating drain plug)",
+      "bbox_percent": [
+        0,
+        74,
+        32,
+        93
+      ],
+      "associated_step": "changing_ncvt_fluid"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CHASSIS AND BODY MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking N-CVT Fluid Level"
+    },
+    {
+      "block_type": "procedure",
+      "id": "check_ncvt_fluid_level",
+      "title": "Checking N-CVT Fluid Level",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check for fluid leakage.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check fluid level. Fluid level should be checked using \"HOT\" range on dipstick at fluid temperatures of 50 to 80\u00b0C (122 to 176\u00b0F) after vehicle has been driven approximately 10 minutes in urban areas after engine is warmed up. But it can be checked at fluid temperatures of 30 to 50\u00b0C (86 to 122\u00b0F) using \"COLD\" range on dipstick for reference after engine is warmed up and before driving. However, fluid level must be rechecked using \"HOT\" range.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [],
+          "sub_steps": [
+            {
+              "sub_step": 1,
+              "text": "Park vehicle on level surface and set parking brake."
+            },
+            {
+              "sub_step": 2,
+              "text": "Start engine and then move selector lever through each gear range, ending in \"P\"."
+            },
+            {
+              "sub_step": 3,
+              "text": "Check fluid level with engine idling."
+            },
+            {
+              "sub_step": 4,
+              "text": "Remove dipstick and wipe it clean with lint-free paper."
+            },
+            {
+              "sub_step": 5,
+              "text": "Re-insert dipstick into charging pipe as far as it will go."
+            },
+            {
+              "sub_step": 6,
+              "text": "Remove dipstick and note reading. If level is at low side of either range, add fluid through the speedometer cable hole."
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Check fluid condition. Check fluid for contamination. If fluid is very dark or smells burned, or contains frictional material check operation of N-CVT. Refer to section AT for checking operation of N-CVT.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: Do not overfill.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing N-CVT Fluid"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Oil capacity (including cooler)",
+          "value": "4.15",
+          "unit": "\u2113 (7-5/16 Imp pt)",
+          "condition": "including cooler"
+        },
+        {
+          "label": "Oil capacity (without cooler)",
+          "value": "3.2",
+          "unit": "\u2113 (5-5/8 Imp pt)",
+          "condition": "without cooler"
+        },
+        {
+          "label": "Drain plug torque",
+          "value": "23 - 27",
+          "unit": "N\u00b7m (2.34 - 2.75 kg-m, 17 - 20 ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Recommended fluid",
+          "value": "DEXRON IIE\u2122",
+          "unit": "type A/T fluid",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT"
+  ],
+  "model_notes": "N-CVT (Continuously Variable Transmission) equipped models only. Fluid level check procedure differs between COLD (30\u201350\u00b0C / 86\u2013122\u00b0F) and HOT (50\u201380\u00b0C / 122\u2013176\u00b0F) ranges on dipstick."
+}

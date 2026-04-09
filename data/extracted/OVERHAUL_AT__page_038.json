@@ -1,0 +1,169 @@
+{
+  "page_code": "AT-38",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Throttle Wire",
+  "page_type": "prose_procedure",
+  "source_image": "AT-38.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT060",
+      "type": "parts_diagram",
+      "description": "Inner cable shown at engine side and transaxle side of throttle wire assembly",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        20
+      ],
+      "associated_step": "Inspection"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT061",
+      "type": "parts_diagram",
+      "description": "Inner cable routing through transaxle case area",
+      "bbox_percent": [
+        0,
+        21,
+        32,
+        40
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT062",
+      "type": "parts_diagram",
+      "description": "Wire end, throttle valve, cable, and guide groove inside the transaxle control valve body",
+      "bbox_percent": [
+        0,
+        41,
+        32,
+        60
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT063",
+      "type": "parts_diagram",
+      "description": "Throttle drum, adjuster tube, bracket, lock plate, adjuster body, and mating marks A and B; also view C showing lock plate expanded",
+      "bbox_percent": [
+        0,
+        61,
+        32,
+        98
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Throttle Wire"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure the inner wire of wire assembly moves smoothly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure there is no wear or damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check that outer wire connection points are not loose.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check that there is no wear or damage on outer wire.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "throttle_wire_installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit a new O-ring (7 x 1.9) to the wire assembly and insert in transaxle case hole. Tighten bolt and washer.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Tightening torque",
+              "value": "4.9",
+              "unit": "Nm",
+              "condition": null
+            },
+            {
+              "label": "Tightening torque",
+              "value": "0.5",
+              "unit": "kg-m",
+              "condition": null
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Pass inner wire through casing and control valve guide grove. Install wire end. Pull inner wire from outside the unit. Make sure the inner cable operates smoothly inside the case and does not contact the case wall and valve body assembly.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Align throttle wire plastic casing mating mark A with engine bracket mating mark B. Assemble throttle wire plastic casing in engine bracket.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "After assembly, make sure part C is expanded and installed securely as shown in view X of figure.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install the throttle wire in throttle drum and charging pipe bracket. Adjust throttle wire length (refer to Throttle Wire Adjustment) and secure band and clip.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note:\n1. Do not apply excessive force to the wire.\n2. If the inner wire is bent, straighten it before installation.\n3. When installing inner wire in throttle drum, do not use long-nose pliers or other tools to prevent the wire from bending.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Throttle Wire Adjustment"
+  ],
+  "model_notes": "Applicable to automatic transaxle (AT) equipped vehicles."
+}

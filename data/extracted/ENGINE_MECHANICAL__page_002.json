@@ -1,0 +1,171 @@
+{
+  "page_code": "EM",
+  "section": "EM",
+  "title": "ENGINE MECHANICAL",
+  "page_type": "index_toc",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MECHANICAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION EM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<1ST REVISION>"
+    },
+    {
+      "block_type": "table",
+      "title": "1ST REVISION Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "EM-2"
+        },
+        {
+          "topic": "PREPARATION",
+          "page": "EM-3"
+        },
+        {
+          "topic": "OUTER COMPONENT PARTS",
+          "page": "EM-7"
+        },
+        {
+          "topic": "COMPRESSION PRESSURE",
+          "page": "EM-13"
+        },
+        {
+          "topic": "OIL PAN",
+          "page": "EM-14"
+        },
+        {
+          "topic": "TIMING CHAIN",
+          "page": "EM-16"
+        },
+        {
+          "topic": "OIL SEAL REPLACEMENT",
+          "page": "EM-26"
+        },
+        {
+          "topic": "CYLINDER HEAD",
+          "page": "EM-28"
+        },
+        {
+          "topic": "VALVE CLEARANCE",
+          "page": "EM-36"
+        },
+        {
+          "topic": "ENGINE REMOVAL",
+          "page": "EM-39"
+        },
+        {
+          "topic": "CYLINDER BLOCK",
+          "page": "EM-43"
+        },
+        {
+          "topic": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)",
+          "page": "EM-57"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-I>"
+    },
+    {
+      "block_type": "prose",
+      "text": "NO CHANGES",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-II>"
+    },
+    {
+      "block_type": "prose",
+      "text": "NO CHANGES",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-III>"
+    },
+    {
+      "block_type": "prose",
+      "text": "NO CHANGES",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-IV>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-IV Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "OUTER COMPONENT PARTS",
+          "page": "EM-4002"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM-2",
+    "EM-3",
+    "EM-7",
+    "EM-13",
+    "EM-14",
+    "EM-16",
+    "EM-26",
+    "EM-28",
+    "EM-36",
+    "EM-39",
+    "EM-43",
+    "EM-57",
+    "EM-4002"
+  ],
+  "model_notes": null
+}

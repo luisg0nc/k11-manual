@@ -1,0 +1,241 @@
+{
+  "page_code": "AT-123",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-123.jpg",
+  "continuation": {
+    "continues_from": "AT-122",
+    "continues_to": "AT-124"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT269",
+      "type": "component_photo",
+      "description": "Oil strainer with O-ring callout being fitted to transmission",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        20
+      ],
+      "associated_step": "62"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT270",
+      "type": "component_photo",
+      "description": "Oil strainer installed view from above showing oil pan area",
+      "bbox_percent": [
+        0,
+        21,
+        42,
+        38
+      ],
+      "associated_step": "62"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT271",
+      "type": "component_photo",
+      "description": "Oil pan being fitted to transmission",
+      "bbox_percent": [
+        0,
+        39,
+        42,
+        56
+      ],
+      "associated_step": "63"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT272",
+      "type": "component_photo",
+      "description": "Inhibit switch and selector linkage fitting with arrows indicating securing bolts",
+      "bbox_percent": [
+        0,
+        57,
+        42,
+        74
+      ],
+      "associated_step": "64"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT273",
+      "type": "component_photo",
+      "description": "Inhibit switch alignment using 4mm dia pin through linkage, showing Pin, Linkage, Inhibit switch and Adjust callouts",
+      "bbox_percent": [
+        0,
+        75,
+        42,
+        98
+      ],
+      "associated_step": "66"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 62,
+          "text": "Fit the oil strainer.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Use a new O ring, ensure it is installed correctly."
+          ],
+          "specs": [
+            {
+              "label": "Strainer bolt torque (6 x 40 mm)",
+              "value": "8.5 - 9.5",
+              "unit": "N\u00b7m",
+              "condition": "6 x 40 mm bolt"
+            },
+            {
+              "label": "Strainer bolt torque (6 x 40 mm) - kg-m",
+              "value": "0.87 - 0.97",
+              "unit": "kg-m",
+              "condition": "6 x 40 mm bolt"
+            },
+            {
+              "label": "Strainer bolt torque (6 x 40 mm) - ft-lb",
+              "value": "6 - 7",
+              "unit": "ft-lb",
+              "condition": "6 x 40 mm bolt"
+            },
+            {
+              "label": "Strainer bolt torque (6 x 10 mm)",
+              "value": "4.5 - 5.5",
+              "unit": "N\u00b7m",
+              "condition": "6 x 10 mm bolt"
+            },
+            {
+              "label": "Strainer bolt torque (6 x 10 mm) - kg-m",
+              "value": "0.46 - 0.97",
+              "unit": "kg-m",
+              "condition": "6 x 10 mm bolt"
+            },
+            {
+              "label": "Strainer bolt torque (6 x 10 mm) - ft-lb",
+              "value": "3 - 7",
+              "unit": "ft-lb",
+              "condition": "6 x 10 mm bolt"
+            }
+          ]
+        },
+        {
+          "step": 63,
+          "text": "Fit the oil pan.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Ensure the magnet is seated in the concave area of pan, and is clean and free from foreign matter.",
+            "Do not re-use the old gasket."
+          ],
+          "specs": [
+            {
+              "label": "Oil pan bolt torque",
+              "value": "5.5 - 6.5",
+              "unit": "N\u00b7m",
+              "condition": null
+            },
+            {
+              "label": "Oil pan bolt torque - kg-m",
+              "value": "0.56 - 0.66",
+              "unit": "kg-m",
+              "condition": null
+            },
+            {
+              "label": "Oil pan bolt torque - ft-lb",
+              "value": "4 - 5",
+              "unit": "ft-lb",
+              "condition": null
+            }
+          ]
+        },
+        {
+          "step": 64,
+          "text": "Fit the inhibit switch. Partially tighten the securing bolts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 65,
+          "text": "Fit the selector linkage, spacers and spring pins. Tighten the lock nut while holding the linkage with 8 mm dia. pin (refer to disassembly procedure).",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Torque",
+              "value": "36 - 42",
+              "unit": "N\u00b7m",
+              "condition": null
+            },
+            {
+              "label": "Torque - kg-m",
+              "value": "3.7 - 4.3",
+              "unit": "kg-m",
+              "condition": null
+            },
+            {
+              "label": "Torque - ft-lb",
+              "value": "27 - 31",
+              "unit": "ft-lb",
+              "condition": null
+            }
+          ]
+        },
+        {
+          "step": 66,
+          "text": "Align the inhibit switch using a 4mm. dia pin through the linkage as shown. Tighten the switch securing nuts.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Torque",
+              "value": "4.5 - 5.5",
+              "unit": "N\u00b7m",
+              "condition": null
+            },
+            {
+              "label": "Torque - kg-m",
+              "value": "0.46 - 0.56",
+              "unit": "kg-m",
+              "condition": null
+            },
+            {
+              "label": "Torque - ft-lb",
+              "value": "3 - 4",
+              "unit": "ft-lb",
+              "condition": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "disassembly procedure"
+  ],
+  "model_notes": "Automatic transmission assembly procedure. A/T specific."
+}

@@ -1,0 +1,163 @@
+{
+  "page_code": "AT-18",
+  "section": "AT",
+  "title": "OPERATION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-18.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-19"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT025",
+      "type": "component_photo",
+      "description": "Pressure regulator valve diagram showing primary pulley sliding sheave, sensor shoe, spring, spool valves D1 and D2, line pressure control solenoid valve (4), pitot pressure circuit (7), line pressure, secondary pulley, oil pump, shift control valve, lubricating oil pressure, and drain points (X). Circuits numbered 1-7 are labeled.",
+      "bbox_percent": [
+        0,
+        10,
+        100,
+        52
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "prose",
+      "text": "The hydraulic control valve assembly consists of:\n1) Pressure regulator valve.\n2) Shift control valve.\n3) Engine brake valve.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "1) Pressure regulator valve"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Pressure regulator valve schematic showing all circuits and components",
+      "callouts": [
+        {
+          "label": "1 - Pressure regulator valve (circuit/spring area)",
+          "position": "left-center"
+        },
+        {
+          "label": "2 - Valve body area",
+          "position": "left-center"
+        },
+        {
+          "label": "3 - Chamber 3",
+          "position": "center"
+        },
+        {
+          "label": "4 - Line pressure control solenoid valve",
+          "position": "right"
+        },
+        {
+          "label": "5 - Circuit 5",
+          "position": "center-right"
+        },
+        {
+          "label": "6 - Drain circuit 6 (X = Drain)",
+          "position": "top-right"
+        },
+        {
+          "label": "7 - Pitot pressure circuit",
+          "position": "left"
+        },
+        {
+          "label": "D1 - Spool valve D1",
+          "position": "left-center"
+        },
+        {
+          "label": "D2 - Spool valve D2",
+          "position": "center"
+        },
+        {
+          "label": "Spring 1",
+          "position": "center"
+        },
+        {
+          "label": "Primary pulley sliding sheave",
+          "position": "top-center"
+        },
+        {
+          "label": "Sensor shoe",
+          "position": "top-center"
+        },
+        {
+          "label": "Pulley ratio (Large) - arrow left",
+          "position": "top-center"
+        },
+        {
+          "label": "Pulley ratio (Small) - arrow right",
+          "position": "top-right"
+        },
+        {
+          "label": "Pitot pressure",
+          "position": "left"
+        },
+        {
+          "label": "Line pressure",
+          "position": "left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "left"
+        },
+        {
+          "label": "Oil pump",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "bottom-center"
+        },
+        {
+          "label": "Lubricating oil pressure",
+          "position": "bottom-center"
+        },
+        {
+          "label": "X = Drain",
+          "position": "bottom-right"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "The pressure regulator valve ensures that optimum hydraulic pressure is maintained at the secondary (output) pulley and determines secondary pulley groove width according to primary pulley groove width. Pressure in circuits 1 and 2 is balanced by spring 1.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Pressure is determined by speed ratio, engine rev/min and a torque signal from the ECU.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The pulley ratio sensor detects the position of the primary pulley and alters the regulator valve spring length accordingly. The speed of the pulley is sensed and pitot pressure (proportional to primary pulley rev/min) acts upon circuit 7 opposite the spring. When primary pulley (engine) rev/min increases, pitot pressure also increases, and the pressure regulator valve moves to the right to prevent line pressure increasing (due to increased oil pump speed).",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "When it becomes necessary to change from low to high pressure (or vice versa), line pressure is delivered to chamber 3 from the control solenoid valve 4 via circuit 5. Under partial load conditions, line pressure is controlled by the solenoid valve 4 (ON) and the difference in diameter of the spool valves D1 and D2. Diameter D2 is larger than D1, working area is increased, line pressure is reduced.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Under heavy load conditions, the solenoid valve 4 (OFF) closes and shuts off the oil pressure chamber lines.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Pressure from circuit 5 is drained via circuit 6. Line pressure increases.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to CVT (Continuously Variable Transmission) equipped K11 Nissan Micra models."
+}

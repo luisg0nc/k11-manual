@@ -1,0 +1,132 @@
+{
+  "page_code": "EM-23",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-23.jpg",
+  "continuation": {
+    "continues_from": "EM-22",
+    "continues_to": "EM-24"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM047",
+      "type": "parts_diagram",
+      "description": "Timing chain mating marks diagram showing silver and bronze mating marks on camshaft sprockets, with link counts: 5 links, 7 links, 11 links between marks",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "17"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM128D",
+      "type": "component_photo",
+      "description": "Camshaft alignment showing knock pins on both camshafts aligned as required for installation",
+      "bbox_percent": [
+        0,
+        22,
+        35,
+        42
+      ],
+      "associated_step": "18"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM055",
+      "type": "parts_diagram",
+      "description": "Tensioner assembly components: tensioner body, piston, ratchet, spring, plunger",
+      "bbox_percent": [
+        0,
+        42,
+        35,
+        58
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM056",
+      "type": "component_photo",
+      "description": "Hand assembling tensioner by rotating and pushing ratchet up the spiral with piston and ratchet labelled",
+      "bbox_percent": [
+        0,
+        58,
+        35,
+        74
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM057",
+      "type": "component_photo",
+      "description": "Installed tensioner on timing chain assembly showing tensioner position on engine",
+      "bbox_percent": [
+        0,
+        74,
+        35,
+        95
+      ],
+      "associated_step": "19"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 17,
+          "text": "Assemble camshaft sprocket with chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Set timing chain by aligning mating marks with those of camshaft sprockets.",
+            "Make sure sprocket's mating marks face engine front."
+          ]
+        },
+        {
+          "step": 18,
+          "text": "Install camshaft sprocket bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Make sure camshafts are aligned as shown in figure."
+          ]
+        },
+        {
+          "step": 19,
+          "text": "Assemble the tensioner by rotating and pushing the ratchet up the spiral until it stops. The tensioner is now pre-set. Chain lash will automatically set the tensioner when the engine is started. Install the tensioner.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Check no problems occur when engine is rotated.\n\u2022 Make sure that No. 1 piston is set at T.D.C. on its compression stroke.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

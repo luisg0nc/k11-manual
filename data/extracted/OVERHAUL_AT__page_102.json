@@ -1,0 +1,159 @@
+{
+  "page_code": "AT-102",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-102.jpg",
+  "continuation": {
+    "continues_from": "AT-101",
+    "continues_to": "AT-103"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT195",
+      "type": "component_photo",
+      "description": "View of transmission showing pulley retaining bolts with arrows indicating their location",
+      "bbox_percent": [
+        0,
+        1,
+        33,
+        16
+      ],
+      "associated_step": "44"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT196",
+      "type": "component_photo",
+      "description": "Drive belt with harness ties fitted to prevent band separation",
+      "bbox_percent": [
+        0,
+        17,
+        33,
+        33
+      ],
+      "associated_step": "45"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT197",
+      "type": "tool_illustration",
+      "description": "Tool KV319-K0090 fitted to secondary pulley showing groove width expansion dimensions of 52-53 mm (2.05-2.09 in), with Seat callout",
+      "bbox_percent": [
+        0,
+        34,
+        33,
+        52
+      ],
+      "associated_step": "46"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT198",
+      "type": "component_photo",
+      "description": "Secondary pulley being eased away from side case with drive belt engaged in pulley grooves",
+      "bbox_percent": [
+        0,
+        53,
+        33,
+        69
+      ],
+      "associated_step": "48"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT199",
+      "type": "component_photo",
+      "description": "Two technician hands removing secondary pulley and drive belt together from the transmission",
+      "bbox_percent": [
+        0,
+        70,
+        33,
+        89
+      ],
+      "associated_step": "49"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_cvt",
+      "title": "CVT Disassembly (continued)",
+      "steps": [
+        {
+          "step": 44,
+          "text": "Remove the pulley retaining bolts complete with O rings.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 45,
+          "text": "Fit two harness ties to the drive belt as shown. This will prevent the bands separating.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 46,
+          "text": "Fit Tool to the secondary pulley, and expand the groove width to 52 - 53 mm (2.05- 2.09 in).",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Do not expand the groove width any more than stated, internal damage may occur."
+          ],
+          "notes": []
+        },
+        {
+          "step": 47,
+          "text": "Ease the secondary pulley away from the side case.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 48,
+          "text": "Engage the pulley grooves and remove the drive belt from the primary pulley.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 49,
+          "text": "Remove the secondary pulley and drive belt together.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "Pulley/drive belt removal is best achieved with two technicians. While one lifts the secondary pulley and engages the grooves, the other removes the belt from the primary pulley.",
+            "Keep components safely stored, in clean conditions, until required for re-assembly."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Pulley/drive belt removal is best achieved with two technicians. While one lifts the secondary pulley and engages the grooves, the other removes the belt from the primary pulley.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Keep components safely stored, in clean conditions, until required for re-assembly.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0090",
+      "name": "Secondary Pulley Groove Expander Tool",
+      "usage": "Fit to secondary pulley and expand groove width to 52-53 mm (2.05-2.09 in) to allow removal of drive belt"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "CVT (Continuously Variable Transmission) disassembly procedure. Applicable to K11 Micra with automatic CVT transmission."
+}

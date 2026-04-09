@@ -1,0 +1,199 @@
+{
+  "page_code": "AT-80",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Shift Characteristics Inspection (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-80.jpg",
+  "continuation": {
+    "continues_from": "AT-79",
+    "continues_to": "AT-81"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shift Characteristics Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "5. The engine brake doesn't operate in the Ds-range (This is normal in the D-range)"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "5. The engine brake doesn't operate in the Ds-range (This is normal in the D-range)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check the compensation plunger operation"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Check the engine brake valve operation"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check the engine brake plunger operation"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Replace the control valve\n\nNote: Replace the control valve assembly if the valve or body is scratched"
+        },
+        {
+          "id": "n5",
+          "type": "terminal",
+          "text": "Repair or replace the damaged part"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "O.K."
+        },
+        {
+          "from": "n1",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "N.G."
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "6. The shift line is high when the accelerator is depressed"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "6. The shift line is high when the accelerator is depressed",
+      "nodes": [
+        {
+          "id": "m1",
+          "type": "action",
+          "text": "Check the throttle wire"
+        },
+        {
+          "id": "m2",
+          "type": "action",
+          "text": "Check the modulator linkage of the control valve"
+        },
+        {
+          "id": "m3",
+          "type": "action",
+          "text": "Check the high-speed spring of the control valve for sticking"
+        },
+        {
+          "id": "m4",
+          "type": "action",
+          "text": "Check for primary hydraulic circuit leaks, e.g.:\n\u2022 Oil pump gasket\n\u2022 Primary pulley seal ring\n\u2022 Primary bushing"
+        },
+        {
+          "id": "m5",
+          "type": "action",
+          "text": "Check Pitot pressure circuit for leaks or clogging"
+        },
+        {
+          "id": "m6",
+          "type": "terminal",
+          "text": "Adjust or replace the throttle wire"
+        },
+        {
+          "id": "m7",
+          "type": "terminal",
+          "text": "Adjust the modulator linkage"
+        },
+        {
+          "id": "m8",
+          "type": "terminal",
+          "text": "Replace the control valve"
+        },
+        {
+          "id": "m9",
+          "type": "terminal",
+          "text": "Repair or replace the faulty parts"
+        },
+        {
+          "id": "m10",
+          "type": "terminal",
+          "text": "Repair or replace the faulty parts"
+        }
+      ],
+      "edges": [
+        {
+          "from": "m1",
+          "to": "m6",
+          "label": "N.G."
+        },
+        {
+          "from": "m1",
+          "to": "m2",
+          "label": "O.K."
+        },
+        {
+          "from": "m2",
+          "to": "m7",
+          "label": "N.G."
+        },
+        {
+          "from": "m2",
+          "to": "m3",
+          "label": "O.K."
+        },
+        {
+          "from": "m3",
+          "to": "m8",
+          "label": "N.G."
+        },
+        {
+          "from": "m3",
+          "to": "m4",
+          "label": "O.K."
+        },
+        {
+          "from": "m4",
+          "to": "m9",
+          "label": "N.G."
+        },
+        {
+          "from": "m4",
+          "to": "m5",
+          "label": "O.K."
+        },
+        {
+          "from": "m5",
+          "to": "m10",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

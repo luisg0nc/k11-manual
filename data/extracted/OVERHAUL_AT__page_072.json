@@ -1,0 +1,88 @@
+{
+  "page_code": "AT-72",
+  "section": "AT",
+  "title": "TROUBLE DIAGNOSIS",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Diagnosis Chart"
+    },
+    {
+      "block_type": "table",
+      "title": "Diagnosis Chart",
+      "columns": [
+        {
+          "key": "no",
+          "label": "No."
+        },
+        {
+          "key": "cause",
+          "label": "Probable cause and damage symptoms"
+        },
+        {
+          "key": "countermeasure",
+          "label": "Countermeasure"
+        }
+      ],
+      "rows": [
+        {
+          "no": "1",
+          "cause": "Incorrect adjustment",
+          "countermeasure": "Check and adjust"
+        },
+        {
+          "no": "2",
+          "cause": "Accelerator switch abnormality (when accelerator switch stays \"ON\")\n\u2022 After engine starts, vehicle does not move. When the accelerator position switch operates, vehicle can start moving above engine rpm of 1,100 in \"D\" or \"Ds\" range because fail-safe mode is set.",
+          "countermeasure": "\u2022 Check accelerator switch\n\u2022 Check accelerator switch function\n\u2022 Check harness to N-CVT control unit\n\u2022 Replace accelerator switch"
+        },
+        {
+          "no": "3",
+          "cause": "Engine ground is faulty\n\u2022 Engine speed fluctuates and is not smooth",
+          "countermeasure": "\u2022 Check for the ground terminal tightness."
+        },
+        {
+          "no": "4",
+          "cause": "Connector contact is faulty\n\u2022 Problem condition occurs intermittently or irregularly. This also occurs because of vehicle vibration.\nRelated connectors:\n1. Inhibitor switch connectors\n2. N-CVT control unit connectors\n   \u2460 Range signal\n   \u2461 Clutch circuit output\n3. Brush holder connector in engine room",
+          "countermeasure": "\u2022 Check insertion condition of connectors (Terminal open or removed)\n\u2022 Check terminal crimping for disconnection\n\u2022 Replace terminal"
+        },
+        {
+          "no": "5",
+          "cause": "Improper inhibitor switch contact. (Dust or debris adheres to contact point or contact point operation is faulty)",
+          "countermeasure": "\u2022 Check inhibitor switch\n\u2022 Replace inhibitor switch"
+        },
+        {
+          "no": "6",
+          "cause": "Inhibitor switch adjustment is incorrect",
+          "countermeasure": "\u2022 Adjust inhibitor switch"
+        },
+        {
+          "no": "7",
+          "cause": "Brush holder is faulty:\n\u2022 Harness disconnection, faulty sealing or short circuit\n\u2022 Brush distortion\n\u2022 Soiled brush or slip ring (oil leak or water damage)\n\u2022 Foreign matter in brush end, brush wear\n\n\u2022 The brush holder itself is usually not damaged. In most cases, chips or particles (iron/aluminium) in the clutch housing short-circuit the slip ring or brush, or oil and water leaks cause incorrect connection.\n\n\u2022 When there is a slip ring or brush short-circuit, this causes N-CVT control unit damage which may result in improper selector operation, cause the engine to stop in the drive range or idle incorrectly. However, there is an N-CVT protection function which disconnects the clutch when a clutch short-circuit is detected.",
+          "countermeasure": "\u2022 Replace brush holder (except where there is a short circuit)\n\u2022 Replace oil seal (oil leaks)\n\u2022 Check or repair housing seal (when water has penetrated)\n\u2022 Remove foreign matter from housing"
+        },
+        {
+          "no": "8",
+          "cause": "Insufficient clutch torque capacity, incorrect clutch operation\n\u2022 Burn damage (powder loses magnetic characteristics)\n\u2022 The clutch is exposed to water or oil\n\u2022 Powder leak or short-circuit (The vehicle may not start to move)\n\n\u2022 When the capacity insufficiency is slight, the vehicle may be driven even though the clutch may slip often. The condition will become more severe and the vehicle will not move at all eventually",
+          "countermeasure": "\u2022 Perform the stall test to check for insufficient capacity\n\u2022 Clutch replacement (insufficient capacity)\n\u2022 Oil seal replacement (oil leak)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N-CVT (Nissan Continuously Variable Transmission) specific. References D and Ds range selector positions."
+}

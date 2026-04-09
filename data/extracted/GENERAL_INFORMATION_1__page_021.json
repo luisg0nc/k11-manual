@@ -1,0 +1,143 @@
+{
+  "page_code": "GI-17",
+  "section": "GI",
+  "title": "Identification Information \u2014 Model Variation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi17.jpg",
+  "continuation": {
+    "continues_from": "GI-16",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Prefix and suffix designation chart showing model code breakdown: E AE A L D F K11 E F A with lines connecting each position to its meaning",
+      "bbox_percent": [
+        2,
+        5,
+        98,
+        55
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Prefix and suffix designations:"
+    },
+    {
+      "block_type": "table",
+      "title": "Model Code Position Designations",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "code": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "code": "AE",
+          "meaning": "CG10DE"
+        },
+        {
+          "code": "AN",
+          "meaning": "CG13DE"
+        },
+        {
+          "code": "A",
+          "meaning": "2-wheel drive"
+        },
+        {
+          "code": "R",
+          "meaning": "Right-hand drive"
+        },
+        {
+          "code": "L",
+          "meaning": "Left-hand drive"
+        },
+        {
+          "code": "B",
+          "meaning": "L grade"
+        },
+        {
+          "code": "D",
+          "meaning": "LX grade"
+        },
+        {
+          "code": "F",
+          "meaning": "SLX grade"
+        },
+        {
+          "code": "T",
+          "meaning": "SUPER S grade"
+        },
+        {
+          "code": "F",
+          "meaning": "5-speed manual transaxle"
+        },
+        {
+          "code": "Z",
+          "meaning": "N-CVT"
+        },
+        {
+          "code": "K11",
+          "meaning": "Model designation (K11)"
+        },
+        {
+          "code": "A",
+          "meaning": "Standard equipment"
+        },
+        {
+          "code": "E",
+          "meaning": "For R.H.D. markets"
+        },
+        {
+          "code": "F",
+          "meaning": "For South Europe"
+        },
+        {
+          "code": "G",
+          "meaning": "For Central Europe"
+        },
+        {
+          "code": "S",
+          "meaning": "For North Europe"
+        },
+        {
+          "code": "E",
+          "meaning": "E.G.I."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Position 1: E = 3-door Hatchback, F = 5-door Hatchback. Position 2: AE = CG10DE engine, AN = CG13DE engine. Position 3: A = 2-wheel drive. Position 4: R = Right-hand drive, L = Left-hand drive. Position 5: B = L grade, D = LX grade, F = SLX grade, T = SUPER S grade. Position 6: F = 5-speed manual transaxle, Z = N-CVT. Fixed segment: K11. Suffix 1: E = E.G.I. Suffix 2: E = For R.H.D. markets, F = For South Europe, G = For Central Europe, S = For North Europe. Suffix 3: A = Standard equipment."
+}

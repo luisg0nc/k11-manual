@@ -1,0 +1,266 @@
+{
+  "page_code": "EM-5017",
+  "section": "EM",
+  "title": "OIL SEAL REPLACEMENT",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5017.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM262",
+      "type": "tool_illustration",
+      "description": "Valve oil seal removal using tools KV10109210 and KV10109220 on cylinder head with valve springs visible",
+      "bbox_percent": [
+        2,
+        13,
+        35,
+        32
+      ],
+      "associated_step": "Valve oil seal replacement steps 1-2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM263",
+      "type": "tool_illustration",
+      "description": "Valve oil seal installation using tool KV10107902 on cylinder head",
+      "bbox_percent": [
+        2,
+        32,
+        35,
+        52
+      ],
+      "associated_step": "Valve oil seal replacement step 3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM715A",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing oil seal installation direction with engine inside/outside orientation, oil seal lip and dust seal lip labeled",
+      "bbox_percent": [
+        2,
+        52,
+        35,
+        67
+      ],
+      "associated_step": "Oil seal installation direction"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM265",
+      "type": "tool_illustration",
+      "description": "Camshaft oil seal removal using a suitable tool being pulled out from camshaft bracket",
+      "bbox_percent": [
+        2,
+        68,
+        35,
+        85
+      ],
+      "associated_step": "Camshaft oil seal step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL SEAL REPLACEMENT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VALVE OIL SEAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_oil_seal_removal",
+      "title": "Valve Oil Seal Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove timing belt and rocker cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove camshaft sprocket and camshaft hub.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove camshaft brackets by loosening bracket nuts from center to outside in two or three stages.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove camshaft oil seal and camshaft.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove valve lifters and mark order No. on each lifter.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Replace valve oil seal according to the following procedure.",
+          "figure_ref": "fig1",
+          "warnings": [
+            "When replacing valve oil seal, set the corresponding piston at TDC. Failure to do so causes the valve to drop into the cylinder."
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_oil_seal_replacement",
+      "title": "Valve Oil Seal Replacement Procedure",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set No. 1 cylinder at TDC.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove valve springs and valve oil seals for No. 1 and No. 4 cylinders. Valve spring seats should not be removed.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Install new valve oil seals for No. 1 and No. 4 cylinders using a suitable tool. Re-install valve springs. Install valve spring retainers and remount valve assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Set No. 2 cylinder at TDC.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Replace valve oil seals for No. 2 and No. 3 cylinders according to steps 2) and 3).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Install valve lifters in original positions.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OIL SEAL INSTALLATION DIRECTION"
+    },
+    {
+      "block_type": "prose",
+      "text": "When installing camshaft and crankshaft oil seals, be careful to install them correctly, as shown in the figure.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Apply engine oil to oil seal lip, outer face, camshaft and bracket.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Wipe off excess oil after installing oil seal.",
+      "style": "important"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Oil seal cross-section showing correct installation orientation with engine inside and engine outside directions indicated",
+      "callouts": [
+        {
+          "label": "Engine inside",
+          "position": "left"
+        },
+        {
+          "label": "Engine outside",
+          "position": "right"
+        },
+        {
+          "label": "Oil seal lip",
+          "position": "lower-left"
+        },
+        {
+          "label": "Dust seal lip",
+          "position": "lower-right"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CAMSHAFT OIL SEAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_oil_seal_removal",
+      "title": "Camshaft Oil Seal Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove timing belt, sprocket and hub.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Pull out oil seal with a suitable tool.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10109210",
+      "name": "Valve oil seal removal tool",
+      "usage": "Remove valve oil seals from cylinder head"
+    },
+    {
+      "part_number": "KV10109220",
+      "name": "Valve oil seal removal tool (companion)",
+      "usage": "Remove valve oil seals from cylinder head"
+    },
+    {
+      "part_number": "KV10107902",
+      "name": "Valve oil seal installer",
+      "usage": "Install new valve oil seals for No. 1, No. 2, No. 3 and No. 4 cylinders"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,98 @@
+{
+  "page_code": "GI-22",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi22.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI670",
+      "type": "vehicle_diagram",
+      "description": "Underside view of vehicle showing board-on lift positioning with side sill, front direction arrow, and attachment points labeled at front and rear ends of the board-on lift.",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Board-on Lift"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Models without sill spoiler"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\nMake sure vehicle is empty when lifting.",
+      "style": "caution"
+    },
+    {
+      "block_type": "procedure",
+      "id": "board_on_lift_no_spoiler",
+      "title": "Board-on Lift \u2014 Models without sill spoiler",
+      "steps": [
+        {
+          "step": 1,
+          "text": "The board-on lift attachment (LM4086-0200) set at front end of vehicle should be set on the front of the sill under the front door opening.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Position attachments at front and rear ends of board-on lift.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Board-on lift attachment point diagram showing vehicle underside with labeled components.",
+      "callouts": [
+        {
+          "label": "Front",
+          "position": "top-left of diagram, indicating vehicle front direction"
+        },
+        {
+          "label": "Side sill Attachment",
+          "position": "left side of board"
+        },
+        {
+          "label": "Attachment",
+          "position": "right side of board"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "LM4086-0200",
+      "name": "Board-on lift attachment",
+      "usage": "Set at front end of vehicle on the front of the sill under the front door opening for board-on lift procedure."
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Procedure applies to models without sill spoiler only."
+}

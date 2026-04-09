@@ -1,0 +1,159 @@
+{
+  "page_code": "EM-24",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": "EM-23",
+    "continues_to": "EM-25"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM048",
+      "type": "component_photo",
+      "description": "Thermostat housing with liquid gasket bead of 2.0\u20133.0 mm indicated",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "step_20"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM131D",
+      "type": "component_photo",
+      "description": "Distributor installation showing camshaft position",
+      "bbox_percent": [
+        2,
+        19,
+        38,
+        36
+      ],
+      "associated_step": "step_22"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM049",
+      "type": "parts_diagram",
+      "description": "Cam sprocket cover with liquid gasket bead of 2.0\u20133.0 mm illustrated",
+      "bbox_percent": [
+        2,
+        37,
+        38,
+        54
+      ],
+      "associated_step": "step_23"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM033",
+      "type": "parts_diagram",
+      "description": "Plan view and side view of cylinder head showing sealant application points: 3.0 mm (0.118 in) on each side at rocker cover gasket joint",
+      "bbox_percent": [
+        2,
+        67,
+        38,
+        86
+      ],
+      "associated_step": "step_25"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 20,
+          "text": "Apply liquid gasket to thermostat housing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Ensure mating surfaces are clean and free from dirt, grease and traces of old liquid gasket."
+          ]
+        },
+        {
+          "step": 21,
+          "text": "Install thermostat housing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Install distributor.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Make sure that position of camshaft is as shown in figure."
+          ]
+        },
+        {
+          "step": 23,
+          "text": "Apply liquid gasket to cam sprocket cover as illustrated. Then install cam sprocket cover.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Clean the rocker cover, ensure it is free from grease.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Fit the gasket & cover within 5 minutes of applying the liquid gasket, as follows:"
+          ]
+        },
+        {
+          "step": 25,
+          "text": "Apply liquid gasket to the cylinder head as shown. Fit the gasket to the cover.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width \u2014 thermostat housing",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Step 20"
+        },
+        {
+          "label": "Liquid gasket bead width \u2014 cam sprocket cover",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Step 23"
+        },
+        {
+          "label": "Sealant application width \u2014 cylinder head (each side)",
+          "value": "3.0",
+          "unit": "mm (0.118 in)",
+          "condition": "Step 25"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

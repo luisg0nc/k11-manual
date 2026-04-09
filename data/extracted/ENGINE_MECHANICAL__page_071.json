@@ -1,0 +1,127 @@
+{
+  "page_code": "EM-5",
+  "section": "EM",
+  "title": "PREPARATION",
+  "page_type": "spec_table",
+  "source_image": "EM-5.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of ST33051001 Front oil seal remover tool",
+      "bbox_percent": [
+        20,
+        8,
+        55,
+        20
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of KV11103000 Front oil seal remover tool",
+      "bbox_percent": [
+        20,
+        22,
+        55,
+        34
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of KV10105610 and KV10105620 Flywheel lock tools",
+      "bbox_percent": [
+        20,
+        36,
+        55,
+        52
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "CG10DE",
+          "label": "Engine application \u2014 CG10DE"
+        },
+        {
+          "key": "CG13DE",
+          "label": "Engine application \u2014 CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "ST33051001",
+          "tool_name": "Front oil seal remover",
+          "description": "Front oil seal remover",
+          "figure_ref": "fig1",
+          "CG10DE": "O",
+          "CG13DE": "\u2014"
+        },
+        {
+          "tool_number": "KV11103000",
+          "tool_name": "Front oil seal remover",
+          "description": "Front oil seal remover",
+          "figure_ref": "fig2",
+          "CG10DE": "\u2014",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number": "KV10105610 / KV10105620",
+          "tool_name": "Flywheel lock",
+          "description": "Flywheel lock (1: KV10105610, 2: KV10105620)",
+          "figure_ref": "fig3",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "ST33051001",
+      "name": "Front oil seal remover",
+      "usage": "Front oil seal removal \u2014 CG10DE engine"
+    },
+    {
+      "part_number": "KV11103000",
+      "name": "Front oil seal remover",
+      "usage": "Front oil seal removal \u2014 CG13DE engine"
+    },
+    {
+      "part_number": "KV10105610",
+      "name": "Flywheel lock (component 1)",
+      "usage": "Flywheel locking \u2014 CG10DE and CG13DE engines"
+    },
+    {
+      "part_number": "KV10105620",
+      "name": "Flywheel lock (component 2)",
+      "usage": "Flywheel locking \u2014 CG10DE and CG13DE engines"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Engine application columns specify CG10DE and CG13DE compatibility. ST33051001 is CG10DE only; KV11103000 is CG13DE only; Flywheel lock set applies to both engines."
+}

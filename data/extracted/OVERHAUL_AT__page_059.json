@@ -1,0 +1,238 @@
+{
+  "page_code": "AT-59",
+  "section": "AT",
+  "title": "Vehicle speed sensor circuit check",
+  "page_type": "flowchart",
+  "source_image": "AT-59.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT115",
+      "type": "wiring_schematic",
+      "description": "Speed sensor connector pinout showing pins 2 and 1 connected to N-CVT C/U terminals 7 and 16",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        14
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT116",
+      "type": "vehicle_diagram",
+      "description": "Monitor display showing DATA MONITOR values: CAR SPEED SEN 10 km/h, ENGINE REV 980 rpm, CLUTCH CRRNT* 0.8A, CLUTCH CRRNT 0.8A, PULLEY RATIO 2.50, ACCEL SW OFF, THRTL OPEN SW OFF, AIR/C SIGNAL OFF, STOP LAMP SW OFF \u2014 RECORD",
+      "bbox_percent": [
+        0,
+        14,
+        32,
+        45
+      ],
+      "associated_step": "Check input signal step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT117",
+      "type": "connector_diagram",
+      "description": "Voltmeter connected to N-CVT C/U connector terminal #7 and ground, with connector connected (H.S. CONNECT), measuring voltage while driving",
+      "bbox_percent": [
+        0,
+        45,
+        32,
+        100
+      ],
+      "associated_step": "Check input signal - OR - voltage check"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Vehicle speed sensor circuit check"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Vehicle speed sensor circuit check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check vehicle speed sensor\nRefer to \"Electrical Component Inspection\""
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Repair or replace the vehicle speed sensor"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check input signal\n1. Start engine\n2. Select \"DATA MONITOR\"\n   \u2022 Read \"CAR SPEED SENSOR\" value while driving\n   \u2022 Check the value changes according to driving speed\n   \u2014 OR \u2014\n   Check voltage between N-CVT control unit terminal # 7 and # 16 while driving (Measure in A/C range)\n   Voltage: min. 5V at 30 km/h\n   (the voltage rises gradually in response to vehicle speed)"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Check harness continuity between N-CVT control unit and vehicle speed sensor"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Perform self diagnosis again after test drive."
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "1. Check N-CVT control unit I/O signal\n2. Re-check N-CVT control unit pin terminals for damage or incorrect connection of control unit harness connector"
+        },
+        {
+          "id": "n7",
+          "type": "terminal",
+          "text": "Inspection END"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "O.K."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "DATA MONITOR display values (MONITOR NO FAIL)",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "CAR SPEED SEN",
+          "value": "10 km/h"
+        },
+        {
+          "parameter": "ENGINE REV",
+          "value": "980 rpm"
+        },
+        {
+          "parameter": "CLUTCH CRRNT*",
+          "value": "0.8A"
+        },
+        {
+          "parameter": "CLUTCH CRRNT",
+          "value": "0.8A"
+        },
+        {
+          "parameter": "PULLEY RATIO",
+          "value": "2.50"
+        },
+        {
+          "parameter": "ACCEL SW",
+          "value": "OFF"
+        },
+        {
+          "parameter": "THRTL OPEN SW",
+          "value": "OFF"
+        },
+        {
+          "parameter": "AIR/C SIGNAL",
+          "value": "OFF"
+        },
+        {
+          "parameter": "STOP LAMP SW",
+          "value": "OFF"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Voltage between N-CVT control unit terminal #7 and #16 while driving",
+          "value": "min. 5",
+          "unit": "V",
+          "condition": "at 30 km/h (measured in A/C range; voltage rises gradually in response to vehicle speed)"
+        }
+      ]
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Speed sensor to N-CVT C/U connections",
+      "components": [
+        {
+          "id": "c1",
+          "name": "Speed sensor",
+          "pins": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "c2",
+          "name": "N-CVT C/U",
+          "pins": [
+            "7",
+            "16"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "c1:1",
+          "to": "c2:16"
+        },
+        {
+          "from": "c1:2",
+          "to": "c2:7"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Electrical Component Inspection"
+  ],
+  "model_notes": "Applies to N-CVT (continuously variable transmission) equipped vehicles"
+}

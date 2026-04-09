@@ -1,0 +1,165 @@
+{
+  "page_code": "EM-43",
+  "section": "EM",
+  "title": "CYLINDER BLOCK",
+  "page_type": "parts_diagram",
+  "source_image": "EM-43.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM072",
+      "type": "parts_diagram",
+      "description": "Exploded view of cylinder block assembly including pistons, rings, connecting rods, crankshaft, bearings, main bearing beam, and flywheel/drive plate variants for M/T and N.C.V.T.",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "UEM072",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Cylinder block assembly",
+          "note": "Apply liquid gasket where indicated"
+        },
+        {
+          "number": 2,
+          "name": "Piston rings",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Piston pin",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 4,
+          "name": "Piston",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 5,
+          "name": "Connecting rod",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 6,
+          "name": "Connecting rod bearing",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 7,
+          "name": "Connecting rod bearing cap",
+          "note": "Refer to installation of connecting rod bearing cap; Apply engine oil"
+        },
+        {
+          "number": 8,
+          "name": "Crankshaft",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Main bearings (upper and lower)",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 10,
+          "name": "Thrust bearings",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Main bearing beam",
+          "note": "Refer to installation of main bearing beam"
+        },
+        {
+          "number": 12,
+          "name": "Crankshaft rear oil seal / rear plate",
+          "note": "Apply liquid gasket; Torque: 6.3-8.3 N\u00b7m (0.64-0.85 kg-m, 4.6-6.2 ft-lb)"
+        },
+        {
+          "number": 13,
+          "name": "Drive plate (N.C.V.T.)",
+          "note": "Torque: 93-103 N\u00b7m (9.5-10.5 kg-m, 68-76 ft-lb)"
+        },
+        {
+          "number": 14,
+          "name": "Drive plate adapter / reinforcement (N.C.V.T.)",
+          "note": "Torque: 6.3-8.3 N\u00b7m (0.65-0.84 kg-m, 4.6-6.2 ft-lb)"
+        },
+        {
+          "number": 15,
+          "name": "Flywheel (M/T) (CG13)",
+          "note": "Torque: 83-93 N\u00b7m (8.5-9.5 kg-m, 62-68 ft-lb)"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Crankshaft rear oil seal / rear plate bolt torque",
+          "value": "6.3-8.3",
+          "unit": "N\u00b7m (0.64-0.85 kg-m, 4.6-6.2 ft-lb)",
+          "condition": "General cylinder block area"
+        },
+        {
+          "label": "Drive plate bolt torque (N.C.V.T.)",
+          "value": "93-103",
+          "unit": "N\u00b7m (9.5-10.5 kg-m, 68-76 ft-lb)",
+          "condition": "N.C.V.T."
+        },
+        {
+          "label": "Drive plate adapter bolt torque (N.C.V.T.)",
+          "value": "6.3-8.3",
+          "unit": "N\u00b7m (0.65-0.84 kg-m, 4.6-6.2 ft-lb)",
+          "condition": "N.C.V.T."
+        },
+        {
+          "label": "Flywheel bolt torque (M/T)",
+          "value": "83-93",
+          "unit": "N\u00b7m (8.5-9.5 kg-m, 62-68 ft-lb)",
+          "condition": "M/T, CG13 engine"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to installation of connecting rod bearing cap",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to installation of main bearing beam",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: (square with A) = Apply engine oil; (filled square) = Apply liquid gasket; (circle with arrow) = N\u00b7m (kg-m, ft-lb)",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Installation of connecting rod bearing cap",
+    "Installation of main bearing beam"
+  ],
+  "model_notes": "N.C.V.T. variant uses drive plate with torque 93-103 N\u00b7m; M/T variant (CG13 engine) uses flywheel with torque 83-93 N\u00b7m."
+}

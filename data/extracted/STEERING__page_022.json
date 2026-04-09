@@ -1,0 +1,167 @@
+{
+  "page_code": "ST-21",
+  "section": "ST",
+  "title": "POWER STEERING GEAR AND LINKAGE",
+  "page_type": "prose_procedure",
+  "source_image": "st-21.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "ST-22"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST031",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of power steering gear and linkage assembly showing torque values for various fasteners, components including rack mounting insulator, gear housing mounting bracket, cotter pin, and gear and linkage assembly",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SFA372",
+      "type": "tool_illustration",
+      "description": "Ball joint remover tool HT72520000 being used to detach tie-rod outer socket from knuckle arm",
+      "bbox_percent": [
+        0,
+        33,
+        38,
+        57
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UST032",
+      "type": "component_photo",
+      "description": "Carbon canister component photograph",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        78
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Cotter pin",
+          "note": "Replace after removal"
+        },
+        {
+          "number": 2,
+          "name": "Rack mounting insulator",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Gear housing mounting bracket",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Gear and linkage assembly",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie rod end retaining nut torque",
+          "value": "29 - 39 (3.0 - 4.0, 22 - 29)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Upper fastener torque (top center)",
+          "value": "24 - 29 (2.4 - 3.0, 17 - 22)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Right side fastener torque",
+          "value": "24 - 29 (2.4 - 3.0, 17 - 22)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Gear housing mounting bracket bolt torque",
+          "value": "73 - 97 (7.4 - 9.9, 54 - 72)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove front wheels.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove split pins and retaining nuts from tie rods.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Detach tie-rod outer sockets from knuckle arms using ball joint remover.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove Carbon Canister (from LHD vehicles only) to improve accessability to lower joint and pinion.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Note connections of hoses to cannister stub pipes for installation.",
+            "Remove Carbon Canister bracket."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "HT72520000",
+      "name": "Ball joint remover",
+      "usage": "Detach tie-rod outer sockets from knuckle arms"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Step 4 applies to LHD vehicles only. Carbon Canister removal required only on Left Hand Drive vehicles to improve access to lower joint and pinion."
+}

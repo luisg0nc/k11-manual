@@ -1,0 +1,176 @@
+{
+  "page_code": "MA-7014",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA037",
+      "type": "component_photo",
+      "description": "CVT fluid drain/fill location on transmission casing",
+      "bbox_percent": [
+        0,
+        2,
+        30,
+        22
+      ],
+      "associated_step": "Changing CVT Fluid"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA260A",
+      "type": "component_photo",
+      "description": "Checking disc brake rotor with measurement tool",
+      "bbox_percent": [
+        0,
+        35,
+        30,
+        55
+      ],
+      "associated_step": "Checking Disc Brake - ROTOR"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA847B",
+      "type": "component_photo",
+      "description": "Checking disc brake pad thickness with caliper",
+      "bbox_percent": [
+        0,
+        55,
+        30,
+        76
+      ],
+      "associated_step": "Checking Disc Brake - PAD"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CHASSIS AND BODY MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing CVT Fluid"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc1",
+      "title": "Changing CVT Fluid",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Warm up CVT fluid by driving the vehicle for 10 minutes.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain CVT fluid from radiator cooler hose (return side) and refill with new CVT fluid at charging pipe when engine running at idle speed.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Refill until new CVT fluid comes out from radiator cooler hose (return side). About 30 to 50% extra fluid will be required for this procedure.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Fluid capacity \u2014 Hyper CVT",
+          "value": "Approx. 5.0",
+          "unit": "l",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Use genuine NISSAN CVT fluid (NS-1) or exact equivalent.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Disc Brake"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check condition of disc brake components.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ROTOR"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check condition and thickness.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "CL18VG Rotor Standard thickness",
+          "value": "18",
+          "unit": "mm (0.789 in)",
+          "condition": ""
+        },
+        {
+          "label": "CL18VG Rotor Minimum thickness",
+          "value": "16",
+          "unit": "mm (0.630 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PAD"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check wear or damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "CL18VG Pad Standard thickness",
+          "value": "9.5",
+          "unit": "mm (0.37 in)",
+          "condition": ""
+        },
+        {
+          "label": "CL18VG Pad Minimum thickness",
+          "value": "2.0",
+          "unit": "mm (0.079 in)",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "CVT fluid procedure applies to Hyper CVT models. Disc brake specs given for CL18VG caliper/rotor specification."
+}

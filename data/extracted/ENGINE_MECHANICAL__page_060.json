@@ -1,0 +1,181 @@
+{
+  "page_code": "EM-57",
+  "section": "EM",
+  "title": "General Specifications",
+  "page_type": "spec_table",
+  "source_image": "EM-57.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "EM120",
+      "type": "component_photo",
+      "description": "Valve timing diagram showing TDC and BDC positions with intake opens/closes and exhaust opens/closes points, direction of rotation indicated",
+      "bbox_percent": [
+        5,
+        28,
+        65,
+        58
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "General Specifications"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "GENERAL SPECIFICATIONS"
+    },
+    {
+      "block_type": "table",
+      "title": "General Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "CG10DE",
+          "label": "CG10DE"
+        },
+        {
+          "key": "CG13DE",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Engine",
+          "CG10DE": "CG10DE",
+          "CG13DE": "CG13DE"
+        },
+        {
+          "item": "Classification",
+          "CG10DE": "Gasoline",
+          "CG13DE": "Gasoline"
+        },
+        {
+          "item": "Cylinder arrangement",
+          "CG10DE": "4 in-line",
+          "CG13DE": "4 in-line"
+        },
+        {
+          "item": "Displacement cm\u00b3 (cu in)",
+          "CG10DE": "998 (60.9)",
+          "CG13DE": "1275 (77.8)"
+        },
+        {
+          "item": "Bore x stroke mm (in)",
+          "CG10DE": "71 x 63 (2.79 x 2.48)",
+          "CG13DE": "71 x 80.5 (2.79 x 3.16)"
+        },
+        {
+          "item": "Valve arrangement",
+          "CG10DE": "D.O.H.C.",
+          "CG13DE": "D.O.H.C."
+        },
+        {
+          "item": "Firing order",
+          "CG10DE": "1-3-4-2",
+          "CG13DE": "1-3-4-2"
+        },
+        {
+          "item": "Number of piston rings \u2014 Compression",
+          "CG10DE": "2",
+          "CG13DE": "2"
+        },
+        {
+          "item": "Number of piston rings \u2014 Oil",
+          "CG10DE": "1",
+          "CG13DE": "1"
+        },
+        {
+          "item": "Number of main bearings",
+          "CG10DE": "5",
+          "CG13DE": "5"
+        },
+        {
+          "item": "Compression ratio",
+          "CG10DE": "9.5",
+          "CG13DE": "9.5"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve timing"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Timing (Unit: degree)",
+      "columns": [
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "a",
+          "label": "a"
+        },
+        {
+          "key": "b",
+          "label": "b"
+        },
+        {
+          "key": "c",
+          "label": "c"
+        },
+        {
+          "key": "d",
+          "label": "d"
+        },
+        {
+          "key": "e",
+          "label": "e"
+        },
+        {
+          "key": "f",
+          "label": "f"
+        }
+      ],
+      "rows": [
+        {
+          "engine": "CG10DE",
+          "a": "196\u00b0",
+          "b": "196\u00b0",
+          "c": "0\u00b0",
+          "d": "16\u00b0",
+          "e": "0\u00b0",
+          "f": "16\u00b0"
+        },
+        {
+          "engine": "CG13DE",
+          "a": "222\u00b0",
+          "b": "222\u00b0",
+          "c": "0\u00b0",
+          "d": "42\u00b0",
+          "e": "0\u00b0",
+          "f": "42\u00b0"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "CG10DE: 998cc engine; CG13DE: 1275cc engine. Both use D.O.H.C. valve arrangement."
+}

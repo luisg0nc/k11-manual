@@ -1,0 +1,171 @@
+{
+  "page_code": "AT-27",
+  "section": "AT",
+  "title": "HYDRAULIC CONTROL",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-27.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT035",
+      "type": "wiring_schematic",
+      "description": "Hydraulic control system schematic for Ds Range, showing oil flow paths with pressure types (Line pressure, Lubrication oil pressure, Pitot pressure, Primary pressure, Primary pressure pre-fill) through components including primary pulley, secondary pulley, regulator valve, shift control valve, check valve, engine brake valve, shift lock valve, lubricating valve, line pressure control solenoid valve, oil pump, oil filter, oil cooler, sensor shoe, Ds modifier lever, plunger (engine brake), modulator linkage, shift cam",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        98
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HYDRAULIC CONTROL"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Hydraulic control schematic for Ds Range showing all hydraulic components and pressure circuits",
+      "callouts": [
+        {
+          "label": "Sensor shoe",
+          "position": "upper-left area"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "upper-center"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "upper-center"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center"
+        },
+        {
+          "label": "Shift cam",
+          "position": "upper-center-right"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "right"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center-lower"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower-right"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "lower-left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "lower-center"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "lower-left-center"
+        },
+        {
+          "label": "Oil pump",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil filter",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "lower-right"
+        },
+        {
+          "label": "Check valve",
+          "position": "lower-center-right"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "bottom-center"
+        },
+        {
+          "label": "Ds range",
+          "position": "left"
+        },
+        {
+          "label": "D S",
+          "position": "upper-right"
+        },
+        {
+          "label": "L",
+          "position": "upper-right"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Line pressure",
+          "value": "indicated by thick solid line",
+          "unit": "",
+          "condition": "Ds Range"
+        },
+        {
+          "label": "Lubrication oil pressure",
+          "value": "indicated by dotted line",
+          "unit": "",
+          "condition": "Ds Range"
+        },
+        {
+          "label": "Pitot pressure",
+          "value": "indicated by medium line",
+          "unit": "",
+          "condition": "Ds Range"
+        },
+        {
+          "label": "Primary pressure",
+          "value": "indicated by thick hatched line",
+          "unit": "",
+          "condition": "Ds Range"
+        },
+        {
+          "label": "Primary pressure (pre-fill)",
+          "value": "indicated by dashed hatched line",
+          "unit": "",
+          "condition": "Ds Range"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transmission (CVT) hydraulic control schematic \u2014 Ds Range operation. Gear selector positions shown: P, R, N, D, S, L."
+}

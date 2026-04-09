@@ -1,0 +1,181 @@
+{
+  "page_code": "EM-17",
+  "section": "EM",
+  "title": "TIMING CHAIN",
+  "page_type": "prose_procedure",
+  "source_image": "EM-17.jpg",
+  "continuation": {
+    "continues_from": "EM-16",
+    "continues_to": "EM-18"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM043",
+      "type": "component_photo",
+      "description": "Front of engine showing alternator and power steering drive belts with arrow indicators",
+      "bbox_percent": [
+        2,
+        12,
+        38,
+        32
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM041",
+      "type": "parts_diagram",
+      "description": "Rocker cover with numbered bolt loosening sequence diagram, NISSAN logo visible",
+      "bbox_percent": [
+        2,
+        33,
+        38,
+        53
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM045",
+      "type": "component_photo",
+      "description": "Crankshaft pulley showing timing marks: TDC, 5\u00b0, 10\u00b0, 15\u00b0, 20\u00b0 with pointer",
+      "bbox_percent": [
+        2,
+        53,
+        38,
+        73
+      ],
+      "associated_step": "10"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM110D",
+      "type": "component_photo",
+      "description": "Distributor rotor position view used to confirm No. 1 cylinder at TDC",
+      "bbox_percent": [
+        2,
+        73,
+        38,
+        93
+      ],
+      "associated_step": "11"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "prose",
+      "text": "After removing timing chain, do not turn crankshaft and camshaft separately, or valves will strike piston heads.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain engine coolant from radiator and cylinder block. Be careful not to spill coolant on drive belts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove the alternator and power steering drive belts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove front right-side wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove front and right-side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove front exhaust [pipe/manifold \u2014 text partially obscured].",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove rocker cover.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Loosen in numerical order."
+          ]
+        },
+        {
+          "step": 8,
+          "text": "Remove distributor cap.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Remove all spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Set No. 1 piston at T.D.C. on compression stroke.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Remove distributor.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Make sure No. 1 cylinder is at T.D.C. by looking at distributor rotor position."
+          ]
+        },
+        {
+          "step": 12,
+          "text": "Remove cam sprocket cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,123 @@
+{
+  "page_code": "GI-18",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION",
+  "page_type": "prose_procedure",
+  "source_image": "GI-18.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UGI006",
+      "type": "vehicle_diagram",
+      "description": "Front three-quarter view of Nissan Micra K11 showing locations of vehicle identification number (chassis number) and vehicle identification plate on the vehicle",
+      "bbox_percent": [
+        2,
+        5,
+        98,
+        38
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Identification Number"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Locations of identification markings on the vehicle",
+      "callouts": [
+        {
+          "label": "Vehicle identification number (Chassis number)",
+          "position": "top of dashboard, visible through windscreen"
+        },
+        {
+          "label": "Vehicle identification plate",
+          "position": "engine bay / firewall area"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VEHICLE IDENTIFICATION NUMBER ARRANGEMENT"
+    },
+    {
+      "block_type": "prose",
+      "text": "VIN format: \u25c6 SJN E A A K11 U O XXXXXX \u25c6",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "VIN Position Decode",
+      "columns": [
+        {
+          "key": "position",
+          "label": "Position / Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "position": "SJN",
+          "meaning": "Nissan, Passenger vehicle"
+        },
+        {
+          "position": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "position": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "position": "A (engine)",
+          "meaning": "CG10DE engine"
+        },
+        {
+          "position": "B (engine)",
+          "meaning": "CG13DE engine"
+        },
+        {
+          "position": "A (drive)",
+          "meaning": "2-wheel drive model"
+        },
+        {
+          "position": "K11",
+          "meaning": "Model"
+        },
+        {
+          "position": "U",
+          "meaning": "For Europe"
+        },
+        {
+          "position": "O",
+          "meaning": "Stopgap (no meaning)"
+        },
+        {
+          "position": "XXXXXX",
+          "meaning": "Vehicle serial number"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "E = 3-door Hatchback; F = 5-door Hatchback. A = CG10DE engine; B = CG13DE engine. A = 2-wheel drive model. U = For Europe market."
+}

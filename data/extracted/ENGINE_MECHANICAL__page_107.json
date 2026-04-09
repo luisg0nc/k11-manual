@@ -1,0 +1,260 @@
+{
+  "page_code": "EM-41",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "prose_procedure",
+  "source_image": "EM-41.jpg",
+  "continuation": {
+    "continues_from": "EM-40",
+    "continues_to": "EM-42"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM065",
+      "type": "component_photo",
+      "description": "Power steering pump location on engine",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        20
+      ],
+      "associated_step": "32"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM066",
+      "type": "component_photo",
+      "description": "Air conditioning compressor location",
+      "bbox_percent": [
+        0,
+        21,
+        38,
+        39
+      ],
+      "associated_step": "38"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM067",
+      "type": "component_photo",
+      "description": "Engine slinger brackets and centremember mounting area",
+      "bbox_percent": [
+        0,
+        40,
+        38,
+        57
+      ],
+      "associated_step": "39"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM068",
+      "type": "component_photo",
+      "description": "Engine lowering onto transmission jack or floor view from below",
+      "bbox_percent": [
+        0,
+        57,
+        38,
+        74
+      ],
+      "associated_step": "44"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM069",
+      "type": "parts_diagram",
+      "description": "Top engine mounting bracket dimensions showing 10 mm (0.39 in) measurements at four corners",
+      "bbox_percent": [
+        0,
+        74,
+        38,
+        93
+      ],
+      "associated_step": "Installation step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 29,
+          "text": "Remove engine harness from harness saddle on engine mounting.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Disconnect two engine temperature sensors.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Remove main earth lead from body.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "On power steering equipped models, slacken water pump drive belt. Refer to section MA. Loosen and remove power steering pump fixing bolts. Tie power steering pump onto vehicle body.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Disconnect fuel lines.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 34,
+          "text": "Disconnect throttle cable. Disconnect kickdown cable (NCVT).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 35,
+          "text": "Disconnect speedometer cable.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 36,
+          "text": "Disconnect carbon canister hoses.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 37,
+          "text": "Disconnect brake vacuum hose from brake servo.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 38,
+          "text": "On air conditioning equipped models, slacken alternator drive belt. Refer to section MA. Remove alternator. Loosen and remove air conditioning compressor fixing bolts. Tie air conditioning compressor onto vehicle body.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 39,
+          "text": "Attach engine slinger brackets to engine. Engine slinger brackets and engine slinger bracket bolts are described in PARTS CATALOG.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 40,
+          "text": "Remove 4 centermember mounting bolts from vehicle body.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 41,
+          "text": "Remove centermember from engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 42,
+          "text": "Attach slingers to engine slinger brackets and use crane to release load from both top engine mountings.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 43,
+          "text": "Disconnect or remove engine mountings.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 44,
+          "text": "Lower engine onto transmission jack or floor.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install top engine mounting brackets and fixing bolts.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "Ensure that insulators are positioned on brackets correctly."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Carefully move engine onto engine mounting insulators.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure that insulators are positioned on brackets correctly.",
+      "style": "important"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Top engine mounting bracket dimension (all four corners)",
+          "value": "10 (0.39)",
+          "unit": "mm (in)",
+          "condition": "Installation reference measurement"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA",
+    "PARTS CATALOG"
+  ],
+  "model_notes": "Steps 32 and 38 apply to power steering and air conditioning equipped models respectively. Step 34 references NCVT (kickdown cable for CVT transmission)."
+}

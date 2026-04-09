@@ -1,0 +1,136 @@
+{
+  "page_code": "AT-8",
+  "section": "AT",
+  "title": "FUNCTION \u2014 Clutch Control",
+  "page_type": "prose_procedure",
+  "source_image": "AT-8.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT011",
+      "type": "component_photo",
+      "description": "Diagram showing N-CVT Control Unit receiving input signals and outputting clutch current to the electromagnetic powder clutch assembly, with callouts for Drive member, Coil, Powder, and Driven member.",
+      "bbox_percent": [
+        2,
+        20,
+        98,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Clutch Control"
+    },
+    {
+      "block_type": "prose",
+      "text": "Electrical current is supplied to the clutch via carbon brushes making contact with a slip ring attached to the clutch housing.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The clutch is applied and released by controlling the current to the coils located in the driven member. The electronic control unit (ECU) receives input signals, processes them and controls the clutch accordingly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Clutch control also prevents \"shock\" (direct coupling/uncoupling) when engine braking is used in the \"Ds\" position.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The control circuits are self-diagnostic. Faults can be detected using CONSULT or the On-board Diagnostic (blink code) System.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "N-CVT Control Unit receives the following input signals and outputs clutch current to the electromagnetic powder clutch.",
+      "callouts": [
+        {
+          "label": "Input signals",
+          "position": "left box"
+        },
+        {
+          "label": "Engine revolutional signal",
+          "position": "left box item"
+        },
+        {
+          "label": "Accelerator signal",
+          "position": "left box item"
+        },
+        {
+          "label": "Brake signal",
+          "position": "left box item"
+        },
+        {
+          "label": "Throttle position signal",
+          "position": "left box item"
+        },
+        {
+          "label": "Selector position signals",
+          "position": "left box item"
+        },
+        {
+          "label": "Vehicle speed",
+          "position": "left box item"
+        },
+        {
+          "label": "Water temperature signal",
+          "position": "left box item"
+        },
+        {
+          "label": "Air conditioner signal",
+          "position": "left box item"
+        },
+        {
+          "label": "ABS signal",
+          "position": "left box item"
+        },
+        {
+          "label": "N-CVT Control Unit",
+          "position": "center top"
+        },
+        {
+          "label": "Clutch current",
+          "position": "center right"
+        },
+        {
+          "label": "Drive member",
+          "position": "right diagram"
+        },
+        {
+          "label": "Coil",
+          "position": "right diagram"
+        },
+        {
+          "label": "Powder",
+          "position": "right diagram"
+        },
+        {
+          "label": "Driven member",
+          "position": "right diagram"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "CONSULT",
+    "On-board Diagnostic (blink code) System"
+  ],
+  "model_notes": "Applies to N-CVT (Nissan Continuously Variable Transmission) automatic transmission variant of K11 Micra."
+}

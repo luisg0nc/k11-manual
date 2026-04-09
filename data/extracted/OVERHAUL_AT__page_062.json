@@ -1,0 +1,112 @@
+{
+  "page_code": "AT-62",
+  "section": "AT",
+  "title": "Electromagnetic Clutch Circuit Check (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-62.jpg",
+  "continuation": {
+    "continues_from": "AT-61",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT123",
+      "type": "connector_diagram",
+      "description": "Brush holder connector diagram showing pins 1 and 2 with ohmmeter connected between them, disconnect icon shown",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        22
+      ],
+      "associated_step": "D"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electromagnetic Clutch Circuit Check (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Continued from previous page",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Electromagnetic Clutch Circuit Check (Cont'd) \u2014 Section D",
+      "nodes": [
+        {
+          "id": "n_start",
+          "type": "reference",
+          "text": "Continued from previous page"
+        },
+        {
+          "id": "n_D",
+          "type": "action",
+          "text": "D\nCheck harness continuity\n1. Disconnect brush holder connector\n2. Check continuity between brush holder connector pins\n   #1 \u2192 #2 : 2-4 \u03a9\n3. Check the continuity and make sure that the brush holder terminal is not short-circuited to the ground\n   #1 to body ground: \u221e \u03a9\n   #2 to body ground: \u221e \u03a9"
+        },
+        {
+          "id": "n_D_NG",
+          "type": "terminal",
+          "text": "Repair or replace brush holder or harness."
+        },
+        {
+          "id": "n_self_diag",
+          "type": "action",
+          "text": "Perform self diagnosis after test drive."
+        },
+        {
+          "id": "n_self_diag_NG",
+          "type": "terminal",
+          "text": "\u2022 Check N-CVT control unit I/O signal\n\u2022 Re-check N-CVT control unit pin terminals for damage or connection of control unit harness connector"
+        },
+        {
+          "id": "n_end",
+          "type": "terminal",
+          "text": "Inspection END"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n_start",
+          "to": "n_D",
+          "label": ""
+        },
+        {
+          "from": "n_D",
+          "to": "n_D_NG",
+          "label": "N.G."
+        },
+        {
+          "from": "n_D",
+          "to": "n_self_diag",
+          "label": "O.K."
+        },
+        {
+          "from": "n_self_diag",
+          "to": "n_self_diag_NG",
+          "label": "N.G."
+        },
+        {
+          "from": "n_self_diag",
+          "to": "n_end",
+          "label": "O.K."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-61"
+  ],
+  "model_notes": "Applies to N-CVT (Electromagnetic Clutch) equipped vehicles."
+}

@@ -1,0 +1,153 @@
+{
+  "page_code": "AT-45",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Differential Side Oil Seal",
+  "page_type": "prose_procedure",
+  "source_image": "AT-45.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT075",
+      "type": "component_photo",
+      "description": "Illustration showing the differential side oil seal location on the vehicle, with the seal labeled",
+      "bbox_percent": [
+        2,
+        2,
+        40,
+        28
+      ],
+      "associated_step": "Removal step 2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT076",
+      "type": "parts_diagram",
+      "description": "Diagram showing left side and right side of differential with 0.5 mm (max) installation dimension indicators for oil seal level difference",
+      "bbox_percent": [
+        2,
+        55,
+        40,
+        82
+      ],
+      "associated_step": "Installation"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove drive shaft from vehicle. Refer to FA, \"Drive Shaft\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Pry off the differential side oil seal with a screwdriver.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Always replace the oil seal with a new part. Do not reuse.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to scratch the case.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Using a drift, insert oil seal so it conforms to the following dimensions.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation Standards"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "RE0F05A Model"
+    },
+    {
+      "block_type": "table",
+      "title": "Installation Standards \u2014 RE0F05A Model",
+      "columns": [
+        {
+          "key": "part",
+          "label": "Part"
+        },
+        {
+          "key": "drift_dimensions",
+          "label": "Drift dimensions"
+        },
+        {
+          "key": "installation_dimensions",
+          "label": "Installation dimensions"
+        }
+      ],
+      "rows": [
+        {
+          "part": "Right side",
+          "drift_dimensions": "Outer dia. 56 mm, Inner dia. 46 mm",
+          "installation_dimensions": "Level difference with case and surface = 0.5 mm max."
+        },
+        {
+          "part": "Left side",
+          "drift_dimensions": "Outer dia. 56 mm, Inner dia. 46 mm",
+          "installation_dimensions": "Level difference with case and surface = 0.5 mm max."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Drift",
+      "usage": "Insert oil seal to correct installation depth"
+    },
+    {
+      "part_number": "",
+      "name": "Screwdriver",
+      "usage": "Pry off differential side oil seal during removal"
+    }
+  ],
+  "cross_references": [
+    "FA \u2014 Drive Shaft"
+  ],
+  "model_notes": "RE0F05A model. Right side and left side oil seal drift dimensions are the same: Outer dia. 56 mm, Inner dia. 46 mm. Installation level difference with case surface = 0.5 mm max. for both sides."
+}

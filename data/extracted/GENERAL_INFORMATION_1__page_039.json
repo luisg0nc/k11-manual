@@ -1,0 +1,75 @@
+{
+  "page_code": "GI-5001",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "GI-5002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "prose",
+      "text": "<SUPPLEMENT-V>",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "GI-5002"
+        },
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-5004"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-5005"
+        },
+        {
+          "topic": "LIFTING POINTS AND TOW TRUCK TOWING",
+          "page": "GI-5010"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-5002",
+    "GI-5004",
+    "GI-5005",
+    "GI-5010"
+  ],
+  "model_notes": null
+}

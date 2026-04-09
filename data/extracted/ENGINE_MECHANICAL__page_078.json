@@ -1,0 +1,70 @@
+{
+  "page_code": "EM-12",
+  "section": "EM",
+  "title": "Outer Component Parts \u2014 Rocker Cover (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-12.jpg",
+  "continuation": {
+    "continues_from": "EM-11",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM035",
+      "type": "parts_diagram",
+      "description": "Rocker cover bolt tightening sequence diagram showing numbered bolt positions (1\u201310) on the rocker cover as viewed from above.",
+      "bbox_percent": [
+        2,
+        4,
+        40,
+        22
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Rocker Cover (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "rocker_cover_refit",
+      "title": "Rocker Cover Refitting",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Fit the cover. Tighten the bolts in the sequence as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Reconnect the hoses and A/T cable (if fitted).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Refit spark plug leads.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "A/T cable reconnection applies only if automatic transmission is fitted."
+}

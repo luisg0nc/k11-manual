@@ -1,0 +1,278 @@
+{
+  "page_code": "EM-5046",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (SDS)",
+  "page_type": "spec_table",
+  "source_image": "page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM322",
+      "type": "vehicle_diagram",
+      "description": "Valve timing diagram showing intake/exhaust open/close positions relative to TDC and BDC, with direction of rotation indicated",
+      "bbox_percent": [
+        52,
+        5,
+        100,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM188A",
+      "type": "parts_diagram",
+      "description": "Valve diagram showing margin thickness T, head diameter D, stem diameter d, length L, and seat angle alpha",
+      "bbox_percent": [
+        52,
+        38,
+        100,
+        62
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (SDS)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "General Specifications"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Cylinder arrangement",
+          "value": "in-line 4",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Displacement",
+          "value": "1527 (93.18)",
+          "unit": "cm\u00b3 (cu in)",
+          "condition": ""
+        },
+        {
+          "label": "Bore and stroke",
+          "value": "77 x 82 (3.0 x 3.2)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve arrangement",
+          "value": "SOHC",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Firing order",
+          "value": "1-3-4-2",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Number of piston rings \u2014 Compression",
+          "value": "2",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Number of piston rings \u2014 Oil",
+          "value": "1",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Number of main bearings",
+          "value": "5",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Compression ratio",
+          "value": "23",
+          "unit": "",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Valve timing (measured with 0.8mm theoretical clearance)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Timing (Unit: degree)",
+      "columns": [
+        {
+          "key": "a",
+          "label": "a"
+        },
+        {
+          "key": "b",
+          "label": "b"
+        },
+        {
+          "key": "c",
+          "label": "c"
+        },
+        {
+          "key": "d",
+          "label": "d"
+        }
+      ],
+      "rows": [
+        {
+          "a": "225",
+          "b": "210",
+          "c": "5",
+          "d": "-2"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ENGINE COMPRESSION PRESSURE"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Compression pressure \u2014 Standard",
+          "value": "3000 (30, 30.6, 435.5)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)/200 rpm",
+          "condition": ""
+        },
+        {
+          "label": "Compression pressure \u2014 Minimum",
+          "value": "2500 (25, 25.5, 362.5)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)/200 rpm",
+          "condition": ""
+        },
+        {
+          "label": "Difference limit between cylinders",
+          "value": "500 (5, 5.1, 72.5)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)/200 rpm",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Head surface distortion",
+          "value": "Less than 0.05 (0.002)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Nominal cylinder head height \"H\"",
+          "value": "136.3 - 136.5 (5.370 - 5.374)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Resurfacing limit",
+          "value": "0.4 (0.016)",
+          "unit": "mm (in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve head diameter \"D\" \u2014 Intake",
+          "value": "36.85 - 37.15 (1.451 - 1.463)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve head diameter \"D\" \u2014 Exhaust",
+          "value": "31.50 - 31.80 (1.240 - 1.252)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve length \"L\" \u2014 Intake",
+          "value": "108.26 - 108.60 (4.262 - 4.276)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve length \"L\" \u2014 Exhaust",
+          "value": "108.00 - 108.34 (4.252 - 4.265)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve stem diameter \"d\"",
+          "value": "6.980 - 6.995 (0.2748 - 0.2754)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve seat angle \"\u03b1\"",
+          "value": "45\u00b0",
+          "unit": "",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE CLEARANCE ADJUSTMENT"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve clearance \u2014 Intake",
+          "value": "0.07 - 0.23 (0.003 - 0.009)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Valve clearance \u2014 Exhaust",
+          "value": "0.22 - 0.38 (0.009 - 0.015)",
+          "unit": "mm (in)",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

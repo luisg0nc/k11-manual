@@ -1,0 +1,193 @@
+{
+  "page_code": "MA-22",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance",
+  "page_type": "prose_procedure",
+  "source_image": "ma-22.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SMA800B",
+      "type": "vehicle_diagram",
+      "description": "Tire rotation diagram showing radial tire rotation pattern: right front, right rear, left front, left rear, and spare tire positions with arrows indicating rotation direction",
+      "bbox_percent": [
+        2,
+        2,
+        30,
+        18
+      ],
+      "associated_step": "Tire Rotation"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA316C",
+      "type": "component_photo",
+      "description": "Steering gear and linkage assembly showing check grease leakage and check tightening torque callouts",
+      "bbox_percent": [
+        2,
+        19,
+        30,
+        38
+      ],
+      "associated_step": "Checking Steering Gear and Linkage"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UMA039",
+      "type": "component_photo",
+      "description": "Power steering fluid reservoir showing dipstick/fluid level check",
+      "bbox_percent": [
+        2,
+        39,
+        30,
+        57
+      ],
+      "associated_step": "Checking Power Steering Fluid and Lines"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SST575B",
+      "type": "component_photo",
+      "description": "Power steering lines and connections on the vehicle",
+      "bbox_percent": [
+        2,
+        58,
+        30,
+        76
+      ],
+      "associated_step": "Checking Power Steering Fluid and Lines"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Chassis and Body Maintenance"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Tire Rotation"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Wheel nuts",
+          "value": "98 - 117",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Wheel nuts",
+          "value": "10 - 12",
+          "unit": "kg-m",
+          "condition": ""
+        },
+        {
+          "label": "Wheel nuts",
+          "value": "72 - 87",
+          "unit": "ft-lb",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Steering Gear and Linkage"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Steering Gear"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_gear_check",
+      "title": "Steering Gear Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check gear housing and boots for looseness, damage or grease leakage.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check connection with steering column for looseness.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Steering Linkage"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_linkage_check",
+      "title": "Steering Linkage Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check ball joint, dust cover and other component parts for looseness, wear, damage or grease leakage.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Power Steering Fluid and Lines"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check fluid level",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Fluid level should be checked using \"HOT\" range on dipstick at fluid temperatures of 50 to 80\u00b0C (122 to 176\u00b0F) or using \"COLD\" range on dipstick at fluid temperature of 0 to 30\u00b0C (32 to 86\u00b0F).",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not overfill.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Recommended fluid is Automatic Transmission Fluid \"DEXRON\u2122\" type.",
+      "style": "caution"
+    },
+    {
+      "block_type": "procedure",
+      "id": "power_steering_lines_check",
+      "title": "Power Steering Lines Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check lines for improper attachment, leaks, cracks, damage, loose connections, chafing and deterioration.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

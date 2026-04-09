@@ -1,0 +1,197 @@
+{
+  "page_code": "EM-7016",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Removal (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-7015",
+    "continues_to": "EM-7017"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM363",
+      "type": "component_photo",
+      "description": "Camshaft position sensor (PHASE) removal location on engine",
+      "bbox_percent": [
+        0,
+        3,
+        45,
+        18
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM046",
+      "type": "component_photo",
+      "description": "Thermostat housing removal with arrows indicating bolts",
+      "bbox_percent": [
+        0,
+        19,
+        45,
+        35
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM047",
+      "type": "component_photo",
+      "description": "Chain tensioner, idler sprocket bolt, camshaft sprocket bolts and sprockets removal",
+      "bbox_percent": [
+        0,
+        36,
+        45,
+        52
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM367",
+      "type": "parts_diagram",
+      "description": "Camshaft brackets loosen order diagram \u2014 numbered loosen sequence",
+      "bbox_percent": [
+        0,
+        53,
+        45,
+        67
+      ],
+      "associated_step": "18"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM115D",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt loosen order diagram \u2014 numbered loosen sequence",
+      "bbox_percent": [
+        0,
+        68,
+        45,
+        84
+      ],
+      "associated_step": "20"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_removal_contd",
+      "title": "Cylinder Head Removal (Continued)",
+      "steps": [
+        {
+          "step": 11,
+          "text": "Remove camshaft position sensor (PHASE).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Do not allow any magnetic materials to contzact the camshaft position sensor (PHASE).",
+            "Be careful not to damage sensor."
+          ]
+        },
+        {
+          "step": 12,
+          "text": "Remove cam sprocket cover.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Remove thermostat housing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Remove chain tensioner.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Loosen idler sprocket bolt.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Remove camshaft sprocket bolts.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Remove camshaft sprockets.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Remove camshaft brackets and camshafsts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "These parts should be reassembled in their original positions.",
+            "Bolts should be loosened in two or three steps."
+          ]
+        },
+        {
+          "step": 19,
+          "text": "Remove idler sprocket bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Remove cylinder head with manifolds.",
+          "figure_ref": "fig5",
+          "warnings": [
+            "Head warpage or cracking could result from removing bolts in incorrect order.",
+            "Cylinder head bolts should be loosened in two or three steps."
+          ],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Remove upper timing chain.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Loosen in numerical order.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Loosen in numerical order.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

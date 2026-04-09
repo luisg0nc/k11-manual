@@ -1,0 +1,153 @@
+{
+  "page_code": "AT-98",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-98.jpg",
+  "continuation": {
+    "continues_from": "AT-97",
+    "continues_to": "AT-99"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT175",
+      "type": "component_photo",
+      "description": "Removal of the shift arm, with callout labelling 'Shift arm'",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        20
+      ],
+      "associated_step": "22"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT176",
+      "type": "component_photo",
+      "description": "Removal of synchroniser needle bearing",
+      "bbox_percent": [
+        2,
+        21,
+        38,
+        39
+      ],
+      "associated_step": "24"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT177",
+      "type": "component_photo",
+      "description": "Removal of circlip using flat-blade circlip pliers, with callout 'Rolling surface of the needle bearing'",
+      "bbox_percent": [
+        2,
+        40,
+        38,
+        58
+      ],
+      "associated_step": "25"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT178",
+      "type": "component_photo",
+      "description": "Lifting synchroniser assembly and lifting out counter gear and shaft, with callout 'Sleeve and hub ASSY'",
+      "bbox_percent": [
+        2,
+        59,
+        38,
+        77
+      ],
+      "associated_step": "26"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT179",
+      "type": "component_photo",
+      "description": "Removal of synchroniser/reverse gear assembly and needle bearing",
+      "bbox_percent": [
+        2,
+        78,
+        38,
+        97
+      ],
+      "associated_step": "27"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 22,
+          "text": "Remove the shift arm.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Remove the shift cam/parking rod assembly.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Remove synchroniser needle bearing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 25,
+          "text": "Remove the circlip. Use flat-blade circlip pliers.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Take care not to scratch the bearing surface."
+          ]
+        },
+        {
+          "step": 26,
+          "text": "Lift the synchroniser assembly slightly for access, and lift out the counter gear and shaft.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Remove the synchroniser/reverse gear as an assembly.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Remove needle bearing.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "flat-blade circlip pliers",
+      "usage": "Used to remove the circlip in step 25"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

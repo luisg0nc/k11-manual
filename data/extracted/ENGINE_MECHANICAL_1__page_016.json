@@ -1,0 +1,249 @@
+{
+  "page_code": "EM-16",
+  "section": "EM",
+  "title": "TIMING CHAIN",
+  "page_type": "parts_diagram",
+  "source_image": "EM-16.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM042",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of timing chain assembly showing upper and lower timing chains, chain tensioners, camshaft sprockets (intake and exhaust), idler shaft, idler sprocket, crankshaft sprocket, crankshaft pulley, oil pump drive spacer, timing cover, oilseal, o-ring, and associated fastener torque specifications.",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        80
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Upper timing chain",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Lower timing chain",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Chain Tensioner (upper)",
+          "note": "Apply Oil"
+        },
+        {
+          "number": 4,
+          "name": "Chain Tensioner (lower/right side)",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Camshaft sprocket (intake)",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Camshaft sprocket (exhaust)",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Idler shaft",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Idler sprocket",
+          "note": "Apply Oil"
+        },
+        {
+          "number": 9,
+          "name": "Crankshaft sprocket",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Crankshaft pulley",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Oil pump drive spacer",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Timing Cover",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Oilseal",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 14,
+          "name": "O-ring",
+          "note": "Do not reuse"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Chain Tensioner bolt (upper)",
+          "value": "6.3 - 8.3",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Chain Tensioner bolt (upper)",
+          "value": "0.64 - 0.85",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Chain Tensioner bolt (upper)",
+          "value": "4.6 - 6.2",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Camshaft sprocket bolt",
+          "value": "98 - 127",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Camshaft sprocket bolt",
+          "value": "10 - 13",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Camshaft sprocket bolt",
+          "value": "72 - 94",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Idler sprocket bolt",
+          "value": "43 - 58",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Idler sprocket bolt",
+          "value": "4.4 - 5.9",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Idler sprocket bolt",
+          "value": "32 - 43",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Chain Tensioner bolt (lower/right side)",
+          "value": "6.3 - 8.3",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Chain Tensioner bolt (lower/right side)",
+          "value": "0.64 - 0.85",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Chain Tensioner bolt (lower/right side)",
+          "value": "4.6 - 6.2",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Crankshaft pulley bolt",
+          "value": "132 - 152",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Crankshaft pulley bolt",
+          "value": "13.5 - 15.5",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Crankshaft pulley bolt",
+          "value": "98 - 112",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Crankshaft pulley smaller bolt",
+          "value": "6.4 - 7.4",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Crankshaft pulley smaller bolt",
+          "value": "0.65 - 0.75",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Crankshaft pulley smaller bolt",
+          "value": "4.7 - 5.4",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Timing Cover bolt / Oilseal area",
+          "value": "6.4 - 7.5",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Timing Cover bolt / Oilseal area",
+          "value": "0.65 - 0.76",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Timing Cover bolt / Oilseal area",
+          "value": "4.7 - 5.5",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Apply Oil symbol = Apply Oil; Do not reuse symbol = Do not reuse; Torque symbol = N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,154 @@
+{
+  "page_code": "GI-15",
+  "section": "GI",
+  "title": "CONSULT CHECKING SYSTEM",
+  "page_type": "spec_table",
+  "source_image": "GI-15.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of NISSAN CONSULT kit components: (1) CONSULT unit and accessories, (2) Program card, (3) Operation manuals, (4) Binder, (5) Carrying case, (6) Thermal paper (Rolls)",
+      "bbox_percent": [
+        25,
+        52,
+        95,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CONSULT CHECKING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Function"
+    },
+    {
+      "block_type": "table",
+      "title": "Function",
+      "columns": [
+        {
+          "key": "diagnostic_mode",
+          "label": "Diagnostic mode"
+        },
+        {
+          "key": "function",
+          "label": "Function"
+        }
+      ],
+      "rows": [
+        {
+          "diagnostic_mode": "Work support",
+          "function": "This mode enables a technician to adjust some devices faster and more accurately by following the indications on CONSULT."
+        },
+        {
+          "diagnostic_mode": "Self-diagnostic results",
+          "function": "Self-diagnostic results can be read and erased quickly."
+        },
+        {
+          "diagnostic_mode": "Data monitor",
+          "function": "Input/Output data in the control unit can be read."
+        },
+        {
+          "diagnostic_mode": "Active test",
+          "function": "Mode in which CONSULT drives some actuators apart from the control units and also shifts some parameters in a specified range."
+        },
+        {
+          "diagnostic_mode": "E.C.U. part number",
+          "function": "E.C.U. part number can be read."
+        },
+        {
+          "diagnostic_mode": "Function test",
+          "function": "Allows engine circuits to be tested sequentially or individually from a test menu"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Equipment"
+    },
+    {
+      "block_type": "prose",
+      "text": "When ordering the below equipment, contact your NISSAN distributor.",
+      "style": "important"
+    },
+    {
+      "block_type": "table",
+      "title": "Checking Equipment",
+      "columns": [
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_name": "NISSAN CONSULT kit",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "CONSULT unit and accessories",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Program card",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Operation manuals",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Binder",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Carrying case",
+          "note": ""
+        },
+        {
+          "number": 6,
+          "name": "Thermal paper (Rolls)",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "NISSAN CONSULT kit",
+      "usage": "Diagnostic checking system for self-diagnostic results, data monitoring, active test, ECU part number reading, and function testing"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,185 @@
+{
+  "page_code": "EM-28",
+  "section": "EM",
+  "title": "CYLINDER HEAD",
+  "page_type": "parts_diagram",
+  "source_image": "EM-28.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM063",
+      "type": "parts_diagram",
+      "description": "Exploded view of cylinder head assembly showing all components including rocker cover, camshafts, valve train components, cylinder head, and head gasket with torque specifications",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Oil filler cap",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Seal",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 4,
+          "name": "Gasket",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Shim",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Lifter",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Colletts",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Retainer",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Spring",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Seat",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Valve Seal",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Cylinder head bolt",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Intake camshaft",
+          "note": null
+        },
+        {
+          "number": 14,
+          "name": "Distributor bracket",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Cylinder head",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "Exhaust camshaft",
+          "note": null
+        },
+        {
+          "number": 17,
+          "name": "Bracket",
+          "note": null
+        },
+        {
+          "number": 18,
+          "name": "Head gasket",
+          "note": "Do not reuse"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Rocker cover bolts torque",
+          "value": "2 - 4 (0.21 - 0.41, 2-4)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Cylinder head bolt torque",
+          "value": "9.0 - 11.8 (0.9 - 1.2, 6.5 - 8.7)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "Cylinder head bolts"
+        },
+        {
+          "label": "Camshaft bracket bolt torque (valve seat side)",
+          "value": "9.0 - 11.8 (0.9 - 1.2, 6.5 - 8.7)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolts torque (upper)",
+          "value": "3.7 - 5.0 (0.38 - 0.51, 2.8 - 3.7)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolts torque (lower)",
+          "value": "3.7 - 5.0 (0.38 - 0.51, 2.8 - 3.7)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to \"Timing Chain Installation\"",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": ": Do not reuse",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": ": N\u00b7m (kg-m, ft-lb)",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Timing Chain Installation"
+  ],
+  "model_notes": null
+}

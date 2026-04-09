@@ -1,0 +1,213 @@
+{
+  "page_code": "AT-4",
+  "section": "AT",
+  "title": "PREPARATION",
+  "page_type": "spec_table",
+  "source_image": "page_at4.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Seal ring guide KV319-K0110 illustration",
+      "bbox_percent": [
+        10,
+        5,
+        55,
+        17
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Gauge KV319-K0130 illustration",
+      "bbox_percent": [
+        10,
+        18,
+        55,
+        30
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Control valve holder KV319-K0100 illustration",
+      "bbox_percent": [
+        10,
+        31,
+        55,
+        43
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Modulator plate KV319-K0030 illustration",
+      "bbox_percent": [
+        10,
+        44,
+        55,
+        56
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Pinion shaft holder KV319-K0080 illustration",
+      "bbox_percent": [
+        10,
+        57,
+        55,
+        69
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Pulley holder KV319-K0070 illustration",
+      "bbox_percent": [
+        10,
+        70,
+        55,
+        82
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig7",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Oil seal adaptor KV311-03000 illustration with dimension callouts a=70mm, b=56mm, c=49mm",
+      "bbox_percent": [
+        10,
+        83,
+        55,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number"
+        },
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "KV319-K0110",
+          "tool_name": "Seal ring guide",
+          "description": "Seal ring installation (secondary pulley)"
+        },
+        {
+          "tool_number": "KV319-K0130",
+          "tool_name": "Gauge",
+          "description": "Transmission case depth measurement"
+        },
+        {
+          "tool_number": "KV319-K0100",
+          "tool_name": "Control valve holder",
+          "description": "To secure pressure regulator spring during valve body removal"
+        },
+        {
+          "tool_number": "KV319-K0030",
+          "tool_name": "Modulator plate",
+          "description": "To install control valve on to transmission case"
+        },
+        {
+          "tool_number": "KV319-K0080",
+          "tool_name": "Pinion shaft holder",
+          "description": "To hold drive pinion shaft lock nut"
+        },
+        {
+          "tool_number": "KV319-K0070",
+          "tool_name": "Pulley holder",
+          "description": "To hold pulley while tightening lock nut"
+        },
+        {
+          "tool_number": "KV311-03000",
+          "tool_name": "Oil seal adaptor",
+          "description": "Driftshaft oil seal installation (use with ST3532-5000 drift). a = \u220570 mm, b = \u220556 mm, c = \u220549 mm"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0110",
+      "name": "Seal ring guide",
+      "usage": "Seal ring installation (secondary pulley)"
+    },
+    {
+      "part_number": "KV319-K0130",
+      "name": "Gauge",
+      "usage": "Transmission case depth measurement"
+    },
+    {
+      "part_number": "KV319-K0100",
+      "name": "Control valve holder",
+      "usage": "To secure pressure regulator spring during valve body removal"
+    },
+    {
+      "part_number": "KV319-K0030",
+      "name": "Modulator plate",
+      "usage": "To install control valve on to transmission case"
+    },
+    {
+      "part_number": "KV319-K0080",
+      "name": "Pinion shaft holder",
+      "usage": "To hold drive pinion shaft lock nut"
+    },
+    {
+      "part_number": "KV319-K0070",
+      "name": "Pulley holder",
+      "usage": "To hold pulley while tightening lock nut"
+    },
+    {
+      "part_number": "KV311-03000",
+      "name": "Oil seal adaptor",
+      "usage": "Driftshaft oil seal installation (use with ST3532-5000 drift)"
+    },
+    {
+      "part_number": "ST3532-5000",
+      "name": "Drift",
+      "usage": "Used with KV311-03000 oil seal adaptor for driftshaft oil seal installation"
+    }
+  ],
+  "cross_references": [
+    "ST3532-5000"
+  ],
+  "model_notes": null
+}

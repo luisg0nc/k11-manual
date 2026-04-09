@@ -1,0 +1,168 @@
+{
+  "page_code": "EM-7017",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Installation",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM368",
+      "type": "component_photo",
+      "description": "Crankshaft pulley with timing pointer showing TDC, 5\u00b0, 10\u00b0, 15\u00b0, 20\u00b0 marks",
+      "bbox_percent": [
+        0,
+        1,
+        35,
+        17
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM045",
+      "type": "parts_diagram",
+      "description": "Timing chain alignment diagram showing upper and lower timing chains, mating marks (silver, bronze, yellow), idler sprocket with link counts (5 links, 7 links, 11 links)",
+      "bbox_percent": [
+        0,
+        17,
+        35,
+        52
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM054",
+      "type": "component_photo",
+      "description": "Idler shaft installation showing dowel and idler shaft location",
+      "bbox_percent": [
+        0,
+        52,
+        35,
+        70
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM046",
+      "type": "parts_diagram",
+      "description": "Front cover liquid gasket application area showing 2.0\u20133.0 mm (0.079\u20130.118 in) bead location on cylinder block mating surface",
+      "bbox_percent": [
+        0,
+        70,
+        35,
+        90
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Confirm that No. 1 piston is set at T.D.C. on its compression stroke.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Set idler sprocket by aligning the mating mark on the larger sprocket with the yellow mating mark on the lower timing chain.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Install upper timing chain and set it by aligning the mating mark on the smaller sprocket with the silver mating marks on the upper timing chain.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Make sure sprocket's mating mark faces engine front."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Install idler sprocket shaft from the rear side.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Ensure that the shaft is located correctly, as shown."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Install cylinder head with new gasket.",
+          "figure_ref": "fig4",
+          "warnings": [
+            "Do not rotate crankshaft and camshaft separately, or valves will strike piston heads."
+          ],
+          "notes": [
+            "Before installing cylinder head gasket, apply a continuous bead of liquid gasket as shown in the figure.",
+            "Be sure to install washers between bolts and cylinder head."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure sprocket's mating mark faces engine front.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure that the shaft is located correctly, as shown.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before installing cylinder head gasket, apply a continuous bead of liquid gasket as shown in the figure.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be sure to install washers between bolts and cylinder head.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not rotate crankshaft and camshaft separately, or valves will strike piston heads.",
+      "style": "warning"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width on front cover mating surface",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Before installing cylinder head gasket"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

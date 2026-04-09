@@ -1,0 +1,244 @@
+{
+  "page_code": "ST-6",
+  "section": "ST",
+  "title": "ON-VEHICLE INSPECTION \u2014 Power Steering",
+  "page_type": "prose_procedure",
+  "source_image": "st-6.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST014",
+      "type": "parts_diagram",
+      "description": "Drive belt routing diagram showing water pump, power steering pump, idler, and crankshaft pulleys with front-of-vehicle direction arrow",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        22
+      ],
+      "associated_step": "Checking and Adjusting Drive Belts"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA039",
+      "type": "component_photo",
+      "description": "Power steering fluid reservoir cap/dipstick being checked",
+      "bbox_percent": [
+        0,
+        23,
+        32,
+        42
+      ],
+      "associated_step": "Checking Fluid Level"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST576B",
+      "type": "tool_illustration",
+      "description": "Steering wheel with spring scale attached, showing measurement after turning 360\u00b0 from neutral position",
+      "bbox_percent": [
+        0,
+        43,
+        32,
+        63
+      ],
+      "associated_step": "step_4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SST090B",
+      "type": "tool_illustration",
+      "description": "Rack and tie-rod assembly with tool attached for measuring rack sliding force",
+      "bbox_percent": [
+        0,
+        63,
+        32,
+        82
+      ],
+      "associated_step": "step_5c"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Power steering"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking and Adjusting Drive Belts"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the power steering drive belt is correctly tensioned. Refer to MA section for full details of belt tensioning procedures and specifications.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking Fluid Level"
+    },
+    {
+      "block_type": "prose",
+      "text": "Fluid level should be checked when fluid is cold.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Do not overfill.\n\u2022 Recommended fluid is Automatic Transmission Fluid \"DEXRON\u2122\" type.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking Steering Wheel Turning Force"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_steering_wheel_turning_force",
+      "title": "Checking Steering Wheel Turning Force",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Park vehicle on a level, dry surface and set parking brake.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Start engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Bring power steering fluid up to adequate operating temperature. [Make sure temperature of fluid is approximately 60 to 80\u00b0C (140 to 176\u00b0F).]",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "note",
+          "text": "Tires need to be inflated to normal pressure.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check steering wheel turning force when steering wheel has been turned 360\u00b0 from neutral position.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Steering wheel turning force: 44.1 N (4.5 kg, 9.9 lb) or less"
+          ]
+        },
+        {
+          "step": 5,
+          "text": "If steering wheel turning force is out of specifications, check rack sliding force to detect condition of steering gear assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5a",
+          "text": "Disconnect steering column lower joint and knuckle arms from the gear.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5b",
+          "text": "Start and run engine at idle to make sure steering fluid has reached normal operating temperature.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5c",
+          "text": "While pulling tie-rod slowly from the neutral position, make sure rack sliding force is within specification.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Rack sliding force: 147 N (15 kg, 33 lb) or less"
+          ]
+        },
+        {
+          "step": 6,
+          "text": "If rack sliding force is not within specification, replace steering gear assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Steering wheel turning force (after turning 360\u00b0 from neutral)",
+          "value": "44.1",
+          "unit": "N (4.5 kg, 9.9 lb) or less",
+          "condition": "Engine running, fluid at 60\u201380\u00b0C (140\u2013176\u00b0F), tires at normal pressure"
+        },
+        {
+          "label": "Rack sliding force",
+          "value": "147",
+          "unit": "N (15 kg, 33 lb) or less",
+          "condition": "Engine at idle, steering column lower joint and knuckle arms disconnected, fluid at operating temperature"
+        },
+        {
+          "label": "Power steering fluid operating temperature",
+          "value": "60 to 80",
+          "unit": "\u00b0C (140 to 176\u00b0F)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Drive belt routing for power steering pump",
+      "callouts": [
+        {
+          "label": "Water pump",
+          "position": "top-centre"
+        },
+        {
+          "label": "Power steering pump",
+          "position": "left"
+        },
+        {
+          "label": "Front of vehicle",
+          "position": "top-right"
+        },
+        {
+          "label": "Idler",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Crankshaft",
+          "position": "bottom-right"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA section \u2014 belt tensioning procedures and specifications"
+  ],
+  "model_notes": "Power steering variant only. Recommended fluid: ATF DEXRON\u2122 type."
+}

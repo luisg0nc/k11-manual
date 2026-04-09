@@ -1,0 +1,105 @@
+{
+  "page_code": "EM-39",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "parts_diagram",
+  "source_image": "EM-39.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM064",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of engine mount components for N-CVT and M/T variants (CG10DE engine), showing torque values for all fasteners",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "UEM064",
+      "parts": []
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "N-CVT mount bolt torque (small/top)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m (3.6 - 4.6 kg\u00b7m, 26 - 33 ft-lb)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT mount bolt torque (large/middle)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6 kg\u00b7m, 33 - 40 ft-lb)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT mount bolt torque (bottom)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m (3.6 - 4.6 kg\u00b7m, 26 - 33 ft-lb)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "Engine mount bracket bolt torque (standard)",
+          "value": "64 - 74",
+          "unit": "N\u00b7m (6.5 - 7.5 kg\u00b7m, 47 - 54 ft-lb)",
+          "condition": "N-CVT and M/T, multiple locations"
+        },
+        {
+          "label": "Engine mount bolt torque (front/rear insulator)",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1 kg\u00b7m, 37 - 44 ft-lb)",
+          "condition": "N-CVT and M/T"
+        },
+        {
+          "label": "Engine mount bolt torque (side insulator)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6 kg\u00b7m, 33 - 40 ft-lb)",
+          "condition": "N-CVT and M/T"
+        },
+        {
+          "label": "M/T mount bolt torque (specific bracket)",
+          "value": "59 - 69",
+          "unit": "N\u00b7m (6.0 - 7.0 kg\u00b7m, 43 - 51 ft-lb)",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T mount bolt torque (lower bracket)",
+          "value": "44 - 54",
+          "unit": "N\u00b7m (4.5 - 5.5 kg\u00b7m, 33 - 40 ft-lb)",
+          "condition": "M/T"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg\u00b7m, ft-lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "CG10DE \u2014 engine code label visible on right side mount area of M/T diagram.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Page shows two separate engine mount configurations: N-CVT (top diagram) and M/T (bottom diagram). Engine identified as CG10DE. Torque values differ between transmission variants for certain fasteners."
+}

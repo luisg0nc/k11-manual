@@ -1,0 +1,95 @@
+{
+  "page_code": "AT-114",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-114.jpg",
+  "continuation": {
+    "continues_from": "AT-113",
+    "continues_to": "AT-115"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT237",
+      "type": "tool_illustration",
+      "description": "Illustration showing a hand tool being used on a transmission assembly component, related to pulley end play/snap ring selection procedure",
+      "bbox_percent": [
+        0,
+        30,
+        35,
+        70
+      ],
+      "associated_step": "Pulley end play - snap ring selection"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Shim Thickness",
+      "columns": [
+        {
+          "key": "thickness",
+          "label": "t mm (in) (Shim thickness)"
+        }
+      ],
+      "rows": [
+        {
+          "thickness": "0.1 (0.004)"
+        },
+        {
+          "thickness": "0.2 (0.008)"
+        },
+        {
+          "thickness": "0.3 (0.012)"
+        },
+        {
+          "thickness": "0.4 (0.016)"
+        },
+        {
+          "thickness": "0.5 (0.020)"
+        },
+        {
+          "thickness": "0.6 (0.024)"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "pulley_end_play",
+      "title": "Pulley end play",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Select a shim measured as \"Lp\" under \"Pulley Alignment\". Lp1: Dimension of the old side case. Lp2: Dimension of the new side case.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Snap ring selection. Select a snap ring determined by Equation \"Lp2 - Lp1\" or \"Lp1 - Lp2\", as applicable.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Pulley Alignment"
+  ],
+  "model_notes": null
+}

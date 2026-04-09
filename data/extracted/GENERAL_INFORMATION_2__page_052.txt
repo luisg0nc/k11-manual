@@ -1,0 +1,348 @@
+{
+  "page_code": "GI-5005",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION - Model Variation",
+  "page_type": "spec_table",
+  "source_image": "page_gi5005.jpg",
+
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+
+  "full_page_figure": false,
+
+  "figures_detected": [],
+
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation"
+    },
+    {
+      "block_type": "table",
+      "title": "Model Variation",
+      "columns": [
+        {"key": "body", "label": "Body"},
+        {"key": "engine", "label": "Engine"},
+        {"key": "tm", "label": "T/M"},
+        {"key": "grade", "label": "Grade"},
+        {"key": "rhd_for_europe", "label": "R.H.D. models - For Europe"},
+        {"key": "rhd_for_australia", "label": "R.H.D. models - For Australia"},
+        {"key": "lhd_for_central_south_europe", "label": "L.H.D. models - For Central & South Europe"},
+        {"key": "lhd_for_north_europe", "label": "L.H.D. models - For North Europe"}
+      ],
+      "rows": [
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "",
+          "grade": "L",
+          "rhd_for_europe": "EAEARBF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEALBF-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "GX",
+          "rhd_for_europe": "EAEARDF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEALDF-EGA",
+          "lhd_for_north_europe": "EAEALDF-ESA"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Si",
+          "rhd_for_europe": "EAEARtf-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEALTF-EGA",
+          "lhd_for_north_europe": "EAEALTF-ESA"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "SE",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEALFF-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RE0F05A",
+          "grade": "L",
+          "rhd_for_europe": "EAEARBZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEALBZ-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RE0F05A",
+          "grade": "GX",
+          "rhd_for_europe": "EAEARDZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEALDZ-EGA",
+          "lhd_for_north_europe": "EAEALDZ-ESA"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RE0F05A",
+          "grade": "SE",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EAEAIFZ-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "L",
+          "rhd_for_europe": "EANARBF-EEA",
+          "rhd_for_australia": "EANARBF-EMA",
+          "lhd_for_central_south_europe": "EANALBF-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "GX",
+          "rhd_for_europe": "EANARDF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EANALDF-EGA",
+          "lhd_for_north_europe": "EANALDF-ESA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "SE",
+          "rhd_for_europe": "EANARFF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EANALFF-EGA",
+          "lhd_for_north_europe": "EANALFF-ESA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "SRi",
+          "rhd_for_europe": "EANARTF-EEA",
+          "rhd_for_australia": "EANARTF-EMA",
+          "lhd_for_central_south_europe": "EANALTF-EGA",
+          "lhd_for_north_europe": "EANALTF-ESA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RE0F05A",
+          "grade": "GX",
+          "rhd_for_europe": "EANARBZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EANALDZ-EGA",
+          "lhd_for_north_europe": "EANALDZ-ESA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RE0F05A",
+          "grade": "SE",
+          "rhd_for_europe": "EANARDZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EANALFZ-EGA",
+          "lhd_for_north_europe": "EANALFZ-ESA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG13DE",
+          "tm": "RE0F05A",
+          "grade": "GX",
+          "rhd_for_europe": "EANARFZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EWZALBF-NGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "VJZ",
+          "tm": "MA-5",
+          "grade": "L",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "EWZALDF-NGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "VJZ",
+          "tm": "MA-5",
+          "grade": "GX",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "—",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "L",
+          "rhd_for_europe": "FAEARBF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FAEALBF-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "GX",
+          "rhd_for_europe": "FAEARDF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FAEALDF-EGA",
+          "lhd_for_north_europe": "FAEALDF-ESA"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "SE",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FAEALTF-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RE0F05A",
+          "grade": "L",
+          "rhd_for_europe": "FAEARBZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FAEALBZ-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RE0F05A",
+          "grade": "GX",
+          "rhd_for_europe": "FAEARDZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FAEALDZ-EGA",
+          "lhd_for_north_europe": "FAEALDZ-ESA"
+        },
+        {
+          "body": "",
+          "engine": "CG10DE",
+          "tm": "RE0F05A",
+          "grade": "SE",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FAEAIFZ-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "L",
+          "rhd_for_europe": "FANARBF-EEA",
+          "rhd_for_australia": "FANARDF-EMA",
+          "lhd_for_central_south_europe": "FANALBF-EGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "GX",
+          "rhd_for_europe": "FANARDF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FANALDF-EGA",
+          "lhd_for_north_europe": "FANALDF-ESA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG13DE",
+          "tm": "RS5F30A",
+          "grade": "SE",
+          "rhd_for_europe": "FANARFF-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FANALFF-EGA",
+          "lhd_for_north_europe": "FANALFF-ESA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG13DE",
+          "tm": "RE0F05A",
+          "grade": "L",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "—",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG13DE",
+          "tm": "RE0F05A",
+          "grade": "GX",
+          "rhd_for_europe": "FANARDZ-EEA",
+          "rhd_for_australia": "FANARDZ-EMA",
+          "lhd_for_central_south_europe": "FANALDZ-EGA",
+          "lhd_for_north_europe": "FANALDZ-ESA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG13DE",
+          "tm": "RE0F05A",
+          "grade": "SE",
+          "rhd_for_europe": "FANARFZ-EEA",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FANALFZ-EGA",
+          "lhd_for_north_europe": "FANALFZ-ESA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "VJZ",
+          "tm": "MA-5",
+          "grade": "L",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FWZALBF-NGA",
+          "lhd_for_north_europe": "—"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "VJZ",
+          "tm": "MA-5",
+          "grade": "GX",
+          "rhd_for_europe": "—",
+          "rhd_for_australia": "—",
+          "lhd_for_central_south_europe": "FWZALDF-NGA",
+          "lhd_for_north_europe": "—"
+        }
+      ]
+    }
+  ],
+
+  "tools_referenced": [],
+
+  "cross_references": [],

@@ -1,0 +1,88 @@
+{
+  "page_code": "ST-2",
+  "section": "ST",
+  "title": "PRECAUTIONS",
+  "page_type": "prose_procedure",
+  "source_image": "st-2.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "procedure",
+      "id": "precautions",
+      "title": "Precautions",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Before disassembly, thoroughly clean the outside of the unit.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Disassembly should be done in a clean work area. It is important to prevent the internal parts from becoming contaminated by dirt or other foreign matter.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "When disassembling parts, be sure to place them in order on a part rack so they can be reinstalled in their proper positions.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Use nylon cloths or paper towels to clean the parts; common shop rags can leave lint that might interfere with their operation.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Before inspection or reassembly, carefully clean all parts with a general purpose, non-flammable solvent.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Before assembly, apply a coat of recommended A.T.F.* to hydraulic parts. Vaseline may be applied to O-rings and seals. Do not use any grease.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "*: Automatic transmission fluid"
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Replace all gaskets, seals and O-rings. Avoid damaging O-rings, seals and gaskets during installation. Perform functional tests whenever designated.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "*: Automatic transmission fluid"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Automatic transmission fluid",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

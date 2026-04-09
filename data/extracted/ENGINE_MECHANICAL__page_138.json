@@ -1,0 +1,198 @@
+{
+  "page_code": "EM-5005",
+  "section": "EM",
+  "title": "PREPARATION - Special Service Tools (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "109B0060",
+      "type": "tool_illustration",
+      "description": "Gauge adaptor KV109B0060 - dial indicator adaptor for measuring piston height",
+      "bbox_percent": [
+        15,
+        7,
+        55,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "109B0070",
+      "type": "tool_illustration",
+      "description": "Pulley holding tool KV109B0070 - for holding camshaft and injection pump pulley",
+      "bbox_percent": [
+        15,
+        20,
+        55,
+        34
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "109B0080",
+      "type": "tool_illustration",
+      "description": "Timing belt tensioner lever KV109B0080 - for adjusting timing belt tensioner",
+      "bbox_percent": [
+        15,
+        36,
+        55,
+        47
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "109B0090",
+      "type": "tool_illustration",
+      "description": "Engine mount socket KV109B0090 - for torqueing RH engine mount",
+      "bbox_percent": [
+        15,
+        49,
+        55,
+        60
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "109B0100",
+      "type": "tool_illustration",
+      "description": "Valve clearance adjustment tool KV109B0100 - for adjusting valve clearance",
+      "bbox_percent": [
+        15,
+        62,
+        55,
+        73
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": "109B00S0",
+      "type": "tool_illustration",
+      "description": "Locking pin set KV109B00S0 - showing three pins: injection pump locking pin (1), camshaft locking pin (2), flywheel locking pin (3)",
+      "bbox_percent": [
+        15,
+        75,
+        65,
+        92
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION - Special Service Tools (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number_name",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "engine_application_vjz",
+          "label": "Engine application VJZ"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number_name": "KV109B0060\nGauge adaptor",
+          "description": "Dial indicator adaptor for measuring piston height",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV109B0070\nPulley holding tool",
+          "description": "Holding camshaft and injection pump pulley",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV109B0080\nTiming belt tensioner lever",
+          "description": "Adjusting timing belt tensioner",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV109B0090\nEngine mount socket",
+          "description": "Torqueing RH engine mount",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV109B0100\nValve clearance adjustment tool",
+          "description": "Adjusting valve clearance",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV109B00S0\nlocking pin set\n\u2460 KV109B0110 Injection pump locking pin\n\u2461 KV109B0111 Camshaft locking pin\n\u2462 KV109B0112 Flywheel locking pin",
+          "description": "Locking camshaft, injection pump and flywheel",
+          "engine_application_vjz": "X"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0060",
+      "name": "Gauge adaptor",
+      "usage": "Dial indicator adaptor for measuring piston height"
+    },
+    {
+      "part_number": "KV109B0070",
+      "name": "Pulley holding tool",
+      "usage": "Holding camshaft and injection pump pulley"
+    },
+    {
+      "part_number": "KV109B0080",
+      "name": "Timing belt tensioner lever",
+      "usage": "Adjusting timing belt tensioner"
+    },
+    {
+      "part_number": "KV109B0090",
+      "name": "Engine mount socket",
+      "usage": "Torqueing RH engine mount"
+    },
+    {
+      "part_number": "KV109B0100",
+      "name": "Valve clearance adjustment tool",
+      "usage": "Adjusting valve clearance"
+    },
+    {
+      "part_number": "KV109B00S0",
+      "name": "Locking pin set",
+      "usage": "Locking camshaft, injection pump and flywheel"
+    },
+    {
+      "part_number": "KV109B0110",
+      "name": "Injection pump locking pin",
+      "usage": "Locking injection pump (part of KV109B00S0 set)"
+    },
+    {
+      "part_number": "KV109B0111",
+      "name": "Camshaft locking pin",
+      "usage": "Locking camshaft (part of KV109B00S0 set)"
+    },
+    {
+      "part_number": "KV109B0112",
+      "name": "Flywheel locking pin",
+      "usage": "Locking flywheel (part of KV109B00S0 set)"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "All tools apply to VJZ engine application only."
+}

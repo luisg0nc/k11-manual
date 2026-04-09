@@ -1,0 +1,253 @@
+{
+  "page_code": "GI-2005",
+  "section": "GI",
+  "title": "SAE J1930 Terminology List (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SAE J1930 TERMINOLOGY LIST"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SAE J1930 Terminology List (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "***: Not applicable",
+      "style": "note"
+    },
+    {
+      "block_type": "table",
+      "title": "SAE J1930 Terminology List (Cont'd)",
+      "columns": [
+        {
+          "key": "new_term",
+          "label": "NEW TERM"
+        },
+        {
+          "key": "new_acronym",
+          "label": "NEW ACRONYM/ABBREVIATION"
+        },
+        {
+          "key": "old_term",
+          "label": "OLD TERM"
+        }
+      ],
+      "rows": [
+        {
+          "new_term": "Exhaust gas recirculation temperature sensor",
+          "new_acronym": "EGR temperature sensor",
+          "old_term": "Exhaust gas temperature sensor"
+        },
+        {
+          "new_term": "Flash electrically erasable programmable read only memory",
+          "new_acronym": "FEEPROM",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Flash erasable programmable read only memory",
+          "new_acronym": "FEPROM",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Flexible fuel sensor",
+          "new_acronym": "FFS",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Flexible fuel system",
+          "new_acronym": "FF system",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Heated Oxygen sensor",
+          "new_acronym": "HO2S",
+          "old_term": "Exhaust gas sensor"
+        },
+        {
+          "new_term": "Idle air control system",
+          "new_acronym": "IAC system",
+          "old_term": "Idle speed control"
+        },
+        {
+          "new_term": "Idle air control valve-air regulator",
+          "new_acronym": "IACV-air regulator",
+          "old_term": "Air regulator"
+        },
+        {
+          "new_term": "Idle air control valve-auxiliary air control valve",
+          "new_acronym": "IACV-AAC valve",
+          "old_term": "Auxiliary air control(AAC) valve"
+        },
+        {
+          "new_term": "Idle air control valve-FICD solenoid valve",
+          "new_acronym": "IACV-FICD solenoid valve",
+          "old_term": "FICD solenoid valve"
+        },
+        {
+          "new_term": "Idle air control valve-idle up control solenoid valve",
+          "new_acronym": "IACV-idle up control solenoid valve",
+          "old_term": "Idle up control solenoid valve"
+        },
+        {
+          "new_term": "Idle speed control-FI pot",
+          "new_acronym": "ISC-FI pot",
+          "old_term": "FI pot"
+        },
+        {
+          "new_term": "Idle speed control system",
+          "new_acronym": "ISC system",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Ignition control module",
+          "new_acronym": "ICM",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Indirect fuel injection system",
+          "new_acronym": "IFI system",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Intake air temperature sensor",
+          "new_acronym": "IATS",
+          "old_term": "Air temperature sensor"
+        },
+        {
+          "new_term": "Knock",
+          "new_acronym": "...",
+          "old_term": "Detonation"
+        },
+        {
+          "new_term": "Knock sensor",
+          "new_acronym": "KS",
+          "old_term": "Detonation sensor"
+        },
+        {
+          "new_term": "Malfunction indicator lamp",
+          "new_acronym": "MIL",
+          "old_term": "Check engine light"
+        },
+        {
+          "new_term": "Manifold absolute pressure",
+          "new_acronym": "MAP",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold absolute pressure sensor",
+          "new_acronym": "MAPS",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold differential pressure",
+          "new_acronym": "MDP",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold differential pressure sensor",
+          "new_acronym": "MDPS",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold surface temperature",
+          "new_acronym": "MST",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold surface temperature sensor",
+          "new_acronym": "MSTS",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold vacuum zone",
+          "new_acronym": "MVZ",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Manifold vacuum zone sensor",
+          "new_acronym": "MVZS",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Mass air flow sensor",
+          "new_acronym": "MAFS",
+          "old_term": "Air flow meter"
+        },
+        {
+          "new_term": "Mixture control solenoid valve",
+          "new_acronym": "MC solenoid valve",
+          "old_term": "Air-fuel control solenoid valve"
+        },
+        {
+          "new_term": "Multiport fuel injection system",
+          "new_acronym": "MFI system",
+          "old_term": "Fuel injection control"
+        },
+        {
+          "new_term": "Neutral position switch",
+          "new_acronym": "...",
+          "old_term": "Neutral switch"
+        },
+        {
+          "new_term": "Non-volatile random access memory",
+          "new_acronym": "NVRAM",
+          "old_term": "..."
+        },
+        {
+          "new_term": "On-board diagnostic system",
+          "new_acronym": "OBD system",
+          "old_term": "Self-diagnosis"
+        },
+        {
+          "new_term": "Open loop",
+          "new_acronym": "OL",
+          "old_term": "Open loop"
+        },
+        {
+          "new_term": "Oxidation catalyst",
+          "new_acronym": "OC",
+          "old_term": "Catalyst"
+        },
+        {
+          "new_term": "Oxidation catalytic converter system",
+          "new_acronym": "OC system",
+          "old_term": "..."
+        },
+        {
+          "new_term": "Oxygen sensor",
+          "new_acronym": "O2S",
+          "old_term": "Exhaust gas sensor"
+        },
+        {
+          "new_term": "Park position switch",
+          "new_acronym": "...",
+          "old_term": "Park switch"
+        },
+        {
+          "new_term": "Park/neutral position switch",
+          "new_acronym": "PNP switch",
+          "old_term": "Park/neutral switch"
+        },
+        {
+          "new_term": "Periodic trap oxidizer system",
+          "new_acronym": "PTOX system",
+          "old_term": "..."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

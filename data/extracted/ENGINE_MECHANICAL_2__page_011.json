@@ -1,0 +1,169 @@
+{
+  "page_code": "EM-7011",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM055",
+      "type": "parts_diagram",
+      "description": "Exploded view of tensioner components: Tensioner body, Piston, Ratchet, Spring, Plunger",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        18
+      ],
+      "associated_step": "16"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM056",
+      "type": "tool_illustration",
+      "description": "Hands assembling tensioner - rotating and pushing ratchet up the spiral on the piston",
+      "bbox_percent": [
+        0,
+        18,
+        35,
+        38
+      ],
+      "associated_step": "16"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM057",
+      "type": "component_photo",
+      "description": "Installed tensioner on engine with timing chain visible",
+      "bbox_percent": [
+        0,
+        38,
+        35,
+        57
+      ],
+      "associated_step": "16"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM049",
+      "type": "parts_diagram",
+      "description": "Cam sprocket cover showing liquid gasket application areas with bead width 2.0 - 3.0 mm (0.079 - 0.118 in)",
+      "bbox_percent": [
+        0,
+        57,
+        35,
+        78
+      ],
+      "associated_step": "17"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Tensioner body",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Piston",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Ratchet",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Spring",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Plunger",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 16,
+          "text": "Assemble the tensioner by rotating and pushing the ratchet up the spiral until it stops. The tensioner is now pre-set. Chain lash will automatically set the tensioner when the engine is started. Install the tensioner.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Apply liquid gasket to cam sprocket cover as illustrated then install cam sprocket cover.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Clean the rocker cover, ensure it is free from grease.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Fit the gasket & cover within 5 minutes of applying the liquid gasket, as follows:"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Check no problems occur when engine is rotated.\n\u2022 Make sure that No. 1 piston is set at T.D.C. on its compression stroke.",
+      "style": "caution"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width (cam sprocket cover)",
+          "value": "2.0 - 3.0",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Liquid gasket bead width (cam sprocket cover)",
+          "value": "0.079 - 0.118",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Fit the gasket & cover within 5 minutes of applying the liquid gasket, as follows:",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

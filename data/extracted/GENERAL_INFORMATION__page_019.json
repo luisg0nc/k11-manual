@@ -1,0 +1,178 @@
+{
+  "page_code": "GI-13",
+  "section": "GI",
+  "title": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+  "page_type": "spec_table",
+  "source_image": "page_gi13.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Key to symbols signifying measurements or procedures"
+    },
+    {
+      "block_type": "table",
+      "title": "Key to symbols signifying measurements or procedures",
+      "columns": [
+        {
+          "key": "symbol",
+          "label": "Symbol"
+        },
+        {
+          "key": "explanation",
+          "label": "Symbol explanation"
+        }
+      ],
+      "rows": [
+        {
+          "symbol": "DISCONNECT (connector icon)",
+          "explanation": "Check after disconnecting the connector to be measured."
+        },
+        {
+          "symbol": "CONNECT (connector icon)",
+          "explanation": "Check after connecting the connector to be measured."
+        },
+        {
+          "symbol": "Key insert icon",
+          "explanation": "Insert key into ignition switch."
+        },
+        {
+          "symbol": "Key remove icon",
+          "explanation": "Remove key from ignition switch."
+        },
+        {
+          "symbol": "Ignition OFF icon",
+          "explanation": "Turn ignition switch to \"OFF\" position."
+        },
+        {
+          "symbol": "Ignition ON icon",
+          "explanation": "Turn ignition switch to \"ON\" position."
+        },
+        {
+          "symbol": "Ignition START icon",
+          "explanation": "Turn ignition switch to \"START\" position."
+        },
+        {
+          "symbol": "OFF to ACC icon",
+          "explanation": "Turn ignition switch from \"OFF\" to \"ACC\" position."
+        },
+        {
+          "symbol": "ACC to OFF icon",
+          "explanation": "Turn ignition switch from \"ACC\" to \"OFF\" position."
+        },
+        {
+          "symbol": "OFF to ON icon",
+          "explanation": "Turn ignition switch from \"OFF\" to \"ON\" position."
+        },
+        {
+          "symbol": "ON to OFF icon",
+          "explanation": "Turn ignition switch from \"ON\" to \"OFF\" position."
+        },
+        {
+          "symbol": "Engine stopped icon",
+          "explanation": "Do not start engine, or check with engine stopped."
+        },
+        {
+          "symbol": "Engine running icon",
+          "explanation": "Start engine, or check with engine running."
+        },
+        {
+          "symbol": "Parking brake apply icon",
+          "explanation": "Apply parking brake."
+        },
+        {
+          "symbol": "Parking brake release icon",
+          "explanation": "Release parking brake."
+        },
+        {
+          "symbol": "Engine warm icon (C to H)",
+          "explanation": "Check after engine is warmed up sufficiently."
+        },
+        {
+          "symbol": "Voltmeter icon",
+          "explanation": "Voltage should be measured with a voltmeter."
+        },
+        {
+          "symbol": "Ohmmeter icon",
+          "explanation": "Circuit resistance should be measured with an ohmmeter."
+        },
+        {
+          "symbol": "Ammeter icon",
+          "explanation": "Current should be measured with an ammeter."
+        },
+        {
+          "symbol": "CONSULT icon",
+          "explanation": "Procedure with CONSULT."
+        },
+        {
+          "symbol": "No CONSULT icon",
+          "explanation": "Procedure without CONSULT."
+        },
+        {
+          "symbol": "A/C switch OFF icon",
+          "explanation": "A/C switch is \"OFF\"."
+        },
+        {
+          "symbol": "A/C switch ON icon",
+          "explanation": "A/C switch is \"ON\"."
+        },
+        {
+          "symbol": "Fan switch ON icon (OFF 1 2 3 4)",
+          "explanation": "Fan switch is \"ON\". (At any position except for \"OFF\" position)"
+        },
+        {
+          "symbol": "Fan switch OFF icon (OFF 1 2 3 4)",
+          "explanation": "Fan switch is \"OFF\"."
+        },
+        {
+          "symbol": "Battery/component icon",
+          "explanation": "Apply battery voltage directly to components."
+        },
+        {
+          "symbol": "Drive vehicle icon",
+          "explanation": "Drive vehicle."
+        },
+        {
+          "symbol": "Battery negative cable icon",
+          "explanation": "Disconnect battery negative cable."
+        },
+        {
+          "symbol": "Brake pedal depress icon",
+          "explanation": "Depress brake pedal."
+        },
+        {
+          "symbol": "Brake pedal release icon",
+          "explanation": "Release brake pedal."
+        },
+        {
+          "symbol": "Accelerator pedal depress icon",
+          "explanation": "Depress accelerator pedal."
+        },
+        {
+          "symbol": "Accelerator pedal release icon",
+          "explanation": "Release accelerator pedal."
+        },
+        {
+          "symbol": "SMJ/ECU connector pin terminal icon",
+          "explanation": "Pin terminal check for S.M.J. type E.C.U. and A/T control unit connectors. For details regarding the terminal arrangement, refer to the foldout page."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "foldout page"
+  ],
+  "model_notes": null
+}

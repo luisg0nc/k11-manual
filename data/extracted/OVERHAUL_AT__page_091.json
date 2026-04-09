@@ -1,0 +1,257 @@
+{
+  "page_code": "AT-91",
+  "section": "AT",
+  "title": "Transmission Assembly Removal and Installation",
+  "page_type": "prose_procedure",
+  "source_image": "AT-91.jpg",
+  "continuation": {
+    "continues_from": "AT-90",
+    "continues_to": "AT-92"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT080",
+      "type": "component_photo",
+      "description": "Engine bay photo showing engine mount/gusset area with arrow indicating removal point",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "9"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT081",
+      "type": "component_photo",
+      "description": "Underside photo showing transaxle assembly and surrounding components",
+      "bbox_percent": [
+        0,
+        18,
+        38,
+        38
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT082",
+      "type": "component_photo",
+      "description": "Drive plate and ring gear assembly showing surface for runout inspection with dial gauge",
+      "bbox_percent": [
+        0,
+        57,
+        38,
+        76
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT083",
+      "type": "parts_diagram",
+      "description": "Transaxle bolt location diagram showing bolt positions numbered 1-4, with legend: O = to eng., circled O = to T/A",
+      "bbox_percent": [
+        0,
+        76,
+        38,
+        100
+      ],
+      "associated_step": "11"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REMOVAL AND INSTALLATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Transmission Assembly Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Transmission Assembly Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 8,
+          "text": "Set the transmission jack on the A/T and engine main units.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "When attaching the transmission jack, be careful not to make contact with the drain plug."
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Remove the engine mount and engine gusset. Refer to section EM, \"Engine Removal and Installation\".",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Remove the dust cover. While rotating the crankshaft, remove the four electromagnetic clutch bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Remove the transaxle bolts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Remove the starter motor. Refer to section EL, \"Starter Motor\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Lower the transmission jack and remove the transaxle assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "prose",
+      "text": "Perform the following inspections. Assembly is the reverse sequence of disassembly. Tighten bolts to the specified torque.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Drive Plate Surface Runout Inspection"
+    },
+    {
+      "block_type": "procedure",
+      "id": "runout_inspection",
+      "title": "Drive Plate Surface Runout Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Attach a dial gauge to the drive plate.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Rotate the crankshaft. Make sure the runout is within the standard value.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Runout standard value",
+          "value": "0.5 maximum",
+          "unit": "mm",
+          "condition": "Drive plate surface runout"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "When the runout is greater than the standard value, replace the drive plate and ring gear assembly.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TRANSAXLE BOLTS"
+    },
+    {
+      "block_type": "table",
+      "title": "TRANSAXLE BOLTS",
+      "columns": [
+        {
+          "key": "bolt_no",
+          "label": "Bolt No."
+        },
+        {
+          "key": "col1",
+          "label": "1"
+        },
+        {
+          "key": "col2",
+          "label": "2"
+        },
+        {
+          "key": "col3",
+          "label": "3"
+        },
+        {
+          "key": "col4",
+          "label": "4"
+        }
+      ],
+      "rows": [
+        {
+          "bolt_no": "No. of bolts",
+          "col1": "1",
+          "col2": "2",
+          "col3": "2",
+          "col4": "4"
+        },
+        {
+          "bolt_no": "Length (\u2113)",
+          "col1": "50",
+          "col2": "70",
+          "col3": "25",
+          "col4": "20"
+        },
+        {
+          "bolt_no": "Torque (Nm, kgm)",
+          "col1": "30-40 (3.1 - 4.1)",
+          "col2": "30-40 (3.1 - 4.1)",
+          "col3": "16-21 (1.6 - 2.1)",
+          "col4": "16-21 (1.6 - 2.1)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Transmission jack",
+      "usage": "Support the A/T and engine main units during removal and lowering of the transaxle assembly"
+    },
+    {
+      "part_number": "",
+      "name": "Dial gauge",
+      "usage": "Measure drive plate surface runout"
+    }
+  ],
+  "cross_references": [
+    "EM \u2014 Engine Removal and Installation",
+    "EL \u2014 Starter Motor"
+  ],
+  "model_notes": "Procedure applies to A/T (Automatic Transaxle) equipped vehicles. Bolt torque and length vary by bolt position number (1-4) as shown in transaxle bolt diagram."
+}

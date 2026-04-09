@@ -1,0 +1,134 @@
+{
+  "page_code": "AT-100",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-100.jpg",
+  "continuation": {
+    "continues_from": "AT-99",
+    "continues_to": "AT-101"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT185",
+      "type": "component_photo",
+      "description": "Illustration showing disconnection of the harness",
+      "bbox_percent": [
+        0,
+        1,
+        30,
+        18
+      ],
+      "associated_step": "34"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT186",
+      "type": "component_photo",
+      "description": "Illustration showing modulator rod and spring clip location for disconnection",
+      "bbox_percent": [
+        0,
+        19,
+        30,
+        37
+      ],
+      "associated_step": "35"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT187",
+      "type": "tool_illustration",
+      "description": "Illustration showing SST KV319-K0100 (control valve holder) fitted to prevent pressure regulator valve assembly jumping out",
+      "bbox_percent": [
+        0,
+        38,
+        30,
+        55
+      ],
+      "associated_step": "36"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT188",
+      "type": "component_photo",
+      "description": "Illustration showing fitting the regulator end of the holder first, pressing down at opposite end, locating holder around centre bolt",
+      "bbox_percent": [
+        0,
+        56,
+        30,
+        73
+      ],
+      "associated_step": "36"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT189",
+      "type": "component_photo",
+      "description": "Illustration showing removal of valve and holder as a unit",
+      "bbox_percent": [
+        0,
+        74,
+        30,
+        95
+      ],
+      "associated_step": "37"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 34,
+          "text": "Disconnect the harness.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 35,
+          "text": "Remove the spring clip and disconnect the modulator rod.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 36,
+          "text": "Fit Tool (control valve holder) to prevent the pressure regulator valve assembly jumping out.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Fit the regulator end of the holder first, then press down at the opposite end, and locate the holder around the centre bolt."
+          ]
+        },
+        {
+          "step": 37,
+          "text": "Remove the valve and holder as a unit. Ensure that the valve and holder do not separate.",
+          "figure_ref": "fig5",
+          "warnings": [
+            "Do not disassemble the control valve."
+          ],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0100",
+      "name": "Control valve holder",
+      "usage": "Fit to prevent the pressure regulator valve assembly jumping out during disassembly"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

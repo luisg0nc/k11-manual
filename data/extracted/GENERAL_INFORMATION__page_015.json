@@ -1,0 +1,121 @@
+{
+  "page_code": "GI-9",
+  "section": "GI",
+  "title": "HOW TO READ WIRING DIAGRAMS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi9.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEL653F",
+      "type": "wiring_schematic",
+      "description": "Example diagram showing how the Super Multiple Junction (S.M.J.) is represented in simplified wiring diagrams and how to cross-reference to the terminal arrangement foldout. Shows STARTING SYSTEM wiring diagram, S.M.J. simplified representation with main harness and instrument harness connections, and the full terminal arrangement grid of the S.M.J.",
+      "bbox_percent": [
+        5,
+        18,
+        98,
+        75
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO READ WIRING DIAGRAMS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SUPER MULTIPLE JUNCTION (S.M.J.)"
+    },
+    {
+      "block_type": "prose",
+      "text": "The \"S.M.J.\" indicated in wiring diagrams is shown in a simplified form. The terminal arrangement should therefore be referred to in the foldout at the end of the Service Manual.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The foldout should be spread to read the entire wiring diagram.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Example showing S.M.J. usage in wiring diagrams. The simplified wiring diagram shows S.M.J. connections between Main harness and Instrument harness. The S.M.J. label instructs: 'Refer to last page (Foldout page).' The terminal arrangement grid on the right shows the full S.M.J. connector layout with terminals labeled A0-A9, B0-B9, C0-C9, D0-D9, E0-E9, F0-F9, G0-G9 on the main harness side and G0-G9, F0-F9, E0-E9, D0-D9, C0-C9, B0-B9, A0-A9 on the instrument harness side.",
+      "callouts": [
+        {
+          "label": "STARTING SYSTEM Wiring Diagram",
+          "position": "top-left of example box"
+        },
+        {
+          "label": "STARTING SYSTEM",
+          "position": "top-center of example box"
+        },
+        {
+          "label": "SUPER MULTIPLE JUNCTION (S.M.J.) Terminal Arrangement",
+          "position": "top-right of example box"
+        },
+        {
+          "label": "Check",
+          "position": "center-top of example book pages"
+        },
+        {
+          "label": "Check",
+          "position": "center of example book pages"
+        },
+        {
+          "label": "S.M.J. Refer to last page (Foldout page).",
+          "position": "left side of expanded diagram"
+        },
+        {
+          "label": "(Main harness)",
+          "position": "lower-left of expanded diagram"
+        },
+        {
+          "label": "(Instrument harness)",
+          "position": "lower-center of expanded diagram"
+        },
+        {
+          "label": "Super Multiple Junction (S.M.J.)",
+          "position": "upper-right of expanded diagram"
+        },
+        {
+          "label": "L",
+          "position": "right side of expanded diagram, upper"
+        },
+        {
+          "label": "BR",
+          "position": "right side of expanded diagram, lower"
+        },
+        {
+          "label": "R",
+          "position": "left/center of expanded diagram, upper"
+        },
+        {
+          "label": "B",
+          "position": "left/center of expanded diagram, lower"
+        },
+        {
+          "label": "(Main harness)",
+          "position": "bottom-center of expanded diagram"
+        },
+        {
+          "label": "(Instrument harness)",
+          "position": "bottom-right of expanded diagram"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Foldout page (last page of Service Manual)"
+  ],
+  "model_notes": null
+}

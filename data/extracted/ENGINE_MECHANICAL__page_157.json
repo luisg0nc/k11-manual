@@ -1,0 +1,182 @@
+{
+  "page_code": "EM-5024",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM188A",
+      "type": "parts_diagram",
+      "description": "Valve dimension diagram showing margin thickness (T), valve face angle (alpha), stem diameter (d), valve head diameter (D), and overall length (L)",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        14
+      ],
+      "associated_step": "step_valve_dimensions_1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "EM111",
+      "type": "tool_illustration",
+      "description": "Valve grinder being used to reface valve face or valve stem end surface",
+      "bbox_percent": [
+        0,
+        14,
+        35,
+        28
+      ],
+      "associated_step": "step_valve_dimensions_3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM787F",
+      "type": "component_photo",
+      "description": "Measuring distance from cylinder head surface to intake and exhaust valves using a dial gauge setup, with intake and exhaust labels shown",
+      "bbox_percent": [
+        0,
+        28,
+        35,
+        44
+      ],
+      "associated_step": "step_valve_dimensions_4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "EM113",
+      "type": "tool_illustration",
+      "description": "Valve spring pressure load being measured using a spring tester machine",
+      "bbox_percent": [
+        0,
+        44,
+        35,
+        60
+      ],
+      "associated_step": "step_valve_spring_pressure_load"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM160D",
+      "type": "component_photo",
+      "description": "Valve lifter showing contact and sliding surfaces to check for wear or scratches",
+      "bbox_percent": [
+        0,
+        60,
+        35,
+        76
+      ],
+      "associated_step": "step_valve_lifter_1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE DIMENSIONS"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_dimensions",
+      "title": "VALVE DIMENSIONS",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check dimensions of each valve. For dimensions, refer to SDS (EM-5047).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Correct or replace any valve that is faulty.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Valve face or valve stem end surface should be refaced by using a valve grinder.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Measure distance from cylinder head surface to intake and exhaust valves. If specified distance is exceeded, replace valve(s) or valve seat(s).",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Specified distance \u2014 Intake (Standard)",
+          "value": "0.85 - 1.19",
+          "unit": "mm (0.033 - 0.047 in)",
+          "condition": "Distance from cylinder head surface to intake valve"
+        },
+        {
+          "label": "Specified distance \u2014 Exhaust (Standard)",
+          "value": "1.05 - 1.39",
+          "unit": "mm (0.041 - 0.055 in)",
+          "condition": "Distance from cylinder head surface to exhaust valve"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE SPRING PRESSURE LOAD"
+    },
+    {
+      "block_type": "prose",
+      "text": "Measure the tension of each spring. If the measured value exceeds the specified value, replace spring. Refer to SDS (EM-5047).",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE LIFTER"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_lifter",
+      "title": "VALVE LIFTER",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check contact and sliding surfaces for wear or scratches.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM-5047"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,140 @@
+{
+  "page_code": "GI-3005",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION",
+  "page_type": "prose_procedure",
+  "source_image": "GI-3005.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NGI009",
+      "type": "vehicle_diagram",
+      "description": "Front three-quarter view of Nissan Micra K11 showing locations of: Vehicle identification number (Chassis number), Vehicle identification plate, Build-date plate (For Australia), and Type placard (Glove box) (For Australia)",
+      "bbox_percent": [
+        0,
+        3,
+        100,
+        38
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Vehicle Identification Number arrangement diagram showing breakdown of VIN code: [NISSAN] SJN E B A K11 A O XXXXXX [NISSAN]",
+      "bbox_percent": [
+        0,
+        40,
+        100,
+        68
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Identification Number"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Locations of identification plates and numbers on the vehicle",
+      "callouts": [
+        {
+          "label": "Vehicle identification number (Chassis number)",
+          "position": "top center of engine bay / bulkhead area"
+        },
+        {
+          "label": "Vehicle identification plate",
+          "position": "engine bay, left side"
+        },
+        {
+          "label": "Build-date plate (For Australia)",
+          "position": "engine bay, front left"
+        },
+        {
+          "label": "Type placard (Glove box) (For Australia)",
+          "position": "right side, B-pillar / door jamb area"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VEHICLE IDENTIFICATION NUMBER ARRANGEMENT"
+    },
+    {
+      "block_type": "table",
+      "title": "VIN Arrangement",
+      "columns": [
+        {
+          "key": "position",
+          "label": "VIN Position Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "position": "SJN",
+          "meaning": "Nissan, Passenger vehicle"
+        },
+        {
+          "position": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "position": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "position": "B",
+          "meaning": "CG13DE engine"
+        },
+        {
+          "position": "A",
+          "meaning": "2-wheel drive model"
+        },
+        {
+          "position": "K11",
+          "meaning": "Model"
+        },
+        {
+          "position": "A",
+          "meaning": "For Australia"
+        },
+        {
+          "position": "O",
+          "meaning": "Stopgap (no meaning)"
+        },
+        {
+          "position": "XXXXXX",
+          "meaning": "Vehicle serial number"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Full VIN format: [NISSAN] SJN E B A K11 A O XXXXXX [NISSAN]",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Build-date plate and Type placard (Glove box) are fitted for Australia only. Body type codes: E = 3-door Hatchback, F = 5-door Hatchback. Drive code A = 2-wheel drive model."
+}

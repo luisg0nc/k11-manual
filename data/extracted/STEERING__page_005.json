@@ -1,0 +1,253 @@
+{
+  "page_code": "ST-4",
+  "section": "ST",
+  "title": "ON-VEHICLE INSPECTION \u2014 Steering Wheel",
+  "page_type": "prose_procedure",
+  "source_image": "st-4.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST103B",
+      "type": "tool_illustration",
+      "description": "Illustration showing a steering wheel with a dial gauge tool attached to measure steering wheel play",
+      "bbox_percent": [
+        0,
+        1,
+        28,
+        18
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST571B",
+      "type": "component_photo",
+      "description": "Two steering wheels side-by-side showing O.K. (correct neutral position) and N.G. (incorrect neutral position)",
+      "bbox_percent": [
+        0,
+        18,
+        28,
+        36
+      ],
+      "associated_step": "Checking Neutral Position on Steering Wheel"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA127",
+      "type": "tool_illustration",
+      "description": "Illustration showing a wheel/tire with alignment checking equipment attached",
+      "bbox_percent": [
+        0,
+        62,
+        28,
+        85
+      ],
+      "associated_step": "Checking"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steering Wheel"
+    },
+    {
+      "block_type": "prose",
+      "text": "The vehicle is fitted with either a 2-spoke or 3-spoke steering wheel; the service procedures for each type is identical.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking Steering Wheel Play"
+    },
+    {
+      "block_type": "procedure",
+      "id": "check_sw_play",
+      "title": "Checking Steering Wheel Play",
+      "steps": [
+        {
+          "step": 1,
+          "text": "With wheels in a straight-ahead position, check steering wheel play. Steering wheel play: 35 mm (1.38 in) or less",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If it is not within specification, check steering gear assembly when front suspension and axle, steering gear assembly and steering column are mounted correctly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Steering wheel play",
+          "value": "35 (1.38) or less",
+          "unit": "mm (in)",
+          "condition": "Wheels in straight-ahead position"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking Neutral Position on Steering Wheel"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Pre-checking"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check that wheel alignment is correct \u2013 refer to FA section for full details of wheel alignment procedure.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Wheel Alignment Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "LOADING"
+        },
+        {
+          "key": "front2_rear1_all",
+          "label": "FRONT 2 REAR 1 \u2014 All"
+        },
+        {
+          "key": "front1_rear0_1liter",
+          "label": "FRONT 1 REAR 0 \u2014 1 liter"
+        },
+        {
+          "key": "front1_rear0_1p3liter",
+          "label": "FRONT 1 REAR 0 \u2014 1.3 liter"
+        },
+        {
+          "key": "front0_rear0_1p0liter",
+          "label": "FRONT 0 REAR 0 \u2014 1.0 liter"
+        },
+        {
+          "key": "front0_rear0_1p3liter",
+          "label": "FRONT 0 REAR 0 \u2014 1.3 liter"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Camber angle",
+          "front2_rear1_all": "0.0\u00b0",
+          "front1_rear0_1liter": "0.2\u00b0 \u00b1 0.75\u00b0",
+          "front1_rear0_1p3liter": "0.22\u00b0 \u00b1 0.75\u00b0",
+          "front0_rear0_1p0liter": "0.32\u00b0 \u00b1 0.75\u00b0",
+          "front0_rear0_1p3liter": "0.38\u00b0 \u00b1 0.75\u00b0"
+        },
+        {
+          "parameter": "Positive caster angle",
+          "front2_rear1_all": "2.9\u00b0",
+          "front1_rear0_1liter": "2.2\u00b0 \u00b1 0.75\u00b0",
+          "front1_rear0_1p3liter": "2.23\u00b0 \u00b1 0.75\u00b0",
+          "front0_rear0_1p0liter": "2.27\u00b0 \u00b1 0.75\u00b0",
+          "front0_rear0_1p3liter": "2.32\u00b0 \u00b1 0.75\u00b0"
+        },
+        {
+          "parameter": "Toe-in mm (in)",
+          "front2_rear1_all": "0(0)",
+          "front1_rear0_1liter": "0.5 \u00b1 1 (0.020 \u00b1 0.039)",
+          "front1_rear0_1p3liter": "0.5 \u00b1 1 (0.020 \u00b1 0.039)",
+          "front0_rear0_1p0liter": "0.5 \u00b1 1 (0.020 \u00b1 0.039)",
+          "front0_rear0_1p3liter": "0.5 \u00b1 1 (0.020 \u00b1 0.039)"
+        },
+        {
+          "parameter": "Toe angle",
+          "front2_rear1_all": "0.0\u00b0",
+          "front1_rear0_1liter": "0.09\u00b0 \u00b1 0.18\u00b0",
+          "front1_rear0_1p3liter": "0.09\u00b0 \u00b1 0.18\u00b0",
+          "front0_rear0_1p0liter": "0.09\u00b0 \u00b1 0.18\u00b0",
+          "front0_rear0_1p3liter": "0.09\u00b0 \u00b1 0.18\u00b0"
+        },
+        {
+          "parameter": "Kingpin angle",
+          "front2_rear1_all": "13.1\u00b0",
+          "front1_rear0_1liter": "12.82\u00b0 \u00b1 0.75\u00b0",
+          "front1_rear0_1p3liter": "12.76\u00b0 \u00b1 0.75\u00b0",
+          "front0_rear0_1p0liter": "12.62\u00b0 \u00b1 0.75\u00b0",
+          "front0_rear0_1p3liter": "12.53\u00b0 \u00b1 0.75\u00b0"
+        },
+        {
+          "parameter": "Track mm (in)",
+          "front2_rear1_all": "1,365 (53.74)",
+          "front1_rear0_1liter": "1,363 (53.66)",
+          "front1_rear0_1p3liter": "1,363 (53.66)",
+          "front0_rear0_1p0liter": "1,361 (53.58)",
+          "front0_rear0_1p3liter": "1,360 (53.54)"
+        },
+        {
+          "parameter": "Wheel center mm (in)",
+          "front2_rear1_all": "40 (1.57)",
+          "front1_rear0_1liter": "27 (1.06)",
+          "front1_rear0_1p3liter": "25 (0.98)",
+          "front0_rear0_1p0liter": "19 (0.75)",
+          "front0_rear0_1p3liter": "16 (0.63)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Verify that the steering gear is centered before removing the steering wheel.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Checking"
+    },
+    {
+      "block_type": "procedure",
+      "id": "check_neutral_sw",
+      "title": "Checking Neutral Position on Steering Wheel",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check that the steering wheel is in the neutral position when driving straight ahead.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If it is not in the neutral position, remove the steering wheel and reinstall it correctly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "If the neutral position is between two serrated teeth, loosen tie-rod lock nut and move tie-rod in the opposite direction by the same amount on both left and right sides to compensate for error in the neutral position.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FA section \u2014 wheel alignment procedure"
+  ],
+  "model_notes": "Wheel alignment specifications vary by engine size (1.0 liter and 1.3 liter) and loading condition (FRONT 2 REAR 1, FRONT 1 REAR 0, FRONT 0 REAR 0). FRONT 2 REAR 1 loading applies to all models."
+}

@@ -1,0 +1,127 @@
+{
+  "page_code": "EM-42",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "prose_procedure",
+  "source_image": "EM-42.jpg",
+  "continuation": {
+    "continues_from": "EM-41",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM069",
+      "type": "parts_diagram",
+      "description": "Top engine mounting bracket showing 10mm (0.39in) clearance dimensions at four corners",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        22
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM057",
+      "type": "parts_diagram",
+      "description": "Rear insulator and centermember assembly showing rubber top orientation and front direction arrow",
+      "bbox_percent": [
+        0,
+        23,
+        42,
+        47
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM071",
+      "type": "parts_diagram",
+      "description": "Lower front insulator adjustment dimension 54-56mm (2.13-2.20in) for M/T models",
+      "bbox_percent": [
+        0,
+        47,
+        42,
+        68
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install top engine mounting brackets and fixing bolts. Ensure that insulators are positioned on brackets correctly.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Carefully move engine onto engine mounting insulators.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Fit centermember as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "For M/T models, lower front insulator should be adjusted as shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Other installation procedures are in the reverse order of removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Top engine mounting bracket clearance (all four corners)",
+          "value": "10",
+          "unit": "mm (0.39 in)",
+          "condition": "Top engine mounting bracket positioning"
+        },
+        {
+          "label": "Lower front insulator adjustment (M/T models)",
+          "value": "54 - 56",
+          "unit": "mm (2.13 - 2.20 in)",
+          "condition": "M/T models only"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Step 4 applies to M/T (manual transmission) models only regarding lower front insulator adjustment."
+}

@@ -1,0 +1,213 @@
+{
+  "page_code": "EM-30",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_em30.jpg",
+  "continuation": {
+    "continues_from": "EM-29",
+    "continues_to": "EM-31"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM154D",
+      "type": "component_photo",
+      "description": "Dial indicator measuring camshaft runout at the center journal",
+      "bbox_percent": [
+        0,
+        10,
+        32,
+        30
+      ],
+      "associated_step": "CAMSHAFT RUNOUT step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM549A",
+      "type": "component_photo",
+      "description": "Micrometer measuring camshaft cam height",
+      "bbox_percent": [
+        0,
+        32,
+        32,
+        54
+      ],
+      "associated_step": "CAMSHAFT CAM HEIGHT step 1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM155D",
+      "type": "component_photo",
+      "description": "Measuring inner diameter of camshaft bearing with bore gauge after installing camshaft bracket",
+      "bbox_percent": [
+        0,
+        55,
+        32,
+        77
+      ],
+      "associated_step": "CAMSHAFT JOURNAL CLEARANCE step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAMSHAFT VISUAL CHECK"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check camshaft for scratches, seizure and wear.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAMSHAFT RUNOUT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_runout",
+      "title": "CAMSHAFT RUNOUT",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure camshaft runout at the center journal.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If it exceeds the limit, replace camshaft.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Runout (Total indicator reading) \u2014 Standard",
+          "value": "Less than 0.02",
+          "unit": "mm (0.0008 in)",
+          "condition": "Camshaft runout at center journal"
+        },
+        {
+          "label": "Runout (Total indicator reading) \u2014 Limit",
+          "value": "0.1",
+          "unit": "mm (0.004 in)",
+          "condition": "Camshaft runout at center journal"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAMSHAFT CAM HEIGHT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_cam_height",
+      "title": "CAMSHAFT CAM HEIGHT",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure camshaft cam height.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If wear is beyond the limit, replace camshaft.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard cam height \u2014 Intake & Exhaust \u2014 CG10DE",
+          "value": "38.005 - 38.195",
+          "unit": "mm (1.4963 - 1.5037 in)",
+          "condition": "Standard cam height"
+        },
+        {
+          "label": "Standard cam height \u2014 Intake & Exhaust \u2014 CG13DE",
+          "value": "39.880 - 40.070",
+          "unit": "mm (1.5701 - 1.5776 in)",
+          "condition": "Standard cam height"
+        },
+        {
+          "label": "Cam wear limit \u2014 Intake & Exhaust",
+          "value": "0.20",
+          "unit": "mm (0.0079 in)",
+          "condition": "Cam wear limit"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAMSHAFT JOURNAL CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_journal_clearance",
+      "title": "CAMSHAFT JOURNAL CLEARANCE",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install camshaft bracket and tighten bolts to the specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure inner diameter of camshaft bearing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard inner diameter (intake and exhaust) \u2014 No. 1 bearing",
+          "value": "28.000 - 28.021",
+          "unit": "mm (1.1024 - 1.1032 in)",
+          "condition": "Camshaft bearing inner diameter"
+        },
+        {
+          "label": "Standard inner diameter (intake and exhaust) \u2014 No. 2 to No. 5 bearings",
+          "value": "23.500 - 23.521",
+          "unit": "mm (0.9252 - 0.9260 in)",
+          "condition": "Camshaft bearing inner diameter"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Cam height specs differentiated by engine variant: CG10DE and CG13DE. Journal clearance specs apply to both intake and exhaust camshafts."
+}

@@ -1,0 +1,223 @@
+{
+  "page_code": "EM-43",
+  "section": "EM",
+  "title": "CYLINDER BLOCK",
+  "page_type": "parts_diagram",
+  "source_image": "EM-43.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM058",
+      "type": "parts_diagram",
+      "description": "Exploded view of cylinder block assembly including piston rings, piston, piston pin, connecting rod, connecting rod bearing, crankshaft, main bearing, connecting rod cap, rear oil seal, rear oil seal retainer, key, and main bearing beam. Separate insets show N-CVT drive plate/rear plate assembly and M/T flywheel/rear plate assembly (CG13 engine).",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Cylinder block",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Rear oil seal",
+          "note": "Apply engine oil; Apply liquid gasket"
+        },
+        {
+          "number": 3,
+          "name": "Rear oil seal retainer",
+          "note": "Apply liquid gasket"
+        },
+        {
+          "number": 4,
+          "name": "Piston rings",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Piston pin",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 6,
+          "name": "Piston",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 7,
+          "name": "Connecting rod",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 8,
+          "name": "Connecting rod bearing",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 9,
+          "name": "Main bearing",
+          "note": "Apply engine oil"
+        },
+        {
+          "number": 10,
+          "name": "Crankshaft",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Key",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Connecting rod cap",
+          "note": "Apply engine oil; Refer to installation of connecting rod bearing cap"
+        },
+        {
+          "number": 13,
+          "name": "Main bearing beam",
+          "note": "Refer to installation of main bearing beam"
+        },
+        {
+          "number": 14,
+          "name": "Drive plate",
+          "note": "N-CVT only"
+        },
+        {
+          "number": 15,
+          "name": "Rear plate",
+          "note": "N-CVT; Apply liquid gasket"
+        },
+        {
+          "number": 16,
+          "name": "Rear plate",
+          "note": "M/T"
+        },
+        {
+          "number": 17,
+          "name": "Flywheel",
+          "note": "M/T; CG13"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Rear oil seal retainer bolts torque",
+          "value": "6.3 - 8.3",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Rear oil seal retainer bolts torque",
+          "value": "0.64 - 0.85",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Rear oil seal retainer bolts torque",
+          "value": "4.6 - 6.1",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "N-CVT drive plate bolts torque",
+          "value": "83 - 93",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT drive plate bolts torque",
+          "value": "8.5 - 9.5",
+          "unit": "kg\u00b7m",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT drive plate bolts torque",
+          "value": "61 - 69",
+          "unit": "ft\u00b7lb",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT rear plate bolts torque",
+          "value": "6.4 - 8.2",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT rear plate bolts torque",
+          "value": "0.655 - 0.84",
+          "unit": "kg\u00b7m",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT rear plate bolts torque",
+          "value": "4.7 - 6.1",
+          "unit": "ft\u00b7lb",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "M/T flywheel bolts torque",
+          "value": "83 - 93",
+          "unit": "N\u00b7m",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T flywheel bolts torque",
+          "value": "8.5 - 9.5",
+          "unit": "kg\u00b7m",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T flywheel bolts torque",
+          "value": "61 - 69",
+          "unit": "ft\u00b7lb",
+          "condition": "M/T"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Apply engine oil | Apply liquid gasket | N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to installation of connecting rod bearing cap",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to installation of main bearing beam",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Installation of connecting rod bearing cap",
+    "Installation of main bearing beam"
+  ],
+  "model_notes": "N-CVT variant uses drive plate and rear plate assembly. M/T variant uses flywheel (CG13 engine) and rear plate. Torque values differ between N-CVT/M/T flywheel bolts and rear oil seal retainer bolts."
+}

@@ -1,0 +1,147 @@
+{
+  "page_code": "ST-24",
+  "section": "ST",
+  "title": "POWER STEERING GEAR AND LINKAGE \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "ST-24.jpg",
+  "continuation": {
+    "continues_from": "ST-23",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST029",
+      "type": "parts_diagram",
+      "description": "Lower joint installation showing column cut-out alignment, lower joint, guide plate, and section A-A view",
+      "bbox_percent": [
+        0,
+        3,
+        45,
+        25
+      ],
+      "associated_step": "step1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST038",
+      "type": "parts_diagram",
+      "description": "Tie-rod outer socket and knuckle arm assembly showing pin hole, split pin, and torque specification of 29-39 N\u00b7m (3-4 kg-m, 22-29 ft-lb)",
+      "bbox_percent": [
+        0,
+        27,
+        45,
+        50
+      ],
+      "associated_step": "step3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UST039",
+      "type": "component_photo",
+      "description": "Power steering reservoir being filled with fluid",
+      "bbox_percent": [
+        0,
+        51,
+        45,
+        72
+      ],
+      "associated_step": "step4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "install_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "When fitting lower joint ensure upper slit is aligned with steering column cut-out and lower slit aligns with plastic guide plate.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Ensure upper bolt fits through cut-out portion of column and the lower bolt fits through the cut-out in the plastic guide on the pinion. Fit both bolts loosely. Then tighten lower bolt to specified torque first, followed by upper bolt.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Tighten nuts on tie-rod outer socket and knuckle arms to 29 to 39 N\u00b7m (3 to 4 kg-m, 22 to 29 ft-lb) and fit new split pin.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Fill reservoir with the recommended fluid and turn steering wheel several times in both directions with the engine off. Add fluid if level drops and repeat procedure until the fluid level settles.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Start engine and run at idle speed; top up fluid level if required and turn steering wheel backwards and forwards until fluid level settles and bubbles disappear.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Check system to ensure all connections and lines are free from leaks.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "After installation turn the steering wheel to make sure it moves smoothly and that the number of turns from the straight forward position to left and right locks are equal. Be sure that the steering wheel is in a neutral position when driving straight ahead.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie-rod outer socket and knuckle arm nut torque",
+          "value": "29 to 39",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Tie-rod outer socket and knuckle arm nut torque",
+          "value": "3 to 4",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Tie-rod outer socket and knuckle arm nut torque",
+          "value": "22 to 29",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

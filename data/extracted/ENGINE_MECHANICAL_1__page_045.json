@@ -1,0 +1,256 @@
+{
+  "page_code": "EM-47",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-47.jpg",
+  "continuation": {
+    "continues_from": "EM-46",
+    "continues_to": "EM-48"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM821B",
+      "type": "tool_illustration",
+      "description": "Micrometer being used to measure outer diameter of piston pin",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        18
+      ],
+      "associated_step": "step_2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM024A",
+      "type": "tool_illustration",
+      "description": "Feeler gauge measuring piston ring side clearance, showing N.G. and O.K. positions",
+      "bbox_percent": [
+        0,
+        18,
+        35,
+        38
+      ],
+      "associated_step": "piston_ring_side_clearance"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM599A",
+      "type": "tool_illustration",
+      "description": "Piston press-fit with feeler gauge and ring measuring piston ring end gap in cylinder bore",
+      "bbox_percent": [
+        0,
+        38,
+        35,
+        58
+      ],
+      "associated_step": "piston_ring_end_gap"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM150B",
+      "type": "tool_illustration",
+      "description": "Feeler gauge being used to measure connecting rod bend and torsion",
+      "bbox_percent": [
+        0,
+        70,
+        35,
+        92
+      ],
+      "associated_step": "connecting_rod_bend_torsion"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_pin_inspection",
+      "title": "Piston Pin Inspection",
+      "steps": [
+        {
+          "step": 2,
+          "text": "Measure outer diameter of piston pin.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Calculate piston pin clearance. Piston pin hole inner diameter - Piston pin outer diameter",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "If it exceeds the above value, replace piston assembly with pin."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Piston pin standard diameter",
+          "value": "17.995 - 18.000",
+          "unit": "mm (0.7085 - 0.7087 in)",
+          "condition": null
+        },
+        {
+          "label": "Piston pin clearance (CG10DE)",
+          "value": "0.018 to 0.022",
+          "unit": "mm (0.0007 - 0.0009 in)",
+          "condition": "Piston pin hole inner diameter - Piston pin outer diameter"
+        },
+        {
+          "label": "Piston pin clearance (CG13DE)",
+          "value": "0.008 to 0.012",
+          "unit": "mm (0.0003 - 0.0015 in)",
+          "condition": "Piston pin hole inner diameter - Piston pin outer diameter"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON RING SIDE CLEARANCE"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Side clearance - Top ring",
+          "value": "0.040 - 0.080",
+          "unit": "mm (0.0016 - 0.0031 in)",
+          "condition": null
+        },
+        {
+          "label": "Side clearance - 2nd ring",
+          "value": "0.030 - 0.070",
+          "unit": "mm (0.0012 - 0.0028 in)",
+          "condition": null
+        },
+        {
+          "label": "Max. limit of side clearance",
+          "value": "0.2",
+          "unit": "mm (0.008 in)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If out of specification, replace piston and/or piston ring assembly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON RING END GAP"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "End gap - Top ring",
+          "value": "0.18 - 0.28",
+          "unit": "mm (0.0071 - 0.0110 in)",
+          "condition": null
+        },
+        {
+          "label": "End gap - 2nd ring",
+          "value": "0.30 - 0.45",
+          "unit": "mm (0.0118 - 0.0177 in)",
+          "condition": null
+        },
+        {
+          "label": "End gap - Oil ring",
+          "value": "0.25 - 0.60",
+          "unit": "mm (0.0098 - 0.0236 in)",
+          "condition": null
+        },
+        {
+          "label": "Max. limit of ring gap - Top ring",
+          "value": "0.37",
+          "unit": "mm (0.0146 in)",
+          "condition": null
+        },
+        {
+          "label": "Max. limit of ring gap - 2nd ring",
+          "value": "0.54",
+          "unit": "mm (0.0213 in)",
+          "condition": null
+        },
+        {
+          "label": "Max. limit of ring gap - Oil ring",
+          "value": "0.69",
+          "unit": "mm (0.0272 in)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If out of specification, replace piston ring. If gap still exceeds the limit even with a new ring, rebore cylinder and use oversized piston and piston rings.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to S.D.S.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONNECTING ROD BEND AND TORSION"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Bend limit",
+          "value": "0.15",
+          "unit": "mm (0.0059 in)",
+          "condition": "per 100 mm (3.94 in) length"
+        },
+        {
+          "label": "Torsion limit",
+          "value": "0.3",
+          "unit": "mm (0.012 in)",
+          "condition": "per 100 mm (3.94 in) length"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If it exceeds the limit, replace connecting rod assembly.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Micrometer",
+      "usage": "Measure outer diameter of piston pin"
+    },
+    {
+      "part_number": null,
+      "name": "Feeler gauge",
+      "usage": "Measure piston ring side clearance, piston ring end gap, and connecting rod bend/torsion"
+    }
+  ],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": "Piston pin clearance values differ between CG10DE and CG13DE engines."
+}

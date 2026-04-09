@@ -1,0 +1,309 @@
+{
+  "page_code": "AT-19",
+  "section": "AT",
+  "title": "OPERATION \u2014 Shift control valve",
+  "page_type": "prose_procedure",
+  "source_image": "AT-19.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT026",
+      "type": "component_photo",
+      "description": "Shift control valve schematic diagram \u2014 LOW condition. Shows modulator mechanism, pitot pressure, line pressure, lubricating oil pressure, line pressure control solenoid valve, shift control valve, check valve, shift lock valve, to primary pulley, regulator valve, connecting rod, lever CP, spring 3, spring 2, support, roller sub assy, engine brake valve, sensor shoe, Ds modifier lever, modulator linkage, shift cam, pin, spring (4), chamber b, compensation plunger, fixed point. X = Drain indicated.",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        50
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT026",
+      "type": "component_photo",
+      "description": "Shift control valve schematic diagram \u2014 OVERDRIVE condition. Shows modulator mechanism, pitot pressure, line pressure, lubricating oil pressure, line pressure control solenoid valve, shift control valve, check valve, shift lock valve, to primary pulley, regulator valve, LOW O.D. indicator, spring, lever CP, fixed point, modulator linkage, support, roller sub assy, engine brake valve, sensor shoe, Ds modifier lever, connecting rod, shift cam (linked with accelerator pedal), pin, spring (4), compensation plunger, L2. X = Drain indicated.",
+      "bbox_percent": [
+        0,
+        51,
+        100,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "2) Shift control valve"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Shift control valve hydraulic circuit diagram \u2014 LOW condition",
+      "callouts": [
+        {
+          "label": "Modulator mechanism",
+          "position": "top-left"
+        },
+        {
+          "label": "(LOW)",
+          "position": "top-right"
+        },
+        {
+          "label": "Pitot pressure",
+          "position": "upper-left"
+        },
+        {
+          "label": "Sensor shoe",
+          "position": "top-right"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "right"
+        },
+        {
+          "label": "Connecting rod",
+          "position": "center-right"
+        },
+        {
+          "label": "Lever CP",
+          "position": "center-right"
+        },
+        {
+          "label": "Line pressure",
+          "position": "left"
+        },
+        {
+          "label": "Lubricating oil pressure",
+          "position": "left"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center"
+        },
+        {
+          "label": "Spring 3",
+          "position": "center"
+        },
+        {
+          "label": "Fixed",
+          "position": "center"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center-right"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Spring 2",
+          "position": "center"
+        },
+        {
+          "label": "Shift cam",
+          "position": "right"
+        },
+        {
+          "label": "Check valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Pin",
+          "position": "right"
+        },
+        {
+          "label": "Support",
+          "position": "center"
+        },
+        {
+          "label": "L1",
+          "position": "center"
+        },
+        {
+          "label": "Spring (4)",
+          "position": "right"
+        },
+        {
+          "label": "Chamber b",
+          "position": "right"
+        },
+        {
+          "label": "To primary pulley",
+          "position": "left"
+        },
+        {
+          "label": "Roller sub assy",
+          "position": "center"
+        },
+        {
+          "label": "Compensation plunger",
+          "position": "right"
+        },
+        {
+          "label": "X = Drain",
+          "position": "right"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "lower-left"
+        },
+        {
+          "label": "To plunger (engine brake)",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Shift control valve hydraulic circuit diagram \u2014 OVERDRIVE condition",
+      "callouts": [
+        {
+          "label": "Modulator mechanism",
+          "position": "top-left"
+        },
+        {
+          "label": "(OVERDRIVE)",
+          "position": "top-right"
+        },
+        {
+          "label": "Pitot pressure",
+          "position": "upper-left"
+        },
+        {
+          "label": "Sensor shoe",
+          "position": "top-right"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "right"
+        },
+        {
+          "label": "LOW O.D.",
+          "position": "center-right"
+        },
+        {
+          "label": "Connecting rod",
+          "position": "right"
+        },
+        {
+          "label": "Line pressure",
+          "position": "left"
+        },
+        {
+          "label": "Lubricating oil pressure",
+          "position": "left"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center"
+        },
+        {
+          "label": "Spring",
+          "position": "center"
+        },
+        {
+          "label": "Fixed",
+          "position": "center"
+        },
+        {
+          "label": "Lever CP",
+          "position": "center"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center-right"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Spring",
+          "position": "center"
+        },
+        {
+          "label": "Shift cam (linked with accelerator pedal)",
+          "position": "right"
+        },
+        {
+          "label": "Check valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Pin",
+          "position": "right"
+        },
+        {
+          "label": "Support",
+          "position": "center"
+        },
+        {
+          "label": "L2",
+          "position": "center"
+        },
+        {
+          "label": "Spring (4)",
+          "position": "right"
+        },
+        {
+          "label": "To primary pulley",
+          "position": "left"
+        },
+        {
+          "label": "Roller sub assy",
+          "position": "center"
+        },
+        {
+          "label": "Compensation plunger",
+          "position": "right"
+        },
+        {
+          "label": "X = Drain",
+          "position": "right"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "lower-left"
+        },
+        {
+          "label": "To plunger (engine brake)",
+          "position": "right"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic Transmission (AT) section. Two operating states shown: LOW and OVERDRIVE. Shift cam in OVERDRIVE diagram noted as linked with accelerator pedal."
+}

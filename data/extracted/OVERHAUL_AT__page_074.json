@@ -1,0 +1,63 @@
+{
+  "page_code": "AT-74",
+  "section": "AT",
+  "title": "TROUBLE DIAGNOSIS",
+  "page_type": "spec_table",
+  "source_image": "page_AT-74.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Diagnosis Chart"
+    },
+    {
+      "block_type": "table",
+      "title": "Diagnosis Chart",
+      "columns": [
+        {
+          "key": "no",
+          "label": "No."
+        },
+        {
+          "key": "probable_cause_symptoms",
+          "label": "Probable cause and symptoms"
+        },
+        {
+          "key": "countermeasure",
+          "label": "Countermeasure"
+        }
+      ],
+      "rows": [
+        {
+          "no": "1",
+          "probable_cause_symptoms": "\u2022 Accelerator switch is faulty (Accelerator switch stays \"OFF\")\n\u2022 Accelerator position switch is faulty (Accelerator switch stays \"OFF\")\nVehicle creeps because accelerator is released but accelerator switch is \"OFF\" (same condition as if pedal is depressed).",
+          "countermeasure": "\u2022 Check accelerator switch and accelerator position switch.\n\u2022 Check functioning of accelerator switch and accelerator position switch\n\u2022 Check N-CVT control unit harness"
+        },
+        {
+          "no": "2",
+          "probable_cause_symptoms": "Clutch circuit negative (-) side is short-circuited\nVehicle creeps due to high drag current. Engine may stop when this occurs",
+          "countermeasure": "\u2022 Check electromagnetic clutch circuit"
+        },
+        {
+          "no": "3",
+          "probable_cause_symptoms": "Excessive torque is transmitted by electromagnetic clutch\nThe electromagnetic clutch may be faulty. When this is the case, the influence of the stall speed and select operability can be checked. For this reason, when only vehicle creep occurs, it may be considered as a temporary condition until the powder wears in.",
+          "countermeasure": "\u2022 Replace electromagnetic clutch if part is faulty."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N-CVT (Nissan Continuously Variable Transmission) specific diagnosis chart related to vehicle creep conditions."
+}

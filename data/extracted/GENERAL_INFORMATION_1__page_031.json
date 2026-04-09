@@ -1,0 +1,402 @@
+{
+  "page_code": "GI-27",
+  "section": "GI",
+  "title": "TIGHTENING TORQUE OF STANDARD BOLTS (For Nissan standard bolts)",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIGHTENING TORQUE OF STANDARD BOLTS (For Nissan standard bolts)"
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening torque (Without lubricant)",
+      "columns": [
+        {
+          "key": "grade",
+          "label": "Grade"
+        },
+        {
+          "key": "bolt_size",
+          "label": "Bolt size"
+        },
+        {
+          "key": "bolt_diameter_mm",
+          "label": "Bolt diameter* mm"
+        },
+        {
+          "key": "pitch_mm",
+          "label": "Pitch mm"
+        },
+        {
+          "key": "hex_head_nm",
+          "label": "Hexagon head bolt N\u00b7m"
+        },
+        {
+          "key": "hex_head_kgm",
+          "label": "Hexagon head bolt kg-m"
+        },
+        {
+          "key": "hex_head_ftlb",
+          "label": "Hexagon head bolt ft-lb"
+        },
+        {
+          "key": "flange_nm",
+          "label": "Hexagon flange bolt N\u00b7m"
+        },
+        {
+          "key": "flange_kgm",
+          "label": "Hexagon flange bolt kg-m"
+        },
+        {
+          "key": "flange_ftlb",
+          "label": "Hexagon flange bolt ft-lb"
+        }
+      ],
+      "rows": [
+        {
+          "grade": "4T",
+          "bolt_size": "M6",
+          "bolt_diameter_mm": "6.0",
+          "pitch_mm": "1.0",
+          "hex_head_nm": "5.1",
+          "hex_head_kgm": "0.52",
+          "hex_head_ftlb": "3.8",
+          "flange_nm": "6.1",
+          "flange_kgm": "0.62",
+          "flange_ftlb": "4.5"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M8",
+          "bolt_diameter_mm": "8.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "13",
+          "hex_head_kgm": "1.3",
+          "hex_head_ftlb": "9",
+          "flange_nm": "15",
+          "flange_kgm": "1.5",
+          "flange_ftlb": "11"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M8",
+          "bolt_diameter_mm": "8.0",
+          "pitch_mm": "1.0",
+          "hex_head_nm": "13",
+          "hex_head_kgm": "1.3",
+          "hex_head_ftlb": "9",
+          "flange_nm": "16",
+          "flange_kgm": "1.6",
+          "flange_ftlb": "12"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M10",
+          "bolt_diameter_mm": "10.0",
+          "pitch_mm": "1.5",
+          "hex_head_nm": "25",
+          "hex_head_kgm": "2.5",
+          "hex_head_ftlb": "18",
+          "flange_nm": "29",
+          "flange_kgm": "3.0",
+          "flange_ftlb": "22"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M10",
+          "bolt_diameter_mm": "10.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "25",
+          "hex_head_kgm": "2.6",
+          "hex_head_ftlb": "19",
+          "flange_nm": "30",
+          "flange_kgm": "3.1",
+          "flange_ftlb": "22"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M12",
+          "bolt_diameter_mm": "12.0",
+          "pitch_mm": "1.75",
+          "hex_head_nm": "42",
+          "hex_head_kgm": "4.3",
+          "hex_head_ftlb": "31",
+          "flange_nm": "51",
+          "flange_kgm": "5.2",
+          "flange_ftlb": "38"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M12",
+          "bolt_diameter_mm": "12.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "46",
+          "hex_head_kgm": "4.7",
+          "hex_head_ftlb": "34",
+          "flange_nm": "56",
+          "flange_kgm": "5.7",
+          "flange_ftlb": "41"
+        },
+        {
+          "grade": "4T",
+          "bolt_size": "M14",
+          "bolt_diameter_mm": "14.0",
+          "pitch_mm": "1.5",
+          "hex_head_nm": "74",
+          "hex_head_kgm": "7.5",
+          "hex_head_ftlb": "54",
+          "flange_nm": "88",
+          "flange_kgm": "9.0",
+          "flange_ftlb": "65"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M6",
+          "bolt_diameter_mm": "6.0",
+          "pitch_mm": "1.0",
+          "hex_head_nm": "8.4",
+          "hex_head_kgm": "0.86",
+          "hex_head_ftlb": "6.2",
+          "flange_nm": "10",
+          "flange_kgm": "1.0",
+          "flange_ftlb": "7"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M8",
+          "bolt_diameter_mm": "8.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "21",
+          "hex_head_kgm": "2.1",
+          "hex_head_ftlb": "15",
+          "flange_nm": "25",
+          "flange_kgm": "2.5",
+          "flange_ftlb": "18"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M8",
+          "bolt_diameter_mm": "8.0",
+          "pitch_mm": "1.0",
+          "hex_head_nm": "22",
+          "hex_head_kgm": "2.2",
+          "hex_head_ftlb": "16",
+          "flange_nm": "26",
+          "flange_kgm": "2.7",
+          "flange_ftlb": "20"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M10",
+          "bolt_diameter_mm": "10.0",
+          "pitch_mm": "1.5",
+          "hex_head_nm": "41",
+          "hex_head_kgm": "4.2",
+          "hex_head_ftlb": "30",
+          "flange_nm": "48",
+          "flange_kgm": "4.9",
+          "flange_ftlb": "35"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M10",
+          "bolt_diameter_mm": "10.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "43",
+          "hex_head_kgm": "4.4",
+          "hex_head_ftlb": "32",
+          "flange_nm": "51",
+          "flange_kgm": "5.2",
+          "flange_ftlb": "38"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M12",
+          "bolt_diameter_mm": "12.0",
+          "pitch_mm": "1.75",
+          "hex_head_nm": "71",
+          "hex_head_kgm": "7.2",
+          "hex_head_ftlb": "52",
+          "flange_nm": "84",
+          "flange_kgm": "8.6",
+          "flange_ftlb": "62"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M12",
+          "bolt_diameter_mm": "12.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "77",
+          "hex_head_kgm": "7.9",
+          "hex_head_ftlb": "57",
+          "flange_nm": "92",
+          "flange_kgm": "9.4",
+          "flange_ftlb": "68"
+        },
+        {
+          "grade": "7T",
+          "bolt_size": "M14",
+          "bolt_diameter_mm": "14.0",
+          "pitch_mm": "1.5",
+          "hex_head_nm": "127",
+          "hex_head_kgm": "13.0",
+          "hex_head_ftlb": "94",
+          "flange_nm": "147",
+          "flange_kgm": "15.0",
+          "flange_ftlb": "108"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M6",
+          "bolt_diameter_mm": "6.0",
+          "pitch_mm": "1.0",
+          "hex_head_nm": "12",
+          "hex_head_kgm": "1.2",
+          "hex_head_ftlb": "9",
+          "flange_nm": "15",
+          "flange_kgm": "1.5",
+          "flange_ftlb": "11"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M8",
+          "bolt_diameter_mm": "8.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "29",
+          "hex_head_kgm": "3.0",
+          "hex_head_ftlb": "22",
+          "flange_nm": "35",
+          "flange_kgm": "3.6",
+          "flange_ftlb": "26"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M8",
+          "bolt_diameter_mm": "8.0",
+          "pitch_mm": "1.0",
+          "hex_head_nm": "31",
+          "hex_head_kgm": "3.2",
+          "hex_head_ftlb": "23",
+          "flange_nm": "37",
+          "flange_kgm": "3.8",
+          "flange_ftlb": "27"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M10",
+          "bolt_diameter_mm": "10.0",
+          "pitch_mm": "1.5",
+          "hex_head_nm": "59",
+          "hex_head_kgm": "6.0",
+          "hex_head_ftlb": "43",
+          "flange_nm": "70",
+          "flange_kgm": "7.1",
+          "flange_ftlb": "51"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M10",
+          "bolt_diameter_mm": "10.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "62",
+          "hex_head_kgm": "6.3",
+          "hex_head_ftlb": "46",
+          "flange_nm": "74",
+          "flange_kgm": "7.5",
+          "flange_ftlb": "54"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M12",
+          "bolt_diameter_mm": "12.0",
+          "pitch_mm": "1.75",
+          "hex_head_nm": "98",
+          "hex_head_kgm": "10.0",
+          "hex_head_ftlb": "72",
+          "flange_nm": "118",
+          "flange_kgm": "12.0",
+          "flange_ftlb": "87"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M12",
+          "bolt_diameter_mm": "12.0",
+          "pitch_mm": "1.25",
+          "hex_head_nm": "108",
+          "hex_head_kgm": "11.0",
+          "hex_head_ftlb": "80",
+          "flange_nm": "137",
+          "flange_kgm": "14.0",
+          "flange_ftlb": "101"
+        },
+        {
+          "grade": "9T",
+          "bolt_size": "M14",
+          "bolt_diameter_mm": "14.0",
+          "pitch_mm": "1.5",
+          "hex_head_nm": "177",
+          "hex_head_kgm": "18.0",
+          "hex_head_ftlb": "130",
+          "flange_nm": "206",
+          "flange_kgm": "21.0",
+          "flange_ftlb": "152"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "1. Special parts are excluded.\n2. This standard is applicable to bolts having the following marks embossed on the bolt head.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Nominal diameter",
+      "style": "note"
+    },
+    {
+      "block_type": "table",
+      "title": "Grade Marks",
+      "columns": [
+        {
+          "key": "grade",
+          "label": "Grade"
+        },
+        {
+          "key": "mark",
+          "label": "Mark"
+        }
+      ],
+      "rows": [
+        {
+          "grade": "4T",
+          "mark": "4"
+        },
+        {
+          "grade": "7T",
+          "mark": "7"
+        },
+        {
+          "grade": "9T",
+          "mark": "9"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "M 6 \u2014 Nominal diameter of bolt threads (Unit: mm) \u2014 Metric screw threads",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

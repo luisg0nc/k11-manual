@@ -1,0 +1,227 @@
+{
+  "page_code": "MA-14",
+  "section": "MA",
+  "title": "Engine Maintenance \u2014 Checking and Changing Spark Plugs (Cont'd) / Checking Ignition Leads / Positive Crankcase Ventilation (P.C.V.) Valve",
+  "page_type": "prose_procedure",
+  "source_image": "MA-14.jpg",
+  "continuation": {
+    "continues_from": "MA-13",
+    "continues_to": "MA-15"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SMA476",
+      "type": "component_photo",
+      "description": "Illustration showing spark plug gap measurement with side electrode labeled and gap indicated",
+      "bbox_percent": [
+        2,
+        13,
+        35,
+        35
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA015A",
+      "type": "component_photo",
+      "description": "Illustration showing ignition leads with multimeter for resistance measurement",
+      "bbox_percent": [
+        2,
+        36,
+        35,
+        58
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UMA030",
+      "type": "component_photo",
+      "description": "Illustration showing P.C.V. valve and seal on rocker cover",
+      "bbox_percent": [
+        2,
+        72,
+        35,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Engine Maintenance"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking and Changing Spark Plugs (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Spark plug"
+    },
+    {
+      "block_type": "table",
+      "title": "Spark Plug Specifications",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Make"
+        },
+        {
+          "key": "champion",
+          "label": "CHAMPION"
+        },
+        {
+          "key": "ngk",
+          "label": "NGK"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Standard type",
+          "champion": "RC9YCC4",
+          "ngk": "BKR5E-11"
+        },
+        {
+          "type": "Hot type",
+          "champion": "RC12YCC4",
+          "ngk": "BKR4E-11"
+        },
+        {
+          "type": "Cold type",
+          "champion": "RC7YCC4",
+          "ngk": "BKR6E-11"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "spark_plug_check",
+      "title": "Checking and Changing Spark Plugs (Cont'd)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Check spark plug gap. Gap: 1.0 - 1.1 mm (0.039 - 0.043 in)",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Install spark plugs. Reconnect ignition wires according to nos. indicated on them. Spark plug: 20 - 29 N\u00b7m (2 - 3 kg-m, 14 - 22 ft-lb)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Spark plug gap",
+          "value": "1.0 - 1.1",
+          "unit": "mm (0.039 - 0.043 in)",
+          "condition": null
+        },
+        {
+          "label": "Spark plug torque",
+          "value": "20 - 29",
+          "unit": "N\u00b7m (2 - 3 kg-m, 14 - 22 ft-lb)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Ignition Leads"
+    },
+    {
+      "block_type": "procedure",
+      "id": "ignition_leads_check",
+      "title": "Checking Ignition Leads",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Inspect leads for cracks, damage, burned terminals and for improper fit.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure the resistance of leads and check for breaks. Resistance:",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Ignition Lead Resistance",
+      "columns": [
+        {
+          "key": "marking",
+          "label": "Marking"
+        },
+        {
+          "key": "resistance",
+          "label": "Resistance per length"
+        }
+      ],
+      "rows": [
+        {
+          "marking": "BOUGICORD 403 CLASS E1",
+          "resistance": "4.48 - 6.72 (1.365 - 2.048)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: k\u03a9/m (k\u03a9/ft)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "If the resistance exceeds the above specification, replace the ignition lead with a new one.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Positive Crankcase Ventilation (P.C.V.) Valve"
+    },
+    {
+      "block_type": "prose",
+      "text": "When removing P.C.V. valve from rocker cover, be sure to renew the seal. Lubricate new seal and P.C.V. valve before fitting.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "P.C.V. valve and seal location on rocker cover",
+      "callouts": [
+        {
+          "label": "P.C.V. valve",
+          "position": "center"
+        },
+        {
+          "label": "seal",
+          "position": "below P.C.V. valve"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

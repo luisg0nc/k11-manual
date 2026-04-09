@@ -1,0 +1,161 @@
+{
+  "page_code": "EM-5033",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "prose_procedure",
+  "source_image": "page_em5033.jpg",
+  "continuation": {
+    "continues_from": "EM-5032",
+    "continues_to": "EM-5034"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM252",
+      "type": "component_photo",
+      "description": "Upper mounting (Right side) removal \u2014 arrows indicating mounting points",
+      "bbox_percent": [
+        2,
+        3,
+        42,
+        18
+      ],
+      "associated_step": "step20"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM290",
+      "type": "component_photo",
+      "description": "Transaxle shift linkages and transaxle mounting (Left side) \u2014 arrows indicating release points",
+      "bbox_percent": [
+        2,
+        20,
+        42,
+        36
+      ],
+      "associated_step": "step21_22"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM291",
+      "type": "component_photo",
+      "description": "Center member removal \u2014 arrows indicating fastener locations",
+      "bbox_percent": [
+        2,
+        37,
+        42,
+        53
+      ],
+      "associated_step": "step23"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM068",
+      "type": "component_photo",
+      "description": "Engine with transaxle being removed from vehicle",
+      "bbox_percent": [
+        2,
+        54,
+        42,
+        70
+      ],
+      "associated_step": "step24"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM293",
+      "type": "component_photo",
+      "description": "Top engine mounting bracket and RH insulator \u2014 installation illustration showing SST usage",
+      "bbox_percent": [
+        2,
+        71,
+        42,
+        87
+      ],
+      "associated_step": "install_step1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 20,
+          "text": "Remove upper mounting (Right side).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Release transaxle shift linkages.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Release transaxle mounting (Left side).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Remove center member.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Remove engine with transaxle as shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install top engine mounting brackets and fixing bolts. Install RH insulator to vehicle body and tighten to the specified torque using SST KV109B0090.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0090",
+      "name": "SST",
+      "usage": "Tighten RH insulator to vehicle body to specified torque"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Right side upper mounting and left side transaxle mounting referenced; engine removed with transaxle as an assembly."
+}

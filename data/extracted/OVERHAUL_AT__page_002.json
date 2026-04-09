@@ -1,0 +1,188 @@
+{
+  "page_code": "AT-2",
+  "section": "AT",
+  "title": "PREPARATION \u2014 SPECIAL SERVICE TOOLS",
+  "page_type": "spec_table",
+  "source_image": "page_at2.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Pressure gauge KV319-K006 \u2014 coiled hose with gauge head",
+      "bbox_percent": [
+        13,
+        6,
+        48,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Adaptor KV319-K0065 \u2014 threaded cylindrical fitting",
+      "bbox_percent": [
+        13,
+        21,
+        48,
+        33
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Transmission stand KV319-K0160 \u2014 bracket/cradle fixture",
+      "bbox_percent": [
+        13,
+        36,
+        48,
+        49
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Oil pump puller KV319-K0150 \u2014 T-bar style puller tool",
+      "bbox_percent": [
+        13,
+        51,
+        48,
+        63
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Depth gauge KV319-K020 \u2014 T-handle depth measurement tool",
+      "bbox_percent": [
+        13,
+        65,
+        48,
+        79
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Preload adapter KV381-05900 \u2014 fork-end cylindrical adapter",
+      "bbox_percent": [
+        13,
+        81,
+        48,
+        93
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SPECIAL SERVICE TOOLS"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number"
+        },
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "KV319-K006",
+          "tool_name": "Pressure gauge",
+          "description": "Line pressure measurement"
+        },
+        {
+          "tool_number": "KV319-K0065",
+          "tool_name": "Adaptor",
+          "description": "Used with KV319-K0060 pressure gauge"
+        },
+        {
+          "tool_number": "KV319-K0160",
+          "tool_name": "Transmission stand",
+          "description": "Unit disassembly and assembly"
+        },
+        {
+          "tool_number": "KV319-K0150",
+          "tool_name": "Oil pump puller",
+          "description": "Removing oil pump assembly"
+        },
+        {
+          "tool_number": "KV319-K020",
+          "tool_name": "Depth gauge",
+          "description": "Adjusting pulley end play"
+        },
+        {
+          "tool_number": "KV381-05900",
+          "tool_name": "Preload adapter",
+          "description": "Measure turning torque of final drive; Select shims for side bearing preload"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K006",
+      "name": "Pressure gauge",
+      "usage": "Line pressure measurement"
+    },
+    {
+      "part_number": "KV319-K0065",
+      "name": "Adaptor",
+      "usage": "Used with KV319-K0060 pressure gauge"
+    },
+    {
+      "part_number": "KV319-K0160",
+      "name": "Transmission stand",
+      "usage": "Unit disassembly and assembly"
+    },
+    {
+      "part_number": "KV319-K0150",
+      "name": "Oil pump puller",
+      "usage": "Removing oil pump assembly"
+    },
+    {
+      "part_number": "KV319-K020",
+      "name": "Depth gauge",
+      "usage": "Adjusting pulley end play"
+    },
+    {
+      "part_number": "KV381-05900",
+      "name": "Preload adapter",
+      "usage": "Measure turning torque of final drive; Select shims for side bearing preload"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,152 @@
+{
+  "page_code": "AT-117",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-117.jpg",
+  "continuation": {
+    "continues_from": "AT-116",
+    "continues_to": "AT-118"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT244",
+      "type": "component_photo",
+      "description": "Park pawl assembly being fitted to side casing, arrow indicating guide location in hole",
+      "bbox_percent": [
+        0,
+        4,
+        38,
+        22
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT245",
+      "type": "component_photo",
+      "description": "Close-up showing Spring, Pawl, and Guide plate arrangement to ensure spring is not trapped",
+      "bbox_percent": [
+        0,
+        23,
+        38,
+        41
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT246",
+      "type": "component_photo",
+      "description": "Transmission casing being installed to side casing after applying liquid gasket to mating faces",
+      "bbox_percent": [
+        0,
+        42,
+        38,
+        59
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT247",
+      "type": "component_photo",
+      "description": "Bolt tightening sequence diagram showing numbered positions (1-10) for transmission casing bolts",
+      "bbox_percent": [
+        0,
+        60,
+        38,
+        78
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT248",
+      "type": "component_photo",
+      "description": "Hand fitting needle bearing into transmission assembly",
+      "bbox_percent": [
+        0,
+        79,
+        38,
+        97
+      ],
+      "associated_step": "16"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 13,
+          "text": "Fit the park pawl assembly to the side casing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Ensure the guide is located in the hole correctly (shown by the arrow).",
+            "Ensure the spring is not trapped between the pawl and guide plate."
+          ]
+        },
+        {
+          "step": 14,
+          "text": "Apply liquid gasket to the mating faces and install the transmission casing to the side casing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Ensure mating faces are clean.",
+            "Apply a continuous bead of liquid gasket, but do not over-apply.",
+            "Tighten the bolts in the sequence shown."
+          ]
+        },
+        {
+          "step": 16,
+          "text": "Fit the needle bearing.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Transmission casing bolt torque",
+          "value": "22 - 26",
+          "unit": "N\u00b7m",
+          "condition": "Tighten in sequence shown"
+        },
+        {
+          "label": "Transmission casing bolt torque",
+          "value": "2.2 - 2.7",
+          "unit": "kg-m",
+          "condition": "Tighten in sequence shown"
+        },
+        {
+          "label": "Transmission casing bolt torque",
+          "value": "16 - 20",
+          "unit": "ft-lb",
+          "condition": "Tighten in sequence shown"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,279 @@
+{
+  "page_code": "EM-7019",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-7018",
+    "continues_to": "EM-7020"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM369",
+      "type": "parts_diagram",
+      "description": "Camshaft bracket bolt tightening order shown in numerical sequence on cylinder head diagram",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        18
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM047",
+      "type": "parts_diagram",
+      "description": "Timing chain assembly showing mating marks (silver and bronze), link counts (5 links, 7 links, 11 links) and camshaft sprockets",
+      "bbox_percent": [
+        0,
+        35,
+        42,
+        56
+      ],
+      "associated_step": "8"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM128D",
+      "type": "parts_diagram",
+      "description": "Camshaft sprocket installation showing knock pin alignment on both intake and exhaust camshafts",
+      "bbox_percent": [
+        0,
+        56,
+        42,
+        74
+      ],
+      "associated_step": "9"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM055",
+      "type": "parts_diagram",
+      "description": "Chain tensioner components: tensioner body, ratchet, spring, plunger, and piston",
+      "bbox_percent": [
+        0,
+        74,
+        42,
+        88
+      ],
+      "associated_step": "9"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 7,
+          "text": "Install camshaft and camshaft brackets. Tighten camshaft bracket bolts gradually in three stages: (a) 2 N\u00b7m (0.2 kg-m, 1.4 ft-lb) (b) 6 N\u00b7m (0.6 kg-m, 4.3 ft-lb) (c) 9 - 11.8 N\u00b7m (0.92 - 1.20 kg-m, 6.7 - 8.7 ft-lb)",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "If any part of valve assembly or camshaft is replaced, check valve clearance according to the reference data. After completing assembly, check valve clearance. Refer to 'Checking' and 'Adjusting' in 'VALVE CLEARANCE'.",
+            "Reference data for initial setting of valve clearance (Cold): Intake 0.30 mm (0.012 in), Exhaust 0.35 mm (0.014 in)"
+          ]
+        },
+        {
+          "step": 8,
+          "text": "Assemble camshaft sprocket with chain. Set timing chain by aligning mating marks with those of camshaft sprockets. Make sure sprocket's mating marks face engine front.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Install camshaft sprocket bolts. Make sure camshafts are aligned as shown in figure.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage a",
+          "value": "2",
+          "unit": "N\u00b7m",
+          "condition": "Stage a"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage a",
+          "value": "0.2",
+          "unit": "kg-m",
+          "condition": "Stage a"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage a",
+          "value": "1.4",
+          "unit": "ft-lb",
+          "condition": "Stage a"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage b",
+          "value": "6",
+          "unit": "N\u00b7m",
+          "condition": "Stage b"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage b",
+          "value": "0.6",
+          "unit": "kg-m",
+          "condition": "Stage b"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage b",
+          "value": "4.3",
+          "unit": "ft-lb",
+          "condition": "Stage b"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage c",
+          "value": "9 - 11.8",
+          "unit": "N\u00b7m",
+          "condition": "Stage c"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage c",
+          "value": "0.92 - 1.20",
+          "unit": "kg-m",
+          "condition": "Stage c"
+        },
+        {
+          "label": "Camshaft bracket bolt torque \u2014 Stage c",
+          "value": "6.7 - 8.7",
+          "unit": "ft-lb",
+          "condition": "Stage c"
+        },
+        {
+          "label": "Valve clearance (Cold) \u2014 Intake",
+          "value": "0.30",
+          "unit": "mm",
+          "condition": "Cold, initial setting reference data"
+        },
+        {
+          "label": "Valve clearance (Cold) \u2014 Intake",
+          "value": "0.012",
+          "unit": "in",
+          "condition": "Cold, initial setting reference data"
+        },
+        {
+          "label": "Valve clearance (Cold) \u2014 Exhaust",
+          "value": "0.35",
+          "unit": "mm",
+          "condition": "Cold, initial setting reference data"
+        },
+        {
+          "label": "Valve clearance (Cold) \u2014 Exhaust",
+          "value": "0.014",
+          "unit": "in",
+          "condition": "Cold, initial setting reference data"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Timing chain mating mark positions",
+      "callouts": [
+        {
+          "label": "5 links",
+          "position": "upper chain section between sprockets"
+        },
+        {
+          "label": "7 links",
+          "position": "right chain section"
+        },
+        {
+          "label": "11 links",
+          "position": "left chain section"
+        },
+        {
+          "label": "Mating mark (silver)",
+          "position": "upper left \u2014 crankshaft sprocket area"
+        },
+        {
+          "label": "Mating mark (silver)",
+          "position": "upper right \u2014 camshaft sprocket"
+        },
+        {
+          "label": "Mating mark (bronze)",
+          "position": "lower right \u2014 camshaft sprocket"
+        },
+        {
+          "label": "Mating mark",
+          "position": "lower left"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Camshaft knock pin alignment for sprocket installation",
+      "callouts": [
+        {
+          "label": "Knock pin",
+          "position": "upper camshaft"
+        },
+        {
+          "label": "Knock pin",
+          "position": "lower camshaft"
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig4",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Tensioner body",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Ratchet",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Spring",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Plunger",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Piston",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "VALVE CLEARANCE \u2014 Checking",
+    "VALVE CLEARANCE \u2014 Adjusting"
+  ],
+  "model_notes": null
+}

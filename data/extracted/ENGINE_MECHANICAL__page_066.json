@@ -1,0 +1,219 @@
+{
+  "page_code": "EM-63",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Inspection and Adjustment (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": "EM-62",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "MAIN BEARING"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Standard"
+    },
+    {
+      "block_type": "table",
+      "title": "Main Bearing Standard \u2014 Unit: mm (in)",
+      "columns": [
+        {
+          "key": "grade_no",
+          "label": "Grade No."
+        },
+        {
+          "key": "thickness_mm_in",
+          "label": "Thickness mm (in)"
+        },
+        {
+          "key": "identification_color",
+          "label": "Identification color"
+        }
+      ],
+      "rows": [
+        {
+          "grade_no": "0",
+          "thickness_mm_in": "2.000 - 2.004 (0.0787 - 0.0789)",
+          "identification_color": "Black"
+        },
+        {
+          "grade_no": "1",
+          "thickness_mm_in": "2.002 - 2.006 (0.0788 - 0.0790)",
+          "identification_color": "Brown"
+        },
+        {
+          "grade_no": "2",
+          "thickness_mm_in": "2.004 - 2.008 (0.0789 - 0.0791)",
+          "identification_color": "Green"
+        },
+        {
+          "grade_no": "3",
+          "thickness_mm_in": "2.006 - 2.010 (0.0790 - 0.0791)",
+          "identification_color": "Yellow"
+        },
+        {
+          "grade_no": "4",
+          "thickness_mm_in": "2.008 - 2.012 (0.0791 - 0.0792)",
+          "identification_color": "Blue"
+        },
+        {
+          "grade_no": "5",
+          "thickness_mm_in": "2.010 - 2.014 (0.0791 - 0.0793)",
+          "identification_color": "Pink"
+        },
+        {
+          "grade_no": "6",
+          "thickness_mm_in": "2.012 - 2.016 (0.0792 - 0.0794)",
+          "identification_color": "White"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Undersize"
+    },
+    {
+      "block_type": "table",
+      "title": "Main Bearing Undersize \u2014 Unit: mm (in)",
+      "columns": [
+        {
+          "key": "undersize",
+          "label": "Undersize"
+        },
+        {
+          "key": "thickness",
+          "label": "Thickness"
+        }
+      ],
+      "rows": [
+        {
+          "undersize": "0.25 (0.0098)",
+          "thickness": "2.125 - 2.129 (0.0837 - 0.0838)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FLYWHEEL"
+    },
+    {
+      "block_type": "table",
+      "title": "Flywheel \u2014 Unit: mm (in)",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Flywheel"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Runout [T.I.R.]",
+          "value": "Less than 0.15 (0.0059)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Total indicator reading",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "AVAILABLE CONNECTING ROD BEARING"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Connecting rod bearing"
+    },
+    {
+      "block_type": "table",
+      "title": "Connecting Rod Bearing Thickness \u2014 Unit: mm (in)",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "key": "thickness",
+          "label": "Thickness"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Standard",
+          "thickness": "1.504 - 1.508 (0.0592 - 0.0594)"
+        },
+        {
+          "type": "Undersize",
+          "thickness": "1.629 - 1.633 (0.0641 - 0.0643)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Bearing clearance"
+    },
+    {
+      "block_type": "table",
+      "title": "Bearing Clearance \u2014 Unit: mm (in)",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Main bearing clearance \u2014 Standard",
+          "value": "0.022 - 0.038 (0.0009 - 0.0015)"
+        },
+        {
+          "item": "Main bearing clearance \u2014 Limit",
+          "value": "0.064 (0.0025)"
+        },
+        {
+          "item": "Connecting rod bearing clearance \u2014 Standard",
+          "value": "0.010 - 0.044 (0.0004 - 0.0017)"
+        },
+        {
+          "item": "Connecting rod bearing clearance \u2014 Limit All",
+          "value": "0.064 (0.0025)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

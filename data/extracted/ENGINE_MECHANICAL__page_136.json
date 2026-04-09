@@ -1,0 +1,213 @@
+{
+  "page_code": "EM-5003",
+  "section": "EM",
+  "title": "PREPARATION \u2014 Special Service Tools",
+  "page_type": "spec_table",
+  "source_image": "page_image.png",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "ST0501S000",
+      "type": "tool_illustration",
+      "description": "Engine stand assembly consisting of engine stand (ST05011000) and base (ST05012000)",
+      "bbox_percent": [
+        20,
+        10,
+        55,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "KV10106500",
+      "type": "tool_illustration",
+      "description": "Engine attachment bracket tool",
+      "bbox_percent": [
+        20,
+        23,
+        55,
+        33
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "KV10115300",
+      "type": "tool_illustration",
+      "description": "Engine sub-attachment tool",
+      "bbox_percent": [
+        20,
+        34,
+        55,
+        44
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NT021",
+      "type": "tool_illustration",
+      "description": "Valve spring compressor assembly consisting of compressor (KV10109210) and adapter (KV10109220)",
+      "bbox_percent": [
+        20,
+        45,
+        55,
+        57
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "KV10107900",
+      "type": "tool_illustration",
+      "description": "Valve oil seal puller tool",
+      "bbox_percent": [
+        20,
+        58,
+        55,
+        68
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": "EM03470000",
+      "type": "tool_illustration",
+      "description": "Piston ring compressor tool",
+      "bbox_percent": [
+        20,
+        69,
+        55,
+        79
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Special Service Tools"
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Special tool or commercial equivalent",
+      "style": "note"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number_name",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "engine_application_vjz",
+          "label": "Engine application VJZ"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number_name": "ST0501S000 / Engine stand assembly\n\u2460 ST05011000 Engine stand\n\u2461 ST05012000 Base",
+          "description": "Disassembling and assembling",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV10106500 / Engine attachment",
+          "description": "",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV10115300* / Engine sub-attachment",
+          "description": "",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "KV101092S0 / Valve spring compressor\n\u2460 KV10109210 Compressor\n\u2461 KV10109220 Adapter",
+          "description": "Disassembling and assembling valve components",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "\u2460 KV10107900* / Valve oil seal puller",
+          "description": "Disassembling valve oil seal",
+          "engine_application_vjz": "X"
+        },
+        {
+          "tool_number_name": "EM03470000* / Piston ring compressor",
+          "description": "Installing piston into cylinder",
+          "engine_application_vjz": "X"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "ST0501S000",
+      "name": "Engine stand assembly",
+      "usage": "Disassembling and assembling"
+    },
+    {
+      "part_number": "ST05011000",
+      "name": "Engine stand",
+      "usage": "Component of ST0501S000"
+    },
+    {
+      "part_number": "ST05012000",
+      "name": "Base",
+      "usage": "Component of ST0501S000"
+    },
+    {
+      "part_number": "KV10106500",
+      "name": "Engine attachment",
+      "usage": "Engine attachment for stand"
+    },
+    {
+      "part_number": "KV10115300",
+      "name": "Engine sub-attachment",
+      "usage": "Engine sub-attachment for stand"
+    },
+    {
+      "part_number": "KV101092S0",
+      "name": "Valve spring compressor",
+      "usage": "Disassembling and assembling valve components"
+    },
+    {
+      "part_number": "KV10109210",
+      "name": "Compressor",
+      "usage": "Component of KV101092S0"
+    },
+    {
+      "part_number": "KV10109220",
+      "name": "Adapter",
+      "usage": "Component of KV101092S0"
+    },
+    {
+      "part_number": "KV10107900",
+      "name": "Valve oil seal puller",
+      "usage": "Disassembling valve oil seal"
+    },
+    {
+      "part_number": "EM03470000",
+      "name": "Piston ring compressor",
+      "usage": "Installing piston into cylinder"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "All tools listed apply to VJZ engine application only."
+}

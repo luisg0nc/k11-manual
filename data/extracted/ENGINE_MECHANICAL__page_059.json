@@ -1,0 +1,181 @@
+{
+  "page_code": "EM-56",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-55",
+    "continues_to": "EM-57"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM101",
+      "type": "parts_diagram",
+      "description": "Oil seal housing diagram showing liquid gasket bead application positions A-A and B-B with dimensions 2.0-3.0 mm (0.079-0.118 in) at two locations",
+      "bbox_percent": [
+        0,
+        2,
+        45,
+        22
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM076",
+      "type": "component_photo",
+      "description": "Rear plate and flywheel/drive plate assembly with special tool KV10105610",
+      "bbox_percent": [
+        0,
+        22,
+        45,
+        46
+      ],
+      "associated_step": "8"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM073",
+      "type": "component_photo",
+      "description": "Engine front mounting bracket and air conditioning compressor bracket attachment",
+      "bbox_percent": [
+        0,
+        46,
+        45,
+        68
+      ],
+      "associated_step": "9"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 7,
+          "text": "When oil seal housing is installed, make sure new oil seal is fitted. Remove liquid gasket from retainer, including grooves and cylinder block. Apply a 2-3 mm dia. bead of liquid gasket without gaps to oil seal housing as indicated. Assemble retainer within 5 minutes of applying liquid gasket.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "After assembly wait at least 30 minutes before starting engine."
+          ],
+          "specs": [
+            {
+              "label": "Tightening torque (oil seal housing retainer)",
+              "value": "6.3 - 8.3",
+              "unit": "N\u00b7m",
+              "condition": "0.64 - 0.85 kg-m, 4.6 - 6.1 ft-lb"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "text": "Attach rear plate and flywheel (M/T), drive plate (CVT). For CVT rear plate, scrape off all traces of acrylic tape from cylinder block and clean mating surface. Remove backing paper from acrylic tape before fitting new rear plate. Oil bolt threads and flange prior to attaching. Tighten bolts diagonally.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Oil bolt threads and flange prior to attaching.",
+            "Tighten bolts diagonally."
+          ],
+          "specs": [
+            {
+              "label": "Tightening torque for flywheel and drive plate",
+              "value": "83 - 93",
+              "unit": "N\u00b7m",
+              "condition": "8.5 - 9.5 kg-m, 61 - 69 ft-lb"
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Attach engine front mounting bracket.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Tightening torque (engine front mounting bracket)",
+              "value": "64 - 74",
+              "unit": "N\u00b7m",
+              "condition": "6.5 - 7.5 kg-m, 47 - 54 ft-lb"
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "text": "Attach air conditioning compressor bracket.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Tightening torque (air conditioning compressor bracket)",
+              "value": "37 - 50",
+              "unit": "N\u00b7m",
+              "condition": "3.8 - 5.1 kg-m, 27 - 37 ft-lb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead diameter",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Oil seal housing application points A-A and B-B"
+        },
+        {
+          "label": "Tightening torque - oil seal housing retainer",
+          "value": "6.3 - 8.3",
+          "unit": "N\u00b7m",
+          "condition": "0.64 - 0.85 kg-m, 4.6 - 6.1 ft-lb"
+        },
+        {
+          "label": "Tightening torque - flywheel and drive plate",
+          "value": "83 - 93",
+          "unit": "N\u00b7m",
+          "condition": "8.5 - 9.5 kg-m, 61 - 69 ft-lb"
+        },
+        {
+          "label": "Tightening torque - engine front mounting bracket",
+          "value": "64 - 74",
+          "unit": "N\u00b7m",
+          "condition": "6.5 - 7.5 kg-m, 47 - 54 ft-lb"
+        },
+        {
+          "label": "Tightening torque - air conditioning compressor bracket",
+          "value": "37 - 50",
+          "unit": "N\u00b7m",
+          "condition": "3.8 - 5.1 kg-m, 27 - 37 ft-lb"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10105610",
+      "name": "Flywheel/drive plate holding tool",
+      "usage": "Holding flywheel or drive plate during bolt tightening"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Step 8 distinguishes between M/T (flywheel) and CVT (drive plate) variants. CVT rear plate requires additional surface preparation steps."
+}

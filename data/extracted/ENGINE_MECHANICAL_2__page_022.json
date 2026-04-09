@@ -1,0 +1,128 @@
+{
+  "page_code": "EM-7022",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "parts_diagram",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM370",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of engine mounting components for N-CVT and M/T variants, showing torque values for all fasteners",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "N-CVT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "M/T"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": []
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "N-CVT fastener torque (small bracket bolt)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m (3.6 - 4.6 kg\u00b7m, 26 - 33 ft\u00b7lb)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT fastener torque (medium bracket bolt)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6 kg\u00b7m, 33 - 40 ft\u00b7lb)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT fastener torque (small bracket bolt 2)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m (3.6 - 4.6 kg\u00b7m, 26 - 33 ft\u00b7lb)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "Engine mount bracket bolt torque",
+          "value": "64 - 74",
+          "unit": "N\u00b7m (6.5 - 7.5 kg\u00b7m, 47 - 54 ft\u00b7lb)",
+          "condition": "N-CVT and M/T"
+        },
+        {
+          "label": "Engine mount insulator/support torque",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1 kg\u00b7m, 37 - 44 ft\u00b7lb)",
+          "condition": "N-CVT and M/T"
+        },
+        {
+          "label": "Engine mount bracket bolt torque (side)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.5 - 5.6 kg\u00b7m, 33 - 40 ft\u00b7lb)",
+          "condition": "N-CVT and M/T"
+        },
+        {
+          "label": "M/T fastener torque (crossmember bolt)",
+          "value": "49 - 59",
+          "unit": "N\u00b7m (5.0 - 6.0 kg\u00b7m, 37 - 43 ft\u00b7lb)",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T engine mount bracket bolt torque",
+          "value": "59 - 69",
+          "unit": "N\u00b7m (6.0 - 7.0 kg\u00b7m, 43 - 51 ft\u00b7lb)",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T engine mount bracket bolt torque (lower left)",
+          "value": "59 - 69",
+          "unit": "N\u00b7m (6.1 - 7.0 kg\u00b7m, 44 - 50 ft\u00b7lb)",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T engine mount insulator torque (right side lower)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6 kg\u00b7m, 33 - 40 ft\u00b7lb)",
+          "condition": "M/T"
+        },
+        {
+          "label": "M/T engine mount insulator torque (right side)",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1 kg\u00b7m, 37 - 44 ft\u00b7lb)",
+          "condition": "M/T"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg\u00b7m, ft\u00b7lb) \u2014 torque unit legend shown at bottom left of diagram.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Page is split into two sections: upper half shows N-CVT (N-CVT transmission) engine mounting torque diagram; lower half shows M/T (Manual Transmission) engine mounting torque diagram. Torque values differ between transmission variants."
+}

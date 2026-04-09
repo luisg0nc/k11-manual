@@ -1,0 +1,255 @@
+{
+  "page_code": "MA-25",
+  "section": "MA",
+  "title": "Service Data and Specifications (S.D.S.) \u2014 Engine Maintenance",
+  "page_type": "spec_table",
+  "source_image": "ma-25.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Engine Maintenance"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "INSPECTION AND ADJUSTMENT"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Drive belt deflection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Drive belt deflection",
+      "columns": [
+        {
+          "key": "application",
+          "label": "Application"
+        },
+        {
+          "key": "belt_type",
+          "label": "Belt Type"
+        },
+        {
+          "key": "limit_for_adjustment",
+          "label": "Deflection of used belt \u2014 Limit for adjustment"
+        },
+        {
+          "key": "when_adjusted",
+          "label": "Deflection of used belt \u2014 When adjusted"
+        },
+        {
+          "key": "deflection_new_belt",
+          "label": "Deflection of new belt"
+        }
+      ],
+      "rows": [
+        {
+          "application": "Non-Power-steering and Non-Airconditioning",
+          "belt_type": "Alternator belt",
+          "limit_for_adjustment": "10.5 (0.413)",
+          "when_adjusted": "7 - 8 (0.28 - 0.31)",
+          "deflection_new_belt": "6 - 7 (0.24 - 0.28)"
+        },
+        {
+          "application": "Non-Power-steering and Non-Airconditioning",
+          "belt_type": "Water-pump belt",
+          "limit_for_adjustment": "6 (0.24)",
+          "when_adjusted": "3.8 - 4.2 (0.150 - 0.165)",
+          "deflection_new_belt": "3.5 - 4 (0.138 - 0.157)"
+        },
+        {
+          "application": "Power-steering and Non-Airconditioning",
+          "belt_type": "Alternator belt",
+          "limit_for_adjustment": "9 (0.35)",
+          "when_adjusted": "6 - 7 (0.24 - 0.28)",
+          "deflection_new_belt": "5.5 - 6 (0.217 - 0.236)"
+        },
+        {
+          "application": "Power-steering and Non-Airconditioning",
+          "belt_type": "Water-pump belt",
+          "limit_for_adjustment": "5 (0.20)",
+          "when_adjusted": "3 - 3.5 (0.118 - 0.138)",
+          "deflection_new_belt": "2.8 - 3.2 (0.110 - 0.126)"
+        },
+        {
+          "application": "Airconditioning and Non-Power-steering",
+          "belt_type": "Alternator belt",
+          "limit_for_adjustment": "9 (0.35)",
+          "when_adjusted": "6 - 7 (0.24 - 0.28)",
+          "deflection_new_belt": "5.5 - 6 (0.217 - 0.236)"
+        },
+        {
+          "application": "Airconditioning and Non-Power-steering",
+          "belt_type": "Water-pump belt",
+          "limit_for_adjustment": "6 (0.24)",
+          "when_adjusted": "3.8 - 4.2 (0.150 - 0.165)",
+          "deflection_new_belt": "3.5 - 4 (0.138 - 0.157)"
+        },
+        {
+          "application": "Airconditioning and Power-steering",
+          "belt_type": "Alternator belt",
+          "limit_for_adjustment": "9 (0.35)",
+          "when_adjusted": "6 - 7 (0.24 - 0.28)",
+          "deflection_new_belt": "5.5 - 6 (0.217 - 0.236)"
+        },
+        {
+          "application": "Airconditioning and Power-steering",
+          "belt_type": "Water-pump belt",
+          "limit_for_adjustment": "5 (0.20)",
+          "when_adjusted": "3 - 3.5 (0.118 - 0.138)",
+          "deflection_new_belt": "2.8 - 3.2 (0.110 - 0.126)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Applied pushing force: 98N (10 kg, 22 lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Oil capacity (Refill capacity)"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "With oil filter change",
+          "value": "3.1 (5-1/2)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": "With oil filter change"
+        },
+        {
+          "label": "Without oil filter change",
+          "value": "2.9 (5-1/8)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": "Without oil filter change"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Coolant capacity"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "With reservoir tank",
+          "value": "4.0 (7)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": "With reservoir tank"
+        },
+        {
+          "label": "Reservoir tank",
+          "value": "0.7 (1-1/4)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": "Reservoir tank only"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Spark plug"
+    },
+    {
+      "block_type": "table",
+      "title": "Spark plug",
+      "columns": [
+        {
+          "key": "spec",
+          "label": ""
+        },
+        {
+          "key": "champion",
+          "label": "CHAMPION"
+        },
+        {
+          "key": "ngk",
+          "label": "NGK"
+        }
+      ],
+      "rows": [
+        {
+          "spec": "Make",
+          "champion": "CHAMPION",
+          "ngk": "NGK"
+        },
+        {
+          "spec": "Type \u2014 Standard",
+          "champion": "RC9YCC4",
+          "ngk": "BKR5E-11"
+        },
+        {
+          "spec": "Type \u2014 Hot",
+          "champion": "RC12YCC4",
+          "ngk": "BKR4E-11"
+        },
+        {
+          "spec": "Type \u2014 Cold",
+          "champion": "RC7YCC4",
+          "ngk": "BKR6E-11"
+        },
+        {
+          "spec": "Plug gap mm (in)",
+          "champion": "1.0 - 1.1 (0.039 - 0.043)",
+          "ngk": "1.0 - 1.1 (0.039 - 0.043)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Ignition lead"
+    },
+    {
+      "block_type": "table",
+      "title": "Ignition lead",
+      "columns": [
+        {
+          "key": "property",
+          "label": "Property"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "property": "Marking",
+          "value": "BOUGICORD 403 CLASS E1"
+        },
+        {
+          "property": "Ignition lead resistance k\u03a9/m (k\u03a9/ft)",
+          "value": "4.48 - 6.72 (1.365 - 2.048)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Drive belt deflection specifications vary depending on whether the vehicle has Power Steering and/or Air Conditioning fitted."
+}

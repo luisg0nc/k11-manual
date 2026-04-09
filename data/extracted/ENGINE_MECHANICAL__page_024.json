@@ -1,0 +1,257 @@
+{
+  "page_code": "EM-21",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-20",
+    "continues_to": "EM-22"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM045",
+      "type": "parts_diagram",
+      "description": "Timing chain alignment diagram showing upper and lower timing chains with mating marks (silver, bronze, yellow) and link counts between sprockets (5 links, 7 links, 11 links)",
+      "bbox_percent": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM054",
+      "type": "parts_diagram",
+      "description": "Idler sprocket shaft installation showing dowel and idler shaft location",
+      "bbox_percent": [
+        0,
+        33,
+        32,
+        52
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM046",
+      "type": "parts_diagram",
+      "description": "Front cover liquid gasket bead application area showing 2.0\u20133.0 mm bead width on cylinder head mating surface",
+      "bbox_percent": [
+        0,
+        53,
+        32,
+        72
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM877A",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt washer orientation diagram showing washer installed with cylinder head side facing down",
+      "bbox_percent": [
+        0,
+        73,
+        32,
+        90
+      ],
+      "associated_step": "14"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 11,
+          "text": "Set idler sprocket by aligning the mating mark on the larger sprocket with the yellow mating mark on the lower timing chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Install upper timing chain and set it by aligning the mating mark on the smaller sprocket with the silver mating marks on the upper timing chain.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Make sure sprocket's mating mark faces engine front."
+          ]
+        },
+        {
+          "step": 13,
+          "text": "Install idler sprocket shaft from the rear side.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Ensure that the shaft is located correctly, as shown."
+          ]
+        },
+        {
+          "step": 14,
+          "text": "Install cylinder head with new gasket.",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Do not rotate crankshaft and camshaft separately, or valves will strike piston heads."
+          ],
+          "notes": [
+            "Before installing cylinder head gasket, apply a continuous bead of liquid gasket as shown in the figure.",
+            "Be sure to install washers between bolts and cylinder head."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width (cylinder head gasket area)",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Applied continuously on front cover mating surface"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure sprocket's mating mark faces engine front.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure that the shaft is located correctly, as shown.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before installing cylinder head gasket, apply a continuous bead of liquid gasket as shown in the figure.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be sure to install washers between bolts and cylinder head.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not rotate crankshaft and camshaft separately, or valves will strike piston heads.",
+      "style": "warning"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Timing chain mating mark positions and link counts",
+      "callouts": [
+        {
+          "label": "5 links",
+          "position": "upper chain, top section"
+        },
+        {
+          "label": "7 links",
+          "position": "upper chain, right section"
+        },
+        {
+          "label": "11 links",
+          "position": "upper chain, left section"
+        },
+        {
+          "label": "Mating mark (silver)",
+          "position": "upper chain, top"
+        },
+        {
+          "label": "Mating mark (silver)",
+          "position": "upper chain, left"
+        },
+        {
+          "label": "Mating mark (bronze)",
+          "position": "upper chain, right sprocket"
+        },
+        {
+          "label": "Mating mark (yellow)",
+          "position": "lower timing chain, idler sprocket"
+        },
+        {
+          "label": "Mating mark (bronze)",
+          "position": "lower chain, crankshaft sprocket"
+        },
+        {
+          "label": "Mating mark",
+          "position": "lower chain, camshaft sprocket"
+        },
+        {
+          "label": "Lower timing chain",
+          "position": "lower section of diagram"
+        },
+        {
+          "label": "Upper timing chain",
+          "position": "left side of diagram"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Idler sprocket shaft installation",
+      "callouts": [
+        {
+          "label": "Dowel",
+          "position": "upper area of idler shaft assembly"
+        },
+        {
+          "label": "Idler shaft",
+          "position": "right side of assembly"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Liquid gasket bead application on front cover",
+      "callouts": [
+        {
+          "label": "Front cover",
+          "position": "left side"
+        },
+        {
+          "label": "2.0 - 3.0 mm (0.079 - 0.118 in)",
+          "position": "bead width dimension, lower left"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "Cylinder head bolt washer orientation",
+      "callouts": [
+        {
+          "label": "Cylinder head bolt washer",
+          "position": "top of washer diagram"
+        },
+        {
+          "label": "Cylinder head side",
+          "position": "bottom of washer diagram, arrow pointing downward"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

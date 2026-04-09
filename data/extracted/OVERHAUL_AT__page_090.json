@@ -1,0 +1,264 @@
+{
+  "page_code": "AT-90",
+  "section": "AT",
+  "title": "Transmission Assembly Removal",
+  "page_type": "prose_procedure",
+  "source_image": "AT-90.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-91"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT077",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of transaxle assembly removal showing control cable, lock plate, spring clip, conical washer, plain washer, insulator, transaxle assembly, dust cover, member, drive shafts, throttle wire, and torque specifications",
+      "bbox_percent": [
+        0,
+        3,
+        100,
+        45
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT078",
+      "type": "component_photo",
+      "description": "Photo showing control cable and selector linkage separation",
+      "bbox_percent": [
+        0,
+        46,
+        35,
+        68
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT079",
+      "type": "component_photo",
+      "description": "Photo showing oil cooler hose location for removal",
+      "bbox_percent": [
+        0,
+        69,
+        35,
+        92
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REMOVAL AND INSTALLATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Transmission Assembly Removal"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "UAT077",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Spring clip",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Conical washer",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Plain washer",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Lock plate",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Control cable",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Insulator",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Transaxle assembly",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Dust cover",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Member",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Drive shaft",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Throttle wire",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Transaxle assembly bolt torque",
+          "value": "29.4 - 39.2",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Transaxle assembly bolt torque",
+          "value": "3.0 - 4.0",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Transaxle assembly bolt torque",
+          "value": "22 - 29",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (upper)",
+          "value": "16 - 21",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (upper)",
+          "value": "1.6 - 2.1",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (upper)",
+          "value": "12 - 15",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (lower)",
+          "value": "44 - 55",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (lower)",
+          "value": "4.5 - 5.5",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (lower)",
+          "value": "33 - 40",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (side)",
+          "value": "16 - 21",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (side)",
+          "value": "1.6 - 2.1",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Member bolt torque (side)",
+          "value": "12 - 15",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "transmission_removal",
+      "title": "Transmission Assembly Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove battery, fuse box and relay box.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove A/T throttle wire from throttle drum.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Separate the connectors of the inhibitor switch, line pressure solenoid, vehicle speed sensor, and speedometer cable.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Separate connecting parts of the selector linkage and control cable.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove drive shafts. Refer to section FA, \"Drive Shaft\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Drain the transmission fluid",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove the oil cooler hoses.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FA \u2014 Drive Shaft"
+  ],
+  "model_notes": "Automatic transmission (A/T) only"
+}

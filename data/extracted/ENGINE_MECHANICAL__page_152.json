@@ -1,0 +1,182 @@
+{
+  "page_code": "EM-5019",
+  "section": "EM",
+  "title": "CYLINDER HEAD",
+  "page_type": "parts_diagram",
+  "source_image": "cylinder_head_vjz.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM271",
+      "type": "parts_diagram",
+      "description": "Exploded view of cylinder head assembly including camshaft, valves, springs, rocker cover, head gasket, and related components with torque values indicated",
+      "bbox_percent": [
+        2,
+        2,
+        98,
+        72
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Camshaft",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 2,
+          "name": "Camshaft oil seal",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 3,
+          "name": "Cylinder head gasket",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 4,
+          "name": "Valve",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 5,
+          "name": "Spring seat",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Valve spring",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Valve oil seal",
+          "note": "Lubricate with new engine oil; Do not re-use"
+        },
+        {
+          "number": 8,
+          "name": "Spring retainer",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Valve guide",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Valve cotter",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Shim",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Valve lifter",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Cylinder head bolt",
+          "note": "Refer to \"Installation\" in \"CYLINDER HEAD\""
+        },
+        {
+          "number": 14,
+          "name": "Oil filler cap",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "Rocker cover gasket",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 17,
+          "name": "Camshaft bracket",
+          "note": null
+        },
+        {
+          "number": 18,
+          "name": "Cylinder head",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "10",
+          "unit": "N\u00b7m (1.0 kg\u00b7m, 88.5 in\u00b7lb)",
+          "condition": null
+        },
+        {
+          "label": "Camshaft bracket bolt torque",
+          "value": "20",
+          "unit": "N\u00b7m (2.0 kg\u00b7m, 14.8 ft\u00b7lb)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Lubricate with new engine oil.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg\u00b7m, in\u00b7lb)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not re-use",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to \"Installation\" in \"CYLINDER HEAD\"",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Swirl chamber (Combustion chamber) \u2014 Valve seat",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "CYLINDER HEAD \u2014 Installation"
+  ],
+  "model_notes": "VJZ engine variant. Section code VJZ shown top-right."
+}

@@ -1,0 +1,65 @@
+{
+  "page_code": "ST-29",
+  "section": "ST",
+  "title": "POWER STEERING OIL PUMP",
+  "page_type": "prose_procedure",
+  "source_image": "ST-29.jpg",
+  "continuation": {
+    "continues_from": "ST-28",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING OIL PUMP"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Installation is the reverse process to removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Replenish fluid in system as described in power steering rack installation.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Ensure all connections, banjo union joints and bolts are tightened to the specified torques.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Tension power steering drive belt to the specifications described in MA section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": null
+}

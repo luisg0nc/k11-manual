@@ -1,0 +1,160 @@
+{
+  "page_code": "AT-36",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Control Valve Assembly \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-36.jpg",
+  "continuation": {
+    "continues_from": "AT-35",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT053",
+      "type": "component_photo",
+      "description": "Engine brake lever in contact with ratio sensor bolt on valve body assembly",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        28
+      ],
+      "associated_step": "10"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT054",
+      "type": "component_photo",
+      "description": "Modulator rod connection with tool KV319K0030 fitted and adjuster bolt location",
+      "bbox_percent": [
+        0,
+        29,
+        38,
+        55
+      ],
+      "associated_step": "12"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT055",
+      "type": "component_photo",
+      "description": "Adjuster plate being pushed in direction of arrow with tool KV319K0030 fitted; torque spec shown as 2.9 - 3.9 N\u00b7m (0.3 - 0.4 kg\u00b7m, 2.2 - 2.9 ft\u00b7lb)",
+      "bbox_percent": [
+        0,
+        56,
+        38,
+        82
+      ],
+      "associated_step": "13"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Control Valve Assembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "install_control_valve_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 10,
+          "text": "Temporarily tighten the valve bolts. Ensure that the engine brake lever is in contact with the ratio sensor bolt.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Press on the valve body to ensure correct location, and tighten the bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Connect the modulator rod. Fit Tool plate as shown. Slacken off the adjuster bolt.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Push the adjuster plate in the direction of the arrow, and tighten the bolt to remove free play. Remove the tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Connect the harness & control cable.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Fit the oil strainer (using a new O ring).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Fit the oil pan using a new gasket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Fill with new ATF.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Adjuster bolt torque",
+          "value": "2.9 - 3.9",
+          "unit": "N\u00b7m",
+          "condition": "Step 13 \u2014 tighten adjuster bolt"
+        },
+        {
+          "label": "Adjuster bolt torque",
+          "value": "0.3 - 0.4",
+          "unit": "kg\u00b7m",
+          "condition": "Step 13 \u2014 tighten adjuster bolt"
+        },
+        {
+          "label": "Adjuster bolt torque",
+          "value": "2.2 - 2.9",
+          "unit": "ft\u00b7lb",
+          "condition": "Step 13 \u2014 tighten adjuster bolt"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319K0030",
+      "name": "Tool plate / adjuster tool",
+      "usage": "Used to fit modulator rod and push adjuster plate to remove free play during control valve assembly installation (steps 12-13)"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

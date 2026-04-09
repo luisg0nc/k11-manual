@@ -1,0 +1,200 @@
+{
+  "page_code": "EM-5009",
+  "section": "EM",
+  "title": "OIL PAN",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM247",
+      "type": "vehicle_diagram",
+      "description": "Underside of vehicle showing engine under cover removal points with arrows indicating fastener locations",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "Removal step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM883A",
+      "type": "tool_illustration",
+      "description": "Illustration showing tool being inserted between oil pan and cylinder block",
+      "bbox_percent": [
+        0,
+        23,
+        35,
+        42
+      ],
+      "associated_step": "Removal step 7-1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM884A",
+      "type": "tool_illustration",
+      "description": "Illustration showing tool being slid by tapping with a hammer to remove oil pan",
+      "bbox_percent": [
+        0,
+        43,
+        35,
+        60
+      ],
+      "associated_step": "Removal step 7-2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM248",
+      "type": "component_photo",
+      "description": "Oil pan mating surface being cleaned of liquid gasket traces with a scraper",
+      "bbox_percent": [
+        0,
+        61,
+        35,
+        76
+      ],
+      "associated_step": "Installation step 1"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SLC906",
+      "type": "tool_illustration",
+      "description": "Liquid gasket tube with cut point indicated at nozzle tip",
+      "bbox_percent": [
+        0,
+        77,
+        35,
+        92
+      ],
+      "associated_step": "Installation liquid gasket application"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL PAN"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove engine under covers.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Set a suitable transmission jack under the transaxle.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove center member.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove rear cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Drain engine oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove oil pan bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove oil pan using tool as illustrated.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "7-1",
+          "text": "Insert Tool between oil pan and cylinder block.",
+          "figure_ref": "fig2",
+          "warnings": [
+            "Do not drive seal cutter into front or rear oil seal retainer portion, or aluminum mating surfaces will be damaged.",
+            "Do not insert screwdriver, or oil pan flange will be deformed."
+          ],
+          "notes": []
+        },
+        {
+          "step": "7-2",
+          "text": "Slide Tool by tapping it with a hammer, and remove oil pan.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Before installing oil pan, remove all traces of liquid gasket from mating surface using a scraper.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Also remove traces of liquid gasket from mating surface of cylinder block."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width",
+          "value": "3.5 to 4.5",
+          "unit": "mm (0.138 to 0.177 in)",
+          "condition": "Oil pan installation"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Be sure liquid gasket is 3.5 to 4.5 mm (0.138 to 0.177 in) wide. Use Genuine Liquid Gasket or equivalent.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Oil Pan Removal Tool",
+      "usage": "Insert between oil pan and cylinder block, then slide by tapping with a hammer to separate oil pan from engine block"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant indicated by section code top right"
+}

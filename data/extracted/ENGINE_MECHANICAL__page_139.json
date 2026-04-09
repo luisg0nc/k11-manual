@@ -1,0 +1,127 @@
+{
+  "page_code": "EM-5006",
+  "section": "EM",
+  "title": "OUTER COMPONENT PARTS",
+  "page_type": "parts_diagram",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM245",
+      "type": "parts_diagram",
+      "description": "Exploded view of outer component parts including intake manifold, intake manifold collector, exhaust manifold, gasket, EGR passage, EGR valve, bracket, engine mounting support, water pipe assembly, and heat shield with torque specifications",
+      "bbox_percent": [
+        2,
+        2,
+        98,
+        75
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Intake manifold",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Intake manifold collector",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Exhaust manifold",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Gasket",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "EGR passage",
+          "note": ""
+        },
+        {
+          "number": 6,
+          "name": "EGR valve",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "Bracket",
+          "note": ""
+        },
+        {
+          "number": 8,
+          "name": "Engine mounting support",
+          "note": ""
+        },
+        {
+          "number": 9,
+          "name": "Water pipe assembly",
+          "note": ""
+        },
+        {
+          "number": 10,
+          "name": "Heat shield",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Fastener torque (small bolt)",
+          "value": "10 (1.02, 88.5)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": "Multiple locations \u2014 intake manifold collector, water pipe, heat shield, exhaust manifold area"
+        },
+        {
+          "label": "Fastener torque (bracket to engine)",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "Engine mounting support / bracket area"
+        },
+        {
+          "label": "Fastener torque (EGR passage/valve)",
+          "value": "45 (4.6, 33.2)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "EGR passage and EGR valve fasteners"
+        },
+        {
+          "label": "Fastener torque (bracket bolt)",
+          "value": "15 (1.5, 11.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "Upper bracket area"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Apply liquid gasket symbol indicates locations where liquid gasket must be applied. N\u00b7m (kg-m, in-lb) torque specification symbol (square icon). N\u00b7m (kg-m, ft-lb) torque specification symbol (round icon). Do not re-use symbol (X icon).",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

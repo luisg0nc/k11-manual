@@ -1,0 +1,109 @@
+{
+  "page_code": "EM-15",
+  "section": "EM",
+  "title": "OIL PAN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-15.jpg",
+  "continuation": {
+    "continues_from": "EM-14",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM038",
+      "type": "parts_diagram",
+      "description": "Oil pan bolt tightening sequence diagram showing numbered bolt positions (1-12) viewed from below",
+      "bbox_percent": [
+        2,
+        15,
+        38,
+        38
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM039",
+      "type": "parts_diagram",
+      "description": "Cross-section illustration showing correct washer fitment orientation on drain plug relative to oil pan",
+      "bbox_percent": [
+        2,
+        38,
+        38,
+        58
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL PAN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Attaching should be done within 5 minutes after applying liquid gasket.",
+      "style": "note"
+    },
+    {
+      "block_type": "procedure",
+      "id": "oil_pan_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Install oil pan. Tighten bolts in sequence as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Tighten in numerical order."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Oil pan bolt torque",
+          "value": "6.3 - 8.3",
+          "unit": "N\u00b7m",
+          "condition": "Tighten bolts in sequence as shown"
+        },
+        {
+          "label": "Oil pan bolt torque",
+          "value": "0.64 - 0.85",
+          "unit": "kg-m",
+          "condition": "Tighten bolts in sequence as shown"
+        },
+        {
+          "label": "Oil pan bolt torque",
+          "value": "4.6 - 6.1",
+          "unit": "ft-lb",
+          "condition": "Tighten bolts in sequence as shown"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Always fit a new washer to the drain plug. Fit the washer as shown in the illustration.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Wait at least 30 minutes before refilling engine oil.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

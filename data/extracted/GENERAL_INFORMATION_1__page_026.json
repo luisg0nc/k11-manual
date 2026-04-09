@@ -1,0 +1,79 @@
+{
+  "page_code": "GI-22",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi22.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI670",
+      "type": "vehicle_diagram",
+      "description": "Underside view of vehicle sill showing board-on lift attachment points. Labels indicate Front, Side sill, Attachment (x2).",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "Board-on Lift - Models without sill spoiler"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Board-on Lift"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Models without sill spoiler"
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure vehicle is empty when lifting.",
+      "style": "caution"
+    },
+    {
+      "block_type": "procedure",
+      "id": "board_on_lift_no_spoiler",
+      "title": "Board-on Lift - Models without sill spoiler",
+      "steps": [
+        {
+          "step": 1,
+          "text": "The board-on lift attachment (LM4086-0200) set at front end of vehicle should be set on the front of the sill under the front door opening.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Position attachments at front and rear ends of board-on lift.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "LM4086-0200",
+      "name": "Board-on lift attachment",
+      "usage": "Set at front end of vehicle on the front of the sill under the front door opening"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Procedure applies to models without sill spoiler only."
+}

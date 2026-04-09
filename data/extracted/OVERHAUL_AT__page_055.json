@@ -1,0 +1,276 @@
+{
+  "page_code": "AT-55",
+  "section": "AT",
+  "title": "Self Diagnosis Items (without using CONSULT) (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-55.jpg",
+  "continuation": {
+    "continues_from": "AT-54",
+    "continues_to": "AT-56"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern at 4 Hz repeatedly (ON/OFF pulse waveform)",
+      "bbox_percent": [
+        2,
+        8,
+        48,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp does not blink \u2014 Start diagnosis waveform (flat ON/OFF)",
+      "bbox_percent": [
+        2,
+        42,
+        48,
+        68
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT105",
+      "type": "wiring_schematic",
+      "description": "Circuit diagram showing IGN, 10A fuse, inhibit switch (P, R, N, D, DS positions), accel. position switch, brake lamp switch, accel. switch, E.C.U. pins 10, 5, 2, 3, 15, 6, 11, 22 and E.C.C.S. control unit pin 2 for engine speed signal",
+      "bbox_percent": [
+        50,
+        42,
+        100,
+        80
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Self Diagnosis Items (without using CONSULT) (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "N-CVT Warning Lamp vs Faulty Circuit",
+      "columns": [
+        {
+          "key": "lamp_condition",
+          "label": "N-CVT warning lamp"
+        },
+        {
+          "key": "faulty_circuit",
+          "label": "Faulty circuit"
+        }
+      ],
+      "rows": [
+        {
+          "lamp_condition": "Lamp blinks at 4 Hz repeatedly",
+          "faulty_circuit": "\u2022 Battery performance decreased.\n\u2022 Battery has been disconnected for a long time.\n\u2022 Battery has been connected incorrectly.\n\u2022 Memory back-up circuit (E.C.U. pin 21) is short-circuited or disconnected.\n\n\u2022 Note: Lamp blinks at 4 Hz during continuous diagnosis, but this is not abnormal."
+        },
+        {
+          "lamp_condition": "Lamp does not blink",
+          "faulty_circuit": "\u2022 Go to inhibit switch, accel. switch, accel. position switch, brake lamp switch, or engine speed signal circuit are disconnected or short-circuited. Otherwise, the E.C.U. is faulty.\n\u2022 Go to inhibit switch, accelerator switch, accelerator position switch, brake lamp switch and engine speed signal circuit check."
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Lamp blinks at 4 Hz repeatedly:",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Battery performance decreased.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Battery has been disconnected for a long time.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Battery has been connected incorrectly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Memory back-up circuit (E.C.U. pin 21) is short-circuited or disconnected.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Lamp blinks at 4 Hz during continuous diagnosis, but this is not abnormal.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Lamp does not blink:",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Go to inhibit switch, accel. switch, accel. position switch, brake lamp switch, or engine speed signal circuit are disconnected or short-circuited. Otherwise, the E.C.U. is faulty.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Go to inhibit switch, accelerator switch, accelerator position switch, brake lamp switch and engine speed signal circuit check.",
+      "style": "normal"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Lamp does not blink \u2014 circuit diagram (UAT105)",
+      "components": [
+        {
+          "id": "IGN",
+          "name": "IGN",
+          "type": "power_supply"
+        },
+        {
+          "id": "FUSE",
+          "name": "10A fuse",
+          "type": "fuse"
+        },
+        {
+          "id": "INHIBIT_SW",
+          "name": "Inhibit switch",
+          "type": "switch",
+          "positions": [
+            "P",
+            "R",
+            "N",
+            "D",
+            "DS"
+          ]
+        },
+        {
+          "id": "ACCEL_POS_SW",
+          "name": "Accel. position sw.",
+          "type": "switch"
+        },
+        {
+          "id": "BRAKE_LAMP_SW",
+          "name": "Brake lamp sw.",
+          "type": "switch"
+        },
+        {
+          "id": "ACCEL_SW",
+          "name": "Accel. sw.",
+          "type": "switch"
+        },
+        {
+          "id": "ECU",
+          "name": "E.C.U.",
+          "type": "control_unit",
+          "pins": [
+            10,
+            5,
+            2,
+            3,
+            15,
+            6,
+            11,
+            22
+          ]
+        },
+        {
+          "id": "ECCS",
+          "name": "E.C.C.S. control unit",
+          "type": "control_unit",
+          "pins": [
+            2
+          ]
+        },
+        {
+          "id": "ENGINE_SPEED",
+          "name": "Engine speed signal",
+          "type": "signal"
+        }
+      ],
+      "wires": [
+        {
+          "from": "IGN",
+          "to": "FUSE",
+          "color": null
+        },
+        {
+          "from": "FUSE",
+          "to": "INHIBIT_SW",
+          "color": null
+        },
+        {
+          "from": "INHIBIT_SW",
+          "to": "ECU_PIN10",
+          "color": null
+        },
+        {
+          "from": "INHIBIT_SW",
+          "to": "ECU_PIN5",
+          "color": null
+        },
+        {
+          "from": "INHIBIT_SW",
+          "to": "ECU_PIN2",
+          "color": null
+        },
+        {
+          "from": "INHIBIT_SW",
+          "to": "ECU_PIN3",
+          "color": null
+        },
+        {
+          "from": "ACCEL_POS_SW",
+          "to": "ECU_PIN15",
+          "color": null
+        },
+        {
+          "from": "ACCEL_POS_SW",
+          "to": "ECU_PIN6",
+          "color": null
+        },
+        {
+          "from": "BRAKE_LAMP_SW",
+          "to": "ACCEL_POS_SW",
+          "color": null
+        },
+        {
+          "from": "ACCEL_SW",
+          "to": "ECU_PIN11",
+          "color": null
+        },
+        {
+          "from": "ECU_PIN22",
+          "to": "ECCS_PIN2",
+          "color": null
+        },
+        {
+          "from": "ECCS_PIN2",
+          "to": "ENGINE_SPEED",
+          "color": null
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "inhibit switch circuit check",
+    "accelerator switch circuit check",
+    "accelerator position switch circuit check",
+    "brake lamp switch circuit check",
+    "engine speed signal circuit check"
+  ],
+  "model_notes": "Applies to N-CVT (Continuously Variable Transmission) equipped models. E.C.U. pin 21 referenced for memory back-up circuit."
+}

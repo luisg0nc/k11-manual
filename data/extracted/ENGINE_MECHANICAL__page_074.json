@@ -1,0 +1,333 @@
+{
+  "page_code": "EM-8",
+  "section": "EM",
+  "title": "Outer Component Parts \u2014 Intake Manifold & Fuel System (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-8.jpg",
+  "continuation": {
+    "continues_from": "EM-7",
+    "continues_to": "EM-9"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM022",
+      "type": "parts_diagram",
+      "description": "Exploded view diagram of intake manifold and fuel system components including fuel rail assembly, pressure regulator, injector seals, spacers, intake manifold gasket, intake manifold support, bracket, studs, hoses, brake booster connection, and rocker cover. Torque values are shown for various fasteners.",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        30
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM023",
+      "type": "component_photo",
+      "description": "Photo showing manifold support location on the intake manifold assembly.",
+      "bbox_percent": [
+        0,
+        30,
+        45,
+        52
+      ],
+      "associated_step": "Removal step 4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM024",
+      "type": "component_photo",
+      "description": "Photo showing inspection of manifold with a straight edge for warpage check.",
+      "bbox_percent": [
+        0,
+        52,
+        45,
+        70
+      ],
+      "associated_step": "Inspection step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM025",
+      "type": "parts_diagram",
+      "description": "Diagram showing bolt/nut tightening sequence order for intake manifold reassembly, with numbered positions on the manifold.",
+      "bbox_percent": [
+        0,
+        70,
+        45,
+        88
+      ],
+      "associated_step": "Reassembly step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Intake Manifold & Fuel System (Cont'd)"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Canister",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Pressure regulator",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Fuel rail assembly",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Spacer (3 of)",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Injector seals (4 of)",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Bracket",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Intake manifold gasket",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 10,
+          "name": "Intake manifold support",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Studs",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Brake booster",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 14,
+          "name": "Hose",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Rocker cover fastener torque",
+          "value": "21-26",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "2.1-2.7, 15-20"
+        },
+        {
+          "label": "Brake booster fastener torque",
+          "value": "16-21",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "1.6-2.1, 12-15"
+        },
+        {
+          "label": "Hose/fuel rail area fastener torque",
+          "value": "16-21",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "1.6-2.1, 12-15"
+        },
+        {
+          "label": "Pressure regulator/canister area fastener torque",
+          "value": "16-21",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "1.6-2.1, 12-15"
+        },
+        {
+          "label": "Bracket fastener torque",
+          "value": "6.3-8.3",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "0.64-0.85, 4.6-6.2"
+        },
+        {
+          "label": "Intake manifold support fastener torque",
+          "value": "16-21",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "1.6-2.1, 12-15"
+        },
+        {
+          "label": "Hose (upper fuel rail) fastener torque",
+          "value": "16-21",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "1.6-2.1, 12-15"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": ": Do not reuse\n: N\u00b7m (kg-m, ft-lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "INTAKE MANIFOLD"
+    },
+    {
+      "block_type": "procedure",
+      "id": "intake_manifold_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Release fuel pressure. Refer to FE section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove air cleaner and disconnect hoses.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove throttle body assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove manifold support.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove manifold.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "procedure",
+      "id": "intake_manifold_inspection",
+      "title": "Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check manifold with straight edge.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Variation limit: 0.1 mm (0.004 in)"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Intake manifold warpage variation limit",
+          "value": "0.1",
+          "unit": "mm (in)",
+          "condition": "(0.004 in)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Reassembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "intake_manifold_reassembly",
+      "title": "Reassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit the manifold. Torque bolts/nuts in order shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Refit manifold support and throttle body.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Reconnect hoses & fit air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure all nuts/bolts are torqued securely.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for fuel and air leaks.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FE section"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,153 @@
+{
+  "page_code": "AT-125",
+  "section": "AT",
+  "title": "SERVICE DATA SPECIFICATIONS (S.D.S.) \u2014 General Specifications",
+  "page_type": "spec_table",
+  "source_image": "AT-125.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "General Specifications"
+    },
+    {
+      "block_type": "table",
+      "title": "General Specifications \u2014 Transmission Model and Speed Ratios",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Transmission Model",
+          "cg10de": "RE0F05A",
+          "cg13de": "RE0F05A"
+        },
+        {
+          "parameter": "Speed Ratio \u2014 Forward Low",
+          "cg10de": "2.5037",
+          "cg13de": "2.5037"
+        },
+        {
+          "parameter": "Speed Ratio \u2014 Overdrive",
+          "cg10de": "0.4977",
+          "cg13de": "0.4977"
+        },
+        {
+          "parameter": "Speed Ratio \u2014 Reverse",
+          "cg10de": "2.4757",
+          "cg13de": "2.4757"
+        },
+        {
+          "parameter": "Final gear ratio",
+          "cg10de": "6.1401",
+          "cg13de": "6.1401"
+        },
+        {
+          "parameter": "Selector Position \u2014 P",
+          "cg10de": "Output shaft locked, engine starting possible",
+          "cg13de": "Output shaft locked, engine starting possible"
+        },
+        {
+          "parameter": "Selector Position \u2014 R",
+          "cg10de": "Reverse, speed ratio fixed.",
+          "cg13de": "Reverse, speed ratio fixed."
+        },
+        {
+          "parameter": "Selector Position \u2014 N",
+          "cg10de": "Neutral, engine starting possible",
+          "cg13de": "Neutral, engine starting possible"
+        },
+        {
+          "parameter": "Selector Position \u2014 D",
+          "cg10de": "Forward, continuously variable",
+          "cg13de": "Forward, continuously variable"
+        },
+        {
+          "parameter": "Selector Position \u2014 Ds",
+          "cg10de": "Forward, continuously variable (Slope range with engine braking).",
+          "cg13de": "Forward, continuously variable (Slope range with engine braking)."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Line Pressure and Stall Speed",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Line pressure 'N' range, engine at idle KPA (kg/cm\u00b2, psi)",
+          "cg10de": "2,160 (22, 313) or above",
+          "cg13de": "2,650 (27, 384) or above"
+        },
+        {
+          "parameter": "Stall speed rev/min",
+          "cg10de": "1700 to 2300",
+          "cg13de": "1700 to 2300"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Brush Wear Limit",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Brush wear limit mm (in)",
+          "cg10de": "4 (0.16)",
+          "cg13de": "4 (0.16)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Transmission model RE0F05A applies to both CG10DE and CG13DE engines. Specifications cover CVT (continuously variable transmission) with selector positions P, R, N, D, and Ds."
+}

@@ -1,0 +1,217 @@
+{
+  "page_code": "AT-71",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Vehicle Does Not Drive",
+  "page_type": "flowchart",
+  "source_image": "page_at71.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Flowchart / check sequence for diagnosing 'Vehicle Does Not Drive' symptom on N-CVT transmission",
+      "bbox_percent": [
+        2,
+        38,
+        98,
+        98
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Vehicle Does Not Drive"
+    },
+    {
+      "block_type": "table",
+      "title": "Symptom and Diagnosis Items",
+      "columns": [
+        {
+          "key": "symptom",
+          "label": "Symptom"
+        },
+        {
+          "key": "diagnosis_items",
+          "label": "Diagnosis items"
+        }
+      ],
+      "rows": [
+        {
+          "symptom": "Engine races but vehicle does not drive. (Operation resembles selector lever being in \"N\" range)",
+          "diagnosis_items": "Accelerator switch is faulty | Manual control linkage incorrectly adjusted | Electromagnetic clutch circuit is faulty | Engine speed signal is faulty | N-CVT Control unit or N-CVT control unit power supply is faulty | Inhibitor switch is faulty"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECK SEQUENCE"
+    },
+    {
+      "block_type": "prose",
+      "text": "(Refer to diagnosis chart on following page)",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Check Sequence \u2014 Vehicle Does Not Drive",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Perform self diagnosis"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Inspect and repair based on trouble code. When O.K. code or trouble code is not output, check N-CVT control unit power supply."
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check selector cable adjustment (Refer to \"ON-VEHICLE SERVICE) | Chart reference number: 1"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Adjust and replace shifter arm or selector cable"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Check accelerator switch circuit | Chart reference number: 2"
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "Check or replace accelerator switch | Check or repair harnesses connected to N-CVT control unit"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "Check engine RPM signal circuit | Chart reference number: 3, 4"
+        },
+        {
+          "id": "n8",
+          "type": "terminal",
+          "text": "Check or repair harness or connectors"
+        },
+        {
+          "id": "n9",
+          "type": "action",
+          "text": "Check inhibitor switch circuit for all ranges | Chart reference number: 4, 5, 6"
+        },
+        {
+          "id": "n10",
+          "type": "terminal",
+          "text": "Check or repair inhibitor switch harness or connectors"
+        },
+        {
+          "id": "n11",
+          "type": "action",
+          "text": "Check electromagnetic clutch circuit | Chart reference number: 7, 8"
+        },
+        {
+          "id": "n12",
+          "type": "terminal",
+          "text": "Check or repair electromagnetic clutch main unit, brush holder or harness."
+        },
+        {
+          "id": "n13",
+          "type": "action",
+          "text": "Replace N-CVT control unit. (When replacing N-CVT control unit check that electro-magnetic clutch circuit is not short-circuited to ground.)"
+        },
+        {
+          "id": "n14",
+          "type": "terminal",
+          "text": "Check or repair: 1. Selector position mechanism 2. Oil pump 3. Control valve 4. Belt and pulley mechanism"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "O.K."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        },
+        {
+          "from": "n7",
+          "to": "n8",
+          "label": "N.G."
+        },
+        {
+          "from": "n7",
+          "to": "n9",
+          "label": "O.K."
+        },
+        {
+          "from": "n9",
+          "to": "n10",
+          "label": "N.G."
+        },
+        {
+          "from": "n9",
+          "to": "n11",
+          "label": "O.K."
+        },
+        {
+          "from": "n11",
+          "to": "n12",
+          "label": "N.G."
+        },
+        {
+          "from": "n11",
+          "to": "n13",
+          "label": "O.K."
+        },
+        {
+          "from": "n13",
+          "to": "n14",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "ON-VEHICLE SERVICE"
+  ],
+  "model_notes": "Applies to N-CVT (continuously variable transmission) variant of Nissan Micra K11."
+}

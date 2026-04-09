@@ -1,0 +1,160 @@
+{
+  "page_code": "AT-25",
+  "section": "AT",
+  "title": "HYDRAULIC CONTROL",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-25.jpg",
+  "continuation": {
+    "continues_from": "AT-24",
+    "continues_to": "AT-26"
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT033",
+      "type": "wiring_schematic",
+      "description": "Hydraulic control circuit diagram for D Range (Low) condition showing all hydraulic valves, pulleys, solenoids, and pressure lines with legend",
+      "bbox_percent": [
+        0,
+        3,
+        100,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HYDRAULIC CONTROL"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "D RANGE (Low) hydraulic circuit diagram showing all components and pressure flow paths",
+      "callouts": [
+        {
+          "label": "Sensor shoe",
+          "position": "upper-left area"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "upper-center"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "upper-center"
+        },
+        {
+          "label": "Shift cam",
+          "position": "upper-center-right"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "right"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "right"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "lower-left"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "lower-center-left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "lower-center"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower-right"
+        },
+        {
+          "label": "Check valve",
+          "position": "lower-center"
+        },
+        {
+          "label": "Oil pump",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil filter",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "lower-right"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "bottom-center"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Pressure Line Legend",
+      "columns": [
+        {
+          "key": "pattern",
+          "label": "Line Pattern"
+        },
+        {
+          "key": "type",
+          "label": "Pressure Type"
+        }
+      ],
+      "rows": [
+        {
+          "pattern": "dashed/crosshatch light",
+          "type": "Line pressure"
+        },
+        {
+          "pattern": "dashed/crosshatch medium",
+          "type": "Lubrication oil pressure"
+        },
+        {
+          "pattern": "solid black",
+          "type": "Pitot pressure"
+        },
+        {
+          "pattern": "diagonal hatching",
+          "type": "Primary pressure"
+        },
+        {
+          "pattern": "diagonal hatching alternate",
+          "type": "Primary pressure (pre-fill)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "A/T (Automatic Transmission) \u2014 CVT hydraulic control diagram. D Range Low condition shown. Diagram reference code UAT033."
+}

@@ -1,0 +1,756 @@
+{
+  "page_code": "AT-47",
+  "section": "AT",
+  "title": "TROUBLE DIAGNOSIS \u2014 Circuit Diagram",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-47.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT095",
+      "type": "wiring_schematic",
+      "description": "Full circuit diagram for N-CVT (automatic transmission) system showing ECU pin connections to inhibit switch, speed sensor, accel switches, solenoids, relays, ABS ECU, Engine ECU, A/C relay, idle-up relay, N-CVT relay, brush holder, line pressure solenoid, clutch solenoid, FICD solenoid, magnetic clutch, and CONSULT connector with all inter-component wiring.",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        98
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Circuit Diagram"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "N-CVT Circuit Diagram",
+      "components": [
+        {
+          "id": "ECU_main",
+          "name": "E.C.U.",
+          "pins": [
+            {
+              "pin": 21,
+              "signal": "Bat backup"
+            },
+            {
+              "pin": 8,
+              "signal": "IGN"
+            },
+            {
+              "pin": 9,
+              "signal": "IGN"
+            },
+            {
+              "pin": 20,
+              "signal": "Warning lamp"
+            },
+            {
+              "pin": 28,
+              "signal": "Clutch (3)"
+            },
+            {
+              "pin": 19,
+              "signal": "Clutch (3)"
+            },
+            {
+              "pin": 24,
+              "signal": "Clutch solenoid"
+            },
+            {
+              "pin": 22,
+              "signal": "Rev. signal"
+            },
+            {
+              "pin": 7,
+              "signal": "Speed sensor +"
+            },
+            {
+              "pin": 16,
+              "signal": "Speed sensor -"
+            },
+            {
+              "pin": 6,
+              "signal": "Acc. sw"
+            },
+            {
+              "pin": 15,
+              "signal": "Acc. sw"
+            },
+            {
+              "pin": 10,
+              "signal": "R-range"
+            },
+            {
+              "pin": 2,
+              "signal": "D-range"
+            },
+            {
+              "pin": 3,
+              "signal": "Ds-range"
+            },
+            {
+              "pin": 11,
+              "signal": "Sw. brake"
+            },
+            {
+              "pin": 5,
+              "signal": "Sw. brake"
+            },
+            {
+              "pin": 17,
+              "signal": "P-N-range"
+            },
+            {
+              "pin": 18,
+              "signal": "Consult"
+            },
+            {
+              "pin": 23,
+              "signal": "Consult"
+            },
+            {
+              "pin": 14,
+              "signal": "A.B.S. signal"
+            },
+            {
+              "pin": 4,
+              "signal": "Temp signal"
+            },
+            {
+              "pin": 13,
+              "signal": "Torque signal"
+            },
+            {
+              "pin": 26,
+              "signal": "GND"
+            },
+            {
+              "pin": 27,
+              "signal": "GND"
+            },
+            {
+              "pin": 12,
+              "signal": "A/C signal"
+            },
+            {
+              "pin": 25,
+              "signal": "Idle up"
+            }
+          ]
+        },
+        {
+          "id": "ECU_secondary",
+          "name": "E.C.U. (secondary connector)",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            },
+            {
+              "pin": 8,
+              "signal": ""
+            },
+            {
+              "pin": 9,
+              "signal": ""
+            },
+            {
+              "pin": 10,
+              "signal": ""
+            },
+            {
+              "pin": 11,
+              "signal": ""
+            },
+            {
+              "pin": 12,
+              "signal": ""
+            },
+            {
+              "pin": 13,
+              "signal": ""
+            },
+            {
+              "pin": 14,
+              "signal": ""
+            },
+            {
+              "pin": 15,
+              "signal": ""
+            },
+            {
+              "pin": 16,
+              "signal": ""
+            },
+            {
+              "pin": 17,
+              "signal": ""
+            },
+            {
+              "pin": 18,
+              "signal": ""
+            },
+            {
+              "pin": 19,
+              "signal": ""
+            },
+            {
+              "pin": 20,
+              "signal": ""
+            },
+            {
+              "pin": 21,
+              "signal": ""
+            },
+            {
+              "pin": 22,
+              "signal": ""
+            },
+            {
+              "pin": 23,
+              "signal": ""
+            },
+            {
+              "pin": 24,
+              "signal": ""
+            },
+            {
+              "pin": 25,
+              "signal": ""
+            },
+            {
+              "pin": 26,
+              "signal": ""
+            },
+            {
+              "pin": 27,
+              "signal": ""
+            },
+            {
+              "pin": 28,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "inhibit_sw",
+          "name": "Inhibit switch",
+          "pins": [
+            {
+              "pin": 5,
+              "signal": "DS"
+            },
+            {
+              "pin": 6,
+              "signal": "D"
+            },
+            {
+              "pin": 9,
+              "signal": "N"
+            },
+            {
+              "pin": 8,
+              "signal": "R"
+            },
+            {
+              "pin": 7,
+              "signal": "P"
+            },
+            {
+              "pin": 3,
+              "signal": "common"
+            }
+          ]
+        },
+        {
+          "id": "inhibit_sw_diagram",
+          "name": "Inhibit switch (side diagram)",
+          "pins": [
+            {
+              "pin": 6,
+              "signal": ""
+            },
+            {
+              "pin": 9,
+              "signal": ""
+            },
+            {
+              "pin": 8,
+              "signal": ""
+            },
+            {
+              "pin": 7,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "speed_sensor",
+          "name": "Speed sensor",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "speed_sensor_diagram",
+          "name": "Speed sensor (side diagram)",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "accel_sw",
+          "name": "Accel switches",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            },
+            {
+              "pin": 4,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "accel_pos_sw",
+          "name": "Accel pos. sw"
+        },
+        {
+          "id": "brake_sw",
+          "name": "Brake sw"
+        },
+        {
+          "id": "ABS_ECU",
+          "name": "A.B.S. E.C.U.",
+          "pins": [
+            {
+              "pin": 32,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "CONSULT",
+          "name": "Consult connector",
+          "pins": [
+            {
+              "pin": "TX",
+              "signal": "TX"
+            },
+            {
+              "pin": "CLK",
+              "signal": "CLK"
+            },
+            {
+              "pin": "RX",
+              "signal": "RX"
+            },
+            {
+              "pin": "O",
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "NCVT_relay",
+          "name": "N-CVT relay",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            },
+            {
+              "pin": 5,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "NCVT_warning_lamp",
+          "name": "N-CVT warning lamp"
+        },
+        {
+          "id": "diode",
+          "name": "Diode"
+        },
+        {
+          "id": "brush_holder",
+          "name": "Brush holder",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "line_pressure_solenoid",
+          "name": "Line pressure solenoid",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "clutch_solenoid",
+          "name": "Clutch"
+        },
+        {
+          "id": "engine_ECU",
+          "name": "Engine E.C.U.",
+          "pins": [
+            {
+              "pin": 35,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 44,
+              "signal": ""
+            },
+            {
+              "pin": 42,
+              "signal": ""
+            },
+            {
+              "pin": 25,
+              "signal": ""
+            },
+            {
+              "pin": 11,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "idle_up_relay",
+          "name": "Idle-up relay",
+          "pins": [
+            {
+              "pin": 1,
+              "signal": ""
+            },
+            {
+              "pin": 2,
+              "signal": ""
+            },
+            {
+              "pin": 3,
+              "signal": ""
+            },
+            {
+              "pin": 4,
+              "signal": ""
+            },
+            {
+              "pin": 5,
+              "signal": ""
+            }
+          ]
+        },
+        {
+          "id": "AC_relay",
+          "name": "A/C relay"
+        },
+        {
+          "id": "FICD_solenoid",
+          "name": "F.I.C.D. solenoid"
+        },
+        {
+          "id": "magnetic_clutch",
+          "name": "Magnetic clutch"
+        },
+        {
+          "id": "BAT_14",
+          "name": "BAT fuse #14",
+          "value": "10A"
+        },
+        {
+          "id": "BAT_12",
+          "name": "BAT fuse #12",
+          "value": "10A"
+        },
+        {
+          "id": "IGN_fuse",
+          "name": "IGN fuse",
+          "value": "10A"
+        },
+        {
+          "id": "BAT_31",
+          "name": "BAT fuse #31",
+          "value": "10A"
+        },
+        {
+          "id": "IGN_19",
+          "name": "IGN fuse #19",
+          "value": "10A"
+        },
+        {
+          "id": "BAT_35",
+          "name": "BAT fuse #35",
+          "value": "15A"
+        }
+      ],
+      "wires": [
+        {
+          "from": "BAT_14",
+          "to": "ECU_main.21",
+          "label": "Bat backup"
+        },
+        {
+          "from": "BAT_12",
+          "to": "ECU_main.8",
+          "label": "IGN"
+        },
+        {
+          "from": "IGN_fuse",
+          "to": "ECU_main.9",
+          "label": "IGN"
+        },
+        {
+          "from": "BAT_31",
+          "to": "NCVT_relay",
+          "label": "BAT"
+        },
+        {
+          "from": "IGN_19",
+          "to": "idle_up_relay",
+          "label": "IGN"
+        },
+        {
+          "from": "BAT_35",
+          "to": "idle_up_relay",
+          "label": "BAT"
+        },
+        {
+          "from": "NCVT_relay",
+          "to": "ECU_main",
+          "label": "power supply"
+        },
+        {
+          "from": "NCVT_relay",
+          "to": "NCVT_warning_lamp",
+          "label": "warning lamp"
+        },
+        {
+          "from": "NCVT_relay",
+          "to": "diode",
+          "label": ""
+        },
+        {
+          "from": "ECU_main.20",
+          "to": "NCVT_warning_lamp",
+          "label": "Warning lamp"
+        },
+        {
+          "from": "ECU_main.28",
+          "to": "clutch_solenoid",
+          "label": "Clutch (3)"
+        },
+        {
+          "from": "ECU_main.19",
+          "to": "line_pressure_solenoid",
+          "label": "Line pressure solenoid"
+        },
+        {
+          "from": "ECU_main.24",
+          "to": "clutch_solenoid",
+          "label": "Clutch solenoid"
+        },
+        {
+          "from": "ECU_main.7",
+          "to": "speed_sensor.1",
+          "label": "Speed sensor +"
+        },
+        {
+          "from": "ECU_main.16",
+          "to": "speed_sensor.2",
+          "label": "Speed sensor -"
+        },
+        {
+          "from": "ECU_main.6",
+          "to": "accel_sw",
+          "label": "Acc. sw"
+        },
+        {
+          "from": "ECU_main.15",
+          "to": "accel_pos_sw",
+          "label": "Acc. sw"
+        },
+        {
+          "from": "ECU_main.10",
+          "to": "inhibit_sw.pin_R_range",
+          "label": "R-range"
+        },
+        {
+          "from": "ECU_main.2",
+          "to": "inhibit_sw.pin_D_range",
+          "label": "D-range"
+        },
+        {
+          "from": "ECU_main.3",
+          "to": "inhibit_sw.pin_Ds_range",
+          "label": "Ds-range"
+        },
+        {
+          "from": "ECU_main.11",
+          "to": "brake_sw",
+          "label": "Sw. brake"
+        },
+        {
+          "from": "ECU_main.5",
+          "to": "brake_sw",
+          "label": "Sw. brake"
+        },
+        {
+          "from": "ECU_main.17",
+          "to": "inhibit_sw.pin_P_N",
+          "label": "P-N-range"
+        },
+        {
+          "from": "ECU_main.18",
+          "to": "CONSULT.TX",
+          "label": "Consult"
+        },
+        {
+          "from": "ECU_main.23",
+          "to": "CONSULT.CLK",
+          "label": "Consult"
+        },
+        {
+          "from": "ECU_main.14",
+          "to": "ABS_ECU.32",
+          "label": "A.B.S. signal"
+        },
+        {
+          "from": "ECU_main.4",
+          "to": "engine_ECU",
+          "label": "Temp signal"
+        },
+        {
+          "from": "ECU_main.13",
+          "to": "engine_ECU",
+          "label": "Torque signal"
+        },
+        {
+          "from": "ECU_main.12",
+          "to": "engine_ECU",
+          "label": "A/C signal"
+        },
+        {
+          "from": "ECU_main.25",
+          "to": "idle_up_relay",
+          "label": "Idle up"
+        },
+        {
+          "from": "idle_up_relay",
+          "to": "FICD_solenoid",
+          "label": ""
+        },
+        {
+          "from": "idle_up_relay",
+          "to": "magnetic_clutch",
+          "label": ""
+        },
+        {
+          "from": "idle_up_relay",
+          "to": "AC_relay",
+          "label": ""
+        },
+        {
+          "from": "brush_holder",
+          "to": "line_pressure_solenoid",
+          "label": ""
+        },
+        {
+          "from": "ECU_main.22",
+          "to": "engine_ECU",
+          "label": "Rev. signal"
+        },
+        {
+          "from": "CONSULT.RX",
+          "to": "ECU_main",
+          "label": "RX"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Circuit diagram applies to N-CVT equipped vehicles. ABS and non-ABS variants noted (A.B.S. only) for certain circuits including FICD solenoid and magnetic clutch paths. Idle-up relay circuit shows A.B.S. / No A.B.S. switching."
+}

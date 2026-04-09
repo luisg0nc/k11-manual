@@ -1,0 +1,28 @@
+{
+  "page_code": "MA",
+  "section": "MA",
+  "title": "MAINTENANCE",
+  "page_type": "section_divider",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION MA"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

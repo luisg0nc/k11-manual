@@ -1,0 +1,255 @@
+{
+  "page_code": "GI-7006",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION - Prefix and suffix designations",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi7006.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Prefix and suffix designation diagram showing breakdown of model code: E AE A L D F K11 E E A with bracketed lines linking each position to its meaning",
+      "bbox_percent": [
+        5,
+        8,
+        95,
+        55
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Prefix and suffix designations:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Example code: E AE A L D F K11 E E A",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Body style (position 1)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "code": "F",
+          "meaning": "5-door Hatchback"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Engine type (position 2)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "AE",
+          "meaning": "CG10DE"
+        },
+        {
+          "code": "DJ",
+          "meaning": "CGA3DE"
+        },
+        {
+          "code": "WZ",
+          "meaning": "VJX"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Drive type (position 3)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "A",
+          "meaning": "2-wheel drive"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Steering position (position 4)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "L",
+          "meaning": "Left-hand drive"
+        },
+        {
+          "code": "R",
+          "meaning": "Right-hand drive"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Trim/grade (position 5)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "B",
+          "meaning": "Comfort"
+        },
+        {
+          "code": "D",
+          "meaning": "Luxury"
+        },
+        {
+          "code": "F",
+          "meaning": "Elegance"
+        },
+        {
+          "code": "T",
+          "meaning": "Sport"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Transmission (position 6)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "F",
+          "meaning": "5-speed manual transaxle"
+        },
+        {
+          "code": "Z",
+          "meaning": "H-CVT"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Model series (position 7)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "K11",
+          "meaning": "Model series designation"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Suffix codes (positions 8-10)",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "N",
+          "meaning": "Diesel"
+        },
+        {
+          "code": "E",
+          "meaning": "E.G.I."
+        },
+        {
+          "code": "E",
+          "meaning": "For RHD markets"
+        },
+        {
+          "code": "G",
+          "meaning": "For LHD markets"
+        },
+        {
+          "code": "A",
+          "meaning": "Standard equipment"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "L = Left-hand drive, R = Right-hand drive. E = For RHD markets, G = For LHD markets. N = Diesel variant. Engine codes: AE = CG10DE, DJ = CGA3DE, WZ = VJX."
+}

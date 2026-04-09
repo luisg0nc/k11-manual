@@ -1,0 +1,168 @@
+{
+  "page_code": "EM-27",
+  "section": "EM",
+  "title": "OIL SEAL REPLACEMENT",
+  "page_type": "prose_procedure",
+  "source_image": "EM-27.jpg",
+  "continuation": {
+    "continues_from": "EM-26",
+    "continues_to": "EM-28"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM062",
+      "type": "tool_illustration",
+      "description": "Illustration showing application of engine oil to new oil seal and installation using suitable tool (front oil seal area)",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        16
+      ],
+      "associated_step": "step3_front"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM316C",
+      "type": "tool_illustration",
+      "description": "Illustration showing removal of traces of liquid gasket from rear oil seal retainer using a scraper",
+      "bbox_percent": [
+        0,
+        17,
+        38,
+        35
+      ],
+      "associated_step": "step3_rear"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM317C",
+      "type": "tool_illustration",
+      "description": "Illustration showing removal of seal from rear oil seal retainer using a tool",
+      "bbox_percent": [
+        0,
+        36,
+        38,
+        53
+      ],
+      "associated_step": "step4_rear"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM318C",
+      "type": "tool_illustration",
+      "description": "Illustration showing application of engine oil to new oil seal and installation using a suitable tool into rear oil seal retainer",
+      "bbox_percent": [
+        0,
+        54,
+        38,
+        71
+      ],
+      "associated_step": "step5_rear"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM319C",
+      "type": "parts_diagram",
+      "description": "Illustration showing application of liquid gasket to rear oil seal retainer; callouts indicate 'Apply liquid gasket' and 'Rear oil seal retainer'",
+      "bbox_percent": [
+        0,
+        72,
+        38,
+        90
+      ],
+      "associated_step": "step6_rear"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL SEAL REPLACEMENT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "front_oil_seal_cont",
+      "title": "FRONT OIL SEAL (continued)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Apply engine oil to new oil seal and install using suitable tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "REAR OIL SEAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "rear_oil_seal",
+      "title": "REAR OIL SEAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove flywheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove rear oil seal retainer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove traces of liquid gasket using scraper.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove seal from rear oil seal retainer.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Apply engine oil to new oil seal and install it using a suitable tool.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Apply liquid gasket to rear oil seal retainer.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Suitable tool",
+      "usage": "Installing new oil seal (front and rear)"
+    },
+    {
+      "part_number": null,
+      "name": "Scraper",
+      "usage": "Removing traces of liquid gasket from rear oil seal retainer"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

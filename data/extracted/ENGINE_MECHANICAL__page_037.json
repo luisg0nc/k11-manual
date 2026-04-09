@@ -1,0 +1,255 @@
+{
+  "page_code": "EM-34",
+  "section": "EM",
+  "title": "CYLINDER HEAD - Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-34.jpg",
+  "continuation": {
+    "continues_from": "EM-33",
+    "continues_to": "EM-35"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM008A",
+      "type": "component_photo",
+      "description": "Cylinder head submerged in oil bath for heating",
+      "bbox_percent": [
+        0,
+        1,
+        45,
+        18
+      ],
+      "associated_step": "step3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM892B",
+      "type": "parts_diagram",
+      "description": "Valve seat cross-section showing seat face angle alpha and contacting width W",
+      "bbox_percent": [
+        0,
+        18,
+        45,
+        36
+      ],
+      "associated_step": "step5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM168A",
+      "type": "parts_diagram",
+      "description": "Valve dimensions diagram showing margin thickness T, seat face angle alpha, head diameter D, stem diameter d, and overall length L",
+      "bbox_percent": [
+        0,
+        36,
+        45,
+        54
+      ],
+      "associated_step": "valve_dimensions"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM288A",
+      "type": "parts_diagram",
+      "description": "Valve spring squareness measurement showing out-of-square dimension S",
+      "bbox_percent": [
+        0,
+        54,
+        45,
+        70
+      ],
+      "associated_step": "spring_squareness"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "EM113",
+      "type": "tool_illustration",
+      "description": "Valve spring pressure tester being used to check valve spring pressure",
+      "bbox_percent": [
+        0,
+        70,
+        45,
+        88
+      ],
+      "associated_step": "spring_pressure"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_seat_inspection",
+      "title": "Valve Seat Inspection (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Heat cylinder head to 110 to 120\u00b0C (230 to 248\u00b0F).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Press fit valve seat until it seats on the bottom.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Cut or grind valve seat using suitable tool at the specified dimensions as shown in S.D.S.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "After cutting, lap valve seat with abrasive compound.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Check valve seating condition.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Seat face angle \"\u03b1\"",
+          "value": "45\u00b015' - 45\u00b045'",
+          "unit": "deg.",
+          "condition": null
+        },
+        {
+          "label": "Contacting width \"W\" - Intake",
+          "value": "1.34 - 1.63",
+          "unit": "mm (0.0528 - 0.0642 in)",
+          "condition": null
+        },
+        {
+          "label": "Contacting width \"W\" - Exhaust",
+          "value": "1.70 - 2.12",
+          "unit": "mm (0.0669 - 0.0835 in)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VALVE DIMENSIONS"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check dimensions in each valve. For dimensions, refer to S.D.S.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "When valve head has been worn down to 0.5 mm (0.020 in) in margin thickness, replace valve.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Grinding allowance for valve stem tip is 0.2 mm (0.008 in) or less.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VALVE SPRING"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Squareness"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_spring_squareness",
+      "title": "Valve Spring Squareness",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure \"S\" dimension.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If it exceeds the limit, replace spring.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Out-of-square",
+          "value": "Less than 1.74",
+          "unit": "mm (0.0685 in)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Pressure"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check valve spring pressure.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Pressure: N (kg, lb) at height mm (in) - Standard",
+          "value": "369.7 (37.7, 83.1) at 23.64 (0.9307)",
+          "unit": "N (kg, lb) at mm (in)",
+          "condition": "Standard"
+        },
+        {
+          "label": "Pressure: N (kg, lb) at height mm (in) - Limit",
+          "value": "More than 330.516 (33.702, 74.313) at 23.64 (0.9307)",
+          "unit": "N (kg, lb) at mm (in)",
+          "condition": "Limit"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If it is less than the limit, replace spring.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": null
+}

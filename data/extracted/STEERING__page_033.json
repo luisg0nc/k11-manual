@@ -1,0 +1,133 @@
+{
+  "page_code": "ST-32",
+  "section": "ST",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Inspection and Adjustment (Cont'd) \u2014 STEERING LINKAGE",
+  "page_type": "spec_table",
+  "source_image": "ST-32.jpg",
+  "continuation": {
+    "continues_from": "ST-31",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Illustration of tie-rod outer ball joint showing measuring point for swinging force at cotter pin hole",
+      "bbox_percent": [
+        0,
+        22,
+        45,
+        38
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Illustration of tie-rod assembly showing measuring point for inner ball joint swinging force",
+      "bbox_percent": [
+        0,
+        35,
+        45,
+        50
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST093B",
+      "type": "parts_diagram",
+      "description": "Illustration of full tie-rod assembly showing standard length measurement 'L'",
+      "bbox_percent": [
+        0,
+        52,
+        45,
+        68
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "STEERING LINKAGE"
+    },
+    {
+      "block_type": "table",
+      "title": "Steering Linkage Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "manual",
+          "label": "Manual R25T"
+        },
+        {
+          "key": "power",
+          "label": "Power PR25T"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Steering gear type",
+          "manual": "Manual R25T",
+          "power": "Power PR25T"
+        },
+        {
+          "item": "Movement of gear housing mm (in)",
+          "manual": "\u00b12 (\u00b10.08) or less",
+          "power": "\u00b12 (\u00b10.08) or less"
+        },
+        {
+          "item": "Tie-rod outer ball joint \u2014 Swinging force at cotter pin hole N (kg, lb)",
+          "manual": "6.9 - 63.7 (0.7 - 6.5, 1.5 - 14.3)",
+          "power": "6.9 - 63.7 (0.7 - 6.5, 1.5 - 14.3)"
+        },
+        {
+          "item": "Tie-rod outer ball joint \u2014 Rotating torque N\u00b7m (kg\u00b7cm, in\u00b7lb)",
+          "manual": "0.3 - 2.9 (3 - 30, 2.6 - 26.0)",
+          "power": "0.3 - 2.9 (3 - 30, 2.6 - 26.0)"
+        },
+        {
+          "item": "Tie-rod outer ball joint \u2014 Axial end play mm (in)",
+          "manual": "0.5 (0.020) or less",
+          "power": "0.5 (0.020) or less"
+        },
+        {
+          "item": "Tie-rod inner ball joint \u2014 Swinging force* N (kg, lb)",
+          "manual": "4.9 - 83.4 (0.5 - 8.5, 1.1 - 18.7)",
+          "power": "4.9 - 83.4 (0.5 - 8.5, 1.1 - 18.7)"
+        },
+        {
+          "item": "Tie-rod inner ball joint \u2014 Axial end play mm (in)",
+          "manual": "0 (0)",
+          "power": "0 (0)"
+        },
+        {
+          "item": "Tie-rod standard length \"L\" mm (in)",
+          "manual": "183.6 (7.23)",
+          "power": "183.6 (7.23)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Specifications apply to both Manual (R25T) and Power (PR25T) steering gear types. Tie-rod inner ball joint swinging force marked with asterisk (*) indicating measuring point reference."
+}

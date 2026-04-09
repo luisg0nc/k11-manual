@@ -1,0 +1,194 @@
+{
+  "page_code": "EM-5045",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-5044",
+    "continues_to": "EM-5046"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM308",
+      "type": "parts_diagram",
+      "description": "Cylinder block with pistons and connecting rods installed, arrow indicating oil filter side",
+      "bbox_percent": [
+        2,
+        2,
+        45,
+        22
+      ],
+      "associated_step": "5a"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM309",
+      "type": "parts_diagram",
+      "description": "Bottom view of cylinder block showing connecting rod cap nuts tightening sequence with arrows",
+      "bbox_percent": [
+        2,
+        23,
+        45,
+        42
+      ],
+      "associated_step": "5b"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM218D",
+      "type": "component_photo",
+      "description": "Hands cleaning/scraping rear oil seal retainer mating surface",
+      "bbox_percent": [
+        2,
+        43,
+        45,
+        60
+      ],
+      "associated_step": "6a"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM219D",
+      "type": "parts_diagram",
+      "description": "Rear oil seal retainer showing liquid gasket bead application area, bead width 2.0-3.0 mm (0.079-0.118 in)",
+      "bbox_percent": [
+        2,
+        61,
+        45,
+        80
+      ],
+      "associated_step": "6b"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Install connecting rod bearings in connecting rods and connecting rod caps.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install pistons with connecting rods.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [],
+          "sub_steps": [
+            {
+              "sub_step": "a",
+              "text": "Install them into corresponding cylinders with Tool.",
+              "figure_ref": "fig1",
+              "warnings": [
+                "Be careful not to scratch cylinder wall by connecting rod."
+              ],
+              "notes": [
+                "Arrange so that piston clover leaf faces toward the oil filter."
+              ]
+            },
+            {
+              "sub_step": "b",
+              "text": "Install connecting rod caps. Tighten connecting rod cap nuts to the specified torque.",
+              "figure_ref": "fig2",
+              "warnings": [],
+              "notes": [
+                "After installation, check piston protrusion. Refer to \"Inspection\" (EM-5042)."
+              ]
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Install rear oil seal retainer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [],
+          "sub_steps": [
+            {
+              "sub_step": "a",
+              "text": "Before installing rear oil seal retainer, remove all traces of liquid gasket from mating surface using a scraper.",
+              "figure_ref": "fig3",
+              "warnings": [],
+              "notes": [
+                "Also remove traces of liquid gasket from mating surface of cylinder block."
+              ]
+            },
+            {
+              "sub_step": "b",
+              "text": "Apply a continuous bead of liquid gasket to mating surface of rear oil seal retainer.",
+              "figure_ref": "fig4",
+              "warnings": [],
+              "notes": [
+                "Use Genuine Liquid Gasket or equivalent."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod cap nuts torque",
+          "value": "40",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod cap nuts torque",
+          "value": "4.1",
+          "unit": "kg-m",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod cap nuts torque",
+          "value": "29.5",
+          "unit": "ft-lb",
+          "condition": ""
+        },
+        {
+          "label": "Liquid gasket bead width",
+          "value": "2.0 - 3.0",
+          "unit": "mm",
+          "condition": "rear oil seal retainer mating surface"
+        },
+        {
+          "label": "Liquid gasket bead width",
+          "value": "0.079 - 0.118",
+          "unit": "in",
+          "condition": "rear oil seal retainer mating surface"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "unspecified",
+      "name": "Tool",
+      "usage": "Install pistons with connecting rods into corresponding cylinders"
+    }
+  ],
+  "cross_references": [
+    "EM-5042"
+  ],
+  "model_notes": null
+}

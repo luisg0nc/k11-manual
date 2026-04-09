@@ -1,0 +1,245 @@
+{
+  "page_code": "EM-20",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation",
+  "page_type": "prose_procedure",
+  "source_image": "em-20.jpg",
+  "continuation": {
+    "continues_from": "EM-19",
+    "continues_to": "EM-21"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM051",
+      "type": "parts_diagram",
+      "description": "Crankshaft sprocket with key position indicated, showing crankshaft key position for TDC setup",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM108",
+      "type": "parts_diagram",
+      "description": "Lower timing chain installation diagram showing mating marks (silver), same number link, 36 links on each side, and mating marks on crankshaft sprocket",
+      "bbox_percent": [
+        0,
+        18,
+        38,
+        55
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM052",
+      "type": "parts_diagram",
+      "description": "Front cover with liquid gasket application area indicated, showing 2.0\u20133.0 mm bead width",
+      "bbox_percent": [
+        0,
+        55,
+        38,
+        74
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Front cover installation diagram showing O-rings location",
+      "bbox_percent": [
+        0,
+        74,
+        38,
+        92
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Confirm that No. 1 piston is set at T.D.C. on its compression stroke.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install crankshaft sprocket and lower timing chain.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Set timing chain by aligning its mating mark with the one on crankshaft sprocket.",
+            "Make sure sprocket's mating mark faces engine front.",
+            "The number of links between the alignment marks (silver) are the same for the left and right sides, so either side can be used during alignment with the sprocket."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Fit the lower chain tensioner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Apply liquid gasket to front cover.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install front cover.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Check alignment of mating marks on chain and crankshaft sprocket.",
+            "Align oil drive spacer with oil pump.",
+            "Ensure O-rings are fitted correctly.",
+            "Be careful not to damage oil seal when installing front cover."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Install engine front mounting.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Install oil strainer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Install oil pan. Refer to \"Installation\" in \"OIL PAN\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Install crankshaft pulley.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Install center member.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width on front cover",
+          "value": "2.0 - 3.0",
+          "unit": "mm",
+          "condition": "Application to front cover mating surface"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Lower timing chain mating mark alignment",
+      "callouts": [
+        {
+          "label": "Mating mark (silver)",
+          "position": "top of chain on balance shaft sprocket side"
+        },
+        {
+          "label": "Same number link",
+          "position": "top section of chain"
+        },
+        {
+          "label": "36 links",
+          "position": "left side between mating marks"
+        },
+        {
+          "label": "36 links",
+          "position": "right side between mating marks"
+        },
+        {
+          "label": "Mating mark",
+          "position": "intermediate sprocket"
+        },
+        {
+          "label": "Mating mark (silver)",
+          "position": "left lower chain on crankshaft sprocket"
+        },
+        {
+          "label": "Mating mark",
+          "position": "crankshaft sprocket"
+        },
+        {
+          "label": "Mating mark (silver)",
+          "position": "right lower on crankshaft sprocket"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Liquid gasket application to front cover",
+      "callouts": [
+        {
+          "label": "Liquid gasket",
+          "position": "mating surface of front cover"
+        },
+        {
+          "label": "2.0 - 3.0 mm",
+          "position": "bead width dimension"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "O-rings on front cover",
+      "callouts": [
+        {
+          "label": "O-rings",
+          "position": "lower left area of front cover"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "OIL PAN \u2014 Installation"
+  ],
+  "model_notes": null
+}

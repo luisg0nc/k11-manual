@@ -1,0 +1,185 @@
+{
+  "page_code": "AT-96",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-96.jpg",
+  "continuation": {
+    "continues_from": "AT-95",
+    "continues_to": "AT-97"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT165",
+      "type": "component_photo",
+      "description": "Transaxle assembly fitted to transmission stand SST KV319-K0160",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "9"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT167",
+      "type": "component_photo",
+      "description": "Removal of oil pump drive shaft from transaxle assembly",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        36
+      ],
+      "associated_step": "12"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT280",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing bushing and clip location on oil pump drive shaft",
+      "bbox_percent": [
+        0,
+        37,
+        38,
+        53
+      ],
+      "associated_step": "12"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT168",
+      "type": "component_photo",
+      "description": "Clutch housing and transmission separation",
+      "bbox_percent": [
+        0,
+        54,
+        38,
+        70
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT169",
+      "type": "parts_diagram",
+      "description": "Clutch housing face showing bolt positions labeled A, B, and C",
+      "bbox_percent": [
+        0,
+        71,
+        38,
+        95
+      ],
+      "associated_step": "13"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_at96",
+      "title": "Transaxle Disassembly",
+      "steps": [
+        {
+          "step": 9,
+          "text": "Fit the transaxle assembly to the transmission stand, SST KV319-K0160",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Drain any remaining ATF fluid from the transmission.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Refit the plug.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Carefully remove the oil pump drive shaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Check the clip on the end of the shaft for damage.",
+            "Inspect the bearing surfaces for wear or damage.",
+            "Replace the shaft/clip assembly if necessary."
+          ]
+        },
+        {
+          "step": 13,
+          "text": "Remove the fourteen bolts and separate the clutch housing and transmission.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Lightly tap the protruding surfaces to free the locating dowels, as necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Clutch Housing Bolt Specifications",
+      "columns": [
+        {
+          "key": "bolt",
+          "label": "Bolt"
+        },
+        {
+          "key": "category",
+          "label": ""
+        },
+        {
+          "key": "A",
+          "label": "A"
+        },
+        {
+          "key": "B",
+          "label": "B"
+        },
+        {
+          "key": "C",
+          "label": "C"
+        }
+      ],
+      "rows": [
+        {
+          "bolt": "Number",
+          "category": "",
+          "A": "1",
+          "B": "5",
+          "C": "8"
+        },
+        {
+          "bolt": "Length",
+          "category": "(mm)",
+          "A": "100",
+          "B": "35",
+          "C": "40"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0160",
+      "name": "Transmission Stand",
+      "usage": "Fit the transaxle assembly to the transmission stand for disassembly"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Automatic Transaxle (AT) disassembly procedure"
+}

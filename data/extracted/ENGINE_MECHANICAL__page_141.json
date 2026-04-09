@@ -1,0 +1,181 @@
+{
+  "page_code": "EM-5008",
+  "section": "EM",
+  "title": "Compression Pressure \u2014 Measurement of Compression Pressure",
+  "page_type": "prose_procedure",
+  "source_image": "compression_pressure_VJZ.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM311",
+      "type": "component_photo",
+      "description": "Top view of cylinder head showing glow plug locations with arrows indicating removal points",
+      "bbox_percent": [
+        0,
+        2,
+        30,
+        22
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM312",
+      "type": "tool_illustration",
+      "description": "Compression gauge adapter SST KV109B0040 fitted to cylinder head",
+      "bbox_percent": [
+        0,
+        23,
+        30,
+        43
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM313",
+      "type": "component_photo",
+      "description": "Engine bay showing harness connector (black coloured) on injection pump being disconnected",
+      "bbox_percent": [
+        0,
+        44,
+        30,
+        64
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Compression Pressure"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Measurement of Compression Pressure"
+    },
+    {
+      "block_type": "procedure",
+      "id": "compression_pressure_measurement",
+      "title": "Measurement of Compression Pressure",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Warm up engine and switch off the ignition switch.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove glow cable and glow plugs.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Fit compression gauge adapter SST KV109B0040 to cylinder head. Compression gauge adapter torque: 15 - 20 N\u00b7m (1.5 - 2.0 kg-m, 11 - 14 ft-lb)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Ensure the ignition switch is in the \"LOCK\" position and disconnect harness connector (black coloured) from injection pump.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Crank engine, then read gauge indication.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Always use a fully-charged battery to obtain specified engine revolution.",
+            "Engine compression measurement should be made as quickly as possible."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "If cylinder compression in one or more cylinders is low, pour a small amount of engine oil into cylinders through the glow holes and retest compression.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "If adding oil helps compression, piston rings may be worn or damaged.",
+            "If pressure stays low, valve may be sticking or seating incorrectly.",
+            "If cylinder compression in any two adjacent cylinders is low, and if adding oil does not help the compression, there is leakage past the gasket surface. Leakage past the cylinder gasket can result in oil and water becoming mixed in the engine block cooling and lubrication chambers."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Compression gauge adapter torque",
+          "value": "15 - 20",
+          "unit": "N\u00b7m",
+          "condition": "Step 3"
+        },
+        {
+          "label": "Compression gauge adapter torque",
+          "value": "1.5 - 2.0",
+          "unit": "kg-m",
+          "condition": "Step 3"
+        },
+        {
+          "label": "Compression gauge adapter torque",
+          "value": "11 - 14",
+          "unit": "ft-lb",
+          "condition": "Step 3"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Compression Pressure (Unit: kPa (bar, kg/cm\u00b2, psi)/200 rpm)",
+      "columns": [
+        {
+          "key": "condition",
+          "label": "Condition"
+        },
+        {
+          "key": "value",
+          "label": "kPa (bar, kg/cm\u00b2, psi)/200 rpm"
+        }
+      ],
+      "rows": [
+        {
+          "condition": "Standard",
+          "value": "2,942 (29.4, 30, 427)"
+        },
+        {
+          "condition": "Minimum",
+          "value": "2,452 (24.5, 25, 356)"
+        },
+        {
+          "condition": "Differential limit between cylinders",
+          "value": "490 (4.9, 5, 71)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0040",
+      "name": "Compression gauge adapter",
+      "usage": "Fit to cylinder head for compression pressure measurement"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Diesel engine (glow plugs referenced)."
+}

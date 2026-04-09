@@ -1,0 +1,214 @@
+{
+  "page_code": "AT-78",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Shift Characteristics Inspection (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-78.jpg",
+  "continuation": {
+    "continues_from": "AT-77",
+    "continues_to": "AT-79"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shift Characteristics Inspection (Cont'd)"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "1. Engine speed increases but vehicle speed does not increase (The transmission does not shift out of low ratio)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check the shift control valve mechanism"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Replace the control valve\nNote: Replace the control valve assembly if the valve of body is scratched"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check for primary hydraulic circuit leakage, e.g.:\n\u2022 Oil pump gasket\n\u2022 Primary pulley seal ring\n\u2022 Primary bushing"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Repair or replace the damaged part(s)"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Check for Pitot pressure circuit leak or clogging, e.g.:\n\u2022 Pitot pipe\n\u2022 Controle valve"
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "Repair or replace the damaged part"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "Pulley operation is faulty"
+        },
+        {
+          "id": "n8",
+          "type": "terminal",
+          "text": "Replace the pulley/belt assemblies"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "O.K."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        },
+        {
+          "from": "n7",
+          "to": "n8",
+          "label": "N.G."
+        }
+      ]
+    },
+    {
+      "block_type": "flowchart",
+      "title": "2. Engine rpm does not increase even though the accelerator pedal is depressed (The transmission does not shift out of overdrive ratio)",
+      "nodes": [
+        {
+          "id": "m1",
+          "type": "decision",
+          "text": "Does the vehicle start normally?"
+        },
+        {
+          "id": "m2",
+          "type": "action",
+          "text": "Check the shift control valve operation"
+        },
+        {
+          "id": "m3",
+          "type": "action",
+          "text": "The pulley operation is faulty"
+        },
+        {
+          "id": "m4",
+          "type": "terminal",
+          "text": "Replace the pulley/belt assemblies"
+        },
+        {
+          "id": "m5",
+          "type": "action",
+          "text": "Check the throttle wire for disconnection or other faults"
+        },
+        {
+          "id": "m6",
+          "type": "terminal",
+          "text": "Adjust or replace the throttle wire"
+        },
+        {
+          "id": "m7",
+          "type": "action",
+          "text": "Check the shift control valve operation"
+        },
+        {
+          "id": "m8",
+          "type": "terminal",
+          "text": "Replace the control valve\nNote: Replace the control valve assembly if the valve or body is scratched."
+        },
+        {
+          "id": "m9",
+          "type": "action",
+          "text": "Check the compensation plunger operation"
+        }
+      ],
+      "edges": [
+        {
+          "from": "m1",
+          "to": "m2",
+          "label": "No"
+        },
+        {
+          "from": "m1",
+          "to": "m5",
+          "label": "Yes"
+        },
+        {
+          "from": "m2",
+          "to": "m3",
+          "label": "O.K."
+        },
+        {
+          "from": "m2",
+          "to": "m8",
+          "label": "N.G."
+        },
+        {
+          "from": "m3",
+          "to": "m4",
+          "label": ""
+        },
+        {
+          "from": "m5",
+          "to": "m6",
+          "label": "N.G."
+        },
+        {
+          "from": "m5",
+          "to": "m7",
+          "label": "O.K."
+        },
+        {
+          "from": "m7",
+          "to": "m8",
+          "label": "N.G."
+        },
+        {
+          "from": "m7",
+          "to": "m9",
+          "label": "O.K."
+        },
+        {
+          "from": "m9",
+          "to": "m8",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transmission (CVT) \u2014 shift characteristics trouble diagnosis for low ratio and overdrive ratio faults."
+}

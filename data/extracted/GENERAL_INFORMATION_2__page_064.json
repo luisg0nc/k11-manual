@@ -1,0 +1,165 @@
+{
+  "page_code": "GI-7004",
+  "section": "GI",
+  "title": "CONSULT-II CHECKING SYSTEM",
+  "page_type": "spec_table",
+  "source_image": "page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CONSULT-II CHECKING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Function and System Application"
+    },
+    {
+      "block_type": "table",
+      "title": "Function and System Application",
+      "columns": [
+        {
+          "key": "diagnostic_test_mode",
+          "label": "Diagnostic test mode"
+        },
+        {
+          "key": "function",
+          "label": "Function"
+        },
+        {
+          "key": "engine",
+          "label": "ENGINE"
+        },
+        {
+          "key": "at",
+          "label": "A/T"
+        },
+        {
+          "key": "abs",
+          "label": "ABS"
+        },
+        {
+          "key": "air_bag",
+          "label": "AIR BAG"
+        },
+        {
+          "key": "nats",
+          "label": "NATS*"
+        }
+      ],
+      "rows": [
+        {
+          "diagnostic_test_mode": "Work support",
+          "function": "This mode enables a technician to adjust some devices faster and more accurate by following the indications on CONSULT-II.",
+          "engine": "x",
+          "at": "\u2014",
+          "abs": "\u2014",
+          "air_bag": "\u2014",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "Self-diagnostic results",
+          "function": "Self-diagnostic results can be read and erased quickly.",
+          "engine": "x",
+          "at": "x",
+          "abs": "x",
+          "air_bag": "x",
+          "nats": "x"
+        },
+        {
+          "diagnostic_test_mode": "Trouble diagnostic record",
+          "function": "Current self-diagnostic results and all trouble diagnostic records previously stored can be read.",
+          "engine": "\u2014",
+          "at": "\u2014",
+          "abs": "\u2014",
+          "air_bag": "x",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "ECU discriminated No.",
+          "function": "Classification number of a replacement ECU can be read to prevent an incorrect ECU from being installed.",
+          "engine": "\u2014",
+          "at": "\u2014",
+          "abs": "\u2014",
+          "air_bag": "x",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "Data monitor",
+          "function": "Input/Output data in the ECU (ECM) can be read.",
+          "engine": "x",
+          "at": "x",
+          "abs": "x",
+          "air_bag": "\u2014",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "DTC work support",
+          "function": "This mode enables a technician to set operating conditions to confirm self-diagnoses status/results.",
+          "engine": "\u2014",
+          "at": "x",
+          "abs": "\u2014",
+          "air_bag": "\u2014",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "Active test",
+          "function": "Diagnostic Test Mode in which CONSULT-II drives some actuators apart from the ECMs and also shifts some parameters in a specified range.",
+          "engine": "x",
+          "at": "\u2014",
+          "abs": "x",
+          "air_bag": "\u2014",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "ECU (ECM) part number",
+          "function": "ECU (ECM) part number can be read.",
+          "engine": "x",
+          "at": "x",
+          "abs": "x",
+          "air_bag": "\u2014",
+          "nats": "\u2014"
+        },
+        {
+          "diagnostic_test_mode": "Control unit initialization",
+          "function": "All registered ignition key IDs in NATS components can be initialized and new IDs can be registered.",
+          "engine": "\u2014",
+          "at": "\u2014",
+          "abs": "\u2014",
+          "air_bag": "\u2014",
+          "nats": "\u2014"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "x : Applicable\n* : NATS (Nissan Anti-Theft System)",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Nickel Metal Hydride Battery Replacement"
+    },
+    {
+      "block_type": "prose",
+      "text": "CONSULT-II contains a nickel metal hydride battery. When replacing the battery obey the following:",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Replace the nickel metal hydride battery with Genuine CONSULT-II battery only. Use of another battery may present a risk of fire or explosion. The battery may present a fire or chemical burn hazard if mistreated. Do not recharge, disassemble of dispose of in fire.\nKeep the battery out of reach of children and discard used battery conforming to the local regulations.",
+      "style": "warning"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

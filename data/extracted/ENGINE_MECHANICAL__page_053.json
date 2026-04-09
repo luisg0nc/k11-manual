@@ -1,0 +1,235 @@
+{
+  "page_code": "EM-50",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-50.jpg",
+  "continuation": {
+    "continues_from": "EM-49",
+    "continues_to": "EM-51"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM346D",
+      "type": "tool_illustration",
+      "description": "Dial indicator measuring crankshaft runout on crankshaft supported in cylinder block",
+      "bbox_percent": [
+        0,
+        0,
+        45,
+        18
+      ],
+      "associated_step": "step_crankshaft_runout"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM195C",
+      "type": "parts_diagram",
+      "description": "Exploded/layout diagram of main bearings showing upper bearing, lower bearing, thrust bearing (only upper), No.5 bearing, oil hole, oil groove, identification color, front direction, and No.1 bearing positions",
+      "bbox_percent": [
+        0,
+        18,
+        45,
+        52
+      ],
+      "associated_step": "step_main_bearing_set"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM087",
+      "type": "component_photo",
+      "description": "Main bearing cap installed on cylinder block, showing bolt tightening setup",
+      "bbox_percent": [
+        0,
+        52,
+        45,
+        70
+      ],
+      "associated_step": "step_install_cap"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM506A",
+      "type": "tool_illustration",
+      "description": "Measuring outer diameter of crankshaft main journal with micrometer",
+      "bbox_percent": [
+        0,
+        70,
+        45,
+        88
+      ],
+      "associated_step": "step_measure_outer_dia"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_runout",
+      "title": "Crankshaft Runout Measurement",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Measure crankshaft runout.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Runout (Total indicator reading)",
+          "value": "Less than 0.05",
+          "unit": "mm (0.0020 in)",
+          "condition": "Crankshaft runout"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "BEARING CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Main bearing"
+    },
+    {
+      "block_type": "procedure",
+      "id": "main_bearing_clearance",
+      "title": "Main Bearing Clearance Measurement",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install main bearing cap to cylinder block. Tighten all bolts in correct order in two or three stages.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Measure inner diameter of each main bearing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Measure outer diameter of each main journal in crankshaft.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Calculate main bearing clearance. Main bearing clearance = Inner dia. - Outer dia.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "If it exceeds the limit, replace bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "If clearance cannot be adjusted within the standard of any bearing, grind crankshaft journal and use undersized bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Main bearing clearance (Standard)",
+          "value": "0.022 - 0.038",
+          "unit": "mm (0.0009 - 0.0015 in)",
+          "condition": "Main bearing clearance = Inner dia. - Outer dia."
+        },
+        {
+          "label": "Main bearing clearance (Limit)",
+          "value": "0.064",
+          "unit": "mm (0.0025 in)",
+          "condition": "Maximum allowable"
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig2",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Upper bearing",
+          "note": "Has oil hole and oil groove"
+        },
+        {
+          "number": 2,
+          "name": "Thrust bearing (only upper)",
+          "note": "No.5 bearing position"
+        },
+        {
+          "number": 3,
+          "name": "No.5 bearing",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Lower bearing",
+          "note": "Has identification color"
+        },
+        {
+          "number": 5,
+          "name": "Oil groove",
+          "note": "On lower bearing"
+        },
+        {
+          "number": 6,
+          "name": "Identification color",
+          "note": "On lower bearing"
+        },
+        {
+          "number": 7,
+          "name": "No.1 bearing",
+          "note": "Front position"
+        },
+        {
+          "number": 8,
+          "name": "Oil hole",
+          "note": "On upper bearing"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

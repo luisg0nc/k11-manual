@@ -1,0 +1,185 @@
+{
+  "page_code": "AT-24",
+  "section": "AT",
+  "title": "HYDRAULIC CONTROL",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-24.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT032",
+      "type": "wiring_schematic",
+      "description": "Hydraulic control circuit diagram for R Range showing all valves, pulleys, oil pump, and pressure lines with legend indicating line pressure, lubrication oil pressure, pitot pressure, primary pressure, and primary pressure (pre-fill)",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HYDRAULIC CONTROL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "R RANGE"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Hydraulic control schematic for R Range showing all components and pressure routing",
+      "callouts": [
+        {
+          "label": "Sensor shoe",
+          "position": "upper-left area"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "upper-center-left"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "upper-center"
+        },
+        {
+          "label": "Ds",
+          "position": "upper-center, selector position indicator"
+        },
+        {
+          "label": "P R N D Ds",
+          "position": "selector positions shown on shift cam diagram"
+        },
+        {
+          "label": "Shift cam",
+          "position": "upper-center-right"
+        },
+        {
+          "label": "R",
+          "position": "upper-right, range indicator"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center"
+        },
+        {
+          "label": "Modulator valve",
+          "position": "center"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center-right"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "right"
+        },
+        {
+          "label": "Check valve",
+          "position": "center-right lower"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center lower"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "far right lower"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower-right-center"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "lower-left"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "lower-center-left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "lower-center"
+        },
+        {
+          "label": "Oil pump",
+          "position": "lower-right-center"
+        },
+        {
+          "label": "Oil filter",
+          "position": "lower-right"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "lower-right"
+        },
+        {
+          "label": "Check valve",
+          "position": "lower-center"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "bottom-center"
+        },
+        {
+          "label": "R range",
+          "position": "left side label"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Pressure Legend",
+      "columns": [
+        {
+          "key": "pattern",
+          "label": "Pattern"
+        },
+        {
+          "key": "description",
+          "label": "Pressure Type"
+        }
+      ],
+      "rows": [
+        {
+          "pattern": "horizontal lines (light)",
+          "description": "Line pressure"
+        },
+        {
+          "pattern": "cross-hatch",
+          "description": "Lubrication oil pressure"
+        },
+        {
+          "pattern": "solid black",
+          "description": "Pitot pressure"
+        },
+        {
+          "pattern": "diagonal lines",
+          "description": "Primary pressure"
+        },
+        {
+          "pattern": "diagonal lines (alternate)",
+          "description": "Primary pressure (pre-fill)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transmission hydraulic control schematic. R Range condition shown. Applicable to K11 Nissan Micra CVT (A/T) 1993-2003."
+}

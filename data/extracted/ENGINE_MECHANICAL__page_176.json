@@ -1,0 +1,136 @@
+{
+  "page_code": "EM-5043",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Assembly: PISTON",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5043.jpg",
+  "continuation": {
+    "continues_from": "EM-5042",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM303",
+      "type": "parts_diagram",
+      "description": "Piston and connecting rod assembly showing piston height type mark, clover leaf marking on piston crown, and bearing retainers on connecting rod big end",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        32
+      ],
+      "associated_step": "step1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM305",
+      "type": "tool_illustration",
+      "description": "Illustration of piston rings being installed onto piston using a suitable ring expander tool",
+      "bbox_percent": [
+        0,
+        33,
+        42,
+        53
+      ],
+      "associated_step": "step2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "EEM074",
+      "type": "parts_diagram",
+      "description": "Top-down view of piston showing piston ring gaps aligned at 120\u00b0 intervals around the piston circumference",
+      "bbox_percent": [
+        0,
+        53,
+        42,
+        75
+      ],
+      "associated_step": "step3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_assembly",
+      "title": "PISTON Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Align the direction of piston and connecting rod; the piston cloverleaf sits opposite the bearing halfshell retainers.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install new snap ring on one side of piston pin hole.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Install new snap ring.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "After assembling, ascertain that piston swings smoothly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Confirm that the correct piston height type is used. Refer to \"Inspection\" (EM-5042).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Install piston rings with a suitable tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "a) When installing piston rings, make sure that stamped mark \"TOP\" is facing top of piston."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Align gaps of piston rings with intervals of 120\u00b0, as shown in illustration.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "b) Align gaps of piston rings with intervals of 120\u00b0, as shown in illustration."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Suitable tool (ring installer)",
+      "usage": "Install piston rings onto piston"
+    }
+  ],
+  "cross_references": [
+    "EM-5042"
+  ],
+  "model_notes": null
+}

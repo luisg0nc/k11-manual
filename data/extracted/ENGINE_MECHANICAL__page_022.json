@@ -1,0 +1,184 @@
+{
+  "page_code": "EM-19",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Removal (Cont'd) & Inspection",
+  "page_type": "prose_procedure",
+  "source_image": "EM-19.jpg",
+  "continuation": {
+    "continues_from": "EM-18",
+    "continues_to": "EM-20"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM049",
+      "type": "parts_diagram",
+      "description": "Front cover bolt removal pattern \u2014 arrows indicating bolt locations on front cover",
+      "bbox_percent": [
+        2,
+        3,
+        42,
+        20
+      ],
+      "associated_step": "27"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM043",
+      "type": "parts_diagram",
+      "description": "Lower timing chain assembly showing idler sprocket, lower timing chain, slack guide, tension guide, lower tensioner, oil pump drive spacer, and crankshaft sprocket",
+      "bbox_percent": [
+        2,
+        21,
+        42,
+        52
+      ],
+      "associated_step": "28"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM119D",
+      "type": "parts_diagram",
+      "description": "Timing chain roller link inspection diagram showing crack and wear check points on roller links",
+      "bbox_percent": [
+        2,
+        54,
+        42,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 27,
+          "text": "Remove front cover bolts and front cover as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Remove lower timing chain tension guide.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 29,
+          "text": "Remove lower tensioner.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Remove idler sprocket shaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Remove lower timing chain.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "Remove oil pump drive spacer.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Remove crankshaft sprocket.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for cracks and excessive wear at roller links. Replace if necessary.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Lower timing chain assembly components",
+      "callouts": [
+        {
+          "label": "Idler sprocket",
+          "position": "top-left"
+        },
+        {
+          "label": "Lower timing chain",
+          "position": "top-right"
+        },
+        {
+          "label": "Slack guide",
+          "position": "left"
+        },
+        {
+          "label": "Tension guide",
+          "position": "right"
+        },
+        {
+          "label": "Lower tensioner",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Oil pump drive spacer",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Crankshaft sprocket",
+          "position": "bottom-right"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Roller link inspection showing crack and wear indicators",
+      "callouts": [
+        {
+          "label": "Crack",
+          "position": "top-right of roller links"
+        },
+        {
+          "label": "Wear",
+          "position": "bottom-right of roller links"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

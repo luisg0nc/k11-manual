@@ -1,0 +1,163 @@
+{
+  "page_code": "ST-13",
+  "section": "ST",
+  "title": "STEERING WHEEL AND STEERING COLUMN \u2014 Disassembly and Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "st-13.jpg",
+  "continuation": {
+    "continues_from": "ST-12",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST770A",
+      "type": "tool_illustration",
+      "description": "Illustration showing installation of snap ring on upper shaft using a suitable tool (SST)",
+      "bbox_percent": [
+        2,
+        2,
+        45,
+        22
+      ],
+      "associated_step": "snap_ring_installation"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST741A",
+      "type": "tool_illustration",
+      "description": "Illustration showing self-shear type screw location on steering lock assembly, being broken with a drill",
+      "bbox_percent": [
+        2,
+        23,
+        45,
+        43
+      ],
+      "associated_step": "steering_lock_step_a"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST742A",
+      "type": "tool_illustration",
+      "description": "Illustration showing installation of self-shear type screw and cutting off the screw head",
+      "bbox_percent": [
+        2,
+        43,
+        45,
+        63
+      ],
+      "associated_step": "steering_lock_step_b"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UST022",
+      "type": "parts_diagram",
+      "description": "Steering column assembly with dimensional measurements: 10 mm (0.4 in) and 20 mm (0.8 in). Unit: mm (in).",
+      "bbox_percent": [
+        2,
+        63,
+        45,
+        83
+      ],
+      "associated_step": "tilt_check"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING WHEEL AND STEERING COLUMN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly and Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "snap_ring_installation",
+      "title": "Snap Ring Installation on Upper Shaft",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Ensure that rounded surface of snap ring faces toward bearing when snap ring is installed.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install snap ring on upper shaft with a suitable tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_lock",
+      "title": "Steering Lock",
+      "steps": [
+        {
+          "step": 1,
+          "text": "a. Break self-shear type screws with a drill or other appropriate tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "b. Install self-shear type screws and then cut off self-shear type screw heads.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "After installing steering column, check tilt mechanism operation (Vehicles with tilt system).",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: Do not attempt to disassemble jacket tube assembly; if defective, replace as a unit.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: Carry out steering column assembly/disassembly in a clean dust-free environment.",
+      "style": "caution"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Steering column measurement (upper)",
+          "value": "10",
+          "unit": "mm (0.4 in)",
+          "condition": "See diagram UST022"
+        },
+        {
+          "label": "Steering column measurement (lower)",
+          "value": "20",
+          "unit": "mm (0.8 in)",
+          "condition": "See diagram UST022"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "SST770A",
+      "name": "Suitable tool for snap ring installation",
+      "usage": "Install snap ring on upper shaft"
+    }
+  ],
+  "cross_references": [
+    "ST-12"
+  ],
+  "model_notes": "Tilt mechanism check applies only to vehicles equipped with tilt system."
+}

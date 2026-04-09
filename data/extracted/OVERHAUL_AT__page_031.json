@@ -1,0 +1,238 @@
+{
+  "page_code": "AT-31",
+  "section": "AT",
+  "title": "Component Parts \u2014 Belt and Pulleys / Control Valve and Oil Pump",
+  "page_type": "parts_diagram",
+  "source_image": "AT-31.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT039",
+      "type": "parts_diagram",
+      "description": "Exploded view of Belt and Pulleys assembly \u2014 primary pulley, secondary pulley, steel drive belt, reduction gear, needle bearings, adjusting shims, lock washer",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        47
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT040",
+      "type": "parts_diagram",
+      "description": "Exploded view of Control Valve and Oil Pump assembly \u2014 oil pump, control valve assembly, oil pan, gaskets, O-rings, strainer, magnet, washer, drainplug, oil pump shaft",
+      "bbox_percent": [
+        0,
+        49,
+        100,
+        100
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Belt and Pulleys"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Primary pulley",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Adjusting shim",
+          "note": "Select correct thickness (marked with *)"
+        },
+        {
+          "number": 3,
+          "name": "Adjusting shim",
+          "note": "Select correct thickness (marked with *)"
+        },
+        {
+          "number": 4,
+          "name": "Steel drive belt",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Secondary pulley",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Reduction gear",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Lock washer",
+          "note": "Do not re-use"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Reduction gear / lock washer torque",
+          "value": "123 - 132",
+          "unit": "N\u00b7m",
+          "condition": "(12.5 - 13.5 Kgm, 90 - 98 ft-lb)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend for Belt and Pulleys diagram: [torque symbol] = N\u00b7m (Kgm, ft-lb); [X symbol] = Do not re-use; * = Select correct thickness",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Control Valve and Oil Pump"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: The control valve cannot be disassembled",
+      "style": "note"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig2",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Oil pump",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "O-ring",
+          "note": "Do not re-use; Apply ATF"
+        },
+        {
+          "number": 3,
+          "name": "Gasket",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 4,
+          "name": "Gasket",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 5,
+          "name": "Oil pan",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "O-ring",
+          "note": "Do not re-use; Apply ATF"
+        },
+        {
+          "number": 7,
+          "name": "Control valve assembly",
+          "note": "Cannot be disassembled"
+        },
+        {
+          "number": 8,
+          "name": "Strainer",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Magnet",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Washer",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 11,
+          "name": "Drainplug",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Oil pump shaft",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Control valve / oil pump bolts torque (upper)",
+          "value": "9 - 10",
+          "unit": "N\u00b7m",
+          "condition": "(0.9 - 1.0 Kgm, 6 - 7 ft-lb)"
+        },
+        {
+          "label": "Oil pump bolts torque",
+          "value": "8.5 - 9.5",
+          "unit": "N\u00b7m",
+          "condition": "(0.87 - 0.97 Kgm, 6.3 - 7.0 ft-lb)"
+        },
+        {
+          "label": "Oil pan bolts torque",
+          "value": "5.4 - 6.4",
+          "unit": "N\u00b7m",
+          "condition": "(0.55 - 0.65 Kgm, 4.0 - 4.7 ft-lb)"
+        },
+        {
+          "label": "Strainer bolts torque",
+          "value": "4.4 - 5.4",
+          "unit": "N\u00b7m",
+          "condition": "(0.45 - 0.55 Kgm, 3.3 - 4.0 ft-lb)"
+        },
+        {
+          "label": "Drainplug / lower control valve area torque",
+          "value": "8.5 - 9.5",
+          "unit": "N\u00b7m",
+          "condition": "(0.87 - 0.97 Kgm, 6.3 - 7.0 ft-lb)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend for Control Valve and Oil Pump diagram: [torque symbol] = N\u00b7m (Kgm, ft-lb); ATF = Apply ATF; [X symbol] = Do not re-use",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to Nissan Micra K11 CVT (N-CVT / ECVT) automatic transaxle. Control valve assembly cannot be disassembled."
+}

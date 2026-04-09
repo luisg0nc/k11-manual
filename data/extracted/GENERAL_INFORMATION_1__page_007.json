@@ -1,0 +1,176 @@
+{
+  "page_code": "GI-3",
+  "section": "GI",
+  "title": "PRECAUTIONS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi3.jpg",
+  "continuation": {
+    "continues_from": "GI-2",
+    "continues_to": "GI-4"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI234",
+      "type": "vehicle_diagram",
+      "description": "Illustration showing a technician working on a vehicle engine bay with seat cover and fender cover in place to protect upholstery and paintwork.",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        22
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SGI291",
+      "type": "component_photo",
+      "description": "Illustration showing a technician receiving an electric shock/spark from a control unit, warning against touching ECU terminals without precaution.",
+      "bbox_percent": [
+        0,
+        55,
+        38,
+        78
+      ],
+      "associated_step": "EFI-1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "procedure",
+      "id": "general_precautions",
+      "title": "General Precautions (continued)",
+      "steps": [
+        {
+          "step": 6,
+          "text": "Before servicing the vehicle, protect fenders, upholstery and carpeting with appropriate covers. Take caution that keys, buckles or buttons on your person do not scratch the paint.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Clean all disassembled parts in the designated liquid or solvent prior to inspection or assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Replace oil seals, gaskets, packings, O-rings, locking washers, cotter pins, self-locking nuts, etc. with new ones.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Replace inner and outer races of tapered roller bearings and needle bearings as a set.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Arrange the disassembled parts in accordance with their assembled locations and sequence.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Do not touch the terminals of electrical components which use microcomputers (such as electronic control units). Static electricity may damage internal electronic components.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "After disconnecting vacuum or air hoses, attach a tag to indicate the proper connection.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Use only the lubricants specified in MA section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Use approved bonding agent, sealants or their equivalents when required.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Use tools and recommended special tools where specified for safe and efficient service repairs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "When repairing the fuel, oil, water, vacuum or exhaust systems, check all affected lines for leaks.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Dispose of drained oil or the solvent used for cleaning parts in an appropriate manner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Precautions for E.F.I. or E.C.C.S. Engine"
+    },
+    {
+      "block_type": "procedure",
+      "id": "efi_eccs_precautions",
+      "title": "Precautions for E.F.I. or E.C.C.S. Engine",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Before connecting or disconnecting E.F.I. or E.C.C.S. harness connector to or from any E.F.I. or E.C.C.S. control unit, be sure to turn the ignition switch to the \"OFF\" position and disconnect the negative battery terminal. Otherwise, there may be damage to control unit.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Before disconnecting pressurized fuel line from fuel pump to injectors, be sure to release fuel pressure to eliminate danger.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Be careful not to damage components such as control unit and air flow meter.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": null
+}

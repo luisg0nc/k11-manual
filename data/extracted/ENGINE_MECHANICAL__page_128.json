@@ -1,0 +1,360 @@
+{
+  "page_code": "EM-62",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Inspection and Adjustment (Cont'd): Piston, Piston Ring and Piston Pin / Connecting Rod / Crankshaft",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": "EM-61",
+    "continues_to": "EM-63"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM001",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram of piston showing 'a' dimension measurement point and 'A' reference label",
+      "bbox_percent": [
+        2,
+        10,
+        30,
+        25
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON, PISTON RING AND PISTON PIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Piston"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Piston skirt diameter \"A\" \u2014 Standard",
+      "columns": [
+        {
+          "key": "grade",
+          "label": "Grade"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "grade": "Grade No. 1",
+          "value": "70.980 - 70.990 (2.7945 - 2.7949)"
+        },
+        {
+          "grade": "Grade No. 2",
+          "value": "70.990 - 71.000 (2.7949 - 2.7953)"
+        },
+        {
+          "grade": "Grade No. 3",
+          "value": "71.000 - 71.010 (2.7953 - 2.7957)"
+        },
+        {
+          "grade": "0.20 (0.0079) oversize (service)",
+          "value": "71.180 - 71.210 (2.8024 - 2.8035)"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "\"a\" dimension",
+          "value": "9.5 (0.374)",
+          "unit": "mm (in)",
+          "condition": null
+        },
+        {
+          "label": "Piston pin hole inner diameter",
+          "value": "18.004 - 18.010 (0.7088 - 0.7091)",
+          "unit": "mm (in)",
+          "condition": null
+        },
+        {
+          "label": "Piston pin outer diameter",
+          "value": "17.994 - 18.000 (0.7084 - 0.7087)",
+          "unit": "mm (in)",
+          "condition": null
+        },
+        {
+          "label": "Piston to bore clearance",
+          "value": "0.010 - 0.030 (0.0004 - 0.0012)",
+          "unit": "mm (in)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Piston ring"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Piston Ring Specifications",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "key": "position",
+          "label": "Position"
+        },
+        {
+          "key": "standard",
+          "label": "Standard mm (in)"
+        },
+        {
+          "key": "limit",
+          "label": "Limit mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Side clearance",
+          "position": "Top",
+          "standard": "0.50 - 0.73 (0.0197 - 0.0287)",
+          "limit": "0.2 (0.008)"
+        },
+        {
+          "type": "Side clearance",
+          "position": "2nd",
+          "standard": "0.030 - 0.070 (0.0012 - 0.0028)",
+          "limit": "0.2 (0.008)"
+        },
+        {
+          "type": "End gap",
+          "position": "Top",
+          "standard": "0.20 - 0.30 (0.0079 - 0.0118)",
+          "limit": "0.37 (0.0146)"
+        },
+        {
+          "type": "End gap",
+          "position": "2nd",
+          "standard": "0.30 - 0.45 (0.0118 - 0.0177)",
+          "limit": "0.54 (0.0213)"
+        },
+        {
+          "type": "End gap",
+          "position": "Oil",
+          "standard": "0.25 - 1.00 (0.0098 - 0.0394)",
+          "limit": "1.09 (0.0429)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Piston pin"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Piston Pin Specifications",
+      "columns": [
+        {
+          "key": "label",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Piston pin outer diameter",
+          "value": "17.994 - 18.000 (0.7084 - 0.7087)"
+        },
+        {
+          "label": "Piston pin to piston clearance",
+          "value": "0.004 to 0.016 (0.0002 to 0.0006)"
+        },
+        {
+          "label": "Piston pin to connecting rod",
+          "value": "-0.016 to -0.038 (-0.0006 to -0.0015)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONNECTING ROD"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Connecting Rod Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Center distance",
+          "cg10de": "129.45 - 19.55 (5.0964 - 5.1004)",
+          "cg13de": "120.70 - 120.80 (4.7520 - 4.7559)"
+        },
+        {
+          "item": "Bend limit [per 100 (3.94)]",
+          "cg10de": "0.15 (0.0059)",
+          "cg13de": "0.15 (0.0059)"
+        },
+        {
+          "item": "Torsion limit [per 100 (3.94)]",
+          "cg10de": "0.3 (0.0118)",
+          "cg13de": "0.3 (0.0118)"
+        },
+        {
+          "item": "Connecting rod inner diameter* (small end)",
+          "cg10de": "17.962 - 17.978 (0.7072 - 0.7087)",
+          "cg13de": "17.962 - 17.978 (0.7072 - 0.7087)"
+        },
+        {
+          "item": "Connecting rod big end inner diameter",
+          "cg10de": "43.000 - 43.013 (1.6929 - 1.6934)",
+          "cg13de": "43.000 - 43.013 (1.6929 - 1.6934)"
+        },
+        {
+          "item": "Side clearance Standard",
+          "cg10de": "0.20 - 0.47 (0.0079 - 0.0185)",
+          "cg13de": "0.20 - 0.47 (0.0079 - 0.0185)"
+        },
+        {
+          "item": "Side clearance Limit",
+          "cg10de": "0.55 (0.0217)",
+          "cg13de": "0.55 (0.0217)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: After installing in connecting rod",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Crankshaft Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Main journal dia. Grade No. 0",
+          "value": "44.966 - 44.970 (1.7703 - 1.7705)"
+        },
+        {
+          "item": "Main journal dia. Grade No. 1",
+          "value": "44.962 - 44.966 (1.7702 - 1.7703)"
+        },
+        {
+          "item": "Main journal dia. Grade No. 2",
+          "value": "44.958 - 44.962 (1.7700 - 1.7702)"
+        },
+        {
+          "item": "Main journal dia. Grade No. 3",
+          "value": "44.954 - 44.958 (1.7698 - 1.7700)"
+        },
+        {
+          "item": "Pin journal dia.",
+          "value": "39.96 - 39.97 (1.5732 - 1.5736)"
+        },
+        {
+          "item": "Center distance \"r\"",
+          "value": "41.948 - 42.000 (1.6514 - 1.6535)"
+        },
+        {
+          "item": "Out-of-round (X - Y) Standard",
+          "value": "Less than 0.005 (0.0002)"
+        },
+        {
+          "item": "Taper (A - B) Standard",
+          "value": "Less than 0.002 (0.0001)"
+        },
+        {
+          "item": "Runout (T.I.R.) Standard",
+          "value": "Less than 0.05 (0.0020)"
+        },
+        {
+          "item": "Free end play Standard",
+          "value": "0.060 - 0.26 (0.0024 - 0.0102)"
+        },
+        {
+          "item": "Free end play Limit",
+          "value": "0.3 (0.012)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Connecting rod center distance differs between CG10DE and CG13DE engines. All other crankshaft and piston specs appear common across both engines."
+}

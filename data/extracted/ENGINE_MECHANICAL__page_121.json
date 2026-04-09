@@ -1,0 +1,215 @@
+{
+  "page_code": "EM-55",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": "EM-54",
+    "continues_to": "EM-56"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM086",
+      "type": "parts_diagram",
+      "description": "Cylinder block showing cylinder bore grade numbers location and piston grade number location with FRONT marking",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        14
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM098",
+      "type": "parts_diagram",
+      "description": "Connecting rod showing connecting rod number location",
+      "bbox_percent": [
+        0,
+        14,
+        38,
+        28
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM293C",
+      "type": "tool_illustration",
+      "description": "Piston ring compressor being used to install pistons into cylinder bores",
+      "bbox_percent": [
+        0,
+        28,
+        38,
+        44
+      ],
+      "associated_step": "step5"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM099",
+      "type": "component_photo",
+      "description": "Installing connecting rod bearing caps on engine",
+      "bbox_percent": [
+        0,
+        44,
+        38,
+        60
+      ],
+      "associated_step": "step5b"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM100",
+      "type": "component_photo",
+      "description": "Measuring connecting rod side clearance",
+      "bbox_percent": [
+        0,
+        60,
+        38,
+        76
+      ],
+      "associated_step": "step6"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_block_assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Install connecting rod bearings in connecting rods and connecting rod caps.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct bearings are used. Refer to \"Inspection\"."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Install pistons with connecting rods.",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Be careful not to scratch cylinder wall by connecting rod.",
+            "Arrange so that front mark on piston head faces toward front of engine."
+          ],
+          "notes": [],
+          "sub_steps": [
+            {
+              "sub_step": "a",
+              "text": "Install them into corresponding cylinders with Tool.",
+              "figure_ref": "fig3"
+            },
+            {
+              "sub_step": "b",
+              "text": "Install connecting rod bearing caps. Tighten connecting rod bearing cap nuts to the specified torque.",
+              "figure_ref": "fig4",
+              "torque_spec": {
+                "label": "Connecting rod bearing nut",
+                "step1": "Tighten to 14 to 16 N\u00b7m (1.4 to 1.6 kg-m, 10 to 12 ft-lb).",
+                "step2": "Turn nuts to 45\u00b0 to 50\u00b0 degrees clockwise with an angle wrench."
+              }
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Measure connecting rod side clearance.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod bearing nut torque - Step 1",
+          "value": "14 to 16",
+          "unit": "N\u00b7m",
+          "condition": "Initial tightening"
+        },
+        {
+          "label": "Connecting rod bearing nut torque - Step 1",
+          "value": "1.4 to 1.6",
+          "unit": "kg-m",
+          "condition": "Initial tightening"
+        },
+        {
+          "label": "Connecting rod bearing nut torque - Step 1",
+          "value": "10 to 12",
+          "unit": "ft-lb",
+          "condition": "Initial tightening"
+        },
+        {
+          "label": "Connecting rod bearing nut torque - Step 2 (angle)",
+          "value": "45\u00b0 to 50\u00b0",
+          "unit": "degrees clockwise",
+          "condition": "Angle wrench final tighten"
+        },
+        {
+          "label": "Connecting rod side clearance - Standard",
+          "value": "0.200 - 0.470",
+          "unit": "mm",
+          "condition": "Standard"
+        },
+        {
+          "label": "Connecting rod side clearance - Standard",
+          "value": "0.0079 - 0.0185",
+          "unit": "in",
+          "condition": "Standard"
+        },
+        {
+          "label": "Connecting rod side clearance - Limit",
+          "value": "0.55",
+          "unit": "mm",
+          "condition": "Service limit"
+        },
+        {
+          "label": "Connecting rod side clearance - Limit",
+          "value": "0.0217",
+          "unit": "in",
+          "condition": "Service limit"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If beyond the limit, replace connecting rod and/or crankshaft.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "unknown",
+      "name": "Piston ring compressor",
+      "usage": "Install pistons with connecting rods into corresponding cylinders"
+    },
+    {
+      "part_number": "unknown",
+      "name": "Angle wrench",
+      "usage": "Turn connecting rod bearing cap nuts 45\u00b0 to 50\u00b0 clockwise for final tightening"
+    }
+  ],
+  "cross_references": [
+    "Inspection"
+  ],
+  "model_notes": null
+}

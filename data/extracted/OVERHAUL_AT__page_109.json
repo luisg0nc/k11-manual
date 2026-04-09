@@ -1,0 +1,231 @@
+{
+  "page_code": "AT-109",
+  "section": "AT",
+  "title": "REPAIR FOR COMPONENT PARTS \u2014 Drive Pinion Shaft Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-109.jpg",
+  "continuation": {
+    "continues_from": "AT-108",
+    "continues_to": "AT-110"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT220",
+      "type": "tool_illustration",
+      "description": "Cross-section illustration showing press fit of bearing using Oil Seal Drift tool onto retainer plate",
+      "bbox_percent": [
+        0,
+        2,
+        40,
+        22
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT221",
+      "type": "component_photo",
+      "description": "Illustration showing shaft assembly fitted to housing with retaining plate bolts",
+      "bbox_percent": [
+        0,
+        23,
+        40,
+        43
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT222",
+      "type": "component_photo",
+      "description": "Photo showing Pitot tube location on the transmission housing assembly",
+      "bbox_percent": [
+        0,
+        44,
+        40,
+        65
+      ],
+      "associated_step": "Pitot tube step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT223",
+      "type": "parts_diagram",
+      "description": "Exploded illustration of Shifter and Park Rod Assembly components",
+      "bbox_percent": [
+        0,
+        66,
+        40,
+        87
+      ],
+      "associated_step": "Shifter and Park Rod Assembly"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REPAIR FOR COMPONENT PARTS \u2014 Drive Pinion Shaft Assembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Press fit the bearing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Ensure that the ID marks on the bearing face upwards."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Fit and tighten a new lock nut. Torque = 137 - 157 N\u00b7m (14.0 - 16.0 kg-m, 101 - 116 ft-lb)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Stake the lock nut after tightening.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Fit the shaft assembly to the housing. Ensure correct alignment.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Fit and tighten the retaining plate bolts. Torque = 22 - 26 N\u00b7m (2.2 - 2.7 kg-m, 16 - 20 ft-lb)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Lock nut torque",
+          "value": "137 - 157",
+          "unit": "N\u00b7m",
+          "condition": "New lock nut"
+        },
+        {
+          "label": "Lock nut torque",
+          "value": "14.0 - 16.0",
+          "unit": "kg-m",
+          "condition": "New lock nut"
+        },
+        {
+          "label": "Lock nut torque",
+          "value": "101 - 116",
+          "unit": "ft-lb",
+          "condition": "New lock nut"
+        },
+        {
+          "label": "Retaining plate bolts torque",
+          "value": "22 - 26",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Retaining plate bolts torque",
+          "value": "2.2 - 2.7",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Retaining plate bolts torque",
+          "value": "16 - 20",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Pitot tube"
+    },
+    {
+      "block_type": "procedure",
+      "id": "pitot_tube",
+      "title": "Pitot tube",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the pin using pliers, and remove the tube.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Replace if damage is evident."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Replace if damage is evident.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shifter and Park Rod Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "shifter_park_rod",
+      "title": "Shifter and Park Rod Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check for wear on the shifter cam and pawl areas.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check the park rod for damage or distortions.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Replace components as necessary.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Oil Seal Drift",
+      "usage": "Press fit the bearing onto the drive pinion shaft assembly"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

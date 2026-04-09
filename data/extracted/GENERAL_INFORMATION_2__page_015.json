@@ -1,0 +1,67 @@
+{
+  "page_code": "GI-12",
+  "section": "GI",
+  "title": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi12.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI364",
+      "type": "connector_diagram",
+      "description": "Example illustrations showing View from terminal side (T.S.) with connector symbol using single line and direction mark, and View from harness side (H.S.) with connector symbol using double lines and direction mark",
+      "bbox_percent": [
+        2,
+        4,
+        38,
+        32
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Direction mark"
+    },
+    {
+      "block_type": "prose",
+      "text": "A direction mark is shown to clarify the side of connector (terminal side or harness side).\nDirection marks are mainly used in the illustrations indicating terminal inspection.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "View from terminal side ... T.S.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "All connector symbols shown from the terminal side are enclosed by a single line.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "View from harness side ... H.S.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "All connector symbols shown from the harness side are enclosed by a double line.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

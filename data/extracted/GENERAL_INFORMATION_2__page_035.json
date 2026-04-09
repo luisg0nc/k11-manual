@@ -1,0 +1,48 @@
+{
+  "page_code": "GI-2002",
+  "section": "GI",
+  "title": "MODIFICATIONS",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OUTLINE OF MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Front & Rear Axle"
+    },
+    {
+      "block_type": "prose",
+      "text": "Front and rear stabiliser bars have been introduced on all 1.0 \u2113 models with air bag system.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Steering system & Body"
+    },
+    {
+      "block_type": "prose",
+      "text": "A modified driver air bag has been introduced.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to 1.0 \u2113 models with air bag system"
+}

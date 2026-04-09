@@ -1,0 +1,152 @@
+{
+  "page_code": "ST-16",
+  "section": "ST",
+  "title": "MANUAL STEERING GEAR AND LINKAGE \u2014 Removal (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "st-16.jpg",
+  "continuation": {
+    "continues_from": "ST-15",
+    "continues_to": "ST-17"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST025",
+      "type": "component_photo",
+      "description": "Lower joint tightening bolts on steering gear pinion \u2014 shows bolts to slacken",
+      "bbox_percent": [
+        0,
+        2,
+        45,
+        18
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST579B",
+      "type": "component_photo",
+      "description": "Engine jack supporting transmission housing with engine centre member and rear engine mounting visible",
+      "bbox_percent": [
+        0,
+        20,
+        45,
+        36
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UST026",
+      "type": "component_photo",
+      "description": "M/T transmission linkage showing control rod and support rod",
+      "bbox_percent": [
+        0,
+        38,
+        45,
+        54
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UST027",
+      "type": "component_photo",
+      "description": "Steering gear mounting bolts and dust boot retaining strap on pinion",
+      "bbox_percent": [
+        0,
+        56,
+        45,
+        72
+      ],
+      "associated_step": "8-9"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SST581B",
+      "type": "component_photo",
+      "description": "Steering gear being displaced through wheel arch for removal",
+      "bbox_percent": [
+        0,
+        74,
+        45,
+        90
+      ],
+      "associated_step": "10"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MANUAL STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Slacken lower joint tightening bolts and remove lower joint from steering gear pinion. Ensure joint and pinion are marked for correct alignment during re-assembly.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "CAUTION: Do not forcibly spread flange of lower joint when disassembling."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Support transmission housing with engine jack and remove engine centre member and rear engine mounting (see EM section for details).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Disconnect transmission linkage (support rod and control rod for manual transmission vehicles and transmission cable and mounting bracket for N-CVT vehicles) and place aside.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove steering gear mounting bolts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Slacken dust boot retaining strap and remove dust boot from pinion.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "For LHD vehicles, rotate gear and displace through right-hand wheel arch until left-hand tie rod is clear to drop out through bottom of engine bay, then remove assembly. For RHD vehicles, rotate gear and displace through left-hand wheel arch until right-hand tie-rod is clear to drop out through bottom of engine bay, then remove assembly.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: Do not forcibly spread flange of lower joint when disassembling.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM"
+  ],
+  "model_notes": "Step 7 distinguishes between M/T (support rod and control rod) and N-CVT (transmission cable and mounting bracket) vehicles. Step 10 distinguishes between LHD and RHD vehicles for gear removal direction."
+}

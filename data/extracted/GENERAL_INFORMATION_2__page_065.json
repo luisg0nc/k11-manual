@@ -1,0 +1,308 @@
+{
+  "page_code": "GI-7005",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION - Model Variation",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation"
+    },
+    {
+      "block_type": "table",
+      "title": "Model Variation",
+      "columns": [
+        {
+          "key": "body",
+          "label": "Body"
+        },
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "tm",
+          "label": "T/M"
+        },
+        {
+          "key": "grade",
+          "label": "Grade"
+        },
+        {
+          "key": "rhd_models",
+          "label": "R.H.D. models"
+        },
+        {
+          "key": "lhd_models",
+          "label": "L.H.D. models"
+        }
+      ],
+      "rows": [
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Comfort",
+          "rhd_models": "EAEARBF-EEA",
+          "lhd_models": "EAEALBF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Luxury",
+          "rhd_models": "EAEARDF-EEA",
+          "lhd_models": "EAEALDF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Sport",
+          "rhd_models": "\u2014",
+          "lhd_models": "EAEALTF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Elegance",
+          "rhd_models": "\u2014",
+          "lhd_models": "EAEALFF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RE0F21A",
+          "grade": "Comfort",
+          "rhd_models": "EAEARBZ-EEA",
+          "lhd_models": "EAEALBZ-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RE0F21A",
+          "grade": "Luxury",
+          "rhd_models": "EAEARDZ-EEA",
+          "lhd_models": "EAEALDZ-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CG10DE",
+          "tm": "RE0F21A",
+          "grade": "Elegance",
+          "rhd_models": "\u2014",
+          "lhd_models": "EAEALFZ-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Comfort",
+          "rhd_models": "EDJARBF-EEA",
+          "lhd_models": "EDJALBF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Luxury",
+          "rhd_models": "EDJARDF-EEA",
+          "lhd_models": "EDJALDF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Elegance",
+          "rhd_models": "EDJARFF-EEA",
+          "lhd_models": "EDJALFF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Sport",
+          "rhd_models": "EDJARTF-EEA",
+          "lhd_models": "EDJALTF-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RE0F21A",
+          "grade": "Comfort",
+          "rhd_models": "EDJARBZ-EEA",
+          "lhd_models": "EDJALBZ-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RE0F21A",
+          "grade": "Luxury",
+          "rhd_models": "EDJARDZ-EEA",
+          "lhd_models": "EDJALDZ-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RE0F21A",
+          "grade": "Elegance",
+          "rhd_models": "EDJARFZ-EEA",
+          "lhd_models": "EDJALFZ-EGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "VJX",
+          "tm": "MA-5",
+          "grade": "Comfort",
+          "rhd_models": "\u2014",
+          "lhd_models": "EWZALBF-NGA"
+        },
+        {
+          "body": "3dr H/B",
+          "engine": "VJX",
+          "tm": "MA-5",
+          "grade": "Luxury",
+          "rhd_models": "\u2014",
+          "lhd_models": "EWZALDF-NGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Comfort",
+          "rhd_models": "FAEARBF-EEA",
+          "lhd_models": "FAEALBF-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Luxury",
+          "rhd_models": "FAEARDF-EEA",
+          "lhd_models": "FAEALDF-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG10DE",
+          "tm": "RS5F30A",
+          "grade": "Elegance",
+          "rhd_models": "\u2014",
+          "lhd_models": "FAEALFF-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG10DE",
+          "tm": "RE0F21A",
+          "grade": "Comfort",
+          "rhd_models": "FAEARBZ-EEA",
+          "lhd_models": "FAEALBZ-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG10DE",
+          "tm": "RE0F21A",
+          "grade": "Luxury",
+          "rhd_models": "FAEARDZ-EEA",
+          "lhd_models": "FAEALDZ-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CG10DE",
+          "tm": "RE0F21A",
+          "grade": "Elegance",
+          "rhd_models": "\u2014",
+          "lhd_models": "FAEALFZ-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Comfort",
+          "rhd_models": "FDJARBF-EEA",
+          "lhd_models": "FDJALBF-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Luxury",
+          "rhd_models": "FDJARDF-EEA",
+          "lhd_models": "FDJALDF-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Elegance",
+          "rhd_models": "FDJARFF-EEA",
+          "lhd_models": "FDJALFF-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RS5F30A",
+          "grade": "Sport",
+          "rhd_models": "FDJARTF-EEA",
+          "lhd_models": "\u2014"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RE0F21A",
+          "grade": "Comfort",
+          "rhd_models": "FDJARBZ-EEA",
+          "lhd_models": "FDJALBZ-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RE0F21A",
+          "grade": "Luxury",
+          "rhd_models": "FDJARDZ-EEA",
+          "lhd_models": "FDJALDZ-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "CGA3DE",
+          "tm": "RE0F21A",
+          "grade": "Elegance",
+          "rhd_models": "FDJARFZ-EEA",
+          "lhd_models": "FDJALFZ-EGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "VJX",
+          "tm": "MA-5",
+          "grade": "Comfort",
+          "rhd_models": "\u2014",
+          "lhd_models": "FWZALBF-NGA"
+        },
+        {
+          "body": "5dr H/B",
+          "engine": "VJX",
+          "tm": "MA-5",
+          "grade": "Luxury",
+          "rhd_models": "\u2014",
+          "lhd_models": "FWZALDF-NGA"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Table distinguishes R.H.D. (right-hand drive) models from L.H.D. (left-hand drive) models. Body styles are 3dr H/B and 5dr H/B. Engines include CG10DE, CGA3DE, and VJX. Transmissions include RS5F30A (manual), RE0F21A (automatic), and MA-5."
+}

@@ -1,0 +1,218 @@
+{
+  "page_code": "EM-54",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd) - CRANKSHAFT",
+  "page_type": "prose_procedure",
+  "source_image": "EM-54.jpg",
+  "continuation": {
+    "continues_from": "EM-53",
+    "continues_to": "EM-55"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM195C",
+      "type": "parts_diagram",
+      "description": "Exploded diagram showing main bearing components: upper bearing with oil hole, thrust bearing (only upper), No. 5 bearing, lower bearing with identification color and oil groove, No. 1 bearing, and front orientation",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        26
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM095",
+      "type": "parts_diagram",
+      "description": "Top view of main bearing beam showing bolt tightening sequence order with numbered positions",
+      "bbox_percent": [
+        0,
+        27,
+        38,
+        47
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM096",
+      "type": "tool_illustration",
+      "description": "Illustration showing angle wrench being used to tighten main bearing beam bolts 60\u00b0-65\u00b0 clockwise",
+      "bbox_percent": [
+        0,
+        47,
+        38,
+        67
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM097",
+      "type": "tool_illustration",
+      "description": "Illustration showing dial gauge setup to measure crankshaft end play",
+      "bbox_percent": [
+        0,
+        67,
+        38,
+        87
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_assembly",
+      "title": "Crankshaft Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct main bearings are used. Refer to \"Inspection\"."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Install crankshaft and main bearing beam and tighten bolts as follows: Main bearing beam bolts (1) Tighten to 25 to 30 N\u00b7m (2.5 to 3.1 kg-m, 18 - 22 ft-lb) in order shown. (2) Turn bolts to 60\u00b0 to 65\u00b0 degrees clockwise with an angle wrench in order shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Prior to tightening bearing cap bolts, place bearing cap in its proper position by shifting crankshaft in the axial direction.",
+            "After securing bearing cap bolts, make sure crankshaft turns smoothly by hand."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Measure crankshaft end play.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "If beyond the limit, replace thrust bearing with a new one."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Main bearing beam bolts torque - Stage 1",
+          "value": "25 to 30",
+          "unit": "N\u00b7m",
+          "condition": "Tighten in order shown"
+        },
+        {
+          "label": "Main bearing beam bolts torque - Stage 1",
+          "value": "2.5 to 3.1",
+          "unit": "kg-m",
+          "condition": "Tighten in order shown"
+        },
+        {
+          "label": "Main bearing beam bolts torque - Stage 1",
+          "value": "18 - 22",
+          "unit": "ft-lb",
+          "condition": "Tighten in order shown"
+        },
+        {
+          "label": "Main bearing beam bolts torque - Stage 2 angle",
+          "value": "60\u00b0 to 65\u00b0",
+          "unit": "degrees clockwise",
+          "condition": "Angle tighten in order shown"
+        },
+        {
+          "label": "Crankshaft end play - Standard",
+          "value": "0.060 - 0.26",
+          "unit": "mm",
+          "condition": "Standard"
+        },
+        {
+          "label": "Crankshaft end play - Standard",
+          "value": "0.0024 - 0.0102",
+          "unit": "in",
+          "condition": "Standard"
+        },
+        {
+          "label": "Crankshaft end play - Limit",
+          "value": "0.3",
+          "unit": "mm",
+          "condition": "Limit"
+        },
+        {
+          "label": "Crankshaft end play - Limit",
+          "value": "0.012",
+          "unit": "in",
+          "condition": "Limit"
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Upper bearing",
+          "note": "Has oil hole"
+        },
+        {
+          "number": 2,
+          "name": "Thrust bearing",
+          "note": "Only upper"
+        },
+        {
+          "number": 3,
+          "name": "No. 5 bearing",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Lower bearing",
+          "note": "Has identification color and oil groove"
+        },
+        {
+          "number": 5,
+          "name": "No. 1 bearing",
+          "note": "Front end"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Angle wrench",
+      "usage": "Turn main bearing beam bolts 60\u00b0 to 65\u00b0 clockwise in second stage torque tightening"
+    },
+    {
+      "part_number": "",
+      "name": "Dial gauge",
+      "usage": "Measure crankshaft end play"
+    }
+  ],
+  "cross_references": [
+    "Inspection"
+  ],
+  "model_notes": null
+}

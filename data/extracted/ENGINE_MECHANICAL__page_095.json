@@ -1,0 +1,154 @@
+{
+  "page_code": "EM-29",
+  "section": "EM",
+  "title": "CYLINDER HEAD",
+  "page_type": "prose_procedure",
+  "source_image": "em-29.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-30"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM152D",
+      "type": "component_photo",
+      "description": "Removing valve components with service tool on cylinder head",
+      "bbox_percent": [
+        2,
+        30,
+        38,
+        50
+      ],
+      "associated_step": "Disassembly step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM060",
+      "type": "tool_illustration",
+      "description": "Removing valve oil seal using tool KV10107902",
+      "bbox_percent": [
+        2,
+        50,
+        38,
+        68
+      ],
+      "associated_step": "Disassembly step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM153D",
+      "type": "component_photo",
+      "description": "Checking cylinder head surface flatness with straight edge",
+      "bbox_percent": [
+        2,
+        68,
+        38,
+        86
+      ],
+      "associated_step": "Inspection - Cylinder Head Distortion"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "prose",
+      "text": "During reassembly, always apply new engine oil to bearing surfaces, e.g. camshaft, and oil seal contact surfaces.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When tightening cylinder head bolts, camshaft sprocket bolts and camshaft bracket bolts, apply new engine oil to threads and seat surfaces of bolts.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Identify individual components such as valve lifters, to ensure correct assembly.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to \"TIMING CHAIN\" section for cylinder head removal.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove valve components with Service Tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove valve oil seal.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CYLINDER HEAD DISTORTION"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Head surface flatness \u2014 Standard",
+          "value": "Less than 0.03",
+          "unit": "mm (0.0012 in)",
+          "condition": "Head surface flatness standard"
+        },
+        {
+          "label": "Head surface flatness \u2014 Limit",
+          "value": "0.1",
+          "unit": "mm (0.004 in)",
+          "condition": "Head surface flatness service limit"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If beyond the specified limit, replace or re-surface.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10107902",
+      "name": "Valve Oil Seal Remover",
+      "usage": "Remove valve oil seal from cylinder head"
+    }
+  ],
+  "cross_references": [
+    "TIMING CHAIN"
+  ],
+  "model_notes": null
+}

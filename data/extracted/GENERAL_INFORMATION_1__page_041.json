@@ -1,0 +1,80 @@
+{
+  "page_code": "GI-5003",
+  "section": "GI",
+  "title": "Precautions for Fuel",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Precautions for Fuel"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "DIESEL ENGINE*:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Diesel fuel of at least 50 cetane",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "* If two types of diesel fuel are available, use summer or winter fuel properly according to the following temperature conditions.",
+      "style": "note"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Summer type diesel fuel",
+          "value": "Above -7\u00b0C (20\u00b0F)",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Winter type diesel fuel",
+          "value": "Below -7\u00b0C (20\u00b0F)",
+          "unit": "",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CAUTION:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not use home heating oil, gasoline, or other alternate fuels in your diesel engine. The use of fuels other than those recommended by the manufacturer can cause engine damage.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not use summer fuel at temperatures below -7\u00b0C (20\u00b0F). Cold temperatures will cause wax to form in the fuel, as a result, it may prevent the engine from running smoothly.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not add gasoline or other alternative fuels to diesel fuel.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Diesel engine variant only (marked with asterisk)"
+}

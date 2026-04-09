@@ -1,0 +1,90 @@
+{
+  "page_code": "GI",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "GI-2"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Table of Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "GI-2"
+        },
+        {
+          "topic": "HOW TO USE THIS MANUAL",
+          "page": "GI-5"
+        },
+        {
+          "topic": "HOW TO READ WIRING DIAGRAMS",
+          "page": "GI-7"
+        },
+        {
+          "topic": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+          "page": "GI-10"
+        },
+        {
+          "topic": "CONSULT CHECKING SYSTEM",
+          "page": "GI-14"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-16"
+        },
+        {
+          "topic": "LIFTING POINTS AND TOW TRUCK TOWING",
+          "page": "GI-21"
+        },
+        {
+          "topic": "TIGHTENING TORQUE OF STANDARD BOLTS (For Nissan standard bolts)",
+          "page": "GI-27"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-2",
+    "GI-5",
+    "GI-7",
+    "GI-10",
+    "GI-14",
+    "GI-16",
+    "GI-21",
+    "GI-27"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,209 @@
+{
+  "page_code": "EM-51",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_EM51.jpg",
+  "continuation": {
+    "continues_from": "EM-50",
+    "continues_to": "EM-52"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM088",
+      "type": "parts_diagram",
+      "description": "Crankshaft fillet radius diagram showing CG10DE: R2.3-2.7 mm, CG13DE: R1.5 mm, and R2.3-2.7 mm dimensions on crank pin/journal",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        20
+      ],
+      "associated_step": "grinding_crank_pin_journal"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM089",
+      "type": "component_photo",
+      "description": "Cylinder block showing main journal grade number punch locations from No.1 to No.5",
+      "bbox_percent": [
+        0,
+        38,
+        38,
+        58
+      ],
+      "associated_step": "8a"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM090",
+      "type": "component_photo",
+      "description": "Crankshaft showing crank journal grade number punch locations from No.1 to No.5",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        76
+      ],
+      "associated_step": "8b"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "When grinding crank pin and crank journal:"
+    },
+    {
+      "block_type": "prose",
+      "text": "a. Grind until clearance is within specified standard bearing clearance.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "b. Fillets should be finished as shown in the figure.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "CG10DE crank pin/journal fillet radius",
+          "value": "R2.3-2.7",
+          "unit": "mm",
+          "condition": "When grinding crank pin and crank journal"
+        },
+        {
+          "label": "CG13DE crank pin/journal fillet radius",
+          "value": "R1.5",
+          "unit": "mm",
+          "condition": "When grinding crank pin and crank journal"
+        },
+        {
+          "label": "CG10DE/CG13DE additional fillet radius shown",
+          "value": "R2.3-2.7",
+          "unit": "mm",
+          "condition": "As shown in figure UEM088"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to S.D.S. for standard bearing clearance and available spare parts.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "main_bearing_selection",
+      "title": "Main Bearing Selection",
+      "steps": [
+        {
+          "step": 8,
+          "text": "If crankshaft, cylinder block or main bearing is reused, measure main bearing clearance. If crankshaft, cylinder block and main bearings are replaced with new ones, it is necessary to select thickness of main bearings as follows:",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "8a",
+          "text": "Grade number of each cylinder block main journal is punched on the respective cylinder block.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "8b",
+          "text": "Grade number of each crankshaft main journal is punched on the respective crankshaft.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "8c",
+          "text": "Select main bearing with suitable thickness according to the following table.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Main bearing grade color",
+      "columns": [
+        {
+          "key": "crankshaft_journal_grade",
+          "label": "Crankshaft journal grade number"
+        },
+        {
+          "key": "main_journal_grade_0",
+          "label": "Main journal grade number 0"
+        },
+        {
+          "key": "main_journal_grade_1",
+          "label": "Main journal grade number 1"
+        },
+        {
+          "key": "main_journal_grade_2",
+          "label": "Main journal grade number 2"
+        },
+        {
+          "key": "main_journal_grade_3",
+          "label": "Main journal grade number 3"
+        }
+      ],
+      "rows": [
+        {
+          "crankshaft_journal_grade": "0",
+          "main_journal_grade_0": "Black",
+          "main_journal_grade_1": "Brown",
+          "main_journal_grade_2": "Green",
+          "main_journal_grade_3": "Yellow"
+        },
+        {
+          "crankshaft_journal_grade": "1",
+          "main_journal_grade_0": "Brown",
+          "main_journal_grade_1": "Green",
+          "main_journal_grade_2": "Yellow",
+          "main_journal_grade_3": "Blue"
+        },
+        {
+          "crankshaft_journal_grade": "2",
+          "main_journal_grade_0": "Green",
+          "main_journal_grade_1": "Yellow",
+          "main_journal_grade_2": "Blue",
+          "main_journal_grade_3": "Pink"
+        },
+        {
+          "crankshaft_journal_grade": "3",
+          "main_journal_grade_0": "Yellow",
+          "main_journal_grade_1": "Blue",
+          "main_journal_grade_2": "Pink",
+          "main_journal_grade_3": "White"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "For example:\n    Main journal grade number: 1\n    Crankshaft journal grade number: 2\n    Main bearing grade number = 1 + 2 = Yellow",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": "Fillet radius specifications differ between CG10DE (R2.3-2.7 mm) and CG13DE (R1.5 mm) engines."
+}

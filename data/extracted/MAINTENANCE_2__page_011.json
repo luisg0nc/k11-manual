@@ -1,0 +1,161 @@
+{
+  "page_code": "MA-7011",
+  "section": "MA",
+  "title": "Periodic Maintenance (Except for Europe) \u2014 Maintenance Under Severe Driving Conditions",
+  "page_type": "spec_table",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (Except for Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Maintenance Under Severe Driving Conditions"
+    },
+    {
+      "block_type": "prose",
+      "text": "The maintenance intervals shown on the preceding pages are for normal operating conditions. If the vehicle is mainly operated under severe driving conditions as shown below, more frequent maintenance must be performed on the following items as shown in the table.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "A \u2014 Driving under dusty conditions\nB \u2014 Driving repeatedly short distances\nC \u2014 Towing a trailer or caravan\nD \u2014 Extensive idling\nE \u2014 Driving in extremely adverse weather conditions or in areas where ambient temperatures are either extremely low or extremely high\nF \u2014 Driving in high humidity areas or in mountainous areas\nG \u2014 Driving in areas using salt or other corrosive materials\nH \u2014 Driving on rough and/or muddy roads or in the desert\nI \u2014 Driving with frequent use of braking or in mountainous areas",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Severe Driving Conditions Maintenance Schedule",
+      "columns": [
+        {
+          "key": "driving_condition",
+          "label": "Driving condition"
+        },
+        {
+          "key": "maintenance_item",
+          "label": "Maintenance item"
+        },
+        {
+          "key": "maintenance_operation",
+          "label": "Maintenance operation"
+        },
+        {
+          "key": "maintenance_interval",
+          "label": "Maintenance interval"
+        }
+      ],
+      "rows": [
+        {
+          "driving_condition": "A",
+          "maintenance_item": "Air cleaner filter",
+          "maintenance_operation": "",
+          "maintenance_interval": ""
+        },
+        {
+          "driving_condition": "A",
+          "maintenance_item": "PCV filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "More frequently"
+        },
+        {
+          "driving_condition": "A B C D",
+          "maintenance_item": "Engine oil (petrol engine)",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 5,000 km (3,000 miles) or 3 months"
+        },
+        {
+          "driving_condition": "A B C D",
+          "maintenance_item": "Engine oil (diesel engine)",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "More frequently"
+        },
+        {
+          "driving_condition": "A B C D",
+          "maintenance_item": "Engine oil filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 5,000 km (3,000 miles) or 3 months"
+        },
+        {
+          "driving_condition": "A E",
+          "maintenance_item": "Fuel filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 20,000 km (12,000 miles)"
+        },
+        {
+          "driving_condition": "F",
+          "maintenance_item": "Brake fluid",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "or 12 months"
+        },
+        {
+          "driving_condition": "C H",
+          "maintenance_item": "CVT fluid",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 20,000 km (12,000 miles) or 12 months"
+        },
+        {
+          "driving_condition": "C H",
+          "maintenance_item": "Differential gear oil",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 40,000 km (24,000 miles) or 12 months"
+        },
+        {
+          "driving_condition": "G H",
+          "maintenance_item": "Steering gear, linkage & transfer gear, axle & suspension parts, propeller shafts & front drive shafts",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 10,000 km (6,000 miles) or 6 months for passenger vehicles"
+        },
+        {
+          "driving_condition": "A C G H I",
+          "maintenance_item": "Brake pads, rotors & other brake components",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 5,000 km (3,000 miles) or 3 months"
+        },
+        {
+          "driving_condition": "A C G H I",
+          "maintenance_item": "Brake linings, drums & other brake components",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 10,000 km (6,000 miles) or 6 months"
+        },
+        {
+          "driving_condition": "G",
+          "maintenance_item": "Lock, hinges & bonnet latch",
+          "maintenance_operation": "Lubricate",
+          "maintenance_interval": "Every 5,000 km (3,000 miles) or 3 months"
+        },
+        {
+          "driving_condition": "A",
+          "maintenance_item": "Ventilation air filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "More frequently"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Maintenance operation: Check = Check and correct or replace if necessary.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Maintenance for off-road driving"
+    },
+    {
+      "block_type": "prose",
+      "text": "Whenever you drive off-road through sand, mud or water, more frequent maintenance may be required of the following items:\n\u2022 Brake pads and rotors\n\u2022 Brake lining and drums\n\u2022 Brake lines and hoses\n\u2022 Wheel bearing grease\n\u2022 Differential, transfer gear oil and automatic transmission fluid\n\u2022 Differential gear oil and CVT fluid\n\u2022 Steering linkage\n\u2022 Propeller shaft and front drive shaft\n\u2022 Air cleaner filter\n\u2022 Clutch housing (check water entry)",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Except for Europe. Covers petrol and diesel engine variants, CVT transmission."
+}

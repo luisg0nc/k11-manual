@@ -1,0 +1,202 @@
+{
+  "page_code": "AT-104",
+  "section": "AT",
+  "title": "REPAIR FOR COMPONENT PARTS \u2014 Secondary Pulley Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-104.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT202",
+      "type": "tool_illustration",
+      "description": "Holder KV319-K0070 fitted to the secondary pulley assembly in a vice",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "Disassembly step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT203",
+      "type": "tool_illustration",
+      "description": "Pressing out the needle bearing race using a drift (20 mm dia.)",
+      "bbox_percent": [
+        0,
+        23,
+        35,
+        43
+      ],
+      "associated_step": "Disassembly step 3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT204",
+      "type": "tool_illustration",
+      "description": "Pressing the reduction gear into the pulley using a bearing adaptor",
+      "bbox_percent": [
+        0,
+        57,
+        35,
+        77
+      ],
+      "associated_step": "Assembly step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT205",
+      "type": "tool_illustration",
+      "description": "Pressing the bearing onto the pulley using a bearing adaptor, showing needle bearing race and reduction drive gear",
+      "bbox_percent": [
+        0,
+        78,
+        35,
+        98
+      ],
+      "associated_step": "Assembly step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REPAIR FOR COMPONENT PARTS \u2014 Secondary Pulley Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit the pulley to Tool and fit to a vice.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove and discard the lock nut.",
+          "figure_ref": null,
+          "warnings": [
+            "Do not use an air wrench to loosen the lock nut, internal damage may occur."
+          ],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Press out the bearing as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "The pulley cannot be disassembled."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the bearing for wear, scoring, seizure or noisy operation.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the gear for broken or worn teeth. Inspect the bearing surface contact area for damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Replace parts as necessary.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Press the reduction gear into the pulley.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Press the bearing on to the pulley.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Fit and tighten a new lock nut.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Stake the lock nut after tightening.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Lock nut torque",
+          "value": "123 - 132",
+          "unit": "N\u00b7m",
+          "condition": "Assembly step 3"
+        },
+        {
+          "label": "Lock nut torque",
+          "value": "12.5 - 13.4",
+          "unit": "kg-m",
+          "condition": "Assembly step 3"
+        },
+        {
+          "label": "Lock nut torque",
+          "value": "90 - 97",
+          "unit": "ft-lb",
+          "condition": "Assembly step 3"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0070",
+      "name": "Holder",
+      "usage": "Hold the secondary pulley assembly in a vice during disassembly"
+    },
+    {
+      "part_number": null,
+      "name": "Drift (20 mm dia.)",
+      "usage": "Press out the needle bearing race from the secondary pulley"
+    },
+    {
+      "part_number": null,
+      "name": "Bearing adaptor",
+      "usage": "Press the reduction gear and bearing onto the pulley during assembly"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

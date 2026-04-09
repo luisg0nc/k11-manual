@@ -1,0 +1,212 @@
+{
+  "page_code": "ST-15",
+  "section": "ST",
+  "title": "MANUAL STEERING GEAR AND LINKAGE",
+  "page_type": "prose_procedure",
+  "source_image": "st-15.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "ST-16"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST023",
+      "type": "parts_diagram",
+      "description": "Exploded view of manual steering gear and linkage assembly showing torque values for fasteners, gear and linkage assembly, rack mounting insulator, gear housing mounting bracket, and cotter pin locations.",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        35
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SFA372",
+      "type": "component_photo",
+      "description": "Photo showing tie-rod outer socket removal from knuckle arm using ball joint remover tool HT72520000.",
+      "bbox_percent": [
+        0,
+        37,
+        40,
+        60
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UST024",
+      "type": "component_photo",
+      "description": "Photo showing lower joint dust boot area with retaining plate, boot retaining strap, and lower joint dust boot callouts.",
+      "bbox_percent": [
+        0,
+        60,
+        40,
+        83
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MANUAL STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Gear and linkage assembly",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Rack mounting insulator",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Gear housing mounting bracket",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Cotter pin",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie rod retaining nut torque (upper left fastener)",
+          "value": "24 - 29",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Tie rod retaining nut torque (upper left fastener)",
+          "value": "2.4 - 3.0",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Tie rod retaining nut torque (upper left fastener)",
+          "value": "17 - 22",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Tie rod retaining nut torque (upper right fastener)",
+          "value": "24 - 29",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Tie rod retaining nut torque (upper right fastener)",
+          "value": "2.4 - 3.0",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Tie rod retaining nut torque (upper right fastener)",
+          "value": "17 - 22",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Tie rod end castle nut torque",
+          "value": "29 - 39",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Tie rod end castle nut torque",
+          "value": "3.0 - 4.0",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Tie rod end castle nut torque",
+          "value": "22 - 29",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Gear housing mounting bracket bolt torque",
+          "value": "73 - 97",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Gear housing mounting bracket bolt torque",
+          "value": "7.4 - 9.9",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Gear housing mounting bracket bolt torque",
+          "value": "54 - 72",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove front wheels.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove split pins and retaining nuts from tie rods.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Detach tie-rod outer sockets from knuckle arms using ball joint remover.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove nuts and retaining plates securing lower joint dust boot to body and peel back boot for access to lower joint tightening bolts.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "HT72520000",
+      "name": "Ball joint remover",
+      "usage": "Detach tie-rod outer sockets from knuckle arms"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

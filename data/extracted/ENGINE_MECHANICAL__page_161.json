@@ -1,0 +1,219 @@
+{
+  "page_code": "EM-5028",
+  "section": "EM",
+  "title": "VALVE CLEARANCE",
+  "page_type": "prose_procedure",
+  "source_image": "valve_clearance_em5028.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM254",
+      "type": "component_photo",
+      "description": "Engine bay view showing rocker cover area, referenced for removal step",
+      "bbox_percent": [
+        0,
+        1,
+        32,
+        15
+      ],
+      "associated_step": "Checking step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM281",
+      "type": "component_photo",
+      "description": "Top view of cylinder head showing valves to be checked at No.1 cylinder TDC position",
+      "bbox_percent": [
+        0,
+        16,
+        32,
+        30
+      ],
+      "associated_step": "Checking step 3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM283",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing clearance measurement between valve lifter and camshaft",
+      "bbox_percent": [
+        0,
+        31,
+        32,
+        46
+      ],
+      "associated_step": "Checking - feeler gauge measurement"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM282",
+      "type": "component_photo",
+      "description": "Top view of cylinder head showing valves to be checked after crankshaft turned 360 degrees",
+      "bbox_percent": [
+        0,
+        47,
+        32,
+        61
+      ],
+      "associated_step": "Checking step 4-5"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM284",
+      "type": "component_photo",
+      "description": "Close-up view showing notch rotation toward injection nozzle for shim removal during adjusting procedure",
+      "bbox_percent": [
+        0,
+        62,
+        32,
+        76
+      ],
+      "associated_step": "Adjusting step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "VALVE CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check valve clearance while engine is cold and not running.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "checking_procedure",
+      "title": "Checking",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove rocker cover.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Set No. 1 cylinder at TDC on its compression stroke.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Install flywheel locking pin SST KV109B0112.",
+            "Check that valve lifters on No. 1 cylinder are loose and valve lifters on No. 4 are tight. If not, turn crankshaft one revolution (360\u00b0) and align as above."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Check only those valves shown in the figure.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Using a feeler gauge, measure clearance between valve lifter and camshaft.",
+            "Record any valve clearance measurements which are out of specification. They will be used later to determine the required replacement adjusting shim."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Turn crankshaft one revolution (360\u00b0) and install flywheel locking pin SST KV109B0112.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Check those valves shown in the figure.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Use the same procedure as mentioned in step 3."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "If all valve clearances are within specification, install the rocker cover. Refer to \"CYLINDER HEAD\", (EM-5027).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve clearance for checking (Cold): Intake",
+          "value": "0.07 - 0.23",
+          "unit": "mm",
+          "condition": "Cold"
+        },
+        {
+          "label": "Valve clearance for checking (Cold): Intake",
+          "value": "0.003 - 0.009",
+          "unit": "in",
+          "condition": "Cold"
+        },
+        {
+          "label": "Valve clearance for checking (Cold): Exhaust",
+          "value": "0.22 - 0.38",
+          "unit": "mm",
+          "condition": "Cold"
+        },
+        {
+          "label": "Valve clearance for checking (Cold): Exhaust",
+          "value": "0.009 - 0.015",
+          "unit": "in",
+          "condition": "Cold"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjusting"
+    },
+    {
+      "block_type": "prose",
+      "text": "Adjust valve clearance while engine is cold.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "adjusting_procedure",
+      "title": "Adjusting",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Turn crankshaft, to position cam lobe on camshaft of valve that must be adjusted upward.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "Rotate notch toward injection nozzle (see figure) to simplify shim removal later."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0112",
+      "name": "Flywheel locking pin",
+      "usage": "Lock flywheel at TDC during valve clearance checking and adjustment"
+    }
+  ],
+  "cross_references": [
+    "EM-5027"
+  ],
+  "model_notes": null
+}

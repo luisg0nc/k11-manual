@@ -1,0 +1,119 @@
+{
+  "page_code": "ST-17",
+  "section": "ST",
+  "title": "MANUAL STEERING GEAR AND LINKAGE",
+  "page_type": "prose_procedure",
+  "source_image": "ST-17.jpg",
+  "continuation": {
+    "continues_from": "ST-16",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST028",
+      "type": "parts_diagram",
+      "description": "Rack mounting bolt tightening sequence diagram showing bolts numbered 1-4 with temporary tightening (bolts 1 and 2) and final tightening (bolts 3 and 4) sequence indicated",
+      "bbox_percent": [
+        2,
+        13,
+        45,
+        32
+      ],
+      "associated_step": "Installation - rack mounting bolt tightening sequence"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST029",
+      "type": "parts_diagram",
+      "description": "Lower joint installation diagram showing column, cut out, lower joint, guide plate, and section A-A view illustrating alignment of upper slit with steering column cut out and lower slit with plastic guide plate",
+      "bbox_percent": [
+        2,
+        33,
+        45,
+        55
+      ],
+      "associated_step": "Installation - lower joint fitting"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MANUAL STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Installation is basically the reverse procedure to removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Ensure that there are no cracks or splits in any of the dust boots prior to fitting.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Ensure that the rack mounting clamps are oriented correctly with the oval holes at the top.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "When replacing steering gear, ensure correct rack length is selected. Short travel is for vehicles fitted with wide tyres (175/60-13). Standard travel rack is for all other vehicles.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Short travel is for vehicles fitted with wide tyres (175/60-13)",
+            "Standard travel rack is for all other vehicles."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "When fitting rack mounting bolts, initially install bolts 1 and 2 so that the mating parts are not clamped and then install bolts 3 and 4 and tighten in the sequence shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "When fitting lower joint ensure upper slit is aligned with steering column cut out and lower slit aligns with plastic guide plate.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Ensure upper bolt fits through cut-out portion of column and the lower bolt fits through the cut-out in the plastic guide on the pinion. Fit both bolts loosely. Then tighten lower bolt to specified torque first, followed by upper bolt.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: After installing, turn the steering wheel to make sure it moves smoothly and that the number of turns from the straight forward position to left and right locks are equal. Be sure that the steering wheel is in a neutral position when driving straight ahead.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Short travel rack is for vehicles fitted with wide tyres (175/60-13). Standard travel rack is for all other vehicles."
+}

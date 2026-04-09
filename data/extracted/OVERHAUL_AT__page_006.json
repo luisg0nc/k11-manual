@@ -1,0 +1,101 @@
+{
+  "page_code": "AT-6",
+  "section": "AT",
+  "title": "INTRODUCTION \u2014 RE0F05A NISSAN CONTINUOUSLY VARIABLE TRANSMISSION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-6.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT009",
+      "type": "parts_diagram",
+      "description": "Cross-sectional diagram of the RE0F05A Nissan CVT showing internal components including electromagnetic powder clutch, primary pulley, forward and reverse changeover system, oil pump, steel belt, secondary pulley, final gear, reduction gear.",
+      "bbox_percent": [
+        2,
+        22,
+        98,
+        98
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "INTRODUCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "RE0F05A NISSAN CONTINUOUSLY VARIABLE TRANSMISSION"
+    },
+    {
+      "block_type": "prose",
+      "text": "The Nissan Continuously Variable Transmission (N\u00b7CVT) is an electronically controlled steel belt/pulley drive system, giving variable ratios and stepless speed changes from starting to overdrive. Hydraulic pressure acts upon two split pulleys, varying the contact radius (or groove width) of each, causing a steel belt to alter input or output speed. The pressure applied to the pulleys is determined by engine speed, engine torque, accelerator pedal position, etc. Signals are processed by an Electronic Control Unit, which in turn controls the hydraulic system via a control valve assembly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "An electromagnetic powder clutch provides drive between engine and transmission.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Forward to reverse changeover is by conventional synchroniser assembly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "An engine braking effect occurs during deceleration in the \"Ds\" mode.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Cross-section of RE0F05A CVT with labelled components",
+      "callouts": [
+        {
+          "label": "Electromagnetic powder clutch",
+          "position": "top-right"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "top-centre-left"
+        },
+        {
+          "label": "Forward and reverse changeover system",
+          "position": "top-centre-right"
+        },
+        {
+          "label": "Oil pump",
+          "position": "left"
+        },
+        {
+          "label": "Steel belt",
+          "position": "bottom-centre-left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "bottom-centre"
+        },
+        {
+          "label": "Final gear",
+          "position": "bottom-centre"
+        },
+        {
+          "label": "Reduction gear",
+          "position": "bottom-right"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to Nissan Micra K11 equipped with RE0F05A N\u00b7CVT (Nissan Continuously Variable Transmission)."
+}

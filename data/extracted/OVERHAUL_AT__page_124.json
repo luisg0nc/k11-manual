@@ -1,0 +1,180 @@
+{
+  "page_code": "AT-124",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-124.jpg",
+  "continuation": {
+    "continues_from": "AT-123",
+    "continues_to": "AT-125"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT274",
+      "type": "parts_diagram",
+      "description": "Oil pump assembly showing gasket and pitot tube positioning",
+      "bbox_percent": [
+        0,
+        5,
+        35,
+        35
+      ],
+      "associated_step": "67-68"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT275",
+      "type": "parts_diagram",
+      "description": "Oil pump fitted to casing showing bolt tightening arrows",
+      "bbox_percent": [
+        0,
+        37,
+        35,
+        67
+      ],
+      "associated_step": "70-71"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 67,
+          "text": "Position the pitot tube as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 68,
+          "text": "Fit a new oil pump gasket in to position.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 69,
+          "text": "Fit a new O ring to the oil pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 70,
+          "text": "Fit the oil pump to the casing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 71,
+          "text": "Tighten the bolts evenly. Torque = 9.5 - 10.5 N\u00b7m (0.97 - 1.07 kg-m, 7 - 8 ft-lb)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 72,
+          "text": "Install the oil pump drive shaft.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 73,
+          "text": "Fit the oil cooler check valve and pipes.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Use new sealing washers. Do not re-use old ones. Torque: Inlet = 32 - 37 N\u00b7m (3.3 - 3.8 kg-m, 24 - 28 ft-lb), Outlet = 35 - 43 N\u00b7m (3.6 - 4.4 kg-m, 26 - 32 ft-lb)",
+            "When fitting the outlet pipe, tighten the joint nut first, then the flare nut.",
+            "When fitting the inlet pipe, ensure that there is more than 3 mm clearance between the pipe and the shift connecting rod, when the rod is in \"N\" position."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Oil pump bolt torque",
+          "value": "9.5 - 10.5",
+          "unit": "N\u00b7m",
+          "condition": "Tighten evenly"
+        },
+        {
+          "label": "Oil pump bolt torque",
+          "value": "0.97 - 1.07",
+          "unit": "kg-m",
+          "condition": "Tighten evenly"
+        },
+        {
+          "label": "Oil pump bolt torque",
+          "value": "7 - 8",
+          "unit": "ft-lb",
+          "condition": "Tighten evenly"
+        },
+        {
+          "label": "Oil cooler check valve/pipe torque - Inlet",
+          "value": "32 - 37",
+          "unit": "N\u00b7m",
+          "condition": "Use new sealing washers"
+        },
+        {
+          "label": "Oil cooler check valve/pipe torque - Inlet",
+          "value": "3.3 - 3.8",
+          "unit": "kg-m",
+          "condition": "Use new sealing washers"
+        },
+        {
+          "label": "Oil cooler check valve/pipe torque - Inlet",
+          "value": "24 - 28",
+          "unit": "ft-lb",
+          "condition": "Use new sealing washers"
+        },
+        {
+          "label": "Oil cooler check valve/pipe torque - Outlet",
+          "value": "35 - 43",
+          "unit": "N\u00b7m",
+          "condition": "Use new sealing washers"
+        },
+        {
+          "label": "Oil cooler check valve/pipe torque - Outlet",
+          "value": "3.6 - 4.4",
+          "unit": "kg-m",
+          "condition": "Use new sealing washers"
+        },
+        {
+          "label": "Oil cooler check valve/pipe torque - Outlet",
+          "value": "26 - 32",
+          "unit": "ft-lb",
+          "condition": "Use new sealing washers"
+        },
+        {
+          "label": "Inlet pipe clearance from shift connecting rod in N position",
+          "value": "more than 3",
+          "unit": "mm",
+          "condition": "Rod in N position"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic Transmission (AT) assembly procedure. Oil cooler pipe inlet clearance check references shift connecting rod in N position."
+}

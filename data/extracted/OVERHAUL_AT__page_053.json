@@ -1,0 +1,449 @@
+{
+  "page_code": "AT-53",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Self Diagnosis Items (without using CONSULT) (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-53.jpg",
+  "continuation": {
+    "continues_from": "AT-52",
+    "continues_to": "AT-54"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT103",
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern diagram for start diagnosis \u2014 7 blinks, all circuits OK. Timing: t1=2 secs, t2=2-5 secs, t3=1 sec.",
+      "bbox_percent": [
+        2,
+        6,
+        48,
+        22
+      ],
+      "associated_step": "start_diagnosis"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern when first blink is longer than others",
+      "bbox_percent": [
+        2,
+        25,
+        48,
+        40
+      ],
+      "associated_step": "blink_pattern_1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "connector_diagram",
+      "description": "Accelerator switch and accelerator position switch circuit connected to ECU terminals 6 and 15",
+      "bbox_percent": [
+        50,
+        25,
+        98,
+        45
+      ],
+      "associated_step": "blink_pattern_1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern when second blink is longer than others",
+      "bbox_percent": [
+        2,
+        47,
+        48,
+        63
+      ],
+      "associated_step": "blink_pattern_2"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "connector_diagram",
+      "description": "Inhibitor switch circuit: IGN-SW, 10A fuse, inhibitor switch positions P/R/N/D/DS connected to ECU terminals 10, 5, 2, 3",
+      "bbox_percent": [
+        50,
+        47,
+        98,
+        67
+      ],
+      "associated_step": "blink_pattern_2"
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern when third blink is longer than others",
+      "bbox_percent": [
+        2,
+        70,
+        48,
+        87
+      ],
+      "associated_step": "blink_pattern_3"
+    },
+    {
+      "fig_id": "fig7",
+      "ref_code": null,
+      "type": "connector_diagram",
+      "description": "Vehicle speed sensor circuit connected to ECU terminals 7 and 16",
+      "bbox_percent": [
+        50,
+        70,
+        98,
+        92
+      ],
+      "associated_step": "blink_pattern_3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Self Diagnosis Items (without using CONSULT) (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Self Diagnosis Blink Pattern Reference",
+      "columns": [
+        {
+          "key": "lamp_pattern",
+          "label": "N-CVT warning lamp"
+        },
+        {
+          "key": "faulty_circuit",
+          "label": "Faulty Circuit"
+        }
+      ],
+      "rows": [
+        {
+          "lamp_pattern": "Start diagnosis: 7 blinks. Starting signal ON then OFF. t1=2 secs, t2=2-5 secs, t3=1 sec.",
+          "faulty_circuit": "All circuits confirmed OK."
+        },
+        {
+          "lamp_pattern": "1. When first blink is longer than others",
+          "faulty_circuit": "Accelerator or accelerator position switch circuit is short-circuited or disconnected. Accel. sw. terminals 1,2,3,4 and Accel. position sw. connected to ECU terminals 6 and 15. Go to accelerator and accelerator position switch circuit check."
+        },
+        {
+          "lamp_pattern": "2. When second blink is longer than others",
+          "faulty_circuit": "Inhibitor switch circuit is short-circuited or disconnected. IGN-SW \u2014 10A \u2014 Inhibit. sw. positions P(7), R(8), N(9), D(6), DS(5) connected to ECU terminals 10, 5, 2, 3. Go to inhibit switch circuit check."
+        },
+        {
+          "lamp_pattern": "3. When third blink is longer than others",
+          "faulty_circuit": "Vehicle speed sensor is short-circuited or disconnected. Vehicle speed sensor terminals 2 and 1 connected to ECU terminals 7 and 16. Go to vehicle speed sensor circuit check."
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "t1",
+          "value": "2",
+          "unit": "secs",
+          "condition": "Starting signal duration"
+        },
+        {
+          "label": "t2",
+          "value": "2-5",
+          "unit": "secs",
+          "condition": "ON period between blinks"
+        },
+        {
+          "label": "t3",
+          "value": "1",
+          "unit": "sec",
+          "condition": "Blink duration"
+        }
+      ]
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Self Diagnosis Blink Pattern Diagnosis",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "start",
+          "text": "Start diagnosis \u2014 7 blinks (all circuits OK)"
+        },
+        {
+          "id": "n2",
+          "type": "decision",
+          "text": "First blink longer than others?"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Accelerator or accelerator position switch circuit is short-circuited or disconnected"
+        },
+        {
+          "id": "n4",
+          "type": "reference",
+          "text": "Go to accelerator and accelerator position switch circuit check"
+        },
+        {
+          "id": "n5",
+          "type": "decision",
+          "text": "Second blink longer than others?"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "Inhibitor switch circuit is short-circuited or disconnected"
+        },
+        {
+          "id": "n7",
+          "type": "reference",
+          "text": "Go to inhibit switch circuit check"
+        },
+        {
+          "id": "n8",
+          "type": "decision",
+          "text": "Third blink longer than others?"
+        },
+        {
+          "id": "n9",
+          "type": "action",
+          "text": "Vehicle speed sensor is short-circuited or disconnected"
+        },
+        {
+          "id": "n10",
+          "type": "reference",
+          "text": "Go to vehicle speed sensor circuit check"
+        },
+        {
+          "id": "n11",
+          "type": "terminal",
+          "text": "All circuits confirmed OK"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "Yes"
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n5",
+          "label": "No"
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "Yes"
+        },
+        {
+          "from": "n6",
+          "to": "n7",
+          "label": ""
+        },
+        {
+          "from": "n5",
+          "to": "n8",
+          "label": "No"
+        },
+        {
+          "from": "n8",
+          "to": "n9",
+          "label": "Yes"
+        },
+        {
+          "from": "n9",
+          "to": "n10",
+          "label": ""
+        },
+        {
+          "from": "n8",
+          "to": "n11",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Accelerator Switch / Accelerator Position Switch Circuit (Blink Pattern 1)",
+      "components": [
+        {
+          "id": "c1",
+          "name": "Accel. sw.",
+          "terminals": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "c2",
+          "name": "Accel. position sw.",
+          "terminals": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "c3",
+          "name": "E.C.U.",
+          "terminals": [
+            "6",
+            "15"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "c1.2",
+          "to": "c3.6",
+          "color": null
+        },
+        {
+          "from": "c1.4",
+          "to": "c3.15",
+          "color": null
+        },
+        {
+          "from": "c2.3",
+          "to": "c3.6",
+          "color": null
+        },
+        {
+          "from": "c2.4",
+          "to": "c3.15",
+          "color": null
+        }
+      ]
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Inhibitor Switch Circuit (Blink Pattern 2)",
+      "components": [
+        {
+          "id": "c1",
+          "name": "IGN-SW",
+          "terminals": []
+        },
+        {
+          "id": "c2",
+          "name": "10A fuse",
+          "terminals": []
+        },
+        {
+          "id": "c3",
+          "name": "Inhibit. sw.",
+          "terminals": [
+            "P(7)",
+            "R(8)",
+            "N(9)",
+            "D(6)",
+            "DS(5)"
+          ]
+        },
+        {
+          "id": "c4",
+          "name": "E.C.U.",
+          "terminals": [
+            "10",
+            "5",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "c1",
+          "to": "c2",
+          "color": null
+        },
+        {
+          "from": "c2",
+          "to": "c3",
+          "color": null
+        },
+        {
+          "from": "c3.P",
+          "to": "c4.10",
+          "color": null
+        },
+        {
+          "from": "c3.R",
+          "to": "c4.5",
+          "color": null
+        },
+        {
+          "from": "c3.N",
+          "to": "c4.2",
+          "color": null
+        },
+        {
+          "from": "c3.DS",
+          "to": "c4.3",
+          "color": null
+        }
+      ]
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Vehicle Speed Sensor Circuit (Blink Pattern 3)",
+      "components": [
+        {
+          "id": "c1",
+          "name": "Vehicle speed sensor",
+          "terminals": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "c2",
+          "name": "E.C.U.",
+          "terminals": [
+            "7",
+            "16"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "c1.2",
+          "to": "c2.7",
+          "color": null
+        },
+        {
+          "from": "c1.1",
+          "to": "c2.16",
+          "color": null
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "accelerator and accelerator position switch circuit check",
+    "inhibit switch circuit check",
+    "vehicle speed sensor circuit check"
+  ],
+  "model_notes": "Applies to N-CVT (Nissan Continuously Variable Transmission) equipped models. Self-diagnosis performed without CONSULT tool."
+}

@@ -1,0 +1,195 @@
+{
+  "page_code": "AT-69",
+  "section": "AT",
+  "title": "Inhibitor Switch, Accelerator Switch, Accelerator Position Switch, Stop Lamp Switch and Engine Speed Signal Circuit Checks (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-69.jpg",
+  "continuation": {
+    "continues_from": "AT-68",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT139",
+      "type": "component_photo",
+      "description": "Data monitor display showing: MONITOR / NO FAIL, CAR SPEED SEN 0 km/h, ENGINE REV 1160 rpm, CLUTCH CRRNT* 0.0A, CLUTCH CRRNT 0.0A, PULLEY RATIO 2.50, ACCEL. SW. OFF, THRTL OPEN SW ON, AIR/C SIGNAL OFF, STOP LAMP SW OFF \u2014 labelled RECORD",
+      "bbox_percent": [
+        0,
+        5,
+        38,
+        32
+      ],
+      "associated_step": "B - Check engine speed signal circuit"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT140",
+      "type": "connector_diagram",
+      "description": "Illustration showing voltmeter connected between N-CVT C/U connector terminal #22 and body ground",
+      "bbox_percent": [
+        0,
+        50,
+        38,
+        95
+      ],
+      "associated_step": "B - Check engine speed signal circuit - voltage measurement"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inhibitor Switch, Accelerator Switch, Accelerator Position Switch, Stop Lamp Switch and Engine Speed Signal Circuit Checks (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Continued from previous page",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Engine Speed Signal Circuit Check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "reference",
+          "text": "B (Continued from previous page)"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "B \u2014 Check engine speed signal circuit\n1. Start engine\n2. Select \"DATA MONITOR\" / Read \"ENGINE RPM\" / Check change in engine speed according to throttle opening\n\u2014 OR \u2014\nCheck voltage between N-CVT control unit terminal #22 and body ground\nVoltage: 0.9 to 4.5 V"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Perform self diagnosis after test drive"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Inspection END"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Check following items:\n\u2022 Check continuity between N-CVT control unit terminal #22 and engine control unit terminal #2\n\u2022 Perform engine control unit self diagnosis. (Refer to section EF & EC)"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "1. Check N-CVT control unit I/O signals\n2. Re-check N-CVT control unit pin terminals for damage or incorrect connection of control unit harness connector"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n2",
+          "to": "n5",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n6",
+          "label": "N.G."
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Voltage between N-CVT control unit terminal #22 and body ground",
+          "value": "0.9 to 4.5",
+          "unit": "V",
+          "condition": "Engine running"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "CAR SPEED SEN",
+          "value": "0",
+          "unit": "km/h",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "ENGINE REV",
+          "value": "1160",
+          "unit": "rpm",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "CLUTCH CRRNT*",
+          "value": "0.0",
+          "unit": "A",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "CLUTCH CRRNT",
+          "value": "0.0",
+          "unit": "A",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "PULLEY RATIO",
+          "value": "2.50",
+          "unit": "",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "ACCEL. SW.",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "THRTL OPEN SW",
+          "value": "ON",
+          "unit": "",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "AIR/C SIGNAL",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Data monitor record"
+        },
+        {
+          "label": "STOP LAMP SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Data monitor record"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EF & EC"
+  ],
+  "model_notes": "Applicable to N-CVT (Nissan Continuously Variable Transmission) equipped vehicles"
+}

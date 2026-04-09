@@ -1,0 +1,308 @@
+{
+  "page_code": "AT-86",
+  "section": "AT",
+  "title": "Electrical Component Inspection N-CVT Control Unit",
+  "page_type": "spec_table",
+  "source_image": "page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT141",
+      "type": "connector_diagram",
+      "description": "N-CVT Control Unit connector pin layout diagram showing two connector blocks with pin numbering. Upper block: pins 1-16 (with pin 4 highlighted). Lower block: pins 17-28 (with pin 20 highlighted).",
+      "bbox_percent": [
+        2,
+        4,
+        32,
+        22
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electrical Component Inspection N-CVT Control Unit"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Check table"
+    },
+    {
+      "block_type": "table",
+      "title": "N-CVT Control Unit Check Table",
+      "columns": [
+        {
+          "key": "pin_number",
+          "label": "Pin Number"
+        },
+        {
+          "key": "circuit",
+          "label": "Circuit"
+        },
+        {
+          "key": "io",
+          "label": "Input/Output"
+        },
+        {
+          "key": "spec_ign_on",
+          "label": "Specification/value (V) \u2014 Ign ON (Eng off)"
+        },
+        {
+          "key": "spec_eng_idling",
+          "label": "Specification/value (V) \u2014 Eng idling"
+        },
+        {
+          "key": "comments",
+          "label": "Comments"
+        }
+      ],
+      "rows": [
+        {
+          "pin_number": "1",
+          "circuit": "El-mag clutch (+)",
+          "io": "Output",
+          "spec_ign_on": "P or N range: 6 - 8V; D range, accelerator off: 0.2 - 1.8V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "2",
+          "circuit": "D range switch",
+          "io": "Input",
+          "spec_ign_on": "D range: Approx 12V. Other ranges: 0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "3",
+          "circuit": "Ds range switch",
+          "io": "Input",
+          "spec_ign_on": "Ds range: Approx 12V. Other ranges: 0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "4",
+          "circuit": "Eng/water temp signal",
+          "io": "Input",
+          "spec_ign_on": "Above 70 degc: Approx 12V; Below 50 degc: 0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "5",
+          "circuit": "P & N range switch",
+          "io": "Input",
+          "spec_ign_on": "P or N range: Approx 12V. Other ranges: 0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "6",
+          "circuit": "Accelerator switch",
+          "io": "Input",
+          "spec_ign_on": "Accelerator released: 0V; Accelerator depressed: Approx 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "7",
+          "circuit": "Vehicle speed sensor (+)",
+          "io": "Input",
+          "spec_ign_on": "Vehicle speed 0 km/h: 0V*",
+          "spec_eng_idling": "",
+          "comments": "Voltage rises with vehicle speed"
+        },
+        {
+          "pin_number": "16",
+          "circuit": "Vehicle speed sensor (\u2212)",
+          "io": "Input",
+          "spec_ign_on": "Vehicle speed 30 km/h: 5V min.*",
+          "spec_eng_idling": "",
+          "comments": "Voltage rises with vehicle speed"
+        },
+        {
+          "pin_number": "8",
+          "circuit": "Ign power supply",
+          "io": "Input",
+          "spec_ign_on": "Approx 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "9",
+          "circuit": "Ign power supply",
+          "io": "Input",
+          "spec_ign_on": "Approx 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "10",
+          "circuit": "R range switch",
+          "io": "Input",
+          "spec_ign_on": "R range: Approx 12V. Other ranges: 0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "11",
+          "circuit": "Stop lamp switch",
+          "io": "Input",
+          "spec_ign_on": "Brake on: 0V, Brake off: 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "12",
+          "circuit": "Air con signal",
+          "io": "Input",
+          "spec_ign_on": "Aircon on: 0V, Aircon off: 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "13",
+          "circuit": "Torque signal",
+          "io": "Input",
+          "spec_ign_on": "0V",
+          "spec_eng_idling": "",
+          "comments": "Engine stall: 12V"
+        },
+        {
+          "pin_number": "14",
+          "circuit": "ABS active signal",
+          "io": "Input",
+          "spec_ign_on": "ABS active: 0V, inactive: 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "15",
+          "circuit": "Accel pos. switch",
+          "io": "Input",
+          "spec_ign_on": "1/4 open: 0V, 3/4 open: 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "17",
+          "circuit": "\u2014",
+          "io": "\u2014",
+          "spec_ign_on": "\u2014",
+          "spec_eng_idling": "",
+          "comments": "\u2014"
+        },
+        {
+          "pin_number": "18",
+          "circuit": "\u2014",
+          "io": "\u2014",
+          "spec_ign_on": "\u2014",
+          "spec_eng_idling": "",
+          "comments": "\u2014"
+        },
+        {
+          "pin_number": "19",
+          "circuit": "Line press sol'd",
+          "io": "Output",
+          "spec_ign_on": "P or N range: Approx 12V",
+          "spec_eng_idling": "",
+          "comments": "Engine stall: 0V"
+        },
+        {
+          "pin_number": "20",
+          "circuit": "N-CVT warning lamp",
+          "io": "Output",
+          "spec_ign_on": "0V",
+          "spec_eng_idling": "Approx 12V",
+          "comments": ""
+        },
+        {
+          "pin_number": "21",
+          "circuit": "Memory backup power supply",
+          "io": "Input",
+          "spec_ign_on": "Approx 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "22",
+          "circuit": "Eng speed signal",
+          "io": "Input",
+          "spec_ign_on": "Varies according to engine speed",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "23",
+          "circuit": "\u2014",
+          "io": "\u2014",
+          "spec_ign_on": "\u2014",
+          "spec_eng_idling": "",
+          "comments": "\u2014"
+        },
+        {
+          "pin_number": "24",
+          "circuit": "Clutch signal",
+          "io": "Output",
+          "spec_ign_on": "P or N range: 0V, D range Accelerator off: Approx 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "25",
+          "circuit": "Idle up relay",
+          "io": "Output",
+          "spec_ign_on": "ABS active: 0V, inactive: Approx. 12V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "26",
+          "circuit": "Ground",
+          "io": "Output",
+          "spec_ign_on": "0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "27",
+          "circuit": "Ground",
+          "io": "Output",
+          "spec_ign_on": "0V",
+          "spec_eng_idling": "",
+          "comments": ""
+        },
+        {
+          "pin_number": "28",
+          "circuit": "El-mag clutch (\u2212)",
+          "io": "Output",
+          "spec_ign_on": "P or N range: 6 - 8V; D range, accelerator off: 0.2 - 1.8V",
+          "spec_eng_idling": "",
+          "comments": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "* Voltage taken between pins.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to N-CVT (Nissan Continuously Variable Transmission) equipped variants of the K11 Micra."
+}

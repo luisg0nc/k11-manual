@@ -1,0 +1,163 @@
+{
+  "page_code": "GI-5006",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION \u2014 Prefix and suffix designations",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Diagram showing prefix and suffix designation codes for the Nissan Micra K11, with lines connecting each position in the model code string to its meaning",
+      "bbox_percent": [
+        5,
+        5,
+        95,
+        45
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Prefix and suffix designations:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Example model code shown: E AN A L D F K11 E E A",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Prefix Code Meanings",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "code": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "code": "AE",
+          "meaning": "CG10DE"
+        },
+        {
+          "code": "AN",
+          "meaning": "CG13DE"
+        },
+        {
+          "code": "WZ",
+          "meaning": "VJZ"
+        },
+        {
+          "code": "A",
+          "meaning": "2-wheel drive"
+        },
+        {
+          "code": "L",
+          "meaning": "Left-hand drive"
+        },
+        {
+          "code": "R",
+          "meaning": "Right-hand drive"
+        },
+        {
+          "code": "B",
+          "meaning": "L grade"
+        },
+        {
+          "code": "D",
+          "meaning": "GX grade"
+        },
+        {
+          "code": "F",
+          "meaning": "SE grade"
+        },
+        {
+          "code": "T",
+          "meaning": "Si/SRi grade"
+        },
+        {
+          "code": "F",
+          "meaning": "5-speed manual transaxle"
+        },
+        {
+          "code": "Z",
+          "meaning": "N\u2022CVT"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Suffix Code Meanings",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "A",
+          "meaning": "Standard equipment"
+        },
+        {
+          "code": "E",
+          "meaning": "For RHD markets"
+        },
+        {
+          "code": "G",
+          "meaning": "For Central & South Europe"
+        },
+        {
+          "code": "S",
+          "meaning": "For North Europe"
+        },
+        {
+          "code": "M",
+          "meaning": "For Australia"
+        },
+        {
+          "code": "E",
+          "meaning": "E.G.I."
+        },
+        {
+          "code": "N",
+          "meaning": "Diesel"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Prefix L = Left-hand drive; R = Right-hand drive. Suffix E = For RHD markets. Transaxle options: F = 5-speed manual, Z = N\u2022CVT."
+}

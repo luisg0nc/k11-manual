@@ -1,0 +1,292 @@
+{
+  "page_code": "AT-58",
+  "section": "AT",
+  "title": "Inhibitor switch circuit check",
+  "page_type": "flowchart",
+  "source_image": "AT-58.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "ATN0699D UAT112",
+      "type": "wiring_schematic",
+      "description": "Inhibitor switch wiring schematic showing IGN-SW with 10A fuse, Inhibitor SW connector pins 7,8,9,5,6 and 10,5,2,3 connecting to N-CVT C/U",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT113",
+      "type": "component_photo",
+      "description": "Selector lever positions diagram showing N, R, P, D, L (Ds) positions with DATA MONITOR display showing STOP LAMP SW OFF, S-RANGE SW OFF, D-RANGE SW OFF, R-RANGE SW OFF, NEUTRAL SW ON, A.B.S. SIGNAL OFF, TORQUE SIGNAL ON \u2014 RECORD label",
+      "bbox_percent": [
+        0,
+        18,
+        35,
+        52
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT114",
+      "type": "connector_diagram",
+      "description": "N-CVT C/U connector diagram showing terminals 5, 10, 2, 3 with voltmeter connected between terminals and ground, selector lever positions shown",
+      "bbox_percent": [
+        0,
+        53,
+        35,
+        98
+      ],
+      "associated_step": "2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inhibitor switch circuit check"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Inhibitor switch circuit check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check input signal\n1. Switch ignition to \"ON\"\n2. Select \"DATA MONITOR\"\n   \u2022 Check that reading changes from \"OFF\" to \"ON\" when selector lever is moved from P, R, N, D and Ds position in this order\n\u2014 OR \u2014\n   \u2022 Check voltage between the N-CVT control unit terminals #5, #10, #2, #3 and ground while moving selector lever through each range.\n   Voltage between terminals and ground:\n   B = Battery voltage\n   0 = 0V\n   [Table: see voltage_table block]"
+        },
+        {
+          "id": "n2",
+          "type": "decision",
+          "text": "O.K. / N.G."
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check following items:\n\u2022 Inhibitor switch (refer to \"Electrical component inspection\")\n\u2022 Harness continuity between ignition switch and inhibitor switch\n\u2022 Harness continuity between inhibitor switch and N-CVT control unit"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Perform self diagnosis after test drive"
+        },
+        {
+          "id": "n5",
+          "type": "decision",
+          "text": "O.K. / N.G."
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "1. Check N-CVT control unit I/O signal\n2. Re-check N-CVT control unit pin terminals for damage or incorrect connection of control unit harness connector"
+        },
+        {
+          "id": "n7",
+          "type": "terminal",
+          "text": "Inspection end"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "N.G."
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": ""
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Voltage between N-CVT control unit terminals and ground (B = Battery voltage, 0 = 0V)",
+      "columns": [
+        {
+          "key": "selector",
+          "label": "Selector Position"
+        },
+        {
+          "key": "t5",
+          "label": "#5"
+        },
+        {
+          "key": "t10",
+          "label": "#10"
+        },
+        {
+          "key": "t2",
+          "label": "#2"
+        },
+        {
+          "key": "t3",
+          "label": "#3"
+        }
+      ],
+      "rows": [
+        {
+          "selector": "P\u2022N",
+          "t5": "B",
+          "t10": "0",
+          "t2": "0",
+          "t3": "0"
+        },
+        {
+          "selector": "R",
+          "t5": "0",
+          "t10": "B",
+          "t2": "0",
+          "t3": "0"
+        },
+        {
+          "selector": "D",
+          "t5": "0",
+          "t10": "0",
+          "t2": "B",
+          "t3": "0"
+        },
+        {
+          "selector": "Ds",
+          "t5": "0",
+          "t10": "0",
+          "t2": "0",
+          "t3": "B"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "DATA MONITOR - STOP LAMP SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Neutral SW ON"
+        },
+        {
+          "label": "DATA MONITOR - S-RANGE SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Neutral SW ON"
+        },
+        {
+          "label": "DATA MONITOR - D-RANGE SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Neutral SW ON"
+        },
+        {
+          "label": "DATA MONITOR - R-RANGE SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Neutral SW ON"
+        },
+        {
+          "label": "DATA MONITOR - NEUTRAL SW",
+          "value": "ON",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "DATA MONITOR - A.B.S. SIGNAL",
+          "value": "OFF",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "DATA MONITOR - TORQUE SIGNAL",
+          "value": "ON",
+          "unit": "",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Inhibitor switch circuit",
+      "components": [
+        {
+          "id": "c1",
+          "name": "IGN-SW",
+          "note": ""
+        },
+        {
+          "id": "c2",
+          "name": "Fuse 10A",
+          "note": ""
+        },
+        {
+          "id": "c3",
+          "name": "Inhibitor SW",
+          "note": "Pins: 7, 8, 9, 5, 6 / 10, 5, 2, 3"
+        },
+        {
+          "id": "c4",
+          "name": "N-CVT C/U",
+          "note": ""
+        }
+      ],
+      "wires": [
+        {
+          "from": "c1",
+          "to": "c2",
+          "color": "",
+          "note": ""
+        },
+        {
+          "from": "c2",
+          "to": "c3",
+          "color": "",
+          "note": ""
+        },
+        {
+          "from": "c3",
+          "to": "c4",
+          "color": "",
+          "note": "Terminals 10, 5, 2, 3"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Electrical component inspection"
+  ],
+  "model_notes": "Applies to N-CVT automatic transmission variant of K11 Micra."
+}

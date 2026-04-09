@@ -1,0 +1,194 @@
+{
+  "page_code": "EM-5032",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5032.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM272",
+      "type": "component_photo",
+      "description": "Photograph showing engine bay with engine removal setup, slingers and mounting points visible",
+      "bbox_percent": [
+        2,
+        33,
+        32,
+        58
+      ],
+      "associated_step": "19"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "prose",
+      "text": "WARNING:\n\u2022 Situate vehicle on a flat and solid surface.\n\u2022 Place chocks at front and back of rear wheels.\n\u2022 Do not remove engine until exhaust system has completely cooled down.\n\u2022 For safety during subsequent steps, the tension of wires should be slackened against the engine.\n\u2022 Before removing front axle from transaxle, place safety stands under designated front supporting points. Refer to GI section for lifting points and towing.\n\u2022 Be sure to hoist engine and transaxle in a safe manner.\n\u2022 For engines not equipped with engine slingers, attach proper slingers and bolts described in PARTS CATALOG or Eurofast.",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 When lifting engine, be careful not to strike adjacent parts, especially accelerator wire casing, brake lines, and brake master cylinder.\n\u2022 Always use engine slingers when hoisting the engine.\n\u2022 When removing drive shaft, be careful not to damage transaxle oil seal.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "engine_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove engine undercovers and splash guards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Drain coolant from both radiator and engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Drain transaxle oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove hood.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove fresh air duct.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Disconnect all coolant hoses from engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Disconnect fuel tubes and vacuum tubes.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Release drive belt adjusting bolts and remove power steering pump from engine. Bind pump properly to the vehicle.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Remove the battery and the battery tray.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Disconnect or remove electrical wiring where necessary.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Disconnect clutch lever cable and accelerator cable.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Disconnect speedometer and neutral switch connector from transaxle housing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Remove front wheels.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Remove brake caliper mounting bolts and bind caliper properly to vehicle LH & RH.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Disconnect tie rod ball joints and lower ball joints (LH & RH).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Remove stabilizer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Remove drive shafts from transaxle.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 19,
+          "text": "Mount suitable slingers to cylinder head. Use a suitable hoist to release the force on the engine mountings.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI"
+  ],
+  "model_notes": "LH & RH distinctions noted for brake calipers and ball joints. Procedure applies to engine/transaxle assembly removal. Power steering pump removal step implies power steering equipped variant."
+}

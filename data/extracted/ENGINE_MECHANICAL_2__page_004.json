@@ -1,0 +1,84 @@
+{
+  "page_code": "EM-7004",
+  "section": "EM",
+  "title": "Outer Component Parts - Rocker Cover (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-7004.jpg",
+  "continuation": {
+    "continues_from": "EM-7003",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM050",
+      "type": "parts_diagram",
+      "description": "Rocker cover bolt tightening sequence diagram showing numbered bolt positions (1-10) on the rocker cover, with caption 'Tighten in numerical order.'",
+      "bbox_percent": [
+        2,
+        5,
+        38,
+        28
+      ],
+      "associated_step": "2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Rocker Cover (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "rocker_cover_refit",
+      "title": "Rocker Cover Refitting (Continued)",
+      "steps": [
+        {
+          "step": 2,
+          "text": "Fit the cover. Tighten the bolts in the sequence shown to the correct torque.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Recheck bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check a third time.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Reconnect the hoses.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Refit ignition coils.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

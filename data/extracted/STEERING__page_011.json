@@ -1,0 +1,166 @@
+{
+  "page_code": "ST-10",
+  "section": "ST",
+  "title": "STEERING WHEEL AND STEERING COLUMN",
+  "page_type": "prose_procedure",
+  "source_image": "ST-10.jpg",
+  "continuation": {
+    "continues_from": "ST-9",
+    "continues_to": "ST-11"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST018",
+      "type": "parts_diagram",
+      "description": "Steering wheel installation showing slip ring face and cancel pin area, top and bottom views",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        30
+      ],
+      "associated_step": "Steering Wheel Installation"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST019",
+      "type": "parts_diagram",
+      "description": "Steering column lower joint area showing lower joint location",
+      "bbox_percent": [
+        0,
+        31,
+        38,
+        55
+      ],
+      "associated_step": "Steering Column Removal step 4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING WHEEL AND STEERING COLUMN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steering Wheel (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "INSTALLATION"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before installing steering wheel, apply grease (DAIKYO DYNAMIC or equivalent) to the slip ring face and cancel pin to prevent noise.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_wheel_installation",
+      "title": "Steering Wheel Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit steering wheel onto steering column after ensuring wheel alignment is correct and steering gear is centered.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check that steering wheel is in neutral position and tighten steering wheel nut to the specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Do not hit steering wheel when fitting to column.\n\u2022 Check that steering wheel is in neutral position when driving straight ahead and wheel play is less than 35 mm.\n\u2022 Attach horn connections to column and horn pad.\n\u2022 Push fit horn pad in place and check operation.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steering Column"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "REMOVAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_column_removal",
+      "title": "Steering Column Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove shelf from dashboard beneath steering wheel to ease access to the steering column.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove screws (4) from steering column cover and remove upper and lower column covers.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove nuts securing steering column boot to body and slacken boot retaining clip.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Pull back boot for access to lower joint (alternatively, remove bolts and retaining plate from pinion dust boot and peel back dust boot to gain access to the lower steering joint from the engine bay).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Turn steering column to give best access to upper tightening bolt of lower joint and remove bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Do not forcibly spread flange of lower joint when disassembling."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Remove windscreen wiper and lighting switches from the combination switch base by squeezing top and bottom fixing wings and pulling switch away from base.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove connectors from switches.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove steering column retaining bolts from bracket and withdraw steering column.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

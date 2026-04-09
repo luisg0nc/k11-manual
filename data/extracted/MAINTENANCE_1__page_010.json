@@ -1,0 +1,213 @@
+{
+  "page_code": "MA-10",
+  "section": "MA",
+  "title": "Engine Maintenance \u2014 Changing Engine Coolant (Cont'd) / Checking Cooling System",
+  "page_type": "prose_procedure",
+  "source_image": "MA-10.jpg",
+  "continuation": {
+    "continues_from": "MA-9",
+    "continues_to": "MA-11"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SLC613",
+      "type": "tool_illustration",
+      "description": "Radiator cap being tested with a cap tester (pressure tester applied to radiator cap)",
+      "bbox_percent": [
+        0,
+        28,
+        38,
+        48
+      ],
+      "associated_step": "CHECKING RADIATOR CAP"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA871B",
+      "type": "tool_illustration",
+      "description": "Pulling the negative-pressure valve on the radiator cap to check it closes completely when released",
+      "bbox_percent": [
+        0,
+        48,
+        38,
+        66
+      ],
+      "associated_step": "CHECKING RADIATOR CAP"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA990A",
+      "type": "tool_illustration",
+      "description": "Hose adapter connected to cooling system with cap tester to check for leaks (EG17650301 referenced)",
+      "bbox_percent": [
+        0,
+        66,
+        38,
+        86
+      ],
+      "associated_step": "CHECKING COOLING SYSTEM FOR LEAKS"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Engine Coolant (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure that anti-freeze is ethylene glycol based and that the mixture ratio with (soft) water is correct.",
+      "style": "important"
+    },
+    {
+      "block_type": "table",
+      "title": "Anti-freeze / Soft Water Mixture Ratio",
+      "columns": [
+        {
+          "key": "temp_c",
+          "label": "Outside temperature down to (\u00b0C)"
+        },
+        {
+          "key": "temp_f",
+          "label": "Outside temperature down to (\u00b0F)"
+        },
+        {
+          "key": "antifreeze",
+          "label": "Anti-freeze"
+        },
+        {
+          "key": "soft_water",
+          "label": "Soft water"
+        }
+      ],
+      "rows": [
+        {
+          "temp_c": "-15",
+          "temp_f": "5",
+          "antifreeze": "30%",
+          "soft_water": "70%"
+        },
+        {
+          "temp_c": "-35",
+          "temp_f": "-30",
+          "antifreeze": "50%",
+          "soft_water": "50%"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Coolant capacity (With reservoir tank)",
+          "value": "4 liters (7 Imp pt)",
+          "unit": "liters / Imp pt",
+          "condition": "With reservoir tank"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Cooling System"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECKING HOSES"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check hoses for improper attachment and for leaks, cracks, damage, loose connections, chafing and deterioration.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECKING RADIATOR CAP"
+    },
+    {
+      "block_type": "procedure",
+      "id": "check_rad_cap",
+      "title": "Checking Radiator Cap",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Apply pressure to radiator cap with cap tester to see if it is satisfactory.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Pull the negative-pressure valve to open it. Check that it closes completely when released.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Radiator cap relief pressure",
+          "value": "78 - 98 kPa (0.78 - 0.98 bar, 0.8 - 1.0 kg/cm\u00b2, 11 - 14 psi)",
+          "unit": "kPa / bar / kg/cm\u00b2 / psi",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECKING COOLING SYSTEM FOR LEAKS"
+    },
+    {
+      "block_type": "procedure",
+      "id": "check_cooling_leaks",
+      "title": "Checking Cooling System for Leaks",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Apply pressure to the cooling system with cap tester to check for leakage.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Testing pressure",
+          "value": "98 kPa (0.98 bar, 1.0 kg/cm\u00b2, 14 psi)",
+          "unit": "kPa / bar / kg/cm\u00b2 / psi",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Higher pressure than the specified value may cause damage to radiator.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "EG17650301",
+      "name": "Cap tester with hose adapter",
+      "usage": "Apply pressure to radiator cap and cooling system to check for leaks"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

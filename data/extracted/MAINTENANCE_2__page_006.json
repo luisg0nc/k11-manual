@@ -1,0 +1,290 @@
+{
+  "page_code": "MA-7006",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (For Europe) \u2014 Chassis and Body Maintenance",
+  "page_type": "spec_table",
+  "source_image": "MA-7006.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (For Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Chassis and Body Maintenance"
+    },
+    {
+      "block_type": "prose",
+      "text": "Abbreviations: R = Replace  I = Inspect: Correct or replace if necessary",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Chassis and Body Maintenance \u2014 Underhood and under vehicle",
+      "columns": [
+        {
+          "key": "operation",
+          "label": "MAINTENANCE OPERATION"
+        },
+        {
+          "key": "km_basis",
+          "label": "km x 1,000 (miles x 1,000)"
+        },
+        {
+          "key": "15_9",
+          "label": "15 (9)"
+        },
+        {
+          "key": "30_18",
+          "label": "30 (18)"
+        },
+        {
+          "key": "45_27",
+          "label": "45 (27)"
+        },
+        {
+          "key": "60_36",
+          "label": "60 (36)"
+        },
+        {
+          "key": "75_45",
+          "label": "75 (45)"
+        },
+        {
+          "key": "90_54",
+          "label": "90 (54)"
+        },
+        {
+          "key": "105_63",
+          "label": "105 (63)"
+        },
+        {
+          "key": "120_72",
+          "label": "120 (72)"
+        }
+      ],
+      "rows": [
+        {
+          "operation": "Headlamp aiming",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Wheel alignment (if necessary, balance & rotate wheels)",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Brake pads, discs & other components*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Brake linings, drums & other components*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Foot brake, parking brake & clutch (for free play, stroke & operation)",
+          "km_basis": "",
+          "15_9": "I",
+          "30_18": "",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Brake booster vacuum hoses, connections, check valve",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Brake & clutch, systems and fluid (for level and leaks)",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Brake fluid*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "",
+          "45_27": "",
+          "60_36": "R",
+          "75_45": "",
+          "90_54": "",
+          "105_63": "",
+          "120_72": "R"
+        },
+        {
+          "operation": "Power steering fluid and lines (for level and leaks)",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Air bag system",
+          "km_basis": "See NOTE (1)",
+          "15_9": "",
+          "30_18": "",
+          "45_27": "",
+          "60_36": "",
+          "75_45": "",
+          "90_54": "",
+          "105_63": "",
+          "120_72": ""
+        },
+        {
+          "operation": "Ventilation air filter*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "R",
+          "45_27": "",
+          "60_36": "R",
+          "75_45": "",
+          "90_54": "R",
+          "105_63": "",
+          "120_72": "R"
+        },
+        {
+          "operation": "ASCD Vacuum hoses",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Standard differential gear oil (check for leakage)*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Manual transmission oil (check for leakage)",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "I",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "I",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "CVT fluid*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "",
+          "45_27": "R",
+          "60_36": "",
+          "75_45": "",
+          "90_54": "R",
+          "105_63": "",
+          "120_72": ""
+        },
+        {
+          "operation": "Steering gear & linkage, axle & suspension, drive shafts and exhaust system*",
+          "km_basis": "",
+          "15_9": "",
+          "30_18": "",
+          "45_27": "",
+          "60_36": "I",
+          "75_45": "",
+          "90_54": "",
+          "105_63": "",
+          "120_72": "I"
+        },
+        {
+          "operation": "Body corrosion",
+          "km_basis": "See NOTE (2)",
+          "15_9": "",
+          "30_18": "",
+          "45_27": "",
+          "60_36": "",
+          "75_45": "",
+          "90_54": "",
+          "105_63": "",
+          "120_72": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: (1) Inspect after 10 years, then every 2 years.\n(2) Inspect once per year.\n* Maintenance items with \"*\" should be performed more frequently according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Maintenance schedule is on a kilometer basis only. CVT fluid intervals differ from manual transmission. Items marked with * require more frequent service under severe driving conditions."
+}

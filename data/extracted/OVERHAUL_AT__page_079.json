@@ -1,0 +1,231 @@
+{
+  "page_code": "AT-79",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Shift Characteristics Inspection (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-79.jpg",
+  "continuation": {
+    "continues_from": "AT-78",
+    "continues_to": "AT-80"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shift Characteristics Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "3. The engine brake suddenly comes in while driving in the D-Range (Similar to the way it comes in the Ds-Range)"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "3. The engine brake suddenly comes in while driving in the D-Range (Similar to the way it comes in the Ds-Range)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check the oil cooler check valve"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Clean or replace the check valve"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check the line pressure (Refer to \"Line pressure check\")"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Check the regulator valve"
+        },
+        {
+          "id": "n4_note",
+          "type": "reference",
+          "text": "Note: The belt and pulley mechanism may be damaged when the line pressure is low and there is a shift abnormality."
+        },
+        {
+          "id": "n5",
+          "type": "terminal",
+          "text": "Replace the control valve"
+        },
+        {
+          "id": "n5_note",
+          "type": "reference",
+          "text": "Note: Replace the control valve assembly if the valve or body is scratched"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "Check for line pressure circuit leaks, e.g.:\n\u2022 Oil pump gasket\n\u2022 Secondary pulley seal ring"
+        },
+        {
+          "id": "n7",
+          "type": "terminal",
+          "text": "Repair or replace damaged parts"
+        },
+        {
+          "id": "n8",
+          "type": "action",
+          "text": "Check the lubrication valve"
+        },
+        {
+          "id": "n9",
+          "type": "terminal",
+          "text": "Replace the lubrication valve"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4_note",
+          "label": "N.G."
+        },
+        {
+          "from": "n4_note",
+          "to": "n4",
+          "label": ""
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n5_note",
+          "label": ""
+        },
+        {
+          "from": "n4",
+          "to": "n6",
+          "label": "O.K."
+        },
+        {
+          "from": "n6",
+          "to": "n7",
+          "label": "N.G."
+        },
+        {
+          "from": "n8",
+          "to": "n9",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n8",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "4. The engine brake is too strong in the D-range (Similar to Ds-Range)"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "4. The engine brake is too strong in the D-range (Similar to Ds-Range)",
+      "nodes": [
+        {
+          "id": "m1",
+          "type": "action",
+          "text": "Check the throttle wire for incorrect return"
+        },
+        {
+          "id": "m2",
+          "type": "terminal",
+          "text": "\u2022 Adjust or replace the throttle wire\n\u2022 Check the shift control lever of the control valve"
+        },
+        {
+          "id": "m3",
+          "type": "action",
+          "text": "Check the compensation plunger operation"
+        },
+        {
+          "id": "m4",
+          "type": "terminal",
+          "text": "Replace the control valve"
+        },
+        {
+          "id": "m4_note",
+          "type": "reference",
+          "text": "Note: Replace the control valve assembly if the valve or body is scratched"
+        },
+        {
+          "id": "m5",
+          "type": "action",
+          "text": "Check the engine brake plunger operation"
+        },
+        {
+          "id": "m6",
+          "type": "terminal",
+          "text": "Clean or replace the engine brake plunger"
+        }
+      ],
+      "edges": [
+        {
+          "from": "m1",
+          "to": "m2",
+          "label": "N.G."
+        },
+        {
+          "from": "m1",
+          "to": "m3",
+          "label": "O.K."
+        },
+        {
+          "from": "m3",
+          "to": "m4",
+          "label": "N.G."
+        },
+        {
+          "from": "m4",
+          "to": "m4_note",
+          "label": ""
+        },
+        {
+          "from": "m3",
+          "to": "m5",
+          "label": "O.K."
+        },
+        {
+          "from": "m5",
+          "to": "m6",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Line pressure check"
+  ],
+  "model_notes": "Applies to automatic transmission (CVT) variant of K11 Nissan Micra."
+}

@@ -1,0 +1,153 @@
+{
+  "page_code": "MA-15",
+  "section": "MA",
+  "title": "ENGINE MAINTENANCE \u2014 Positive Crankcase Ventilation (P.C.V.) Valve (Cont'd) / Changing P.C.V. Filter / Checking Vacuum Hoses and Connections / Checking Vapor Lines",
+  "page_type": "prose_procedure",
+  "source_image": "MA-15.jpg",
+  "continuation": {
+    "continues_from": "MA-14",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA031",
+      "type": "component_photo",
+      "description": "Photograph showing ventilation hoses in the engine bay",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "Checking Ventilation Hoses"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA032",
+      "type": "component_photo",
+      "description": "Photograph showing P.C.V. filter location inside air cleaner housing",
+      "bbox_percent": [
+        0,
+        24,
+        38,
+        44
+      ],
+      "associated_step": "Changing Positive Crankcase Ventilation (P.C.V.) Filter"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UMA033",
+      "type": "component_photo",
+      "description": "Photograph showing purge line and vapor line routing in engine bay",
+      "bbox_percent": [
+        0,
+        57,
+        38,
+        77
+      ],
+      "associated_step": "Checking Vapor Lines"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Positive Crankcase Ventilation (P.C.V.) Valve (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECKING VENTILATION HOSES"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_check_vent_hoses",
+      "title": "Checking Ventilation Hoses",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check hoses and hose connections for leaks.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Disconnect all hoses and clean with compressed air. If any hose cannot be freed of obstructions, replace.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Positive Crankcase Ventilation (P.C.V.) Filter"
+    },
+    {
+      "block_type": "prose",
+      "text": "Remove air cleaner cover and air cleaner filter, and replace P.C.V. filter.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Vacuum Hoses and Connections"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check vacuum hoses for improper attachment and for leaks, cracks, damage, loose connections, chafing and deterioration.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to Vacuum Hose Drawing in ENGINE AND EMISSION CONTROL OVERALL SYSTEM in EF & EC section.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Vapor Lines"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_check_vapor_lines",
+      "title": "Checking Vapor Lines",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Visually inspect vapor lines for improper attachment and for cracks, damage, loose connections, chafing and deterioration.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Inspect vacuum relief valve of fuel tank filler cap for clogging, sticking, etc.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to EVAPORATIVE EMISSION CONTROL SYSTEM INSPECTION in EF & EC section.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EF & EC \u2014 ENGINE AND EMISSION CONTROL OVERALL SYSTEM (Vacuum Hose Drawing)",
+    "EF & EC \u2014 EVAPORATIVE EMISSION CONTROL SYSTEM INSPECTION"
+  ],
+  "model_notes": null
+}

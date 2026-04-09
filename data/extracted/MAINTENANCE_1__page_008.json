@@ -1,0 +1,346 @@
+{
+  "page_code": "MA-8",
+  "section": "MA",
+  "title": "Checking Drive Belts",
+  "page_type": "spec_table",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA017",
+      "type": "parts_diagram",
+      "description": "Belt routing diagram for Non-Powersteering and Non-Airconditioning configuration showing Water pump, Alternator, Crankshaft, Tensioning idler",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA018",
+      "type": "parts_diagram",
+      "description": "Belt routing diagram for Powersteering and Non-Airconditioning configuration showing Water pump, Tensioning idler, Alternator, Power steering pump, Fixed idler, Crankshaft",
+      "bbox_percent": [
+        0,
+        19,
+        32,
+        37
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UMA019",
+      "type": "parts_diagram",
+      "description": "Belt routing diagram for Airconditioning and Non-Powersteering configuration showing Water pump, Tensioning idler, Alternator, Crankshaft, Aircon-compressor, Tensioning idler",
+      "bbox_percent": [
+        0,
+        38,
+        32,
+        56
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UMA020",
+      "type": "parts_diagram",
+      "description": "Belt routing diagram for Airconditioning and Powersteering configuration showing Water pump, Tensioning idler, Alternator, Power steering pump, Crankshaft, Aircon-compressor, Tensioning idler",
+      "bbox_percent": [
+        0,
+        57,
+        32,
+        74
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UMA021",
+      "type": "component_photo",
+      "description": "Photo showing adjusting bolt, locking nut locations for tensioning idler and alternator belt adjustment",
+      "bbox_percent": [
+        0,
+        75,
+        32,
+        93
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Drive Belts"
+    },
+    {
+      "block_type": "procedure",
+      "id": "check_drive_belts_general",
+      "title": "Checking Drive Belts",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Inspect drive belts for cracks, fraying, wear or oil adhesion. If necessary, replace with a new one.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Inspect drive belt deflections by pushing on the belt midway between pulleys.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Inspect drive belt deflections when the engine is cold. Adjust if belt deflections exceed the limit.",
+      "style": "important"
+    },
+    {
+      "block_type": "table",
+      "title": "Drive Belt Deflection Specifications",
+      "columns": [
+        {
+          "key": "config",
+          "label": "Configuration"
+        },
+        {
+          "key": "belt",
+          "label": "Belt"
+        },
+        {
+          "key": "limit_for_adjustment",
+          "label": "Limit for adjustment"
+        },
+        {
+          "key": "when_adjusted",
+          "label": "When adjusted"
+        },
+        {
+          "key": "deflection_new_belt",
+          "label": "Deflection of new belt"
+        }
+      ],
+      "rows": [
+        {
+          "config": "Non-Powersteering and Non-Airconditioning",
+          "belt": "Alternator belt",
+          "limit_for_adjustment": "10.5 (0.413)",
+          "when_adjusted": "7 - 8 (0.28 - 0.31)",
+          "deflection_new_belt": "6 - 7 (0.24 - 0.28)"
+        },
+        {
+          "config": "Non-Powersteering and Non-Airconditioning",
+          "belt": "Water-pump belt",
+          "limit_for_adjustment": "6 (0.24)",
+          "when_adjusted": "3.8 - 4.2 (0.150 - 0.165)",
+          "deflection_new_belt": "3.5 - 4 (0.138 - 0.157)"
+        },
+        {
+          "config": "Powersteering and Non-Airconditioning",
+          "belt": "Alternator belt",
+          "limit_for_adjustment": "9 (0.35)",
+          "when_adjusted": "6 - 7 (0.24 - 0.28)",
+          "deflection_new_belt": "5.5 - 6 (0.217 - 0.236)"
+        },
+        {
+          "config": "Powersteering and Non-Airconditioning",
+          "belt": "Water-pump belt",
+          "limit_for_adjustment": "5 (0.20)",
+          "when_adjusted": "3 - 3.5 (0.118 - 0.138)",
+          "deflection_new_belt": "2.8 - 3.2 (0.110 - 0.126)"
+        },
+        {
+          "config": "Airconditioning and Non-Powersteering",
+          "belt": "Alternator belt",
+          "limit_for_adjustment": "9 (0.35)",
+          "when_adjusted": "6 - 7 (0.24 - 0.28)",
+          "deflection_new_belt": "5.5 - 6 (0.217 - 0.236)"
+        },
+        {
+          "config": "Airconditioning and Non-Powersteering",
+          "belt": "Water-pump belt",
+          "limit_for_adjustment": "6 (0.24)",
+          "when_adjusted": "3.8 - 4.2 (0.150 - 0.165)",
+          "deflection_new_belt": "3.5 - 4 (0.138 - 0.157)"
+        },
+        {
+          "config": "Airconditioning and Powersteering",
+          "belt": "Alternator belt",
+          "limit_for_adjustment": "9 (0.35)",
+          "when_adjusted": "6 - 7 (0.24 - 0.28)",
+          "deflection_new_belt": "5.5 - 6 (0.217 - 0.236)"
+        },
+        {
+          "config": "Airconditioning and Powersteering",
+          "belt": "Water-pump belt",
+          "limit_for_adjustment": "5 (0.20)",
+          "when_adjusted": "3 - 3.5 (0.118 - 0.138)",
+          "deflection_new_belt": "2.8 - 3.2 (0.110 - 0.126)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Applied pushing force: 98N (10 kg, 22 lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "procedure",
+      "id": "adjust_waterpump_belt_all_models",
+      "title": "All models: Adjustment of waterpump drive belt",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove splash guards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Slacken tensioner idler locking nut from below.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Move tensioning idler by turning adjusting bolt from below, until desired belt deflection is obtained.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Tighten tensioner idler locking nut.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install splash guards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "adjust_alternator_belt_no_ps_no_ac",
+      "title": "Models without powersteering and without airconditioning: Adjustment of alternator drive belt",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Release all three alternator fixing bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Tilt alternator by turning the adjusting bolt until desired belt deflection is obtained.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Tighten the alternator fixing bolts to specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "38.0 - 50.9 N\u00b7m (3.87 - 5.19 kg-m, 28.0 - 37.5 ft-lb)"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Alternator fixing bolts torque",
+          "value": "38.0 - 50.9",
+          "unit": "N\u00b7m",
+          "condition": "Models without powersteering and without airconditioning"
+        },
+        {
+          "label": "Alternator fixing bolts torque",
+          "value": "3.87 - 5.19",
+          "unit": "kg-m",
+          "condition": "Models without powersteering and without airconditioning"
+        },
+        {
+          "label": "Alternator fixing bolts torque",
+          "value": "28.0 - 37.5",
+          "unit": "ft-lb",
+          "condition": "Models without powersteering and without airconditioning"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "adjust_alternator_belt_ps_or_ac",
+      "title": "Models with powersteering or airconditioning, or both: Adjustment of alternator drive belt",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove splash guards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Slacken tensioner idler locking nut from below.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Move tensioning idler by turning adjusting bolt with a 12 mm socket from top, until desired belt deflection is obtained.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Tighten tensioning idler locking nut.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install splash guards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Four belt routing configurations covered: Non-Powersteering/Non-Airconditioning, Powersteering/Non-Airconditioning, Airconditioning/Non-Powersteering, Airconditioning and Powersteering. Unit: mm (in) for all deflection values."
+}

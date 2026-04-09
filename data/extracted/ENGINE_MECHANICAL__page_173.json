@@ -1,0 +1,153 @@
+{
+  "page_code": "EM-5040",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Inspection (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM299",
+      "type": "parts_diagram",
+      "description": "Matrix/lookup table chart showing crankshaft letter codes vs cylinder block letter codes for main bearing selection, with letters A, B, C filling the grid cells",
+      "bbox_percent": [
+        28,
+        2,
+        90,
+        38
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM316",
+      "type": "component_photo",
+      "description": "Photo of a halfshell bearing (grooved black type) showing the bearing shell shape with oil hole",
+      "bbox_percent": [
+        2,
+        38,
+        28,
+        58
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM153B",
+      "type": "tool_illustration",
+      "description": "Photo showing measurement of connecting rod bearing inner diameter using a bore gauge/measuring tool on the connecting rod big end",
+      "bbox_percent": [
+        2,
+        68,
+        28,
+        90
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK - Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "HALFSHELL TYPE STANDARD"
+    },
+    {
+      "block_type": "table",
+      "title": "Halfshell Type Standard",
+      "columns": [
+        {
+          "key": "halfshell_ref",
+          "label": "Halfshell (reference)"
+        },
+        {
+          "key": "cyl_block_side",
+          "label": "Halfshells for cylinder block side - Smooth (black) Grooved (black)"
+        },
+        {
+          "key": "bearing_cap_smooth_blue",
+          "label": "Halfshells for bearing cap side - Smooth (blue) Grooved (blue)"
+        },
+        {
+          "key": "bearing_cap_smooth_black",
+          "label": "Halfshells for bearing cap side - Smooth (black) Groove (black)"
+        },
+        {
+          "key": "bearing_cap_smooth_green",
+          "label": "Halfshells for bearing cap side - Smooth (green) Grooved (green)"
+        }
+      ],
+      "rows": [
+        {
+          "halfshell_ref": "TYPE",
+          "cyl_block_side": "B",
+          "bearing_cap_smooth_blue": "A",
+          "bearing_cap_smooth_black": "B",
+          "bearing_cap_smooth_green": "C"
+        },
+        {
+          "halfshell_ref": "THICKNESS",
+          "cyl_block_side": "1.858 (0.0731)",
+          "bearing_cap_smooth_blue": "1.844 (0.0726)",
+          "bearing_cap_smooth_black": "1.858 (0.0731)",
+          "bearing_cap_smooth_green": "1.869 (0.0736)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "For example: The first letter on the crankshaft is S and the first letter on the cylinder block is E then according to the tables the main bearing cap halfshell for bearing No. 1 will be type A (blue). The cylinder block halfshell will always be B (black).",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Connecting rod bearing (Big end)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc1",
+      "title": "Connecting rod bearing (Big end)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install connecting rod bearing to connecting rod and cap.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install connecting rod cap to connecting rod. Tighten bolts to the specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Measure inner diameter of each bearing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

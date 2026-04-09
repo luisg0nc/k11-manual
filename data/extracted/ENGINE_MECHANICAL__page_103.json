@@ -1,0 +1,214 @@
+{
+  "page_code": "EM-37",
+  "section": "EM",
+  "title": "VALVE CLEARANCE \u2014 Adjusting (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-37.jpg",
+  "continuation": {
+    "continues_from": "EM-36",
+    "continues_to": "EM-38"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM142D",
+      "type": "component_photo",
+      "description": "Tool (A) being used to push down valve lifter on engine",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        20
+      ],
+      "associated_step": "step3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM143D",
+      "type": "component_photo",
+      "description": "Tool (A) and Tool (B) KV10115120 positioned between camshaft and valve lifter",
+      "bbox_percent": [
+        0,
+        20,
+        42,
+        40
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM144D",
+      "type": "component_photo",
+      "description": "Tool (B) retaining valve lifter and magnetic finger removing adjusting shim",
+      "bbox_percent": [
+        0,
+        40,
+        42,
+        58
+      ],
+      "associated_step": "step6"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM145D",
+      "type": "tool_illustration",
+      "description": "Micrometer being used to measure thickness of removed shim",
+      "bbox_percent": [
+        0,
+        58,
+        42,
+        76
+      ],
+      "associated_step": "step7"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM189D",
+      "type": "component_photo",
+      "description": "Adjusting shim identification mark example: TS 224 = 2.24 mm (0.0882 in)",
+      "bbox_percent": [
+        0,
+        76,
+        42,
+        96
+      ],
+      "associated_step": "step7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "VALVE CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjusting (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_clearance_adjust_cont",
+      "title": "Adjusting (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Rotate Tool (A) (See figure.) so that valve lifter is pushed down.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Place Tool (B) between camshaft and valve lifter to retain valve lifter.",
+          "figure_ref": "fig2",
+          "warnings": [
+            "Tool (B) must be placed as close to camshaft bracket as possible.",
+            "Be careful not to damage cam surface with Tool (B)."
+          ],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove Tool (A).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove adjusting shim using a small screwdriver and a magnetic finger.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Determine replacement adjusting shim size following formula.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Using a micrometer determine thickness of removed shim.",
+            "Calculate thickness of new adjusting shim so valve clearance comes within specified values. R = Thickness of removed shim; N = Thickness of new shim; M = Measured valve clearance. Intake: N = R + [M \u2212 0.37 mm (0.0146 in)]. Exhaust: N = R + [M \u2212 0.40 mm (0.0157 in)].",
+            "Shims are available in 50 sizes from 2.00 mm (0.0787 in) to 2.98 mm (0.1173 in), in steps of 0.02 mm (0.0008 in).",
+            "Select new shim with thickness as close as possible to calculated value."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Intake shim formula",
+          "value": "N = R + [M \u2212 0.37 mm (0.0146 in)]",
+          "unit": "mm (in)",
+          "condition": "Intake valve clearance adjustment"
+        },
+        {
+          "label": "Exhaust shim formula",
+          "value": "N = R + [M \u2212 0.40 mm (0.0157 in)]",
+          "unit": "mm (in)",
+          "condition": "Exhaust valve clearance adjustment"
+        },
+        {
+          "label": "Shim size range minimum",
+          "value": "2.00",
+          "unit": "mm (0.0787 in)",
+          "condition": "Available shim sizes"
+        },
+        {
+          "label": "Shim size range maximum",
+          "value": "2.98",
+          "unit": "mm (0.1173 in)",
+          "condition": "Available shim sizes"
+        },
+        {
+          "label": "Shim size increment",
+          "value": "0.02",
+          "unit": "mm (0.0008 in)",
+          "condition": "Step size between available shims"
+        },
+        {
+          "label": "Total number of shim sizes available",
+          "value": "50",
+          "unit": "sizes",
+          "condition": ""
+        },
+        {
+          "label": "Shim identification mark example (TS 224)",
+          "value": "2.24",
+          "unit": "mm (0.0882 in)",
+          "condition": "Identification mark stamped on shim"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115120",
+      "name": "Tool (B) \u2014 valve lifter retaining tool",
+      "usage": "Placed between camshaft and valve lifter to retain the lifter while adjusting shim is removed"
+    },
+    {
+      "part_number": "",
+      "name": "Tool (A) \u2014 valve lifter depressing tool",
+      "usage": "Rotated to push down valve lifter so Tool (B) can be inserted"
+    },
+    {
+      "part_number": "",
+      "name": "Magnetic finger",
+      "usage": "Used together with small screwdriver to remove adjusting shim"
+    },
+    {
+      "part_number": "",
+      "name": "Micrometer",
+      "usage": "Used to determine thickness of removed adjusting shim"
+    }
+  ],
+  "cross_references": [
+    "EM-36"
+  ],
+  "model_notes": null
+}

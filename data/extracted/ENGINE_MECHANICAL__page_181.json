@@ -1,0 +1,404 @@
+{
+  "page_code": "EM-5048",
+  "section": "EM",
+  "title": "Service Data and Specifications (SDS) \u2014 Inspection and Adjustment (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM724C",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing cylinder head to valve distance measurement point",
+      "bbox_percent": [
+        0,
+        5,
+        30,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM276",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram of valve guide installation in cylinder head showing projection length L",
+      "bbox_percent": [
+        0,
+        22,
+        30,
+        42
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM568A",
+      "type": "parts_diagram",
+      "description": "Camshaft and camshaft bearing diagram showing dimensions A and D",
+      "bbox_percent": [
+        50,
+        5,
+        100,
+        20
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM321",
+      "type": "parts_diagram",
+      "description": "Piston diagram showing skirt diameter A and piston pin hole diameter d",
+      "bbox_percent": [
+        50,
+        48,
+        100,
+        65
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Cylinder head to valve distance"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Cylinder head to valve distance",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Intake",
+          "standard": "0.85 - 1.19 (0.033 - 0.047)"
+        },
+        {
+          "item": "Exhaust",
+          "standard": "1.05 - 1.39 (0.041 - 0.055)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Valve guide"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve guide specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "service",
+          "label": "Service"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Valve guide outer diameter",
+          "standard": "13.048 - 13.059 (0.5137 - 0.5141)",
+          "service": "13.578 - 13.589 (0.5346 - 0.5354)"
+        },
+        {
+          "item": "Valve guide inner diameter (Finished size)",
+          "standard": "7.02 - 7.042 (0.2764 - 0.2772)",
+          "service": ""
+        },
+        {
+          "item": "Cylinder head valve guide hole diameter",
+          "standard": "12.965 - 12.997 (0.5104 - 0.5117)",
+          "service": "13.495 - 13.527 (0.5313 - 0.5326)"
+        },
+        {
+          "item": "Interference fit of valve guide",
+          "standard": "0.062 - 0.083 (0.0024 - 0.0033)",
+          "service": ""
+        },
+        {
+          "item": "Stem to guide clearance",
+          "standard": "0.025 - 0.052 (0.0010 - 0.0020)",
+          "service": ""
+        },
+        {
+          "item": "Projection length \"L\" \u2014 Intake",
+          "standard": "38.7 - 39.3 (1.52 - 1.55)",
+          "service": ""
+        },
+        {
+          "item": "Projection length \"L\" \u2014 Exhaust",
+          "standard": "34.7 - 35.3 (1.37 - 1.39)",
+          "service": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Cylinder block specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Height \"H\" (nominal)",
+          "value": "265.23 (10.442)"
+        },
+        {
+          "item": "Cylinder bore inner diameter \u2014 Standard",
+          "value": "77.011 - 77.038 (3.0319 - 3.0330)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CAMSHAFT AND CAMSHAFT BEARING"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve lift",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Intake",
+          "value": "8.85 (0.348)"
+        },
+        {
+          "item": "Exhaust",
+          "value": "8.90 (0.350)"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Camshaft journal to bearing clearance",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Standard",
+          "value": "0.025 - 0.074 (0.0010 - 0.0029)"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Inner diameter of camshaft bearing",
+      "columns": [
+        {
+          "key": "position",
+          "label": "Position"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "position": "1st",
+          "value": "27.505 - 27.533 (1.1026 - 1.0840)"
+        },
+        {
+          "position": "2nd",
+          "value": "28.005 - 28.033 (1.1026 - 1.1037)"
+        },
+        {
+          "position": "3rd",
+          "value": "28.505 - 28.533 (1.1222 - 1.1233)"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Outer diameter of camshaft journal D",
+      "columns": [
+        {
+          "key": "position",
+          "label": "Position"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "position": "1st",
+          "value": "27.459 - 27.48 (1.0811 - 1.0819)"
+        },
+        {
+          "position": "2nd",
+          "value": "27.959 - 27.98 (1.1007 - 1.1016)"
+        },
+        {
+          "position": "3rd",
+          "value": "28.459 - 28.48 (1.1204 - 1.1213)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON, PISTON RING AND PISTON PIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Piston"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Piston specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Piston skirt diameter A",
+          "value": "76.939 (3.0291)"
+        },
+        {
+          "item": "Piston pin hole diameter (d)",
+          "value": "23.003 - 23.008 (0.9056 - 0.9058)"
+        },
+        {
+          "item": "Piston-to-cylinder bore clearance",
+          "value": "0.07 - 0.10 (0.0028 - 0.0039)"
+        },
+        {
+          "item": "Piston protrusion",
+          "value": "1.04 - 1.14 (0.0409 - 0.0449)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Piston pin"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Piston pin specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Piston pin outer diameter",
+          "value": "22.996 - 23.000 (0.9054 - 0.9055)"
+        },
+        {
+          "item": "Interference fit of piston pin to piston",
+          "value": "0.003 - 0.012 (0.0001 - 0.0005)"
+        },
+        {
+          "item": "Piston pin to connecting rod bushing clearance \u2014 Standard",
+          "value": "0.011 - 0.02 (0.0004 - 0.0008)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "* Values measured at ambient temperature of 20\u00b0C (68\u00b0F)",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

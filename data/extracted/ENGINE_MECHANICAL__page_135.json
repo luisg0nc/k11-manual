@@ -1,0 +1,157 @@
+{
+  "page_code": "EM-5002",
+  "section": "EM",
+  "title": "PRECAUTIONS",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5002.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM371C",
+      "type": "parts_diagram",
+      "description": "Diagram showing groove, bolt hole, and inner side positions for liquid gasket application on mating surfaces",
+      "bbox_percent": [
+        2,
+        13,
+        32,
+        32
+      ],
+      "associated_step": "b"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "AEM080",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing liquid gasket bead application in groove on inner side of mating surface",
+      "bbox_percent": [
+        2,
+        33,
+        32,
+        52
+      ],
+      "associated_step": "b"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Parts Requiring Angular Tightening"
+    },
+    {
+      "block_type": "prose",
+      "text": "Use an angle wrench for the final tightening of the following engine parts:\n(1) Cylinder head bolts\n(2) Main bearing cap bolts",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not use a torque value for final tightening.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The torque value for these parts are for a preliminary step.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure thread and seat surfaces are clean.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Liquid Gasket Application Procedure"
+    },
+    {
+      "block_type": "procedure",
+      "id": "liquid_gasket_application",
+      "title": "Liquid Gasket Application Procedure",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Use a scraper to remove all traces of old liquid gasket from mating surfaces and grooves. Also, completely clean any oil from these areas.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Apply a continuous bead of liquid gasket to mating surfaces. (Use Genuine Liquid Gasket or equivalent.) For oil pan, be sure liquid gasket diameter is 3.5 to 4.5 mm (0.138 to 0.177 in). For areas except oil pan, be sure liquid gasket diameter is 2.0 to 3.0 mm (0.079 to 0.118 in).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Apply liquid gasket around the inner side of bolt holes (unless otherwise specified).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Assembly should be done within 5 minutes after coating.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Wait at least 30 minutes before refilling engine oil and engine coolant.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket diameter \u2014 oil pan",
+          "value": "3.5 to 4.5",
+          "unit": "mm (0.138 to 0.177 in)",
+          "condition": "Oil pan application"
+        },
+        {
+          "label": "Liquid gasket diameter \u2014 areas except oil pan",
+          "value": "2.0 to 3.0",
+          "unit": "mm (0.079 to 0.118 in)",
+          "condition": "Areas except oil pan"
+        },
+        {
+          "label": "Assembly time after coating",
+          "value": "within 5",
+          "unit": "minutes",
+          "condition": "Maximum time before assembly"
+        },
+        {
+          "label": "Wait before refilling engine oil and coolant",
+          "value": "at least 30",
+          "unit": "minutes",
+          "condition": "After assembly"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Angle wrench",
+      "usage": "Final tightening of cylinder head bolts and main bearing cap bolts"
+    },
+    {
+      "part_number": null,
+      "name": "Scraper",
+      "usage": "Remove all traces of old liquid gasket from mating surfaces and grooves"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

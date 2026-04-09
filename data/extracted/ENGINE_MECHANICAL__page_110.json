@@ -1,0 +1,147 @@
+{
+  "page_code": "EM-44",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Disassembly: Piston and Crankshaft",
+  "page_type": "prose_procedure",
+  "source_image": "EM-44.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM073",
+      "type": "component_photo",
+      "description": "Engine assembly viewed from front/side showing cylinder block and ancillary components",
+      "bbox_percent": [
+        2,
+        14,
+        33,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM074",
+      "type": "tool_illustration",
+      "description": "Engine stand adapter bracket assembly showing tools KV10115300 and KV10106500 with torque values 25-34 N\u00b7m (2.5-3.5 kg-m, 18-25 ft-lb)",
+      "bbox_percent": [
+        2,
+        33,
+        33,
+        52
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM075",
+      "type": "tool_illustration",
+      "description": "Engine mounted on work stand ST0501S000",
+      "bbox_percent": [
+        2,
+        52,
+        33,
+        75
+      ],
+      "associated_step": "1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "prose",
+      "text": "When installing moving parts such as bearings and pistons, always apply new, unused engine oil on the contact surfaces.\nPlace disassembled parts such as bearings and bearing caps in correct order and direction.\nWhen tightening connecting rod bolts and main bearing cap bolts, apply engine oil to threads and seating surface of nuts.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON AND CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_crankshaft_disassembly",
+      "title": "Piston and Crankshaft Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Place engine on a work stand.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain coolant and oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove timing chain. Refer to \"Removal\" in \"TIMING CHAIN\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Engine stand adapter bolt torque (KV10115300 / KV10106500)",
+          "value": "25-34",
+          "unit": "N\u00b7m",
+          "condition": "Bolts securing engine stand adapter brackets"
+        },
+        {
+          "label": "Engine stand adapter bolt torque (KV10115300 / KV10106500)",
+          "value": "2.5-3.5",
+          "unit": "kg-m",
+          "condition": "Bolts securing engine stand adapter brackets"
+        },
+        {
+          "label": "Engine stand adapter bolt torque (KV10115300 / KV10106500)",
+          "value": "18-25",
+          "unit": "ft-lb",
+          "condition": "Bolts securing engine stand adapter brackets"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115300",
+      "name": "Engine Stand Adapter Bracket",
+      "usage": "Mounting engine to work stand"
+    },
+    {
+      "part_number": "KV10106500",
+      "name": "Engine Stand Adapter Bracket",
+      "usage": "Mounting engine to work stand"
+    },
+    {
+      "part_number": "ST0501S000",
+      "name": "Engine Work Stand",
+      "usage": "Supporting engine during disassembly"
+    }
+  ],
+  "cross_references": [
+    "TIMING CHAIN \u2014 Removal"
+  ],
+  "model_notes": null
+}

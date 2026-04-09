@@ -1,0 +1,243 @@
+{
+  "page_code": "AT-88",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Electrical Component Inspection N-CVT Control Unit (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-88.jpg",
+  "continuation": {
+    "continues_from": "AT-87",
+    "continues_to": "AT-89"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT146",
+      "type": "connector_diagram",
+      "description": "Accelerator switch connector with terminals 1-4 shown, ohmmeter connected between terminal #1 and #2",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "accelerator_switch"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT147",
+      "type": "connector_diagram",
+      "description": "Accelerator position switch connector with terminals 1-4 shown, ohmmeter connected between terminal #3 and #4",
+      "bbox_percent": [
+        0,
+        24,
+        35,
+        45
+      ],
+      "associated_step": "accelerator_position_switch"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT148",
+      "type": "connector_diagram",
+      "description": "Idle up relay connector with terminals 1-5 shown, ohmmeter connected between terminal #1 and #2",
+      "bbox_percent": [
+        0,
+        46,
+        35,
+        62
+      ],
+      "associated_step": "idle_up_relay"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT149",
+      "type": "connector_diagram",
+      "description": "Brush holder connector diagrams showing three measurement configurations: connector & brush, brush & bracket, connector & bracket",
+      "bbox_percent": [
+        0,
+        63,
+        35,
+        100
+      ],
+      "associated_step": "brush_holder"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electrical Component Inspection N-CVT Control Unit (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ACCELERATOR SWITCH"
+    },
+    {
+      "block_type": "procedure",
+      "id": "accelerator_switch",
+      "title": "Accelerator Switch",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Disconnect accelerator switch connector. Check resistance between terminal # 1 and # 2.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Accelerator Switch Standard Values",
+      "columns": [
+        {
+          "key": "label",
+          "label": ""
+        },
+        {
+          "key": "accel_depressed",
+          "label": "Accelerator depressed (3 - 7 mm)"
+        },
+        {
+          "key": "accel_released",
+          "label": "Accelerator released"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Standard value",
+          "accel_depressed": "\u221e \u03a9",
+          "accel_released": "0 \u03a9"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ACCELERATOR POSITION SWITCH"
+    },
+    {
+      "block_type": "procedure",
+      "id": "accelerator_position_switch",
+      "title": "Accelerator Position Switch",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Disconnect accelerator position switch connector. Check resistance between terminal # 3 and # 4.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Accelerator Position Switch Standard Values",
+      "columns": [
+        {
+          "key": "label",
+          "label": ""
+        },
+        {
+          "key": "accel_fully_depressed",
+          "label": "Accelerator fully depressed"
+        },
+        {
+          "key": "accel_released",
+          "label": "Accelerator released"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Standard Value",
+          "accel_fully_depressed": "\u221e \u03a9",
+          "accel_released": "0\u03a9"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "IDLE UP RELAY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "idle_up_relay",
+      "title": "Idle Up Relay",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Disconnect idle-up relay connector. Check resistance between terminals # 1 and # 2.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Idle Up Relay Standard Value",
+      "columns": [
+        {
+          "key": "label",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Standard value",
+          "value": "80-95\u03a9"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "BRUSH HOLDER"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check that brush holder nut is not loose. Check resistance between brush holder connector, brush and bracket.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Brush Holder Standard Values",
+      "columns": [
+        {
+          "key": "label",
+          "label": ""
+        },
+        {
+          "key": "connector_brush",
+          "label": "Connector & brush"
+        },
+        {
+          "key": "brush_bracket",
+          "label": "Brush & bracket, connector & bracket"
+        }
+      ],
+      "rows": [
+        {
+          "label": "Standard value",
+          "connector_brush": "Continuity should exist",
+          "brush_bracket": "Continuity should not exist."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N-CVT (Nissan Continuously Variable Transmission) specific procedure"
+}

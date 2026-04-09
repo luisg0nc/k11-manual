@@ -1,0 +1,168 @@
+{
+  "page_code": "AT-97",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-97.jpg",
+  "continuation": {
+    "continues_from": "AT-96",
+    "continues_to": "AT-98"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT170",
+      "type": "component_photo",
+      "description": "Hands lifting out the final drive assembly from the transmission case",
+      "bbox_percent": [
+        2,
+        2,
+        42,
+        18
+      ],
+      "associated_step": "14"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT171",
+      "type": "component_photo",
+      "description": "Oil pipe and nozzle location in the transmission case, with Pipe and Nozzle labelled",
+      "bbox_percent": [
+        2,
+        20,
+        42,
+        37
+      ],
+      "associated_step": "15"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT172",
+      "type": "component_photo",
+      "description": "Shift cam with roll pin direction shown at 15 degrees in inset diagram; tap out roll pin",
+      "bbox_percent": [
+        2,
+        38,
+        42,
+        56
+      ],
+      "associated_step": "16"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT173",
+      "type": "component_photo",
+      "description": "Transmission case showing engine brake cam circlip, cam plate and pin, and rear circlip locations",
+      "bbox_percent": [
+        2,
+        57,
+        42,
+        74
+      ],
+      "associated_step": "18"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT174",
+      "type": "component_photo",
+      "description": "Pliers being used to lift out the shift arm securing pin",
+      "bbox_percent": [
+        2,
+        76,
+        42,
+        95
+      ],
+      "associated_step": "21"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_continued",
+      "title": "Disassembly (continued)",
+      "steps": [
+        {
+          "step": 14,
+          "text": "Lift out the final drive assembly.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Remove the oil pipe securing bolt. Remove the pipe and nozzle.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Rotate the shift cam until the roll pin is pointing in the direction shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Gently tap out the roll pin.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Discard the pin. Do not re-use."
+          ]
+        },
+        {
+          "step": 18,
+          "text": "Remove the engine brake cam circlip.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 19,
+          "text": "Remove the cam plate and pin.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Remove the rear circlip.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Lift out the shift arm securing pin using pliers.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Discard the pin. Do not re-use.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Pliers",
+      "usage": "Lift out the shift arm securing pin (step 21)"
+    }
+  ],
+  "cross_references": [
+    "AT-96",
+    "AT-98"
+  ],
+  "model_notes": null
+}

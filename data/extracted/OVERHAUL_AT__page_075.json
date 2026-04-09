@@ -1,0 +1,153 @@
+{
+  "page_code": "AT-75",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Faulty Select Operation",
+  "page_type": "flowchart",
+  "source_image": "AT-75.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Faulty Select Operation"
+    },
+    {
+      "block_type": "prose",
+      "text": "Symptom:\n\u2022 Selector lever cannot be moved\n\u2022 Selector lever movement is difficult",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Diagnosis item:\n\u2022 Brush holder is faulty\n\u2022 Lever and linkage are faulty\n\u2022 Electromagnetic clutch is faulty",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECK PROCEDURE"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Faulty Select Operation \u2014 Check Procedure",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check brush holder circuit (Refer to \"ON-VEHICLE SERVICE\")"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Repair or replace brush holder, harness or connector"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Check selector lever and control linkage (Refer to \"ON-VEHICLE SERVICE\")"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Adjust or replace selector lever or control linkage"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Check inhibitor switch circuit"
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "Adjust or replace inhibitor switch\nRepair or replace harness or connector"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "Operate select lever after engine is stopped (operation is possible but with difficulty)"
+        },
+        {
+          "id": "n8",
+          "type": "terminal",
+          "text": "Check or repair N-CVT control unit\n\u2022 Select position mechanism"
+        },
+        {
+          "id": "n9",
+          "type": "decision",
+          "text": "Does engine crank and start in \"N\" range?"
+        },
+        {
+          "id": "n10",
+          "type": "terminal",
+          "text": "Replace electromagnetic clutch"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "O.K."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        },
+        {
+          "from": "n7",
+          "to": "n8",
+          "label": "N.G."
+        },
+        {
+          "from": "n7",
+          "to": "n9",
+          "label": "O.K."
+        },
+        {
+          "from": "n9",
+          "to": "n8",
+          "label": "N.G."
+        },
+        {
+          "from": "n9",
+          "to": "n10",
+          "label": "O.K."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "ON-VEHICLE SERVICE"
+  ],
+  "model_notes": "Applies to N-CVT (automatic transmission) variant of Nissan Micra K11."
+}

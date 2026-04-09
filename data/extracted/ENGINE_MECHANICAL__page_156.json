@@ -1,0 +1,184 @@
+{
+  "page_code": "EM-5023",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd) \u2014 VALVE SEAT REPLACEMENT",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5023.jpg",
+  "continuation": {
+    "continues_from": "EM-5022",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM317",
+      "type": "parts_diagram",
+      "description": "Diagram showing recess diameter (top and bottom) in cylinder head for valve seat replacement",
+      "bbox_percent": [
+        0,
+        3,
+        32,
+        20
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM876",
+      "type": "tool_illustration",
+      "description": "Illustration showing cutting or grinding of valve seat using a suitable tool with both hands",
+      "bbox_percent": [
+        0,
+        38,
+        32,
+        58
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM877",
+      "type": "tool_illustration",
+      "description": "Illustration showing application of fine grinding compound and lapping valve against its seat",
+      "bbox_percent": [
+        0,
+        58,
+        32,
+        75
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM635AA",
+      "type": "component_photo",
+      "description": "Illustration showing valve seating condition check; W dimension refers to SDS",
+      "bbox_percent": [
+        0,
+        75,
+        32,
+        93
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE SEAT REPLACEMENT"
+    },
+    {
+      "block_type": "table",
+      "title": "Reaming bore for service valve seat",
+      "columns": [
+        {
+          "key": "port",
+          "label": ""
+        },
+        {
+          "key": "recess_diameter",
+          "label": "Recess Diameter"
+        },
+        {
+          "key": "recess_depth",
+          "label": "Recess Depth"
+        }
+      ],
+      "rows": [
+        {
+          "port": "Intake",
+          "recess_diameter": "37.922 - 37.947 mm (1.4930 - 1.4941 in)",
+          "recess_depth": "8.017 - 8.167 mm (0.3156 - 0.3215 in)"
+        },
+        {
+          "port": "Exhaust",
+          "recess_diameter": "32.422 - 32.447 mm (1.2765 - 1.2774 in)",
+          "recess_depth": "8.30 - 8.45 mm (0.327 - 0.333 in)"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_seat_replacement",
+      "title": "VALVE SEAT REPLACEMENT",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Bore out old seat until it collapses. Set machine depth stop so that boring cannot contact bottom face of seat recess in cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Ream the cylinder head recess diameter and depth.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Reaming bore for service valve seat \u2014 Unit: mm (in). Intake recess diameter: 37.922 - 37.947 (1.4930 - 1.4941), depth: 8.017 - 8.167 (0.3156 - 0.3215). Exhaust recess diameter: 32.422 - 32.447 (1.2765 - 1.2774), depth: 8.30 - 8.45 (0.327 - 0.333)."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Heat cylinder head to a temperature of 150 to 160\u00b0C (302 to 320\u00b0F) and press fit seat until it seats on the bottom.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Use the valve guide center for reaming to ensure valve seat will have the correct fit."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Install valve seats.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "When replacing valve seat, valve should be replaced as well."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Cut or grind valve seat using a suitable tool at the specified dimensions as shown in SDS (EM-5047).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "The cutting should be done with both hands to obtain a uniform and concentric finish."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Apply a small amount of fine grinding compound to the valve's contacting face and put the valve into its guide. Lap valve against its seat until proper valve seating is obtained.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Check valve seating condition.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "W: Refer to SDS."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM-5047"
+  ],
+  "model_notes": null
+}

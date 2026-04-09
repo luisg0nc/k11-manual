@@ -1,0 +1,233 @@
+{
+  "page_code": "GI-2006",
+  "section": "GI",
+  "title": "SAE J1930 TERMINOLOGY LIST - SAE J1930 Terminology List (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "page.jpg",
+  "continuation": {
+    "continues_from": "GI-2005",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SAE J1930 TERMINOLOGY LIST"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SAE J1930 Terminology List (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "***: Not applicable",
+      "style": "note"
+    },
+    {
+      "block_type": "table",
+      "title": "SAE J1930 Terminology List (Cont'd)",
+      "columns": [
+        {
+          "key": "new_term",
+          "label": "NEW TERM"
+        },
+        {
+          "key": "new_acronym",
+          "label": "NEW ACRONYM/ABBREVIATION"
+        },
+        {
+          "key": "old_term",
+          "label": "OLD TERM"
+        }
+      ],
+      "rows": [
+        {
+          "new_term": "Powertrain control module",
+          "new_acronym": "PCM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Programmable read only memory",
+          "new_acronym": "PROM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Pulsed secondary air injection control solenoid valve",
+          "new_acronym": "PAIRC solenoid valve",
+          "old_term": "AIV control solenoid valve"
+        },
+        {
+          "new_term": "Pulsed secondary air injection system",
+          "new_acronym": "PAIR system",
+          "old_term": "Air induction valve (AIV) control"
+        },
+        {
+          "new_term": "Pulsed secondary air injection valve",
+          "new_acronym": "PAIR valve",
+          "old_term": "Air induction valve"
+        },
+        {
+          "new_term": "Random access memory",
+          "new_acronym": "RAM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Read only memory",
+          "new_acronym": "ROM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Scan tool",
+          "new_acronym": "ST",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Secondary air injection pump",
+          "new_acronym": "AIR pump",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Secondary air injection system",
+          "new_acronym": "AIR system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Sequential multiport fuel injection system",
+          "new_acronym": "SFI system",
+          "old_term": "Sequential fuel injection"
+        },
+        {
+          "new_term": "Service reminder indicator",
+          "new_acronym": "SRI",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Simultaneous multiport fuel injection system",
+          "new_acronym": "***",
+          "old_term": "Simultaneous fuel injection"
+        },
+        {
+          "new_term": "Smoke puff limiter system",
+          "new_acronym": "SPL system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Supercharger",
+          "new_acronym": "SC",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Supercharger bypass",
+          "new_acronym": "SCB",
+          "old_term": "***"
+        },
+        {
+          "new_term": "System readiness test",
+          "new_acronym": "SRT",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Thermal vacuum valve",
+          "new_acronym": "TVV",
+          "old_term": "Thermal vacuum valve"
+        },
+        {
+          "new_term": "Three way catalyst",
+          "new_acronym": "TWC",
+          "old_term": "Catalyst"
+        },
+        {
+          "new_term": "Three way catalytic converter system",
+          "new_acronym": "TWC system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Three way + oxidation catalyst",
+          "new_acronym": "TWC + OC",
+          "old_term": "Catalyst"
+        },
+        {
+          "new_term": "Three way + oxidation catalytic converter system",
+          "new_acronym": "TWC + OC system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Throttle body",
+          "new_acronym": "TB",
+          "old_term": "Throttle chamber\nSPI body"
+        },
+        {
+          "new_term": "Throttle body fuel injection system",
+          "new_acronym": "TBI system",
+          "old_term": "Fuel injection control"
+        },
+        {
+          "new_term": "Throttle position",
+          "new_acronym": "TP",
+          "old_term": "Throttle position"
+        },
+        {
+          "new_term": "Throttle position sensor",
+          "new_acronym": "TPS",
+          "old_term": "Throttle sensor"
+        },
+        {
+          "new_term": "Throttle position switch",
+          "new_acronym": "TP switch",
+          "old_term": "Throttle switch"
+        },
+        {
+          "new_term": "Torque converter clutch solenoid valve",
+          "new_acronym": "TCC solenoid valve",
+          "old_term": "Lock-up cancel solenoid\nlock-up solenoid"
+        },
+        {
+          "new_term": "Turbocharger",
+          "new_acronym": "TC",
+          "old_term": "Turbocharger"
+        },
+        {
+          "new_term": "Vehicle speed sensor",
+          "new_acronym": "VSS",
+          "old_term": "Vehicle speed sensor"
+        },
+        {
+          "new_term": "Volume air flow sensor",
+          "new_acronym": "VAFS",
+          "old_term": "Air flow meter"
+        },
+        {
+          "new_term": "Warm up oxidation catalyst",
+          "new_acronym": "WU-OC",
+          "old_term": "Catalyst"
+        },
+        {
+          "new_term": "Warm up osication catalytic converter system",
+          "new_acronym": "WU-OC system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Warm up three-way catalyst",
+          "new_acronym": "WU-TWC",
+          "old_term": "Catalyst"
+        },
+        {
+          "new_term": "Warm up three-way catalytic converter system",
+          "new_acronym": "WU-TWC system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Wide open throttle position switch",
+          "new_acronym": "WOP switch",
+          "old_term": "Full switch"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

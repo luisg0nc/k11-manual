@@ -1,0 +1,168 @@
+{
+  "page_code": "EM-7021",
+  "section": "EM",
+  "title": "CYLINDER HEAD - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": "EM-7020",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM033",
+      "type": "parts_diagram",
+      "description": "Plan view showing liquid gasket application points on cylinder head cover. Two sealant application dimensions of 3.0 (0.118) mm indicated. Shows sealant bead location relative to cylinder head.",
+      "bbox_percent": [
+        0,
+        3,
+        45,
+        22
+      ],
+      "associated_step": "15"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM050",
+      "type": "parts_diagram",
+      "description": "Top view of rocker cover showing bolt tightening sequence numbered 1 through 10. Caption states: Tighten in numerical order.",
+      "bbox_percent": [
+        0,
+        23,
+        45,
+        43
+      ],
+      "associated_step": "17"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width (plan view, two locations)",
+          "value": "3.0 (0.118)",
+          "unit": "mm (in)",
+          "condition": "Applied to cylinder head cover before fitting gasket"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_installation_cont",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 15,
+          "text": "Apply liquid gasket to the cylinder head as shown. Fit the gasket to the cover.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Fit the rocker cover to the cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Tighten the bolts in the correct order, as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Recheck bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 19,
+          "text": "Check a third time.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Install camshaft position sensor (PHASE).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Install all spark plugs and ignition coils.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Install engine front mounting bracket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Install front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Install the front and side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 25,
+          "text": "Install front right wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 26,
+          "text": "Install air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Install and correctly tension the alternator and power steering drive belts. Refer to MA section for correct tension.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Refer to MA section for correct tension."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA section \u2014 alternator and power steering drive belt tension"
+  ],
+  "model_notes": null
+}

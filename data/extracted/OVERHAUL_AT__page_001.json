@@ -1,0 +1,203 @@
+{
+  "page_code": "AT",
+  "section": "AT",
+  "title": "AUTOMATIC TRANSAXLE \u2014 SECTION AT (N.CVT) CONTENTS",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-2"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "AUTOMATIC TRANSAXLE"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SECTION AT (N.CVT)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<1ST REVISION>"
+    },
+    {
+      "block_type": "table",
+      "title": "Table of Contents \u2014 1ST REVISION",
+      "columns": [
+        {
+          "key": "section_name",
+          "label": "Section Name"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "section_name": "PREPARATION",
+          "page": "AT-2"
+        },
+        {
+          "section_name": "PRECAUTIONS",
+          "page": "AT-5"
+        },
+        {
+          "section_name": "INTRODUCTION",
+          "page": "AT-6"
+        },
+        {
+          "section_name": "FUNCTION",
+          "page": "AT-7"
+        },
+        {
+          "section_name": "OPERATION",
+          "page": "AT-15"
+        },
+        {
+          "section_name": "HYDRAULIC CONTROL",
+          "page": "AT-23"
+        },
+        {
+          "section_name": "COMPONENT PARTS",
+          "page": "AT-28"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE",
+          "page": "AT-34"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Control Valve Assembly",
+          "page": "AT-34"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Throttle Wire",
+          "page": "AT-37"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Inhibitor Switch",
+          "page": "AT-39"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Control Linkage",
+          "page": "AT-40"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Vehicle Speed Sensor",
+          "page": "AT-41"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Accelerator and Accelerator Position Switch",
+          "page": "AT-42"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Brush Holder",
+          "page": "AT-43"
+        },
+        {
+          "section_name": "ON VEHICLE SERVICE \u2014 Differential Side Oil Seal",
+          "page": "AT-45"
+        },
+        {
+          "section_name": "TROUBLE DIAGNOSIS",
+          "page": "AT-46"
+        },
+        {
+          "section_name": "REMOVAL AND INSTALLATION",
+          "page": "AT-90"
+        },
+        {
+          "section_name": "DISASSEMBLY",
+          "page": "AT-95"
+        },
+        {
+          "section_name": "REPAIR FOR COMPONENTS PARTS",
+          "page": "AT-104"
+        },
+        {
+          "section_name": "REPAIR FOR COMPONENTS PARTS \u2014 Secondary Pulley Assembly",
+          "page": "AT-104"
+        },
+        {
+          "section_name": "REPAIR FOR COMPONENTS PARTS \u2014 Oil Pump Assembly",
+          "page": "AT-105"
+        },
+        {
+          "section_name": "REPAIR FOR COMPONENTS PARTS \u2014 Main Drive Shaft Assembly",
+          "page": "AT-106"
+        },
+        {
+          "section_name": "REPAIR FOR COMPONENTS PARTS \u2014 Drive Pinion Shaft Assembly",
+          "page": "AT-108"
+        },
+        {
+          "section_name": "ASSEMBLY",
+          "page": "AT-110"
+        },
+        {
+          "section_name": "SERVICE DATA AND SPECIFICATIONS",
+          "page": "AT-125"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-I>"
+    },
+    {
+      "block_type": "prose",
+      "text": "NO CHANGES",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-II>"
+    },
+    {
+      "block_type": "prose",
+      "text": "NO CHANGES",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-2",
+    "AT-5",
+    "AT-6",
+    "AT-7",
+    "AT-15",
+    "AT-23",
+    "AT-28",
+    "AT-34",
+    "AT-37",
+    "AT-39",
+    "AT-40",
+    "AT-41",
+    "AT-42",
+    "AT-43",
+    "AT-45",
+    "AT-46",
+    "AT-90",
+    "AT-95",
+    "AT-104",
+    "AT-105",
+    "AT-106",
+    "AT-108",
+    "AT-110",
+    "AT-125"
+  ],
+  "model_notes": "N.CVT (Nissan Continuously Variable Transaxle) \u2014 Automatic Transaxle section for K11 Nissan Micra 1993-2003"
+}

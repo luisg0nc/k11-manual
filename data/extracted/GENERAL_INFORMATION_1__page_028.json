@@ -1,0 +1,84 @@
+{
+  "page_code": "GI-24",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "GI-24.jpg",
+  "continuation": {
+    "continues_from": "GI-23",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UGI009",
+      "type": "vehicle_diagram",
+      "description": "Underside view of vehicle showing 2-pole lift points, sill locations, center of gravity, lift pad detail, and 850mm dimension between lift points",
+      "bbox_percent": [
+        5,
+        10,
+        95,
+        55
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "2-pole Lift"
+    },
+    {
+      "block_type": "prose",
+      "text": "When lifting the vehicle, open the lift arms as wide as possible and ensure that the front and rear of the vehicle are well balanced.\nWhen setting the lift arm, do not allow the arm to contact the brake tubes and fuel lines.",
+      "style": "warning"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Underside view of vehicle showing 2-pole lift points with 850mm spacing, sill, lift pad, and center of gravity",
+      "callouts": [
+        {
+          "label": "Front",
+          "position": "left side of diagram"
+        },
+        {
+          "label": "850mm",
+          "position": "center, indicating distance between lift arm positions"
+        },
+        {
+          "label": "Sill",
+          "position": "lower center, labeled with arrow"
+        },
+        {
+          "label": "Lift pad",
+          "position": "lower center, below sill label"
+        },
+        {
+          "label": "Center of gravity",
+          "position": "lower right, indicated with crosshair symbol"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note.\nLift-up points are the same as pantograph jack points.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Put the sill in the slit of the lift pad to prevent the sill from deforming. If the pad does not have a slit, prepare a suitable attachment with one.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

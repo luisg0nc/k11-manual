@@ -1,0 +1,103 @@
+{
+  "page_code": "AT-84",
+  "section": "AT",
+  "title": "Trouble Diagnosis Quick Reference (1)",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Trouble Diagnosis Quick Reference (1)"
+    },
+    {
+      "block_type": "table",
+      "title": "Trouble Diagnosis Quick Reference (1)",
+      "columns": [
+        {
+          "key": "trouble_description",
+          "label": "TROUBLE DESCRIPTION"
+        },
+        {
+          "key": "suspected_parts",
+          "label": "SUSPECTED PARTS"
+        },
+        {
+          "key": "action",
+          "label": "ACTION"
+        }
+      ],
+      "rows": [
+        {
+          "trouble_description": "Engine stops",
+          "suspected_parts": "Brake switch circuit; Vehicle speed signal circuit",
+          "action": "Check or replace the appropriate part"
+        },
+        {
+          "trouble_description": "N-CVT warning lamp blinks",
+          "suspected_parts": "Slip ring contaminated by oil; Clutch is overheated (excessive clutch circuit resistance); Vehicle speed sensor circuit",
+          "action": "Check the clutch circuit and vehicle speed signal"
+        },
+        {
+          "trouble_description": "Acceleration is faulty",
+          "suspected_parts": "Stall test \u2014 If stall speed is high, the clutch torque decreases",
+          "action": "Check or replace electromagnetic clutch"
+        },
+        {
+          "trouble_description": "Acceleration is faulty",
+          "suspected_parts": "Stall test \u2014 If stall speed is normal, the N-CVT pulley is fixed in the overdrive position",
+          "action": "Check the N-CVT transaxle assembly"
+        },
+        {
+          "trouble_description": "Acceleration is faulty",
+          "suspected_parts": "Stall test \u2014 If stall speed is low, the engine torque decreases or clutch torque becomes too high",
+          "action": "Check engine; Check or replace the electromagnetic clutch"
+        },
+        {
+          "trouble_description": "Clutch does not engage",
+          "suspected_parts": "There is a short-circuit between the electromagnetic clutch circuit negative side (-) and ground",
+          "action": "Check the electromagnetic clutch circuit"
+        },
+        {
+          "trouble_description": "Engine speed is uneven at constant speeds over 30 km/h",
+          "suspected_parts": "There is an abnormal decrease in clutch torque; Vehicle speed signal is faulty",
+          "action": "Check electromagnetic clutch; Check vehicle speed sensor circuit"
+        },
+        {
+          "trouble_description": "There is a sharp shock when the accelerator pedal is depressed from the released position between 10 and 20 km/h",
+          "suspected_parts": "Shift characteristics are incorrect for low speeds",
+          "action": "Check the N-CVT transaxle assembly"
+        },
+        {
+          "trouble_description": "The clutch does not disengage readily when decelerating",
+          "suspected_parts": "Vehicle speed signal circuit is faulty",
+          "action": "Check the vehicle speed signal system"
+        },
+        {
+          "trouble_description": "The clutch disengages when the accelerator pedal is released when driving faster than 20 km/h",
+          "suspected_parts": "The brake switch circuit is faulty (malfunctions by staying ON); The ABS operation signal circuit is faulty",
+          "action": "Check the brake switch; Check the ABS operation signal circuit"
+        },
+        {
+          "trouble_description": "The clutch disengages when the brake pedal is depressed in Ds range",
+          "suspected_parts": "Brake switch circuit is faulty (malfunctions by staying OFF)",
+          "action": "Check the brake switch"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N-CVT transaxle specific trouble diagnosis. Applies to Nissan Micra K11 with N-CVT automatic transmission."
+}

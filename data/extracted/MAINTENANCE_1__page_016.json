@@ -1,0 +1,173 @@
+{
+  "page_code": "MA-16",
+  "section": "MA",
+  "title": "Checking Exhaust Gas Sensor",
+  "page_type": "flowchart",
+  "source_image": "page_ma16.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEF246F",
+      "type": "component_photo",
+      "description": "Temperature gauge showing pointer at middle position between 120 and 270",
+      "bbox_percent": [
+        2,
+        8,
+        28,
+        22
+      ],
+      "associated_step": "warm_up"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEF320K",
+      "type": "component_photo",
+      "description": "CONSULT data monitor display showing M/R F/C MNT mode",
+      "bbox_percent": [
+        2,
+        24,
+        28,
+        36
+      ],
+      "associated_step": "method1_step1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEF386K",
+      "type": "component_photo",
+      "description": "Diagnostic connector for CONSULT with IGN CHK terminal indicated",
+      "bbox_percent": [
+        2,
+        39,
+        28,
+        52
+      ],
+      "associated_step": "method2_step1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UMA034",
+      "type": "component_photo",
+      "description": "ECU unit showing RED L.E.D. location",
+      "bbox_percent": [
+        2,
+        56,
+        28,
+        70
+      ],
+      "associated_step": "method2_step3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Exhaust Gas Sensor"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking procedure"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Checking Exhaust Gas Sensor Procedure",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "start",
+          "text": "INSPECTION START"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Start engine and warm it up until water temperature indicator points to the middle of gauge."
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Method 1 (CONSULT): 1. See \"M/R F/C MNT\" in \"Data monitor\" mode. 2. Run engine at about 2,000 rpm for about 2 minutes under no-load. 3. Maintaining engine at 2,000 rpm under no-load (engine is warmed up sufficiently.), check that the monitor fluctuates between \"LEAN\" and \"RICH\" more than 5 times during 10 seconds. RICH \u2192 LEAN \u2192 RICH \u2192 1 time  2 times LEAN \u2192 RICH ......"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Method 2 (without CONSULT): 1. Set \"Exhaust gas sensor monitor\" in the self-diagnostic Mode II. (Refer to section EF & EC.) 2. Run engine at about 2,000 rpm for about 2 minutes under no-load. 3. Maintaining engine at 2,000 rpm under no-load, check to make sure that the RED L.E.D. on the E.C.U. or the check engine light on the instrument panel goes ON and OFF more than 5 times during 10 seconds."
+        },
+        {
+          "id": "n5",
+          "type": "decision",
+          "text": "O.K. / N.G."
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "INSPECTION END"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "Check and adjustment should be made by referring to IDLE SPEED/IGNITION TIMING/IDLE MIXTURE RATIO INSPECTION in section EF & EC."
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "OR"
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": ""
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": ""
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "O.K."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "CONSULT",
+      "name": "CONSULT diagnostic tool",
+      "usage": "Reading M/R F/C MNT in Data monitor mode to check exhaust gas sensor fluctuation"
+    }
+  ],
+  "cross_references": [
+    "EF & EC",
+    "IDLE SPEED/IGNITION TIMING/IDLE MIXTURE RATIO INSPECTION"
+  ],
+  "model_notes": null
+}

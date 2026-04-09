@@ -1,0 +1,67 @@
+{
+  "page_code": "GI-5010",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.png",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NGI034",
+      "type": "vehicle_diagram",
+      "description": "Illustration showing towing hook locations on the front and rear of the Nissan Micra K11, with arrows indicating the towing hook positions on both front bumper area and rear underside.",
+      "bbox_percent": [
+        2,
+        3,
+        42,
+        48
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Tow Truck Towing"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TOWING POINT"
+    },
+    {
+      "block_type": "prose",
+      "text": "Always pull the cable straight out from the vehicle. Never pull on the hook at a sideways angle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Towing hook locations on the vehicle \u2014 front and rear",
+      "callouts": [
+        {
+          "label": "Towing hook",
+          "position": "Front underside/bumper area"
+        },
+        {
+          "label": "Towing hook",
+          "position": "Rear underside"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

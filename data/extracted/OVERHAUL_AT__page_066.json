@@ -1,0 +1,143 @@
+{
+  "page_code": "AT-66",
+  "section": "AT",
+  "title": "ABS Signal & Idle Up Relay Circuit Check",
+  "page_type": "flowchart",
+  "source_image": "AT-66.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-67"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT132",
+      "type": "wiring_schematic",
+      "description": "Circuit diagram showing IGN-SW, A/C relay, Idle-up relay, N-CVT C/U, A/C clutch, Solenoid, and ABS C/U connections with fuse ratings 10A #2 and 10A #21",
+      "bbox_percent": [
+        0,
+        4,
+        35,
+        25
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT133",
+      "type": "connector_diagram",
+      "description": "Diagram A: N-CVT C/U connector showing terminal #25 with voltmeter connection to ground",
+      "bbox_percent": [
+        0,
+        46,
+        35,
+        65
+      ],
+      "associated_step": "Check idle-up relay - Check input signal step 4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT134",
+      "type": "connector_diagram",
+      "description": "Diagram B: Idle up relay connector showing terminal #1 with voltmeter connection to body ground",
+      "bbox_percent": [
+        0,
+        76,
+        35,
+        97
+      ],
+      "associated_step": "Check idle-up relay - Check idle-up relay power circuit step 4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "ABS Signal & Idle Up Relay Circuit Check"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "ABS Signal & Idle Up Relay Circuit Check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "decision",
+          "text": "Check ABS signal circuit\n\u2022 Perform 'ABS' self diagnosis using CONSULT. Does 'CVT TRANSMISSION WIRE' indicate a faulty circuit?\n\u2022 If 'ABS' self diagnosis is performed, does lamp blink ten times?\n(Refer to section BR, 'ABS TROUBLE DIAGNOSIS' for self diagnosis method)"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Repair harness or connector between N-CVT control unit terminal #14 and ABS control unit terminal #32"
+        },
+        {
+          "id": "n3",
+          "type": "decision",
+          "text": "Check idle-up relay\nCheck input signal\n1. Turn ignition switch 'OFF'\n2. Disconnect N-CVT control unit connector\n3. Turn ignition switch 'ON'\n4. Check voltage between N-CVT control unit vehicle harness connector terminal #25 and ground.\nVoltage: Battery voltage"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Check FICD solenoid circuit"
+        },
+        {
+          "id": "n5",
+          "type": "decision",
+          "text": "Check idle-up relay\nCheck idle-up relay power circuit\n1. Turn ignition switch 'OFF'\n2. Remove idle-up relay\n3. Turn ignition switch 'ON'\n4. Check voltage between idle up relay connector terminal #1 and body ground\nVoltage: Battery voltage"
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "Check harness or connector between fuse and relay"
+        },
+        {
+          "id": "n7",
+          "type": "reference",
+          "text": "Go to next page"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "YES"
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "NO"
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "BR - ABS TROUBLE DIAGNOSIS"
+  ],
+  "model_notes": "Applies to N-CVT (CVT transmission) equipped vehicles with ABS. References N-CVT C/U terminal #14 and #25, ABS C/U terminal #32."
+}

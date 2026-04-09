@@ -1,0 +1,186 @@
+{
+  "page_code": "EM-57",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 General Specifications",
+  "page_type": "spec_table",
+  "source_image": "page_EM-57.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "EM120",
+      "type": "component_photo",
+      "description": "Valve timing diagram showing T.D.C. and B.D.C. positions, direction of rotation, intake opens/closes and exhaust opens/closes points, with reference letters a through f marked on the diagram.",
+      "bbox_percent": [
+        10,
+        28,
+        75,
+        58
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "General Specifications"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "GENERAL SPECIFICATIONS"
+    },
+    {
+      "block_type": "table",
+      "title": "General Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Engine"
+        },
+        {
+          "key": "CG10DE",
+          "label": "CG10DE"
+        },
+        {
+          "key": "CG13DE",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Engine",
+          "CG10DE": "CG10DE",
+          "CG13DE": "CG13DE"
+        },
+        {
+          "parameter": "Classification",
+          "CG10DE": "Gasoline",
+          "CG13DE": "Gasoline"
+        },
+        {
+          "parameter": "Cylinder arrangement",
+          "CG10DE": "4 in-line",
+          "CG13DE": "4 in-line"
+        },
+        {
+          "parameter": "Displacement cm\u00b3 (cu in)",
+          "CG10DE": "998 (60.9)",
+          "CG13DE": "1275 (77.8)"
+        },
+        {
+          "parameter": "Bore x stroke mm (in)",
+          "CG10DE": "71 x 63 (2.79 x 2.48)",
+          "CG13DE": "71 x 80.5 (2.79 x 3.16)"
+        },
+        {
+          "parameter": "Valve arrangement",
+          "CG10DE": "D.O.H.C.",
+          "CG13DE": "D.O.H.C."
+        },
+        {
+          "parameter": "Firing order",
+          "CG10DE": "1-3-4-2",
+          "CG13DE": "1-3-4-2"
+        },
+        {
+          "parameter": "Number of piston rings \u2014 Compression",
+          "CG10DE": "2",
+          "CG13DE": "2"
+        },
+        {
+          "parameter": "Number of piston rings \u2014 Oil",
+          "CG10DE": "1",
+          "CG13DE": "1"
+        },
+        {
+          "parameter": "Number of main bearings",
+          "CG10DE": "5",
+          "CG13DE": "5"
+        },
+        {
+          "parameter": "Compression ratio",
+          "CG10DE": "9.5",
+          "CG13DE": "9.5"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve timing"
+    },
+    {
+      "block_type": "prose",
+      "text": "Valve timing diagram (EM120) \u2014 Unit: degree. Shows T.D.C. and B.D.C. positions, direction of rotation, intake opens (a), intake closes (b), exhaust opens (d\u2192f area), exhaust closes (c/e area).",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Timing (Unit: degree) \u2014 ref EM120",
+      "columns": [
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "a",
+          "label": "a"
+        },
+        {
+          "key": "b",
+          "label": "b"
+        },
+        {
+          "key": "c",
+          "label": "c"
+        },
+        {
+          "key": "d",
+          "label": "d"
+        },
+        {
+          "key": "e",
+          "label": "e"
+        },
+        {
+          "key": "f",
+          "label": "f"
+        }
+      ],
+      "rows": [
+        {
+          "engine": "CG10DE",
+          "a": "196\u00b0",
+          "b": "196\u00b0",
+          "c": "0\u00b0",
+          "d": "16\u00b0",
+          "e": "0\u00b0",
+          "f": "16\u00b0"
+        },
+        {
+          "engine": "CG13DE",
+          "a": "222\u00b0",
+          "b": "222\u00b0",
+          "c": "0\u00b0",
+          "d": "42\u00b0",
+          "e": "0\u00b0",
+          "f": "42\u00b0"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Covers CG10DE (998 cc) and CG13DE (1275 cc) engines. Both share the same compression ratio (9.5), firing order (1-3-4-2), D.O.H.C. valve arrangement, 4 in-line cylinder arrangement, 5 main bearings, 2 compression rings, 1 oil ring."
+}

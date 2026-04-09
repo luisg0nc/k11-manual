@@ -1,0 +1,161 @@
+{
+  "page_code": "EM-53",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd) / Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "EM-53.jpg",
+  "continuation": {
+    "continues_from": "EM-52",
+    "continues_to": "EM-54"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM091",
+      "type": "component_photo",
+      "description": "Flywheel runout measurement with dial indicator mounted on engine block",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        14
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM092",
+      "type": "parts_diagram",
+      "description": "Piston and connecting rod assembly showing piston grade number, frontmark, cylinder number, and front of engine orientation",
+      "bbox_percent": [
+        0,
+        14,
+        38,
+        40
+      ],
+      "associated_step": "assembly_step1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM060",
+      "type": "tool_illustration",
+      "description": "Piston pin installation tool setup using KV10116620, KV10116610, and ST13040000 on a press",
+      "bbox_percent": [
+        0,
+        40,
+        38,
+        58
+      ],
+      "associated_step": "assembly_step1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM094",
+      "type": "parts_diagram",
+      "description": "Piston ring installation showing punch mark side up (if mark is present) with ring marked R",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        76
+      ],
+      "associated_step": "assembly_step2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FLYWHEEL/DRIVE PLATE RUNOUT"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Runout (Total indicator reading): Flywheel",
+          "value": "Less than 0.15",
+          "unit": "mm (0.0059 in)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Assemble piston, piston pin and connecting rod, after heating small end to 200\u00b0C (392\u00b0F).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Align the direction of piston and connecting rod.",
+            "Numbers stamped on connecting rod and cap correspond to each cylinder.",
+            "After assembly, make sure connecting rod swings smoothly."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Set piston rings as shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "CAUTION: When piston rings are not replaced, make sure that piston rings are mounted in their original position.",
+            "CAUTION: When piston rings are being replaced and no punch mark is present, piston rings can be mounted with either side up."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Align the direction of piston and connecting rod.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Numbers stamped on connecting rod and cap correspond to each cylinder.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "After assembly, make sure connecting rod swings smoothly.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "When piston rings are not replaced, make sure that piston rings are mounted in their original position.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When piston rings are being replaced and no punch mark is present, piston rings can be mounted with either side up.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10116620",
+      "name": "Piston pin press tool (upper)",
+      "usage": "Used with KV10116610 and ST13040000 to press piston pin into connecting rod small end"
+    },
+    {
+      "part_number": "KV10116610",
+      "name": "Piston pin press tool (lower guide)",
+      "usage": "Used with KV10116620 and ST13040000 to press piston pin into connecting rod small end"
+    },
+    {
+      "part_number": "ST13040000",
+      "name": "Piston pin press base",
+      "usage": "Base fixture for piston pin installation press assembly"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

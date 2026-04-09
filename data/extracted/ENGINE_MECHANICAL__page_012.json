@@ -1,0 +1,233 @@
+{
+  "page_code": "EM-9",
+  "section": "EM",
+  "title": "Outer Component Parts \u2014 Intake Manifold & Fuel System (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page_EM-9.jpg",
+  "continuation": {
+    "continues_from": "EM-8",
+    "continues_to": "EM-10"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM026",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of fuel rail assembly components including injector cap, injector, O-rings, bracket, spacer, injector seal, fuel rail assembly, pressure regulator, and associated torque values.",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        30
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM027",
+      "type": "component_photo",
+      "description": "Photograph showing fuel rail assembly on engine with arrows indicating injector harness connection points for disconnection.",
+      "bbox_percent": [
+        2,
+        55,
+        42,
+        75
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Intake Manifold & Fuel System (Cont'd)"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Injector cap",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Injector",
+          "note": "Apply clean engine oil"
+        },
+        {
+          "number": 3,
+          "name": "O-ring",
+          "note": "Do not reuse; Apply clean engine oil"
+        },
+        {
+          "number": 4,
+          "name": "Bracket",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Spacer",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Injector seal",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 7,
+          "name": "Fuel rail assembly",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Pressure regulator",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "O-ring",
+          "note": "Do not reuse; Apply clean engine oil"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Injector cap torque",
+          "value": "2.9-3.8",
+          "unit": "N\u00b7m",
+          "condition": "Injector cap fastener"
+        },
+        {
+          "label": "Injector cap torque",
+          "value": "0.30-0.39",
+          "unit": "kg\u00b7m",
+          "condition": "Injector cap fastener"
+        },
+        {
+          "label": "Injector cap torque",
+          "value": "2.2-2.8",
+          "unit": "ft\u00b7lb",
+          "condition": "Injector cap fastener"
+        },
+        {
+          "label": "Bracket bolt torque",
+          "value": "16-21",
+          "unit": "N\u00b7m",
+          "condition": "Bracket fastener"
+        },
+        {
+          "label": "Bracket bolt torque",
+          "value": "1.6-2.1",
+          "unit": "kg\u00b7m",
+          "condition": "Bracket fastener"
+        },
+        {
+          "label": "Bracket bolt torque",
+          "value": "12-15",
+          "unit": "ft\u00b7lb",
+          "condition": "Bracket fastener"
+        },
+        {
+          "label": "Pressure regulator torque",
+          "value": "2.9-3.8",
+          "unit": "N\u00b7m",
+          "condition": "Pressure regulator fastener"
+        },
+        {
+          "label": "Pressure regulator torque",
+          "value": "0.30-0.39",
+          "unit": "kg\u00b7m",
+          "condition": "Pressure regulator fastener"
+        },
+        {
+          "label": "Pressure regulator torque",
+          "value": "2.2-2.8",
+          "unit": "ft\u00b7lb",
+          "condition": "Pressure regulator fastener"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Square symbol = Apply clean engine oil; Circle-X symbol = Do not reuse; Circled value = N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FUEL RAIL"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "fuel_rail_removal",
+      "title": "Fuel Rail Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Release fuel pressure. Refer to FE section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove air cleaner assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Disconnect hoses and remove throttle body unit.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Disconnect injector harness and remove fuel rail assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check all components for wear, damage, etc. Refer to EF & EC section for injector electrical inspection.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Replace all seals and O-rings.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FE section \u2014 fuel pressure release",
+    "EF & EC section \u2014 injector electrical inspection"
+  ],
+  "model_notes": null
+}

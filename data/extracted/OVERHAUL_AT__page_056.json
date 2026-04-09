@@ -1,0 +1,191 @@
+{
+  "page_code": "AT-56",
+  "section": "AT",
+  "title": "N-CVT Warning Lamp Circuit Check",
+  "page_type": "flowchart",
+  "source_image": "AT-56.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT106",
+      "type": "connector_diagram",
+      "description": "N-CVT C/U connector diagram showing terminal 20 with voltmeter connected between terminal 20 and ground",
+      "bbox_percent": [
+        0,
+        5,
+        35,
+        22
+      ],
+      "associated_step": "Step A - Check input signal"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT107",
+      "type": "component_photo",
+      "description": "DATA MONITOR display showing: CAR SPEED SEN 0 km/h, ENGINE REV 1160 rpm, CLUTCH CRRNT* 0.0A, CLUTCH CRRNT 0.0A, PULLEY RATIO 2.50, ACCEL. SW. OFF, THRTL OPEN SW ON, AIR/C SIGNAL OFF, STOP LAMP SW OFF - with RECORD label",
+      "bbox_percent": [
+        0,
+        28,
+        35,
+        58
+      ],
+      "associated_step": "Step B - Check engine speed signal"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT108",
+      "type": "connector_diagram",
+      "description": "N-CVT C/U connector diagram showing terminal 22 with voltmeter connected between terminal 22 and ground",
+      "bbox_percent": [
+        0,
+        60,
+        35,
+        88
+      ],
+      "associated_step": "Step B - Check harness voltage between terminal 22 and ground"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "N-CVT Warning Lamp Circuit Check"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "N-CVT Warning Lamp Circuit Check",
+      "nodes": [
+        {
+          "id": "nA",
+          "type": "action",
+          "text": "Check input signal\n1. Turn ignition switch \"ON\"\n2. Check voltage between N-CVT control unit connector terminal (20) and ground\nVoltage: Battery voltage"
+        },
+        {
+          "id": "nA_NG",
+          "type": "action",
+          "text": "Check following items:\n\u25cf Fuse # 12\n\u25cf N-CVT warning lamp bulb\n\u25cf N-CVT relay (refer to electrical component inspection)\n\u25cf Harness continuity between ignition switch and N-CVT control unit"
+        },
+        {
+          "id": "nB",
+          "type": "action",
+          "text": "Check engine speed signal\n1. Start engine\n2. \u25cf Select \"DATA MONITOR\"\n\u25cf Read ENGINE RPM from monitor\n\u25cf Check engine speed in comparison with throttle opening\n\u2014 OR \u2014\nCheck harness voltage between terminal 22 and ground.\nVoltage: 0.9 - 4.5 V"
+        },
+        {
+          "id": "nB_NG",
+          "type": "action",
+          "text": "Check following items:\n\u25cf Harness continuity between N-CVT control unit terminal (22) and engine control unit terminal (2)\n\u25cf Perform Self-diagnosis of engine control unit (refer to EF & EC)"
+        },
+        {
+          "id": "nC",
+          "type": "action",
+          "text": "Perform Self diagnosis after test drive"
+        },
+        {
+          "id": "nC_NG",
+          "type": "action",
+          "text": "1. Check the N-CVT input and output signals\n2. Re-check N-CVT control unit pin terminals for damage and correct connection of control unit harness connector"
+        },
+        {
+          "id": "nD",
+          "type": "terminal",
+          "text": "Inspection end"
+        }
+      ],
+      "edges": [
+        {
+          "from": "nA",
+          "to": "nA_NG",
+          "label": "N.G."
+        },
+        {
+          "from": "nA",
+          "to": "nB",
+          "label": "O.K."
+        },
+        {
+          "from": "nB",
+          "to": "nB_NG",
+          "label": "N.G."
+        },
+        {
+          "from": "nB",
+          "to": "nC",
+          "label": "O.K."
+        },
+        {
+          "from": "nC",
+          "to": "nC_NG",
+          "label": "N.G."
+        },
+        {
+          "from": "nC",
+          "to": "nD",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "DATA MONITOR Reading (recorded values)",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "CAR SPEED SEN",
+          "value": "0 km/h"
+        },
+        {
+          "parameter": "ENGINE REV",
+          "value": "1160 rpm"
+        },
+        {
+          "parameter": "CLUTCH CRRNT*",
+          "value": "0.0A"
+        },
+        {
+          "parameter": "CLUTCH CRRNT",
+          "value": "0.0A"
+        },
+        {
+          "parameter": "PULLEY RATIO",
+          "value": "2.50"
+        },
+        {
+          "parameter": "ACCEL. SW.",
+          "value": "OFF"
+        },
+        {
+          "parameter": "THRTL OPEN SW",
+          "value": "ON"
+        },
+        {
+          "parameter": "AIR/C SIGNAL",
+          "value": "OFF"
+        },
+        {
+          "parameter": "STOP LAMP SW",
+          "value": "OFF"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EF & EC",
+    "electrical component inspection"
+  ],
+  "model_notes": null
+}

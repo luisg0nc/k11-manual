@@ -1,0 +1,250 @@
+{
+  "page_code": "EM-31",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-31.jpg",
+  "continuation": {
+    "continues_from": "EM-30",
+    "continues_to": "EM-32"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM156D",
+      "type": "tool_illustration",
+      "description": "Measuring outer diameter of camshaft journal with micrometer",
+      "bbox_percent": [
+        0,
+        2,
+        32,
+        20
+      ],
+      "associated_step": "Step 3 \u2014 Measure outer diameter of camshaft journal"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM157D",
+      "type": "tool_illustration",
+      "description": "Measuring camshaft end play with dial gauge installed on cylinder head",
+      "bbox_percent": [
+        0,
+        32,
+        32,
+        52
+      ],
+      "associated_step": "CAMSHAFT END PLAY \u2014 Step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM158D",
+      "type": "tool_illustration",
+      "description": "Measuring camshaft sprocket runout with dial indicator",
+      "bbox_percent": [
+        0,
+        53,
+        32,
+        72
+      ],
+      "associated_step": "CAMSHAFT SPROCKET RUNOUT \u2014 Step 2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM345D",
+      "type": "tool_illustration",
+      "description": "Measuring valve guide clearance (valve deflection) with dial gauge; measurement point approx. 25 mm (0.98 in) from valve guide",
+      "bbox_percent": [
+        0,
+        73,
+        32,
+        93
+      ],
+      "associated_step": "VALVE GUIDE CLEARANCE \u2014 Step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_journal_od",
+      "title": "Camshaft Journal Outer Diameter Measurement",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Measure outer diameter of camshaft journal.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "If clearance exceeds the limit, replace camshaft and/or cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Camshaft journal outer diameter (intake and exhaust) \u2014 No. 1 journal",
+          "value": "27.935 - 27.955",
+          "unit": "mm (1.0998 - 1.1006 in)",
+          "condition": "Standard"
+        },
+        {
+          "label": "Camshaft journal outer diameter (intake and exhaust) \u2014 No. 2 to No. 5 journals",
+          "value": "23.435 - 23.455",
+          "unit": "mm (0.9226 - 0.9234 in)",
+          "condition": "Standard"
+        },
+        {
+          "label": "Camshaft journal clearance",
+          "value": "0.045 - 0.086",
+          "unit": "mm (0.0018 - 0.0034 in)",
+          "condition": "Standard"
+        },
+        {
+          "label": "Camshaft journal clearance",
+          "value": "0.15",
+          "unit": "mm (0.0059 in)",
+          "condition": "Limit"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CAMSHAFT END PLAY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_end_play",
+      "title": "Camshaft End Play",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install camshaft in cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure camshaft end play.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Camshaft end play",
+          "value": "0.115 - 0.188",
+          "unit": "mm (0.0045 - 0.0074 in)",
+          "condition": "Standard"
+        },
+        {
+          "label": "Camshaft end play",
+          "value": "0.24",
+          "unit": "mm (0.0094 in)",
+          "condition": "Limit"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CAMSHAFT SPROCKET RUNOUT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "camshaft_sprocket_runout",
+      "title": "Camshaft Sprocket Runout",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install sprocket on camshaft.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure camshaft sprocket runout.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "If it exceeds the limit, replace camshaft sprocket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Camshaft sprocket runout (Total indicator reading)",
+          "value": "0.15",
+          "unit": "mm (0.0059 in)",
+          "condition": "Limit"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VALVE GUIDE CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_guide_clearance",
+      "title": "Valve Guide Clearance",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure valve deflection in direction shown. (Valve and valve guide mostly wear in this direction.)",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Measurement point: Approx. 25 mm (0.98 in) from valve guide"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve deflection limit (Dial gauge reading) \u2014 Intake & Exhaust",
+          "value": "0.2",
+          "unit": "mm (0.008 in)",
+          "condition": "Limit"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

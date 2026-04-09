@@ -1,0 +1,162 @@
+{
+  "page_code": "EM-38",
+  "section": "EM",
+  "title": "VALVE CLEARANCE \u2014 Adjusting (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-38.jpg",
+  "continuation": {
+    "continues_from": "EM-37",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM146D",
+      "type": "component_photo",
+      "description": "Photo showing installation of new shim using Tool (B) and a suitable tool, with shim being placed into bucket",
+      "bbox_percent": [
+        0,
+        1,
+        45,
+        22
+      ],
+      "associated_step": "8"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM147D",
+      "type": "component_photo",
+      "description": "Photo showing Tool (A) placed on bucket and Tool (B) positioned, illustrating steps 9-11 of valve clearance adjustment",
+      "bbox_percent": [
+        0,
+        22,
+        45,
+        44
+      ],
+      "associated_step": "9"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "VALVE CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjusting (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_clearance_adjusting_contd",
+      "title": "Adjusting (Cont'd)",
+      "steps": [
+        {
+          "step": 8,
+          "text": "Install new shim using a suitable tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Install with the surface on which the thickness is stamped facing down."
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Place Tool (A) as mentioned in steps 2 and 3.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Remove Tool (B).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Remove Tool (A).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Recheck valve clearance.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve clearance for adjusting:"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve clearance for adjusting",
+      "columns": [
+        {
+          "key": "valve_type",
+          "label": ""
+        },
+        {
+          "key": "hot",
+          "label": "Hot"
+        },
+        {
+          "key": "cold",
+          "label": "Cold* (reference data)"
+        }
+      ],
+      "rows": [
+        {
+          "valve_type": "Intake",
+          "hot": "0.33 - 0.41 mm (0.0130 - 0.0161 in)",
+          "cold": "0.25 - 0.33 mm (0.0098 - 0.0130 in)"
+        },
+        {
+          "valve_type": "Exhaust",
+          "hot": "0.36 - 0.44 mm (0.0142 - 0.0173 in)",
+          "cold": "0.32 - 0.40 mm (0.0126 - 0.0157 in)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: At a temperature of approximately 20\u00b0C (68\u00b0F)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "If valve clearances are set under cold conditions, i.e. during an engine rebuild, check that the clearances are correct after the engine has been run to normal operating temperature. Adjust if necessary.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Tool (A)",
+      "usage": "Used to depress bucket/lifter during shim replacement; placed as mentioned in steps 2 and 3, then removed after Tool (B) is removed"
+    },
+    {
+      "part_number": "",
+      "name": "Tool (B)",
+      "usage": "Used to hold bucket/lifter depressed while shim is replaced; removed after Tool (A) is repositioned"
+    },
+    {
+      "part_number": "",
+      "name": "Suitable tool",
+      "usage": "Used to install new shim into bucket"
+    }
+  ],
+  "cross_references": [
+    "EM-37"
+  ],
+  "model_notes": null
+}

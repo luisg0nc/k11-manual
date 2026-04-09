@@ -1,0 +1,188 @@
+{
+  "page_code": "AT-65",
+  "section": "AT",
+  "title": "Torque Signal Circuit Check",
+  "page_type": "flowchart",
+  "source_image": "AT-65.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT128",
+      "type": "wiring_schematic",
+      "description": "Schematic showing ECCS C/U terminal 25 connected to N-CVT C/U terminal 13",
+      "bbox_percent": [
+        0,
+        0,
+        32,
+        12
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT129",
+      "type": "connector_diagram",
+      "description": "Data monitor display showing range switch statuses and TORQUE SIG ON, with RECORD button. Accelerator pedal and brake pedal operation illustration for section A.",
+      "bbox_percent": [
+        0,
+        12,
+        32,
+        52
+      ],
+      "associated_step": "A"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT131",
+      "type": "connector_diagram",
+      "description": "N-CVT C/U connector diagram showing voltmeter connected to terminal 13 and body ground for voltage check. Accelerator pedal and brake pedal operation illustration for section A.",
+      "bbox_percent": [
+        0,
+        52,
+        32,
+        100
+      ],
+      "associated_step": "A"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Torque Signal Circuit Check"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "ECCS C/U to N-CVT C/U connection",
+      "components": [
+        {
+          "id": "ECCS_CU",
+          "label": "ECCS C/U",
+          "terminal": "25"
+        },
+        {
+          "id": "NCVT_CU",
+          "label": "N-CVT C/U",
+          "terminal": "13"
+        }
+      ],
+      "wires": [
+        {
+          "from": "ECCS_CU_25",
+          "to": "NCVT_CU_13",
+          "color": null
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Data Monitor Display (MONITOR / NO FAIL)",
+      "columns": [
+        {
+          "key": "signal",
+          "label": "Signal"
+        },
+        {
+          "key": "status",
+          "label": "Status"
+        }
+      ],
+      "rows": [
+        {
+          "signal": "S-RANGE SW",
+          "status": "OFF"
+        },
+        {
+          "signal": "D-RANGE SW",
+          "status": "OFF"
+        },
+        {
+          "signal": "R-RANGE SW",
+          "status": "OFF"
+        },
+        {
+          "signal": "NEUT SW",
+          "status": "ON"
+        },
+        {
+          "signal": "A.B.S. SIGNAL",
+          "status": "OFF"
+        },
+        {
+          "signal": "TORQUE SIG",
+          "status": "ON"
+        }
+      ]
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Torque Signal Circuit Check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "start",
+          "text": "A \u2014 Check input signal\n1. Apply parking brake. Set selector lever to \"P\".\nStart engine.\nPress brake pedal.\nSelect \"D\".\n2. Select \"DATA MONITOR\"\n\u2022 Check that \"TORQUE SIGNAL\" display is \"ON\" when accelerator pedal is released. Check that \"OFF\" blinks at Stall speed (1,700-2,300 rpm) after brake pedal is fully depressed and accelerator pedal is depressed.\nNOTE: Refer to \"Diagnostic procedure\", \"Stall test\".\n\u2014 OR \u2014\n\u2022 Connect tester between N-CVT control unit terminal #13 and body ground. Check that voltage is 0V when accelerator pedal is released. Check that voltage is 12V at stall speed (1,700-2,300 rpm) after brake pedal is fully depressed and accelerator pedal is depressed.\nNOTE: Refer to \"Diagnostic procedure\", \"Stall test\""
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Perform self diagnosis after test drive"
+        },
+        {
+          "id": "n3",
+          "type": "terminal",
+          "text": "Inspection END"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Check following items:\n1. Continuity of harness between E.C.C.S. control unit and N-CVT control unit\n2. E.C.C.S. control unit output voltage (refer to section EF&EC)\n3. Throttle sensor (refer to section EF&EC)\n4. Accelerator position switch installation\n5. Faulty shifting (refer to \"Diagnostic Procedures\", \"Faulty Shifting\")."
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "1. Check N-CVT control unit I/O signals\n2. Recheck N-CVT control unit pin terminals for damage or incorrect connection of control unit harness connector"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "O.K."
+        },
+        {
+          "from": "n1",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n2",
+          "to": "n5",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EF&EC",
+    "Diagnostic Procedures - Stall test",
+    "Diagnostic Procedures - Faulty Shifting"
+  ],
+  "model_notes": "Applies to N-CVT (automatic transmission) equipped vehicles."
+}

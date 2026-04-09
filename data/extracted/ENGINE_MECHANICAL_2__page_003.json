@@ -1,0 +1,220 @@
+{
+  "page_code": "EM-7003",
+  "section": "EM",
+  "title": "OUTER COMPONENT PARTS \u2014 Rocker Cover",
+  "page_type": "parts_diagram",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM360",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of rocker cover and associated components including ignition coil, PVC valve, oil filler cap, seals, spark plug tube seals, gasket, hoses, and intake manifold with torque values indicated.",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        42
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM033",
+      "type": "parts_diagram",
+      "description": "Plan view showing sealant application areas on cylinder head with dimensions 3.0 mm (0.118 in) on each side.",
+      "bbox_percent": [
+        0,
+        65,
+        35,
+        85
+      ],
+      "associated_step": "ASSEMBLY step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Rocker Cover"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Intake manifold",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "PVC valve",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Ignition coil",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Air-cleaner",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Seal",
+          "note": "Apply sealant; Do not reuse"
+        },
+        {
+          "number": 8,
+          "name": "Oil filler cap",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Spark plug tube seals",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 11,
+          "name": "Gasket",
+          "note": "Do not reuse; Apply sealant"
+        },
+        {
+          "number": 12,
+          "name": "Hose",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Ignition coil bolt torque",
+          "value": "3.8 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Ignition coil bolt torque",
+          "value": "0.39 - 0.51",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Ignition coil bolt torque",
+          "value": "2.8 - 3.6",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "2.0 - 3.9",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "0.20 - 0.40",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "1.4 - 2.9",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Apply sealant | Do not reuse | Lubricate with clean engine oil | N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "procedure",
+      "id": "REMOVAL",
+      "title": "REMOVAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove ignition coils.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Disconnect hoses.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Reposition the accelerator cable for access, and remove the rocker cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "ASSEMBLY",
+      "title": "ASSEMBLY",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Apply sealant to the cylinder head in the areas shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Sealant application width (each side)",
+          "value": "3.0",
+          "unit": "mm (0.118 in)",
+          "condition": "Cylinder head mating area \u2014 plan view"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,238 @@
+{
+  "page_code": "EM-54",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd) - CRANKSHAFT",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-53",
+    "continues_to": "EM-55"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM195C",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of main bearing components showing upper bearing, thrust bearing (only upper), No.5 bearing, oil hole, lower bearing, identification color, oil groove, front direction, and No.1 bearing",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        28
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM095",
+      "type": "component_photo",
+      "description": "Top view of cylinder block showing main bearing beam bolt tightening order (numbered sequence)",
+      "bbox_percent": [
+        0,
+        28,
+        38,
+        48
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM096",
+      "type": "tool_illustration",
+      "description": "Illustration showing angle wrench being used to tighten main bearing beam bolts at 60\u00b0-65\u00b0 clockwise",
+      "bbox_percent": [
+        0,
+        48,
+        38,
+        68
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM097",
+      "type": "tool_illustration",
+      "description": "Illustration showing dial gauge setup to measure crankshaft end play",
+      "bbox_percent": [
+        0,
+        68,
+        38,
+        88
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Upper bearing",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Thrust bearing (only upper)",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "No.5 bearing",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Oil hole",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Lower bearing",
+          "note": ""
+        },
+        {
+          "number": 6,
+          "name": "Identification color",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "Oil groove",
+          "note": ""
+        },
+        {
+          "number": 8,
+          "name": "Front",
+          "note": "direction indicator"
+        },
+        {
+          "number": 9,
+          "name": "No.1 bearing",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_assembly",
+      "title": "Crankshaft Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct main bearings are used. Refer to \"Inspection\"."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Install crankshaft and main bearing beam and tighten bolts as follows: Main bearing beam bolts (1) Tighten to 25 to 30 N\u00b7m (2.5 to 3.1 kg-m, 18 - 22 ft-lb) in order shown. (2) Turn bolts to 60\u00b0 to 65\u00b0 degrees clockwise with an angle wrench in order shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Prior to tightening bearing cap bolts, place bearing cap in its proper position by shifting crankshaft in the axial direction.",
+            "After securing bearing cap bolts, make sure crankshaft turns smoothly by hand."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Measure crankshaft end play.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "If beyond the limit, replace thrust bearing with a new one."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Crankshaft end play - Standard",
+          "value": "0.060 - 0.26",
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "label": "Crankshaft end play - Standard",
+          "value": "0.0024 - 0.0102",
+          "unit": "in",
+          "condition": ""
+        },
+        {
+          "label": "Crankshaft end play - Limit",
+          "value": "0.3",
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "label": "Crankshaft end play - Limit",
+          "value": "0.012",
+          "unit": "in",
+          "condition": ""
+        },
+        {
+          "label": "Main bearing beam bolts torque - Step 1",
+          "value": "25 - 30",
+          "unit": "N\u00b7m",
+          "condition": "Initial tightening in order shown"
+        },
+        {
+          "label": "Main bearing beam bolts torque - Step 1",
+          "value": "2.5 - 3.1",
+          "unit": "kg-m",
+          "condition": "Initial tightening in order shown"
+        },
+        {
+          "label": "Main bearing beam bolts torque - Step 1",
+          "value": "18 - 22",
+          "unit": "ft-lb",
+          "condition": "Initial tightening in order shown"
+        },
+        {
+          "label": "Main bearing beam bolts angle tightening - Step 2",
+          "value": "60 - 65",
+          "unit": "degrees",
+          "condition": "Clockwise with angle wrench in order shown"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Angle wrench",
+      "usage": "Turn main bearing beam bolts 60\u00b0 to 65\u00b0 clockwise in Step 2"
+    },
+    {
+      "part_number": "",
+      "name": "Dial gauge",
+      "usage": "Measure crankshaft end play in Step 3"
+    }
+  ],
+  "cross_references": [
+    "Inspection"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,425 @@
+{
+  "page_code": "EM-10",
+  "section": "EM",
+  "title": "Exhaust Manifold and Catalyser",
+  "page_type": "prose_procedure",
+  "source_image": "EM-10.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM028",
+      "type": "parts_diagram",
+      "description": "Exploded view of exhaust manifold and catalyser assembly with torque specifications",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM029",
+      "type": "component_photo",
+      "description": "Catalyser assembly showing seal location marked as Do Not Reuse",
+      "bbox_percent": [
+        0,
+        28,
+        35,
+        48
+      ],
+      "associated_step": "REMOVAL"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM030",
+      "type": "component_photo",
+      "description": "Checking flatness of manifold face using straightedge",
+      "bbox_percent": [
+        0,
+        48,
+        35,
+        65
+      ],
+      "associated_step": "INSPECTION"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM061",
+      "type": "parts_diagram",
+      "description": "Manifold nut tightening sequence in numerical order (8 nuts numbered 1-8)",
+      "bbox_percent": [
+        0,
+        65,
+        35,
+        83
+      ],
+      "associated_step": "Assembly"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Exhaust Manifold and Catalyser"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Gasket",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 2,
+          "name": "Exhaust manifold",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Exhaust seal",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 4,
+          "name": "Catalyser assembly",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Heat shield (lower)",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Sensor locknut",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Exhaust gas sensor",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Heat shield (upper)",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Bracket",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Exhaust manifold to cylinder head nuts",
+          "value": "18 - 22",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Exhaust manifold to cylinder head nuts",
+          "value": "1.8 - 2.2",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Exhaust manifold to cylinder head nuts",
+          "value": "13 - 16",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Sensor locknut",
+          "value": "78",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Sensor locknut",
+          "value": "7.9",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Sensor locknut",
+          "value": "57",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Exhaust gas sensor",
+          "value": "40 - 60",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Exhaust gas sensor",
+          "value": "4.1 - 6.1",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Exhaust gas sensor",
+          "value": "30 - 44",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Exhaust manifold to catalyser nuts",
+          "value": "29 - 34",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Exhaust manifold to catalyser nuts",
+          "value": "3.0 - 3.5",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Exhaust manifold to catalyser nuts",
+          "value": "22 - 25",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Catalyser to front pipe nuts",
+          "value": "29 - 34",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Catalyser to front pipe nuts",
+          "value": "3.0 - 3.5",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Catalyser to front pipe nuts",
+          "value": "22 - 25",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Heat shield bolts (upper)",
+          "value": "3.7 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Heat shield bolts (upper)",
+          "value": "0.38 - 0.51",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Heat shield bolts (upper)",
+          "value": "2.8 - 3.7",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolts",
+          "value": "3.7 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolts",
+          "value": "0.38 - 0.51",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolts",
+          "value": "2.8 - 3.7",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Heat shield bolts (lower)",
+          "value": "9.0 - 12.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Heat shield bolts (lower)",
+          "value": "0.9 - 1.2",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Heat shield bolts (lower)",
+          "value": "6.5 - 8.7",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Bottom heat shield bolts",
+          "value": "9.0 - 12.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bottom heat shield bolts",
+          "value": "0.9 - 1.2",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bottom heat shield bolts",
+          "value": "6.5 - 8.7",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "REMOVAL",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove heat shields.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Disconnect exhaust front pipe.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove catalyser and seal.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove exhaust gas sensor.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove manifold.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection",
+      "title": "INSPECTION",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check all components for wear, damage, etc.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Do not attempt to disassemble the catalyser honeycomb."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Check flatness of manifold face using straightedge.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Maximum variation: 0.3 mm (0.0118 in)"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not attempt to disassemble the catalyser honeycomb.",
+      "style": "important"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Manifold face flatness maximum variation",
+          "value": "0.3",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Manifold face flatness maximum variation",
+          "value": "0.0118",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit manifold. Tighten nuts as shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Tighten in numerical order."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Fit exhaust gas sensor.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Fit catalyser, using new seal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Fit exhaust pipe and heat shields.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

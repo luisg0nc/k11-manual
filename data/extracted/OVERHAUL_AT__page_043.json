@@ -1,0 +1,148 @@
+{
+  "page_code": "AT-43",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Brush Holder",
+  "page_type": "prose_procedure",
+  "source_image": "AT-43.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT071",
+      "type": "component_photo",
+      "description": "On-vehicle photo showing brush holder location with arrow indicating position",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        27
+      ],
+      "associated_step": "Removal"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT072",
+      "type": "parts_diagram",
+      "description": "Illustration of brush holder showing brush limit mark position",
+      "bbox_percent": [
+        2,
+        28,
+        38,
+        53
+      ],
+      "associated_step": "Inspection"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT073",
+      "type": "parts_diagram",
+      "description": "Illustration showing incorrect practice \u2014 bending brush \u2014 marked with X",
+      "bbox_percent": [
+        2,
+        54,
+        38,
+        78
+      ],
+      "associated_step": "Inspection"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Brush Holder"
+    },
+    {
+      "block_type": "procedure",
+      "id": "brush_holder_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Disconnect brush holder connector.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove two bolts securing brush holder.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Move brush holder slightly to the right and raise to remove it.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Do not bend the brush when removing it from the brush holder.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Inspect the brush wear distance. Replace the brush if the brush end gets close to the brush limit mark position.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: When determining whether to replace or continue use of a brush, consider if the brush will last until the next inspection of the brush. Observe the following points when replacing the brush.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "If the contact area of the brush is scratched, inspect the slip ring because foreign matter may become attached to it. (Refer to Removal and Installation for slip ring cleaning procedure.)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for loose bolts.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the continuity between the harness and the terminal (5 mm screw) and the insulation between the harness and bracket.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before separating the engine and transaxle, remove the brush holder from the case to prevent damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to bend or damage the brush when removing the brush holder from the case.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not move the brush up and down unnecessarily with fingertip. This may cause the lead wire to disconnect.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "When there is oil on the brush, check for oil leaks and repair as necessary. Replace the brush holder and electromagnetic clutch if required.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Removal and Installation for slip ring cleaning procedure"
+  ],
+  "model_notes": null
+}

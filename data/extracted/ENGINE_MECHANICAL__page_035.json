@@ -1,0 +1,190 @@
+{
+  "page_code": "EM-32",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd) / Valve Guide Replacement",
+  "page_type": "prose_procedure",
+  "source_image": "EM-32.jpg",
+  "continuation": {
+    "continues_from": "EM-31",
+    "continues_to": "EM-33"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM938C",
+      "type": "tool_illustration",
+      "description": "Micrometer being used to measure valve stem diameter",
+      "bbox_percent": [
+        0,
+        0,
+        28,
+        18
+      ],
+      "associated_step": "2a"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM008A",
+      "type": "component_photo",
+      "description": "Cylinder head being heated in oil bath for valve guide removal",
+      "bbox_percent": [
+        0,
+        38,
+        28,
+        58
+      ],
+      "associated_step": "valve_guide_step1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM931C",
+      "type": "tool_illustration",
+      "description": "Pressing out valve guide using hammer and suitable tool",
+      "bbox_percent": [
+        0,
+        58,
+        28,
+        76
+      ],
+      "associated_step": "valve_guide_step2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM932C",
+      "type": "tool_illustration",
+      "description": "Reaming cylinder head valve guide hole",
+      "bbox_percent": [
+        0,
+        76,
+        28,
+        95
+      ],
+      "associated_step": "valve_guide_step3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection_cont",
+      "title": "Valve to Valve Guide Clearance Check",
+      "steps": [
+        {
+          "step": 2,
+          "text": "If it exceeds the limit, check valve to valve guide clearance.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "2a",
+          "text": "Measure valve stem diameter and valve guide inner diameter.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "2b",
+          "text": "Check that clearance is within specification.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "2c",
+          "text": "If it exceeds the limit, replace valve or valve guide.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Valve to valve guide clearance",
+      "columns": [
+        {
+          "key": "type",
+          "label": ""
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "limit",
+          "label": "Limit"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Intake",
+          "standard": "0.020 - 0.053 mm (0.0008 - 0.0021 in)",
+          "limit": "0.110 mm (0.0043 in)"
+        },
+        {
+          "type": "Exhaust",
+          "standard": "0.040 - 0.073 mm (0.0016 - 0.0029 in)",
+          "limit": "0.130 mm (0.0051 in)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VALVE GUIDE REPLACEMENT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_guide_replacement",
+      "title": "Valve Guide Replacement",
+      "steps": [
+        {
+          "step": 1,
+          "text": "To remove valve guide, heat cylinder head to 110 to 120\u00b0C (230 to 248\u00b0F).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Press out valve guide or use a hammer and suitable tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Ream cylinder head valve guide hole. Valve guide hole diameter (for service parts): Intake & Exhaust 9.680 - 9.695 mm (0.3811 - 0.3817 in)",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve guide hole diameter (for service parts) \u2014 Intake & Exhaust",
+          "value": "9.680 - 9.695",
+          "unit": "mm (0.3811 - 0.3817 in)",
+          "condition": "After reaming cylinder head valve guide hole"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

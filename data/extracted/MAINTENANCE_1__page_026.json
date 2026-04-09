@@ -1,0 +1,370 @@
+{
+  "page_code": "MA-26",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance \u2014 Inspection and Adjustment",
+  "page_type": "spec_table",
+  "source_image": "MA-26.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Chassis and Body Maintenance"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "INSPECTION AND ADJUSTMENT"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Clutch"
+    },
+    {
+      "block_type": "table",
+      "title": "Clutch Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "rhd",
+          "label": "R.H.D."
+        },
+        {
+          "key": "lhd",
+          "label": "L.H.D."
+        }
+      ],
+      "rows": [
+        {
+          "item": "Vehicle model",
+          "rhd": "R.H.D.",
+          "lhd": "L.H.D."
+        },
+        {
+          "item": "Pedal free height",
+          "rhd": "187 - 197 (7.36 - 7.76)",
+          "lhd": "183 - 193 (7.20 - 7.60)",
+          "unit": "mm (in)"
+        },
+        {
+          "item": "Withdrawal lever play",
+          "rhd": "2.5 - 3.5 (0.098 - 0.138)",
+          "lhd": "2.5 - 3.5 (0.098 - 0.138)",
+          "unit": "mm (in)"
+        },
+        {
+          "item": "Pedal free travel",
+          "rhd": "11 - 15 (0.43 - 0.59)",
+          "lhd": "11 - 15 (0.43 - 0.59)",
+          "unit": "mm (in)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Front axle and front suspension (Unladen)*"
+    },
+    {
+      "block_type": "table",
+      "title": "Front Axle and Front Suspension Specifications (Unladen)*",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "unit",
+          "label": "Unit"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Engine",
+          "unit": "",
+          "cg10de": "CG10DE",
+          "cg13de": "CG13DE"
+        },
+        {
+          "item": "Camber",
+          "unit": "degree",
+          "cg10de": "-0\u00b026' to 1\u00b04'",
+          "cg13de": "-0\u00b022' to 1\u00b08'"
+        },
+        {
+          "item": "Caster",
+          "unit": "degree",
+          "cg10de": "1\u00b031' to 3\u00b01'",
+          "cg13de": "1\u00b034' to 3\u00b04'"
+        },
+        {
+          "item": "Kingpin inclination",
+          "unit": "degree",
+          "cg10de": "11\u00b052' to 13\u00b022'",
+          "cg13de": "11\u00b047' to 13\u00b017'"
+        },
+        {
+          "item": "Total toe-in",
+          "unit": "mm (in)",
+          "cg10de": "-0.5 to 1.5 (-0.020 to 0.059)",
+          "cg13de": "-0.5 to 1.5 (-0.020 to 0.059)"
+        },
+        {
+          "item": "Total toe-in",
+          "unit": "degree",
+          "cg10de": "-0\u00b05' to 0\u00b016'",
+          "cg13de": "-0\u00b05' to 0\u00b016'"
+        },
+        {
+          "item": "Front wheel turning angle (Full turn) \u2014 Tire size",
+          "unit": "Tire size",
+          "cg10de": "155/70 R13",
+          "cg13de": "175/60 R13"
+        },
+        {
+          "item": "Front wheel turning angle (Full turn) \u2014 Inside",
+          "unit": "degree",
+          "cg10de": "37\u00b0 - 41\u00b0",
+          "cg13de": "34\u00b0 - 38\u00b0"
+        },
+        {
+          "item": "Front wheel turning angle (Full turn) \u2014 Outside",
+          "unit": "degree",
+          "cg10de": "31\u00b0 - 35\u00b0",
+          "cg13de": "29\u00b0 - 33\u00b0"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Fuel, radiator coolant and engine oil full. Spare tire, jack, hand tools and mats in designated positions.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Rear axle and rear suspension (Unladen)*"
+    },
+    {
+      "block_type": "table",
+      "title": "Rear Axle and Rear Suspension Specifications (Unladen)*",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "unit",
+          "label": "Unit"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Camber",
+          "unit": "degree",
+          "value": "-0\u00b035' to 0\u00b05'"
+        },
+        {
+          "item": "Total toe-in",
+          "unit": "degree",
+          "value": "-0\u00b07' to 0\u00b023'"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Fuel, radiator coolant and engine oil full. Spare tire, jack, hand tools and mats in designated positions.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Brake"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Disc brake"
+    },
+    {
+      "block_type": "table",
+      "title": "Disc Brake Pad Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Pad Standard thickness \u2014 CL18SG",
+          "value": "9.5 (0.374)"
+        },
+        {
+          "item": "Pad Standard thickness \u2014 CL7HG",
+          "value": "9.5 (0.374)"
+        },
+        {
+          "item": "Pad Minimum thickness \u2014 CL18SG",
+          "value": "2.0 (0.079)"
+        },
+        {
+          "item": "Pad Minimum thickness \u2014 CL7HG",
+          "value": "2.0 (0.079)"
+        },
+        {
+          "item": "Rotor Standard thickness \u2014 CL18SG",
+          "value": "12 (0.47)"
+        },
+        {
+          "item": "Rotor Standard thickness \u2014 CL7HG",
+          "value": "7 (0.28)"
+        },
+        {
+          "item": "Rotor Minimum thickness \u2014 CL18SG",
+          "value": "10 (0.39)"
+        },
+        {
+          "item": "Rotor Minimum thickness \u2014 CL7HG",
+          "value": "6 (0.24)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Drum brake LT18G"
+    },
+    {
+      "block_type": "table",
+      "title": "Drum Brake LT18G Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Lining Standard thickness \u2014 Trailing",
+          "value": "3.0 (0.118)"
+        },
+        {
+          "item": "Lining Standard thickness \u2014 Leading",
+          "value": "4.5 (0.177)"
+        },
+        {
+          "item": "Lining Minimum thickness",
+          "value": "1.5 (0.059)"
+        },
+        {
+          "item": "Drum Standard diameter",
+          "value": "180 (7.09)"
+        },
+        {
+          "item": "Drum Maximum diameter",
+          "value": "181.5 (7.15)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Pedal"
+    },
+    {
+      "block_type": "table",
+      "title": "Brake Pedal Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Free height \u2014 M/T \u2014 R.H.D.",
+          "value": "169 - 179 (6.65 - 7.05)"
+        },
+        {
+          "item": "Free height \u2014 M/T \u2014 L.H.D.",
+          "value": "163 - 173 (6.42 - 6.81)"
+        },
+        {
+          "item": "Free height \u2014 A/T \u2014 R.H.D.",
+          "value": "176 - 186 (6.93 - 7.32)"
+        },
+        {
+          "item": "Free height \u2014 A/T \u2014 L.H.D.",
+          "value": "170 - 180 (6.69 - 7.09)"
+        },
+        {
+          "item": "Free play",
+          "value": "1 - 3 (0.04 - 0.12)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Parking brake"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Number of notches [at pulling force 196 N (20 kg, 44 lb)]",
+          "value": "6 - 8",
+          "unit": "",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Rear disc brake",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Clutch pedal free height differs between R.H.D. and L.H.D. models. Brake pedal free height differs between M/T and A/T, and between R.H.D. and L.H.D. Front suspension specs differ between CG10DE and CG13DE engines. Disc brake rotor/pad specs differ between CL18SG and CL7HG caliper types."
+}

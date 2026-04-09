@@ -1,0 +1,52 @@
+{
+  "page_code": "GI-7007",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION \u2014 Prefix and suffix designations (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.png",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "vehicle_diagram",
+      "description": "Vehicle Identification Number (VIN) arrangement diagram showing the breakdown of each position in the VIN: SJN E/F A A K11 U 4 XXXXXX, with leader lines to descriptions of each field",
+      "bbox_percent": [
+        5,
+        8,
+        95,
+        45
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Prefix and suffix designations: (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VEHICLE IDENTIFICATION NUMBER ARRANGEMENT"
+    },
+    {
+      "block_type": "prose",
+      "text": "VIN structure: SJN E A A K11 U 4 XXXXXX\n\nPosition descriptions:\n- SJN : Nissan, Passenger vehicle\n- E : 3-door Hatchback\n- F : 5-door Hatchback\n- A : CG10DE engine\n- D : CG13DE engine\n- C : VJX engine\n- A : 2-wheel drive model\n- K11 : Model\n- U : For Europe\n- 4 : Fixed digit\n- XXXXXX : Vehicle serial number",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "E = 3-door Hatchback; F = 5-door Hatchback. Engines: CG10DE (A), CG13DE (D), VJX (C). Drive: A = 2-wheel drive. Market: U = For Europe."
+}

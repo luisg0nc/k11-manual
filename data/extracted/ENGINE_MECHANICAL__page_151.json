@@ -1,0 +1,179 @@
+{
+  "page_code": "EM-5018",
+  "section": "EM",
+  "title": "OIL SEAL REPLACEMENT",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM266",
+      "type": "tool_illustration",
+      "description": "Installing oil seal using a suitable tool (camshaft or similar seal area)",
+      "bbox_percent": [
+        0,
+        0,
+        42,
+        18
+      ],
+      "associated_step": "Camshaft oil seal installation step 3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM267",
+      "type": "tool_illustration",
+      "description": "Removing crankshaft front oil seal with a suitable tool after removing timing belt and sprocket",
+      "bbox_percent": [
+        0,
+        19,
+        42,
+        37
+      ],
+      "associated_step": "Crankshaft front oil seal removal step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM268",
+      "type": "tool_illustration",
+      "description": "Installing crankshaft front oil seal using a suitable tool",
+      "bbox_percent": [
+        0,
+        37,
+        42,
+        55
+      ],
+      "associated_step": "Crankshaft front oil seal installation step 3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM269",
+      "type": "tool_illustration",
+      "description": "Removing crankshaft rear oil seal with a suitable tool",
+      "bbox_percent": [
+        0,
+        55,
+        42,
+        73
+      ],
+      "associated_step": "Crankshaft rear oil seal removal step 3"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM270",
+      "type": "tool_illustration",
+      "description": "Installing crankshaft rear oil seal using a suitable tool",
+      "bbox_percent": [
+        0,
+        73,
+        42,
+        91
+      ],
+      "associated_step": "Crankshaft rear oil seal installation step 4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "procedure",
+      "id": "camshaft_oil_seal_install",
+      "title": "Camshaft Oil Seal (continued)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Apply engine oil to new oil seal and install oil seal using a suitable tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CRANKSHAFT FRONT OIL SEAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_front_oil_seal",
+      "title": "Crankshaft Front Oil Seal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove timing belt, crankshaft sprocket and spacer.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove oil seal with a suitable tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Apply engine oil to new oil seal and install oil seal using a suitable tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CRANKSHAFT REAR OIL SEAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_rear_oil_seal",
+      "title": "Crankshaft Rear Oil Seal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove transaxle assembly. (Refer to \"REMOVAL AND INSTALLATION\" in MT section.)",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove flywheel.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove rear oil seal with a suitable tool.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Apply engine oil to new oil seal and install oil seal using a suitable tool.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "N/A",
+      "name": "Suitable tool",
+      "usage": "Removing and installing camshaft, crankshaft front and rear oil seals"
+    }
+  ],
+  "cross_references": [
+    "MT section \u2014 REMOVAL AND INSTALLATION (transaxle assembly)"
+  ],
+  "model_notes": "Section code VJZ indicated in top-right corner. Crankshaft rear oil seal procedure references MT (Manual Transaxle) section."
+}

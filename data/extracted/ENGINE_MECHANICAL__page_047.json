@@ -1,0 +1,147 @@
+{
+  "page_code": "EM-44",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Disassembly: Piston and Crankshaft",
+  "page_type": "prose_procedure",
+  "source_image": "EM-44.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM073",
+      "type": "component_photo",
+      "description": "Engine assembly photo showing cylinder block/engine from external view",
+      "bbox_percent": [
+        2,
+        12,
+        38,
+        30
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM059",
+      "type": "tool_illustration",
+      "description": "Engine being mounted onto work stand using tools KV10109400 and KV10106500, showing torque values 25-34 N\u00b7m (2.5-3.5 kg\u00b7m, 18-25 ft\u00b7lb)",
+      "bbox_percent": [
+        2,
+        30,
+        38,
+        52
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM075",
+      "type": "tool_illustration",
+      "description": "Engine mounted on mobile work stand ST0501S000",
+      "bbox_percent": [
+        2,
+        52,
+        38,
+        78
+      ],
+      "associated_step": "1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "prose",
+      "text": "When installing moving parts such as bearings and pistons, always apply new, unused engine oil on the contact surfaces.\nPlace disassembled parts such as bearings and bearing caps in correct order and direction.\nWhen tightening connecting rod bolts and main bearing cap bolts, apply engine oil to threads and seating surface of nuts.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON AND CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_crankshaft_disassembly",
+      "title": "Piston and Crankshaft Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Place engine on a work stand.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain coolant and oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove timing chain. Refer to \"Removal\" in \"TIMING CHAIN\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Work stand mounting bolt torque",
+          "value": "25 - 34",
+          "unit": "N\u00b7m",
+          "condition": "Work stand KV10109400 / KV10106500 mounting bolts"
+        },
+        {
+          "label": "Work stand mounting bolt torque",
+          "value": "2.5 - 3.5",
+          "unit": "kg\u00b7m",
+          "condition": "Work stand KV10109400 / KV10106500 mounting bolts"
+        },
+        {
+          "label": "Work stand mounting bolt torque",
+          "value": "18 - 25",
+          "unit": "ft\u00b7lb",
+          "condition": "Work stand KV10109400 / KV10106500 mounting bolts"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10109400",
+      "name": "Engine work stand adapter",
+      "usage": "Mounting engine to work stand"
+    },
+    {
+      "part_number": "KV10106500",
+      "name": "Engine work stand adapter bracket",
+      "usage": "Mounting engine to work stand"
+    },
+    {
+      "part_number": "ST0501S000",
+      "name": "Engine work stand",
+      "usage": "Supporting engine during disassembly"
+    }
+  ],
+  "cross_references": [
+    "TIMING CHAIN \u2014 Removal"
+  ],
+  "model_notes": null
+}

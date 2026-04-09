@@ -1,0 +1,149 @@
+{
+  "page_code": "AT-17",
+  "section": "AT",
+  "title": "OPERATION - Hydraulic control valve assembly",
+  "page_type": "parts_diagram",
+  "source_image": "AT-17.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT024",
+      "type": "parts_diagram",
+      "description": "Hydraulic control valve assembly schematic showing all valves, pulleys, oil pump, oil filter, oil cooler, solenoid valves, and hydraulic circuit connections for the CVT automatic transmission",
+      "bbox_percent": [
+        0,
+        8,
+        100,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "2. Hydraulic control valve assembly"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Hydraulic control valve assembly schematic for CVT transmission showing hydraulic circuit layout",
+      "callouts": [
+        {
+          "label": "Sensor shoe",
+          "position": "upper-left area"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "upper-center"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "upper-center"
+        },
+        {
+          "label": "P R N D Ds",
+          "position": "upper-center, selector positions"
+        },
+        {
+          "label": "N (selector lever symbol)",
+          "position": "upper-right"
+        },
+        {
+          "label": "Shift cam",
+          "position": "upper-right-center"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "right-center"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center-lower"
+        },
+        {
+          "label": "Line pressure",
+          "position": "right-center-lower"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "right"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower-right-center"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "lower-left"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "lower-center"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "lower-center-left"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Check valve",
+          "position": "bottom-center"
+        },
+        {
+          "label": "Oil pump",
+          "position": "bottom-center-right"
+        },
+        {
+          "label": "Oil filter",
+          "position": "bottom-right"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "bottom-right"
+        },
+        {
+          "label": "Lubricating oil pressure",
+          "position": "left side, vertical label"
+        },
+        {
+          "label": "X = Drain",
+          "position": "upper-right, legend"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "CVT (Continuously Variable Transmission) hydraulic control valve assembly. Applicable to A/T (automatic) variant of K11 Nissan Micra."
+}

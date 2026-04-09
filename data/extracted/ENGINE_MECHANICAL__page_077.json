@@ -1,0 +1,240 @@
+{
+  "page_code": "EM-11",
+  "section": "EM",
+  "title": "Outer Component Parts - Rocker Cover",
+  "page_type": "prose_procedure",
+  "source_image": "EM-11.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM032",
+      "type": "parts_diagram",
+      "description": "Exploded view of rocker cover assembly showing all components including PCV valve, seal, oil filler cap, rocker cover, spark plug tube seals, gasket, HT lead brackets, intake manifold, air cleaner hose, cable bracket (NCVT), cable bracket, and torque specification",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM033",
+      "type": "component_photo",
+      "description": "Plan view showing sealant application areas on cylinder head, with dia. 3.0 mm bead width indicated at two locations",
+      "bbox_percent": [
+        0,
+        52,
+        38,
+        72
+      ],
+      "associated_step": "Assembly step 1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM034",
+      "type": "component_photo",
+      "description": "Plan view showing sealant application areas on gasket, with 20 mm dimensions indicated at two locations",
+      "bbox_percent": [
+        0,
+        72,
+        38,
+        90
+      ],
+      "associated_step": "Assembly step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Rocker Cover"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Intake manifold",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "HT lead bracket",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Air cleaner",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "PCV valve",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Seal",
+          "note": "Do not reuse; Apply sealant"
+        },
+        {
+          "number": 8,
+          "name": "HT lead bracket",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Cable bracket (NCVT)",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Cable bracket",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Oil filler cap",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Rocker cover",
+          "note": "Torque: 2.0-3.9 N\u00b7m (0.20-0.40 kg-m, 1.4-2.9 ft-lb)"
+        },
+        {
+          "number": 13,
+          "name": "Spark plug tube seals",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 14,
+          "name": "Gasket",
+          "note": "Do not reuse; Apply sealant"
+        },
+        {
+          "number": 15,
+          "name": "Hose",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "2.0-3.9",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "0.20-0.40",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "1.4-2.9",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "REMOVAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "rocker_cover_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove spark plug leads.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Disconnect hoses and A/T kickdown cable (if fitted).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Reposition the accelerator cable for access, and remove the rocker cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "rocker_cover_assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Apply sealant to the cylinder head in the areas shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Sealant bead diameter: 3.0 mm at two locations on cylinder head"
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Apply sealant to the gasket in the areas shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Apply sealant over 20 mm length at two locations on gasket"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Apply sealant symbol; Do not reuse symbol; N\u00b7m (kg-m, ft-lb) torque symbol",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Cable bracket (NCVT) indicates NCVT (automatic) variant specific component. A/T kickdown cable disconnection step applicable only if fitted."
+}

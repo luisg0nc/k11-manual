@@ -1,0 +1,159 @@
+{
+  "page_code": "ST-5",
+  "section": "ST",
+  "title": "On-Vehicle Inspection \u2014 Steering Wheel (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "st-5.jpg",
+  "continuation": {
+    "continues_from": "ST-4",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST012",
+      "type": "parts_diagram",
+      "description": "Diagram showing inner wheel (A) and outer wheel (B) turning angle measurement, with front direction indicated",
+      "bbox_percent": [
+        0,
+        2,
+        40,
+        22
+      ],
+      "associated_step": "Front Wheel Turning Angle step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST013",
+      "type": "tool_illustration",
+      "description": "Illustration showing dial gauge placed on steering gear to measure gear housing movement",
+      "bbox_percent": [
+        0,
+        23,
+        40,
+        43
+      ],
+      "associated_step": "Checking Gear Housing Movement step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steering Wheel (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Front Wheel Turning Angle"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_front_wheel_turning_angle",
+      "title": "Front Wheel Turning Angle",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Rotate steering wheel all the way right and left; measure turning angle.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If it is not within specification, check rack stroke.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Front Wheel Turning Angle Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Tire"
+        },
+        {
+          "key": "tire_155_70_r13",
+          "label": "155/70 R13"
+        },
+        {
+          "key": "tire_175_60_r13",
+          "label": "175/60 R13"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Rack stroke mm (in)",
+          "tire_155_70_r13": "64.6 (2.543)",
+          "tire_175_60_r13": "60.6 (2.386)"
+        },
+        {
+          "parameter": "Inner Wheel (Unladen)",
+          "tire_155_70_r13": "37\u00b0 - 41\u00b0",
+          "tire_175_60_r13": "34\u00b0 - 38\u00b0"
+        },
+        {
+          "parameter": "Outer Wheel (Unladen)",
+          "tire_155_70_r13": "31\u00b0 - 35\u00b0",
+          "tire_175_60_r13": "29\u00b0 - 33\u00b0"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking Gear Housing Movement"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_checking_gear_housing_movement",
+      "title": "Checking Gear Housing Movement",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check the movement of steering gear housing during stationary steering on a dry paved surface.\nApply a force of 49 N (5 kg, 11 lb) to steering wheel to check the gear housing movement.\nTurn off ignition key while checking.\nMovement of gear housing: \u00b12 mm (\u00b10.08 in) or less",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If movement exceeds the limit, replace mount insulator after confirming proper installation of gear housing clamps.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Movement of gear housing",
+          "value": "\u00b12",
+          "unit": "mm (\u00b10.08 in)",
+          "condition": "or less"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Dial gauge",
+      "usage": "Measure steering gear housing movement"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

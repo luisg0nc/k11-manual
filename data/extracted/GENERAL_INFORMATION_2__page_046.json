@@ -1,0 +1,73 @@
+{
+  "page_code": "GI-4002",
+  "section": "GI",
+  "title": "MODIFICATIONS",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OUTLINE OF MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "General"
+    },
+    {
+      "block_type": "prose",
+      "text": "Introduction of NATS V.2.0. Immobiliser System.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Body"
+    },
+    {
+      "block_type": "prose",
+      "text": "Introduction of Seat Belt Pre-tensioners on the front seats.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Introduction of a child restraint fixing function (A/ELR) for the rear outer 3-point seat belts.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Various interior trim changes.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Electrical system"
+    },
+    {
+      "block_type": "prose",
+      "text": "Introduction of Combi Switch with integrated Fog Lamp Switch.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Introduction of Logical Lighting.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

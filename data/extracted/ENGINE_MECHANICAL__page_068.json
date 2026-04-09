@@ -1,0 +1,155 @@
+{
+  "page_code": "EM-2",
+  "section": "EM",
+  "title": "PRECAUTIONS",
+  "page_type": "prose_procedure",
+  "source_image": "EM-2.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM019",
+      "type": "tool_illustration",
+      "description": "Typical tightening sequence diagram showing 5 stages: 38 N\u00b7m, 70 N\u00b7m, 0 N\u00b7m, 40 N\u00b7m, 60\u00b0",
+      "bbox_percent": [
+        2,
+        2,
+        32,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM371C",
+      "type": "parts_diagram",
+      "description": "Liquid gasket application diagram showing groove, bolt hole, and inner side with arrow indicating direction",
+      "bbox_percent": [
+        2,
+        42,
+        32,
+        68
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Parts Requiring Angular Tightening"
+    },
+    {
+      "block_type": "prose",
+      "text": "Some important engine parts are tightened using an angular-tightening method rather than a torque setting method.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "If these parts are tightened using a torque setting method, dispersal of the tightening force (axial bolt force) will be two or three times that of the dispersal produced by using the correct angular-tightening method.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "To assure the satisfactory maintenance of the engine, bolts and nuts must be tightened using an angular tightening method.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before tightening the bolts and nuts, ensure that the thread and seating surfaces are clean and then coated with engine oil.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The bolts and nuts which require the angular-tightening method are as follows:\n(1) Cylinder head bolts\n(2) Main bearing cap bolts\n(3) Connecting rod cap nuts.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tightening sequence step 1",
+          "value": "38",
+          "unit": "N\u00b7m",
+          "condition": "Initial torque"
+        },
+        {
+          "label": "Tightening sequence step 2",
+          "value": "70",
+          "unit": "N\u00b7m",
+          "condition": "Second torque"
+        },
+        {
+          "label": "Tightening sequence step 3",
+          "value": "0",
+          "unit": "N\u00b7m",
+          "condition": "Loosen completely"
+        },
+        {
+          "label": "Tightening sequence step 4",
+          "value": "40",
+          "unit": "N\u00b7m",
+          "condition": "Re-torque"
+        },
+        {
+          "label": "Tightening sequence step 5",
+          "value": "60",
+          "unit": "\u00b0",
+          "condition": "Final angular tighten"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Liquid Gasket Application Procedure"
+    },
+    {
+      "block_type": "procedure",
+      "id": "liquid_gasket_procedure",
+      "title": "Liquid Gasket Application Procedure",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Before applying liquid gasket, use a scraper to remove all traces of old liquid gasket from mating surface.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Apply a continuous bead of liquid gasket to mating surfaces. (Use Genuine Liquid Gasket or equivalent.)\n\u2022 Be sure liquid gasket is 4.0 to 5.0 mm (0.157 to 0.197 in) wide (for oil pan).\n\u2022 Be sure liquid gasket is 2.0 to 3.0 mm (0.079 to 0.118 in) wide (in areas except oil pan).",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Apply liquid gasket to inner surface around hole perimeter area. (Assembly should be done within 5 minutes after coating.)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Wait at least 30 minutes before refilling engine oil and engine coolant.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

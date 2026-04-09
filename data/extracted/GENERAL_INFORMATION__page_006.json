@@ -1,0 +1,243 @@
+{
+  "page_code": "GI-2004",
+  "section": "GI",
+  "title": "SAE J1930 TERMINOLOGY LIST",
+  "page_type": "spec_table",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SAE J1930 TERMINOLOGY LIST"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SAE J1930 Terminology List"
+    },
+    {
+      "block_type": "prose",
+      "text": "All emission related terms used in this publication in accordance with SAE J1930 are listed. Accordingly, new terms, new acronyms/abbreviations and old terms are listed in the following chart.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "***: Not applicable",
+      "style": "note"
+    },
+    {
+      "block_type": "table",
+      "title": "SAE J1930 Terminology List",
+      "columns": [
+        {
+          "key": "new_term",
+          "label": "NEW TERM"
+        },
+        {
+          "key": "new_acronym_abbreviation",
+          "label": "NEW ACRONYM/ABBREVIATION"
+        },
+        {
+          "key": "old_term",
+          "label": "OLD TERM"
+        }
+      ],
+      "rows": [
+        {
+          "new_term": "Air cleaner",
+          "new_acronym_abbreviation": "ACL",
+          "old_term": "Air cleaner"
+        },
+        {
+          "new_term": "Barometric pressure",
+          "new_acronym_abbreviation": "BARO",
+          "old_term": ""
+        },
+        {
+          "new_term": "Barometric pressure sensor-BCDD",
+          "new_acronym_abbreviation": "BAROS-BCDD",
+          "old_term": "BCDD"
+        },
+        {
+          "new_term": "Camshaft position",
+          "new_acronym_abbreviation": "CMP",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Camshaft position sensor",
+          "new_acronym_abbreviation": "CMPS",
+          "old_term": "Crank angle sensor"
+        },
+        {
+          "new_term": "Carburetor",
+          "new_acronym_abbreviation": "CARB",
+          "old_term": "Carburetor"
+        },
+        {
+          "new_term": "Charge air cooler",
+          "new_acronym_abbreviation": "CAC",
+          "old_term": "Intercooler"
+        },
+        {
+          "new_term": "Closed loop",
+          "new_acronym_abbreviation": "CL",
+          "old_term": "Closed loop"
+        },
+        {
+          "new_term": "Closed throttle position switch",
+          "new_acronym_abbreviation": "CTP switch",
+          "old_term": "Idle switch"
+        },
+        {
+          "new_term": "Clutch pedal position switch",
+          "new_acronym_abbreviation": "CPP switch",
+          "old_term": "Clutch switch"
+        },
+        {
+          "new_term": "Continuous fuel injection system",
+          "new_acronym_abbreviation": "CFI system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Continuous trap oxidizer system",
+          "new_acronym_abbreviation": "CTOX system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Crankshaft position",
+          "new_acronym_abbreviation": "CKP",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Crankshaft position sensor",
+          "new_acronym_abbreviation": "CKPS",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Data link connector",
+          "new_acronym_abbreviation": "DLC",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Data link connector for CONSULT",
+          "new_acronym_abbreviation": "DLC for CONSULT",
+          "old_term": "Diagnostic connector for CONSULT"
+        },
+        {
+          "new_term": "Diagnostic test mode",
+          "new_acronym_abbreviation": "DTM",
+          "old_term": "Diagnostic mode"
+        },
+        {
+          "new_term": "Diagnostic test mode selector",
+          "new_acronym_abbreviation": "DTM selector",
+          "old_term": "Diagnostic mode selector"
+        },
+        {
+          "new_term": "Diagnostic test mode I",
+          "new_acronym_abbreviation": "DTM I",
+          "old_term": "Mode I"
+        },
+        {
+          "new_term": "Diagnostic test mode II",
+          "new_acronym_abbreviation": "DTM II",
+          "old_term": "Mode II"
+        },
+        {
+          "new_term": "Diagnostic trouble code",
+          "new_acronym_abbreviation": "DTC",
+          "old_term": "Malfunction code"
+        },
+        {
+          "new_term": "Direct fuel injection system",
+          "new_acronym_abbreviation": "DFI system",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Distributor ignition system",
+          "new_acronym_abbreviation": "DI system",
+          "old_term": "Ignition timing control"
+        },
+        {
+          "new_term": "Early fuel evaporation-mixture heater",
+          "new_acronym_abbreviation": "EFE-mixture heater",
+          "old_term": "Mixture heater"
+        },
+        {
+          "new_term": "Early fuel evaporation system",
+          "new_acronym_abbreviation": "EFE system",
+          "old_term": "Mixture heater control"
+        },
+        {
+          "new_term": "Electrically erasable programmable read only memory",
+          "new_acronym_abbreviation": "EEPROM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Electronic ignition system",
+          "new_acronym_abbreviation": "EI system",
+          "old_term": "Ignition timing control"
+        },
+        {
+          "new_term": "Engine control module",
+          "new_acronym_abbreviation": "ECM",
+          "old_term": "ECCS control unit"
+        },
+        {
+          "new_term": "Engine coolant temperature",
+          "new_acronym_abbreviation": "ECT",
+          "old_term": "Engine temperature"
+        },
+        {
+          "new_term": "Engine coolant temperature sensor",
+          "new_acronym_abbreviation": "ECTS",
+          "old_term": "Engine temperature sensor"
+        },
+        {
+          "new_term": "Engine modification",
+          "new_acronym_abbreviation": "EM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Engine speed",
+          "new_acronym_abbreviation": "RPM",
+          "old_term": "Engine speed"
+        },
+        {
+          "new_term": "Erasable programmable read only memory",
+          "new_acronym_abbreviation": "EPROM",
+          "old_term": "***"
+        },
+        {
+          "new_term": "Evaporative emission system",
+          "new_acronym_abbreviation": "EVAP system",
+          "old_term": "Evaporative emission control system"
+        },
+        {
+          "new_term": "Exhaust gas recirculation valve",
+          "new_acronym_abbreviation": "EGR valve",
+          "old_term": "EGR valve"
+        },
+        {
+          "new_term": "Exhaust gas recirculation control -BPT valve",
+          "new_acronym_abbreviation": "EGRC-BPT valve",
+          "old_term": "BPT valve"
+        },
+        {
+          "new_term": "Exhaust gas recirculation control - solenoid valve",
+          "new_acronym_abbreviation": "EGRC-solenoid valve",
+          "old_term": "EGR control solenoid valve"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

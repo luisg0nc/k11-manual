@@ -1,0 +1,243 @@
+{
+  "page_code": "EM-36",
+  "section": "EM",
+  "title": "VALVE CLEARANCE",
+  "page_type": "prose_procedure",
+  "source_image": "EM-36.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-37"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM045",
+      "type": "component_photo",
+      "description": "Crankshaft pulley showing TDC mark and pointer, with degree markings 5\u00b0, 10\u00b0, 15\u00b0, 20\u00b0 visible",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        17
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM138D",
+      "type": "parts_diagram",
+      "description": "Top view of cylinder head showing valve positions for first check (No.1 cylinder at TDC compression stroke) \u2014 valves numbered 1,1,2,2 on INT side and 1,1,3,3 on EXH side",
+      "bbox_percent": [
+        0,
+        17,
+        38,
+        33
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM139D",
+      "type": "component_photo",
+      "description": "Photo showing feeler gauge being used to measure clearance between valve lifter and camshaft",
+      "bbox_percent": [
+        0,
+        33,
+        38,
+        49
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM140D",
+      "type": "parts_diagram",
+      "description": "Top view of cylinder head showing valve positions for second check (after 360\u00b0 rotation) \u2014 valves numbered 3,3,4,4 on INT side and 2,2,4,4 on EXH side",
+      "bbox_percent": [
+        0,
+        49,
+        38,
+        65
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM141D",
+      "type": "tool_illustration",
+      "description": "Tool (A) KV10115110 placed around camshaft with notch visible, used for shim removal during valve clearance adjustment",
+      "bbox_percent": [
+        0,
+        65,
+        38,
+        82
+      ],
+      "associated_step": "2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "VALVE CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check valve clearance while engine is warmed up sufficiently and not running.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "checking",
+      "title": "Checking",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove rocker cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove all spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Set No. 1 cylinder at T.D.C. on its compression stroke.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Align pointer with T.D.C. mark on crankshaft pulley.",
+            "Check that valve lifters on No. 1 cylinder are loose and valve lifters on No. 4 are tight. If not, turn crankshaft one revolution (360\u00b0) and align as above."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Check only those valves shown in the figure.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Using a feeler gauge, measure clearance between valve lifter and camshaft.",
+            "Record any valve clearance measurements which are out of specification. They will be used later to determine the required replacement adjusting shim."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Turn crankshaft one revolution (360\u00b0) and align mark on crankshaft pulley with pointer.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Check those valves shown in the figure.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Use the same procedure as mentioned in step 4."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "If all valve clearances are within specification, install the following parts: Rocker cover. All spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve clearance for checking (Hot) \u2014 Intake",
+          "value": "0.33 - 0.41",
+          "unit": "mm",
+          "condition": "Hot"
+        },
+        {
+          "label": "Valve clearance for checking (Hot) \u2014 Intake",
+          "value": "0.0130 - 0.0161",
+          "unit": "in",
+          "condition": "Hot"
+        },
+        {
+          "label": "Valve clearance for checking (Hot) \u2014 Exhaust",
+          "value": "0.36 - 0.44",
+          "unit": "mm",
+          "condition": "Hot"
+        },
+        {
+          "label": "Valve clearance for checking (Hot) \u2014 Exhaust",
+          "value": "0.0142 - 0.0173",
+          "unit": "in",
+          "condition": "Hot"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjusting"
+    },
+    {
+      "block_type": "prose",
+      "text": "Adjust valve clearance while engine is cold.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "adjusting",
+      "title": "Adjusting",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Turn crankshaft, to position cam lobe on camshaft of valve that must be adjusted upward.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Place Tool (A) around camshaft as shown in figure.",
+          "figure_ref": "fig5",
+          "warnings": [
+            "Be careful not to damage cam surface with Tool (A)."
+          ],
+          "notes": [
+            "Before placing Tool (A), rotate notch toward center of cylinder head (See figure.), to simplify shim removal later."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Before placing Tool (A), rotate notch toward center of cylinder head (See figure.), to simplify shim removal later.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: Be careful not to damage cam surface with Tool (A).",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115110",
+      "name": "Tool (A)",
+      "usage": "Placed around camshaft to facilitate shim removal during valve clearance adjustment"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

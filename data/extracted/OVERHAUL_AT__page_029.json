@@ -1,0 +1,267 @@
+{
+  "page_code": "AT-29",
+  "section": "AT",
+  "title": "Shift and Park Mechanism \u2014 Component Parts",
+  "page_type": "parts_diagram",
+  "source_image": "AT-29.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT037",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of the Shift and Park Mechanism for the automatic transmission, showing all component parts with torque specifications and assembly notes.",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        92
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shift and Park Mechanism"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Connecting rod",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Washer",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Connecting plate",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Washer",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Spring pin",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 6,
+          "name": "Inhibitor switch",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "Shift control shaft",
+          "note": ""
+        },
+        {
+          "number": 8,
+          "name": "Shift lever",
+          "note": ""
+        },
+        {
+          "number": 9,
+          "name": "Washer",
+          "note": ""
+        },
+        {
+          "number": 10,
+          "name": "Spring pin",
+          "note": ""
+        },
+        {
+          "number": 11,
+          "name": "Retaining pin",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 12,
+          "name": "Park shaft support plate",
+          "note": ""
+        },
+        {
+          "number": 13,
+          "name": "Oil seal",
+          "note": "Do not re-use; Apply ATF"
+        },
+        {
+          "number": 14,
+          "name": "O-ring",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 15,
+          "name": "Park pawl guide",
+          "note": ""
+        },
+        {
+          "number": 16,
+          "name": "Park pawl",
+          "note": ""
+        },
+        {
+          "number": 17,
+          "name": "Spring",
+          "note": ""
+        },
+        {
+          "number": 18,
+          "name": "Circlip",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 19,
+          "name": "Park pawl shaft",
+          "note": ""
+        },
+        {
+          "number": 20,
+          "name": "Park rod",
+          "note": ""
+        },
+        {
+          "number": 21,
+          "name": "Shift cam",
+          "note": ""
+        },
+        {
+          "number": 22,
+          "name": "Roll pin",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 23,
+          "name": "Retaining pin",
+          "note": ""
+        },
+        {
+          "number": 24,
+          "name": "Circlip",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 25,
+          "name": "Bush",
+          "note": ""
+        },
+        {
+          "number": 26,
+          "name": "Engine brake cam",
+          "note": ""
+        },
+        {
+          "number": 27,
+          "name": "Circlip (x2)",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 28,
+          "name": "Rollpin",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 29,
+          "name": "Forward reverse fork",
+          "note": ""
+        },
+        {
+          "number": 30,
+          "name": "Forward reverse shift shaft",
+          "note": ""
+        },
+        {
+          "number": 31,
+          "name": "Cable support bracket",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod bolt torque",
+          "value": "36 - 42",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod bolt torque",
+          "value": "3.7 - 4.3",
+          "unit": "Kgm",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod bolt torque",
+          "value": "27 - 31",
+          "unit": "ft-lb",
+          "condition": ""
+        },
+        {
+          "label": "Inhibitor switch / connecting plate bolt torque",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Inhibitor switch / connecting plate bolt torque",
+          "value": "0.46 - 0.62",
+          "unit": "Kgm",
+          "condition": ""
+        },
+        {
+          "label": "Inhibitor switch / connecting plate bolt torque",
+          "value": "3 - 4",
+          "unit": "ft-lb",
+          "condition": ""
+        },
+        {
+          "label": "Cable support bracket bolt torque",
+          "value": "23 - 26",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Cable support bracket bolt torque",
+          "value": "2.35 - 2.65",
+          "unit": "Kgm",
+          "condition": ""
+        },
+        {
+          "label": "Cable support bracket bolt torque",
+          "value": "17 - 19",
+          "unit": "ft-lb",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: [torque symbol] = N\u00b7m (Kgm, ft-lb); ATF = Apply ATF; [X symbol] = Do not re-use",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic Transmission (A/T) only. Applies to K11 1993-2003."
+}

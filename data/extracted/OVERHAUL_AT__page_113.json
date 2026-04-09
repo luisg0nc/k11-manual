@@ -1,0 +1,206 @@
+{
+  "page_code": "AT-113",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-113.jpg",
+  "continuation": {
+    "continues_from": "AT-112",
+    "continues_to": "AT-114"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT234",
+      "type": "tool_illustration",
+      "description": "Illustration showing gauge tools KV319-K0020 and KV319-K0130 being used on the side case to measure depth for pulley alignment",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        28
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT235",
+      "type": "parts_diagram",
+      "description": "Diagram of side case showing bolt tightening pattern (marked with X) and note 'Thighten from lower side'",
+      "bbox_percent": [
+        0,
+        35,
+        42,
+        62
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT236",
+      "type": "tool_illustration",
+      "description": "Cross-section diagram showing gauge positioned on side case with Lp and Ls measurement labels",
+      "bbox_percent": [
+        0,
+        63,
+        42,
+        85
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "pulley_alignment_primary_end_play",
+      "title": "Pulley Alignment & Primary end Play (Replacement of side casing only)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Pulley Alignment & Primary end Play (Replacement of side casing only)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-bullet",
+          "text": "Pulley alignment",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-1",
+          "text": "Dress the mating surface of the side case to remove burrs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-2",
+          "text": "Wash clean the side case to remove all traces of grease.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-3",
+          "text": "Secure the gauge Tool to the side case using bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-4",
+          "text": "Measure the depth between the mating surface of the side case and the mounting portion of the primary pulley ball bearing and between the mating surface of the side case and the mounting portion of the secondary pulley ball bearing, using the depth gauge Tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-5",
+          "text": "The depths must be respectively measured at four points. Determine the average values of the measurements.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-6",
+          "text": "Equation for calculation: LD = Lp - Ls\nWhere: LD: Calculated value",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-7",
+          "text": "Measurements must be made on the new and old side cases.\nL_D1: Calculated value of the old side case\nL_D2: Calculated value of the new side case",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "5-8",
+          "text": "Shim selection: Select shim(s) determined by Equation \"L_D2 - L_D1\" or \"L_D1 - L_D2\", as applicable.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Shim Selection Table",
+      "columns": [
+        {
+          "key": "row",
+          "label": "Row"
+        },
+        {
+          "key": "condition",
+          "label": "Condition"
+        },
+        {
+          "key": "action",
+          "label": "Action"
+        }
+      ],
+      "rows": [
+        {
+          "row": "1",
+          "condition": "If L_D2 - L_D1 is less than 0.05",
+          "action": "use a new shim whose thickness is the same as that used on the secondary side of the old side case (\"old shim\")"
+        },
+        {
+          "row": "2",
+          "condition": "If L_D2 - L_D1 is equal to or greater than 0.05, but less than 0.15",
+          "action": "use a new shim 0.1 mm (0.004 in) thinner than the old shim. If the old shim is 0.1 mm (0.004 in) thick, a shim need not be used."
+        },
+        {
+          "row": "3",
+          "condition": "If L_D2 - L_D1 is equal to or greater than 0.15, but less than 0.25",
+          "action": "use a new shim 0.2 mm (0.008 in) thinner than the old shim."
+        },
+        {
+          "row": "4",
+          "condition": "L_D1 - L_D2 is less than 0.05",
+          "action": "Same as (1) above."
+        },
+        {
+          "row": "5",
+          "condition": "If L_D1 - L_D2 is equal to or greater than 0.05, but less than 0.15",
+          "action": "use a new shim 0.1 mm (0.004 in) thicker than the old shim."
+        },
+        {
+          "row": "6",
+          "condition": "If L_D1 - L_D2 is equal to or greather than 0.15, but less than 0.25",
+          "action": "use a new shim 0.2 mm (0.008 in) thicker than the old shim."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0020",
+      "name": "Gauge Tool",
+      "usage": "Securing gauge to side case for depth measurement of pulley ball bearing mounting portions"
+    },
+    {
+      "part_number": "KV319-K0130",
+      "name": "Depth Gauge Tool",
+      "usage": "Measuring depth between mating surface of side case and mounting portion of primary/secondary pulley ball bearings"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

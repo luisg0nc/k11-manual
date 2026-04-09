@@ -1,0 +1,236 @@
+{
+  "page_code": "MA-7005",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (For Europe) \u2014 Maintenance Schedule for Petrol Engines (Annual Mileage > 30,000 km/year) CG10DE/CGA3DE",
+  "page_type": "spec_table",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (For Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Maintenance Schedule for Petrol Engines (Annual Mileage > 30,000 km/year) CG10DE/CGA3DE"
+    },
+    {
+      "block_type": "prose",
+      "text": "Abbreviations: R = Replace   I = Inspect: Correct or replace if necessary",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Perform on a kilometer basis only.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Maintenance Schedule \u2014 Engine compartment and under vehicle",
+      "columns": [
+        {
+          "key": "operation",
+          "label": "MAINTENANCE OPERATION"
+        },
+        {
+          "key": "km_15",
+          "label": "15 km\u00d71,000 (miles\u00d71,000: 9)"
+        },
+        {
+          "key": "km_30",
+          "label": "30 km\u00d71,000 (miles\u00d71,000: 18)"
+        },
+        {
+          "key": "km_45",
+          "label": "45 km\u00d71,000 (miles\u00d71,000: 27)"
+        },
+        {
+          "key": "km_60",
+          "label": "60 km\u00d71,000 (miles\u00d71,000: 36)"
+        },
+        {
+          "key": "km_75",
+          "label": "75 km\u00d71,000 (miles\u00d71,000: 45)"
+        },
+        {
+          "key": "km_90",
+          "label": "90 km\u00d71,000 (miles\u00d71,000: 54)"
+        },
+        {
+          "key": "km_105",
+          "label": "105 km\u00d71,000 (miles\u00d71,000: 63)"
+        },
+        {
+          "key": "km_120",
+          "label": "120 km\u00d71,000 (miles\u00d71,000: 72)"
+        }
+      ],
+      "rows": [
+        {
+          "operation": "Engine oil (Use recommended oil)*",
+          "km_15": "R",
+          "km_30": "R",
+          "km_45": "R",
+          "km_60": "R",
+          "km_75": "R",
+          "km_90": "R",
+          "km_105": "R",
+          "km_120": "R"
+        },
+        {
+          "operation": "Engine oil filter (Use Nissan genuine part or equivalent)*",
+          "km_15": "R",
+          "km_30": "R",
+          "km_45": "R",
+          "km_60": "R",
+          "km_75": "R",
+          "km_90": "R",
+          "km_105": "R",
+          "km_120": "R"
+        },
+        {
+          "operation": "Drive belts",
+          "km_15": "I",
+          "km_30": "I",
+          "km_45": "I",
+          "km_60": "I",
+          "km_75": "I",
+          "km_90": "I",
+          "km_105": "I",
+          "km_120": "I"
+        },
+        {
+          "operation": "Cooling system",
+          "km_15": "",
+          "km_30": "I",
+          "km_45": "",
+          "km_60": "I",
+          "km_75": "",
+          "km_90": "I",
+          "km_105": "",
+          "km_120": "I"
+        },
+        {
+          "operation": "Engine anti-freeze coolant [Use genuine NISSAN Anti-Freeze Coolant (L2N) or equivalent]",
+          "km_15": "See NOTE (1)",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": ""
+        },
+        {
+          "operation": "Air cleaner filter (viscous paper type)*",
+          "km_15": "",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "R",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": "R"
+        },
+        {
+          "operation": "Intake & exhaust valve clearance",
+          "km_15": "See NOTE (2)",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": ""
+        },
+        {
+          "operation": "Fuel and vapour lines",
+          "km_15": "",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "I",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": "I"
+        },
+        {
+          "operation": "Spark plugs",
+          "km_15": "",
+          "km_30": "R",
+          "km_45": "",
+          "km_60": "R",
+          "km_75": "",
+          "km_90": "R",
+          "km_105": "",
+          "km_120": "R"
+        },
+        {
+          "operation": "Fuel filter*",
+          "km_15": "",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "R",
+          "km_105": "",
+          "km_120": ""
+        },
+        {
+          "operation": "Heated oxygen sensors (Exhaust gas sensors)* See NOTE (3)",
+          "km_15": "",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": ""
+        },
+        {
+          "operation": "PCV filter*",
+          "km_15": "",
+          "km_30": "",
+          "km_45": "",
+          "km_60": "R",
+          "km_75": "",
+          "km_90": "",
+          "km_105": "",
+          "km_120": "R"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: (1) First replace at 90,000 km (54,000 miles), then every 60,000 km (36,000 miles).",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(2) Periodic maintenance is not required for CG engine models. However, if valve noise increases, check valve clearance.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(3) Perform only according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "* Maintenance items with \"*\" should be performed more frequently according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Maintenance under severe driving conditions"
+  ],
+  "model_notes": "Applicable to CG10DE and CGA3DE petrol engines. Annual mileage greater than 30,000 km/year. Europe specification only."
+}

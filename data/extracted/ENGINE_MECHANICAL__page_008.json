@@ -1,0 +1,108 @@
+{
+  "page_code": "EM-5",
+  "section": "EM",
+  "title": "PREPARATION",
+  "page_type": "spec_table",
+  "source_image": "em-5.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Front pulley puller tool illustration",
+      "bbox_percent": [
+        25,
+        8,
+        60,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Flywheel lock tool illustration showing two components: item 1 (KV10105620) and item 2 (KV10105610)",
+      "bbox_percent": [
+        25,
+        25,
+        60,
+        42
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number"
+        },
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "KV11103000",
+          "tool_name": "Front pulley puller",
+          "description": "Front pulley puller",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_number": "1) KV10105620\n2) KV10105610",
+          "tool_name": "Flywheel lock",
+          "description": "Flywheel lock (two-piece assembly: item 1 and item 2)",
+          "cg10de": "O",
+          "cg13de": "O"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV11103000",
+      "name": "Front pulley puller",
+      "usage": "Removing front pulley; applicable to CG10DE and CG13DE engines"
+    },
+    {
+      "part_number": "KV10105620",
+      "name": "Flywheel lock (component 1)",
+      "usage": "Locking flywheel during service; applicable to CG10DE and CG13DE engines"
+    },
+    {
+      "part_number": "KV10105610",
+      "name": "Flywheel lock (component 2)",
+      "usage": "Locking flywheel during service; applicable to CG10DE and CG13DE engines"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Engine application columns cover CG10DE and CG13DE engines. Both tools apply to both engine variants."
+}

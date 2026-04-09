@@ -1,0 +1,102 @@
+{
+  "page_code": "AT-77",
+  "section": "AT",
+  "title": "Shift Characteristics Inspection",
+  "page_type": "spec_table",
+  "source_image": "AT-77.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT152",
+      "type": "vehicle_diagram",
+      "description": "Shift characteristic figure showing engine speed (rpm) vs vehicle speed (km/h) with labeled areas and lines: A, B, C, D, Ds, F, G, H. Y-axis 0-6000 rpm, X-axis 0-150 km/h. Hatched regions indicate shift characteristic areas.",
+      "bbox_percent": [
+        2,
+        55,
+        98,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Shift Characteristics Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "The following chart indicates problems related to engine speed, speedometer and accelerator position based on the shift characteristic figure during driving or when the vehicle wheels are lifted off the ground in D, Ds range.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Shift Characteristics Problem Chart",
+      "columns": [
+        {
+          "key": "no",
+          "label": "No"
+        },
+        {
+          "key": "problem",
+          "label": "PROBLEM"
+        },
+        {
+          "key": "area",
+          "label": "SHIFT CHARACTERISTIC FIGURE AREA"
+        }
+      ],
+      "rows": [
+        {
+          "no": "\u2460",
+          "problem": "Engine speed increases but vehicle speed does not increase accordingly. (Transmission does not shift out of low range)",
+          "area": "Line A"
+        },
+        {
+          "no": "\u2461",
+          "problem": "Engine speed does not increase or increases slowly even if the accelerator pedal is fully depressed. (The transmission does not shift out of OD)",
+          "area": "Line B"
+        },
+        {
+          "no": "\u2462",
+          "problem": "The engine brake suddenly comes in while driving in the D range. (Engine speed increases, similar to Ds range characteristics)",
+          "area": "Lines B and C to D"
+        },
+        {
+          "no": "\u2463",
+          "problem": "The engine brake is too strong in the D range. (engine speed is high, similar to Ds range)",
+          "area": "D or E area"
+        },
+        {
+          "no": "\u2464",
+          "problem": "In the Ds range, the engine brake does not come in. (Engine speed does not increase which is normal in D range)",
+          "area": "F area or along B and C lines"
+        },
+        {
+          "no": "\u2465",
+          "problem": "The shift line is high in relation to pedal depressed position.",
+          "area": "The G area is entered when accelerator pedal is fully depressed."
+        },
+        {
+          "no": "\u2466",
+          "problem": "The shift line is low in relation to pedal depressed position.",
+          "area": "The H line is not approached even when the pedal is fully depressed."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applicable to D and Ds range operation. Automatic transmission shift characteristic diagnosis."
+}

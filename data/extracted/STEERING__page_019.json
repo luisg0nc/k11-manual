@@ -1,0 +1,145 @@
+{
+  "page_code": "ST-18",
+  "section": "ST",
+  "title": "MANUAL STEERING GEAR AND LINKAGE",
+  "page_type": "prose_procedure",
+  "source_image": "ST-18.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST030",
+      "type": "parts_diagram",
+      "description": "Exploded view of manual steering gear and linkage components including steering gear assembly, boot bands, dust boot, and outer tie-rod with torque specification",
+      "bbox_percent": [
+        2,
+        2,
+        98,
+        35
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST601B",
+      "type": "tool_illustration",
+      "description": "Illustration showing how to hold steering gear housing with soft jaws during disassembly",
+      "bbox_percent": [
+        2,
+        38,
+        30,
+        62
+      ],
+      "associated_step": "Disassembly step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MANUAL STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Steering gear assembly",
+          "note": "Do not disassemble"
+        },
+        {
+          "number": 2,
+          "name": "Boot band",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Dust boot",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Boot band",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Outer tie-rod",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Outer tie-rod torque",
+          "value": "37 - 46",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Outer tie-rod torque",
+          "value": "3.8 - 4.7",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Outer tie-rod torque",
+          "value": "27.3 - 33.9",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "prose",
+      "text": "Use soft jaws when holding steering gear housing. Handle gear housing carefully. Do not grip cylinder in a vise.",
+      "style": "caution"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove outer tie-rod.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove dust boot.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Thoroughly clean all parts in cleaning solvent or automatic transmission fluid \"Dextron\u2122\" type, and blow dry with compressed air, if available.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

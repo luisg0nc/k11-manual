@@ -1,0 +1,177 @@
+{
+  "page_code": "EM-5029",
+  "section": "EM",
+  "title": "VALVE CLEARANCE \u2014 Adjusting (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5029.jpg",
+  "continuation": {
+    "continues_from": "EM-5028",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM285",
+      "type": "tool_illustration",
+      "description": "Tool KV109B0100 placed around camshaft on cylinder head",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        18
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM286",
+      "type": "tool_illustration",
+      "description": "Lever being rotated to push valve lifter down",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        35
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM287",
+      "type": "tool_illustration",
+      "description": "Removing adjusting shim using screwdriver and magnetic finger",
+      "bbox_percent": [
+        0,
+        36,
+        38,
+        52
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM145D",
+      "type": "tool_illustration",
+      "description": "Measuring removed shim thickness with a micrometer",
+      "bbox_percent": [
+        0,
+        53,
+        38,
+        68
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM288",
+      "type": "tool_illustration",
+      "description": "Installing new shim using a suitable tool",
+      "bbox_percent": [
+        0,
+        69,
+        38,
+        85
+      ],
+      "associated_step": "6"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "VALVE CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjusting (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_clearance_adjusting_contd",
+      "title": "Adjusting Valve Clearance (Cont'd)",
+      "steps": [
+        {
+          "step": 2,
+          "text": "Place Tool KV109B0100 around camshaft as shown in figure.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "CAUTION: Be careful not to damage cam surface with Tool KV109B0100."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Rotate lever so that valve lifter is pushed down.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove adjusting shim using a small screwdriver and a magnetic finger.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Determine replacement adjusting shim size using following formula.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Using a micrometer determine thickness of removed shim.",
+            "Calculate thickness of new adjusting shim so valve clearance comes within specified values. R = Thickness of removed shim; N = Thickness of new shim; M = Measured valve clearance. Intake: N = R + [M \u2013 0.15 mm (0.006 in)]. Exhaust: N = R + [M \u2013 0.30 mm (0.012 in)]. Shims are available in 59 sizes from 3.20 mm (0.126 in) to 4.90 mm (0.193 in).",
+            "Select new shim with thickness as close as possible to calculated value."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Install new shim using a suitable tool. Install with the surface on which the thickness is stamped facing down.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Intake shim formula",
+          "value": "N = R + [M \u2013 0.15 mm (0.006 in)]",
+          "unit": "mm (in)",
+          "condition": "Intake valve clearance adjustment"
+        },
+        {
+          "label": "Exhaust shim formula",
+          "value": "N = R + [M \u2013 0.30 mm (0.012 in)]",
+          "unit": "mm (in)",
+          "condition": "Exhaust valve clearance adjustment"
+        },
+        {
+          "label": "Shim size range (minimum)",
+          "value": "3.20",
+          "unit": "mm (0.126 in)",
+          "condition": "59 sizes available"
+        },
+        {
+          "label": "Shim size range (maximum)",
+          "value": "4.90",
+          "unit": "mm (0.193 in)",
+          "condition": "59 sizes available"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0100",
+      "name": "Valve Lifter Tool",
+      "usage": "Placed around camshaft to push down valve lifter for shim removal"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

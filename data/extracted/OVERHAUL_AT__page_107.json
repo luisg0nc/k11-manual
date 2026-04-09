@@ -1,0 +1,154 @@
+{
+  "page_code": "AT-107",
+  "section": "AT",
+  "title": "REPAIR FOR COMPONENT PARTS \u2014 Main Drive Shaft Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-107.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT213",
+      "type": "tool_illustration",
+      "description": "Cross-section diagram showing oil seal being pressed into drive shaft using a drift (21 mm dia.), with 2.5 mm depth dimension indicated",
+      "bbox_percent": [
+        2,
+        3,
+        40,
+        28
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT214",
+      "type": "tool_illustration",
+      "description": "Cross-section diagram showing new seal being pressed into clutch housing using an oil seal drift",
+      "bbox_percent": [
+        2,
+        30,
+        40,
+        55
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT215",
+      "type": "tool_illustration",
+      "description": "Cross-section diagram showing shaft being installed into clutch housing with press, and retaining bolts being tightened",
+      "bbox_percent": [
+        2,
+        56,
+        40,
+        82
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REPAIR FOR COMPONENT PARTS \u2014 Main Drive Shaft Assembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Press a new oil seal into the drive shaft as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Drift diameter: 21 mm dia.",
+            "Press depth: 2.5 mm"
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Press a new seal into the clutch housing as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Use oil seal drift"
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Install the shaft into the clutch housing, ensure correct alignment.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Fit and tighten the retaining bolts.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Retaining bolt torque",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": "Step 4 \u2014 retaining bolts"
+        },
+        {
+          "label": "Retaining bolt torque",
+          "value": "0.46 - 0.56",
+          "unit": "kg-m",
+          "condition": "Step 4 \u2014 retaining bolts"
+        },
+        {
+          "label": "Retaining bolt torque",
+          "value": "3 - 4",
+          "unit": "ft-lb",
+          "condition": "Step 4 \u2014 retaining bolts"
+        },
+        {
+          "label": "Oil seal press depth",
+          "value": "2.5",
+          "unit": "mm",
+          "condition": "Step 1 \u2014 oil seal into drive shaft"
+        },
+        {
+          "label": "Drift diameter",
+          "value": "21",
+          "unit": "mm dia.",
+          "condition": "Step 1 \u2014 pressing oil seal into drive shaft"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Drift (21 mm dia.)",
+      "usage": "Press new oil seal into drive shaft"
+    },
+    {
+      "part_number": null,
+      "name": "Oil Seal Drift",
+      "usage": "Press new seal into clutch housing"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

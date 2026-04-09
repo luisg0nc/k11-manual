@@ -1,0 +1,176 @@
+{
+  "page_code": "EM-5044",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Assembly (Cont'd) \u2014 CRANKSHAFT",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-5043",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM297",
+      "type": "parts_diagram",
+      "description": "Exploded/assembly diagram showing main bearing layout: thrust bearing (upper only), upper bearing, lower bearing, oil grooves, No.1 bearing (flywheel side), front orientation",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        28
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM306",
+      "type": "parts_diagram",
+      "description": "Top view of cylinder block showing main bearing cap bolt tightening sequence numbers (1 through 10)",
+      "bbox_percent": [
+        0,
+        29,
+        38,
+        47
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM096",
+      "type": "component_photo",
+      "description": "Photo showing crankshaft being rotated by hand after bearing cap bolts are secured, verifying smooth rotation",
+      "bbox_percent": [
+        0,
+        48,
+        38,
+        65
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM097",
+      "type": "component_photo",
+      "description": "Photo showing dial gauge setup to measure crankshaft end play",
+      "bbox_percent": [
+        0,
+        66,
+        38,
+        85
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_assembly",
+      "title": "Crankshaft Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct main bearings are used. Refer to \"Inspection\" (EM-5040).",
+            "No. 2 and No. 4 main bearing halfshells have an oil groove.",
+            "The oil grooves of the thrust bearing should face the crankshaft."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Install crankshaft and main bearing caps and tighten bolts as follows: Main bearing cap bolts \u2014 (1) Tighten to 20 N\u00b7m (2.0 kg-m, 14.8 ft-lb) in order shown. (2) Turn bolts to 50\u00b0 degrees clockwise with an angle wrench in order shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "After securing bearing cap bolts, make sure crankshaft turns smoothly by hand."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Measure crankshaft end play.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "If beyond the standard clearance, replace thrust bearing with a new one."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Crankshaft end play \u2014 Standard",
+          "value": "0.07 - 0.27",
+          "unit": "mm",
+          "condition": "Standard clearance"
+        },
+        {
+          "label": "Crankshaft end play \u2014 Standard",
+          "value": "0.0024 - 0.0102",
+          "unit": "in",
+          "condition": "Standard clearance"
+        },
+        {
+          "label": "Main bearing cap bolt torque \u2014 Step 1",
+          "value": "20",
+          "unit": "N\u00b7m",
+          "condition": "Initial tighten in order shown"
+        },
+        {
+          "label": "Main bearing cap bolt torque \u2014 Step 1",
+          "value": "2.0",
+          "unit": "kg-m",
+          "condition": "Initial tighten in order shown"
+        },
+        {
+          "label": "Main bearing cap bolt torque \u2014 Step 1",
+          "value": "14.8",
+          "unit": "ft-lb",
+          "condition": "Initial tighten in order shown"
+        },
+        {
+          "label": "Main bearing cap bolt torque \u2014 Step 2",
+          "value": "50",
+          "unit": "degrees",
+          "condition": "Angle tighten clockwise with angle wrench in order shown"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Angle wrench",
+      "usage": "Turn main bearing cap bolts 50\u00b0 clockwise in Step 2"
+    },
+    {
+      "part_number": "",
+      "name": "Dial gauge",
+      "usage": "Measure crankshaft end play"
+    }
+  ],
+  "cross_references": [
+    "EM-5040"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,138 @@
+{
+  "page_code": "AT-76",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Faulty Shifting",
+  "page_type": "flowchart",
+  "source_image": "AT-76.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Faulty Shifting"
+    },
+    {
+      "block_type": "prose",
+      "text": "Always perform the following preliminary checks before starting troubleshooting procedures when shift operation is faulty.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: The term \"faulty shifting\" indicates a significant variance from the shift characteristics.",
+      "style": "note"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Faulty Shifting Diagnostic Flowchart",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check N-CVT fluid level"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Replenish N-CVT fluid (Check transmission main unit)"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Note: The transmission main unit may be damaged when shifting is faulty due to insufficient N-CVT fluid"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Check stall speed. Refer to \"Stall test\""
+        },
+        {
+          "id": "n5",
+          "type": "terminal",
+          "text": "Check the electromagnetic clutch, N-CVT and brush holder"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "Check throttle wire & throttle wire adjustment"
+        },
+        {
+          "id": "n7",
+          "type": "terminal",
+          "text": "Adjust or replace the throttle wire"
+        },
+        {
+          "id": "n8",
+          "type": "action",
+          "text": "Check control linkage"
+        },
+        {
+          "id": "n9",
+          "type": "terminal",
+          "text": "Adjust control linkage"
+        },
+        {
+          "id": "n10",
+          "type": "action",
+          "text": "Check shift characteristics"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": "N.G."
+        },
+        {
+          "from": "n4",
+          "to": "n6",
+          "label": "O.K."
+        },
+        {
+          "from": "n6",
+          "to": "n7",
+          "label": "N.G."
+        },
+        {
+          "from": "n6",
+          "to": "n8",
+          "label": "O.K."
+        },
+        {
+          "from": "n8",
+          "to": "n9",
+          "label": "N.G."
+        },
+        {
+          "from": "n8",
+          "to": "n10",
+          "label": "O.K."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Stall test"
+  ],
+  "model_notes": "Applicable to N-CVT (automatic) transmission variant of K11 Nissan Micra."
+}

@@ -1,0 +1,224 @@
+{
+  "page_code": "EM-5014",
+  "section": "EM",
+  "title": "TIMING BELT",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5014.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM558",
+      "type": "component_photo",
+      "description": "Hand checking belt tensioner and idler for smooth turning",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        18
+      ],
+      "associated_step": "Belt tensioner and idler - step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM256",
+      "type": "parts_diagram",
+      "description": "Sprockets with arrows showing direction of rotation and locking pins fitted",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        37
+      ],
+      "associated_step": "Installation - steps 1-3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM257",
+      "type": "parts_diagram",
+      "description": "Timing belt installation order showing crankshaft, idler pulley, injection pump sprocket and camshaft sprocket with direction arrow",
+      "bbox_percent": [
+        0,
+        38,
+        38,
+        56
+      ],
+      "associated_step": "Installation - steps 4-7"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM258",
+      "type": "parts_diagram",
+      "description": "Timing belt pretensioning showing SST KV109B0030 and KV109B0080 in use on tensioner",
+      "bbox_percent": [
+        0,
+        57,
+        38,
+        75
+      ],
+      "associated_step": "Pretensioning the timing belt - steps 1-2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING BELT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Belt tensioner and idler"
+    },
+    {
+      "block_type": "procedure",
+      "id": "belt_tensioner_idler",
+      "title": "Belt tensioner and idler",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check belt tensioner and idler for smooth turning.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "prose",
+      "text": "Confirm that the flywheel, camshaft and injection pump locking pins are still fitted.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Loosen the camshaft and injection pump sprocket bolts slightly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check that the sprockets rotate freely on their hubs.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Turn the sprockets in the direction of engine rotation (clockwise) to the end of their slots.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Install timing belt in the following order beginning at the crankshaft over the idler pulley to the injection pump sprocket.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Point arrow on timing belt towards engine rotation (clockwise)."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Turn the injection pump sprocket slightly anti-clockwise to engage the timing belt teeth.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Follow the same procedure for the camshaft sprocket.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Angular travel of the sprocket, with respect to the timing belt, must not be greater than one belt tooth."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Engage the belt on the tensioner pulley and water pump.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Pretensioning the timing belt"
+    },
+    {
+      "block_type": "prose",
+      "text": "Confirm that the flywheel, camshaft and injection pump locking pins are still fitted.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "pretensioning",
+      "title": "Pretensioning the timing belt",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install SST KV109B0030 on the edge of the belt. Take care not to obstruct any other component. Tighten the screw on the tool until a loud click is heard.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Rotate the tensioner counter-clockwise to obtain a reading of: 98 SEEM units for a new belt; 75 SEEM units for a used belt. Tighten the tensioners nut to the specified torque. Remove SST KV109B0030.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Belt tension - new belt",
+          "value": "98",
+          "unit": "SEEM units",
+          "condition": "New belt"
+        },
+        {
+          "label": "Belt tension - used belt",
+          "value": "75",
+          "unit": "SEEM units",
+          "condition": "Used belt"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0030",
+      "name": "Belt tension measuring tool / SST",
+      "usage": "Install on edge of timing belt to measure tension; tighten screw until loud click is heard, then remove after tensioning"
+    },
+    {
+      "part_number": "KV109B0080",
+      "name": "Tensioner tool / SST",
+      "usage": "Used in conjunction with KV109B0030 during timing belt pretensioning"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Procedure covers diesel engine with injection pump sprocket."
+}

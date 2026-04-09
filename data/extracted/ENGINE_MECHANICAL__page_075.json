@@ -1,0 +1,228 @@
+{
+  "page_code": "EM-9",
+  "section": "EM",
+  "title": "Outer Component Parts \u2014 Intake Manifold & Fuel System (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-9.jpg",
+  "continuation": {
+    "continues_from": "EM-8",
+    "continues_to": "EM-10"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM026",
+      "type": "parts_diagram",
+      "description": "Exploded/component diagram of fuel rail assembly including injector cap, injector, O-rings, injector seal, spacer, bracket, fuel rail assembly, and pressure regulator with torque specifications",
+      "bbox_percent": [
+        2,
+        2,
+        98,
+        37
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM027",
+      "type": "component_photo",
+      "description": "Photograph showing fuel rail assembly mounted on engine with injector harness connected, illustrating step 4 of fuel rail removal",
+      "bbox_percent": [
+        2,
+        55,
+        42,
+        80
+      ],
+      "associated_step": "step4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Intake Manifold & Fuel System (Cont'd)"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Injector cap",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Injector",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "O-ring",
+          "note": "Do not reuse; apply clean engine oil"
+        },
+        {
+          "number": 4,
+          "name": "Injector seal",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 5,
+          "name": "Spacer",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Bracket",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Fuel rail assembly",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Pressure regulator",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "O-ring",
+          "note": "Do not reuse; apply clean engine oil"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Injector cap / injector mounting bolt torque",
+          "value": "2.9-3.8",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Injector cap / injector mounting bolt torque",
+          "value": "0.30-0.39",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Injector cap / injector mounting bolt torque",
+          "value": "2.2-2.8",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Bracket mounting bolt torque",
+          "value": "16-21",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket mounting bolt torque",
+          "value": "1.6-2.1",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket mounting bolt torque",
+          "value": "12-15",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Pressure regulator mounting bolt torque",
+          "value": "2.9-3.8",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Pressure regulator mounting bolt torque",
+          "value": "0.30-0.39",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Pressure regulator mounting bolt torque",
+          "value": "2.2-2.8",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Apply clean engine oil | Do not reuse | N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FUEL RAIL"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "fuel_rail_removal",
+      "title": "Fuel Rail Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Release fuel pressure. Refer to FE section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove air cleaner assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Disconnect hoses and remove throttle body unit.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Disconnect injector harness and remove fuel rail assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check all components for wear, damage, etc. Refer to EF & EC section for injector electrical inspection. Replace all seals and O-rings.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FE section",
+    "EF & EC section"
+  ],
+  "model_notes": null
+}

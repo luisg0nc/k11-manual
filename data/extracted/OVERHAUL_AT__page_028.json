@@ -1,0 +1,182 @@
+{
+  "page_code": "AT-28",
+  "section": "AT",
+  "title": "Component Parts \u2014 Outer Casings and Oil Tubes",
+  "page_type": "parts_diagram",
+  "source_image": "AT-28.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT036",
+      "type": "parts_diagram",
+      "description": "Exploded view of automatic transmission outer casings and oil tubes, including transmission case, side case, clutch housing, oil seals, bearings, retainers, guide sleeve, dipstick, oil cooler inlet/outlet tubes, check valve assembly, needle bearings, O-ring, and oil tube. Torque values and sealant/ATF application points are indicated.",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Outer Casings and Oil Tubes"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Oil cooler outlet tube",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Dipstick",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Oil seal",
+          "note": "Apply ATF; Do not re-use"
+        },
+        {
+          "number": 4,
+          "name": "Check valve assy",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Side case",
+          "note": "Apply anaerobic sealant"
+        },
+        {
+          "number": 6,
+          "name": "Dipstick tube",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "O ring",
+          "note": "Apply ATF; Do not re-use"
+        },
+        {
+          "number": 8,
+          "name": "Oil cooler inlet tube",
+          "note": ""
+        },
+        {
+          "number": 9,
+          "name": "Needle bearing",
+          "note": ""
+        },
+        {
+          "number": 10,
+          "name": "Needle bearing",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 11,
+          "name": "Guide sleeve",
+          "note": ""
+        },
+        {
+          "number": 12,
+          "name": "Retainer",
+          "note": ""
+        },
+        {
+          "number": 13,
+          "name": "Retainer",
+          "note": ""
+        },
+        {
+          "number": 14,
+          "name": "Bearing",
+          "note": ""
+        },
+        {
+          "number": 15,
+          "name": "Oil tube",
+          "note": ""
+        },
+        {
+          "number": 16,
+          "name": "Transmission Case",
+          "note": "Apply anaerobic sealant"
+        },
+        {
+          "number": 17,
+          "name": "Oil seal",
+          "note": "Apply ATF; Do not re-use"
+        },
+        {
+          "number": 18,
+          "name": "Clutch housing",
+          "note": ""
+        },
+        {
+          "number": 19,
+          "name": "Oil seal",
+          "note": "Apply ATF; Do not re-use"
+        },
+        {
+          "number": 20,
+          "name": "Oil seal",
+          "note": "Apply ATF; Do not re-use"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Bolt torque (various outer casing bolts)",
+          "value": "23 - 26",
+          "unit": "N\u00b7m",
+          "condition": "2.35 - 2.65 Kgm, 17 - 19 ft-lb"
+        },
+        {
+          "label": "Bolt torque (check valve / bracket bolt)",
+          "value": "14 - 17",
+          "unit": "N\u00b7m",
+          "condition": "1.4 - 1.7 Kgm, 10 - 12 ft-lb"
+        },
+        {
+          "label": "Bolt torque (side case large bolt)",
+          "value": "35 - 43",
+          "unit": "N\u00b7m",
+          "condition": "3.6 - 4.4 Kgm, 26 - 32 ft-lb"
+        },
+        {
+          "label": "Bolt torque (dipstick tube / retainer bolts)",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": "0.46 - 0.62 Kgm, 3 - 4 ft-lb"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: [torque symbol] = N\u00b7m (Kgm, ft-lb); [anaerobic sealant symbol] = Apply anaerobic sealant; ATF = Apply ATF; [do not re-use symbol] = Do not re-use",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transmission (A/T) component parts page. ATF = Automatic Transmission Fluid. Anaerobic sealant to be applied to mating faces of Transmission Case and Side Case."
+}

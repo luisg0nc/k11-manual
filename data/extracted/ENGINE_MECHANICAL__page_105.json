@@ -1,0 +1,107 @@
+{
+  "page_code": "EM-39",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "parts_diagram",
+  "source_image": "EM-39.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM064",
+      "type": "parts_diagram",
+      "description": "Exploded diagram showing engine mount/bracket torque specifications for N-CVT and M/T variants of the CG10DE engine, with torque values in N\u00b7m (kg-m, ft-lb) for all fasteners",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        75
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "N-CVT bracket bolt (small)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m (3.6 - 4.6, 26 - 33)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT bracket bolt (large)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6, 33 - 40)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "N-CVT bracket bolt (medium)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m (3.6 - 4.6, 26 - 33)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "Engine mount bracket bolt (standard)",
+          "value": "64 - 74",
+          "unit": "N\u00b7m (6.5 - 7.5, 47 - 54)",
+          "condition": "N-CVT and M/T, multiple locations"
+        },
+        {
+          "label": "Engine mount bracket bolt (right side, N-CVT)",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1, 37 - 44)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "Engine mount bracket bolt (right side, N-CVT lower)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6, 33 - 40)",
+          "condition": "N-CVT"
+        },
+        {
+          "label": "Engine mount bracket bolt (left, M/T lower)",
+          "value": "44 - 54",
+          "unit": "N\u00b7m (4.5 - 5.5, 33 - 40)",
+          "condition": "M/T"
+        },
+        {
+          "label": "Engine mount bracket bolt (M/T torque rod)",
+          "value": "59 - 69",
+          "unit": "N\u00b7m (6.0 - 7.0, 43 - 51)",
+          "condition": "M/T"
+        },
+        {
+          "label": "Engine mount bracket bolt (right side, M/T, CG10DE)",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1, 37 - 44)",
+          "condition": "M/T, CG10DE"
+        },
+        {
+          "label": "Engine mount bracket bolt (right side lower, M/T, CG10DE)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m (4.6 - 5.6, 33 - 40)",
+          "condition": "M/T, CG10DE"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg-m, ft-lb)",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Page shows two variants: N-CVT (top diagram) and M/T (bottom diagram). Engine type CG10DE is called out on the M/T right-side mount bracket. Torque values are given in N\u00b7m with (kg-m, ft-lb) equivalents."
+}

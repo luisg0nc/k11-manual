@@ -1,0 +1,90 @@
+{
+  "page_code": "GI-5004",
+  "section": "GI",
+  "title": "MODIFICATIONS",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "APPLIED FROM:"
+    },
+    {
+      "block_type": "prose",
+      "text": "SJN *** K11 U3 00000\n*: Any of the possibilities. See Vehicle Identification Number arrangement.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "OUTLINE OF MODIFICATIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "General"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u2022 Introduction of NATS immobiliser upgrade (integrated antenna, rolling code)",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Engine"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u2022 Introduction of VJZ diesel engine (LHD vehicles only)",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Transmission"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u2022 New manual transmission for diesel engine\n\u2022 Common use of RS5F30A transmission for petrol engines",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Body"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u2022 Introduction of passenger air bag\n\u2022 Exterior changes (hood, fenders, bumpers, etc.)\n\u2022 Interior changes (trim, instrument panel, etc.)\n\u2022 Introduction of superlock on RHD models",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Brakes"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u2022 Introduction of ABS on rear drum brake",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Vehicle Identification Number arrangement"
+  ],
+  "model_notes": "VJZ diesel engine introduced for LHD vehicles only. Superlock introduced on RHD models."
+}

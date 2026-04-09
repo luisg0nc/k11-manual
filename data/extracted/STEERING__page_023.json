@@ -1,0 +1,140 @@
+{
+  "page_code": "ST-22",
+  "section": "ST",
+  "title": "POWER STEERING GEAR AND LINKAGE \u2014 Removal (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "st-22.jpg",
+  "continuation": {
+    "continues_from": "ST-21",
+    "continues_to": "ST-23"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST019",
+      "type": "component_photo",
+      "description": "Lower joint area showing dust boot and retaining plates securing lower joint dust boot to body",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        18
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST033",
+      "type": "component_photo",
+      "description": "Pinion area showing low pressure (1) and high pressure (2) connections on rack and drain system",
+      "bbox_percent": [
+        0,
+        19,
+        42,
+        35
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UST034",
+      "type": "component_photo",
+      "description": "Lower joint tightening bolts location on steering gear pinion",
+      "bbox_percent": [
+        0,
+        36,
+        42,
+        52
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SST579B",
+      "type": "tool_illustration",
+      "description": "Engine jack supporting transmission housing with engine centre member and rear engine mounting visible",
+      "bbox_percent": [
+        0,
+        53,
+        42,
+        68
+      ],
+      "associated_step": "8"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UST035",
+      "type": "component_photo",
+      "description": "N-CVT transmission cable and bracket with lock nuts shown on rack assembly",
+      "bbox_percent": [
+        0,
+        69,
+        42,
+        85
+      ],
+      "associated_step": "9"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Remove nuts and retaining plates securing lower joint dust boot to body and peel back boot for access to lower joint tightening bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove low pressure (1) and high pressure (2) connections from rack and drain system.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Slacken lower joint tightening bolts and remove lower joint from steering gear pinion.",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Do not forcibly spread flange of lower joint when disassembling."
+          ],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Support transmission housing with engine jack and remove engine centre member and rear engine mounting (see EM section for details).",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Disconnect transmission linkage (support rod and control rod for manual transmission vehicles and transmission cable and mounting bracket for N-CVT vehicles) and place aside.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM"
+  ],
+  "model_notes": "Step 9 distinguishes between manual transmission vehicles (support rod and control rod) and N-CVT vehicles (transmission cable and mounting bracket)."
+}

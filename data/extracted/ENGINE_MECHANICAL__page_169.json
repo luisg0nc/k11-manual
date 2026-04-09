@@ -1,0 +1,202 @@
+{
+  "page_code": "EM-5036",
+  "section": "EM",
+  "title": "CYLINDER BLOCK",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM307",
+      "type": "tool_illustration",
+      "description": "Attachment (KV10115300) with drilling dimensions: 11mm spacing, \u00d811mm holes, 25.5mm, 22.5mm, \u00d811mm, 25.5mm",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "Preparation"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM294",
+      "type": "tool_illustration",
+      "description": "Engine on work stand with tools KV10115300 and ST0501S000 attached",
+      "bbox_percent": [
+        2,
+        18,
+        38,
+        35
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM291",
+      "type": "component_photo",
+      "description": "Piston with piston rings being removed using a tool",
+      "bbox_percent": [
+        2,
+        52,
+        38,
+        70
+      ],
+      "associated_step": "9"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM295",
+      "type": "parts_diagram",
+      "description": "Cylinder block showing main bearing cap bolt loosening order, numbered 1-10 with positions 5,9,7,3,1,4,8,10,6,2",
+      "bbox_percent": [
+        2,
+        70,
+        38,
+        88
+      ],
+      "associated_step": "10"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Preparation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "prep",
+      "title": "Preparation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drill two holes into the attachment (KV10115300).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON AND CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_piston_crankshaft",
+      "title": "PISTON AND CRANKSHAFT",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Place engine on a work stand.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain coolant and oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove timing belt. Refer to \"TIMING BELT\", (EM-5012).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove water pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove oil pan and oil pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove cylinder head. Refer to \"CYLINDER HEAD\", (EM-5020).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove pistons with connecting rods.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove oil seal retainers front and rear.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Remove piston rings with a tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Remove main bearing caps, crankshaft, and main bearings.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Before removing main bearing caps, measure crankshaft end play. (Refer to cylinder block assembly section.)",
+            "Bolts should be loosened in two or three stages and in the order shown.",
+            "Place the bearings and the caps in their correct order.",
+            "Journal No. 2 and No. 4 bearings have an oil groove.",
+            "Bearings caps are numbered from 1 to 5, starting with No. 1 at flywheel side."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115300",
+      "name": "Attachment",
+      "usage": "Used with work stand to mount engine; two holes to be drilled into it as preparation"
+    },
+    {
+      "part_number": "ST0501S000",
+      "name": "Work stand adapter",
+      "usage": "Used together with KV10115300 to mount engine on work stand"
+    }
+  ],
+  "cross_references": [
+    "EM-5012",
+    "EM-5020"
+  ],
+  "model_notes": null
+}

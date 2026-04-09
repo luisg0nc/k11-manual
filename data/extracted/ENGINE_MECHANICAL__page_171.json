@@ -1,0 +1,234 @@
+{
+  "page_code": "EM-5038",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM319",
+      "type": "tool_illustration",
+      "description": "Micrometer measuring piston skirt diameter at dimension 'A'",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        18
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM316A",
+      "type": "component_photo",
+      "description": "Diagram showing crankshaft journal taper (A-B) and out-of-round (X-Y) measurement points",
+      "bbox_percent": [
+        0,
+        19,
+        35,
+        34
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM346D",
+      "type": "component_photo",
+      "description": "Crankshaft runout measurement with dial indicator",
+      "bbox_percent": [
+        0,
+        35,
+        35,
+        52
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM297",
+      "type": "parts_diagram",
+      "description": "Main bearing layout diagram showing thrust bearing (upper only), upper bearing, lower bearing, oil groove positions, and No.1 bearing (flywheel side) with front direction indicated",
+      "bbox_percent": [
+        0,
+        53,
+        35,
+        85
+      ],
+      "associated_step": "bearing_clearance_1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_inspection",
+      "title": "Piston Inspection",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Measure piston skirt diameter.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check piston-to-bore clearance. If out of specification, replace piston and/or cylinder block.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Piston diameter \"A\"",
+          "value": "76.939 mm (3.0291 in)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Piston-to-bore clearance \"B\"",
+          "value": "0.07 - 0.10 mm (0.003 - 0.004 in)",
+          "unit": "mm (in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_inspection",
+      "title": "Crankshaft Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check crankshaft main and pin journals for score, wear or cracks.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "With a micrometer, measure journals for taper and out-of-round.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Measure crankshaft runout.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Out-of-round (X \u2013 Y)",
+          "value": "Less than 0.005 mm (0.0002 in)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Taper (A \u2013 B)",
+          "value": "Less than 0.005 mm (0.0002 in)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Runout (Total indicator reading)",
+          "value": "Less than 0.05 mm (0.0020 in)",
+          "unit": "mm (in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "BEARING CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Main bearing"
+    },
+    {
+      "block_type": "procedure",
+      "id": "main_bearing_clearance",
+      "title": "Main Bearing Clearance",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "Main bearing layout showing positions of thrust bearing (upper only), upper bearing with oil groove, lower bearing with oil groove, and No.1 bearing (flywheel side) with front direction indicated.",
+      "callouts": [
+        {
+          "label": "Thrust bearing (upper only)",
+          "position": "top"
+        },
+        {
+          "label": "Upper bearing",
+          "position": "upper-left"
+        },
+        {
+          "label": "Oil groove",
+          "position": "left-mid"
+        },
+        {
+          "label": "No.1 bearing (flywheel side)",
+          "position": "right-mid"
+        },
+        {
+          "label": "Oil groove",
+          "position": "lower-left"
+        },
+        {
+          "label": "Lower bearing",
+          "position": "lower-left"
+        },
+        {
+          "label": "Front",
+          "position": "bottom"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

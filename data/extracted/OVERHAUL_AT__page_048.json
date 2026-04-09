@@ -1,0 +1,103 @@
+{
+  "page_code": "AT-48",
+  "section": "AT",
+  "title": "TROUBLE DIAGNOSIS",
+  "page_type": "prose_procedure",
+  "source_image": "page_AT-48.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Quick and Accurate Trouble Diagnosis"
+    },
+    {
+      "block_type": "prose",
+      "text": "Basic inspection and adjustment is usually enough to deal with N-CVT problems. Therefore, before starting detailed troubleshooting, perform the preliminary checks below. For trouble diagnosis, first determine where the primary cause of trouble is, such as in the clutch system, control unit, switches, the hydraulic control valve or transaxle main unit.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Preliminary Check"
+    },
+    {
+      "block_type": "procedure",
+      "id": "preliminary_check",
+      "title": "Preliminary Check",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check all engine adjustments are correct.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "In particular, check idle speed, intake compression at idle, and ignition timing."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Check that the accelerator pedal, N-CVT throttle wire, and linkage are correct. (Check the fully open and fully closed functions.)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Check that the accelerator and accelerator position switches are set correctly (pedal stroke).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Adjust the control linkage and check that unit connectors and inhibitor switch operation points are set correctly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Check that N-CVT control unit and brush holder connectors are attached securely.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Check for oil leaks.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Check that A/T fluid level is correct.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to \"On-Vehicle Service\" for the adjustment procedures described above.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "On-Vehicle Service"
+  ],
+  "model_notes": "N-CVT (Nissan Continuously Variable Transmission) specific procedure"
+}

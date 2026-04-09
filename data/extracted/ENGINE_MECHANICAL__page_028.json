@@ -1,0 +1,172 @@
+{
+  "page_code": "EM-25",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-25.jpg",
+  "continuation": {
+    "continues_from": "EM-24",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM034",
+      "type": "parts_diagram",
+      "description": "Plan view and cross-section of distributor bracket aperture showing gasket and sealant application dimensions: 20 mm (0.79 in) in two directions",
+      "bbox_percent": [
+        2,
+        5,
+        45,
+        22
+      ],
+      "associated_step": "26"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM050",
+      "type": "parts_diagram",
+      "description": "Rocker cover bolt tightening sequence diagram showing numerical order (1 through 10) for bolt tightening",
+      "bbox_percent": [
+        2,
+        23,
+        45,
+        45
+      ],
+      "associated_step": "28"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 26,
+          "text": "Apply liquid gasket to the rubber in the distributor bracket aperture, as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Fit the rocker cover to the cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Tighten the bolts in the correct order, as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 29,
+          "text": "Recheck bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Check a third time.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Install all spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "Install engine front mounting bracket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Install front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 34,
+          "text": "Install the front and side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 35,
+          "text": "Install front right wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 36,
+          "text": "Install air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 37,
+          "text": "Install and correctly tension the alternator and power steering drive belts. Refer to MA section for correct tension.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Refer to MA section for correct tension."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket application dimension (distributor bracket aperture) - width",
+          "value": "20",
+          "unit": "mm (0.79 in)",
+          "condition": "Apply to rubber in distributor bracket aperture"
+        },
+        {
+          "label": "Liquid gasket application dimension (distributor bracket aperture) - length",
+          "value": "20",
+          "unit": "mm (0.79 in)",
+          "condition": "Apply to rubber in distributor bracket aperture"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Tighten in numerical order.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": null
+}

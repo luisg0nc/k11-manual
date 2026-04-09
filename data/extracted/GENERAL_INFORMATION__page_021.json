@@ -1,0 +1,142 @@
+{
+  "page_code": "GI-15",
+  "section": "GI",
+  "title": "CONSULT CHECKING SYSTEM",
+  "page_type": "spec_table",
+  "source_image": "page_gi15.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of NISSAN CONSULT kit components: (1) CONSULT unit and accessories, (2) Program card, (3) Operation manuals, (4) Binder, (5) Carrying case, (6) Thermal paper rolls",
+      "bbox_percent": [
+        25,
+        52,
+        95,
+        85
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CONSULT CHECKING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Function"
+    },
+    {
+      "block_type": "table",
+      "title": "Diagnostic Mode Functions",
+      "columns": [
+        {
+          "key": "diagnostic_mode",
+          "label": "Diagnostic mode"
+        },
+        {
+          "key": "function",
+          "label": "Function"
+        }
+      ],
+      "rows": [
+        {
+          "diagnostic_mode": "Work support",
+          "function": "This mode enables a technician to adjust some devices faster and more accurately by following the indications on CONSULT."
+        },
+        {
+          "diagnostic_mode": "Self-diagnostic results",
+          "function": "Self-diagnostic results can be read and erased quickly."
+        },
+        {
+          "diagnostic_mode": "Data monitor",
+          "function": "Input/Output data in the control unit can be read."
+        },
+        {
+          "diagnostic_mode": "Active test",
+          "function": "Mode in which CONSULT drives some actuators apart from the control units and also shifts some parameters in a specified range."
+        },
+        {
+          "diagnostic_mode": "E.C.U. part number",
+          "function": "E.C.U. part number can be read."
+        },
+        {
+          "diagnostic_mode": "Function test",
+          "function": "Allows engine circuits to be tested sequentially or individually from a test menu"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Equipment"
+    },
+    {
+      "block_type": "prose",
+      "text": "When ordering the below equipment, contact your NISSAN distributor.",
+      "style": "important"
+    },
+    {
+      "block_type": "table",
+      "title": "Checking Equipment",
+      "columns": [
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_name": "NISSAN CONSULT kit",
+          "description": ""
+        },
+        {
+          "tool_name": "\u2460 CONSULT unit and accessories",
+          "description": "[See illustration fig1 item 1]"
+        },
+        {
+          "tool_name": "\u2461 Program card",
+          "description": "[See illustration fig1 item 2]"
+        },
+        {
+          "tool_name": "\u2462 Operation manuals",
+          "description": "[See illustration fig1 item 3]"
+        },
+        {
+          "tool_name": "\u2463 Binder",
+          "description": "[See illustration fig1 item 4]"
+        },
+        {
+          "tool_name": "\u2464 Carrying case",
+          "description": "[See illustration fig1 item 5]"
+        },
+        {
+          "tool_name": "\u2465 Thermal paper (Rolls)",
+          "description": "[See illustration fig1 item 6]"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "NISSAN CONSULT kit",
+      "usage": "Diagnostic tool for reading/erasing self-diagnostic results, data monitoring, active testing, E.C.U. part number reading, and function testing"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

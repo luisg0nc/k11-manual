@@ -1,0 +1,150 @@
+{
+  "page_code": "AT-110",
+  "section": "AT",
+  "title": "Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-110.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT224",
+      "type": "component_photo",
+      "description": "Side casing attached to SST KV319-K0160 transmission stand",
+      "bbox_percent": [
+        0,
+        12,
+        38,
+        32
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT225",
+      "type": "component_photo",
+      "description": "Pitot pipe connection with pin pointed towards centre of bearing",
+      "bbox_percent": [
+        0,
+        33,
+        38,
+        53
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT226",
+      "type": "parts_diagram",
+      "description": "Seal rings installation on secondary pulley guide using Guide KV319-K0110",
+      "bbox_percent": [
+        0,
+        53,
+        38,
+        73
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT227",
+      "type": "parts_diagram",
+      "description": "Gauge Tool KV319-K0130 secured to side case using bolts (tighten bolt from lower side)",
+      "bbox_percent": [
+        0,
+        73,
+        38,
+        95
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before commencing, ensure total cleanliness of all components. Remove any residual ATF from housings, channels, etc.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Replace primary & secondary pulleys as a unit, not individually, if either one is damaged.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "If the drive belt shows \"slip\" marks, replace the belt and both pulleys.",
+      "style": "note"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_proc",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Attach the side casing to SST KV319-K0160 transmission stand.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Connect the pitot pipe. Point the pin towards the centre of the bearing, as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "The pin must remain like this, until the pulleys/transmission case are assembled. Check the pin position frequently."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Install new seal rings on the secondary pulley guide using Tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Pulley Alignment and Primary End Play (Replacement of pulleys and side casing)",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Pulley Alignment",
+            "(1) Remove all traces of old liquid gasket from the side case mating surface, and clean as required.",
+            "(2) Dress the mating surface of the side case to remove burrs.",
+            "(3) Wash clean the side case to remove all traces of grease.",
+            "(4) Secure the gauge Tool to the side case using bolts."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0160",
+      "name": "Transmission Stand",
+      "usage": "Attach side casing for assembly work"
+    },
+    {
+      "part_number": "KV319-K0110",
+      "name": "Guide",
+      "usage": "Install new seal rings on the secondary pulley guide"
+    },
+    {
+      "part_number": "KV319-K0130",
+      "name": "Gauge Tool",
+      "usage": "Secured to side case for pulley alignment and primary end play measurement"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Applicable to CVT (Continuously Variable Transmission) automatic transmission assembly procedure"
+}

@@ -1,0 +1,116 @@
+{
+  "page_code": "EM-25",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_EM-25.jpg",
+  "continuation": {
+    "continues_from": "EM-24",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM035",
+      "type": "parts_diagram",
+      "description": "Rocker cover bolt tightening sequence diagram showing numbered bolt positions (1-9) on the rocker cover as viewed from above",
+      "bbox_percent": [
+        2,
+        3,
+        40,
+        20
+      ],
+      "associated_step": "28"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 27,
+          "text": "Fit the rocker cover to the cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Tighten the bolts in the correct order, as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 29,
+          "text": "Install all spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Install engine front mounting bracket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Install front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "Install the front and side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Install front right wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 34,
+          "text": "Install air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 35,
+          "text": "Install and correctly tension the alternator and power steering drive belts. Refer to MA section for correct tension.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Refer to MA section for correct tension."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": null
+}

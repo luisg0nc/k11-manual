@@ -1,0 +1,143 @@
+{
+  "page_code": "GI-17",
+  "section": "GI",
+  "title": "Identification Information \u2014 Model Variation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "GI-17.jpg",
+  "continuation": {
+    "continues_from": "GI-16",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Prefix and suffix designation chart showing model code structure: E AE A L D F K11 E F A with lines connecting each position to its meaning",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        55
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Prefix and suffix designations:"
+    },
+    {
+      "block_type": "table",
+      "title": "Model Code Position Designations",
+      "columns": [
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "code": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "code": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "code": "AE",
+          "meaning": "CG10DE"
+        },
+        {
+          "code": "AN",
+          "meaning": "CG13DE"
+        },
+        {
+          "code": "A",
+          "meaning": "2-wheel drive"
+        },
+        {
+          "code": "R",
+          "meaning": "Right-hand drive"
+        },
+        {
+          "code": "L",
+          "meaning": "Left-hand drive"
+        },
+        {
+          "code": "B",
+          "meaning": "L grade"
+        },
+        {
+          "code": "D",
+          "meaning": "LX grade"
+        },
+        {
+          "code": "F",
+          "meaning": "SLX grade"
+        },
+        {
+          "code": "T",
+          "meaning": "SUPER S grade"
+        },
+        {
+          "code": "F",
+          "meaning": "5-speed manual transaxle"
+        },
+        {
+          "code": "Z",
+          "meaning": "N-CVT"
+        },
+        {
+          "code": "K11",
+          "meaning": "Model identifier"
+        },
+        {
+          "code": "E",
+          "meaning": "E.G.I."
+        },
+        {
+          "code": "A",
+          "meaning": "Standard equipment"
+        },
+        {
+          "code": "E",
+          "meaning": "For R.H.D. markets"
+        },
+        {
+          "code": "F",
+          "meaning": "For South Europe"
+        },
+        {
+          "code": "G",
+          "meaning": "For Central Europe"
+        },
+        {
+          "code": "S",
+          "meaning": "For North Europe"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Distinguishes between Right-hand drive (R) and Left-hand drive (L); CG10DE (AE) and CG13DE (AN) engine variants; 5-speed manual transaxle (F) and N-CVT (Z); market suffixes: E=R.H.D., F=South Europe, G=Central Europe, S=North Europe"
+}

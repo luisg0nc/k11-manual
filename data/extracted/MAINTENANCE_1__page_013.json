@@ -1,0 +1,192 @@
+{
+  "page_code": "MA-13",
+  "section": "MA",
+  "title": "ENGINE MAINTENANCE",
+  "page_type": "prose_procedure",
+  "source_image": "ma-13.jpg",
+  "continuation": {
+    "continues_from": "MA-12",
+    "continues_to": "MA-14"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA029",
+      "type": "component_photo",
+      "description": "Using tool KV10115800 to remove oil filter",
+      "bbox_percent": [
+        0,
+        1,
+        32,
+        18
+      ],
+      "associated_step": "Changing Oil Filter - Step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA010",
+      "type": "component_photo",
+      "description": "Coating rubber seal of new oil filter with engine oil before installation",
+      "bbox_percent": [
+        0,
+        19,
+        32,
+        36
+      ],
+      "associated_step": "Changing Oil Filter - Step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA229B",
+      "type": "tool_illustration",
+      "description": "Diagram showing 2/3 of a turn tightening for oil filter installation",
+      "bbox_percent": [
+        0,
+        37,
+        32,
+        53
+      ],
+      "associated_step": "Changing Oil Filter - Step 3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SMA273C",
+      "type": "component_photo",
+      "description": "Illustration showing correct (O.K.) and incorrect (N.G.) methods for disconnecting ignition leads from spark plugs - correct at boot, not by pulling lead",
+      "bbox_percent": [
+        0,
+        54,
+        32,
+        70
+      ],
+      "associated_step": "Checking and Changing Spark Plugs - Step 1"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SMA294A",
+      "type": "tool_illustration",
+      "description": "Spark plug wrench with magnet to hold spark plug, 16 mm (0.63 in)",
+      "bbox_percent": [
+        0,
+        71,
+        32,
+        87
+      ],
+      "associated_step": "Checking and Changing Spark Plugs - Step 2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Oil Filter"
+    },
+    {
+      "block_type": "procedure",
+      "id": "changing_oil_filter",
+      "title": "Changing Oil Filter",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove oil filter with Tool.",
+          "figure_ref": "fig1",
+          "warnings": [
+            "Be careful not to burn yourself, as the engine and the engine oil are hot."
+          ],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Before installing new oil filter, clean the oil filter mounting surface on cylinder block, and coat the rubber seal of oil filter with a little engine oil.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Screw in the oil filter until a slight resistance is felt, then tighten for a further 2/3 of a turn.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Add engine oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Refer to Changing Engine Oil."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking and Changing Spark Plugs"
+    },
+    {
+      "block_type": "procedure",
+      "id": "checking_changing_spark_plugs",
+      "title": "Checking and Changing Spark Plugs",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Disconnect ignition leads from spark plugs at boot. Do not pull on the lead.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove spark plugs with spark plug wrench.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Clean plugs in sand blast cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check insulator for cracks or chips, gasket for damage or deterioration and electrode for wear and burning. If excessively worn, replace with new spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Spark plug wrench size",
+          "value": "16",
+          "unit": "mm (0.63 in)",
+          "condition": "Wrench with a magnet to hold spark plug"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115800",
+      "name": "Oil Filter Wrench",
+      "usage": "Remove oil filter"
+    }
+  ],
+  "cross_references": [
+    "Changing Engine Oil"
+  ],
+  "model_notes": null
+}

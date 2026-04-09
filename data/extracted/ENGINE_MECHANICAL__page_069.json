@@ -1,0 +1,232 @@
+{
+  "page_code": "EM-3",
+  "section": "EM",
+  "title": "PREPARATION \u2014 SPECIAL SERVICE TOOLS",
+  "page_type": "spec_table",
+  "source_image": "EM-3.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "ST0501S000 Engine stand assembly \u2014 ST0501 1000 Engine stand and ST0501 2000 Base",
+      "bbox_percent": [
+        10,
+        8,
+        45,
+        20
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "KV10106500 Engine stand shaft",
+      "bbox_percent": [
+        10,
+        22,
+        45,
+        31
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "KV10109400 Engine sub-attachment",
+      "bbox_percent": [
+        10,
+        33,
+        45,
+        42
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "ST10120000 Cylinder head bolt wrench",
+      "bbox_percent": [
+        10,
+        43,
+        45,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "KV10116200 Valve spring compressor",
+      "bbox_percent": [
+        10,
+        53,
+        45,
+        66
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "KV10115600 Valve oil seal drift",
+      "bbox_percent": [
+        10,
+        67,
+        45,
+        76
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig7",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "KV10107902 Valve oil seal puller",
+      "bbox_percent": [
+        10,
+        77,
+        45,
+        87
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SPECIAL SERVICE TOOLS"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number_name",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "CG10DE",
+          "label": "CG10DE"
+        },
+        {
+          "key": "CG13DE",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number_name": "ST0501S000\nEngine stand assembly\n\u2460 ST0501 1000 Engine stand\n\u2461 ST0501 2000 Base",
+          "description": "Disassembling and assembling",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number_name": "KV10106500\nEngine stand shaft",
+          "description": "",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number_name": "KV10109400\nEngine sub-attachment",
+          "description": "",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number_name": "ST10120000\nCylinder head bolt wrench",
+          "description": "Loosening and tightening cylinder head bolt",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number_name": "KV10116200\nValve spring compressor",
+          "description": "Disassembling valve mechanism",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number_name": "KV10115600\nValve oil seal drift",
+          "description": "Installing valve oil seal",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        },
+        {
+          "tool_number_name": "KV10107902\nValve oil seal puller",
+          "description": "Displacement valve lip seal",
+          "CG10DE": "O",
+          "CG13DE": "O"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "ST0501S000",
+      "name": "Engine stand assembly",
+      "usage": "Disassembling and assembling"
+    },
+    {
+      "part_number": "ST0501 1000",
+      "name": "Engine stand",
+      "usage": "Component of ST0501S000"
+    },
+    {
+      "part_number": "ST0501 2000",
+      "name": "Base",
+      "usage": "Component of ST0501S000"
+    },
+    {
+      "part_number": "KV10106500",
+      "name": "Engine stand shaft",
+      "usage": "Used with engine stand assembly"
+    },
+    {
+      "part_number": "KV10109400",
+      "name": "Engine sub-attachment",
+      "usage": "Used with engine stand assembly"
+    },
+    {
+      "part_number": "ST10120000",
+      "name": "Cylinder head bolt wrench",
+      "usage": "Loosening and tightening cylinder head bolt"
+    },
+    {
+      "part_number": "KV10116200",
+      "name": "Valve spring compressor",
+      "usage": "Disassembling valve mechanism"
+    },
+    {
+      "part_number": "KV10115600",
+      "name": "Valve oil seal drift",
+      "usage": "Installing valve oil seal"
+    },
+    {
+      "part_number": "KV10107902",
+      "name": "Valve oil seal puller",
+      "usage": "Displacement valve lip seal"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Engine application columns indicate compatibility with CG10DE and CG13DE engines. All tools listed are applicable to both engine types."
+}

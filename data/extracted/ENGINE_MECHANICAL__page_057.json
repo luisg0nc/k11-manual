@@ -1,0 +1,156 @@
+{
+  "page_code": "EM-54",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-54.jpg",
+  "continuation": {
+    "continues_from": "EM-53",
+    "continues_to": "EM-55"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM160B",
+      "type": "parts_diagram",
+      "description": "Piston ring gap positioning diagram showing oil ring expander, top ring, oil ring upper rail, oil ring lower rail, and 2nd ring positions relative to front of engine",
+      "bbox_percent": [
+        0,
+        0,
+        42,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM195C",
+      "type": "parts_diagram",
+      "description": "Main bearing layout diagram showing upper bearing, thrust bearing (only upper), No.5 bearing, oil hole, lower bearing identification color, oil groove, No.1 bearing, and front direction",
+      "bbox_percent": [
+        0,
+        18,
+        42,
+        45
+      ],
+      "associated_step": "step1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM064",
+      "type": "parts_diagram",
+      "description": "Main bearing beam bolt tightening sequence diagram showing numerical order of bolt tightening",
+      "bbox_percent": [
+        0,
+        45,
+        42,
+        62
+      ],
+      "associated_step": "step2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM096",
+      "type": "tool_illustration",
+      "description": "Illustration showing angle wrench being used to tighten main bearing beam bolts 60\u00b0-65\u00b0 clockwise",
+      "bbox_percent": [
+        0,
+        62,
+        42,
+        80
+      ],
+      "associated_step": "step2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_assembly",
+      "title": "Crankshaft Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct main bearings are used. Refer to \"Inspection\"."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Install crankshaft and main bearing beam and tighten bolts as follows:\n[symbol]: Main bearing beam bolts\n(1) Tighten to 25 to 30 N\u00b7m (2.5 to 3.1 kg-m, 18 - 22 ft-lb) in order shown.\n(2) Turn bolts to 60\u00b0 to 65\u00b0 degrees clockwise with an angle wrench in order shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Prior to tightening bearing cap bolts, place bearing cap in its proper position by shifting crankshaft in the axial direction.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "After securing bearing cap bolts, make sure crankshaft turns smoothly by hand.",
+      "style": "note"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Main bearing beam bolts - initial torque",
+          "value": "25 to 30",
+          "unit": "N\u00b7m",
+          "condition": "Step 1 of tightening sequence"
+        },
+        {
+          "label": "Main bearing beam bolts - initial torque",
+          "value": "2.5 to 3.1",
+          "unit": "kg-m",
+          "condition": "Step 1 of tightening sequence"
+        },
+        {
+          "label": "Main bearing beam bolts - initial torque",
+          "value": "18 - 22",
+          "unit": "ft-lb",
+          "condition": "Step 1 of tightening sequence"
+        },
+        {
+          "label": "Main bearing beam bolts - angle tighten",
+          "value": "60\u00b0 to 65\u00b0",
+          "unit": "degrees",
+          "condition": "Step 2 of tightening sequence, clockwise"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Angle wrench",
+      "usage": "Turn main bearing beam bolts 60\u00b0 to 65\u00b0 clockwise in order shown"
+    }
+  ],
+  "cross_references": [
+    "Inspection"
+  ],
+  "model_notes": null
+}

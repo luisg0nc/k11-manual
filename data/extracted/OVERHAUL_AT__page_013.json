@@ -1,0 +1,165 @@
+{
+  "page_code": "AT-13",
+  "section": "AT",
+  "title": "FUNCTION \u2014 Belt and Pulley Mechanism",
+  "page_type": "prose_procedure",
+  "source_image": "AT-13.jpg",
+  "continuation": {
+    "continues_from": "AT-12",
+    "continues_to": "AT-14"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT019",
+      "type": "component_photo",
+      "description": "Belt and pulley mechanism diagram showing Low ratio (r2/r1 = 2.5037) and Overdrive ratio (r2/r1 = 0.4977) positions of primary (input) and secondary (output) pulleys with narrow/wide groove labels.",
+      "bbox_percent": [
+        0,
+        12,
+        100,
+        38
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT020",
+      "type": "parts_diagram",
+      "description": "Steel belt cross-sectional view showing dimensions (22\u00b0, 24 (0.94), 9 (0.35), 14.5 (0.571), 2 (0.08), 0.2 (0.008) x 10), steel band length approx. 600 (23.62), and steel block count approx. 280.",
+      "bbox_percent": [
+        0,
+        57,
+        100,
+        92
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "3. Belt and pulley mechanism"
+    },
+    {
+      "block_type": "prose",
+      "text": "The drives through a belt and pulley arrangement. This consists of a steel belt, an input (primary) pulley, and an output (secondary) pulley.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The pulley groove widths can be varied in the axial direction, giving continuous (stepless) speed changes from low (ratio 2.5037) to overdrive (ratio 0.4977).",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Groove width is determined by hydraulic pressure acting upon a chamber in the sliding half of the pulley.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Speed ratio \u2014 Low (r2/r1)",
+          "value": "2.5037",
+          "unit": "",
+          "condition": "Primary pulley groove narrow, Secondary pulley groove wide"
+        },
+        {
+          "label": "Speed ratio \u2014 Overdrive (r2/r1)",
+          "value": "0.4977",
+          "unit": "",
+          "condition": "Primary pulley groove wide, Secondary pulley groove narrow"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steel belt."
+    },
+    {
+      "block_type": "prose",
+      "text": "The steel drive belt consists of 280 steel plates supported by two laminated steel bands.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "When hydraulic pressure is applied to the output (secondary) pulley, the steel plates are forced upwards creating a tension at the bands. Power is therefore transmitted by compression of the steel blocks, with the laminated bands maintaining the necessary friction force.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Steel band length (approx.)",
+          "value": "600 (23.62)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Steel block count (approx.)",
+          "value": "280",
+          "unit": "",
+          "condition": ""
+        },
+        {
+          "label": "Belt cross-section angle",
+          "value": "22",
+          "unit": "degrees",
+          "condition": "Pulley sheave contact angle"
+        },
+        {
+          "label": "Belt width",
+          "value": "24 (0.94)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Steel band width",
+          "value": "9 (0.35)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Belt height",
+          "value": "14.5 (0.571)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Steel block thickness",
+          "value": "2 (0.08)",
+          "unit": "mm (in)",
+          "condition": ""
+        },
+        {
+          "label": "Steel band thickness",
+          "value": "0.2 (0.008)",
+          "unit": "mm (in)",
+          "condition": "x10 laminated bands"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Pulleys."
+    },
+    {
+      "block_type": "prose",
+      "text": "Both input (primary) and output (secondary) pulleys consist of a fixed sheave and a sliding sheave. The slope of the sheave is 11 degrees. A hydraulic chamber is located at the rear of the sliding sheave. The sheave moves on a ball splined shaft.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to CVT (Continuously Variable Transmission) equipped Nissan Micra K11. Speed ratio range: low 2.5037 to overdrive 0.4977."
+}

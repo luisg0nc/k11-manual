@@ -1,0 +1,139 @@
+{
+  "page_code": "GI-14",
+  "section": "GI",
+  "title": "CONSULT CHECKING SYSTEM",
+  "page_type": "component_photo",
+  "source_image": "GI-14.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI619",
+      "type": "component_photo",
+      "description": "Outside view of the CONSULT checking system unit showing: Power ON switch, Power OFF switch, Printer, Battery pack, Touch screen, Function keys, Diagnostic connector, Voltage probe, Pulse probe, and Program card",
+      "bbox_percent": [
+        2,
+        3,
+        98,
+        45
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CONSULT CHECKING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Outside View"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Outside view of the CONSULT unit and its accessories",
+      "callouts": [
+        {
+          "label": "Power ON switch",
+          "position": "top-left of unit"
+        },
+        {
+          "label": "Power OFF switch",
+          "position": "upper-left of unit"
+        },
+        {
+          "label": "Printer",
+          "position": "left side of unit"
+        },
+        {
+          "label": "Battery pack",
+          "position": "lower-left of unit"
+        },
+        {
+          "label": "Touch screen",
+          "position": "center of unit"
+        },
+        {
+          "label": "Function keys",
+          "position": "lower-center of unit"
+        },
+        {
+          "label": "Diagnostic connector",
+          "position": "top-right, separate accessory"
+        },
+        {
+          "label": "Voltage probe",
+          "position": "right, separate accessory"
+        },
+        {
+          "label": "Pulse probe",
+          "position": "right, separate accessory"
+        },
+        {
+          "label": "Program card",
+          "position": "lower-right, separate card"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "System Application"
+    },
+    {
+      "block_type": "table",
+      "title": "System Application",
+      "columns": [
+        {
+          "key": "diagnostic_mode",
+          "label": "Diagnostic mode"
+        },
+        {
+          "key": "eccs",
+          "label": "E.C.C.S."
+        }
+      ],
+      "rows": [
+        {
+          "diagnostic_mode": "Work support",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Self-diagnostic results",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Data monitor",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Active test",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "E.C.U. part number",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Function test",
+          "eccs": "X"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "X: Applicable",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

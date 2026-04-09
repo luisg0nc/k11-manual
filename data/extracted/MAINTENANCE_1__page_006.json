@@ -1,0 +1,146 @@
+{
+  "page_code": "MA-6",
+  "section": "MA",
+  "title": "Periodic Maintenance \u2014 Maintenance Under Severe Driving Conditions",
+  "page_type": "spec_table",
+  "source_image": "MA-6.jpg",
+  "continuation": {
+    "continues_from": "MA-5",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Maintenance Under Severe Driving Conditions"
+    },
+    {
+      "block_type": "prose",
+      "text": "The maintenance intervals shown on the preceding pages are for normal operating conditions. If the vehicle is mainly operated under severe driving conditions as shown below, more frequent maintenance must be performed on the following items as shown in the table.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Severe driving conditions"
+    },
+    {
+      "block_type": "prose",
+      "text": "A \u2014 Driving under dusty conditions\nB \u2014 Driving repeatedly short distances\nC \u2014 Towing a trailer\nD \u2014 Extensive idling\nE \u2014 Driving in extremely adverse weather conditions or in areas where ambient temperatures are either extremely low or extremely high\nF \u2014 Driving in high humidity areas or in mountainous areas\nG \u2014 Driving in areas using salt or other corrosive materials\nH \u2014 Driving on rough and/or muddy roads or in the desert\nI \u2014 Driving with frequent use of braking or in mountainous areas",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Maintenance operation: Check = Check and correct or replace if necessary.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Maintenance Under Severe Driving Conditions",
+      "columns": [
+        {
+          "key": "driving_condition",
+          "label": "Driving condition"
+        },
+        {
+          "key": "maintenance_item",
+          "label": "Maintenance item"
+        },
+        {
+          "key": "maintenance_operation",
+          "label": "Maintenance operation"
+        },
+        {
+          "key": "maintenance_interval",
+          "label": "Maintenance interval"
+        }
+      ],
+      "rows": [
+        {
+          "section_header": "Engine oil service"
+        },
+        {
+          "driving_condition": "A B C D",
+          "maintenance_item": "Engine oil",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 4,500 miles (7,500 km) or 6 months"
+        },
+        {
+          "driving_condition": "A B C D",
+          "maintenance_item": "Engine oil filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every oil change"
+        },
+        {
+          "section_header": "Major service"
+        },
+        {
+          "driving_condition": "A",
+          "maintenance_item": "Air cleaner filter & P.C.V. filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 12 months or 18,000 miles (30,000 km)"
+        },
+        {
+          "driving_condition": "A . . . E",
+          "maintenance_item": "Fuel filter",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 12 months or 18,000 miles (30,000 km)"
+        },
+        {
+          "driving_condition": ". . . . . F",
+          "maintenance_item": "Brake fluid",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 12 months or 18,000 miles (30,000 km)"
+        },
+        {
+          "driving_condition": ". . . . . G H",
+          "maintenance_item": "Steering gear & linkage, axle & suspension parts, exhaust system",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 12 months or 18,000 miles (30,000 km)"
+        },
+        {
+          "driving_condition": ". . C . . . H",
+          "maintenance_item": "N-CVT fluid",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 13,500 miles (22,500 km)"
+        },
+        {
+          "driving_condition": ". . C . . . H",
+          "maintenance_item": "Manual transaxle oil",
+          "maintenance_operation": "Replace",
+          "maintenance_interval": "Every 24 months or 36,000 miles (60,000 km)"
+        },
+        {
+          "driving_condition": "A . C . . . G H I",
+          "maintenance_item": "Brake pads, discs & other brake components",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 6 months or 9,000 miles (15,000 km)"
+        },
+        {
+          "driving_condition": "A . C . . . G H I",
+          "maintenance_item": "Brake linings, drums & other brake components",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 6 months or 9,000 miles (15,000 km)"
+        },
+        {
+          "driving_condition": ". . C . . . H",
+          "maintenance_item": "Drive shafts",
+          "maintenance_operation": "Check",
+          "maintenance_interval": "Every 6 months or 9,000 miles (15,000 km)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA-5"
+  ],
+  "model_notes": "N-CVT fluid entry applies to CVT-equipped models; Manual transaxle oil entry applies to M/T-equipped models."
+}

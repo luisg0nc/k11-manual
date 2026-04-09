@@ -1,0 +1,83 @@
+{
+  "page_code": "EM-5034",
+  "section": "EM",
+  "title": "ENGINE REMOVAL - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM291",
+      "type": "component_photo",
+      "description": "Underside view showing centermember installation with arrows indicating RH bracket and Rear bracket bolt locations",
+      "bbox_percent": [
+        0,
+        3,
+        40,
+        22
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM292",
+      "type": "component_photo",
+      "description": "Close-up view showing transaxle insulator bolts with arrows indicating bolt locations",
+      "bbox_percent": [
+        0,
+        23,
+        40,
+        42
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Install centermember. Tighten RH bracket and Rear bracket to the specified torque.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Tighten finally the transaxle insulator bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Other installation procedures are in the reverse order of removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

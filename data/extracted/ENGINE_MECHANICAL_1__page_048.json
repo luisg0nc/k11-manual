@@ -1,0 +1,238 @@
+{
+  "page_code": "EM-50",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd) \u2014 BEARING CLEARANCE",
+  "page_type": "prose_procedure",
+  "source_image": "page_EM-50.jpg",
+  "continuation": {
+    "continues_from": "EM-49",
+    "continues_to": "EM-51"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM195C",
+      "type": "parts_diagram",
+      "description": "Exploded/layout diagram of main bearings showing upper bearing, thrust bearing (only upper), No.5 bearing, oil hole, lower bearing, identification color, oil groove, front direction, and No.1 bearing positions",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        28
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM087",
+      "type": "component_photo",
+      "description": "Photo showing main bearing cap installed on cylinder block with measuring equipment for inner diameter measurement",
+      "bbox_percent": [
+        0,
+        28,
+        38,
+        48
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM506A",
+      "type": "component_photo",
+      "description": "Photo showing measurement of outer diameter of crankshaft main journal using a micrometer",
+      "bbox_percent": [
+        0,
+        48,
+        38,
+        68
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM088",
+      "type": "parts_diagram",
+      "description": "Diagram showing crank pin/journal fillet dimensions: CG10DE R2.3-2.7 mm, CG13DE R1.5 mm, with fillet radius R2.3-2.7 mm indicated",
+      "bbox_percent": [
+        0,
+        68,
+        38,
+        88
+      ],
+      "associated_step": "grinding_note_b"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "BEARING CLEARANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Main bearing"
+    },
+    {
+      "block_type": "procedure",
+      "id": "main_bearing_clearance",
+      "title": "Main bearing clearance measurement",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Set main bearings in their proper positions on cylinder block and main bearing cap.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install main bearing cap to cylinder block. Tighten all bolts in correct order in two or three stages.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Tighten all bolts in correct order in two or three stages."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Measure inner diameter of each main bearing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Measure outer diameter of each main journal in crankshaft.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Calculate main bearing clearance. Main bearing clearance = Inner dia. - Outer dia. Standard: 0.010 - 0.044 mm (0.0004 - 0.0017 in). Limit: 0.064 mm (0.0025 in).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "If it exceeds the limit, replace bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "If clearance cannot be adjusted within the standard of any bearing, grind crankshaft journal and use undersized bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Main bearing clearance \u2014 Standard",
+          "value": "0.010 - 0.044",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Main bearing clearance \u2014 Standard",
+          "value": "0.0004 - 0.0017",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Main bearing clearance \u2014 Limit",
+          "value": "0.064",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Main bearing clearance \u2014 Limit",
+          "value": "0.0025",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "When grinding crank pin and crank journal:",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "a. Grind until clearance is within specified standard bearing clearance.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "b. Fillets should be finished as shown in the figure. Refer to S.D.S. for standard bearing clearance and available spare parts.",
+      "style": "important"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Fillet radius \u2014 CG10DE",
+          "value": "R2.3 - 2.7",
+          "unit": "mm",
+          "condition": "Crank pin and crank journal fillet"
+        },
+        {
+          "label": "Fillet radius \u2014 CG13DE",
+          "value": "R1.5",
+          "unit": "mm",
+          "condition": "Crank pin and crank journal fillet"
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Upper bearing",
+          "note": "Has oil hole"
+        },
+        {
+          "number": 2,
+          "name": "Thrust bearing",
+          "note": "Only upper bearing; No.5 bearing position"
+        },
+        {
+          "number": 3,
+          "name": "Lower bearing",
+          "note": "Has identification color and oil groove"
+        },
+        {
+          "number": 4,
+          "name": "No.1 bearing",
+          "note": "Front position"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": "Fillet radius differs by engine: CG10DE R2.3-2.7 mm; CG13DE R1.5 mm"
+}

@@ -1,0 +1,127 @@
+{
+  "page_code": "AT-105",
+  "section": "AT",
+  "title": "REPAIR FOR COMPONENT PARTS \u2014 Oil Pump Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-105.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT206",
+      "type": "parts_diagram",
+      "description": "Oil pump assembly showing outer cover, inner cover, and housing components",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        22
+      ],
+      "associated_step": "disassembly_step1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT207",
+      "type": "tool_illustration",
+      "description": "Illustration showing two bolts installed and pump being tapped apart with a drift/punch",
+      "bbox_percent": [
+        0,
+        22,
+        42,
+        42
+      ],
+      "associated_step": "disassembly_step2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT208",
+      "type": "parts_diagram",
+      "description": "Exploded view of oil pump components with arrows indicating inspection points including lubrication valve, spring, and gears",
+      "bbox_percent": [
+        0,
+        42,
+        42,
+        65
+      ],
+      "associated_step": "inspection"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REPAIR FOR COMPONENT PARTS \u2014 Oil Pump Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the three bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Install two bolts as shown, and gently tap the pump apart.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for scratches on the cover inner surface and internal diameter of the gear ports.\nCheck for smooth movement of lubrication valve, and scratches on sliding surfaces.\nCheck smooth operation of pump gears.\nEnsure components are clean and free from foreign matter.\nReplace the oil pump as an assembly, if necessary.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "prose",
+      "text": "Apply ATF to all moving parts during assembly.\nTighten the bolts evenly.\nCheck shaft rotates smoothly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Bolt torque",
+          "value": "9.5 - 10.5",
+          "unit": "N\u00b7m",
+          "condition": "Tighten the bolts evenly"
+        },
+        {
+          "label": "Bolt torque",
+          "value": "0.97 - 1.07",
+          "unit": "kg-m",
+          "condition": "Tighten the bolts evenly"
+        },
+        {
+          "label": "Bolt torque",
+          "value": "7 - 8",
+          "unit": "ft-lb",
+          "condition": "Tighten the bolts evenly"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

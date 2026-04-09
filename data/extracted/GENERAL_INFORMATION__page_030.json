@@ -1,0 +1,95 @@
+{
+  "page_code": "GI-24",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "GI-24.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UGI009",
+      "type": "vehicle_diagram",
+      "description": "Underside view of vehicle showing 2-pole lift points, center of gravity, sill locations, lift pad detail, and 850mm dimension indicating lift arm spread",
+      "bbox_percent": [
+        5,
+        12,
+        95,
+        62
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "2-pole Lift"
+    },
+    {
+      "block_type": "prose",
+      "text": "When lifting the vehicle, open the lift arms as wide as possible and ensure that the front and rear of the vehicle are well balanced.\nWhen setting the lift arm, do not allow the arm to contact the brake tubes and fuel lines.",
+      "style": "warning"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Underside view of vehicle showing 2-pole lift points with 850mm dimension, center of gravity, sill and lift pad detail",
+      "callouts": [
+        {
+          "label": "Front",
+          "position": "left side of vehicle diagram"
+        },
+        {
+          "label": "850mm",
+          "position": "horizontal dimension arrow near center of vehicle"
+        },
+        {
+          "label": "Sill",
+          "position": "lower center of diagram, callout arrow pointing to sill cross-section"
+        },
+        {
+          "label": "Center of gravity",
+          "position": "right of sill callout, symbol with crosshair"
+        },
+        {
+          "label": "Lift pad",
+          "position": "below sill in cross-section detail"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note.\nLift-up points are the same as pantograph jack points.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Put the sill in the slit of the lift pad to prevent the sill from deforming. If the pad does not have a slit, prepare a suitable attachment with one.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Lift arm spread (2-pole lift)",
+          "value": "850",
+          "unit": "mm",
+          "condition": "Minimum lift arm opening"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

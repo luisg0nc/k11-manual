@@ -1,0 +1,225 @@
+{
+  "page_code": "EM-22",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": "EM-21",
+    "continues_to": "EM-23"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM110",
+      "type": "parts_diagram",
+      "description": "Tightening torque sequence graph showing stages a through e on axes of tightening torque (N\u00b7m, kg-m, ft-lb) vs steps",
+      "bbox_percent": [
+        0,
+        2,
+        28,
+        22
+      ],
+      "associated_step": "15"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM126D",
+      "type": "parts_diagram",
+      "description": "Camshaft bracket tightening numerical order diagram showing distributor bracket, apply liquid gasket note, and numbered tightening sequence",
+      "bbox_percent": [
+        0,
+        30,
+        30,
+        60
+      ],
+      "associated_step": "16"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM111",
+      "type": "parts_diagram",
+      "description": "Timing chain assembly diagram showing mating marks (silver), link counts (10 links, 14 links, 22 links) and camshaft sprocket mating marks",
+      "bbox_percent": [
+        0,
+        62,
+        30,
+        88
+      ],
+      "associated_step": "17"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening torque N\u00b7m (kg-m, ft-lb)",
+      "columns": [
+        {
+          "key": "bolt_group",
+          "label": "Bolt Group"
+        },
+        {
+          "key": "a",
+          "label": "a"
+        },
+        {
+          "key": "b",
+          "label": "b"
+        },
+        {
+          "key": "c",
+          "label": "c"
+        },
+        {
+          "key": "d",
+          "label": "d"
+        },
+        {
+          "key": "e",
+          "label": "e"
+        }
+      ],
+      "rows": [
+        {
+          "bolt_group": "Bolts (\u2460 - \u2469)",
+          "a": "39 (4.0, 29)",
+          "b": "78 (7.9, 57)",
+          "c": "0 (0,0)",
+          "d": "35 (3.6,26)",
+          "e": "60 degrees"
+        },
+        {
+          "bolt_group": "Bolts (\u246a - \u2472)",
+          "a": "\u2014",
+          "b": "\u2014",
+          "c": "\u2014",
+          "d": "\u2014",
+          "e": "6.3 - 8.3 (0.64 - 0.85, 4.6 - 6.1)"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Timing Chain Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 15,
+          "text": "Install idler sprocket bolt.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Install camshaft, camshaft brackets and distributor bracket. Tighten camshaft bracket bolts gradually in three stages:\na) 2 N\u00b7m (0.2 kg-m, 1 ft-lb)\nb) 5.9 N\u00b7m (0.6 kg-m, 4 ft-lb)\nc) 9 - 12 N\u00b7m (0.9 - 1.2 kg-m, 6 - 9 ft-lb)\nIf any part of valve assembly or camshaft is replaced, check valve clearance according to the reference data. After completing assembly check valve clearance. Refer to \"Checking\" and \"Adjusting\" in \"VALVE CLEARANCE\".\nReference data for initial setting of valve clearance (Cold):\n  Intake: 0.30 mm (0.012 in)\n  Exhaust: 0.35 mm (0.014 in)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "If any part of valve assembly or camshaft is replaced, check valve clearance according to the reference data.",
+            "After completing assembly check valve clearance. Refer to \"Checking\" and \"Adjusting\" in \"VALVE CLEARANCE\".",
+            "Reference data for initial setting of valve clearance (Cold): Intake 0.30 mm (0.012 in), Exhaust 0.35 mm (0.014 in)"
+          ]
+        },
+        {
+          "step": 17,
+          "text": "Assemble camshaft sprocket with chain.\n\u2022 Set timing chain by aligning mating marks with those of camshaft sprockets.\n\u2022 Make sure sprocket's mating marks face engine front.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Set timing chain by aligning mating marks with those of camshaft sprockets.",
+            "Make sure sprocket's mating marks face engine front."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve clearance (Cold) \u2014 Intake",
+          "value": "0.30",
+          "unit": "mm (0.012 in)",
+          "condition": "Cold, initial setting reference data"
+        },
+        {
+          "label": "Valve clearance (Cold) \u2014 Exhaust",
+          "value": "0.35",
+          "unit": "mm (0.014 in)",
+          "condition": "Cold, initial setting reference data"
+        },
+        {
+          "label": "Camshaft bracket bolt torque stage a",
+          "value": "2",
+          "unit": "N\u00b7m (0.2 kg-m, 1 ft-lb)",
+          "condition": "First stage"
+        },
+        {
+          "label": "Camshaft bracket bolt torque stage b",
+          "value": "5.9",
+          "unit": "N\u00b7m (0.6 kg-m, 4 ft-lb)",
+          "condition": "Second stage"
+        },
+        {
+          "label": "Camshaft bracket bolt torque stage c",
+          "value": "9 - 12",
+          "unit": "N\u00b7m (0.9 - 1.2 kg-m, 6 - 9 ft-lb)",
+          "condition": "Third stage"
+        },
+        {
+          "label": "Bolts \u2460 - \u2469 torque stage a",
+          "value": "39",
+          "unit": "N\u00b7m (4.0, 29)",
+          "condition": "Stage a"
+        },
+        {
+          "label": "Bolts \u2460 - \u2469 torque stage b",
+          "value": "78",
+          "unit": "N\u00b7m (7.9, 57)",
+          "condition": "Stage b"
+        },
+        {
+          "label": "Bolts \u2460 - \u2469 torque stage c",
+          "value": "0",
+          "unit": "N\u00b7m (0,0)",
+          "condition": "Stage c"
+        },
+        {
+          "label": "Bolts \u2460 - \u2469 torque stage d",
+          "value": "35",
+          "unit": "N\u00b7m (3.6, 26)",
+          "condition": "Stage d"
+        },
+        {
+          "label": "Bolts \u2460 - \u2469 torque stage e",
+          "value": "60",
+          "unit": "degrees",
+          "condition": "Stage e"
+        },
+        {
+          "label": "Bolts \u246a - \u2472 torque stage e",
+          "value": "6.3 - 8.3",
+          "unit": "N\u00b7m (0.64 - 0.85, 4.6 - 6.1)",
+          "condition": "Stage e"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "VALVE CLEARANCE \u2014 Checking",
+    "VALVE CLEARANCE \u2014 Adjusting"
+  ],
+  "model_notes": null
+}

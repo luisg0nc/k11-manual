@@ -1,0 +1,155 @@
+{
+  "page_code": "AT-35",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Control Valve Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-35.jpg",
+  "continuation": {
+    "continues_from": "AT-34",
+    "continues_to": "AT-36"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT048",
+      "type": "component_photo",
+      "description": "Shows spring clip, rod, bolt, and plate on the modulator rod connection area",
+      "bbox_percent": [
+        0,
+        3,
+        40,
+        22
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT049",
+      "type": "tool_illustration",
+      "description": "Shows tool KV319K0100 fitted to control valve to prevent pressure regulator valve assembly jumping out",
+      "bbox_percent": [
+        0,
+        22,
+        40,
+        42
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT050",
+      "type": "component_photo",
+      "description": "Shows control valve assembly in position on vehicle",
+      "bbox_percent": [
+        0,
+        42,
+        40,
+        59
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT051",
+      "type": "component_photo",
+      "description": "Shows removal of valve and holder as a unit from the transmission",
+      "bbox_percent": [
+        0,
+        59,
+        40,
+        77
+      ],
+      "associated_step": "8"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT052",
+      "type": "component_photo",
+      "description": "Shows installation of valve and holder with dowel location during installation step",
+      "bbox_percent": [
+        0,
+        77,
+        40,
+        98
+      ],
+      "associated_step": "9"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 6,
+          "text": "Remove the spring clip and disconnect the modulator rod.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Fit Tool to control valve to prevent the pressure regulator valve assembly jumping out. Fit the regulator end of the holder first, then press down at the opposite end and locate the holder around the centre bolt.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove the valve and holder as a unit. Take care the valve and holder do not seperate.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Have a container ready to catch any residual oil in the valve.",
+            "Do not disassemble the control valve."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Have a container ready to catch any residual oil in the valve. Do not disassemble the control valve.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure all components are clean & free from dirt and contamination.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 9,
+          "text": "Fit the valve and holder. Ensure the dowel is correctly located.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319K0100",
+      "name": "Pressure regulator valve assembly holder/tool",
+      "usage": "Fit to control valve to prevent the pressure regulator valve assembly jumping out during removal"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

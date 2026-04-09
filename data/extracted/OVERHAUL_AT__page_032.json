@@ -1,0 +1,256 @@
+{
+  "page_code": "AT-32",
+  "section": "AT",
+  "title": "Control Cable, Ratio Sensor and Harness",
+  "page_type": "parts_diagram",
+  "source_image": "AT-32.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT041",
+      "type": "parts_diagram",
+      "description": "Exploded/component parts diagram showing Control Cable, Ratio Sensor and Harness assembly including transmission control cable, harness, retaining plate, O-rings, pin, pitot tube, pulley ratio sensor, engine brake tube, modulator connection rod, modulator adjusting plate, spring clip, engine brake body, engine brake valve, tube clip, lubrication nozzle, lubrication tube, and associated torque specifications.",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Control Cable, Ratio Sensor and Harness"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Transmission control cable",
+          "note": "O-ring \u2014 Do not re-use"
+        },
+        {
+          "number": 2,
+          "name": "Harness",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Retaining plate",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "O-ring",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 5,
+          "name": "Pin",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Pitot tube",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Pulley ratio sensor",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Engine brake tube",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Modulator connection rod",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Spring clip",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 11,
+          "name": "Modulator adjusting plate",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Engine brake body",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Engine brake valve",
+          "note": null
+        },
+        {
+          "number": 14,
+          "name": "Engine brake tube",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Tube clip",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "Lubrication nozzle",
+          "note": null
+        },
+        {
+          "number": 17,
+          "name": "Lubrication tube",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Transmission control cable bolt torque",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Transmission control cable bolt torque",
+          "value": "0.46 - 0.62",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Transmission control cable bolt torque",
+          "value": "3 - 4",
+          "unit": "ftlb",
+          "condition": null
+        },
+        {
+          "label": "Harness/Retaining plate bolt torque",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Harness/Retaining plate bolt torque",
+          "value": "0.46 - 0.62",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Harness/Retaining plate bolt torque",
+          "value": "3 - 4",
+          "unit": "ftlb",
+          "condition": null
+        },
+        {
+          "label": "Engine brake tube bolt torque",
+          "value": "3 - 4",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Engine brake tube bolt torque",
+          "value": "0.31 - 0.41",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Engine brake tube bolt torque",
+          "value": "2 - 3",
+          "unit": "ftlb",
+          "condition": null
+        },
+        {
+          "label": "Pulley ratio sensor bolt torque",
+          "value": "3 - 4",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Pulley ratio sensor bolt torque",
+          "value": "0.31 - 0.41",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Pulley ratio sensor bolt torque",
+          "value": "2 - 3",
+          "unit": "ftlb",
+          "condition": null
+        },
+        {
+          "label": "Engine brake body bolt torque",
+          "value": "3 - 4",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Engine brake body bolt torque",
+          "value": "0.31 - 0.41",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Engine brake body bolt torque",
+          "value": "2 - 3",
+          "unit": "ftlb",
+          "condition": null
+        },
+        {
+          "label": "Lubrication tube / Engine brake tube (lower) bolt torque",
+          "value": "3 - 4",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Lubrication tube / Engine brake tube (lower) bolt torque",
+          "value": "0.31 - 0.41",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Lubrication tube / Engine brake tube (lower) bolt torque",
+          "value": "2 - 3",
+          "unit": "ftlb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (Kgm, ftlb) \u2014 torque unit legend",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not re-use items marked with the X symbol (O-rings, Spring clip).",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "A/T (Automatic Transmission) component parts page. UAT041 diagram reference."
+}

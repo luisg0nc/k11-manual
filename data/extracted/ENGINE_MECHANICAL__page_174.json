@@ -1,0 +1,231 @@
+{
+  "page_code": "EM-5041",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd) / Connecting Rod Clearance / Determining the Piston Type",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM506A",
+      "type": "tool_illustration",
+      "description": "Measuring outer diameter of crankshaft pin journal with a micrometer",
+      "bbox_percent": [
+        0,
+        0,
+        30,
+        18
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM151B",
+      "type": "tool_illustration",
+      "description": "Measuring inner diameter of connecting rod small end with a dial bore gauge",
+      "bbox_percent": [
+        0,
+        30,
+        30,
+        50
+      ],
+      "associated_step": "connecting_rod_small_end_step1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM903A",
+      "type": "tool_illustration",
+      "description": "Measuring outer diameter of piston pin with a micrometer",
+      "bbox_percent": [
+        0,
+        50,
+        30,
+        67
+      ],
+      "associated_step": "connecting_rod_small_end_step2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM300",
+      "type": "component_photo",
+      "description": "Calibration piston KV109B0050 installed on No. 4 cylinder connecting rod in the cylinder block",
+      "bbox_percent": [
+        0,
+        68,
+        30,
+        88
+      ],
+      "associated_step": "piston_type_step2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "connecting_rod_bearing_clearance",
+      "title": "Connecting Rod Bearing Clearance",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Measure outer diameter of each crankshaft pin journal.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Calculate connecting rod bearing clearance. Connecting rod bearing clearance = Inner dia. \u2013 Outer dia. Standard: 0.010 - 0.044 mm (0.0004 - 0.0017 in)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "If it exceeds the standard clearance, replace bearing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "If clearance cannot be adjusted with the standard bearing, grind crankshaft journal and use undersized bearing. Refer to step 7 of \"BEARING CLEARANCE \u2013 Main bearing\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Connecting rod bearing thickness",
+      "columns": [
+        {
+          "key": "type",
+          "label": "Type"
+        },
+        {
+          "key": "thickness",
+          "label": "Thickness \u2014 Unit: mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "type": "Standard",
+          "thickness": "1.814 - 1.820 (0.071 - 0.072)"
+        },
+        {
+          "type": "Undersize",
+          "thickness": "1.964 - 1.970 (0.077 - 0.078)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONNECTING ROD CLEARANCE (Small end)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "connecting_rod_small_end",
+      "title": "Connecting Rod Clearance (Small end)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure inner diameter of connecting rod small end. Standard: 23.007 - 23.02 mm (0.9058 - 0.9063 in)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure outer diameter of piston pin. Standard: 22.996 - 23.000 mm (0.9054 - 0.9055 in)",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Calculate connecting rod bushing clearance. Connecting rod bushing clearance = Inner diameter \u2013 pin outer diameter. Standard: 0.011 - 0.02 mm (0.0004 - 0.0008 in)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If it exceeds the standard clearance, replace connecting rod assembly and/or piston and pin.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "DETERMINING THE PISTON TYPE"
+    },
+    {
+      "block_type": "prose",
+      "text": "When replacing pistons, crankshaft, cylinder block or connecting rods always determine piston type.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "determining_piston_type",
+      "title": "Determining the Piston Type",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install crankshaft with correct bearings and tighten main bearings caps to the specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Mount the No. 4 cylinder connecting rod on the calibration piston SST KV109B0050.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Install a new pair of connecting rod bearings.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Install the calibration piston with connecting rod in the corresponding cylinder.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0050",
+      "name": "Calibration piston",
+      "usage": "Used to determine piston type when replacing pistons, crankshaft, cylinder block, or connecting rods"
+    }
+  ],
+  "cross_references": [
+    "BEARING CLEARANCE \u2013 Main bearing"
+  ],
+  "model_notes": null
+}

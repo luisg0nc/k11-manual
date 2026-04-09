@@ -1,0 +1,85 @@
+{
+  "page_code": "AT-70",
+  "section": "AT",
+  "title": "TROUBLE DIAGNOSIS",
+  "page_type": "index_toc",
+  "source_image": "page_at70.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-71"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Diagnostic Procedures"
+    },
+    {
+      "block_type": "table",
+      "title": "Diagnostic Procedures Index",
+      "columns": [
+        {
+          "key": "procedure",
+          "label": "Procedure"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "procedure": "Vehicle Does Not drive",
+          "page": "AT-71"
+        },
+        {
+          "procedure": "Vehicle Creeps",
+          "page": "AT-73"
+        },
+        {
+          "procedure": "Faulty Select Operation",
+          "page": "AT-75"
+        },
+        {
+          "procedure": "Faulty Shifting",
+          "page": "AT-76"
+        },
+        {
+          "procedure": "Shift Characteristics Inspection",
+          "page": "AT-77"
+        },
+        {
+          "procedure": "Engine Races While Driving",
+          "page": "AT-82"
+        },
+        {
+          "procedure": "Stall Test",
+          "page": "AT-83"
+        },
+        {
+          "procedure": "Electrical Components Inspection",
+          "page": "AT-86"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-71",
+    "AT-73",
+    "AT-75",
+    "AT-76",
+    "AT-77",
+    "AT-82",
+    "AT-83",
+    "AT-86"
+  ],
+  "model_notes": null
+}

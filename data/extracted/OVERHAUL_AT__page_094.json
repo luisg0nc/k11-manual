@@ -1,0 +1,113 @@
+{
+  "page_code": "AT-94",
+  "section": "AT",
+  "title": "REMOVAL & INSTALLATION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-94.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT092",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing housing and clutch assembly with 16-20 mm measurement dimension indicated from housing surface to electromagnetic clutch end surface",
+      "bbox_percent": [
+        0,
+        3,
+        35,
+        32
+      ],
+      "associated_step": "Assembly Check"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT093",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing drive plate and bolt installation location for clutch to drive plate connection from lower side (oil pan)",
+      "bbox_percent": [
+        0,
+        33,
+        35,
+        62
+      ],
+      "associated_step": "Installation"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REMOVAL & INSTALLATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly Check"
+    },
+    {
+      "block_type": "prose",
+      "text": "Measure the distance from the end surface of t[he housi]ng to the end surface of the electromagnetic clutch.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard value \u2014 distance from housing surface to electromagnetic clutch end surface",
+          "value": "16 to 20",
+          "unit": "mm",
+          "condition": "Assembly check measurement"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "prose",
+      "text": "(Clutch to drive plate)",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation_clutch_drive_plate",
+      "title": "Installation (Clutch to drive plate)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Connect the drive plate and the electromagnetic clutch assembly from the lower side (oil pan) with four bolts, after assembling the transaxle to the engine.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Tighten the four bolts loosely and then tighten them to the specified torque."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tightening torque \u2014 Clutch to drive plate bolts",
+          "value": "30 to 40 (3 to 4, 22 - 29)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "Four bolts, clutch to drive plate"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Tighten the four bolts loosely and then tighten them to the specified torque.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Procedure relates to electromagnetic clutch assembly on automatic transaxle. Access from lower side (oil pan) required."
+}

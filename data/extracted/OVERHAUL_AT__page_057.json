@@ -1,0 +1,312 @@
+{
+  "page_code": "AT-57",
+  "section": "AT",
+  "title": "Accelerator and accelerator position switch circuit check",
+  "page_type": "flowchart",
+  "source_image": "AT-57.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "ATN0698D",
+      "type": "wiring_schematic",
+      "description": "Schematic showing Accel. sw. (terminals 1,2) and Accel. pos. sw. (terminals 3,4) connected to N-CVT C/U terminals 6 and 15",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT109",
+      "type": "component_photo",
+      "description": "Photo showing accelerator pedal area / switch location",
+      "bbox_percent": [
+        2,
+        18,
+        38,
+        36
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT110",
+      "type": "component_photo",
+      "description": "DATA MONITOR display screen showing RECORD mode with parameter readings: CAR SPEED SEN 0 km/h, ENGINE REV 720 rpm, CLUTCH CRRNT* 0.0A, CLUTCH CRRNT 0.0A, PULLEY RATIO 0.00, ACCEL. SW. ON, THRTL OPEN SW ON, AIR/C SIGNAL OFF, STOP LAMP SW OFF",
+      "bbox_percent": [
+        2,
+        36,
+        38,
+        58
+      ],
+      "associated_step": "step2_data_monitor"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT111",
+      "type": "connector_diagram",
+      "description": "N-CVT C/U IO CONNECTOR with voltmeter connected to terminal 15, measuring accelerator position switch voltage",
+      "bbox_percent": [
+        2,
+        58,
+        38,
+        80
+      ],
+      "associated_step": "step2_voltage_check_terminal15"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Accelerator and accelerator position switch circuit check"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Accelerator switch and accelerator position switch wiring",
+      "components": [
+        {
+          "id": "accel_sw",
+          "name": "Accel. sw.",
+          "terminals": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "accel_pos_sw",
+          "name": "Accel. pos. sw.",
+          "terminals": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "ncvt_cu",
+          "name": "N-CVT C/U",
+          "terminals": [
+            "6",
+            "15"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "accel_sw_terminal2",
+          "to": "ncvt_cu_terminal6"
+        },
+        {
+          "from": "accel_sw_terminal1",
+          "to": "ncvt_cu_terminal6_low"
+        },
+        {
+          "from": "accel_pos_sw_terminal4",
+          "to": "ncvt_cu_terminal15"
+        },
+        {
+          "from": "accel_pos_sw_terminal3",
+          "to": "ncvt_cu_terminal15_low"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "CAR SPEED SEN",
+          "value": "0",
+          "unit": "km/h",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "ENGINE REV",
+          "value": "720",
+          "unit": "rpm",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "CLUTCH CRRNT*",
+          "value": "0.0",
+          "unit": "A",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "CLUTCH CRRNT",
+          "value": "0.0",
+          "unit": "A",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "PULLEY RATIO",
+          "value": "0.00",
+          "unit": "",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "ACCEL. SW.",
+          "value": "ON",
+          "unit": "",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "THRTL OPEN SW",
+          "value": "ON",
+          "unit": "",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "AIR/C SIGNAL",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Monitor record idle"
+        },
+        {
+          "label": "STOP LAMP SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Monitor record idle"
+        }
+      ]
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Accelerator and accelerator position switch circuit check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check accelerator switch and accelerator position switch. Refer to \"Electrical component inspection\""
+        },
+        {
+          "id": "n1_ng",
+          "type": "terminal",
+          "text": "Repair or replace accelerator switch or accelerator position switch"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Check input signal\n1. Turn ignition switch \"ON\"\n2. Select \"DATA MONITOR\"\n   Check accelerator switch:\n   \u2022 Check that \"ACCEL SW\" goes \"OFF\" and \"ON\" when accelerator pedal is depressed and released\n   Check accelerator position switch:\n   \u2022 Check that \"THRTL OPEN SW\" goes \"OFF\" and \"ON\" when accelerator pedal is depressed more than 30 mm\n   \u2014 OR \u2014\n   Check accelerator switch:\n   \u2022 Check voltage between N-CVT control unit terminal #6 and ground while accelerator pedal is depressed and released\n   [Table: Depressed = Battery voltage; Released = 0V]\n   Check accelerator position switch:\n   \u2022 Check voltage between N-CVT control unit terminal #15 and ground while accelerator pedal is depressed more than 30 mm and released\n   [Table: Depressed >30 mm = Battery voltage; Released = 0V]"
+        },
+        {
+          "id": "n2_ng",
+          "type": "terminal",
+          "text": "Repair harness connector between accelerator switch or accelerator position switch and N-CVT control unit terminal"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Perform self diagnosis after test drive"
+        },
+        {
+          "id": "n3_ng",
+          "type": "terminal",
+          "text": "1. Check N-CVT Control unit I/O signal\n2. Re-check N-CVT control unit pin terminals for damage or incorrect connection of control unit harness connector"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Inspection END"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n1_ng",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "O.K."
+        },
+        {
+          "from": "n2",
+          "to": "n2_ng",
+          "label": "N.G."
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n3_ng",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Accelerator switch voltage check (Terminal #6)",
+      "columns": [
+        {
+          "key": "pedal",
+          "label": "Accelerator pedal"
+        },
+        {
+          "key": "voltage",
+          "label": "Voltage"
+        }
+      ],
+      "rows": [
+        {
+          "pedal": "Depressed",
+          "voltage": "Battery voltage"
+        },
+        {
+          "pedal": "Released",
+          "voltage": "0V"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Accelerator position switch voltage check (Terminal #15)",
+      "columns": [
+        {
+          "key": "pedal_position",
+          "label": "Accelerator pedal position"
+        },
+        {
+          "key": "voltage",
+          "label": "Voltage"
+        }
+      ],
+      "rows": [
+        {
+          "pedal_position": "Depressed >30 mm",
+          "voltage": "Battery voltage"
+        },
+        {
+          "pedal_position": "Released",
+          "voltage": "0V"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Electrical component inspection",
+    "N-CVT Control unit I/O signal"
+  ],
+  "model_notes": "Applies to N-CVT (continuously variable transmission) equipped vehicles. Terminal #6 = accelerator switch; Terminal #15 = accelerator position switch (THRTL OPEN SW activates when pedal depressed more than 30 mm)."
+}

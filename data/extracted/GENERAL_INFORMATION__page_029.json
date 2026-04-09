@@ -1,0 +1,89 @@
+{
+  "page_code": "GI-23",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING \u2014 Garage Jack and Safety Stand",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi23.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UGI008",
+      "type": "vehicle_diagram",
+      "description": "Underside view of Nissan Micra K11 showing garage jack points and safety stand points, with inset diagrams illustrating attachment (S.S.T. No. LM4519-0000) fitted into the lower side sill groove of a safety stand.",
+      "bbox_percent": [
+        5,
+        17,
+        95,
+        70
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Garage Jack and Safety Stand"
+    },
+    {
+      "block_type": "prose",
+      "text": "Never get under the vehicle while it is supported only by the jack. Always use safety stands when you have to get under the vehicle.",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "Place wheel chocks at the front wheels when the rear wheels are raised and place wheel chocks at the rear wheels when the front wheels are raised.",
+      "style": "warning"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Underside of vehicle showing designated garage jack points and safety stand points. An attachment (S.S.T. No. LM4519-0000) is used with the safety stand; fit the lower side sill into the groove of the attachment.",
+      "callouts": [
+        {
+          "label": "Garage jack points",
+          "position": "front and rear subframe/body locations indicated by arrows on underside diagram"
+        },
+        {
+          "label": "Safety stand points",
+          "position": "side sill areas indicated by arrows on underside diagram"
+        },
+        {
+          "label": "Attachment S.S.T.No. LM4519-0000",
+          "position": "lower left inset, shown separate from safety stand"
+        },
+        {
+          "label": "Safetystand",
+          "position": "lower left inset, shown below attachment"
+        },
+        {
+          "label": "Fit the lower side sill into groove",
+          "position": "lower right inset, showing attachment fitted onto safety stand"
+        },
+        {
+          "label": "Front",
+          "position": "left side of vehicle diagram indicating front direction"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "LM4519-0000",
+      "name": "Attachment",
+      "usage": "Fit the lower side sill into the groove of this attachment when using a safety stand under the vehicle"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

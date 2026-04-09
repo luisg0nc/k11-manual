@@ -1,0 +1,192 @@
+{
+  "page_code": "AT-68",
+  "section": "AT",
+  "title": "Inhibitor Switch, Accelerator Switch, Accelerator Position Switch, Stop Lamp Switch and Engine Speed Signal Circuit Checks",
+  "page_type": "flowchart",
+  "source_image": "AT-68.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-69"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT136",
+      "type": "wiring_schematic",
+      "description": "Circuit diagram showing IGN-SW with 10A fuse, Accel/Accel pos. sw., Inhibit SW, Stop lamp sw., N-CVT C/U and ECCS C/U connections with terminal numbers 10, 5, 2, 3, 15, 6, 11, 22, 2",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        15
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT137",
+      "type": "component_photo",
+      "description": "Illustration of brake pedal depressed and released positions, with monitor display showing: CAR SPEED SEN 0 km/h, ENGINE REV 0 rpm, CLUTCH CRRNT* 0.0A, CLUTCH CRRNT 0.0A, PULLEY RATIO 0.00, ACCEL SW. OFF, THRTL OPEN SW OFF, AIR/C SIGNAL OFF, STOP LAMP SW ON. RECORD label shown.",
+      "bbox_percent": [
+        0,
+        15,
+        35,
+        55
+      ],
+      "associated_step": "A"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT138",
+      "type": "connector_diagram",
+      "description": "Illustration of brake pedal positions and voltmeter connected to N-CVT C/U connector terminal 11 and body ground",
+      "bbox_percent": [
+        0,
+        55,
+        35,
+        100
+      ],
+      "associated_step": "A"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inhibitor Switch, Accelerator Switch, Accelerator Position Switch, Stop Lamp Switch and Engine Speed Signal Circuit Checks"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Refer to the inspection for each circuit for the inhibitor switch, accelerator switch and accelerator position switch circuit check procedures.",
+      "style": "note"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Stop Lamp Switch Circuit Check (Step A)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check stop lamp switch\n1. Turn ignition switch \"ON\"\n2. Select \"E.C.U. Signals\"\n   \u2022 Check that brake switch goes \"ON\" and \"OFF\" when brake pedal is depressed and released. Check that the stop lamp switch also goes \"ON\" and \"OFF\" according to brake pedal operation\n   \u2014 OR \u2014\n   \u2022 Check the voltage between N-CVT control unit terminal #11 and body ground when brake switch turns \"ON\" and \"OFF\"\n   Brake pedal position | Voltage\n   Depressed | 12 V\n   Released | 0V"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "O.K.\nGo to next page"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "N.G. Check following items:\n\u2022 Brake switch\n  Refer to \"Electrical Component Inspection\"\n\u2022 Check continuity of harness between N-CVT control unit and brake switch"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "O.K."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "N.G."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Brake Switch Voltage Check",
+      "columns": [
+        {
+          "key": "brake_position",
+          "label": "Brake pedal position"
+        },
+        {
+          "key": "voltage",
+          "label": "Voltage"
+        }
+      ],
+      "rows": [
+        {
+          "brake_position": "Depressed",
+          "voltage": "12 V"
+        },
+        {
+          "brake_position": "Released",
+          "voltage": "0V"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "CAR SPEED SEN",
+          "value": "0",
+          "unit": "km/h",
+          "condition": "Monitor display at rest"
+        },
+        {
+          "label": "ENGINE REV",
+          "value": "0",
+          "unit": "rpm",
+          "condition": "Monitor display at rest"
+        },
+        {
+          "label": "CLUTCH CRRNT*",
+          "value": "0.0",
+          "unit": "A",
+          "condition": "Monitor display at rest"
+        },
+        {
+          "label": "CLUTCH CRRNT",
+          "value": "0.0",
+          "unit": "A",
+          "condition": "Monitor display at rest"
+        },
+        {
+          "label": "PULLEY RATIO",
+          "value": "0.00",
+          "unit": "",
+          "condition": "Monitor display at rest"
+        },
+        {
+          "label": "ACCEL SW.",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Monitor display"
+        },
+        {
+          "label": "THRTL OPEN SW",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Monitor display"
+        },
+        {
+          "label": "AIR/C SIGNAL",
+          "value": "OFF",
+          "unit": "",
+          "condition": "Monitor display"
+        },
+        {
+          "label": "STOP LAMP SW",
+          "value": "ON",
+          "unit": "",
+          "condition": "Monitor display with brake depressed"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Electrical Component Inspection",
+    "AT-69"
+  ],
+  "model_notes": "Applicable to N-CVT (automatic CVT) equipped models. Monitor display shows MONITOR / NO FAIL status. CLUTCH CRRNT* asterisk variant noted."
+}

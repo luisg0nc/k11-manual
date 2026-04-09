@@ -1,0 +1,375 @@
+{
+  "page_code": "EM-8",
+  "section": "EM",
+  "title": "Outer Component Parts \u2014 Intake Manifold & Fuel System (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-8.jpg",
+  "continuation": {
+    "continues_from": "EM-7",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM022",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of intake manifold and fuel system outer components showing torque values and part locations",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM023",
+      "type": "component_photo",
+      "description": "Photo showing manifold support location on engine",
+      "bbox_percent": [
+        0,
+        28,
+        35,
+        50
+      ],
+      "associated_step": "Removal step 4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM024",
+      "type": "component_photo",
+      "description": "Photo showing straight edge check on intake manifold for flatness inspection",
+      "bbox_percent": [
+        0,
+        50,
+        35,
+        68
+      ],
+      "associated_step": "Inspection step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM025",
+      "type": "parts_diagram",
+      "description": "Diagram showing numbered bolt/nut tightening order for intake manifold reassembly",
+      "bbox_percent": [
+        0,
+        68,
+        35,
+        88
+      ],
+      "associated_step": "Reassembly step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Intake Manifold & Fuel System (Cont'd)"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Brake booster",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Pressure regulator",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Canister",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Fuel rail assembly",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Spacer (3 of)",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Injector seals (4 of)",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Bracket",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Studs",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Intake manifold gasket",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 14,
+          "name": "Intake manifold support",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Torque \u2014 Rocker cover / brake booster area fasteners",
+          "value": "21-26",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Rocker cover / brake booster area fasteners",
+          "value": "2.1-2.7",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Rocker cover / brake booster area fasteners",
+          "value": "15-20",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Brake booster hose clamp / fuel rail fasteners (multiple locations)",
+          "value": "16-21",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Brake booster hose clamp / fuel rail fasteners (multiple locations)",
+          "value": "1.6-2.1",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Brake booster hose clamp / fuel rail fasteners (multiple locations)",
+          "value": "12-15",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Fuel rail / pressure regulator fasteners (upper right)",
+          "value": "16-21",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Fuel rail / pressure regulator fasteners (upper right)",
+          "value": "1.6-2.1",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Fuel rail / pressure regulator fasteners (upper right)",
+          "value": "12-15",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Bracket fasteners",
+          "value": "6.3-8.3",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Bracket fasteners",
+          "value": "0.64-0.85",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Bracket fasteners",
+          "value": "4.6-6.2",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Intake manifold support fasteners (lower)",
+          "value": "16-21",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Intake manifold support fasteners (lower)",
+          "value": "1.6-2.1",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Torque \u2014 Intake manifold support fasteners (lower)",
+          "value": "12-15",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Symbol key: X = Do not reuse; [torque symbol] = N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "INTAKE MANIFOLD"
+    },
+    {
+      "block_type": "procedure",
+      "id": "intake_manifold_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Release fuel pressure. Refer to FE section.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove air cleaner and disconnect hoses.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove throttle body assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove manifold support.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove manifold.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "intake_manifold_inspection",
+      "title": "Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check manifold with straight edge. Variation limit: 0.1 mm (0.004 in)",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Intake manifold flatness variation limit",
+          "value": "0.1",
+          "unit": "mm",
+          "condition": "Measured with straight edge"
+        },
+        {
+          "label": "Intake manifold flatness variation limit",
+          "value": "0.004",
+          "unit": "in",
+          "condition": "Measured with straight edge"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "intake_manifold_reassembly",
+      "title": "Reassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit the manifold. Torque bolts/nuts in order shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Refit manifold support and throttle body.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Reconnect hoses & fit air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure all nuts/bolts are torqued securely.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for fuel and air leaks.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FE section \u2014 fuel pressure release procedure"
+  ],
+  "model_notes": null
+}

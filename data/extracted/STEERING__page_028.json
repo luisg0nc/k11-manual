@@ -1,0 +1,177 @@
+{
+  "page_code": "ST-27",
+  "section": "ST",
+  "title": "POWER STEERING GEAR AND LINKAGE \u2014 Inspection (Cont'd) / Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "st-27.jpg",
+  "continuation": {
+    "continues_from": "ST-26",
+    "continues_to": "ST-28"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST334B",
+      "type": "component_photo",
+      "description": "Ball joint axial end play check \u2014 shows axial end play measurement point on tie-rod ball joint",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        20
+      ],
+      "associated_step": "inspection_axial_end_play"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST093B",
+      "type": "component_photo",
+      "description": "Tie-rod assembly showing length 'L' measurement for outer socket lock nut tightening",
+      "bbox_percent": [
+        0,
+        21,
+        38,
+        38
+      ],
+      "associated_step": "assembly_step1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST592B",
+      "type": "component_photo",
+      "description": "Rack assembly showing rack stroke 'L' measurement on both sides",
+      "bbox_percent": [
+        0,
+        40,
+        38,
+        57
+      ],
+      "associated_step": "assembly_step2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SST589B",
+      "type": "component_photo",
+      "description": "Boot installation showing contact surfaces between boot and tie-rod to be coated with grease",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        76
+      ],
+      "associated_step": "assembly_step3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection_contd",
+      "title": "Inspection (Cont'd)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check ball joint for axial end play.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check condition of dust cover. If excessively cracked, replace it.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie-rod outer ball joint axial end play",
+          "value": "0.5 mm (0.020 in) or less",
+          "unit": "mm (in)",
+          "condition": "axial end play check"
+        },
+        {
+          "label": "Tie-rod inner ball joint axial end play",
+          "value": "0 mm (0 in)",
+          "unit": "mm (in)",
+          "condition": "axial end play check"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Tighten outer socket lock nut. Tie-rod length \"L\": 183.6 mm (7.23 in)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure rack stroke. Rack stroke \"L\": Short track = 60.6 mm (2.386 in), Standard track = 64.6 mm (2.543 in)",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Before installing boot, coat the contact surfaces between boot and tie-rod with grease.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie-rod length \"L\"",
+          "value": "183.6 mm (7.23 in)",
+          "unit": "mm (in)",
+          "condition": "assembly \u2014 outer socket lock nut tightening"
+        },
+        {
+          "label": "Rack stroke \"L\" \u2014 Short track",
+          "value": "60.6 mm (2.386 in)",
+          "unit": "mm (in)",
+          "condition": "rack stroke measurement"
+        },
+        {
+          "label": "Rack stroke \"L\" \u2014 Standard track",
+          "value": "64.6 mm (2.543 in)",
+          "unit": "mm (in)",
+          "condition": "rack stroke measurement"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "ST-26"
+  ],
+  "model_notes": "Short track and Standard track variants specified for rack stroke measurement."
+}

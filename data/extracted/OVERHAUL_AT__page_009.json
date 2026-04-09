@@ -1,0 +1,230 @@
+{
+  "page_code": "AT-9",
+  "section": "AT",
+  "title": "N\u00b7CVT CONTROL SYSTEM \u2014 FUNCTION",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-9.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT012",
+      "type": "wiring_schematic",
+      "description": "N\u00b7CVT Control System block diagram showing signal flows between ABS Control Unit, Engine Control Unit, N\u00b7CVT Control Unit, Hydraulic control valve system, Line pressure control solenoid valve, Idle up relay, Warning indicator light, Electromagnetic powder clutch, Primary pulley, and Secondary pulley.",
+      "bbox_percent": [
+        5,
+        8,
+        97,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "N\u00b7CVT CONTROL SYSTEM"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "N\u00b7CVT Control System",
+      "components": [
+        {
+          "id": "ABS_CU",
+          "name": "ABS Control Unit",
+          "note": "A.B.S. model only"
+        },
+        {
+          "id": "ECU",
+          "name": "Engine Control Unit",
+          "note": null
+        },
+        {
+          "id": "NCVT_CU",
+          "name": "N\u00b7CVT Control Unit",
+          "note": null
+        },
+        {
+          "id": "IDLE_RELAY",
+          "name": "Idle up relay",
+          "note": "ABS model only"
+        },
+        {
+          "id": "WARN_LIGHT",
+          "name": "Warning indicator light (N\u00b7CVT)",
+          "note": null
+        },
+        {
+          "id": "HYD_CTRL",
+          "name": "Hydraulic control valve system",
+          "note": null
+        },
+        {
+          "id": "LINE_SOL",
+          "name": "Line pressure control solenoid valve",
+          "note": null
+        },
+        {
+          "id": "EM_CLUTCH",
+          "name": "Electromagnetic powder clutch",
+          "note": null
+        },
+        {
+          "id": "PRI_PULLEY",
+          "name": "Primary pulley",
+          "note": null
+        },
+        {
+          "id": "SEC_PULLEY",
+          "name": "Secondary pulley",
+          "note": null
+        },
+        {
+          "id": "SELECTOR",
+          "name": "Selector lever",
+          "note": null
+        },
+        {
+          "id": "BATTERY",
+          "name": "Battery / Power supply",
+          "note": null
+        },
+        {
+          "id": "BRAKE",
+          "name": "Brake pedal",
+          "note": null
+        },
+        {
+          "id": "THROTTLE",
+          "name": "Accelerator / Throttle pedal",
+          "note": null
+        }
+      ],
+      "wires": [
+        {
+          "from": "ABS_CU",
+          "to": "NCVT_CU",
+          "label": "ABS signal"
+        },
+        {
+          "from": "ECU",
+          "to": "NCVT_CU",
+          "label": "Engine rev. signal"
+        },
+        {
+          "from": "ECU",
+          "to": "NCVT_CU",
+          "label": "Air conditioner signal"
+        },
+        {
+          "from": "ECU",
+          "to": "NCVT_CU",
+          "label": "Water temp. signal"
+        },
+        {
+          "from": "ECU",
+          "to": "NCVT_CU",
+          "label": "Torque signal"
+        },
+        {
+          "from": "ECU",
+          "to": "NCVT_CU",
+          "label": "Clutch signal"
+        },
+        {
+          "from": "SELECTOR",
+          "to": "NCVT_CU",
+          "label": "Selector positions signals (P,R,N,D,Ds)"
+        },
+        {
+          "from": "BATTERY",
+          "to": "NCVT_CU",
+          "label": "Power supply (memory back up)"
+        },
+        {
+          "from": "BATTERY",
+          "to": "NCVT_CU",
+          "label": "Power supply (ignition)"
+        },
+        {
+          "from": "BRAKE",
+          "to": "NCVT_CU",
+          "label": "Brake signal"
+        },
+        {
+          "from": "THROTTLE",
+          "to": "NCVT_CU",
+          "label": "Accelerator signal & Throttle position signal"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "IDLE_RELAY",
+          "label": "(ABS model only)"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "WARN_LIGHT",
+          "label": "Warning indicator light output"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "HYD_CTRL",
+          "label": "Throttle position"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "HYD_CTRL",
+          "label": "Speed ratio"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "HYD_CTRL",
+          "label": "Engine speed"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "LINE_SOL",
+          "label": "Line pressure control"
+        },
+        {
+          "from": "HYD_CTRL",
+          "to": "PRI_PULLEY",
+          "label": "Primary oil pressure"
+        },
+        {
+          "from": "HYD_CTRL",
+          "to": "SEC_PULLEY",
+          "label": "Secondary oil pressure"
+        },
+        {
+          "from": "PRI_PULLEY",
+          "to": "NCVT_CU",
+          "label": "Vehicle speed"
+        },
+        {
+          "from": "EM_CLUTCH",
+          "to": "PRI_PULLEY",
+          "label": "drives"
+        },
+        {
+          "from": "NCVT_CU",
+          "to": "EM_CLUTCH",
+          "label": "Clutch control signal"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "ABS model only: ABS Control Unit connected to N\u00b7CVT Control Unit; Idle up relay present on ABS models only. Selector positions: P, R, N, D, Ds."
+}

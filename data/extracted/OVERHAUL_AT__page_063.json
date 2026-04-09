@@ -1,0 +1,177 @@
+{
+  "page_code": "AT-63",
+  "section": "AT",
+  "title": "Line Pressure Solenoid Circuit Check",
+  "page_type": "flowchart",
+  "source_image": "AT-63.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-64"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "ATN0706D_UAT124",
+      "type": "wiring_schematic",
+      "description": "Wiring schematic showing Solenoid connected to N-CVT C/U terminal 19",
+      "bbox_percent": [
+        0,
+        3,
+        35,
+        20
+      ],
+      "associated_step": "A"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT125",
+      "type": "connector_diagram",
+      "description": "Illustration of solenoid connector disconnected and ohmmeter measuring resistance between terminal and ground",
+      "bbox_percent": [
+        0,
+        20,
+        35,
+        43
+      ],
+      "associated_step": "A"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT126",
+      "type": "vehicle_diagram",
+      "description": "Illustration of vehicle with driver, brake pedal depressed and released, and DATA MONITOR display showing signal states including LINE PRESS SOL ON",
+      "bbox_percent": [
+        0,
+        43,
+        35,
+        85
+      ],
+      "associated_step": "B"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Line Pressure Solenoid Circuit Check"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Line Pressure Solenoid Circuit Check",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "A\n1. Turn ignition switch \"OFF\"\n2. Disconnect connector from line pressure solenoid at end of transmission assembly\n3. Check resistance between terminal #1 and ground.\nResistance: 10 to 20 \u03a9"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "N.G. \u2192 Open the oil pan and disconnect the internal connector\nCheck resistance between solenoid terminal and ground\nResistance: 10-20 \u03a9"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Repair or replace wiring harness or connector between internal and external unit"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Replace control valve assembly"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "B\nCheck output signal\n1. Turn ignition switch \"ON\"\n2. Start the engine\n3. Select \"DATA MONITOR\"\n4. Move selector to \"D\" range and accelerate to 10 km/h max and brake. When stopped, check that \"LINE SOLENOID\" changes from \"ON\" to \"OFF\"\nBrake depressed: OFF\nBrake released: ON\n\u2014 OR \u2014\nConnect tester between N-CVT control unit terminal #19 and body ground move selector lever to \"D\" range.\nAccelerate to 10 km/h max., stop and check that following values conform to standard:\nBrake depressed: 0V\nBrake released: Battery voltage"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "N.G. \u2192 Repair or replace harness or connector between N-CVT control unit and line pressure solenoid"
+        },
+        {
+          "id": "n7",
+          "type": "reference",
+          "text": "O.K. \u2192 Go to next page"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n5",
+          "label": "O.K."
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "N.G."
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Solenoid resistance (terminal #1 to ground, external connector)",
+          "value": "10 to 20",
+          "unit": "\u03a9",
+          "condition": "Ignition OFF, connector disconnected"
+        },
+        {
+          "label": "Solenoid resistance (internal connector)",
+          "value": "10-20",
+          "unit": "\u03a9",
+          "condition": "Oil pan open, internal connector disconnected"
+        },
+        {
+          "label": "N-CVT C/U terminal #19 voltage (brake depressed)",
+          "value": "0",
+          "unit": "V",
+          "condition": "Selector in D range, vehicle stopped after 10 km/h"
+        },
+        {
+          "label": "N-CVT C/U terminal #19 voltage (brake released)",
+          "value": "Battery voltage",
+          "unit": "V",
+          "condition": "Selector in D range"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "DATA MONITOR display states:\nA.B.S. SIGNAL: OFF\nTORQUE SIGNAL: ON\nENG TEMP SIG: OFF\nIDLE-UP SOL: OFF\nCLUTCH SIG: ON\nLINE PRESS SOL: ON\nRECORD",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-64"
+  ],
+  "model_notes": "Applies to N-CVT (Continuously Variable Transmission) models. Solenoid circuit check uses N-CVT C/U terminal #19."
+}

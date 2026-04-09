@@ -1,0 +1,95 @@
+{
+  "page_code": "GI-21",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "spec_table",
+  "source_image": "GI-21.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of LM4086-0200 Board-on lift attachment tool",
+      "bbox_percent": [
+        25,
+        10,
+        75,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Illustration of LM4519-0000 Safety stand attachment tool",
+      "bbox_percent": [
+        25,
+        34,
+        60,
+        52
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "LIFTING POINTS AND TOW TRUCK TOWING"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Preparation"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "SPECIAL SERVICE TOOLS"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number_name",
+          "label": "Tool number\nTool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number_name": "LM4086-0200\nBoard-on lift attachment",
+          "description": "[illustration of board-on lift attachment]"
+        },
+        {
+          "tool_number_name": "LM4519-0000\nSafety stand attachment",
+          "description": "[illustration of safety stand attachment]"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "LM4086-0200",
+      "name": "Board-on lift attachment",
+      "usage": "Used for lifting the vehicle on a board-on lift"
+    },
+    {
+      "part_number": "LM4519-0000",
+      "name": "Safety stand attachment",
+      "usage": "Used as a safety stand attachment when supporting the vehicle"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

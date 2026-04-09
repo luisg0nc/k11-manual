@@ -1,0 +1,298 @@
+{
+  "page_code": "EM-5037",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-5038"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM149B",
+      "type": "tool_illustration",
+      "description": "Measuring inner diameter of piston pin hole using a bore gauge/dial indicator tool",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        17
+      ],
+      "associated_step": "PISTON AND PISTON PIN CLEARANCE step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM821B",
+      "type": "tool_illustration",
+      "description": "Measuring outer diameter of piston pin using a micrometer",
+      "bbox_percent": [
+        0,
+        17,
+        38,
+        33
+      ],
+      "associated_step": "PISTON AND PISTON PIN CLEARANCE step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM599A",
+      "type": "tool_illustration",
+      "description": "Measuring piston ring end gap inside cylinder bore using feeler gauge, showing piston press-fit, ring positions",
+      "bbox_percent": [
+        0,
+        33,
+        38,
+        50
+      ],
+      "associated_step": "PISTON RING END GAP"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM296",
+      "type": "tool_illustration",
+      "description": "Measuring distortion of upper face of cylinder block using a straight edge and feeler gauge, with numbered measurement positions (1-6)",
+      "bbox_percent": [
+        0,
+        50,
+        38,
+        66
+      ],
+      "associated_step": "CYLINDER BLOCK DISTORTION AND WEAR step 2"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM318",
+      "type": "tool_illustration",
+      "description": "Measuring cylinder bore inner diameter using a bore gauge",
+      "bbox_percent": [
+        0,
+        66,
+        38,
+        83
+      ],
+      "associated_step": "PISTON-TO-BORE CLEARANCE step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON AND PISTON PIN CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_pin_clearance",
+      "title": "PISTON AND PISTON PIN CLEARANCE",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure inner diameter of piston pin hole \"dp\".",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure outer diameter of piston pin.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Calculate piston pin clearance. Piston pin hole inner diameter - Piston pin outer diameter. If it exceeds the above value, replace piston assembly with pin.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Piston pin hole inner diameter \"dp\" \u2014 Standard diameter",
+          "value": "23.003 - 23.008",
+          "unit": "mm (0.9056 - 0.9058 in)",
+          "condition": ""
+        },
+        {
+          "label": "Piston pin outer diameter \u2014 Standard diameter",
+          "value": "22.996 - 23.000",
+          "unit": "mm (0.9054 - 0.9055 in)",
+          "condition": ""
+        },
+        {
+          "label": "Piston pin clearance",
+          "value": "0.003 - 0.012",
+          "unit": "mm (0.0001 - 0.0005 in)",
+          "condition": "Piston pin hole inner diameter minus piston pin outer diameter"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON RING END GAP"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "End gap \u2014 Top ring",
+          "value": "0.20 - 0.40",
+          "unit": "mm (0.008 - 0.016 in)",
+          "condition": ""
+        },
+        {
+          "label": "End gap \u2014 2nd ring",
+          "value": "0.15 - 0.35",
+          "unit": "mm (0.006 - 0.014 in)",
+          "condition": ""
+        },
+        {
+          "label": "End gap \u2014 Oil ring",
+          "value": "0.25 - 0.50",
+          "unit": "mm (0.010 - 0.020 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If out of specification, replace piston ring.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CYLINDER BLOCK DISTORTION AND WEAR"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_block_distortion",
+      "title": "CYLINDER BLOCK DISTORTION AND WEAR",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Clean upper face of cylinder block.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure the distortion of the upper face of cylinder block.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "If out of specification, replace cylinder block.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Cylinder block upper face distortion \u2014 Limit",
+          "value": "0.10",
+          "unit": "mm (0.0039 in)",
+          "condition": ""
+        },
+        {
+          "label": "Nominal cylinder block height from oil pan gasket face",
+          "value": "265.23",
+          "unit": "mm (10.442 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PISTON-TO-BORE CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_to_bore_clearance",
+      "title": "PISTON-TO-BORE CLEARANCE",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Using a bore gauge, measure cylinder bore.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check for scratches and seizure. If seizure is found, replace cylinder block.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Cylinder bore standard inner diameter",
+          "value": "77.011 - 77.038",
+          "unit": "mm (3.0319 - 3.0330 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If both cylinder block and piston are replaced with new ones, select piston height type. Refer to \"DETERMINING THE PISTON TYPE\", (EM-5041).",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Bore gauge / dial indicator",
+      "usage": "Measuring inner diameter of piston pin hole"
+    },
+    {
+      "part_number": "",
+      "name": "Micrometer",
+      "usage": "Measuring outer diameter of piston pin"
+    },
+    {
+      "part_number": "",
+      "name": "Feeler gauge",
+      "usage": "Measuring piston ring end gap inside cylinder bore"
+    },
+    {
+      "part_number": "",
+      "name": "Straight edge",
+      "usage": "Measuring distortion of upper face of cylinder block"
+    },
+    {
+      "part_number": "",
+      "name": "Bore gauge",
+      "usage": "Measuring cylinder bore inner diameter"
+    }
+  ],
+  "cross_references": [
+    "EM-5041"
+  ],
+  "model_notes": null
+}

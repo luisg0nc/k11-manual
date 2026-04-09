@@ -1,0 +1,193 @@
+{
+  "page_code": "ST-12",
+  "section": "ST",
+  "title": "STEERING WHEEL AND STEERING COLUMN \u2014 Disassembly and Assembly",
+  "page_type": "parts_diagram",
+  "source_image": "st-12.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST020",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of steering column assembly showing jacket tube assembly, snapring, washer, O-ring, combination switch assembly, boot, column shaft assembly, lower joint, and torque values.",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST021",
+      "type": "component_photo",
+      "description": "Two illustrations showing combination switch base retaining strap, hole, and protrusion guide for removal procedure.",
+      "bbox_percent": [
+        0,
+        53,
+        40,
+        88
+      ],
+      "associated_step": "step1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING WHEEL AND STEERING COLUMN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly and Assembly"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Snapring",
+          "note": "Do not disassemble"
+        },
+        {
+          "number": 2,
+          "name": "Washer",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "O-ring",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Combination switch Assembly",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Jacket tube assembly",
+          "note": "Do not disassemble"
+        },
+        {
+          "number": 6,
+          "name": "Boot",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Column shaft assembly",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Lower joint",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Combination switch assembly mounting torque",
+          "value": "3.4 - 4.4",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Combination switch assembly mounting torque",
+          "value": "0.35 - 0.45",
+          "unit": "Kg-m",
+          "condition": null
+        },
+        {
+          "label": "Combination switch assembly mounting torque",
+          "value": "2.5 - 3.3",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Lower joint bolt torque (lower)",
+          "value": "24 - 29",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Lower joint bolt torque (lower)",
+          "value": "2.4 - 3.0",
+          "unit": "Kg-m",
+          "condition": null
+        },
+        {
+          "label": "Lower joint bolt torque (lower)",
+          "value": "17 - 22",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Lower joint bolt torque (upper)",
+          "value": "24 - 29",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Lower joint bolt torque (upper)",
+          "value": "2.4 - 3.0",
+          "unit": "Kg-m",
+          "condition": null
+        },
+        {
+          "label": "Lower joint bolt torque (upper)",
+          "value": "17 - 22",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "combination_switch_base_removal",
+      "title": "Combination Switch Base Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "To remove combination switch base, remove base attaching screw, then turn switch base while pressing on it to prise base protrusion guide from location hole on shaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Combination switch base removal detail showing retaining strap, hole, and protrusion guide.",
+      "callouts": [
+        {
+          "label": "Combination switch base retaining strap",
+          "position": "top-left of fig2"
+        },
+        {
+          "label": "Hole",
+          "position": "left of lower illustration in fig2"
+        },
+        {
+          "label": "Protrusion guide",
+          "position": "right of lower illustration in fig2"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

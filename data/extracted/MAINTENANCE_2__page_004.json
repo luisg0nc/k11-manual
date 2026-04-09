@@ -1,0 +1,155 @@
+{
+  "page_code": "MA-7004",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (For Europe) \u2014 MAINTENANCE UNDER SEVERE DRIVING CONDITIONS",
+  "page_type": "spec_table",
+  "source_image": "ma-7004.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (For Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "MAINTENANCE UNDER SEVERE DRIVING CONDITIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Annual driving distance < 30,000 km/year"
+    },
+    {
+      "block_type": "prose",
+      "text": "The maintenance intervals shown on the preceding pages are for normal operating conditions. If the vehicle is mainly operated under severe driving conditions as shown below, more frequent maintenance must be performed on the following items as shown in the table.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "A \u2014 Driving under dusty conditions\nB \u2014 Driving repeatedly short distances\nC \u2014 Towing a trailer or caravan\nD \u2014 Extensive idling\nE \u2014 Driving in extremely adverse weather conditions or in areas where ambient temperatures are either extremely low or extremely high\nF \u2014 Driving in high humidity areas or in mountainous areas\nG \u2014 Driving in areas using salt or other corrosive materials\nH \u2014 Driving on rough and/or muddy roads or in the desert\nI \u2014 Driving with frequent use of braking or in mountainous areas\nJ \u2014 Frequent off road use or driving in water\nK \u2014 Sustained high speed driving\nL \u2014 Low quality lubricants or fuel",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Severe Driving Conditions Maintenance Schedule",
+      "columns": [
+        {
+          "key": "driving_condition",
+          "label": "Driving condition"
+        },
+        {
+          "key": "maintenance_item",
+          "label": "Maintenance item"
+        },
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "operation",
+          "label": "Maintenance operation"
+        },
+        {
+          "key": "interval",
+          "label": "Maintenance interval"
+        }
+      ],
+      "rows": [
+        {
+          "driving_condition": "A B C D",
+          "maintenance_item": "Engine oil & engine oil filter",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 7,500 km (4,500 miles) or 6 months"
+        },
+        {
+          "driving_condition": "A",
+          "maintenance_item": "Air cleaner filter (viscous paper type)",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 30,000 km (18,000 miles) or 24 months"
+        },
+        {
+          "driving_condition": "A . . . E",
+          "maintenance_item": "Fuel filter",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 45,000 km (27,000 miles) or 36 months"
+        },
+        {
+          "driving_condition": "A",
+          "maintenance_item": "PCV filter",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 15,000 km (9,000 miles) or 12 months"
+        },
+        {
+          "driving_condition": "L",
+          "maintenance_item": "Front heated oxygen sensor",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Inspect",
+          "interval": "Every 30,000 km (18,000 miles) or 24 months"
+        },
+        {
+          "driving_condition": "L",
+          "maintenance_item": "Rear heated oxygen sensor",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Inspect",
+          "interval": "Every 30,000 km (18,000 miles) or 24 months"
+        },
+        {
+          "driving_condition": "A",
+          "maintenance_item": "Ventilation air filter",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 15,000 km (9,000 miles) or 12 months"
+        },
+        {
+          "driving_condition": "F",
+          "maintenance_item": "Brake fluid",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 15,000 km (9,000 miles) or 12 months"
+        },
+        {
+          "driving_condition": "C . . . H",
+          "maintenance_item": "Standard differential gear oil",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 30,000 km (18,000 miles) or 24 months"
+        },
+        {
+          "driving_condition": "C . . . H",
+          "maintenance_item": "CVT fluid",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Replace",
+          "interval": "Every 15,000 km (9,000 miles) or 12 months"
+        },
+        {
+          "driving_condition": "A . C . . . G H I",
+          "maintenance_item": "Brake pads/linings, discs/drums & other brake system components",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Inspect",
+          "interval": "Every 7,500 km (4,500 miles) or 6 months"
+        },
+        {
+          "driving_condition": "G H",
+          "maintenance_item": "Steering gear & linkage, axle & suspension parts, drive shafts & exhaust system",
+          "engine": "CG10DE/CGA3DE",
+          "operation": "Inspect",
+          "interval": "Every 15,000 km (9,000 miles) or 12 months"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applicable engines: CG10DE and CGA3DE. For Europe only. Annual driving distance less than 30,000 km/year."
+}

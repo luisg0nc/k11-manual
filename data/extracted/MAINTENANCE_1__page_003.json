@@ -1,0 +1,392 @@
+{
+  "page_code": "MA-3",
+  "section": "MA",
+  "title": "PRE-DELIVERY INSPECTION ITEMS",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRE-DELIVERY INSPECTION ITEMS"
+    },
+    {
+      "block_type": "prose",
+      "text": "Shown below are Pre-delivery Inspection Items required for the new vehicle. It is recommended that necessary items other than those listed here be added, paying due regard to the conditions in each country.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Perform applicable items on each model. Consult text of this section for specifications.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "UNDER HOOD \u2014 engine off"
+    },
+    {
+      "block_type": "procedure",
+      "id": "under_hood_engine_off",
+      "title": "UNDER HOOD \u2014 engine off",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Radiator coolant level and coolant hose connections for leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Battery fluid level, specific gravity and condition of battery terminals",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Drive belts tension",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Fuel lines and connections for leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Engine oil level and oil leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Brake reservoir fluid level and fluid lines for leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Windshield and rear window washer and headlamp cleaner reservoir fluid level",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Power steering reservoir fluid level and hose connections for leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "INSIDE AND OUTSIDE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inside_and_outside",
+      "title": "INSIDE AND OUTSIDE",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove front spring/strut spacer (If applicable)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Operation of all instruments, gauges, lights and accessories",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Operation of horn(s), wiper and washer",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Steering lock for operation",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Air conditioner for gas leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Front and rear seats, and seat belts for operation",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "All moldings, trims and fittings for fit and alignment",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "All windows for operation and alignment",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Hood, trunk lid, door panels for fit and alignment",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Latches, keys and locks for operation",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Weatherstrips for adhesion and fit",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Headlamp aiming",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Tighten wheel nuts",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Tire pressure (Inc. spare tire)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Check front wheels for toe-in",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Install clock/voltmeter/room lamp fuse (If applicable)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Remove wiper blade protectors (If applicable)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "UNDER BODY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "under_body",
+      "title": "UNDER BODY",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Manual transmission/transaxle, transfer and differential gear oil level",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Brake and fuel lines and oil/fluid reservoirs for leaks",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Tighten bolts and nuts of steering linkage and gearbox, suspension, and drive shafts",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "ROAD TEST"
+    },
+    {
+      "block_type": "procedure",
+      "id": "road_test",
+      "title": "ROAD TEST",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Clutch operation",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Parking brake operation",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Service brake operation",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Automatic transmission/transaxle shift timing and kickdown",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Steering control and returnability",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Engine performance",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Squeaks and rattles",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "ENGINE OPERATING AND HOT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "engine_operating_and_hot",
+      "title": "ENGINE OPERATING AND HOT",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Automatic transmission/transaxle fluid level",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Engine idling",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FINAL INSPECTION"
+    },
+    {
+      "block_type": "procedure",
+      "id": "final_inspection",
+      "title": "FINAL INSPECTION",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install necessary parts (outside mirror, wheel covers, seat belts, mat, carpet or mud flaps)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Inspect for interior and exterior metal and paint damage",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Check for spare tire, jack, tools and literature",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Wash, clean interior and exterior",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Items marked 'If applicable' may not apply to all variants. Automatic transmission items apply only to A/T equipped models. Manual transmission items apply only to M/T equipped models."
+}

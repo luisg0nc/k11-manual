@@ -1,0 +1,206 @@
+{
+  "page_code": "AT-3",
+  "section": "AT",
+  "title": "PREPARATION",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Secondary pulley holder (KV319-K0090)",
+      "bbox_percent": [
+        15,
+        7,
+        55,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Adaptor (KV319-K0170)",
+      "bbox_percent": [
+        15,
+        20,
+        45,
+        29
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Oil seal drift (KV319-K0040)",
+      "bbox_percent": [
+        15,
+        31,
+        55,
+        43
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Oil seal drift (KV319-K0050)",
+      "bbox_percent": [
+        15,
+        45,
+        55,
+        57
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Seal ring guide (KV319-K0120)",
+      "bbox_percent": [
+        15,
+        59,
+        55,
+        70
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Pulley ratio sensor gauge (KV319-K0140)",
+      "bbox_percent": [
+        15,
+        72,
+        55,
+        81
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig7",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "CONSULT diagnostic tool (EG1180-0000)",
+      "bbox_percent": [
+        15,
+        83,
+        55,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "table",
+      "title": "Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number"
+        },
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "KV319-K0090",
+          "tool_name": "Secondary pulley holder",
+          "description": "Used to expand pulley groove when removing steel belt"
+        },
+        {
+          "tool_number": "KV319-K0170",
+          "tool_name": "Adaptor",
+          "description": "Used with KV319-K0090"
+        },
+        {
+          "tool_number": "KV319-K0040",
+          "tool_name": "Oil seal drift",
+          "description": "Main drive shaft oil seal to clutch housing installation"
+        },
+        {
+          "tool_number": "KV319-K0050",
+          "tool_name": "Oil seal drift",
+          "description": "Main drive shaft oil seal installation; Secondary pulley bearing removal; Reduction gear removal"
+        },
+        {
+          "tool_number": "KV319-K0120",
+          "tool_name": "Seal ring guide",
+          "description": "Seal ring installation (oil pump side)"
+        },
+        {
+          "tool_number": "KV319-K0140",
+          "tool_name": "Pulley ratio sensor gauge",
+          "description": "Ratio sensor adjustment"
+        },
+        {
+          "tool_number": "EG1180-0000",
+          "tool_name": "CONSULT",
+          "description": "Trouble diagnosis"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0090",
+      "name": "Secondary pulley holder",
+      "usage": "Used to expand pulley groove when removing steel belt"
+    },
+    {
+      "part_number": "KV319-K0170",
+      "name": "Adaptor",
+      "usage": "Used with KV319-K0090"
+    },
+    {
+      "part_number": "KV319-K0040",
+      "name": "Oil seal drift",
+      "usage": "Main drive shaft oil seal to clutch housing installation"
+    },
+    {
+      "part_number": "KV319-K0050",
+      "name": "Oil seal drift",
+      "usage": "Main drive shaft oil seal installation; Secondary pulley bearing removal; Reduction gear removal"
+    },
+    {
+      "part_number": "KV319-K0120",
+      "name": "Seal ring guide",
+      "usage": "Seal ring installation (oil pump side)"
+    },
+    {
+      "part_number": "KV319-K0140",
+      "name": "Pulley ratio sensor gauge",
+      "usage": "Ratio sensor adjustment"
+    },
+    {
+      "part_number": "EG1180-0000",
+      "name": "CONSULT",
+      "usage": "Trouble diagnosis"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

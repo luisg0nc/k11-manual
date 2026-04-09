@@ -1,0 +1,222 @@
+{
+  "page_code": "MA-7015",
+  "section": "MA",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Engine Maintenance (Petrol) & Chassis and Body Maintenance",
+  "page_type": "spec_table",
+  "source_image": "MA-7015.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Engine Maintenance (Petrol)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Oil capacity (Refill capacity)"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "With oil filter change",
+          "value": "3.1 (5-1/2)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": ""
+        },
+        {
+          "label": "Without oil filter change",
+          "value": "2.9 (5-1/8)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Coolant capacity"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "With reservoir tank \u2014 M/T",
+          "value": "4.15 (7-1/4)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": "With reservoir tank, M/T"
+        },
+        {
+          "label": "With reservoir tank \u2014 CVT",
+          "value": "4.05 (7-1/8)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": "With reservoir tank, CVT"
+        },
+        {
+          "label": "Reservoir tank",
+          "value": "0.7 (1-1/4)",
+          "unit": "\u2113 (Imp pt)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Spark plug"
+    },
+    {
+      "block_type": "table",
+      "title": "Spark plug",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Make",
+          "value": "BOSCH"
+        },
+        {
+          "item": "Type \u2014 Standard",
+          "value": "FR8DCX"
+        },
+        {
+          "item": "Type \u2014 Hot",
+          "value": "\u2014"
+        },
+        {
+          "item": "Type \u2014 Cold",
+          "value": "FR7DCX"
+        },
+        {
+          "item": "Plug gap",
+          "value": "1.1 - 1.2 (0.043 - 0.047)",
+          "unit": "mm (in)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Chassis and Body Maintenance"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "INSPECTION AND ADJUSTMENT"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Brake"
+    },
+    {
+      "block_type": "table",
+      "title": "Disc Brake Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "value",
+          "label": "Value mm (in)"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Disc brake \u2014 Pad \u2014 Standard thickness \u2014 CL18VG",
+          "value": "9.5 (0.374)"
+        },
+        {
+          "item": "Disc brake \u2014 Pad \u2014 Minimum thickness \u2014 CL18VG",
+          "value": "2.0 (0.079)"
+        },
+        {
+          "item": "Disc brake \u2014 Rotor \u2014 Standard thickness \u2014 CL18VG",
+          "value": "18 (0.789)"
+        },
+        {
+          "item": "Disc brake \u2014 Rotor \u2014 Minimum thickness \u2014 CL18VG",
+          "value": "16 (0.630)"
+        },
+        {
+          "item": "Pedal \u2014 Free height \u2014 M/T \u2014 R.H.D.",
+          "value": "171 - 181 (6.73 - 7.13)"
+        },
+        {
+          "item": "Pedal \u2014 Free height \u2014 M/T \u2014 L.H.D.",
+          "value": "164 - 174 (6.46 - 6.85)"
+        },
+        {
+          "item": "Pedal \u2014 Free height \u2014 A/T \u2014 R.H.D.",
+          "value": "177 - 187 (6.97 - 7.36)"
+        },
+        {
+          "item": "Pedal \u2014 Free height \u2014 A/T \u2014 L.H.D.",
+          "value": "170 - 180 (6.69 - 7.09)"
+        },
+        {
+          "item": "Pedal \u2014 Free play",
+          "value": "1 - 3 (0.04 - 0.12)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "TIGHTENING TORQUE"
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening Torque",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Unit"
+        },
+        {
+          "key": "nm",
+          "label": "N\u00b7m"
+        },
+        {
+          "key": "kgm",
+          "label": "kg-m"
+        },
+        {
+          "key": "ftlb",
+          "label": "ft-lb"
+        }
+      ],
+      "rows": [
+        {
+          "item": "CVT \u2014 Drain plug",
+          "nm": "45 - 50",
+          "kgm": "4.5 - 5.0",
+          "ftlb": "34 - 36"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Brake pedal free height differs between R.H.D. and L.H.D. variants, and between M/T and A/T transmissions. Coolant capacity differs between M/T and CVT variants."
+}

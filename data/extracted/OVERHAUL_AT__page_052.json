@@ -1,0 +1,174 @@
+{
+  "page_code": "AT-52",
+  "section": "AT",
+  "title": "Self Diagnosis Items (without using CONSULT)",
+  "page_type": "flowchart",
+  "source_image": "AT-52.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-53"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT100",
+      "type": "parts_diagram",
+      "description": "Illustration showing step A: releasing accelerator pedal and moving selector lever to D range",
+      "bbox_percent": [
+        0,
+        14,
+        35,
+        34
+      ],
+      "associated_step": "Step A"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT101",
+      "type": "parts_diagram",
+      "description": "Illustration showing step B: depressing brake pedal and fully depressing accelerator pedal, with selector lever positions N, R, P, D, Ds shown",
+      "bbox_percent": [
+        0,
+        34,
+        35,
+        58
+      ],
+      "associated_step": "Step B"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT102",
+      "type": "parts_diagram",
+      "description": "Illustration showing step C: releasing accelerator pedal and starting the engine",
+      "bbox_percent": [
+        0,
+        58,
+        35,
+        78
+      ],
+      "associated_step": "Step C"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Self Diagnosis Items (without using CONSULT)"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Self Diagnosis Items (without using CONSULT)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "start",
+          "text": "Start self diagnosis"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Park vehicle on a flat surface"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "A\nRelease accelerator pedal (accelerator switch and accelerator position switch are \"ON\") and move selector lever to \"D\" range"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Turn ignition switch on (do not start engine)"
+        },
+        {
+          "id": "n5",
+          "type": "decision",
+          "text": "Does N-CVT warning lamp light?"
+        },
+        {
+          "id": "n6",
+          "type": "reference",
+          "text": "Go to N-CVT warning lamp circuit inspection"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "B\nDepress brake pedal (stop lamp switch goes \"ON\" and fully depress accelerator pedal (accelerator switch and accelerator position switch go \"OFF\") Move selector lever in following order:\nD \u2192 Ds \u2192 D \u2192 N \u2192 R \u2192 P"
+        },
+        {
+          "id": "n8",
+          "type": "action",
+          "text": "C\nRelease accelerator pedal (accelerator switch and accelerator position switch go \"ON\") and start the engine"
+        },
+        {
+          "id": "n9",
+          "type": "action",
+          "text": "Count number of N-CVT warning lamp blinks. Refer to \"Self-diagnosis results\" on next page"
+        },
+        {
+          "id": "n10",
+          "type": "terminal",
+          "text": "End self diagnosis procedure"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": ""
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": ""
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": ""
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "No"
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "Yes"
+        },
+        {
+          "from": "n7",
+          "to": "n8",
+          "label": ""
+        },
+        {
+          "from": "n8",
+          "to": "n9",
+          "label": ""
+        },
+        {
+          "from": "n9",
+          "to": "n10",
+          "label": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-53",
+    "N-CVT warning lamp circuit inspection"
+  ],
+  "model_notes": "Applicable to N-CVT (Nissan CVT) automatic transmission variant of the K11 Micra"
+}

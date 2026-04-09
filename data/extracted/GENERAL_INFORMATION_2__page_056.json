@@ -1,0 +1,113 @@
+{
+  "page_code": "GI-5009",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION",
+  "page_type": "spec_table",
+  "source_image": "page_gi5009.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Dimensions"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Dimensions",
+      "columns": [
+        {
+          "key": "dimension",
+          "label": ""
+        },
+        {
+          "key": "hatchback",
+          "label": "Hatchback"
+        }
+      ],
+      "rows": [
+        {
+          "dimension": "Overall length",
+          "hatchback": "3720 (146.5)"
+        },
+        {
+          "dimension": "Overall width",
+          "hatchback": "1585 (62.4)"
+        },
+        {
+          "dimension": "Overall height",
+          "hatchback": "1440 (56.7)"
+        },
+        {
+          "dimension": "Front tread",
+          "hatchback": "1360 (53.5)"
+        },
+        {
+          "dimension": "Rear tread",
+          "hatchback": "1325 (52.2)"
+        },
+        {
+          "dimension": "Wheelbase",
+          "hatchback": "2360 (92.9)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Wheels and Tires"
+    },
+    {
+      "block_type": "table",
+      "title": "Wheels and Tires",
+      "columns": [
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "road_wheel_size",
+          "label": "Road wheel size"
+        },
+        {
+          "key": "tire_size",
+          "label": "TIRE size"
+        }
+      ],
+      "rows": [
+        {
+          "engine": "CG10DE",
+          "road_wheel_size": "5J 13",
+          "tire_size": "155/70 R13 75S"
+        },
+        {
+          "engine": "CG13DE",
+          "road_wheel_size": "5J 14",
+          "tire_size": "165/60 R14 77H"
+        },
+        {
+          "engine": "VJZ",
+          "road_wheel_size": "5J 13",
+          "tire_size": "155/70 R13 75S (low rolling resistance)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Hatchback body style only shown. Engines listed: CG10DE, CG13DE, VJZ."
+}

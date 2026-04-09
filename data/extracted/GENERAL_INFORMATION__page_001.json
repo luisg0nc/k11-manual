@@ -1,0 +1,33 @@
+{
+  "page_code": "GI",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "section_divider",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "prose",
+      "text": "SPOON [handwritten annotation on page]",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,162 @@
+{
+  "page_code": "AT-95",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-95.jpg",
+  "continuation": {
+    "continues_from": "AT-94",
+    "continues_to": "AT-96"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT159",
+      "type": "component_photo",
+      "description": "Inlet oil cooler pipe location on transmission, with callout label",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        20
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT160",
+      "type": "component_photo",
+      "description": "Outlet oil cooler pipe location on transmission, with callout label",
+      "bbox_percent": [
+        0,
+        21,
+        42,
+        39
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT161",
+      "type": "component_photo",
+      "description": "Check valve assembly location on transmission valve body",
+      "bbox_percent": [
+        0,
+        40,
+        42,
+        58
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT162",
+      "type": "component_photo",
+      "description": "Manual shaft nut removal with 8mm pin locking the arm in the cut-outs; selector linkage spring pins and linkage/spacers removal",
+      "bbox_percent": [
+        0,
+        59,
+        42,
+        77
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT164",
+      "type": "component_photo",
+      "description": "Inhibitor switch and harness bracket removal location on transmission",
+      "bbox_percent": [
+        0,
+        78,
+        42,
+        97
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the inlet oil cooler pipe.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove the outlet oil cooler pipe.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove the oil cooler check valve.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Discard the O ring.",
+            "Inspect sliding surfaces of the spool and valve body for wear, damage, etc.",
+            "Ensure the valve components are clean and free from foreign matter. Apply clean ATF during assembly."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Remove the manual shaft nut while locking the arm with an 8mm dia. pin inserted in the cut-outs as shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove the selector linkage spring pins.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove the linkage and spacers.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove the inhibitor switch.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove the harness bracket.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "8mm diameter pin",
+      "usage": "Inserted in cut-outs of the arm to lock it while removing the manual shaft nut"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

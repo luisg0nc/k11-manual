@@ -1,0 +1,208 @@
+{
+  "page_code": "MA-9",
+  "section": "MA",
+  "title": "Changing Engine Coolant",
+  "page_type": "prose_procedure",
+  "source_image": "MA-9.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA022",
+      "type": "component_photo",
+      "description": "Heater control panel showing TEMP control turned all the way to HOT position",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA023",
+      "type": "component_photo",
+      "description": "Engine bay showing radiator filler cap location",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        35
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UMA024",
+      "type": "component_photo",
+      "description": "Underside view showing lower radiator hose location for draining coolant",
+      "bbox_percent": [
+        0,
+        36,
+        38,
+        52
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SMA182B",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram of radiator showing coolant inlet fill level",
+      "bbox_percent": [
+        0,
+        53,
+        38,
+        68
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SMA412B",
+      "type": "parts_diagram",
+      "description": "Reservoir tank showing MAX and MIN level markings",
+      "bbox_percent": [
+        0,
+        69,
+        38,
+        84
+      ],
+      "associated_step": "13"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Engine Coolant"
+    },
+    {
+      "block_type": "prose",
+      "text": "WARNING: To avoid being scalded, never change the coolant when the engine is hot.",
+      "style": "warning"
+    },
+    {
+      "block_type": "procedure",
+      "id": "coolant_change",
+      "title": "Changing Engine Coolant",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Turn heater \"TEMP\" control all the way to \"HOT\".",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove radiator cap.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Disconnect lower radiator hose to drain coolant.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove reservoir tank, drain coolant, then clean reservoir tank. Re-install it temporarily.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Be careful not to allow coolant to contact drive belts."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Connect lower radiator hose.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Fill radiator with water up to the radiator inlet. Fill reservoir tank with water up to its \"MAX\" line.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "While keeping the radiator cap open, warm up the engine. Confirm thermostat is open by touching the radiator upper hose. Race engine 2 or 3 times under no-load.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Make sure that airconditioner switch is \"OFF\"."
+          ]
+        },
+        {
+          "step": 8,
+          "text": "Stop the engine and wait until it cools down.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Repeat steps 3 through 8 until clear water begins to drain from radiator.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Reinstall reservoir tank.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Fill radiator and reservoir tank with coolant up to specified level following steps 5 through 7.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "When air is released from the engine and the coolant level in the radiator has lowered, fill radiator up to the inlet.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "After the engine has cooled down, fill the reservoir with coolant up to its \"MAX\" line.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Start the engine and bring engine speed up to 3,000 rpm. Confirm that water flowing through the heater core is not audible at instrument panel lower side. If it is audible, repeat steps 11 through 13.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

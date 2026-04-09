@@ -1,0 +1,120 @@
+{
+  "page_code": "AT-42",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Accelerator and Accelerator position Switch",
+  "page_type": "prose_procedure",
+  "source_image": "AT-42.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT069",
+      "type": "component_photo",
+      "description": "Diagram showing the accelerator switch and accelerator position switch mounted on the accelerator pedal assembly",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        32
+      ],
+      "associated_step": "Inspection - Assembled condition"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT070",
+      "type": "component_photo",
+      "description": "Diagram showing the accelerator pedal assembly at released position with operation stroke measurements: 17.5 mm for accelerator position switch and 3.0 mm for accelerator switch",
+      "bbox_percent": [
+        0,
+        33,
+        38,
+        78
+      ],
+      "associated_step": "Operation"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Accelerator and Accelerator position Switch"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Assembled condition"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection_assembled",
+      "title": "Assembled condition",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check that the bolts of the accelerator and accelerator position switch are tightened securely.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Refer to Electrical Component Inspection, \"Trouble Diagnosis\" for inspection of the accelerator and accelerator position switch.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Operation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "operation",
+      "title": "Operation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check that switch moves within standard distance (stroke) when accelerator pedal is released.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Accelerator switch operation stroke",
+          "value": "Approx. 3.0",
+          "unit": "mm",
+          "condition": "When accelerator pedal is released"
+        },
+        {
+          "label": "Accelerator position switch operation stroke",
+          "value": "Approx. 17.5",
+          "unit": "mm",
+          "condition": "When accelerator pedal is released"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Electrical Component Inspection",
+    "Trouble Diagnosis"
+  ],
+  "model_notes": null
+}

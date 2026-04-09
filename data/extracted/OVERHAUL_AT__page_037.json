@@ -1,0 +1,191 @@
+{
+  "page_code": "AT-37",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Throttle Wire",
+  "page_type": "prose_procedure",
+  "source_image": "AT-37.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-38"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT056",
+      "type": "parts_diagram",
+      "description": "Throttle wire adjuster assembly diagram showing throttle drum positions P1 and P2, outer cable, adjuster tube, bracket, lock plate, spring, adjuster body, and stroke length L",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        32
+      ],
+      "associated_step": "Inspection"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT058",
+      "type": "component_photo",
+      "description": "Engine bay view showing throttle wire routing on transaxle side",
+      "bbox_percent": [
+        0,
+        55,
+        38,
+        78
+      ],
+      "associated_step": "Removal - Transaxle side"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT059",
+      "type": "parts_diagram",
+      "description": "Close-up diagram of throttle wire connection at transaxle showing cable, bolt, and wire end locations",
+      "bbox_percent": [
+        0,
+        78,
+        38,
+        100
+      ],
+      "associated_step": "Removal - Transaxle side steps 3-4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Throttle Wire"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check that the throttle wire stroke length (L) is within the standard limit when the throttle drum moves from idle (P2) to wide open (P1).",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard stroke length (L)",
+          "value": "51.2 +- 2",
+          "unit": "mm",
+          "condition": "Throttle drum from idle (P2) to wide open (P1)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjustment"
+    },
+    {
+      "block_type": "procedure",
+      "id": "throttle_wire_adjustment",
+      "title": "Adjustment",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Turn ignition switch \"OFF\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "While pressing on the lock plate, return the adjustment tube all the way to the transaxle side. This movement locks the adjustment tube. Make sure the adjustment tube is locked correctly and release the lock plate.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Set the throttle drum in fully open position (P1). Then the adjustment tube presses the lock plate down, and the tube should return to the throttle drum side.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "The adjustment is completed where the adjustment tube stops. The adjustment tube should stop where the inner wire tension and the reaction of the return spring produce the same force.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "The throttle drum can also be opened wide as described below.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Make sure the throttle drum is fully open when the accelerator pedal is fully open. (Quickly press the accelerator pedal to the fully open position).",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "1. Perform the adjustment procedure described in items 1 to 4 above, not only when the throttle wire is first connected, but also when engine throttle system is adjusted or the throttle cable is reassembled.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "2. There should be no play in the cable on the N-CVT side because the throttle wire is adjusted automatically.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Transaxle side"
+    },
+    {
+      "block_type": "procedure",
+      "id": "throttle_wire_removal_transaxle",
+      "title": "Removal - Transaxle side",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove drain plug from oil pan to drain A/T fluid.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove oil pan and gasket.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Always replace the oil pan gasket with a new one. Do not reuse."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Remove wire end from control valve.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove 6mm bolt from throttle wire.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Procedure applies to N-CVT (automatic) transaxle. Throttle wire adjusted automatically on N-CVT side."
+}

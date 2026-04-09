@@ -1,0 +1,107 @@
+{
+  "page_code": "GI-4",
+  "section": "GI",
+  "title": "PRECAUTIONS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi4.jpg",
+  "continuation": {
+    "continues_from": "GI-3",
+    "continues_to": "GI-5"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI290",
+      "type": "vehicle_diagram",
+      "description": "Illustration showing a car with a clean floor, captioned 'Clean floor'",
+      "bbox_percent": [
+        0,
+        2,
+        30,
+        22
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Precautions for Catalyst"
+    },
+    {
+      "block_type": "prose",
+      "text": "If a large amount of unburned fuel flows into the converter, the converter temperature will be excessively high. To prevent this, follow the procedure below:",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "catalyst_precautions",
+      "title": "Precautions for Catalyst",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Use unleaded gasoline only. Leaded gasoline will seriously damage the catalytic converter.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "When checking for ignition spark or measuring engine compression, make tests quickly and only when necessary.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Do not run engine when the fuel tank level is low, otherwise the engine may misfire causing damage to the converter.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Do not place the vehicle on inflammable material. Keep inflammable material off the exhaust pipe.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Asbestos Safety Instructions"
+    },
+    {
+      "block_type": "prose",
+      "text": "This vehicle contains a small number of asbestos parts. The asbestos parts used on this car are minimal and will not be encountered in normal service routines. Consequently they offer no significant danger to health.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Precautions for Fuel"
+    },
+    {
+      "block_type": "prose",
+      "text": "Use unleaded gasoline of at least 95 octane (RON)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION: Do not use leaded gasoline. Using leaded gasoline will damage the catalytic converter.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

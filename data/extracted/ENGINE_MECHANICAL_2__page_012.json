@@ -1,0 +1,168 @@
+{
+  "page_code": "EM-7012",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_EM-7012.jpg",
+  "continuation": {
+    "continues_from": "EM-7011",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM033",
+      "type": "parts_diagram",
+      "description": "Plan view of cylinder head showing liquid gasket (sealant) application points. Two sealant bead dimensions shown: 3.0 (0.118) mm on each side.",
+      "bbox_percent": [
+        0,
+        1,
+        48,
+        22
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM050",
+      "type": "parts_diagram",
+      "description": "Rocker cover showing bolt tightening sequence numbered 1 through 10 in numerical order.",
+      "bbox_percent": [
+        0,
+        22,
+        48,
+        42
+      ],
+      "associated_step": "21"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket sealant bead width (each side)",
+          "value": "3.0 (0.118)",
+          "unit": "mm (in)",
+          "condition": "Applied to cylinder head at rocker cover mating surface"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 19,
+          "text": "Apply liquid gasket to the cylinder head as shown. Fit the gasket to the cover.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Fit the rocker cover to the cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Tighten the bolts in the correct order, as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Recheck bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Check a third time.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Install camshaft position sensor (PHASE).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 25,
+          "text": "Install all spark plugs and ignition coils.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 26,
+          "text": "Install engine front mounting bracket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Install front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Install the front and side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 29,
+          "text": "Install front right wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Install air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Install and correctly tension the alternator and power steering drive belts. Refer to MA section for correct tension.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Refer to MA section for correct tension."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": null
+}

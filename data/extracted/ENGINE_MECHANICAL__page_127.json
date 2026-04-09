@@ -1,0 +1,275 @@
+{
+  "page_code": "EM-61",
+  "section": "EM",
+  "title": "Service Data and Specifications (S.D.S.) \u2014 Inspection and Adjustment (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "page_image.png",
+  "continuation": {
+    "continues_from": "EM-60",
+    "continues_to": "EM-62"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "EM671",
+      "type": "parts_diagram",
+      "description": "Camshaft profile diagram showing cam height measurement point 'A'",
+      "bbox_percent": [
+        2,
+        26,
+        30,
+        42
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM171D",
+      "type": "parts_diagram",
+      "description": "Cylinder block cross-section diagram showing measurement points X, Y, A, B, H and crankshaft center reference",
+      "bbox_percent": [
+        52,
+        4,
+        100,
+        30
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CAMSHAFT AND CAMSHAFT BEARING"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Camshaft"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Camshaft Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "sub",
+          "label": "Sub"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Cam height \"A\"",
+          "sub": "Intake",
+          "cg10de": "38.005 - 38.195 (1.4964 - 1.5037)",
+          "cg13de": "39.880 - 40.070 (1.5701 - 1.5776)"
+        },
+        {
+          "parameter": "Cam height \"A\"",
+          "sub": "Exhaust",
+          "cg10de": "38.005 - 38.195 (1.4963 - 1.5037)",
+          "cg13de": "39.880 - 40.070 (1.5701 - 1.5776)"
+        },
+        {
+          "parameter": "Cam wear limit",
+          "sub": "",
+          "cg10de": "0.20 (0.0079)",
+          "cg13de": "0.20 (0.0079)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Camshaft bearing"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Camshaft Bearing Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "sub",
+          "label": "Sub"
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "limit",
+          "label": "Limit"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Camshaft journal to bearing clearance",
+          "sub": "",
+          "standard": "0.045 - 0.086 (0.0018 - 0.0034)",
+          "limit": "0.15 (0.0059)"
+        },
+        {
+          "parameter": "Inner diameter of camshaft bearing",
+          "sub": "No. 1",
+          "standard": "28.000 - 28.021 (1.1024 - 1.1032)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Inner diameter of camshaft bearing",
+          "sub": "No. 2 to No. 5",
+          "standard": "23.500 - 23.521 (0.9252 - 0.9260)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Outer diameter of camshaft journal",
+          "sub": "No. 1",
+          "standard": "27.935 - 27.955 (1.0998 - 1.1006)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Outer diameter of camshaft journal",
+          "sub": "No. 2 to No. 5",
+          "standard": "23.435 - 23.455 (0.9226 - 0.9234)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Camshaft runout [T.I.R.*]",
+          "sub": "",
+          "standard": "Less than 0.02* (0.0008)",
+          "limit": "0.1 (0.0039)"
+        },
+        {
+          "parameter": "Camshaft end play",
+          "sub": "",
+          "standard": "0.070 - 0.143 (0.0028 - 0.0056)",
+          "limit": "0.20 (0.0079)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "*: Total indicator reading",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Cylinder Block Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "sub",
+          "label": "Sub"
+        },
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "limit",
+          "label": "Limit"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Surface flatness",
+          "sub": "",
+          "standard": "Less than 0.03 (0.0012)",
+          "limit": "0.1 (0.004)"
+        },
+        {
+          "parameter": "Height \"H\" (nominal)",
+          "sub": "",
+          "standard": "188.95 - 189.05 (7.4390 - 7.4429)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Inner diameter \u2014 Grade No. 1",
+          "sub": "",
+          "standard": "71.0 - 71.010 (2.7953 - 2.7957)",
+          "limit": "0.2 (0.008)"
+        },
+        {
+          "parameter": "Inner diameter \u2014 Grade No. 2",
+          "sub": "",
+          "standard": "71.010 - 71.020 (2.9757 - 2.7[?]6[?])",
+          "limit": "0.2 (0.008)"
+        },
+        {
+          "parameter": "Inner diameter \u2014 Grade No. 3",
+          "sub": "",
+          "standard": "71.020 - 71.0[?]0 (2.7961 - 2.7965)",
+          "limit": "0.2 (0.008)"
+        },
+        {
+          "parameter": "Out-of-round (X - Y)",
+          "sub": "",
+          "standard": "Less than 0.015 (0.0006)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Taper (A - B)",
+          "sub": "",
+          "standard": "Less than 0.010 (0.0004)",
+          "limit": "\u2014"
+        },
+        {
+          "parameter": "Difference in inner diameter between cylinders",
+          "sub": "",
+          "standard": "0.05 (0.0020)",
+          "limit": "0.2 (0.00[?])"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Camshaft specifications split by engine model: CG10DE and CG13DE. Cylinder block inner diameter graded as Grade No. 1, 2, 3."
+}

@@ -1,0 +1,191 @@
+{
+  "page_code": "AT-23",
+  "section": "AT",
+  "title": "HYDRAULIC CONTROL",
+  "page_type": "wiring_diagram",
+  "source_image": "AT-23.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT031",
+      "type": "wiring_schematic",
+      "description": "Hydraulic control circuit diagram for N or P range showing all hydraulic components including primary pulley, secondary pulley, oil pump, oil filter, oil cooler, regulator valve, modulator linkage, shift control valve, engine brake valve, shift lock valve, lubricating valve, check valves, line pressure control solenoid valve, sensor shoe, Ds modifier lever, plunger (engine brake), shift cam, and pitot supply lines. Legend shows line pressure, lubrication oil pressure, pilot pressure, primary pressure, and primary pressure (pre-fill).",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HYDRAULIC CONTROL"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Hydraulic control circuit diagram for N or P RANGE condition",
+      "callouts": [
+        {
+          "label": "N or P RANGE",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "left-center"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "center-bottom"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "center-left-bottom"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "bottom-center"
+        },
+        {
+          "label": "Check valve",
+          "position": "bottom-center-right"
+        },
+        {
+          "label": "Oil pump",
+          "position": "center-right-bottom"
+        },
+        {
+          "label": "Oil filter",
+          "position": "right-bottom"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "bottom-right"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "right-center-bottom"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center-top"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "left-center"
+        },
+        {
+          "label": "Sensor shoe",
+          "position": "left-top"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "top-center-left"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "top-center"
+        },
+        {
+          "label": "Shift cam",
+          "position": "top-center"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "right-top"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "right-center"
+        },
+        {
+          "label": "N",
+          "position": "top-right"
+        },
+        {
+          "label": "L",
+          "position": "top-right"
+        },
+        {
+          "label": "P",
+          "position": "top-right"
+        },
+        {
+          "label": "R",
+          "position": "top-center"
+        },
+        {
+          "label": "N",
+          "position": "top-center"
+        },
+        {
+          "label": "D",
+          "position": "top-center"
+        },
+        {
+          "label": "Ds",
+          "position": "top-center"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Line pressure",
+          "value": "shown by horizontal line pattern",
+          "unit": "",
+          "condition": "legend"
+        },
+        {
+          "label": "Lubrication oil pressure",
+          "value": "shown by dotted pattern",
+          "unit": "",
+          "condition": "legend"
+        },
+        {
+          "label": "Pilot pressure",
+          "value": "shown by solid black",
+          "unit": "",
+          "condition": "legend"
+        },
+        {
+          "label": "Primary pressure",
+          "value": "shown by diagonal hatching",
+          "unit": "",
+          "condition": "legend"
+        },
+        {
+          "label": "Primary pressure (pre-fill)",
+          "value": "shown by cross-hatch pattern",
+          "unit": "",
+          "condition": "legend"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applicable to automatic transmission (CVT) variant of K11 Nissan Micra 1993-2003. Diagram shows hydraulic state for N or P RANGE."
+}

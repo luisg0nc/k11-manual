@@ -1,0 +1,243 @@
+{
+  "page_code": "EM-48",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-47",
+    "continues_to": "EM-49"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM001",
+      "type": "component_photo",
+      "description": "Cylinder block upper face with oil hole to cylinder head covered by shop towel",
+      "bbox_percent": [
+        0,
+        1,
+        42,
+        18
+      ],
+      "associated_step": "Cylinder Block Distortion and Wear - Step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM085",
+      "type": "component_photo",
+      "description": "Measuring distortion of upper face of cylinder block with a straight edge, showing measurement points numbered 1-6",
+      "bbox_percent": [
+        0,
+        18,
+        42,
+        35
+      ],
+      "associated_step": "Cylinder Block Distortion and Wear - Step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM166D",
+      "type": "parts_diagram",
+      "description": "Cylinder bore measurement diagram showing out-of-round (X-Y) and taper (A-B) measurement directions, with unit mm (in)",
+      "bbox_percent": [
+        0,
+        35,
+        42,
+        55
+      ],
+      "associated_step": "Piston-to-Bore Clearance - Step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM086",
+      "type": "parts_diagram",
+      "description": "Cylinder block lower surface showing cylinder bore grade numbers and piston grade number locations, with FRONT arrow indicator",
+      "bbox_percent": [
+        0,
+        55,
+        42,
+        72
+      ],
+      "associated_step": "Piston-to-Bore Clearance - Step 1 (grade number note)"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM012D",
+      "type": "component_photo",
+      "description": "Piston with measuring point 'a' (distance from bottom) and diameter 'A' indicated for skirt diameter measurement",
+      "bbox_percent": [
+        0,
+        72,
+        42,
+        90
+      ],
+      "associated_step": "Piston-to-Bore Clearance - Step 3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CYLINDER BLOCK DISTORTION AND WEAR"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_block_distortion_wear",
+      "title": "CYLINDER BLOCK DISTORTION AND WEAR",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Clean upper face of cylinder block. Cover the oil hole to cylinder head with a shop towel before removing all traces of cylinder head gasket. This will prevent blockage of the oil hole.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure the distortion of the upper face of cylinder block. Limit: 0.10 mm (0.0039 in)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "If out of specification, resurface it.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "If necessary, replace cylinder block.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Cylinder block upper face distortion limit",
+          "value": "0.10",
+          "unit": "mm (0.0039 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON-TO-BORE CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_to_bore_clearance",
+      "title": "PISTON-TO-BORE CLEARANCE",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Using a bore gauge, measure cylinder bore for wear, out-of-round and taper. Standard inner diameter: 71.0 - 71.03 mm (2.7953 - 2.7965 in). Wear limit: 0.2 mm (0.008 in). Out-of-round (X-Y) limit: 0.015 mm (0.0006 in). Taper (A-B) limit: 0.010 mm (0.0004 in). If it exceeds the limit, rebore all cylinders. Replace cylinder block if necessary.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check for scratches and seizure. If seizure is found, hone it.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Measure piston skirt diameter. Piston diameter \"A\": 70.980 - 71.010 mm (2.7945 - 2.7957 in). Measuring point \"a\" (Distance from the bottom): 9.5 mm (0.374 in).",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check that piston-to-bore clearance is within specification. Piston-to-bore clearance \"B\": 0.010 - 0.030 mm (0.0004 - 0.0012 in).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If both cylinder block and piston are replaced with new ones, select piston of the same grade number punched on cylinder block lower surface.",
+      "style": "important"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Cylinder bore standard inner diameter",
+          "value": "71.0 - 71.03",
+          "unit": "mm (2.7953 - 2.7965 in)",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder bore wear limit",
+          "value": "0.2",
+          "unit": "mm (0.008 in)",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder bore out-of-round (X-Y) limit",
+          "value": "0.015",
+          "unit": "mm (0.0006 in)",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder bore taper (A-B) limit",
+          "value": "0.010",
+          "unit": "mm (0.0004 in)",
+          "condition": ""
+        },
+        {
+          "label": "Piston diameter A",
+          "value": "70.980 - 71.010",
+          "unit": "mm (2.7945 - 2.7957 in)",
+          "condition": ""
+        },
+        {
+          "label": "Measuring point a (Distance from the bottom)",
+          "value": "9.5",
+          "unit": "mm (0.374 in)",
+          "condition": ""
+        },
+        {
+          "label": "Piston-to-bore clearance B",
+          "value": "0.010 - 0.030",
+          "unit": "mm (0.0004 - 0.0012 in)",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Bore gauge",
+      "usage": "Measure cylinder bore for wear, out-of-round and taper"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

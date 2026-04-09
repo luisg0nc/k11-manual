@@ -1,0 +1,200 @@
+{
+  "page_code": "GI",
+  "section": "GI",
+  "title": "TABLE DE REFERENCE RAPIDE / FOREWORD",
+  "page_type": "cover",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "<SUPPLEMENT-VII>"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "NISSAN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "MICRA"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "MODEL K11 SERIES"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Volume 1"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "FOREWORD"
+    },
+    {
+      "block_type": "prose",
+      "text": "This supplement contains information concerning necessary service procedures and relevant data for the model K11 series.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "All information, illustrations and specifications contained in this supplement are based on the latest product information available at the time of publication. If your NISSAN model differs from the specifications contained in this supplement, consult your NISSAN distributor for information.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The right is reserved to make changes in specifications and methods at any time without notice.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "TABLE DE REFERENCE RAPIDE"
+    },
+    {
+      "block_type": "table",
+      "title": "Table of Contents",
+      "columns": [
+        {
+          "key": "section_name",
+          "label": "Section Name"
+        },
+        {
+          "key": "volume",
+          "label": "Volume"
+        },
+        {
+          "key": "code",
+          "label": "Code"
+        }
+      ],
+      "rows": [
+        {
+          "section_name": "GENERAL INFORMATION",
+          "volume": "",
+          "code": "GI"
+        },
+        {
+          "section_name": "MAINTENANCE",
+          "volume": "Volume 1",
+          "code": "MA"
+        },
+        {
+          "section_name": "ENGINE MECHANICAL",
+          "volume": "Volume 1",
+          "code": "EM"
+        },
+        {
+          "section_name": "ENGINE LUBRICATION & COOLING SYSTEMS",
+          "volume": "Volume 1",
+          "code": "LC"
+        },
+        {
+          "section_name": "ENGINE FUEL & EMISSION CONTROL SYSTEM",
+          "volume": "Volume 1",
+          "code": "EF&EC"
+        },
+        {
+          "section_name": "ACCELERATOR CONTROL, FUEL & EXHAUST SYSTEMS",
+          "volume": "Volume 1",
+          "code": "FE"
+        },
+        {
+          "section_name": "CLUTCH",
+          "volume": "",
+          "code": "CL"
+        },
+        {
+          "section_name": "MANUAL TRANSMISSION",
+          "volume": "Volume 2",
+          "code": "MT"
+        },
+        {
+          "section_name": "AUTOMATIC TRANSAXLE",
+          "volume": "Volume 2",
+          "code": "AT"
+        },
+        {
+          "section_name": "FRONT AXLE & FRONT SUSPENSION",
+          "volume": "Volume 2",
+          "code": "FA"
+        },
+        {
+          "section_name": "REAR AXLE & REAR SUSPENSION",
+          "volume": "Volume 2",
+          "code": "RA"
+        },
+        {
+          "section_name": "BRAKE SYSTEM",
+          "volume": "Volume 2",
+          "code": "BR"
+        },
+        {
+          "section_name": "STEERING SYSTEM",
+          "volume": "Volume 2",
+          "code": "ST"
+        },
+        {
+          "section_name": "BODY",
+          "volume": "Volume 3",
+          "code": "BF"
+        },
+        {
+          "section_name": "HEATER & AIR CONDITIONER",
+          "volume": "Volume 3",
+          "code": "HA"
+        },
+        {
+          "section_name": "ELECTRICAL SYSTEM",
+          "volume": "Volume 3",
+          "code": "EL"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Edition: June 2000\nPrinting: June 2000 (01)\nPublication No. SM0E-K11GE0E",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "NISSAN EUROPE N.V.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "\u00a9 2000 NISSAN EUROPE N.V. Printed in The Netherlands\nNot to be reproduced in whole or in part without the prior written permission of Nissan Europe N.V., Amsterdam, The Netherlands.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI",
+    "MA",
+    "EM",
+    "LC",
+    "EF&EC",
+    "FE",
+    "CL",
+    "MT",
+    "AT",
+    "FA",
+    "RA",
+    "BR",
+    "ST",
+    "BF",
+    "HA",
+    "EL"
+  ],
+  "model_notes": "K11 Series. Supplement-VII. Publication No. SM0E-K11GE0E. Edition June 2000."
+}

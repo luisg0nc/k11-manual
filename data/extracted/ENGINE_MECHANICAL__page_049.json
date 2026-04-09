@@ -1,0 +1,181 @@
+{
+  "page_code": "EM-46",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Disassembly (Cont'd) / Inspection",
+  "page_type": "prose_procedure",
+  "source_image": "EM-46.jpg",
+  "continuation": {
+    "continues_from": "EM-45",
+    "continues_to": "EM-47"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM060",
+      "type": "tool_illustration",
+      "description": "Piston pin press tool assembly using KV10116620, KV10116610, and ST13040000 on a stand",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        13
+      ],
+      "associated_step": "piston_disassembly_intro"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM063",
+      "type": "parts_diagram",
+      "description": "Main bearing beam bolt loosening sequence numbered diagram with instruction 'Loosen in numerical order.'",
+      "bbox_percent": [
+        0,
+        13,
+        35,
+        27
+      ],
+      "associated_step": "step_8"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM083",
+      "type": "component_photo",
+      "description": "Crankcase breather bracket removal showing arrows indicating removal points",
+      "bbox_percent": [
+        0,
+        27,
+        35,
+        42
+      ],
+      "associated_step": "step_9"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM084",
+      "type": "component_photo",
+      "description": "Filter mesh removal from crankcase breather bracket",
+      "bbox_percent": [
+        0,
+        42,
+        35,
+        57
+      ],
+      "associated_step": "step_9"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM149B",
+      "type": "tool_illustration",
+      "description": "Measuring inner diameter of piston pin hole using a bore gauge/dial indicator",
+      "bbox_percent": [
+        0,
+        57,
+        35,
+        75
+      ],
+      "associated_step": "inspection_step_1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "When disassembling piston and connecting rod, use piston pin press stand at room temperature.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Piston must not be re-used.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_contd",
+      "title": "Disassembly (Cont'd)",
+      "steps": [
+        {
+          "step": 8,
+          "text": "Remove main bearing beam and crankshaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Before removing main bearing beam, measure crankshaft end play. (Refer to cylinder block assembly section.)",
+            "Bolts should be loosened in two or three stages and in the order shown."
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Remove the crankcase breather bracket. Remove the filter mesh. Clean filter before refitting.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON AND PISTON PIN CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "piston_pin_clearance_inspection",
+      "title": "Piston and Piston Pin Clearance",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure inner diameter of piston pin hole.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Piston pin hole inner diameter - Standard diameter",
+          "value": "18.004 - 18.010",
+          "unit": "mm (0.7088 - 0.7091 in)",
+          "condition": "Standard"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10116620",
+      "name": "Piston pin press tool (upper component)",
+      "usage": "Disassembling piston and connecting rod"
+    },
+    {
+      "part_number": "KV10116610",
+      "name": "Piston pin press tool (middle component)",
+      "usage": "Disassembling piston and connecting rod"
+    },
+    {
+      "part_number": "ST13040000",
+      "name": "Piston pin press stand",
+      "usage": "Disassembling piston and connecting rod"
+    }
+  ],
+  "cross_references": [
+    "Cylinder block assembly section"
+  ],
+  "model_notes": null
+}

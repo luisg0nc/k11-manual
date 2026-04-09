@@ -1,0 +1,110 @@
+{
+  "page_code": "AT-15",
+  "section": "AT",
+  "title": "OPERATION \u2014 PERFORMANCE CHARACTERISTICS",
+  "page_type": "prose_procedure",
+  "source_image": "AT-15.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT022",
+      "type": "vehicle_diagram",
+      "description": "Two graphs showing CVT speed change characteristics. Left graph: Engine revolution (rpm) vs Vehicle speed (km/h) comparing N.CVT (solid line, MAX and MIN bands) with Manual transmission gear speeds (1st through 5th, overdrive, dashed lines). Right graph: Engine revolution (rpm) vs Vehicle speed showing MAX line, Ds range region, Ds (MIN) and D (MIN) lines.",
+      "bbox_percent": [
+        5,
+        13,
+        95,
+        48
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "PERFORMANCE CHARACTERISTICS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Speed change characteristic."
+    },
+    {
+      "block_type": "prose",
+      "text": "The speed change characteristic of the is not linear (like that of a manual transmission vehicle, but can be expressed as the region bounded by the maximum and minimum pulley ratios.\nIn the graph, the MAX line shows the relationship between engine speed and vehicle speed at full acceleration: the minimum line shows the same relationship when accelerating slowly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Selector lever function."
+    },
+    {
+      "block_type": "procedure",
+      "id": "selector_lever_function",
+      "title": "Selector lever function",
+      "steps": [
+        {
+          "step": 1,
+          "text": "\"D\" Position.\nNormal driving mode, from starting off to maximum speed.\nSpeed change occurs between 1600 and 4000rev/min depending upon gradual or fast acceleration.\nWhen cruising speed is reached and pressure on the accelerator pedal is reduced (transmission enters overdrive), the pulley ratio is at maximum.\nIf the pedal is pressed while cruising \u2013 ie to accelerate \u2013 the pulley ratio shifts to minimum and vehicle speed rises quickly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "\"Ds\" Position.\nIn the \"Ds\" mode, the speed (ratio) range is limited to the higher zone of the speed change region. \"Ds\" also provides an engine braking effect.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "\"R\" Position.\nIn the reverse mode, the pulleys are locked in \"low\", and the speed (ratio) change does not occur.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "\"P\" Position.\nIn the park position, the output (secondary) pulley is locked mechanically.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "\"N\" Position.\nIn this position, the forward and reverse changeover is locked in a neutral state.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Speed change range (D position)",
+          "value": "1600 and 4000",
+          "unit": "rev/min",
+          "condition": "depending upon gradual or fast acceleration"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to N.CVT (Nissan CVT) equipped K11 Micra. CVT speed change characteristic compared with manual transmission gear speeds (1st\u20135th speed, overdrive). Ds range provides limited higher-zone speed change region with engine braking."
+}

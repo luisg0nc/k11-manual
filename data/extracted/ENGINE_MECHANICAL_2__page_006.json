@@ -1,0 +1,170 @@
+{
+  "page_code": "EM-7006",
+  "section": "EM",
+  "title": "TIMING CHAIN",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM043",
+      "type": "component_photo",
+      "description": "Drive belt arrangement showing alternator and power steering drive belts",
+      "bbox_percent": [
+        2,
+        35,
+        38,
+        55
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM362",
+      "type": "component_photo",
+      "description": "Ignition coils and rocker cover with loosen sequence numbered in order",
+      "bbox_percent": [
+        2,
+        55,
+        38,
+        73
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM368",
+      "type": "component_photo",
+      "description": "Crankshaft pulley with pointer and TDC timing marks (5\u00b0, 10\u00b0, 15\u00b0, 20\u00b0)",
+      "bbox_percent": [
+        2,
+        73,
+        38,
+        90
+      ],
+      "associated_step": "10"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "prose",
+      "text": "After removing timing chain, do not turn crankshaft and camshaft separately, or valves will strike piston heads.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When installing chain tensioner, oil seats, or other sliding parts, lubricate contacting surfaces with new engine oil.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Apply new engine oil to bolt threads and seat surface when installing camshaft sprocket and crankshaft pulley.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When removing oil pump assembly, remove camshaft position sensore (PHASE), then remove timing chain from engine.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to damage sensor edges.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain engine coolant from radiator and cylinder block. Be careful not to spill coolant on drive belts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove the alternator and power steering drive belts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove front right-side wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove front and right-side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove ignition coils.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove rocker cover.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Remove all spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Set No. 1 piston at T.D.C. on compression stroke.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

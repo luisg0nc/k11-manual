@@ -1,0 +1,162 @@
+{
+  "page_code": "AT-21",
+  "section": "AT",
+  "title": "OPERATION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-21.jpg",
+  "continuation": {
+    "continues_from": "AT-20",
+    "continues_to": "AT-22"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT028",
+      "type": "wiring_schematic",
+      "description": "Hydraulic circuit diagram for Ds range operation showing primary pulley, secondary pulley, oil pump, oil cooler, oil filter, lubricating valve, line pressure control solenoid valve, check valves, shift control valve, engine brake valve, spool, shift cam, shift lock valve, regulator valve, modulator linkage, Ds modifier lever, plunger (engine brake), sensor shoe, and associated pressure lines including pilot supply, belt lubrication, lubricating oil pressure, primary pressure, line pressure, and pitot pressure. X = Drain is indicated.",
+      "bbox_percent": [
+        5,
+        12,
+        95,
+        72
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "prose",
+      "text": "In \"Ds\" position, the plunger allows the circuit to drain, the engine brake valve spool is overcome by spring pressure and moves to the left. The engine brake valve arm, therefore, moves the shift control valve to the left, regardless of the position of the shift cam.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Ds range hydraulic circuit diagram showing all valves, pulleys, and pressure lines in operation",
+      "callouts": [
+        {
+          "label": "Primary pulley",
+          "position": "upper left"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "left center"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "center left"
+        },
+        {
+          "label": "Primary pressure",
+          "position": "lower left center"
+        },
+        {
+          "label": "Check valve",
+          "position": "lower left"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "far lower left"
+        },
+        {
+          "label": "Oil pump (P)",
+          "position": "lower left"
+        },
+        {
+          "label": "Oil filter",
+          "position": "lower left"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower center-left"
+        },
+        {
+          "label": "Line pressure",
+          "position": "lower center"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "lower center"
+        },
+        {
+          "label": "Lubricating oil pressure",
+          "position": "upper center"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center right"
+        },
+        {
+          "label": "Pitot pressure",
+          "position": "center right"
+        },
+        {
+          "label": "Spring",
+          "position": "center right"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "lower center right"
+        },
+        {
+          "label": "Spool",
+          "position": "lower center right"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "upper center right"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center right"
+        },
+        {
+          "label": "Sensor shoe",
+          "position": "upper right"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "right"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "right"
+        },
+        {
+          "label": "Shift cam",
+          "position": "right"
+        },
+        {
+          "label": "Pilot supply",
+          "position": "left"
+        },
+        {
+          "label": "X = Drain",
+          "position": "lower right"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "This situation maintains pressure at the primary pulley, ie does not allow the shift cam to control pulley ratio variation, and so, as the vehicle speed decreases, it \"pulls down\" the engine speed with it, giving an engine braking effort.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to Nissan Micra K11 automatic transmission (CVT) Ds range engine braking operation."
+}

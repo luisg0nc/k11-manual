@@ -1,0 +1,129 @@
+{
+  "page_code": "GI-8",
+  "section": "GI",
+  "title": "HOW TO READ WIRING DIAGRAMS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi8.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI362",
+      "type": "connector_diagram",
+      "description": "Example showing connector symbol with numbered terminals (1-4) and physical connector illustration, demonstrating that connector symbols are shown from the terminal side.",
+      "bbox_percent": [
+        2,
+        2,
+        48,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SGI363",
+      "type": "connector_diagram",
+      "description": "Example showing male terminal and female terminal connector symbols with guide indicators, demonstrating male terminals shown in black and female terminals in white.",
+      "bbox_percent": [
+        2,
+        22,
+        48,
+        58
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SGI365",
+      "type": "wiring_schematic",
+      "description": "Example of multiple switch (wiper switch) showing wiring schematic with terminals A-F, switch position chart, and continuity circuit table. Demonstrates wiper switch in LO position continuity path.",
+      "bbox_percent": [
+        2,
+        58,
+        98,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO READ WIRING DIAGRAMS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONNECTOR SYMBOLS"
+    },
+    {
+      "block_type": "prose",
+      "text": "All connector symbols in wiring diagrams are shown from the terminal side.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Male and female terminals\nConnector guides for male terminals are shown in black and female terminals in white in wiring diagrams.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "MULTIPLE SWITCH"
+    },
+    {
+      "block_type": "prose",
+      "text": "The continuity of the multiple switch is identified in the switch chart in wiring diagrams.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Continuity circuit of wiper switch",
+      "columns": [
+        {
+          "key": "switch_position",
+          "label": "SWITCH POSITION"
+        },
+        {
+          "key": "continuity_circuit",
+          "label": "CONTINUITY CIRCUIT"
+        }
+      ],
+      "rows": [
+        {
+          "switch_position": "OFF",
+          "continuity_circuit": "3 - 4"
+        },
+        {
+          "switch_position": "INT",
+          "continuity_circuit": "3 - 4, 5 - 6"
+        },
+        {
+          "switch_position": "LO",
+          "continuity_circuit": "3 - 6"
+        },
+        {
+          "switch_position": "HI",
+          "continuity_circuit": "2 - 6"
+        },
+        {
+          "switch_position": "WASH",
+          "continuity_circuit": "1 - 6"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Example: Wiper switch in LO position\nContinuity circuit: Red wire \u2013 (A) terminal \u2013 (3) terminal \u2013 Wiper switch ( (3) \u2013 (6) : LO) \u2013 (6) terminal \u2013 (F) terminal \u2013 Black wire",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

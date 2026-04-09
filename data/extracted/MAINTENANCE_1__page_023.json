@@ -1,0 +1,233 @@
+{
+  "page_code": "MA-23",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance",
+  "page_type": "prose_procedure",
+  "source_image": "ma-23.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA040",
+      "type": "vehicle_diagram",
+      "description": "Vehicle diagram showing lubrication points for hood latches, locks and hinges with inset detail photos of each location",
+      "bbox_percent": [
+        2,
+        3,
+        98,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA043",
+      "type": "component_photo",
+      "description": "Diagram showing seat belt checking points including adjuster, anchors, retractor, buckles/tongues, and belts for damage, with torque values. Also shows rear seat cushion striker assembly note.",
+      "bbox_percent": [
+        2,
+        36,
+        98,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CHASSIS AND BODY MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Lubricating Hood Latches, Locks and Hinges"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Vehicle diagram indicating lubrication points for hood latches, locks, and hinges",
+      "callouts": [
+        {
+          "label": "Hood latch (front)",
+          "position": "top-left inset"
+        },
+        {
+          "label": "Hood latch/lock (rear/engine bay)",
+          "position": "top-right inset"
+        },
+        {
+          "label": "Door hinge (left side)",
+          "position": "left inset"
+        },
+        {
+          "label": "Hood/body hinge or latch detail",
+          "position": "bottom-center inset"
+        },
+        {
+          "label": "Fuel filler or door lock detail",
+          "position": "bottom-right inset"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Seat Belts, Buckles, Retractors, Anchors and Adjusters"
+    },
+    {
+      "block_type": "procedure",
+      "id": "seat_belt_check",
+      "title": "Checking Seat Belts, Buckles, Retractors, Anchors and Adjusters",
+      "steps": [
+        {
+          "step": 1,
+          "text": "If the vehicle has been involved in a collision or has been overturned, replace all seat belt assemblies, regardless of nature of accident.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "If the condition of any component of a seat belt is questionable, do not have seat belt repaired, but replaced as a belt assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "If webbing is cut, frayed, or damaged, replace belt assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Do not spill drinks, oil, etc. on inner lap belt buckle. Never oil tongue and buckle.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Use a NISSAN genuine seat belt assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Anchor bolt",
+          "value": "43 - 55",
+          "unit": "N\u00b7m",
+          "condition": "Seat belt anchor bolt torque"
+        },
+        {
+          "label": "Anchor bolt",
+          "value": "4.4 - 5.6",
+          "unit": "kg-m",
+          "condition": "Seat belt anchor bolt torque"
+        },
+        {
+          "label": "Anchor bolt",
+          "value": "32 - 41",
+          "unit": "ft-lb",
+          "condition": "Seat belt anchor bolt torque"
+        },
+        {
+          "label": "Adjuster torque",
+          "value": "43 - 55",
+          "unit": "N\u00b7m",
+          "condition": "Seat belt adjuster"
+        },
+        {
+          "label": "Adjuster torque",
+          "value": "4.4 - 5.6",
+          "unit": "kg-m",
+          "condition": "Seat belt adjuster"
+        },
+        {
+          "label": "Adjuster torque",
+          "value": "32 - 41",
+          "unit": "ft-lb",
+          "condition": "Seat belt adjuster"
+        },
+        {
+          "label": "Check anchors torque",
+          "value": "43 - 55",
+          "unit": "N\u00b7m",
+          "condition": "Check anchors for loose mounting"
+        },
+        {
+          "label": "Check anchors torque",
+          "value": "4.4 - 5.6",
+          "unit": "kg-m",
+          "condition": "Check anchors for loose mounting"
+        },
+        {
+          "label": "Check anchors torque",
+          "value": "32 - 41",
+          "unit": "ft-lb",
+          "condition": "Check anchors for loose mounting"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Seat belt inspection diagram showing key check points and torque values",
+      "callouts": [
+        {
+          "label": "Adjuster \u2014 43-55 N\u00b7m (4.4-5.6 kg-m, 32-41 ft-lb)",
+          "position": "top-right"
+        },
+        {
+          "label": "Check anchors for loose mounting \u2014 43-55 N\u00b7m (4.4-5.6 kg-m, 32-41 ft-lb)",
+          "position": "right"
+        },
+        {
+          "label": "Cover must be fitted",
+          "position": "right-lower"
+        },
+        {
+          "label": "Check belts for damage",
+          "position": "center"
+        },
+        {
+          "label": "Anchor bolt \u2014 43-55 N\u00b7m (4.4-5.6 kg-m, 32-41 ft-lb)",
+          "position": "left-lower"
+        },
+        {
+          "label": "Check retractor for smooth operation",
+          "position": "bottom-left"
+        },
+        {
+          "label": "Check functioning of buckles and tongues",
+          "position": "bottom-center"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "After a frontal collision \u2013 with or without occupants \u2013 the rear cushion striker assemblies must be replaced. (Spil cushion only)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg-m, ft-lb)",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

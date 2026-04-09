@@ -1,0 +1,110 @@
+{
+  "page_code": "GI-20",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION",
+  "page_type": "spec_table",
+  "source_image": "page_gi20.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Dimensions"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Dimensions",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "hatchback",
+          "label": "Hatchback"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Overall length",
+          "hatchback": "3,695 (145.5)"
+        },
+        {
+          "item": "Overall width",
+          "hatchback": "1,585 (62.4)"
+        },
+        {
+          "item": "Overall height",
+          "hatchback": "1,430 (56.3)"
+        },
+        {
+          "item": "Front tread",
+          "hatchback": "1,360 (57.9)"
+        },
+        {
+          "item": "Rear tread",
+          "hatchback": "1,325 (52.2)"
+        },
+        {
+          "item": "Wheelbase",
+          "hatchback": "2,360 (92.9)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Wheels and Tires"
+    },
+    {
+      "block_type": "table",
+      "title": "Wheels and Tires",
+      "columns": [
+        {
+          "key": "item",
+          "label": ""
+        },
+        {
+          "key": "value",
+          "label": ""
+        }
+      ],
+      "rows": [
+        {
+          "item": "Road wheel size",
+          "value": "13x5J"
+        },
+        {
+          "item": "Offset mm (in)",
+          "value": "45 (1.77)"
+        },
+        {
+          "item": "Tire size",
+          "value": "155/70R13 75T"
+        },
+        {
+          "item": "Tire size",
+          "value": "175/60R13 76H"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Hatchback body style only shown. Dimensions in mm (in). Tire sizes: 155/70R13 75T and 175/60R13 76H."
+}

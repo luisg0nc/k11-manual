@@ -1,0 +1,90 @@
+{
+  "page_code": "EM-15",
+  "section": "EM",
+  "title": "OIL PAN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-15.jpg",
+  "continuation": {
+    "continues_from": "EM-14",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM040",
+      "type": "parts_diagram",
+      "description": "Oil pan bolt tightening sequence diagram showing numbered bolt positions 1 through 12 around the oil pan perimeter",
+      "bbox_percent": [
+        2,
+        12,
+        38,
+        38
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM041",
+      "type": "component_photo",
+      "description": "Cross-section illustration of oil pan drain plug washer fitting, showing the washer correctly seated against the oil pan",
+      "bbox_percent": [
+        2,
+        38,
+        38,
+        62
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL PAN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "oil_pan_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": null,
+          "text": "Attaching should be done within 5 minutes after applying liquid gasket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Attaching should be done within 5 minutes after applying liquid gasket."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Install oil pan. Tighten bolts in sequence as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Tighten bolts in sequence as shown."
+          ]
+        },
+        {
+          "step": null,
+          "text": "Always fit a new washer to the drain plug. Fit the washer as shown in the illustration. Wait at least 30 minutes before refilling engine oil.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Always fit a new washer to the drain plug. Fit the washer as shown in the illustration.",
+            "Wait at least 30 minutes before refilling engine oil."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

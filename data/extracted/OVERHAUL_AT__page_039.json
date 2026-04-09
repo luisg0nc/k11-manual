@@ -1,0 +1,171 @@
+{
+  "page_code": "AT-39",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Inhibitor Switch",
+  "page_type": "prose_procedure",
+  "source_image": "AT-39.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT064",
+      "type": "component_photo",
+      "description": "View of A/T assembly showing cable, select linkage, hole of manual shaft, hole of inhibitor switch, inhibitor switch, and manual shaft",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        30
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT065",
+      "type": "component_photo",
+      "description": "Close-up view of inhibitor switch showing alignment hole and bolts used during adjustment procedure",
+      "bbox_percent": [
+        0,
+        30,
+        42,
+        58
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Inhibitor Switch"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjustment"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inhibitor_switch_adjustment",
+      "title": "Adjustment",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the snap pin, plain washer and conical washer from the A/T assembly select linkage. Disconnect the control linkage.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Set the manual shaft of the A/T, to the \"N\" position.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "The \"N\" position is the location where the inhibitor switch adjustment hole and manual shaft adjustment hole are aligned."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Loosen the three inhibitor switch bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Insert pin (4 mm diameter) into adjustment holes in both inhibitor switch and manual shaft of A/T assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Tighten the three bolts to the specified torque.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Install the parts that were removed.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Check continuity of the inhibitor switch. (Refer to \"Trouble Diagnosis\", Electrical Component Inspection.)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "A/T assembly select linkage area showing inhibitor switch and manual shaft alignment holes",
+      "callouts": [
+        {
+          "label": "Cable",
+          "position": "top-left"
+        },
+        {
+          "label": "Select linkage",
+          "position": "top-right"
+        },
+        {
+          "label": "Hole of manual shaft",
+          "position": "center-top"
+        },
+        {
+          "label": "Hole of inhibitor switch",
+          "position": "left-center"
+        },
+        {
+          "label": "Inhibitor switch",
+          "position": "center-right"
+        },
+        {
+          "label": "Manual shaft",
+          "position": "bottom-center"
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Close-up of inhibitor switch showing alignment hole and bolt locations",
+      "callouts": [
+        {
+          "label": "Inhibitor switch",
+          "position": "top-right"
+        },
+        {
+          "label": "Alignment hole",
+          "position": "center-right"
+        },
+        {
+          "label": "Bolts",
+          "position": "bottom-left"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": null,
+      "name": "Pin (4 mm diameter)",
+      "usage": "Insert into adjustment holes in both inhibitor switch and manual shaft of A/T assembly during alignment"
+    }
+  ],
+  "cross_references": [
+    "Trouble Diagnosis \u2014 Electrical Component Inspection"
+  ],
+  "model_notes": "Procedure applies to A/T (Automatic Transmission) equipped vehicles"
+}

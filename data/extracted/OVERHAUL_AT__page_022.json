@@ -1,0 +1,126 @@
+{
+  "page_code": "AT-22",
+  "section": "AT",
+  "title": "OPERATION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-22.jpg",
+  "continuation": {
+    "continues_from": "AT-21",
+    "continues_to": "AT-23"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT029",
+      "type": "component_photo",
+      "description": "Cross-section diagram of pitot pressure chamber attached to primary pulley, showing pitot pressure tube fixed to case, oil rotating with pulley, chamber integral with primary pulley",
+      "bbox_percent": [
+        28,
+        10,
+        72,
+        38
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT030",
+      "type": "component_photo",
+      "description": "Oil cooler circuit diagram showing lubricating oil pressure input from top, secondary pulley oil feed, and oil pan at bottom",
+      "bbox_percent": [
+        25,
+        58,
+        78,
+        92
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "3. Engine speed input signal (pitot pressure)."
+    },
+    {
+      "block_type": "prose",
+      "text": "A pitot tube is inserted into a chamber attached to the primary pulley, and a hydraulic pressure is detected and interpreted by the control valve assembly as engine speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Pitot pressure chamber assembly on primary pulley",
+      "callouts": [
+        {
+          "label": "Pitot pressure",
+          "position": "left-center"
+        },
+        {
+          "label": "Oil rotates with pulley",
+          "position": "right-upper"
+        },
+        {
+          "label": "Fixed to case",
+          "position": "left-lower"
+        },
+        {
+          "label": "Integral with primary pulley",
+          "position": "right-lower"
+        },
+        {
+          "label": "Chamber",
+          "position": "bottom-left"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "4. Shift lock safety mechanism"
+    },
+    {
+      "block_type": "prose",
+      "text": "If all four wheels lock up under braking, pitot pressure is not produced and the pulley (speed) ratio will change. The mechanism \"holds\" the pulley ratio as it was when lock-up occurred. This prevents the engine overreving.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "5. Oil cooler."
+    },
+    {
+      "block_type": "prose",
+      "text": "An oil cooler is located as part of the vehicle radiator. Oil is fed to the cooler under pressure, where its temperature is reduced by the radiator oil flow.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Oil cooler circuit showing lubricating oil pressure, secondary pulley feed, and oil pan",
+      "callouts": [
+        {
+          "label": "Lubricating oil pressure",
+          "position": "top-center"
+        },
+        {
+          "label": "From secondary pulley",
+          "position": "right-center"
+        },
+        {
+          "label": "Oil pan",
+          "position": "bottom-center"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

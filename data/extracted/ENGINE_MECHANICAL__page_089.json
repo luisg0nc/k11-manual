@@ -1,0 +1,156 @@
+{
+  "page_code": "EM-23",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-23.jpg",
+  "continuation": {
+    "continues_from": "EM-22",
+    "continues_to": "EM-24"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM128D",
+      "type": "parts_diagram",
+      "description": "Camshaft sprocket alignment showing knock pins on both camshafts with timing chain installed",
+      "bbox_percent": [
+        0,
+        1,
+        42,
+        18
+      ],
+      "associated_step": "18"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM055",
+      "type": "parts_diagram",
+      "description": "Exploded view of chain tensioner components: tensioner body, piston, ratchet, spring, and plunger",
+      "bbox_percent": [
+        0,
+        19,
+        42,
+        34
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM056",
+      "type": "tool_illustration",
+      "description": "Hand assembling the tensioner by rotating and pushing the ratchet up the spiral, showing piston and ratchet positions",
+      "bbox_percent": [
+        0,
+        34,
+        42,
+        51
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM057",
+      "type": "component_photo",
+      "description": "Tensioner installed on engine with timing chain visible",
+      "bbox_percent": [
+        0,
+        51,
+        42,
+        68
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM058",
+      "type": "component_photo",
+      "description": "Thermostat housing with liquid gasket bead dimension indicated: 2.0 - 3.0 mm (0.079 - 0.118 in)",
+      "bbox_percent": [
+        0,
+        68,
+        42,
+        86
+      ],
+      "associated_step": "20"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 18,
+          "text": "Install camshaft sprocket bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Make sure camshafts are aligned as shown in figure."
+          ]
+        },
+        {
+          "step": 19,
+          "text": "Assemble the tensioner by rotating and pushing the ratchet up the spiral until it stops. The tensioner is now pre-set. Chain lash will automatically set the tensioner when the engine is started. Install the tensioner.",
+          "figure_ref": "fig2",
+          "warnings": [
+            "Check no problems occur when engine is rotated.",
+            "Make sure that No. 1 piston is set at T.D.C. on its compression stroke."
+          ],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Apply liquid gasket to thermostat housing.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Install thermostat housing.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Check no problems occur when engine is rotated.\n\u2022 Make sure that No. 1 piston is set at T.D.C. on its compression stroke.",
+      "style": "caution"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width for thermostat housing",
+          "value": "2.0 - 3.0",
+          "unit": "mm",
+          "condition": "Application bead diameter"
+        },
+        {
+          "label": "Liquid gasket bead width for thermostat housing",
+          "value": "0.079 - 0.118",
+          "unit": "in",
+          "condition": "Application bead diameter"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,218 @@
+{
+  "page_code": "AT-121",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-121.jpg",
+  "continuation": {
+    "continues_from": "AT-120",
+    "continues_to": "AT-122"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT277",
+      "type": "tool_illustration",
+      "description": "Dial gauge set onto differential case with tool KV38105900 being inserted and moved up and down to measure gauge deflection",
+      "bbox_percent": [
+        2,
+        2,
+        42,
+        27
+      ],
+      "associated_step": "41-44"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT278",
+      "type": "tool_illustration",
+      "description": "Tool KV38105900 being used to measure turning torque on final drive/clutch housing assembly",
+      "bbox_percent": [
+        2,
+        28,
+        42,
+        52
+      ],
+      "associated_step": "45-47"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT262",
+      "type": "parts_diagram",
+      "description": "Clutch housing bolt tightening sequence showing numbered bolt positions on housing mating face",
+      "bbox_percent": [
+        2,
+        52,
+        42,
+        75
+      ],
+      "associated_step": "50"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT263",
+      "type": "tool_illustration",
+      "description": "Control valve with holder tool being fitted onto the transmission",
+      "bbox_percent": [
+        2,
+        75,
+        42,
+        98
+      ],
+      "associated_step": "51"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 41,
+          "text": "Set dial gauge onto differential case as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 42,
+          "text": "Insert Tool and move up and down. Measure gauge deflection.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 43,
+          "text": "Select correct shim from S.D.S. table.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 44,
+          "text": "Install shim.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 45,
+          "text": "Reassemble final drive/clutch housing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 46,
+          "text": "Tighten bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 47,
+          "text": "Measure turning torque. Turning torque = (new bearing) 2.0 - 7.8 N\u00b7m (20 - 80 kg-cm, 17 - 16 lb-in)",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Old bearing may be slightly less torque."
+          ]
+        },
+        {
+          "step": 48,
+          "text": "Apply liquid gasket to mating surfaces.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 49,
+          "text": "Fit the clutch housing on to the transmission.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Turn the input shaft to assist gear mesh and housing location."
+          ]
+        },
+        {
+          "step": 50,
+          "text": "Tighten the bolts in the sequence shown. Torque 23 - 26 N\u00b7m (2.4 - 2.7 kg-m, 17 - 20 ft-lb)",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 51,
+          "text": "Fit the control valve (with holder Tool) on to the transmission.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Turning torque (new bearing)",
+          "value": "2.0 - 7.8",
+          "unit": "N\u00b7m",
+          "condition": "New bearing"
+        },
+        {
+          "label": "Turning torque (new bearing)",
+          "value": "20 - 80",
+          "unit": "kg-cm",
+          "condition": "New bearing"
+        },
+        {
+          "label": "Turning torque (new bearing)",
+          "value": "17 - 16",
+          "unit": "lb-in",
+          "condition": "New bearing"
+        },
+        {
+          "label": "Clutch housing bolt torque",
+          "value": "23 - 26",
+          "unit": "N\u00b7m",
+          "condition": "Tighten in sequence"
+        },
+        {
+          "label": "Clutch housing bolt torque",
+          "value": "2.4 - 2.7",
+          "unit": "kg-m",
+          "condition": "Tighten in sequence"
+        },
+        {
+          "label": "Clutch housing bolt torque",
+          "value": "17 - 20",
+          "unit": "ft-lb",
+          "condition": "Tighten in sequence"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV38105900",
+      "name": "Differential case tool",
+      "usage": "Insert into differential case and move up and down to measure gauge deflection; also used when measuring turning torque"
+    }
+  ],
+  "cross_references": [
+    "S.D.S. table"
+  ],
+  "model_notes": null
+}

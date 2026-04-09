@@ -1,0 +1,188 @@
+{
+  "page_code": "GI-10",
+  "section": "GI",
+  "title": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+  "page_type": "flowchart",
+  "source_image": "page_gi10.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI561",
+      "type": "component_photo",
+      "description": "Illustration A showing voltmeter connected between terminal (b) and ground on crankangle sensor connector",
+      "bbox_percent": [
+        0,
+        3,
+        30,
+        22
+      ],
+      "associated_step": "CHECK POWER SUPPLY"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SGI562",
+      "type": "component_photo",
+      "description": "Illustration B showing ohmmeter connected between terminal (d) and ground on crankangle sensor connector with ignition OFF",
+      "bbox_percent": [
+        0,
+        22,
+        30,
+        42
+      ],
+      "associated_step": "CHECK GROUND CIRCUIT"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Example"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Example Flow Chart",
+      "nodes": [
+        {
+          "id": "n0",
+          "type": "start",
+          "text": "INSPECTION START"
+        },
+        {
+          "id": "nA",
+          "type": "action",
+          "text": "CHECK POWER SUPPLY.\n1) Turn ignition switch \"ON\".\n2) Check voltage between terminal (b) and ground.\n+Battery voltage should exist."
+        },
+        {
+          "id": "nA_ng",
+          "type": "terminal",
+          "text": "Check the following items.\n1) Harness continuity between crankangle sensor and battery\n2) E.C.C.S. relay-1 (See page EF & EC-106.)\n3) \"BR\" fusible link\n4) Power source for E.C.U. (See page EF & EC-104.)\n5) Ignition switch"
+        },
+        {
+          "id": "nB",
+          "type": "action",
+          "text": "CHECK GROUND CIRCUIT.\n1) Turn ignition switch \"OFF\".\n2) Disconnect crankangle sensor harness connector.\n3) Check resistance between terminal (d) and ground.\nResistance: Approximately 0\u03a9"
+        },
+        {
+          "id": "nB_ng",
+          "type": "terminal",
+          "text": "Check the following items.\n1) Harness continuity between crankangle sensor and ground\n2) Ground circuit for E.C.U. (See page EF &EC-104.)"
+        },
+        {
+          "id": "nB_ok",
+          "type": "terminal",
+          "text": "O.K."
+        }
+      ],
+      "edges": [
+        {
+          "from": "n0",
+          "to": "nA",
+          "label": ""
+        },
+        {
+          "from": "nA",
+          "to": "nA_ng",
+          "label": "N.G."
+        },
+        {
+          "from": "nA",
+          "to": "nB",
+          "label": "O.K."
+        },
+        {
+          "from": "nB",
+          "to": "nB_ng",
+          "label": "N.G."
+        },
+        {
+          "from": "nB",
+          "to": "nB_ok",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "NOTICE"
+    },
+    {
+      "block_type": "prose",
+      "text": "The flow chart indicates work procedures required to diagnose problems effectively. Observe the following instructions before diagnosing.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "notice_instructions",
+      "title": "Instructions for Using Flow Chart",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Use the flow chart after locating probable causes of a problem following the \"Preliminary Check\" or the \"Symptom Chart\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "After repairs, re-check that the problem has been completely eliminated.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Refer to Component Parts Location and Harness Layout for the Systems described in each section for identification/location of components and harness connectors.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Refer to the Circuit Diagram for Quick Pinpoint Check. If you must check circuit continuity between harness connectors in more detail, such as when a sub-harness is used, refer to Wiring Diagram and Harness Layout in EL section for identification of harness connectors.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "When checking circuit continuity, ignition switch should be \"OFF\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Before checking voltage at connectors, check battery voltage.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "After accomplishing the Diagnostic Procedures and Electrical Components Inspection, make sure that all harness connectors are reconnected as they were.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EF & EC-106",
+    "EF & EC-104",
+    "EF &EC-104"
+  ],
+  "model_notes": null
+}

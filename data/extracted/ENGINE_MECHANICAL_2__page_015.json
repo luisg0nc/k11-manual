@@ -1,0 +1,152 @@
+{
+  "page_code": "EM-7015",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Removal",
+  "page_type": "prose_procedure",
+  "source_image": "EM-7015.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-7016"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM043",
+      "type": "component_photo",
+      "description": "Engine bay view showing alternator and power steering drive belts with arrow indicating belt location",
+      "bbox_percent": [
+        2,
+        28,
+        35,
+        48
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM362",
+      "type": "component_photo",
+      "description": "Top view of engine showing ignition coils with numbered loosening sequence for rocker cover bolts (loosen in numerical order 1-10)",
+      "bbox_percent": [
+        2,
+        49,
+        35,
+        67
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM368",
+      "type": "component_photo",
+      "description": "Crankshaft pulley showing timing marks: TDC, 5\u00b0, 10\u00b0, 15\u00b0, 20\u00b0 with pointer indicator",
+      "bbox_percent": [
+        2,
+        68,
+        35,
+        87
+      ],
+      "associated_step": "10"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "prose",
+      "style": "caution",
+      "text": "CAUTION:\n\u2022 After removing timing chain, do not turn crankshaft and camshaft separately, or valves will strike piston heads.\n\u2022 When installing chain tensioner, oil seats, or other sliding parts, lubricate contacting surfaces with new engine oil.\n\u2022 Apply new engine oil to bolt threads and seat surface when installing camshaft sprocket and crankshaft pulley.\n\u2022 When removing oil pump assembly, remove camshaft position sensore (PHASE), then remove timing chain from engine.\n\u2022 Be careful not to damage sensor edges."
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_removal",
+      "title": "Cylinder Head Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain engine coolant from radiator and cylinder block. Be careful not to spill coolant on drive belts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove the alternator and power steering drive belts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove front right-side wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove front and right-side splashguards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove front exhaust tube.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove ignition coils.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove rocker cover.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Loosen bolts in numerical order as shown in figure"
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Remove all spark plugs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Set No. 1 piston at T.D.C. on compression stroke.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

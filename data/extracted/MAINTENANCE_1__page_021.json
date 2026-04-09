@@ -1,0 +1,190 @@
+{
+  "page_code": "MA-21",
+  "section": "MA",
+  "title": "Chassis and Body Maintenance",
+  "page_type": "prose_procedure",
+  "source_image": "ma-21.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SBR098B",
+      "type": "component_photo",
+      "description": "Drum brake assembly showing wheel cylinder and brake components",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "Wheel Cylinder check"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA848B",
+      "type": "component_photo",
+      "description": "Checking condition of inner surface of drum with inner diameter measurement",
+      "bbox_percent": [
+        0,
+        22,
+        35,
+        44
+      ],
+      "associated_step": "Drum inner diameter check"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA849B",
+      "type": "component_photo",
+      "description": "Checking brake lining thickness with measuring tool",
+      "bbox_percent": [
+        0,
+        44,
+        35,
+        63
+      ],
+      "associated_step": "Lining thickness check"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UMA038",
+      "type": "component_photo",
+      "description": "Temporary method for checking lining wear via inspection hole plug removal",
+      "bbox_percent": [
+        0,
+        63,
+        35,
+        82
+      ],
+      "associated_step": "Temporary method for checking lining wear"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Checking Drum Brake"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check condition of drum brake components.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "WHEEL CYLINDER"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check operation and for leakage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "DRUM"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check condition of inner surface.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard inner diameter",
+          "value": "180 mm (7.09 in)",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Maximum diameter",
+          "value": "181.5 mm (7.146 in)",
+          "unit": "mm",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "LINING"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for wear or damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard thickness \u2014 Trailing",
+          "value": "3.0 mm (0.118 in)",
+          "unit": "mm",
+          "condition": "Trailing shoe"
+        },
+        {
+          "label": "Standard thickness \u2014 Leading",
+          "value": "4.5 mm (0.177 in)",
+          "unit": "mm",
+          "condition": "Leading shoe"
+        },
+        {
+          "label": "Minimum thickness",
+          "value": "1.5 mm (0.059 in)",
+          "unit": "mm",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to section BR for shoe replacement.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "TEMPORARY METHOD FOR CHECKING LINING WEAR"
+    },
+    {
+      "block_type": "prose",
+      "text": "Remove inspection hole plug and check for lining wear.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Balancing Wheels"
+    },
+    {
+      "block_type": "procedure",
+      "id": "balancing_wheels",
+      "title": "Balancing Wheels",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Adjust wheel balance using road wheel center.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Refer to S.D.S."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "BR",
+    "S.D.S."
+  ],
+  "model_notes": null
+}

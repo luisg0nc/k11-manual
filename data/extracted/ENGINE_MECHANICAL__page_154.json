@@ -1,0 +1,232 @@
+{
+  "page_code": "EM-5021",
+  "section": "EM",
+  "title": "CYLINDER HEAD",
+  "page_type": "prose_procedure",
+  "source_image": "cylinder_head_disassembly_inspection.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM275",
+      "type": "component_photo",
+      "description": "Cylinder head assembly with camshaft sprocket and timing belt visible",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        16
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM262",
+      "type": "tool_illustration",
+      "description": "Removing valve component parts using special service tools KV10109210 and KV10109220",
+      "bbox_percent": [
+        0,
+        17,
+        38,
+        33
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM263",
+      "type": "tool_illustration",
+      "description": "Removing valve oil seals using special service tool KV10107902",
+      "bbox_percent": [
+        0,
+        34,
+        38,
+        50
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM595A",
+      "type": "component_photo",
+      "description": "Cylinder head surface flatness check pattern (cross-hatch measurement points) and hand-checking cylinder head height",
+      "bbox_percent": [
+        0,
+        51,
+        38,
+        76
+      ],
+      "associated_step": "2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove EGR valve, intake and exhaust manifold, vacuum pump and thermostat housing.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove camshaft sprocket and hub using SST KV109B0070 or a suitable tool.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove camshaft brackets in order from outside to inside.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Loosen camshaft bracket nuts in two or three stages."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Remove camshaft and oil seal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove valve lifters.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove valve component parts using special service tool or a suitable tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Keep each valve and its components together and mark them so they can be reassembled in their original positions."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Remove valve oil seals using special service tool or a suitable tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CYLINDER HEAD DISTORTION"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection_cylinder_head_distortion",
+      "title": "Cylinder Head Distortion",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Visually check for cracks and deformation.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check cylinder head for distortion.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Head surface flatness",
+          "value": "Less than 0.05",
+          "unit": "mm (0.002 in)",
+          "condition": "Maximum allowable distortion"
+        },
+        {
+          "label": "Resurfacing limit",
+          "value": "0.4",
+          "unit": "mm (0.016 in)",
+          "condition": "Maximum material removal during resurfacing"
+        },
+        {
+          "label": "Nominal height of cylinder head",
+          "value": "136.3 - 136.5",
+          "unit": "mm (5.366 - 5.374 in)",
+          "condition": "Standard cylinder head height"
+        },
+        {
+          "label": "Warpage of surface",
+          "value": "Less than 0.1",
+          "unit": "mm (0.004 in)",
+          "condition": "As shown on figure caption"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If beyond the specified limit, replace or resurface cylinder head.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "After resurfacing cylinder head, check that camshaft rotates freely by hand. If resistance is felt, the cylinder head must be replaced.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0070",
+      "name": "Camshaft sprocket and hub remover SST",
+      "usage": "Remove camshaft sprocket and hub"
+    },
+    {
+      "part_number": "KV10109210",
+      "name": "Valve spring compressor SST",
+      "usage": "Remove valve component parts"
+    },
+    {
+      "part_number": "KV10109220",
+      "name": "Valve spring compressor attachment SST",
+      "usage": "Remove valve component parts"
+    },
+    {
+      "part_number": "KV10107902",
+      "name": "Valve oil seal remover SST",
+      "usage": "Remove valve oil seals"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

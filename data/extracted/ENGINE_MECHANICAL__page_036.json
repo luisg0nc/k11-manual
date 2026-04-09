@@ -1,0 +1,180 @@
+{
+  "page_code": "EM-33",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd) / Valve Seats / Replacing Valve Seat for Service Parts",
+  "page_type": "prose_procedure",
+  "source_image": "EM-33.jpg",
+  "continuation": {
+    "continues_from": "EM-32",
+    "continues_to": "EM-34"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM159D",
+      "type": "component_photo",
+      "description": "Cylinder head with valve guide being pressed in, showing projection L",
+      "bbox_percent": [
+        0,
+        0,
+        42,
+        18
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM932C",
+      "type": "component_photo",
+      "description": "Reaming valve guide in cylinder head with reamer tool",
+      "bbox_percent": [
+        0,
+        18,
+        42,
+        36
+      ],
+      "associated_step": "step5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM934C",
+      "type": "component_photo",
+      "description": "Cutting/reaming valve seat in cylinder head",
+      "bbox_percent": [
+        0,
+        36,
+        42,
+        54
+      ],
+      "associated_step": "valve_seats"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM795A",
+      "type": "parts_diagram",
+      "description": "Diagram showing recess diameter measurement for valve seat bore in cylinder head",
+      "bbox_percent": [
+        0,
+        54,
+        42,
+        72
+      ],
+      "associated_step": "replacing_valve_seat_step2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection_contd",
+      "title": "Inspection (Cont'd)",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Heat cylinder head to 110 to 120\u00b0C (230 to 248\u00b0F) and press service valve guide into cylinder head.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Projection \"L\"",
+              "value": "11.5 - 11.7",
+              "unit": "mm (0.453 - 0.461 in)",
+              "condition": ""
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Ream valve guide.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [],
+          "specs": [
+            {
+              "label": "Finished size: Intake & Exhaust",
+              "value": "5.500 - 5.518",
+              "unit": "mm (0.2165 - 0.2172 in)",
+              "condition": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VALVE SEATS"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check valve seats for any evidence of pitting at valve contact surface, and reset or replace if it has worn out excessively.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before repairing valve seats, check valve and valve guide for wear. If they have worn, replace them. Then correct valve seat.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Cut with both hands to uniform the cutting surface.",
+      "style": "important"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "REPLACING VALVE SEAT FOR SERVICE PARTS"
+    },
+    {
+      "block_type": "procedure",
+      "id": "replacing_valve_seat",
+      "title": "Replacing Valve Seat for Service Parts",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Bore out old seat until it collapses. The machine depth stop should be set so that boring cannot continue beyond the bottom face of the seat recess in cylinder head.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Ream cylinder head recess.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Reaming should be done in circles concentric to the valve guide center so that valve seat will have the correct fit."
+          ],
+          "specs": [
+            {
+              "label": "Reaming bore for service valve seat \u2014 Oversize [0.5 mm (0.020 in)] \u2014 Intake",
+              "value": "29.500 - 29.516",
+              "unit": "mm (1.1614 - 1.1620 in)",
+              "condition": "Oversize 0.5 mm (0.020 in)"
+            },
+            {
+              "label": "Reaming bore for service valve seat \u2014 Oversize [0.5 mm (0.020 in)] \u2014 Exhaust",
+              "value": "25.500 - 25.516",
+              "unit": "mm (1.0039 - 1.0046 in)",
+              "condition": "Oversize 0.5 mm (0.020 in)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,169 @@
+{
+  "page_code": "AT-83",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Stall Test",
+  "page_type": "prose_procedure",
+  "source_image": "AT-83.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-84"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT154",
+      "type": "component_photo",
+      "description": "Illustration showing engine and N\u00b7CVT oil level check",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT155",
+      "type": "vehicle_diagram",
+      "description": "Illustration showing vehicle with parking brake set and wheels blocked",
+      "bbox_percent": [
+        2,
+        19,
+        38,
+        36
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT156",
+      "type": "component_photo",
+      "description": "Illustration showing selector lever moved to D range with brake pedal pressed",
+      "bbox_percent": [
+        2,
+        37,
+        38,
+        54
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT157",
+      "type": "vehicle_diagram",
+      "description": "Illustration showing driver pressing accelerator pedal to wide open throttle while pressing foot brake",
+      "bbox_percent": [
+        2,
+        55,
+        38,
+        74
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT158",
+      "type": "component_photo",
+      "description": "Illustration showing selector lever moved to N range",
+      "bbox_percent": [
+        2,
+        75,
+        38,
+        95
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Stall Test"
+    },
+    {
+      "block_type": "procedure",
+      "id": "stall_test",
+      "title": "Stall Test",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check the oil level in engine and N\u00b7CVT. Replenish if necessary.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drive the vehicle approximately 10 minutes to warm the engine and N\u00b7CVT oil to 50 to 80\u00b0C.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Set the parking brake and block the wheels securely.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Start the engine, press the brake pedal and move the selector lever to the \"D\" range.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "While pressing the foot brake, depress the accelerator pedal gradually until it is wide open.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Quickly read the engine stall speed. Remove your foot from the accelerator pedal immediately.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Do not open the throttle valve for more than 5 seconds during the test."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Move the select lever to the \"N\" range.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Allow the N\u00b7CVT fluid to cool off. Run the engine at idle speed at least one minute before performing the stall test again.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "Refer to diagnosis chart on following page"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Stall speed",
+          "value": "1,700 to 2,300",
+          "unit": "rpm",
+          "condition": "Selector lever in D range, wide open throttle, foot brake applied"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-84"
+  ],
+  "model_notes": "Procedure applies to N\u00b7CVT (Nissan Continuously Variable Transmission) equipped vehicles."
+}

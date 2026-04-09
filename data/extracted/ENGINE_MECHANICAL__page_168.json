@@ -1,0 +1,213 @@
+{
+  "page_code": "EM-5035",
+  "section": "EM",
+  "title": "CYLINDER BLOCK",
+  "page_type": "parts_diagram",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM315",
+      "type": "parts_diagram",
+      "description": "Exploded view of cylinder block assembly showing all major components including pistons, connecting rods, crankshaft, bearings, oil pan, oil pump, flywheel, and associated seals and retainers with torque specifications.",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        78
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Piston ring",
+          "note": "Do not re-use; Lubricate with new engine oil"
+        },
+        {
+          "number": 2,
+          "name": "Piston",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 3,
+          "name": "Piston pin",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 4,
+          "name": "Connecting rod bearing",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 5,
+          "name": "Connecting rod",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Main bearing cap",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Front oil seal",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Front oil seal retainer",
+          "note": "Apply liquid gasket"
+        },
+        {
+          "number": 9,
+          "name": "Flywheel",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 10,
+          "name": "Rear oil seal",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Rear oil seal retainer",
+          "note": "Apply liquid gasket"
+        },
+        {
+          "number": 12,
+          "name": "Cylinder block",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Main bearing",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 14,
+          "name": "Crankshaft",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 15,
+          "name": "Thrust washer",
+          "note": "Lubricate with new engine oil"
+        },
+        {
+          "number": 16,
+          "name": "Oil pan",
+          "note": "Apply liquid gasket"
+        },
+        {
+          "number": 17,
+          "name": "Drain plug",
+          "note": null
+        },
+        {
+          "number": 18,
+          "name": "Oil pump",
+          "note": "Apply liquid gasket"
+        },
+        {
+          "number": 19,
+          "name": "Oil pump chain",
+          "note": null
+        },
+        {
+          "number": 20,
+          "name": "Oil jet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod bearing cap bolt torque",
+          "value": "40 (4.1, 29.5)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Main bearing cap bolt torque",
+          "value": "30 (3.1, 22.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Flywheel bolt torque",
+          "value": "65 (6.6, 47.9)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Rear oil seal retainer bolt torque",
+          "value": "10 (1.0, 88.5)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": null
+        },
+        {
+          "label": "Front oil seal retainer bolt torque",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Oil pan bolt torque",
+          "value": "20 + 50\u00b0 (2.0 + 50\u00b0, 14.8 + 50\u00b0)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": "angle tightening"
+        },
+        {
+          "label": "Drain plug torque",
+          "value": "30 (3.1, 22.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Oil pump bolt torque",
+          "value": "10 (1.0, 88.5)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": null
+        },
+        {
+          "label": "Rear oil seal retainer (top) bolt torque",
+          "value": "30 (3.1, 22.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Cylinder block front bolt torque",
+          "value": "10 (1.0, 88.5)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: Circle-N symbol = N\u00b7m (kg-m, in-lb); Circle-N-ft symbol = N\u00b7m (kg-m, ft-lb); X symbol = Do not re-use; Solid square = Apply locking sealant; Diagonal square = Apply liquid gasket; Triangle = Lubricate with new engine oil.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Page reference code NEM315."
+}

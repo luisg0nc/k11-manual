@@ -1,0 +1,205 @@
+{
+  "page_code": "AT-116",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-116.jpg",
+  "continuation": {
+    "continues_from": "AT-115",
+    "continues_to": "AT-117"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT240",
+      "type": "tool_illustration",
+      "description": "Tool KV319-K0090 attached to secondary pulley to expand groove",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        20
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT241",
+      "type": "component_photo",
+      "description": "Belt fitted to both primary and secondary pulleys engaged in grooves, viewed from side casing",
+      "bbox_percent": [
+        0,
+        21,
+        38,
+        39
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT242",
+      "type": "component_photo",
+      "description": "Pulley retainer installed with new bolts and O rings, arrows indicating bolt locations",
+      "bbox_percent": [
+        0,
+        40,
+        38,
+        58
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT243",
+      "type": "component_photo",
+      "description": "Ratio sensor fitted to side casing with sensor rod inserted",
+      "bbox_percent": [
+        0,
+        59,
+        38,
+        77
+      ],
+      "associated_step": "12"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT276",
+      "type": "tool_illustration",
+      "description": "Tool KV319-K0140 fitted to valve mating surface showing adjuster bolt, bolt, locknut, and sensor locations",
+      "bbox_percent": [
+        0,
+        78,
+        38,
+        98
+      ],
+      "associated_step": "12"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 6,
+          "text": "Attach Tool to the secondary pulley and expand the groove to 52 - 53 mm (2.05 - 2.09 in).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Do not expand the groove beyond this point."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Fit the belt to the secondary pulley and engage the grooves of both pulleys.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Fit the belt to the primary pulley while manoeuvring the assemblies into position on the side casing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Ensure the belt is fitted correctly as shown.",
+            "Take care not to scratch the grooves.",
+            "Ensure that all shims are located correctly."
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Remove the Tool from the secondary pulley.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Remove the harness ties from the belt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Install the pulley retainer. Fit new bolts (with new O rings) Torque = 14.2 - 17.2 N\u00b7m (1.43 - 1.76 kg-m, 10 - 13 ft-lb)",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Fit the ratio sensor on to the side casing, locate to the pulley, and insert the sensor rod.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "The stepped end of the rod goes towards the casing.",
+            "If the sensor (or primary pulley) has been replaced, fit Tool to valve mating surface as shown. Turn back fully the adjuster bolt. Turn in the adjuster bolt until it just makes contact with the tool. Tighten the lock nut and remove the tool."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Pulley retainer bolt torque",
+          "value": "14.2 - 17.2",
+          "unit": "N\u00b7m",
+          "condition": "New bolts with new O rings"
+        },
+        {
+          "label": "Pulley retainer bolt torque",
+          "value": "1.43 - 1.76",
+          "unit": "kg-m",
+          "condition": "New bolts with new O rings"
+        },
+        {
+          "label": "Pulley retainer bolt torque",
+          "value": "10 - 13",
+          "unit": "ft-lb",
+          "condition": "New bolts with new O rings"
+        },
+        {
+          "label": "Secondary pulley groove expansion",
+          "value": "52 - 53",
+          "unit": "mm",
+          "condition": "Using Tool KV319-K0090"
+        },
+        {
+          "label": "Secondary pulley groove expansion",
+          "value": "2.05 - 2.09",
+          "unit": "in",
+          "condition": "Using Tool KV319-K0090"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0090",
+      "name": "Secondary Pulley Groove Expansion Tool",
+      "usage": "Attach to secondary pulley and expand groove to 52 - 53 mm (2.05 - 2.09 in) for belt fitting"
+    },
+    {
+      "part_number": "KV319-K0140",
+      "name": "Ratio Sensor Adjuster Tool",
+      "usage": "Fit to valve mating surface to set adjuster bolt position when sensor or primary pulley has been replaced"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

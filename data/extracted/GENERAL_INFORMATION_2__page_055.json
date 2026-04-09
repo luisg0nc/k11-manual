@@ -1,0 +1,142 @@
+{
+  "page_code": "GI-5008",
+  "section": "GI",
+  "title": "Identification Number (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi5008.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NGI028",
+      "type": "component_photo",
+      "description": "Identification plate diagram for Nissan Europe N.V. showing labelled fields A through J",
+      "bbox_percent": [
+        5,
+        8,
+        95,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NGI032",
+      "type": "component_photo",
+      "description": "Engine serial number location shown with arrow on engine photograph",
+      "bbox_percent": [
+        2,
+        34,
+        48,
+        58
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NGI033",
+      "type": "component_photo",
+      "description": "Manual transaxle number location shown with arrow on transaxle photograph",
+      "bbox_percent": [
+        50,
+        34,
+        96,
+        58
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Identification Number (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "IDENTIFICATION PLATE"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Identification plate layout for Nissan Europe N.V. with fields labelled A through J",
+      "callouts": [
+        {
+          "label": "A",
+          "position": "Except Australia: Blank; Australia: Build date"
+        },
+        {
+          "label": "B",
+          "position": "Vehicle identification number (chassis number)"
+        },
+        {
+          "label": "C",
+          "position": "Gross vehicle weight (GVW) \u2014 Kg"
+        },
+        {
+          "label": "D",
+          "position": "Gross combination weight (GCW) \u2014 Kg"
+        },
+        {
+          "label": "E",
+          "position": "Gross axle weight (Front) \u2014 Kg"
+        },
+        {
+          "label": "F",
+          "position": "Gross axle weight (Rear) \u2014 Kg"
+        },
+        {
+          "label": "G",
+          "position": "Vehicle type specification"
+        },
+        {
+          "label": "H",
+          "position": "Body colour code"
+        },
+        {
+          "label": "I",
+          "position": "Trim colour code"
+        },
+        {
+          "label": "J",
+          "position": "Model"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ENGINE SERIAL NUMBER"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "Engine serial number location indicated by arrow on engine",
+      "callouts": []
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "MANUAL TRANSAXLE NUMBER"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Manual transaxle number location indicated by arrow on transaxle",
+      "callouts": []
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

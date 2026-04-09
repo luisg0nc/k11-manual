@@ -1,0 +1,253 @@
+{
+  "page_code": "EM-40",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-41"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not remove engine until exhaust system has completely cooled off.",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "When lifting engine, take care not to foul other components, cables and wires. Pay special attention to brake lines, brake master cylinder, and radiator (fan) assembly.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When hoisting the engine, always use engine slingers in a safe and secure manner.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When removing drive shaft, be careful not to damage the transmission oil seal.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Engine cannot be removed separately from vehicle. Remove engine with transaxle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "engine_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drive vehicle on to a two post lift. If a two post lift is not available, place the vehicle on axle stands on a flat and solid surface.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain transmission oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Disconnect gear selector rods from transaxle (M/T).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Disconnect NCVT selector cable (NCVT).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove stabiliser bar.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove lower suspension arm bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Disconnect drive shafts from transaxle.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove exhaust by disconnecting at front (below first catalytic converter) and at rear (at rear axle). Make sure to disconnect the earth strap at the second catalytic converter.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Remove hood.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Release fuel pressure. Refer to section MA.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Disconnect battery harness and remove battery.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Remove front splash guards.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Drain cooling system by removing lower radiator hose.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Remove radiator expansion tank for access.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Remove air filter assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Disconnect gearbox earth strap.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Disconnect exhaust gas harness.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Disconnect distributor harness and distributor sensor harness.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 19,
+          "text": "Disconnect connectors for access for battery tray removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Remove battery tray.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Disconnect gear position switch harness (M/T).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Disconnect clutch cable (M/T).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Disconnect radiator top hose. On NCVT models, also disconnect two lower hoses from radiator.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Disconnect earth wires on engine bracket.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 25,
+          "text": "Disconnect injector harness.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 26,
+          "text": "Disconnect 3 connectors on throttle chamber.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Disconnect 2 connectors on main relay box.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Disconnect earth strap on inner wing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": "Steps 3, 21, 22 apply to M/T models only. Step 4 applies to NCVT models only. Step 23 notes additional hoses for NCVT models."
+}

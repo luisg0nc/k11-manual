@@ -1,0 +1,113 @@
+{
+  "page_code": "ST-30",
+  "section": "ST",
+  "title": "POWER STEERING RESERVOIR",
+  "page_type": "prose_procedure",
+  "source_image": "st-30.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST042",
+      "type": "component_photo",
+      "description": "Power steering reservoir assembly showing the reservoir unit with mounting bracket and hose stubs",
+      "bbox_percent": [
+        0,
+        2,
+        30,
+        22
+      ],
+      "associated_step": "Removal"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UST039",
+      "type": "component_photo",
+      "description": "Power steering reservoir installed in engine bay with callout label identifying the power steering reservoir",
+      "bbox_percent": [
+        0,
+        42,
+        30,
+        62
+      ],
+      "associated_step": "Installation"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING RESERVOIR"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain fluid from system.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Slacken hose retaining clips and remove feed and return hoses from reservoir.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove Bolts (3) securing reservoir to vehicle body.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION\n\u2022 Do not remove reservoir from bracket or rotate reservoir in bracket.\n\u2022 If it is necessary to separate reservoir from bracket ensure it is orientated as disassembled when re-assembling. Note correct orientation and connection of feed and return hoses to reservoir stub pipes.",
+      "style": "caution"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Installation is the reverse procedure to removal.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Ensure hoses are fitted to reservoir correctly and do not interfere with drive belts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Refill reservoir as described in installation procedure of power steering rack and check fluid level after bleeding hydraulic system.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "power steering rack installation procedure"
+  ],
+  "model_notes": null
+}

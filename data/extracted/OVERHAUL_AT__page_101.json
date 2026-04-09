@@ -1,0 +1,158 @@
+{
+  "page_code": "AT-101",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-101.jpg",
+  "continuation": {
+    "continues_from": "AT-100",
+    "continues_to": "AT-102"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT190",
+      "type": "tool_illustration",
+      "description": "Oil pump removal using tool KV319-K0150 with M6 bolt and puller bolts fitted to oil pump",
+      "bbox_percent": [
+        2,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "step_38_39"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT191",
+      "type": "component_photo",
+      "description": "Side case with pulley retainer bolts visible, showing which bolts not to remove",
+      "bbox_percent": [
+        2,
+        23,
+        38,
+        42
+      ],
+      "associated_step": "step_40"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT192",
+      "type": "component_photo",
+      "description": "Separating the side case from the transmission using a soft hammer",
+      "bbox_percent": [
+        2,
+        43,
+        38,
+        62
+      ],
+      "associated_step": "step_41"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT193",
+      "type": "component_photo",
+      "description": "Ratio sensor assembly being lifted out from the transmission",
+      "bbox_percent": [
+        2,
+        63,
+        38,
+        80
+      ],
+      "associated_step": "step_42"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT194",
+      "type": "component_photo",
+      "description": "Parking pawl assembly being lifted out from the transmission",
+      "bbox_percent": [
+        2,
+        81,
+        38,
+        98
+      ],
+      "associated_step": "step_43"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_cont",
+      "title": "Disassembly (continued)",
+      "steps": [
+        {
+          "step": 38,
+          "text": "Remove the oil pump securing bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 39,
+          "text": "Fit Tool and remove the oil pump.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 40,
+          "text": "Remove the side case securing bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Do not remove the three pulley retaining bolts."
+          ]
+        },
+        {
+          "step": 41,
+          "text": "Separate the side case from the transmission as shown, tap lightly with a soft hammer if necessary.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Do not tap the oil pan mating surface."
+          ]
+        },
+        {
+          "step": 42,
+          "text": "Lift out the ratio sensor assembly.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 43,
+          "text": "Lift out the parking pawl assembly.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not remove the three pulley retaining bolts.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not tap the oil pan mating surface.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0150",
+      "name": "Oil Pump Puller",
+      "usage": "Used with M6 bolt and puller bolts to remove the oil pump (steps 38-39)"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

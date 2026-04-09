@@ -1,0 +1,255 @@
+{
+  "page_code": "EM-7014",
+  "section": "EM",
+  "title": "CYLINDER HEAD",
+  "page_type": "parts_diagram",
+  "source_image": "EM-7014.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM366",
+      "type": "parts_diagram",
+      "description": "Exploded view of cylinder head assembly including rocker cover, camshafts, valvetrain components, cylinder head, and head gasket with torque specifications",
+      "bbox_percent": [
+        2,
+        5,
+        98,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Oil filter cap",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Rocker cover",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Seal",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 4,
+          "name": "Gasket",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Shim",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Lifter",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Colletts",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Retainer",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Spring",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Seat",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Valve",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Seal",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Cylinder head bolt",
+          "note": "Refer to CYLINDER HEAD installation"
+        },
+        {
+          "number": 14,
+          "name": "Washer",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Intake camshaft",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "Exhaust camshaft",
+          "note": null
+        },
+        {
+          "number": 17,
+          "name": "Cylinder head",
+          "note": null
+        },
+        {
+          "number": 18,
+          "name": "Bracket",
+          "note": "Apply liquid gasket"
+        },
+        {
+          "number": 19,
+          "name": "Head gasket",
+          "note": "Do not reuse"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "2.1 - 4.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "0.21 - 0.41",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Rocker cover bolt torque",
+          "value": "1.5 - 3.0",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Camshaft bracket bolt torque",
+          "value": "9 - 12",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Camshaft bracket bolt torque",
+          "value": "0.9 - 1.2",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Camshaft bracket bolt torque",
+          "value": "6.5 - 8.7",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (left)",
+          "value": "3.7 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (left)",
+          "value": "0.38 - 0.51",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (left)",
+          "value": "2.7 - 3.7",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (center)",
+          "value": "7.2 - 10.7",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (center)",
+          "value": "0.73 - 1.1",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (center)",
+          "value": "5 - 8",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (right)",
+          "value": "3.7 - 5.0",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (right)",
+          "value": "0.38 - 0.51",
+          "unit": "kg-m",
+          "condition": null
+        },
+        {
+          "label": "Bracket bolt torque (right)",
+          "value": "2.7 - 3.7",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Apply liquid gasket \u2014 indicated by filled square symbol on diagram",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not reuse \u2014 indicated by X-circle symbol on diagram (applies to Seal and Head gasket)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Torque values shown as: N\u00b7m (kg-m, ft-lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Cylinder head bolt: Refer to 'CYLINDER HEAD' installation",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "CYLINDER HEAD installation"
+  ],
+  "model_notes": null
+}

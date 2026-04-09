@@ -1,0 +1,295 @@
+{
+  "page_code": "EM-7",
+  "section": "EM",
+  "title": "OUTER COMPONENT PARTS",
+  "page_type": "parts_diagram",
+  "source_image": "EM-7.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM020",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of Air Cleaner assembly showing Cover, Seal, Filter, Air cleaner body, Insulator, TV Valve, Hose, PCV filter, Airduct, and associated torque values",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        38
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM021",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of Intake Manifold and Fuel System showing Canister, AAC valve, Thermo element, O-ring, Bracket, Cylinder head, Throttle return spring, Cam, Spacer, Throttle body unit, Gasket, Coolant inlet, Trottle sensor, Plate, Hose, Vacuum hoses, and associated torque values",
+      "bbox_percent": [
+        0,
+        42,
+        100,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Air Cleaner"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Cover",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Seal",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Filter",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Air cleaner body",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Insulator",
+          "note": "See note"
+        },
+        {
+          "number": 6,
+          "name": "TV Valve",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "P.C.V. filter",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Airduct",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Rocker cover",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTES:\n\u2022 Lubricate inner surface of insulator to ease fitting\n\u2022 Ensure insulator is correctly located on flange",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not reuse (symbol X in circle)\nN\u00b7m (kg-m, ft-lb) (symbol circle with arrow)",
+      "style": "note"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Air cleaner body mounting torque",
+          "value": "2.9-3.9",
+          "unit": "N\u00b7m",
+          "condition": "(0.30-0.40, 2.2-2.9) kg-m, ft-lb"
+        },
+        {
+          "label": "PCV filter / airduct hose clamp torque (left)",
+          "value": "3.7-5.0",
+          "unit": "N\u00b7m",
+          "condition": "(0.38-0.51, 2.8-3.7) kg-m, ft-lb"
+        },
+        {
+          "label": "Airduct hose clamp torque (right)",
+          "value": "3.7-5.0",
+          "unit": "N\u00b7m",
+          "condition": "(0.38-0.51, 2.8-3.7) kg-m, ft-lb"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Intake Manifold & Fuel System"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig2",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Vacuum hose",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Vacuum hose",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Vacuum hose",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Canister",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "AAC valve",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Thermo element",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "O-ring",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 8,
+          "name": "Bracket",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Cylinder head",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Hose",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Throttle return spring",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Cam",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Spacer",
+          "note": null
+        },
+        {
+          "number": 14,
+          "name": "Throttle body unit",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Plate",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "O-ring",
+          "note": null
+        },
+        {
+          "number": 17,
+          "name": "Trottle sensor",
+          "note": null
+        },
+        {
+          "number": 18,
+          "name": "Gasket",
+          "note": "Do not reuse"
+        },
+        {
+          "number": 19,
+          "name": "Coolant inlet",
+          "note": null
+        },
+        {
+          "number": 20,
+          "name": "Hose",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not reuse (symbol X in circle)\nN\u00b7m (kg-m, ft-lb) (symbol circle with arrow)",
+      "style": "note"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "AAC valve torque",
+          "value": "3.0-4.0",
+          "unit": "N\u00b7m",
+          "condition": "(0.31-0.41, 2.2-3.0) kg-m, ft-lb"
+        },
+        {
+          "label": "Canister bracket torque",
+          "value": "5.2-7.0",
+          "unit": "N\u00b7m",
+          "condition": "(0.53-0.71, 3.8-5.1) kg-m, ft-lb"
+        },
+        {
+          "label": "Bracket to cylinder head torque",
+          "value": "3.0-4.0",
+          "unit": "N\u00b7m",
+          "condition": "(0.31-0.41, 2.2-3.0) kg-m, ft-lb"
+        },
+        {
+          "label": "Throttle return spring / cam torque",
+          "value": "1.5-2.0",
+          "unit": "N\u00b7m",
+          "condition": "(0.15-0.20, 1.1-1.4) kg-m, ft-lb"
+        },
+        {
+          "label": "Throttle body unit mounting torque",
+          "value": "21-26",
+          "unit": "N\u00b7m",
+          "condition": "(2.1-2.7, 15-20) kg-m, ft-lb"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

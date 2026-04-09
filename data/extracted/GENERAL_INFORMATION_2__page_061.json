@@ -1,0 +1,65 @@
+{
+  "page_code": "GI",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "GI-7002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-7002"
+        },
+        {
+          "topic": "CONSULT-II CHECKING SYSTEM",
+          "page": "GI-7003"
+        },
+        {
+          "topic": "IDENTIFICATION INFORMATION",
+          "page": "GI-7005"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-7002",
+    "GI-7003",
+    "GI-7005"
+  ],
+  "model_notes": null
+}

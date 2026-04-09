@@ -1,0 +1,201 @@
+{
+  "page_code": "EM-5012",
+  "section": "EM",
+  "title": "TIMING BELT",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM251",
+      "type": "component_photo",
+      "description": "View of crankshaft pulley area showing bolts to remove for timing belt access",
+      "bbox_percent": [
+        0,
+        2,
+        40,
+        18
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM252",
+      "type": "component_photo",
+      "description": "Engine front mounting bracket and RH insulator bracket removal area",
+      "bbox_percent": [
+        0,
+        19,
+        40,
+        35
+      ],
+      "associated_step": "8"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM253",
+      "type": "component_photo",
+      "description": "Timing belt covers with arrows indicating cover removal points",
+      "bbox_percent": [
+        0,
+        36,
+        40,
+        52
+      ],
+      "associated_step": "9"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM254",
+      "type": "component_photo",
+      "description": "Crankshaft at TDC position with SST locking tool in place",
+      "bbox_percent": [
+        0,
+        53,
+        40,
+        68
+      ],
+      "associated_step": "10"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "NEM255",
+      "type": "component_photo",
+      "description": "Camshaft and injection pump locked with SST tools, timing belt being removed from tensioner pulley",
+      "bbox_percent": [
+        0,
+        69,
+        40,
+        85
+      ],
+      "associated_step": "12"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING BELT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_belt_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove engine under cover.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove front RH wheel and splash guard.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove drive belt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove crankshaft pulley bolts and pulley.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Support engine with a suitable jack.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove engine front mounting bracket.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Temporarily remove coolant reservoir.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove RH insulator bracket.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Remove timing belt covers.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Turn crankshaft to TDC and lock crankshaft using SST KV109B0112.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Lock camshaft and injection pump using SST KV109B0111 and KV109B0110.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Loosen tensioner pulley nut and remove timing belt.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0112",
+      "name": "Crankshaft Locking Tool",
+      "usage": "Lock crankshaft at TDC position during timing belt removal"
+    },
+    {
+      "part_number": "KV109B0111",
+      "name": "Camshaft Locking Tool",
+      "usage": "Lock camshaft during timing belt removal"
+    },
+    {
+      "part_number": "KV109B0110",
+      "name": "Injection Pump Locking Tool",
+      "usage": "Lock injection pump during timing belt removal"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Page references RH wheel removal suggesting LHD or RHD variant with engine on RH side."
+}

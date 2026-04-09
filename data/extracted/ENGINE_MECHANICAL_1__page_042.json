@@ -1,0 +1,151 @@
+{
+  "page_code": "EM-44",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Disassembly (Piston and Crankshaft)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-44.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "EM-45"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM073",
+      "type": "component_photo",
+      "description": "Engine assembly photo showing the engine before disassembly",
+      "bbox_percent": [
+        2,
+        17,
+        32,
+        37
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM074",
+      "type": "tool_illustration",
+      "description": "Engine work stand mounting with tools KV10115300 and KV10106500, showing torque values 25-34 N\u00b7m (2.5-3.5 kg-m, 18-25 ft-lb) and (2.5-3.5, 18-25)",
+      "bbox_percent": [
+        2,
+        38,
+        32,
+        57
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM075",
+      "type": "tool_illustration",
+      "description": "Engine mounted on work stand ST0501S000",
+      "bbox_percent": [
+        2,
+        58,
+        32,
+        83
+      ],
+      "associated_step": "1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "prose",
+      "text": "When installing moving parts such as bearings and pistons, always apply new, unused engine oil on the contact surfaces.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Place disassembled parts such as bearings and bearing caps in correct order and direction.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When tightening connecting rod bolts and main bearing cap bolts, apply engine oil to threads and seating surface of nuts.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "PISTON AND CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_piston_crankshaft",
+      "title": "Piston and Crankshaft Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Place engine on a work stand.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drain coolant and oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove timing chain. Refer to \"Removal\" in \"TIMING CHAIN\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Work stand mounting bolt torque (KV10115300)",
+          "value": "25-34",
+          "unit": "N\u00b7m (2.5-3.5 kg-m, 18-25 ft-lb)",
+          "condition": "Mounting KV10115300 to engine"
+        },
+        {
+          "label": "Work stand mounting bolt torque (KV10106500)",
+          "value": "2.5-3.5",
+          "unit": "N\u00b7m (kg-m, 18-25 ft-lb)",
+          "condition": "Mounting KV10106500"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10115300",
+      "name": "Engine stand bracket",
+      "usage": "Mounting engine to work stand"
+    },
+    {
+      "part_number": "KV10106500",
+      "name": "Engine stand adapter",
+      "usage": "Mounting engine to work stand"
+    },
+    {
+      "part_number": "ST0501S000",
+      "name": "Engine work stand",
+      "usage": "Supporting engine during disassembly"
+    }
+  ],
+  "cross_references": [
+    "TIMING CHAIN \u2014 Removal"
+  ],
+  "model_notes": null
+}

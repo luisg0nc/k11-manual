@@ -1,0 +1,237 @@
+{
+  "page_code": "MA-12",
+  "section": "MA",
+  "title": "ENGINE MAINTENANCE",
+  "page_type": "prose_procedure",
+  "source_image": "MA-12.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UMA027",
+      "type": "component_photo",
+      "description": "Air cleaner housing with clips/fasteners highlighted, showing how to open the air cleaner box",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        16
+      ],
+      "associated_step": "Changing Air Cleaner Filter"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UMA041",
+      "type": "parts_diagram",
+      "description": "Air cleaner filter element (viscous paper type)",
+      "bbox_percent": [
+        0,
+        16,
+        38,
+        30
+      ],
+      "associated_step": "Changing Air Cleaner Filter"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UMA028",
+      "type": "component_photo",
+      "description": "Engine showing oil filler cap, oil filter, and drain plug locations",
+      "bbox_percent": [
+        0,
+        30,
+        38,
+        52
+      ],
+      "associated_step": "Changing Engine Oil"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UMA042",
+      "type": "parts_diagram",
+      "description": "Oil drain plug washer showing oil pan side orientation",
+      "bbox_percent": [
+        0,
+        52,
+        38,
+        67
+      ],
+      "associated_step": "Changing Engine Oil"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SMA270C",
+      "type": "component_photo",
+      "description": "Dipstick showing refill oil level mark \u2014 'Refill oil to this level. Do not overfill.'",
+      "bbox_percent": [
+        0,
+        67,
+        38,
+        83
+      ],
+      "associated_step": "Changing Engine Oil"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Air Cleaner Filter"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Viscous paper type"
+    },
+    {
+      "block_type": "prose",
+      "text": "The viscous paper type filter does not need cleaning between renewals.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Engine Oil"
+    },
+    {
+      "block_type": "prose",
+      "text": "WARNING: Be careful not to burn yourself, as the engine oil is hot.",
+      "style": "warning"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_engine_oil_change",
+      "title": "Changing Engine Oil",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Warm up engine, and check for oil leakage from engine components.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove drain plug and oil filler cap.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Drain oil and refill with new engine oil.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check oil level.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Start engine and check area around drain plug and oil filter for oil leakage.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Run engine for a few minutes, then turn it off. After several minutes, check oil level.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Refill oil capacity (Approximate):"
+    },
+    {
+      "block_type": "table",
+      "title": "Refill oil capacity (Approximate)",
+      "columns": [
+        {
+          "key": "condition",
+          "label": "Condition"
+        },
+        {
+          "key": "capacity",
+          "label": "Capacity (\u2113 (Imp pt))"
+        }
+      ],
+      "rows": [
+        {
+          "condition": "With oil filter change",
+          "capacity": "3.1 (5-1/2)"
+        },
+        {
+          "condition": "Without oil filter change",
+          "capacity": "2.9 (5)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "The refill capacity changes depending on the oil temperature and drain time, use these values as a reference and be certain to check with the dipstick when changing the oil.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Be sure to clean drain plug and install with new washer.\n  Drain plug: 29 - 39 N\u00b7m (3.0 - 4.0 kg-m, 22 - 29 ft-lb)\n\u2022 Use recommended engine oil (API SG grade).",
+      "style": "caution"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Drain plug torque",
+          "value": "29 - 39",
+          "unit": "N\u00b7m",
+          "condition": "Clean drain plug with new washer"
+        },
+        {
+          "label": "Drain plug torque",
+          "value": "3.0 - 4.0",
+          "unit": "kg-m",
+          "condition": "Clean drain plug with new washer"
+        },
+        {
+          "label": "Drain plug torque",
+          "value": "22 - 29",
+          "unit": "ft-lb",
+          "condition": "Clean drain plug with new washer"
+        },
+        {
+          "label": "Refill oil capacity (with oil filter change)",
+          "value": "3.1",
+          "unit": "\u2113 (5-1/2 Imp pt)",
+          "condition": "With oil filter change"
+        },
+        {
+          "label": "Refill oil capacity (without oil filter change)",
+          "value": "2.9",
+          "unit": "\u2113 (5 Imp pt)",
+          "condition": "Without oil filter change"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

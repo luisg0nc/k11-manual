@@ -1,0 +1,173 @@
+{
+  "page_code": "ST-8",
+  "section": "ST",
+  "title": "ON-VEHICLE INSPECTION \u2014 Power Steering (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_ST-8.jpg",
+  "continuation": {
+    "continues_from": "ST-7",
+    "continues_to": "ST-9"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST016",
+      "type": "tool_illustration",
+      "description": "Illustration showing KV481 02500 adapter fittings and ST2700/000 tool installed on the power steering hydraulic line for pressure gauge fitting.",
+      "bbox_percent": [
+        2,
+        13,
+        38,
+        32
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST834",
+      "type": "component_photo",
+      "description": "Diagram of the power steering hydraulic circuit showing pump, gear, tank, high-pressure hose, low-pressure hose, direction of oil flow, and ST27091000 pressure gauge tool.",
+      "bbox_percent": [
+        2,
+        33,
+        38,
+        62
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON-VEHICLE INSPECTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Power Steering (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Incomplete air bleeding will cause the following to occur. When this happens, bleed air again.\na. Generation of air bubbles in reservoir tank\nb. Generation of clicking noise in oil pump\nc. Excessive buzzing in oil pump\nWhile the vehicle is stationary or while moving the steering wheel slowly, fluid noise may occur in the valve or oil pump. This noise will not affect performance or durability of the system.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Checking Hydraulic System"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure drive-belt to power steering pulley is correctly tensioned (refer to MA section for tensioning procedures). Ensure tires are inflated to the correct pressure.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "checking_hydraulic_system",
+      "title": "Checking Hydraulic System",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Fit oil pressure gauge in fluid line between the pump and steering gear using the relevant adapters. Open the shut-off valve and bleed air from the system as previously instructed.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Run engine at idle speed until temperature of fluid in reservoir rises to 60 to 80\u00b0C (140 to 176\u00b0 F).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Check the pressure level when the steering wheel is turned fully clockwise and anti-clockwise with the engine set at idle speed.",
+          "figure_ref": "fig2",
+          "warnings": [
+            "Ensure the pressure gauge shut-off valve is fully opened when the engine is running. If the engine is allowed to run with the shut-off valve closed, oil pressure in the oil pump will increase to relief pressure, resulting in an abnormal rise in oil temperature."
+          ],
+          "notes": [
+            "CAUTION: Do not hold the steering wheel in a locked position for more than 15 seconds."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "If the oil pressure is below the standard, slowly close the shut-off valve while checking the change in pressure shown on the gauge.\n\u2022 If the pressure becomes standard, the steering gear is damaged.\n\u2022 If the pressure remains low, the pump is damaged.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "CAUTION: Do not close shut-off valve for more than 15 seconds."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "If the oil pressure is higher than standard pressure, the pump is damaged.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "After checking hydraulic system, remove pressure gauge and add fluid to the reservoir as necessary. Ensure that all the air is completely bled out of the system using the procedure stated previously.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Oil pump maximum standard pressure",
+          "value": "5,786 - 6,375",
+          "unit": "kPa",
+          "condition": "Steering wheel turned fully clockwise/anti-clockwise, engine at idle"
+        },
+        {
+          "label": "Oil pump maximum standard pressure",
+          "value": "57.9 - 63.7",
+          "unit": "bar",
+          "condition": "Steering wheel turned fully clockwise/anti-clockwise, engine at idle"
+        },
+        {
+          "label": "Oil pump maximum standard pressure",
+          "value": "59 - 65",
+          "unit": "kg/cm\u00b2",
+          "condition": "Steering wheel turned fully clockwise/anti-clockwise, engine at idle"
+        },
+        {
+          "label": "Oil pump maximum standard pressure",
+          "value": "839 - 924",
+          "unit": "psi",
+          "condition": "Steering wheel turned fully clockwise/anti-clockwise, engine at idle"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV481 02500",
+      "name": "Adapter fitting",
+      "usage": "Fitting oil pressure gauge in fluid line between pump and steering gear"
+    },
+    {
+      "part_number": "ST2700/000",
+      "name": "Pressure gauge assembly",
+      "usage": "Measuring oil pressure in power steering hydraulic system"
+    },
+    {
+      "part_number": "ST27091000",
+      "name": "Pressure gauge (shut-off valve type)",
+      "usage": "Measuring oil pressure and checking for pressure change when shut-off valve is closed"
+    }
+  ],
+  "cross_references": [
+    "MA section \u2014 drive-belt tensioning procedures",
+    "ST-7"
+  ],
+  "model_notes": null
+}

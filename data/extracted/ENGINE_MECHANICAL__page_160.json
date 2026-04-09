@@ -1,0 +1,86 @@
+{
+  "page_code": "EM-5027",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "em-5027.jpg",
+  "continuation": {
+    "continues_from": "EM-5026",
+    "continues_to": "EM-5028"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM273",
+      "type": "parts_diagram",
+      "description": "Rocker cover bolt tightening sequence diagram showing 8 numbered bolt positions on the rocker cover",
+      "bbox_percent": [
+        2,
+        14,
+        35,
+        32
+      ],
+      "associated_step": "4"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Check valve clearance. Refer to \"VALVE CLEARANCE\", (EM-5028).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Install rocker cover. Tighten rocker cover bolts to the specified torque in 2 stages in numerical order as shown in the figure.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install front exhaust pipe to manifold.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Install injection tubes.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Install all futher parts in reverse order of removal.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM-5028"
+  ],
+  "model_notes": null
+}

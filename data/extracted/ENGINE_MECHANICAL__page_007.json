@@ -1,0 +1,229 @@
+{
+  "page_code": "EM-4",
+  "section": "EM",
+  "title": "PREPARATION",
+  "page_type": "spec_table",
+  "source_image": "EM-4.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Lifter stopper set - showing camshaft pliers (item 1) and lifter stopper (item 2)",
+      "bbox_percent": [
+        14,
+        3,
+        45,
+        17
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Piston ring compressor",
+      "bbox_percent": [
+        14,
+        18,
+        45,
+        27
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Piston pin press stand assembly showing items 1-5: center shaft, stand, spring, cap, drift",
+      "bbox_percent": [
+        14,
+        28,
+        45,
+        50
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Seal cutter",
+      "bbox_percent": [
+        14,
+        51,
+        45,
+        62
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Tube presser (caulking gun style)",
+      "bbox_percent": [
+        14,
+        63,
+        45,
+        75
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Angle wrench",
+      "bbox_percent": [
+        14,
+        76,
+        45,
+        92
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "table",
+      "title": "PREPARATION \u2014 Special Service Tools",
+      "columns": [
+        {
+          "key": "tool_number",
+          "label": "Tool number / Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "tool_number": "KV10115110 (sub: Camshaft pliers), KV10115120 (sub: Lifter stopper)",
+          "tool_name": "KV10151S0 \u2014 Lifter stopper set",
+          "description": "Changing shims",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_number": "EM03470000",
+          "tool_name": "Piston ring compressor",
+          "description": "Installing piston assembly into cylinder bore",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_number": "KV10116620 (sub: Center shaft), ST13040000 (sub: Stand), ST13040030 (sub: Spring), KV10116610 (sub: Cap), KV10114130 (sub: Drift)",
+          "tool_name": "KV10107400 \u2014 Piston pin press stand",
+          "description": "Disassembling and assembling piston pin",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_number": "KV10111100",
+          "tool_name": "Seal cutter",
+          "description": "Removing oil pan",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_number": "WS39930000",
+          "tool_name": "Tube presser",
+          "description": "Pressing the tube of liquid gasket",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_number": "KV10112100",
+          "tool_name": "Angle wrench",
+          "description": "Tightening bolts for bearing cap, cylinder head, etc.",
+          "cg10de": "O",
+          "cg13de": "O"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10151S0",
+      "name": "Lifter stopper set",
+      "usage": "Changing shims"
+    },
+    {
+      "part_number": "KV10115110",
+      "name": "Camshaft pliers",
+      "usage": "Changing shims (part of KV10151S0)"
+    },
+    {
+      "part_number": "KV10115120",
+      "name": "Lifter stopper",
+      "usage": "Changing shims (part of KV10151S0)"
+    },
+    {
+      "part_number": "EM03470000",
+      "name": "Piston ring compressor",
+      "usage": "Installing piston assembly into cylinder bore"
+    },
+    {
+      "part_number": "KV10107400",
+      "name": "Piston pin press stand",
+      "usage": "Disassembling and assembling piston pin"
+    },
+    {
+      "part_number": "KV10116620",
+      "name": "Center shaft",
+      "usage": "Disassembling and assembling piston pin (part of KV10107400)"
+    },
+    {
+      "part_number": "ST13040000",
+      "name": "Stand",
+      "usage": "Disassembling and assembling piston pin (part of KV10107400)"
+    },
+    {
+      "part_number": "ST13040030",
+      "name": "Spring",
+      "usage": "Disassembling and assembling piston pin (part of KV10107400)"
+    },
+    {
+      "part_number": "KV10116610",
+      "name": "Cap",
+      "usage": "Disassembling and assembling piston pin (part of KV10107400)"
+    },
+    {
+      "part_number": "KV10114130",
+      "name": "Drift",
+      "usage": "Disassembling and assembling piston pin (part of KV10107400)"
+    },
+    {
+      "part_number": "KV10111100",
+      "name": "Seal cutter",
+      "usage": "Removing oil pan"
+    },
+    {
+      "part_number": "WS39930000",
+      "name": "Tube presser",
+      "usage": "Pressing the tube of liquid gasket"
+    },
+    {
+      "part_number": "KV10112100",
+      "name": "Angle wrench",
+      "usage": "Tightening bolts for bearing cap, cylinder head, etc."
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Engine application columns cover CG10DE and CG13DE; all listed tools apply to both engines."
+}

@@ -1,0 +1,268 @@
+{
+  "page_code": "MA-7010",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (Except for Europe) \u2014 CHASSIS AND BODY MAINTENANCE",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (Except for Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CHASSIS AND BODY MAINTENANCE"
+    },
+    {
+      "block_type": "prose",
+      "text": "Abbreviations: I = Inspect and correct or replace as necessary. R = Replace A = Adjust.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Chassis and Body Maintenance Interval Schedule",
+      "columns": [
+        {
+          "key": "operation",
+          "label": "MAINTENANCE OPERATION"
+        },
+        {
+          "key": "km_x1000",
+          "label": "km x 1,000"
+        },
+        {
+          "key": "miles_x1000",
+          "label": "miles x 1,000"
+        },
+        {
+          "key": "months",
+          "label": "Months"
+        },
+        {
+          "key": "int_1",
+          "label": "1 / (0.6) / 6"
+        },
+        {
+          "key": "int_10",
+          "label": "10 / (6) / 12"
+        },
+        {
+          "key": "int_20",
+          "label": "20 / (12) / 18"
+        },
+        {
+          "key": "int_30",
+          "label": "30 / (18) / 24"
+        },
+        {
+          "key": "int_40",
+          "label": "40 / (24) / 30"
+        },
+        {
+          "key": "int_50",
+          "label": "50 / (30) / 36"
+        },
+        {
+          "key": "int_60",
+          "label": "60 / (36) / 42"
+        },
+        {
+          "key": "int_70",
+          "label": "70 / (42) / 48"
+        },
+        {
+          "key": "int_80",
+          "label": "80 / (48) / 48"
+        }
+      ],
+      "rows": [
+        {
+          "section_header": "Underbonnet and under vehicle"
+        },
+        {
+          "operation": "Brake, clutch fluid (for level & leaks) \u2605",
+          "int_1": "I",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Brake fluid \u2605",
+          "int_40": "R",
+          "int_80": "R"
+        },
+        {
+          "operation": "Brake booster vacuum hoses, connections & check valve",
+          "int_20": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Power steering fluids & lines (for level & leaks)",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Exhaust system",
+          "int_1": "I",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "CVT fluid (for level and leaks)",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "CVT fluid \u2605",
+          "int_40": "R",
+          "int_80": "R"
+        },
+        {
+          "operation": "Manual transmission gear oil (for level & leaks)",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Differential gear oil (for level and leaks) \u2605",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Steering gear (box) & linkage, axle & suspension parts, propeller shafts & front drive shaft \u2605",
+          "int_1": "I",
+          "int_20": "I",
+          "int_40": "I",
+          "int_60": "I",
+          "int_80": "I"
+        },
+        {
+          "section_header": "Outside and inside"
+        },
+        {
+          "operation": "Wheel alignment (if necessary, rotate & balance wheels)",
+          "int_20": "I",
+          "int_40": "I",
+          "int_60": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Brake pads, rotors & other brake components \u2605",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Brake linings, drums & other brake components \u2605",
+          "int_30": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Front wheel bearing grease \u2605",
+          "int_40": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Locks, hinges & hood latch \u2605",
+          "int_10": "L",
+          "int_20": "L",
+          "int_30": "L",
+          "int_40": "L",
+          "int_50": "L",
+          "int_60": "L",
+          "int_70": "L",
+          "int_80": "L"
+        },
+        {
+          "operation": "Seat belts, buckles, retractors, anchors & adjuster",
+          "int_20": "I",
+          "int_40": "I",
+          "int_60": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Foot brake, parking brake & clutch (for free play, stroke & operation)",
+          "int_10": "I",
+          "int_20": "I",
+          "int_30": "I",
+          "int_40": "I",
+          "int_50": "I",
+          "int_60": "I",
+          "int_70": "I",
+          "int_80": "I"
+        },
+        {
+          "operation": "Ventilation air filter \u2605",
+          "int_20": "R",
+          "int_40": "R",
+          "int_60": "R",
+          "int_80": "R"
+        },
+        {
+          "operation": "Air bag system",
+          "note": "See NOTE (1)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: Maintenance items with \"\u2605\" should be performed more frequently according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(1) Inspect at the first 10 years, and then every 2 years.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Schedule applies except for Europe. CVT fluid entries apply to CVT-equipped vehicles. Manual transmission gear oil entries apply to M/T vehicles. Differential gear oil entries apply where applicable."
+}

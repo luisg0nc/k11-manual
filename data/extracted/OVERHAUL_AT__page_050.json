@@ -1,0 +1,131 @@
+{
+  "page_code": "AT-50",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Self-diagnosis Items (using CONSULT)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT097",
+      "type": "tool_illustration",
+      "description": "Illustration of the CONSULT diagnostic tool device",
+      "bbox_percent": [
+        0,
+        2,
+        30,
+        22
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT098",
+      "type": "tool_illustration",
+      "description": "CONSULT screen showing NISSAN CONSULT with START and SUB-MODE buttons",
+      "bbox_percent": [
+        0,
+        25,
+        30,
+        48
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT099",
+      "type": "tool_illustration",
+      "description": "CONSULT screen showing SELF-DIAG RESULTS with FAILURE DETECTED RANGE SWITCH and ERASE/PRINT buttons",
+      "bbox_percent": [
+        0,
+        50,
+        30,
+        70
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Self-diagnosis Items (using CONSULT)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc1",
+      "title": "Self-diagnosis Items (using CONSULT)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Turn ignition switch \"OFF\"",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Connect CONSULT connector to vehicle diagnostic connector. The diagnostic connector is in the fuse box.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Start engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Touch \"START\", \"CVT\", \"SELF-DIAG RESULTS\" in this order on the CONSULT screen.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Self diagnostic results are displayed on the screen.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Take the following precautions when using CONSULT for self-diagnosis of ENGINE and N\u2022CVT in models equipped with ABS.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Connect the vehicle self-diagnostic connector to CONSULT and turn the ignition switch \"ON\". When the \"SELF-DIAG RESULTS\" screen is displayed, the ABS warning lamp blinks, the ABS self-diagnosis result screen starts and the fail-safe mode is entered.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "The conditions described above occur when self-diagnosis is performed with CONSULT. When each self-diagnosis is completed, always turn ignition switch \"OFF\" to cancel the fail-safe.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "CONSULT",
+      "name": "CONSULT diagnostic tool",
+      "usage": "Connect to vehicle diagnostic connector (located in fuse box) to perform self-diagnosis of CVT"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Applicable to models equipped with N\u2022CVT and ABS. Note regarding ABS warning lamp behaviour when using CONSULT for ENGINE and N\u2022CVT self-diagnosis on ABS-equipped models."
+}

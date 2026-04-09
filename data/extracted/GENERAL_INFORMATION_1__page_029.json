@@ -1,0 +1,102 @@
+{
+  "page_code": "GI-25",
+  "section": "GI",
+  "title": "LIFTING POINTS AND TOW TRUCK TOWING",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "GI-24",
+    "continues_to": "GI-26"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI366",
+      "type": "vehicle_diagram",
+      "description": "Two illustrations showing recommended tow truck towing method with front (driving) wheels off the ground \u2014 one hatchback, one sedan",
+      "bbox_percent": [
+        2,
+        11,
+        38,
+        32
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SGI368",
+      "type": "vehicle_diagram",
+      "description": "Illustration showing incorrect towing of N-CVT model with rear wheels raised and front wheels on ground",
+      "bbox_percent": [
+        2,
+        67,
+        38,
+        87
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "Tow Truck Towing"
+    },
+    {
+      "block_type": "prose",
+      "text": "All applicable local laws regarding the towing operation must be obeyed.\nIt is necessary to use proper towing equipment to avoid possible damage to the vehicle during a towing operation.\nWhen towing with the rear wheels on the ground, release the parking brake and move the gearshift lever to neutral (\"N\" position).",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "NISSAN recommends that vehicles be towed with the driving (front) wheels off the ground as illustrated.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "TOWING AN N-CVT MODEL WITH FOUR WHEELS ON GROUND"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before towing an N-CVT model with four wheels on ground, the N-CVT fluid level should be checked.\nObserve the following restricted towing speeds and distances.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Speed",
+          "value": "Below 30 km/h (20 MPH)",
+          "unit": "",
+          "condition": "N-CVT model with four wheels on ground"
+        },
+        {
+          "label": "Distance",
+          "value": "Less than 30 km (20 miles)",
+          "unit": "",
+          "condition": "N-CVT model with four wheels on ground"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Never tow an N-CVT model from the rear (i.e., backward) with four wheels on the ground as this may cause serious and expensive damage to the transaxle.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "TOWING AN N-CVT MODEL WITH REAR WHEELS RAISED (With front wheels on ground)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Never tow an N-CVT model with rear wheels raised (with front wheels on ground) as this may cause serious and expensive damage to the transaxle. If it is necessary to tow it with rear wheels raised, always use a towing dolly under the front wheels.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N-CVT (Nissan Continuously Variable Transmission) specific towing restrictions noted. Different procedures apply for N-CVT vs standard manual transmission models."
+}

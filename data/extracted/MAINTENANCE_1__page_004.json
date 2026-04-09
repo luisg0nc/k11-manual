@@ -1,0 +1,141 @@
+{
+  "page_code": "MA-4",
+  "section": "MA",
+  "title": "GENERAL MAINTENANCE",
+  "page_type": "prose_procedure",
+  "source_image": "page_MA-4.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL MAINTENANCE"
+    },
+    {
+      "block_type": "prose",
+      "text": "General maintenance includes those items which should be checked during the normal day-to-day operation of the vehicle. They are essential if the vehicle is to continue operating properly. The owners can perform the checks and inspections themselves or they can have their NISSAN dealers do them.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "General Maintenance Items",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "ref",
+          "label": "Reference pages"
+        }
+      ],
+      "rows": [
+        {
+          "item": "OUTSIDE THE VEHICLE",
+          "ref": ""
+        },
+        {
+          "item": "The maintenance items listed here should be performed from time to time, unless otherwise specified.",
+          "ref": ""
+        },
+        {
+          "item": "Tires Check the pressure with a gauge periodically when at a service station, including the spare, and adjust to the specified pressure if necessary. Check carefully for damage, cuts or excessive wear.",
+          "ref": "\u2014"
+        },
+        {
+          "item": "Windshield wiper blades Check for cracks or wear if they do not wipe properly.",
+          "ref": "\u2014"
+        },
+        {
+          "item": "Doors and engine hood Check that all doors, the engine hood, the trunk lid and back door operate properly. Also ensure that all latches lock securely. Lubricate if necessary. Make sure that the secondary latch keeps the hood from opening when the primary latch is released. When driving in areas using road salt or other corrosive materials, check for lubrication frequently.",
+          "ref": "MA-23"
+        },
+        {
+          "item": "Tire rotation Tires should be rotated every 10,000 km (6,000 miles).",
+          "ref": "MA-22"
+        },
+        {
+          "item": "INSIDE THE VEHICLE",
+          "ref": ""
+        },
+        {
+          "item": "The maintenance items listed here should be checked on a regular basis, such as when performing periodic maintenance, cleaning the vehicle, etc.",
+          "ref": ""
+        },
+        {
+          "item": "Lights Make sure that the headlights, stop lights, tail lights, turn signal lights, and other lights are all operating properly and installed securely. Also check headlight aim.",
+          "ref": "\u2014"
+        },
+        {
+          "item": "Warning lights and chimes Make sure that all warning lights and chimes are operating properly.",
+          "ref": "\u2014"
+        },
+        {
+          "item": "Steering wheel Check for change in the steering conditions, such as excessive free play, hard steering or strange noises. Free play: Less than 35 mm (1.38 in)",
+          "ref": "ST-4"
+        },
+        {
+          "item": "UNDER THE HOOD AND VEHICLE",
+          "ref": ""
+        },
+        {
+          "item": "The maintenance items listed here should be checked periodically e.g. each time you check the engine oil or refuel.",
+          "ref": ""
+        },
+        {
+          "item": "Windshield washer fluid Check that there is adequate fluid in the tank.",
+          "ref": "\u2014"
+        },
+        {
+          "item": "Engine coolant level Check the coolant level when the engine is cold.",
+          "ref": "MA-9"
+        },
+        {
+          "item": "Engine oil level Check the level after parking the vehicle on a level spot and turning off the engine.",
+          "ref": "MA-12"
+        },
+        {
+          "item": "Brake fluid level Make sure that the brake fluid level is between the \"MAX\" and \"MIN\" lines on the reservoir.",
+          "ref": "MA-19"
+        },
+        {
+          "item": "Battery Check the fluid level in each cell. It should be between the \"MAX\" and \"MIN\" lines.",
+          "ref": "EL-16"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Steering wheel free play",
+          "value": "Less than 35",
+          "unit": "mm (1.38 in)",
+          "condition": ""
+        },
+        {
+          "label": "Tire rotation interval",
+          "value": "Every 10,000",
+          "unit": "km (6,000 miles)",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA-9",
+    "MA-12",
+    "MA-19",
+    "MA-22",
+    "MA-23",
+    "ST-4",
+    "EL-16"
+  ],
+  "model_notes": null
+}

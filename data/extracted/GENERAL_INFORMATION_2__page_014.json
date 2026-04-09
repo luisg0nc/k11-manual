@@ -1,0 +1,122 @@
+{
+  "page_code": "GI-11",
+  "section": "GI",
+  "title": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES",
+  "page_type": "prose_procedure",
+  "source_image": "GI-11.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "component_photo",
+      "description": "Example flowchart block showing CHECK POWER SUPPLY procedure with annotations indicating 'Check item being performed' and 'Procedure, steps or measurement results'",
+      "bbox_percent": [
+        25,
+        10,
+        85,
+        28
+      ],
+      "associated_step": "1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO FOLLOW FLOW CHART IN TROUBLE DIAGNOSES"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "HOW TO FOLLOW THIS FLOW CHART"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "1 Work and diagnostic procedure"
+    },
+    {
+      "block_type": "prose",
+      "text": "Start to diagnose a problem using procedures indicated in enclosed blocks, as shown in the following example.",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Example Flow Chart Block",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "CHECK POWER SUPPLY.\n1) Turn ignition switch \"ON\".\n2) Check voltage between terminal (b) and ground.\nBattery voltage should exist."
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "O.K."
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "2 Measurement results"
+    },
+    {
+      "block_type": "prose",
+      "text": "Required results are indicated in bold type in the corresponding block, as shown below:\nThese have the following meanings:\nBattery voltage \u2192 11 - 14V\nVoltage: Approximately 0V \u2192 Less than 1V",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Battery voltage",
+          "value": "11 - 14",
+          "unit": "V",
+          "condition": "Normal battery voltage range"
+        },
+        {
+          "label": "Voltage (Approximately 0V)",
+          "value": "Less than 1",
+          "unit": "V",
+          "condition": "Low voltage condition"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "3 Cross reference of work symbols in the text and illustrations"
+    },
+    {
+      "block_type": "prose",
+      "text": "Illustrations are provided as visual aids for work procedures. For example, symbol A indicated in the left upper portion of each illustration corresponds with the symbol in the flow chart for easy identification. More precisely, the procedure under the \"CHECK POWER SUPPLY\" outlined previously is indicated by an illustration A .",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "4 Symbols used in illustrations"
+    },
+    {
+      "block_type": "prose",
+      "text": "Symbols included in illustrations refer to measurements or procedures. Before diagnosing a problem, familiarize yourself with each symbol.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

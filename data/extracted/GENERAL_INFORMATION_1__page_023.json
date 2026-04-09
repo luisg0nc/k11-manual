@@ -1,0 +1,202 @@
+{
+  "page_code": "GI-19",
+  "section": "GI",
+  "title": "Identification Information \u2014 Identification Number (Cont'd) \u2014 Identification Plate",
+  "page_type": "prose_procedure",
+  "source_image": "GI-19.jpg",
+  "continuation": {
+    "continues_from": "GI-18",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI025",
+      "type": "component_photo",
+      "description": "Identification plate layout showing NISSAN MOTOR CO.,LTD.JAPAN with numbered callout positions for type approval number, VIN, gross vehicle weight, gross combination weight, gross axle weights, type, body color code, trim color code, and model.",
+      "bbox_percent": [
+        2,
+        3,
+        65,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UGI007",
+      "type": "component_photo",
+      "description": "CG10DE and CG13DE engine showing location of engine serial number and engine type markings, with Front orientation indicated.",
+      "bbox_percent": [
+        2,
+        24,
+        55,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UGI012",
+      "type": "component_photo",
+      "description": "Manual transaxle showing location of transaxle serial number.",
+      "bbox_percent": [
+        2,
+        54,
+        48,
+        82
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UGI011",
+      "type": "component_photo",
+      "description": "Automatic transaxle showing location of transaxle serial number and transaxle type.",
+      "bbox_percent": [
+        50,
+        54,
+        98,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Identification Number (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "IDENTIFICATION PLATE"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Type approval number",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Vehicle identification number (Chassis number)",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Gross vehicle weight",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Gross combination weight",
+          "note": "Gross vehicle weight + Gross trailing capacity (Weight)"
+        },
+        {
+          "number": 5,
+          "name": "Gross axle weight (Front)",
+          "note": ""
+        },
+        {
+          "number": 6,
+          "name": "Gross axle weight (Rear)",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "Type",
+          "note": ""
+        },
+        {
+          "number": 8,
+          "name": "Body color code",
+          "note": ""
+        },
+        {
+          "number": 9,
+          "name": "Trim color code",
+          "note": ""
+        },
+        {
+          "number": 10,
+          "name": "Model",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ENGINE SERIAL NUMBER"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "CG10DE and CG13DE engine serial number and engine type location",
+      "callouts": [
+        {
+          "label": "Front",
+          "position": "left side of engine"
+        },
+        {
+          "label": "Engine serial number",
+          "position": "lower left area of engine block"
+        },
+        {
+          "label": "Engine type",
+          "position": "lower right area of engine block"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "MANUAL TRANSAXLE NUMBER"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "Manual transaxle serial number location",
+      "callouts": [
+        {
+          "label": "Transaxle serial number",
+          "position": "upper area of transaxle casing"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "AUTOMATIC TRANSAXLE NUMBER"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "Automatic transaxle serial number and transaxle type location",
+      "callouts": [
+        {
+          "label": "Transaxle serial number",
+          "position": "upper area of transaxle"
+        },
+        {
+          "label": "Transaxle type",
+          "position": "lower area of transaxle"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Engine serial number location applies to both CG10DE and CG13DE engines. Manual and automatic transaxle number locations shown separately."
+}

@@ -1,0 +1,249 @@
+{
+  "page_code": "AT-30",
+  "section": "AT",
+  "title": "Component Parts \u2014 Forward \u2014 Reverse Gears",
+  "page_type": "parts_diagram",
+  "source_image": "AT-30.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT038",
+      "type": "parts_diagram",
+      "description": "Exploded view of Forward \u2014 Reverse Gears assembly including reverse idler shaft, needle bearings, reverse idler gear, counter shaft, counter gear, main drive shaft, synchroniser components, baulk rings, and housing",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        92
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Forward \u2014 Reverse Gears"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Reverse idler shaft",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Reverse idler gear",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Circlip",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 6,
+          "name": "Washer",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Roll pin",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 8,
+          "name": "Knock pin",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Counter shaft",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Counter gear",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Roll pin",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 12,
+          "name": "Main drive shaft",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Oil seal",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 14,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Bearing",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "Retainer",
+          "note": null
+        },
+        {
+          "number": 17,
+          "name": "Circlip",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 18,
+          "name": "Seal",
+          "note": "Apply ATF; Do not re-use"
+        },
+        {
+          "number": 19,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 20,
+          "name": "Baulk ring",
+          "note": null
+        },
+        {
+          "number": 21,
+          "name": "Shift insert",
+          "note": null
+        },
+        {
+          "number": 22,
+          "name": "Synchroniser hub",
+          "note": null
+        },
+        {
+          "number": 23,
+          "name": "Baulk ring",
+          "note": null
+        },
+        {
+          "number": 24,
+          "name": "Reverse drive gear",
+          "note": null
+        },
+        {
+          "number": 25,
+          "name": "Synchroniser coupling sleeve",
+          "note": null
+        },
+        {
+          "number": 26,
+          "name": "Synchroniser spring",
+          "note": null
+        },
+        {
+          "number": 27,
+          "name": "Circlip",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 28,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 29,
+          "name": "Oil seal",
+          "note": "Apply ATF; Do not re-use"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Counter gear bearing torque (position 1)",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Counter gear bearing torque (position 1) \u2014 kgm",
+          "value": "0.46 - 0.62",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Counter gear bearing torque (position 1) \u2014 ft-lb",
+          "value": "3 - 4",
+          "unit": "ft-lb",
+          "condition": null
+        },
+        {
+          "label": "Main drive shaft bearing torque (position 2)",
+          "value": "4.5 - 5.5",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Main drive shaft bearing torque (position 2) \u2014 kgm",
+          "value": "0.46 - 0.62",
+          "unit": "Kgm",
+          "condition": null
+        },
+        {
+          "label": "Main drive shaft bearing torque (position 2) \u2014 ft-lb",
+          "value": "3 - 4",
+          "unit": "ft-lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Torque symbol: N\u00b7m (Kgm, ft-lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "ATF symbol: Apply ATF",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not re-use symbol indicates parts that must not be reused.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Page relates to automatic transmission (AT) Forward-Reverse gear assembly for K11 Nissan Micra 1993-2003."
+}

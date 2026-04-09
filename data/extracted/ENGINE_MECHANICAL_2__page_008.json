@@ -1,0 +1,134 @@
+{
+  "page_code": "EM-7008",
+  "section": "EM",
+  "title": "TIMING CHAIN",
+  "page_type": "prose_procedure",
+  "source_image": "EM-7008.jpg",
+  "continuation": {
+    "continues_from": "EM-7007",
+    "continues_to": "EM-7009"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM049",
+      "type": "parts_diagram",
+      "description": "Front cover with bolts indicated by arrows showing removal points",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "26"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM043",
+      "type": "parts_diagram",
+      "description": "Lower timing chain assembly diagram showing idler sprocket, slack guide, tension guide, lower tensioner, oil pump drive spacer, crankshaft sprocket, and lower timing chain",
+      "bbox_percent": [
+        0,
+        22,
+        35,
+        60
+      ],
+      "associated_step": "27"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM119D",
+      "type": "parts_diagram",
+      "description": "Timing chain roller link inspection diagram showing crack and wear indicators on chain links",
+      "bbox_percent": [
+        0,
+        60,
+        35,
+        90
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 26,
+          "text": "Remove front cover bolts and front cover as shown.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 27,
+          "text": "Remove lower timing chain tension guide.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 28,
+          "text": "Remove lower tensioner.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 29,
+          "text": "Remove idler sprocket shaft.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Remove lower timing chain.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Remove oil pump drive spacer.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 32,
+          "text": "Remove crankshaft sprocket.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for cracks and excessive wear at roller links. Replace if necessary.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

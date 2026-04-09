@@ -1,0 +1,73 @@
+{
+  "page_code": "AT-103",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-103.jpg",
+  "continuation": {
+    "continues_from": "AT-102",
+    "continues_to": "AT-104"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT200",
+      "type": "component_photo",
+      "description": "View of transmission casing showing pitot tube positioned prior to primary pulley removal, with arrow indicating tube position",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        30
+      ],
+      "associated_step": "50"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT201",
+      "type": "component_photo",
+      "description": "Hands lifting out the primary pulley assembly from the transmission casing",
+      "bbox_percent": [
+        0,
+        32,
+        38,
+        60
+      ],
+      "associated_step": "51"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 50,
+          "text": "Position the pitot tube as shown, prior to primary pulley removal. This will prevent the pulley damaging the tube.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 51,
+          "text": "Lift out the primary pulley assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Store in clean conditions."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

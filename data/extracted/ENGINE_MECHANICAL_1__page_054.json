@@ -1,0 +1,73 @@
+{
+  "page_code": "EM-56",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-56.jpg",
+  "continuation": {
+    "continues_from": "EM-55",
+    "continues_to": "EM-57"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM101",
+      "type": "parts_diagram",
+      "description": "Oil seal housing diagram showing liquid gasket application areas at sections A-A and B-B, with bead width 2.0\u20133.0 mm (0.079\u20130.118 in) indicated at both locations",
+      "bbox_percent": [
+        2,
+        2,
+        45,
+        18
+      ],
+      "associated_step": "7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 7,
+          "text": "When oil seal housing is installed, make sure new oil seal is fitted. Apply liquid gasket to oil seal housing as indicated.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width at section A-A",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Oil seal housing mating surface"
+        },
+        {
+          "label": "Liquid gasket bead width at section B-B",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Oil seal housing mating surface"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

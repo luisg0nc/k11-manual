@@ -1,0 +1,172 @@
+{
+  "page_code": "EM-7018",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-7017",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM877A",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt washer orientation \u2014 washer shown with chamfered side toward cylinder head side",
+      "bbox_percent": [
+        2,
+        2,
+        45,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM124D",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt tightening sequence diagram \u2014 bolts numbered 1-15 tighten in numerical order",
+      "bbox_percent": [
+        2,
+        18,
+        45,
+        42
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM110",
+      "type": "parts_diagram",
+      "description": "Graph showing tightening torque procedure stages a through e for cylinder head bolts \u2014 Y-axis: Tightening torque N\u00b7m (kg-m, ft-lb); stages a=39(4.0,29), b=78(8.0,58), c=loosen completely, d=35(3.6,26), e=60 degrees",
+      "bbox_percent": [
+        2,
+        42,
+        45,
+        62
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_cylinder_head_install_contd",
+      "title": "Tightening procedure (bolts 1-10)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Tighten bolts to 39 N\u00b7m (4.0 kg-m, 29 ft-lb). [Step a]",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Tighten bolts to 78 N\u00b7m (8.0 kg-m, 58 ft-lb). [Step b]",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Loosen bolts completely. [Step c]",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Tighten bolts to 35 N\u00b7m (3.6 kg-m, 26 ft-lb). [Step d]",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Turn bolts 60 degrees clockwise. [Step e]",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Tighten bolts (11 - 15) to 6.3 to 8.3 N\u00b7m (0.64 to 0.85 kg-m, 4.6 to 6.1 ft-lb). [Step f]",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Install idler sprocket bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening torque N\u00b7m (kg-m, ft-lb)",
+      "columns": [
+        {
+          "key": "bolt_group",
+          "label": "Bolt Group"
+        },
+        {
+          "key": "step_a",
+          "label": "a"
+        },
+        {
+          "key": "step_b",
+          "label": "b"
+        },
+        {
+          "key": "step_c",
+          "label": "c"
+        },
+        {
+          "key": "step_d",
+          "label": "d"
+        },
+        {
+          "key": "step_e",
+          "label": "e"
+        }
+      ],
+      "rows": [
+        {
+          "bolt_group": "Bolts (1 - 10)",
+          "step_a": "39 (4.0, 29)",
+          "step_b": "78 (8.0, 58)",
+          "step_c": "0 (0,0)",
+          "step_d": "35 (3.6, 26)",
+          "step_e": "60 degrees"
+        },
+        {
+          "bolt_group": "Bolts (11 - 15)",
+          "step_a": "\u2014",
+          "step_b": "\u2014",
+          "step_c": "\u2014",
+          "step_d": "\u2014",
+          "step_e": "6.3 - 8.3 (0.64 - 0.85, 4.6 - 6.1)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

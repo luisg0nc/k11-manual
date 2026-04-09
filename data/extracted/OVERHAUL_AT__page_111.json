@@ -1,0 +1,156 @@
+{
+  "page_code": "AT-111",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_AT-111.jpg",
+  "continuation": {
+    "continues_from": "AT-110",
+    "continues_to": "AT-112"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT228",
+      "type": "tool_illustration",
+      "description": "Depth gauge tool KV319-K0020 being used to measure depth at mating surface of side case for primary pulley ball bearing mounting portion",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        18
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT229",
+      "type": "component_photo",
+      "description": "Cross-section diagram showing Gauge KV319-K0130 positioned with Lp and Ls measurements indicated for primary and secondary pulley bearing depths",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        40
+      ],
+      "associated_step": "7"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT230",
+      "type": "component_photo",
+      "description": "Hand installing or adjusting shim inside CVT side case assembly",
+      "bbox_percent": [
+        0,
+        60,
+        38,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Measure the depth between the mating surface of the side case and the mounting portion of the primary pulley ball bearing and between the mating surface of the side case and the mounting portion of the secondary pulley ball bearing, using the depth gauge Tool.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "The depths must be respectively measured at four points. Determine the average values of the measurements.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Equation for calculation (Unit: mm): X = A - B - (Lp - Ls) - 24.396\n\nwhere:\nt = Shim thickness (As a result of the calculation of the above equation (x). Select a suitable shim from among those listed in the following table)\nA: Indicated primary pulley dimension [On service parts only]\nB: Indicated secondary pulley dimension [On service parts only]\nLp: Depth between upper surface of gauge and mounting portion of primary pulley bearing (average value of four-point measurements)\nLs: Depth between upper surface of gauge and mounting portion of secondary pulley bearing (average value of four-point measurements)\n24.396: Constant",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Shim Selection Table",
+      "columns": [
+        {
+          "key": "x_mm",
+          "label": "x mm (Calculated value)"
+        },
+        {
+          "key": "t_mm_in",
+          "label": "t mm (in) (Shim thickness)"
+        }
+      ],
+      "rows": [
+        {
+          "x_mm": "0 - 0.050",
+          "t_mm_in": "0 (0)"
+        },
+        {
+          "x_mm": "0.050 - 0.150",
+          "t_mm_in": "0.1 (0.004)"
+        },
+        {
+          "x_mm": "0.150 - 0.250",
+          "t_mm_in": "0.2 (0.008)"
+        },
+        {
+          "x_mm": "0.250 - 0.350",
+          "t_mm_in": "0.3 (0.012)"
+        },
+        {
+          "x_mm": "0.350 - 0.450",
+          "t_mm_in": "0.4 (0.016)"
+        },
+        {
+          "x_mm": "0.450 - 0.550",
+          "t_mm_in": "0.5 (0.020)"
+        },
+        {
+          "x_mm": "0.550 - 0.650",
+          "t_mm_in": "0.6 (0.024)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If the shim thickness determined by calculation overlaps the value in the next range, use a shim in either range. For example, if the calculated shim thickness is 0.250 mm, either a 0.2 or 0.3 mm (0.008 or 0.012) shim can be used.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0020",
+      "name": "Depth Gauge",
+      "usage": "Measure depth between mating surface of side case and mounting portion of primary/secondary pulley ball bearing"
+    },
+    {
+      "part_number": "KV319-K0130",
+      "name": "Gauge",
+      "usage": "Measure Lp and Ls depths for primary and secondary pulley bearing mounting portions"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

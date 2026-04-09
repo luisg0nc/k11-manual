@@ -1,0 +1,199 @@
+{
+  "page_code": "MA-11",
+  "section": "MA",
+  "title": "ENGINE MAINTENANCE",
+  "page_type": "prose_procedure",
+  "source_image": "ma-11.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SMA803A",
+      "type": "vehicle_diagram",
+      "description": "Underside vehicle diagram showing engine, fuel line, and fuel tank locations",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        13
+      ],
+      "associated_step": "Checking Fuel Lines"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SMA804A",
+      "type": "parts_diagram",
+      "description": "High-pressure rubber hose clamp installation showing 3 mm (0.12 in) distance from hose end",
+      "bbox_percent": [
+        0,
+        13,
+        38,
+        27
+      ],
+      "associated_step": "Checking Fuel Lines - CAUTION"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SMA340C",
+      "type": "component_photo",
+      "description": "Instrument cluster display showing FUEL PRESS RELEASE mode - fuel pump will stop by touching START during IDLE; crank a few times after engine stall",
+      "bbox_percent": [
+        0,
+        27,
+        38,
+        42
+      ],
+      "associated_step": "Changing Fuel Filter - step 1"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UMA025",
+      "type": "component_photo",
+      "description": "Fuse box diagrams for left-hand drive and right-hand drive vehicles showing fuel pump fuse location",
+      "bbox_percent": [
+        0,
+        42,
+        38,
+        57
+      ],
+      "associated_step": "Changing Fuel Filter - step 1 (alternative)"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UMA026",
+      "type": "component_photo",
+      "description": "Photo showing fuel filter location in engine compartment",
+      "bbox_percent": [
+        0,
+        57,
+        38,
+        74
+      ],
+      "associated_step": "Changing Fuel Filter - steps 5-6"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Fuel Lines"
+    },
+    {
+      "block_type": "prose",
+      "text": "Inspect fuel lines and tank for improper attachment and for leaks, cracks, damage, loose connections, chafing and deterioration.\nIf necessary, repair or replace faulty parts.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\nTighten high-pressure rubber hose clamp so that clamp end is 3 mm (0.12 in) from hose end.\nEnsure that screw does not contact adjacent parts.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Changing Fuel Filter"
+    },
+    {
+      "block_type": "prose",
+      "text": "WARNING:\nBefore removing fuel filter, release fuel pressure from fuel line to eliminate danger.",
+      "style": "warning"
+    },
+    {
+      "block_type": "procedure",
+      "id": "fuel_pressure_release_consult",
+      "title": "Fuel Pressure Release (via CONSULT)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Perform \"FUEL PRESSURE RELEASE\" in \"WORK SUPPORT\" mode and release fuel pressure to zero.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Turn ignition switch off.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "fuel_pressure_release_manual",
+      "title": "Fuel Pressure Release (Manual Method)",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove fuse for fuel pump.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Start engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "After engine stalls, crank engine two or three times to make sure that fuel pressure is released.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Turn ignition switch off and install fuse for fuel pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "fuel_filter_change",
+      "title": "Fuel Filter Replacement",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Loosen fuel hose clamps.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Replace fuel filter.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "Be careful not to spill fuel over engine compartment. Place a shop towel to absorb fuel.",
+            "Use a high-pressure type fuel filter. Do not use a synthetic resin fuel filter.",
+            "When tightening fuel hose clamps, refer to \"Checking Fuel Lines\"."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "FUEL PRESSURE RELEASE",
+    "WORK SUPPORT",
+    "Checking Fuel Lines"
+  ],
+  "model_notes": "Fuse box location differs between left-hand drive and right-hand drive vehicles. Fuel pump fuse location shown for both variants."
+}

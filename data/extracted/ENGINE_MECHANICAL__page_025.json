@@ -1,0 +1,209 @@
+{
+  "page_code": "EM-22",
+  "section": "EM",
+  "title": "TIMING CHAIN - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-22.jpg",
+  "continuation": {
+    "continues_from": "EM-21",
+    "continues_to": "EM-23"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM124D",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt tightening sequence diagram showing numbered bolt positions (1-15), tighten in numerical order",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        18
+      ],
+      "associated_step": "Tightening procedure bolts 1-10"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM110",
+      "type": "parts_diagram",
+      "description": "Graph showing tightening torque stages (a through e) versus sequence steps for cylinder head bolts, showing 39 N\u00b7m, 78 N\u00b7m, loosen, 35 N\u00b7m, and 60 degree turn stages",
+      "bbox_percent": [
+        0,
+        18,
+        38,
+        38
+      ],
+      "associated_step": "Tightening procedure bolts 1-10"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM126D",
+      "type": "parts_diagram",
+      "description": "Camshaft bracket and distributor bracket tightening sequence diagram showing numbered positions, with note to apply liquid gasket to distributor bracket",
+      "bbox_percent": [
+        0,
+        55,
+        38,
+        80
+      ],
+      "associated_step": "step16"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_tightening",
+      "title": "Tightening procedure (bolts 1-10)",
+      "steps": [
+        {
+          "step": "a",
+          "text": "Tighten bolts to 39 N\u00b7m (4.0 kg-m, 29 ft-lb).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "b",
+          "text": "Tighten bolts to 78 N\u00b7m (8.0 kg-m, 58 ft-lb).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "c",
+          "text": "Loosen bolts completely.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "d",
+          "text": "Tighten bolts to 35 N\u00b7m (3.6 kg-m, 26 ft-lb).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "e",
+          "text": "Turn bolts 60 degrees clockwise.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": "f",
+          "text": "Tighten bolts (11 - 15) to 6.3 to 8.3 N\u00b7m (0.64 to 0.85 kg-m, 4.6 to 6.1 ft-lb).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Tightening torque N\u00b7m (kg-m, ft-lb)",
+      "columns": [
+        {
+          "key": "bolt_group",
+          "label": "Bolt Group"
+        },
+        {
+          "key": "stage_a",
+          "label": "a"
+        },
+        {
+          "key": "stage_b",
+          "label": "b"
+        },
+        {
+          "key": "stage_c",
+          "label": "c"
+        },
+        {
+          "key": "stage_d",
+          "label": "d"
+        },
+        {
+          "key": "stage_e",
+          "label": "e"
+        }
+      ],
+      "rows": [
+        {
+          "bolt_group": "Bolts (1 - 10)",
+          "stage_a": "39 (4.0, 29)",
+          "stage_b": "78 (8.0, 58)",
+          "stage_c": "0 (0,0)",
+          "stage_d": "35 (3.6, 26)",
+          "stage_e": "60 degrees"
+        },
+        {
+          "bolt_group": "Bolts (11 - 15)",
+          "stage_a": "\u2014",
+          "stage_b": "\u2014",
+          "stage_c": "\u2014",
+          "stage_d": "\u2014",
+          "stage_e": "6.3 - 8.3 (0.64 - 0.85, 4.6 - 6.1)"
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc_installation_cont",
+      "title": "Installation steps continued",
+      "steps": [
+        {
+          "step": 15,
+          "text": "Install idler sprocket bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Install camshaft, camshaft brackets and distributor bracket. Tighten camshaft bracket bolts gradually in three stages:\na) 2 N\u00b7m (0.2 kg-m, 1.4 ft-lb)\nb) 6 N\u00b7m (0.6 kg-m, 4.3 ft-lb)\nc) 9 - 11.8 N\u00b7m (0.92 - 1.20 kg-m, 6.7 - 8.7 ft-lb)",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "If any part of valve assembly or camshaft is replaced, check valve clearance according to the reference data. After completing assembly, check valve clearance. Refer to \"Checking\" and \"Adjusting\" in \"VALVE CLEARANCE\".",
+            "Reference data for initial setting of valve clearance (Cold):\nIntake: 0.30 mm (0.012 in)\nExhaust: 0.35 mm (0.014 in)"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve clearance (Cold) - Intake",
+          "value": "0.30",
+          "unit": "mm (0.012 in)",
+          "condition": "Cold, reference data for initial setting"
+        },
+        {
+          "label": "Valve clearance (Cold) - Exhaust",
+          "value": "0.35",
+          "unit": "mm (0.014 in)",
+          "condition": "Cold, reference data for initial setting"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "VALVE CLEARANCE - Checking",
+    "VALVE CLEARANCE - Adjusting"
+  ],
+  "model_notes": null
+}

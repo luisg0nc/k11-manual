@@ -1,0 +1,154 @@
+{
+  "page_code": "MA-7012",
+  "section": "MA",
+  "title": "RECOMMENDED FLUIDS AND LUBRICANTS",
+  "page_type": "spec_table",
+  "source_image": "page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "RECOMMENDED FLUIDS AND LUBRICANTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Fluids and Lubricants"
+    },
+    {
+      "block_type": "table",
+      "title": "Fluids and Lubricants",
+      "columns": [
+        {
+          "key": "fluid_type",
+          "label": "Fluid/Lubricant Type"
+        },
+        {
+          "key": "application",
+          "label": "Application/Variant"
+        },
+        {
+          "key": "capacity_liter",
+          "label": "Capacity (Approximate) \u2014 Liter"
+        },
+        {
+          "key": "capacity_imp",
+          "label": "Capacity (Approximate) \u2014 Imp measure"
+        },
+        {
+          "key": "recommended",
+          "label": "Recommended fluids and lubricants"
+        }
+      ],
+      "rows": [
+        {
+          "fluid_type": "Engine oil (Refill)",
+          "application": "With oil filter \u2014 CG10, CGA3",
+          "capacity_liter": "3.1",
+          "capacity_imp": "5-1/2 pt",
+          "recommended": "ACEA A3-98 API SJ"
+        },
+        {
+          "fluid_type": "Engine oil (Refill)",
+          "application": "With oil filter \u2014 VJZ",
+          "capacity_liter": "4.4",
+          "capacity_imp": "7-3/4 pt",
+          "recommended": "API CD"
+        },
+        {
+          "fluid_type": "Engine oil (Refill)",
+          "application": "Without oil filter \u2014 CG10, CGA3",
+          "capacity_liter": "2.9",
+          "capacity_imp": "5-1/8 pt",
+          "recommended": ""
+        },
+        {
+          "fluid_type": "Engine oil (Refill)",
+          "application": "Without oil filter \u2014 VJZ",
+          "capacity_liter": "4.1",
+          "capacity_imp": "7-1/4 pt",
+          "recommended": ""
+        },
+        {
+          "fluid_type": "Cooling system (With reservoir tank)",
+          "application": "CG10, CGA3 \u2014 M/T",
+          "capacity_liter": "4.15",
+          "capacity_imp": "7-1/4 pt",
+          "recommended": "Genuine NISSAN Anti-freeze coolant (L2N or equivalent)"
+        },
+        {
+          "fluid_type": "Cooling system (With reservoir tank)",
+          "application": "CG10, CGA3 \u2014 CVT",
+          "capacity_liter": "4.05",
+          "capacity_imp": "7-1/8 pt",
+          "recommended": "Genuine NISSAN Anti-freeze coolant (L2N or equivalent)"
+        },
+        {
+          "fluid_type": "Cooling system (With reservoir tank)",
+          "application": "VJZ",
+          "capacity_liter": "6.25",
+          "capacity_imp": "11 pt",
+          "recommended": "Genuine NISSAN Anti-freeze coolant (L2N or equivalent)"
+        },
+        {
+          "fluid_type": "Manual transaxle gear oil",
+          "application": "MA5L",
+          "capacity_liter": "1.8 - 2.0",
+          "capacity_imp": "3-1/8 - 3-1/2 pt",
+          "recommended": "API GL-5  75W-80"
+        },
+        {
+          "fluid_type": "Manual transaxle gear oil",
+          "application": "RS5F30A",
+          "capacity_liter": "2.8 - 3.0",
+          "capacity_imp": "4-7/8 - 5-1/4 pt",
+          "recommended": "Genuine Nissan XZ gear oil or exact equivalent"
+        },
+        {
+          "fluid_type": "CVT fluid",
+          "application": "",
+          "capacity_liter": "5.0",
+          "capacity_imp": "8-3/4 pt",
+          "recommended": "Genuine Nissan CVT fluid (NS-1) or exact equivalent"
+        },
+        {
+          "fluid_type": "Power steering fluid",
+          "application": "",
+          "capacity_liter": "1.0",
+          "capacity_imp": "1-3/4 pt",
+          "recommended": "Type DEXRON\u2122 III or equivalent"
+        },
+        {
+          "fluid_type": "Brake fluid",
+          "application": "",
+          "capacity_liter": "\u2014",
+          "capacity_imp": "\u2014",
+          "recommended": "DOT 4 (US FMVSS No. 116)"
+        },
+        {
+          "fluid_type": "Multi-purpose grease",
+          "application": "",
+          "capacity_liter": "\u2014",
+          "capacity_imp": "\u2014",
+          "recommended": "NLGI No. 2 (Lithium soap base)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: *: For further details, see \"SAE Viscosity Number\".",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "SAE Viscosity Number"
+  ],
+  "model_notes": "Engine variants referenced: CG10, CGA3, VJZ. Transaxle variants: MA5L, RS5F30A. Cooling system capacities differ between M/T and CVT for CG10/CGA3 engines."
+}

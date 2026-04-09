@@ -1,0 +1,218 @@
+{
+  "page_code": "EM-5022",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM244D",
+      "type": "tool_illustration",
+      "description": "Micrometer measuring valve stem diameter and valve guide inner diameter, showing measurement positions: Top, Center, Bottom along X and Y axes",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "VALVE GUIDE CLEARANCE step 1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM871",
+      "type": "tool_illustration",
+      "description": "Driving out valve guide using press or hammer and suitable tool",
+      "bbox_percent": [
+        0,
+        22,
+        38,
+        42
+      ],
+      "associated_step": "VALVE GUIDE REPLACEMENT step 2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM245D",
+      "type": "tool_illustration",
+      "description": "Reaming cylinder head valve guide bore",
+      "bbox_percent": [
+        0,
+        42,
+        38,
+        58
+      ],
+      "associated_step": "VALVE GUIDE REPLACEMENT step 3"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM276",
+      "type": "parts_diagram",
+      "description": "Cross-section of valve guide installed in cylinder head showing INTAKE 39mm and EXHAUST 35mm protrusion dimensions",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        74
+      ],
+      "associated_step": "VALVE GUIDE REPLACEMENT step 4"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "SEM722BA",
+      "type": "parts_diagram",
+      "description": "Valve seat contact pattern check using prussian red lead, showing OK (full 360\u00b0 contact ring) and NG (partial/offset contact) examples",
+      "bbox_percent": [
+        0,
+        74,
+        38,
+        94
+      ],
+      "associated_step": "VALVE SEATS step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE GUIDE CLEARANCE"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_guide_clearance",
+      "title": "VALVE GUIDE CLEARANCE",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Measure valve stem diameter and valve guide inner diameter as illustrated.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard clearance (valve guide)",
+          "value": "0.025 - 0.052",
+          "unit": "mm (0.0010 - 0.0020 in)",
+          "condition": "Valve stem to valve guide inner diameter"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE GUIDE REPLACEMENT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_guide_replacement",
+      "title": "VALVE GUIDE REPLACEMENT",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Heat cylinder head in oil to 150 to 160\u00b0C (302 to 320\u00b0F).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Drive out valve guide using a press or hammer and a suitable tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Ream cylinder head valve guide bore.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Heat cylinder head to 150 to 160\u00b0C (302 to 320\u00b0F) and press service valve guide onto cylinder head.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Reaming bore (service part)",
+          "value": "13.495 - 13.527",
+          "unit": "mm (0.5313 - 0.5326 in)",
+          "condition": "Valve guide bore after reaming"
+        },
+        {
+          "label": "Valve guide protrusion \u2014 INTAKE",
+          "value": "39",
+          "unit": "mm",
+          "condition": "From cylinder head surface"
+        },
+        {
+          "label": "Valve guide protrusion \u2014 EXHAUST",
+          "value": "35",
+          "unit": "mm",
+          "condition": "From cylinder head surface"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE SEATS"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_seats",
+      "title": "VALVE SEATS",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check valve and valve seat for contact. Coat the valve face with prussian red lead. If contact is wrong, correct valve seat. If the valve red lead appears 360\u00b0 around face, the valve stem and face are concentric. If not, repair or replace valve.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check valve seats for pitting at contact surface. Resurface or replace if excessively worn. Correct valve seat surface.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "When repairing valve seat, check valve and valve guide for wear beforehand. If worn, replace them. Then correct valve seat.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

@@ -1,0 +1,174 @@
+{
+  "page_code": "EM-5020",
+  "section": "EM",
+  "title": "CYLINDER HEAD",
+  "page_type": "prose_procedure",
+  "source_image": "cylinder_head_em5020.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM272",
+      "type": "component_photo",
+      "description": "Photo showing cylinder head area with arrow indicating a component on the engine",
+      "bbox_percent": [
+        2,
+        16,
+        32,
+        36
+      ],
+      "associated_step": "Removal overview"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM273",
+      "type": "parts_diagram",
+      "description": "Rocker cover bolt removal numerical order diagram showing bolt positions numbered 1-8",
+      "bbox_percent": [
+        2,
+        52,
+        32,
+        68
+      ],
+      "associated_step": "10"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM274",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt removal numerical order diagram showing bolt positions numbered 1-10",
+      "bbox_percent": [
+        2,
+        68,
+        32,
+        84
+      ],
+      "associated_step": "11"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "prose",
+      "text": "After removing timing belt, do not turn crankshaft and camshaft separately, or valves will strike piston heads.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "When installing camshaft, oil seals or valve lifters, lubricate contacting surfaces with new engine oil.",
+      "style": "caution"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain coolant from radiator and cylinder block. Be careful not to spill coolant on drive belt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove timing belt. Refer to \"TIMING BELT\", (EM-5012).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Disconnect front exhaust pipe from manifold.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove injection tubes.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Disconnect spill hose, glow plug cable, EGR hose and coolant temperature sensor connectors.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Remove air duct and air cleaner.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Disconnect vacuum hoses, coolant hoses, fuel hoses from thermostat housing and vacuum pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Remove intake manifold support and dipstick tube bolt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Disconnect fast idle device wire from injection pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Remove rocker cover bolts in numerical order as shown in the figure.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Remove cylinder head bolts in numerical order as shown in the figure.",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Head warpage or cracking could result from removing in incorrect order.",
+            "Cylinder head bolts should be loosened in two or three stages."
+          ],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Remove cylinder head complete with manifolds.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EM-5012"
+  ],
+  "model_notes": "VJZ engine variant. Procedure applies to diesel engine with injection pump and glow plugs."
+}

@@ -1,0 +1,66 @@
+{
+  "page_code": "AT-14",
+  "section": "AT",
+  "title": "FUNCTION \u2014 Reduction Gear System",
+  "page_type": "prose_procedure",
+  "source_image": "AT-14.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT021",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram of the reduction gear system showing reduction gear, final drive gear, and speedometer drive gear locations on the differential case",
+      "bbox_percent": [
+        5,
+        12,
+        95,
+        62
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "4. Reduction Gear System."
+    },
+    {
+      "block_type": "prose",
+      "text": "The reduction gear system consists of a reduction gear and a final drive gear. Gears are helical, and a speedometer drive is located on the differential case. The differential is of similar construction to the manual transaxle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Cross-section view of reduction gear system components",
+      "callouts": [
+        {
+          "label": "Reduction gear",
+          "position": "top-center"
+        },
+        {
+          "label": "Final drive gear",
+          "position": "left-center"
+        },
+        {
+          "label": "Speedometer drive gear",
+          "position": "bottom-right"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic transaxle (AT) section. Differential described as similar construction to manual transaxle."
+}

@@ -1,0 +1,43 @@
+{
+  "page_code": "GI-3002",
+  "section": "GI",
+  "title": "Precautions for Fuel",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Precautions for Fuel"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "For Australia:"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unleaded gasoline of at least 91 octane (RON)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not use leaded gasoline. Using leaded gasoline will damage the catalytic converter.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Australia market specification only: unleaded gasoline minimum 91 octane (RON). Leaded gasoline prohibited."
+}

@@ -1,0 +1,143 @@
+{
+  "page_code": "AT-34",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Control Valve Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-34.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-35"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT043",
+      "type": "component_photo",
+      "description": "Oil pan on transaxle, with arrow indicating removal direction",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        20
+      ],
+      "associated_step": "step2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT044",
+      "type": "component_photo",
+      "description": "Control cable end connection on transaxle",
+      "bbox_percent": [
+        0,
+        21,
+        35,
+        39
+      ],
+      "associated_step": "step3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT045",
+      "type": "component_photo",
+      "description": "Oil strainer and gasket area after oil pan removal",
+      "bbox_percent": [
+        0,
+        40,
+        35,
+        57
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT046",
+      "type": "component_photo",
+      "description": "Control valve assembly exposed after strainer removal",
+      "bbox_percent": [
+        0,
+        58,
+        35,
+        75
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT047",
+      "type": "component_photo",
+      "description": "Harness disconnection from control valve assembly",
+      "bbox_percent": [
+        0,
+        76,
+        35,
+        95
+      ],
+      "associated_step": "step5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Control Valve Assembly"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain A.T.F. from transaxle.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove oil pan and gasket.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Disconnect control cable.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove oil strainer and O ring.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "There may be a large quantity of oil within the strainer and inlet port. Have a container ready."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Disconnect the harness.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "There may be a large quantity of oil within the strainer and inlet port. Have a container ready.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "A/T (automatic transaxle) procedure"
+}

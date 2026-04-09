@@ -1,0 +1,266 @@
+{
+  "page_code": "MA-7009",
+  "section": "MA",
+  "title": "PERIODIC MAINTENANCE (Except for Europe) \u2014 ENGINE MAINTENANCE",
+  "page_type": "spec_table",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PERIODIC MAINTENANCE (Except for Europe)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "ENGINE MAINTENANCE"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VJZ engines"
+    },
+    {
+      "block_type": "prose",
+      "text": "Abbreviations: I = Inspect and correct or replace as necessary. R = Replace A = Adjust.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Maintenance Interval \u2014 VJZ engines (Underbonnet and under vehicle)",
+      "columns": [
+        {
+          "key": "operation",
+          "label": "MAINTENANCE OPERATION"
+        },
+        {
+          "key": "km_x1000",
+          "label": "km \u00d7 1,000"
+        },
+        {
+          "key": "miles_x1000",
+          "label": "miles \u00d7 1,000"
+        },
+        {
+          "key": "months",
+          "label": "Months"
+        },
+        {
+          "key": "1",
+          "label": "1 / (0.6) / 6"
+        },
+        {
+          "key": "10",
+          "label": "10 / (6) / 12"
+        },
+        {
+          "key": "20",
+          "label": "20 / (12) / 18"
+        },
+        {
+          "key": "30",
+          "label": "30 / (18) / 24"
+        },
+        {
+          "key": "40",
+          "label": "40 / (24) / 30"
+        },
+        {
+          "key": "50",
+          "label": "50 / (30) / 36"
+        },
+        {
+          "key": "60",
+          "label": "60 / (36) / 42"
+        },
+        {
+          "key": "70",
+          "label": "70 / (42) / 48"
+        },
+        {
+          "key": "80",
+          "label": "80 / (48) / 48"
+        }
+      ],
+      "rows": [
+        {
+          "operation": "Drive belts",
+          "1": "I",
+          "10": "I",
+          "20": "I",
+          "30": "I",
+          "40": "I",
+          "50": "I",
+          "60": "I",
+          "70": "I",
+          "80": "I"
+        },
+        {
+          "operation": "Intake and exhaust valve clearance",
+          "1": "A",
+          "10": "",
+          "20": "A",
+          "30": "",
+          "40": "A",
+          "50": "",
+          "60": "A",
+          "70": "",
+          "80": "A"
+        },
+        {
+          "operation": "Timing belt",
+          "1": "",
+          "10": "",
+          "20": "",
+          "30": "",
+          "40": "",
+          "50": "",
+          "60": "",
+          "70": "",
+          "80": "",
+          "note": "Replace every 100,000 km (60,000 miles)"
+        },
+        {
+          "operation": "Engine oil (use API CC or CD oil) \u2605",
+          "1": "",
+          "10": "R",
+          "20": "R",
+          "30": "R",
+          "40": "R",
+          "50": "R",
+          "60": "R",
+          "70": "R",
+          "80": "R"
+        },
+        {
+          "operation": "Engine oil filter \u2605",
+          "1": "",
+          "10": "R",
+          "20": "R",
+          "30": "R",
+          "40": "R",
+          "50": "R",
+          "60": "R",
+          "70": "R",
+          "80": "R"
+        },
+        {
+          "operation": "Heater plugs",
+          "1": "",
+          "10": "",
+          "20": "",
+          "30": "",
+          "40": "",
+          "50": "",
+          "60": "",
+          "70": "",
+          "80": "I"
+        },
+        {
+          "operation": "Engine anti-freeze coolant (Ethylene glycol base)",
+          "1": "",
+          "10": "",
+          "20": "R",
+          "30": "",
+          "40": "R",
+          "50": "",
+          "60": "R",
+          "70": "",
+          "80": "R"
+        },
+        {
+          "operation": "Cooling system",
+          "1": "",
+          "10": "I",
+          "20": "",
+          "30": "I",
+          "40": "",
+          "50": "I",
+          "60": "",
+          "70": "I",
+          "80": ""
+        },
+        {
+          "operation": "Air cleaner filter \u2605",
+          "1": "",
+          "10": "",
+          "20": "",
+          "30": "",
+          "40": "R",
+          "50": "",
+          "60": "",
+          "70": "",
+          "80": "R"
+        },
+        {
+          "operation": "Fuel filter \u2605",
+          "1": "",
+          "10": "R",
+          "20": "",
+          "30": "R",
+          "40": "",
+          "50": "R",
+          "60": "",
+          "70": "R",
+          "80": ""
+        },
+        {
+          "operation": "Fuel lines",
+          "1": "",
+          "10": "",
+          "20": "",
+          "30": "I",
+          "40": "",
+          "50": "",
+          "60": "",
+          "70": "",
+          "80": "I"
+        },
+        {
+          "operation": "Injection nozzles",
+          "1": "",
+          "10": "",
+          "20": "",
+          "30": "",
+          "40": "",
+          "50": "",
+          "60": "",
+          "70": "",
+          "80": "",
+          "note": "See NOTE (1)"
+        },
+        {
+          "operation": "Idling speed",
+          "1": "I",
+          "10": "",
+          "20": "I",
+          "30": "",
+          "40": "I",
+          "50": "",
+          "60": "I",
+          "70": "",
+          "80": "I"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE: Maintenance items with \"\u2605\" should be performed more frequently according to \"Maintenance under severe driving conditions\".",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(1) If engine power decreases, black exhaust smoke is emitted or engine noise increases, check and, if necessary, adjust the fuel injection nozzle's starting pressure and spray pattern.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ engines only. Severe driving conditions items marked with \u2605 require more frequent maintenance."
+}

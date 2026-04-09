@@ -1,0 +1,250 @@
+{
+  "page_code": "AT-12",
+  "section": "AT",
+  "title": "FUNCTION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-12.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT015",
+      "type": "parts_diagram",
+      "description": "N Position - synchroniser sleeve components: Reverse idler gear, Reverse driven gear, Hub, Sleeve, Main drive gear, Primary pulley, Power, Counter gear",
+      "bbox_percent": [
+        2,
+        20,
+        45,
+        38
+      ],
+      "associated_step": "N POSITION"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT016",
+      "type": "parts_diagram",
+      "description": "D and Ds Position - synchroniser sleeve shifted to right, Power arrow shown",
+      "bbox_percent": [
+        2,
+        38,
+        45,
+        56
+      ],
+      "associated_step": "D AND Ds POSITION"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT017",
+      "type": "parts_diagram",
+      "description": "R Position - synchroniser sleeve shifted to left, Reverse idler gear, Power, Counter gear shown",
+      "bbox_percent": [
+        2,
+        56,
+        45,
+        75
+      ],
+      "associated_step": "R POSITION"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT018",
+      "type": "parts_diagram",
+      "description": "P Position - Cam, Parking pawl, Parking gear, Secondary pulley shown",
+      "bbox_percent": [
+        2,
+        75,
+        45,
+        95
+      ],
+      "associated_step": "P POSITION"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SELF-DIAGNOSIS"
+    },
+    {
+      "block_type": "prose",
+      "text": "A self-diagnostic function has been programmed into the ECU. Seven circuits can be checked for possible faults using the N\u00b7CVT warning light to access the problem area.\nConsult can also be used for diagnostics. Refer to the Trouble Diagnosis section for diagnostic procedures.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "2. Forward and reverse synchromesh changeover system"
+    },
+    {
+      "block_type": "prose",
+      "text": "A synchromesh changeover system allows for forward to reverse shifting, at the same time eliminating \"shift squeak\" (occurs when the belt tries to reverse direction very quickly.)",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "\"N\" POSITION."
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Neutral."
+    },
+    {
+      "block_type": "prose",
+      "text": "The synchroniser sleeve is central on the hub, and no power is transmitted.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "N Position synchromesh components",
+      "callouts": [
+        {
+          "label": "Reverse idler gear",
+          "position": "top-left"
+        },
+        {
+          "label": "Reverse driven gear",
+          "position": "upper-left"
+        },
+        {
+          "label": "Hub",
+          "position": "left-center"
+        },
+        {
+          "label": "Sleeve",
+          "position": "top-right"
+        },
+        {
+          "label": "Main drive gear",
+          "position": "right"
+        },
+        {
+          "label": "Primary pulley",
+          "position": "lower-left"
+        },
+        {
+          "label": "Power",
+          "position": "center-right"
+        },
+        {
+          "label": "Counter gear",
+          "position": "lower-right"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "\"D\" AND \"Ds\" POSITION."
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Forward."
+    },
+    {
+      "block_type": "prose",
+      "text": "The synchroniser sleeve shifts to the right. Power is transmitted through the hub to the primary (input) pulley.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "D and Ds Position synchromesh components",
+      "callouts": [
+        {
+          "label": "Power",
+          "position": "center-right"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "\"R\" POSITION."
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Reverse."
+    },
+    {
+      "block_type": "prose",
+      "text": "The synchroniser sleeve shifts to the left. Power is transmitted through the reverse idler gear and counter gear to the primary pulley.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig3",
+      "description": "R Position synchromesh components",
+      "callouts": [
+        {
+          "label": "Reverse idler gear",
+          "position": "top-left"
+        },
+        {
+          "label": "Power",
+          "position": "center-right"
+        },
+        {
+          "label": "Counter gear",
+          "position": "lower-right"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "\"P\" POSITION."
+    },
+    {
+      "block_type": "heading",
+      "level": 4,
+      "text": "Park."
+    },
+    {
+      "block_type": "prose",
+      "text": "The synchroniser sleeve remains at the reverse position. The park rod and cam engage the park pawl with the park gear. The output shaft is mechanically locked.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig4",
+      "description": "P Position park mechanism components",
+      "callouts": [
+        {
+          "label": "Cam",
+          "position": "top-left"
+        },
+        {
+          "label": "Parking pawl",
+          "position": "upper-center"
+        },
+        {
+          "label": "Parking gear",
+          "position": "center"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "bottom-center"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Trouble Diagnosis section"
+  ],
+  "model_notes": "Applies to N\u00b7CVT (Continuously Variable Transmission) equipped Nissan Micra K11"
+}

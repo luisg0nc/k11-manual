@@ -1,0 +1,240 @@
+{
+  "page_code": "AT-122",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-122.jpg",
+  "continuation": {
+    "continues_from": "AT-121",
+    "continues_to": "AT-123"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT264",
+      "type": "component_photo",
+      "description": "Engine brake lever location on valve body assembly",
+      "bbox_percent": [
+        0,
+        3,
+        32,
+        22
+      ],
+      "associated_step": "52"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT265",
+      "type": "component_photo",
+      "description": "Modulator plate KV319-K0030 installed, showing Adj.plate and Adj.bolt",
+      "bbox_percent": [
+        0,
+        23,
+        32,
+        42
+      ],
+      "associated_step": "56-58"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT266",
+      "type": "component_photo",
+      "description": "Pushing adjuster plate in direction of arrow to remove linkage free play",
+      "bbox_percent": [
+        0,
+        43,
+        32,
+        62
+      ],
+      "associated_step": "59"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT267",
+      "type": "component_photo",
+      "description": "Cable fitting on transmission assembly",
+      "bbox_percent": [
+        0,
+        62,
+        32,
+        79
+      ],
+      "associated_step": "60"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT268",
+      "type": "component_photo",
+      "description": "Harness connector and clip installation on valve body",
+      "bbox_percent": [
+        0,
+        79,
+        32,
+        100
+      ],
+      "associated_step": "61"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 52,
+          "text": "Ensure that the engine brake lever contacts the rear of ratio sensor adjusting bolt.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 53,
+          "text": "Partially tighten the valve securing bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 54,
+          "text": "Support the valve body by hand, and remove the SST holder.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 55,
+          "text": "Tighten the valve bolts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [],
+          "torque_specs": [
+            {
+              "label": "Valve bolts torque",
+              "value": "8.5 - 9.5",
+              "unit": "N\u00b7m",
+              "value_kgm": "0.87 - 0.97",
+              "unit_kgm": "kg-m",
+              "value_ftlb": "6 - 7",
+              "unit_ftlb": "ft-lb"
+            }
+          ]
+        },
+        {
+          "step": 56,
+          "text": "Connect the modulator rod.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 57,
+          "text": "Fit Tool as shown.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 58,
+          "text": "Slacken off the adjuster bolt.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 59,
+          "text": "Push the adjuster plate in the direction of the arrow, and tighten the bolt to remove linkage free play. Remove the tool.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [],
+          "torque_specs": [
+            {
+              "label": "Adjust bolt torque",
+              "value": "3 - 4",
+              "unit": "N\u00b7m",
+              "value_kgm": "0.31 - 0.41",
+              "unit_kgm": "kg-m",
+              "value_ftlb": "2 - 3",
+              "unit_ftlb": "ft-lb"
+            }
+          ]
+        },
+        {
+          "step": 60,
+          "text": "Fit the cable.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 61,
+          "text": "Fit the harness connector.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve bolts torque",
+          "value": "8.5 - 9.5",
+          "unit": "N\u00b7m",
+          "condition": "Step 55"
+        },
+        {
+          "label": "Valve bolts torque",
+          "value": "0.87 - 0.97",
+          "unit": "kg-m",
+          "condition": "Step 55"
+        },
+        {
+          "label": "Valve bolts torque",
+          "value": "6 - 7",
+          "unit": "ft-lb",
+          "condition": "Step 55"
+        },
+        {
+          "label": "Adjust bolt torque",
+          "value": "3 - 4",
+          "unit": "N\u00b7m",
+          "condition": "Step 59"
+        },
+        {
+          "label": "Adjust bolt torque",
+          "value": "0.31 - 0.41",
+          "unit": "kg-m",
+          "condition": "Step 59"
+        },
+        {
+          "label": "Adjust bolt torque",
+          "value": "2 - 3",
+          "unit": "ft-lb",
+          "condition": "Step 59"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0030",
+      "name": "Modulator plate",
+      "usage": "Fit as tool during adjuster plate adjustment (steps 57-59)"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

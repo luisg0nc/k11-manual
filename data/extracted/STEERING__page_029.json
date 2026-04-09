@@ -1,0 +1,150 @@
+{
+  "page_code": "ST-28",
+  "section": "ST",
+  "title": "POWER STEERING OIL PUMP",
+  "page_type": "prose_procedure",
+  "source_image": "ST-28.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "ST-29"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST041",
+      "type": "parts_diagram",
+      "description": "Exploded view of power steering oil pump assembly showing pulley, pully nut, pump body, suction port, and torque specifications for various fasteners",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        35
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Pulley",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Pully nut",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Pump body assembly",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Suction port",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Pully nut torque",
+          "value": "16 - 22 (1.6 - 2.2, 11 - 8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Pump mounting bolt torque (upper)",
+          "value": "15 - 25 (2 - 2.6, 14.8 - 18.4)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Pump mounting bolt torque (side)",
+          "value": "32 - 42 (3.3 - 4.3, 23.6 - 31)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Pump mounting bolt torque (bottom)",
+          "value": "32 - 42 (3.3 - 4.3, 23.6 - 31)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        },
+        {
+          "label": "Banjo union bolt torque",
+          "value": "49 - 69 (5 - 7, 36.1 - 50.9)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal",
+      "title": "Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Drain fluid from system by removing hose from suction pipe.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Slacken power steering drive belt (refer to MA section for details).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove Banjo union, and remove hose from pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove pump fixing bolts and remove pump.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Replace power steering oil pump if any of the following items are found:\na) Oil leak from connections, unions or oil pump casing.\nb) Deformed or damaged pulley.\nc) Poor performance.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Parts which can be disassembled are strictly limited. Never disassemble parts other than those specified.\n\u2022 Disassemble in as clean a place as possible.\n\u2022 Clean your hands before disassembly.\n\u2022 Do not use rags; use nylon cloths or paper towels.\n\u2022 Follow the procedures and cautions in the Service Manual.\n\u2022 When disassembling and reassembling, do not let foreign matter enter or contact the parts.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA"
+  ],
+  "model_notes": null
+}

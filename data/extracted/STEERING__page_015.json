@@ -1,0 +1,94 @@
+{
+  "page_code": "ST-14",
+  "section": "ST",
+  "title": "STEERING WHEEL AND STEERING COLUMN",
+  "page_type": "prose_procedure",
+  "source_image": "ST-14.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST583B",
+      "type": "component_photo",
+      "description": "Steering column assembly showing column length 'L' measurement",
+      "bbox_percent": [
+        0,
+        3,
+        32,
+        22
+      ],
+      "associated_step": "column_length_inspection"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING WHEEL AND STEERING COLUMN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection",
+      "title": "Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "When steering wheel can not be rotated smoothly, check the steering column for the following matters and replace damaged parts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "a. Check column bearings for damage or unevenness. Lubricate with recommended multi-purpose grease or replace steering column as an assembly, if necessary.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "b. Check jacket tube for deformation or breakage. Replace if necessary.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "When the vehicle is involved in a light collision, check column length \"L\". If it is not within specification, replace steering column as an assembly.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Column length \"L\" \u2014 RHD",
+          "value": "555.9 - 558.1",
+          "unit": "mm (21.89 - 21.97 in)",
+          "condition": "RHD"
+        },
+        {
+          "label": "Column length \"L\" \u2014 LHD",
+          "value": "545.9 - 548.1",
+          "unit": "mm (21.49 - 21.58 in)",
+          "condition": "LHD"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Column length 'L' specification differs between RHD (555.9 - 558.1 mm) and LHD (545.9 - 548.1 mm) variants."
+}

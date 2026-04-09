@@ -1,0 +1,344 @@
+{
+  "page_code": "AT-54",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Self Diagnosis Items (without using CONSULT) (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "AT-53",
+    "continues_to": "AT-55"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT104",
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern 4 and electromagnetic clutch coil circuit schematic showing brush holder pins 1 & 2 connected to ECU pins 1 & 28",
+      "bbox_percent": [
+        50,
+        3,
+        100,
+        18
+      ],
+      "associated_step": "blink_4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT104",
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern 5 and line pressure solenoid circuit schematic showing solenoid pin 1 connected to ECU pin 19",
+      "bbox_percent": [
+        50,
+        22,
+        100,
+        38
+      ],
+      "associated_step": "blink_5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT104",
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern 6 and torque signal circuit schematic showing ECCS C/U pin 25 via torque signal wire to ECU pin 13",
+      "bbox_percent": [
+        50,
+        43,
+        100,
+        60
+      ],
+      "associated_step": "blink_6"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT104",
+      "type": "wiring_schematic",
+      "description": "N-CVT warning lamp blink pattern 7 and A.B.S. signal or idle-up relay circuit schematic showing IGN-SW, 10A fuses, A/C relay, idle-up relay circuit, magnetic clutch, ECU, F.I.C.D. solenoid, ABS C/U connections",
+      "bbox_percent": [
+        50,
+        63,
+        100,
+        97
+      ],
+      "associated_step": "blink_7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Self Diagnosis Items (without using CONSULT) (Cont'd)"
+    },
+    {
+      "block_type": "table",
+      "title": "Self Diagnosis Blink Code Descriptions",
+      "columns": [
+        {
+          "key": "blink_condition",
+          "label": "N-CVT warning lamp"
+        },
+        {
+          "key": "faulty_circuit",
+          "label": "Faulty Circuit"
+        }
+      ],
+      "rows": [
+        {
+          "blink_condition": "4. When fourth blink is longer than others",
+          "faulty_circuit": "Electromagnetic clutch coil circuit is disconnected or short-circuited."
+        },
+        {
+          "blink_condition": "5. When fifth blink is longer than others",
+          "faulty_circuit": "Line pressure solenoid circuit is disconnected or short-circuited."
+        },
+        {
+          "blink_condition": "6. When sixth blink is longer than others",
+          "faulty_circuit": "Torque signal circuit is disconnected or short-circuited."
+        },
+        {
+          "blink_condition": "7. When seventh blink is longer than others",
+          "faulty_circuit": "A.B.S. signal or idle-up relay circuit is disconnected or short-circuited."
+        }
+      ]
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Blink 4 \u2014 Electromagnetic Clutch Coil Circuit",
+      "components": [
+        {
+          "id": "C1",
+          "name": "Brush holder",
+          "terminals": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "C2",
+          "name": "E.C.U.",
+          "terminals": [
+            "1",
+            "28"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "C1.1",
+          "to": "C2.1"
+        },
+        {
+          "from": "C1.2",
+          "to": "C2.28"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Go to electromagnetic clutch coil circuit check.",
+      "style": "normal"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Blink 5 \u2014 Line Pressure Solenoid Circuit",
+      "components": [
+        {
+          "id": "C3",
+          "name": "Line pressure solenoid",
+          "terminals": [
+            "1"
+          ]
+        },
+        {
+          "id": "C4",
+          "name": "E.C.U.",
+          "terminals": [
+            "19"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "C3.1",
+          "to": "C4.19"
+        },
+        {
+          "from": "C3",
+          "to": "ground",
+          "label": "ground"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Go to line pressure solenoid circuit check.",
+      "style": "normal"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Blink 6 \u2014 Torque Signal Circuit",
+      "components": [
+        {
+          "id": "C5",
+          "name": "ECCS C/U",
+          "terminals": [
+            "25"
+          ]
+        },
+        {
+          "id": "C6",
+          "name": "Torque signal wire"
+        },
+        {
+          "id": "C7",
+          "name": "E.C.U.",
+          "terminals": [
+            "13"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "C5.25",
+          "to": "C6"
+        },
+        {
+          "from": "C6",
+          "to": "C7.13"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Go to torque signal circuit check.",
+      "style": "normal"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "Blink 7 \u2014 A.B.S. Signal or Idle-up Relay Circuit",
+      "components": [
+        {
+          "id": "C8",
+          "name": "IGN-SW"
+        },
+        {
+          "id": "C9",
+          "name": "Fuse 10A (1)"
+        },
+        {
+          "id": "C10",
+          "name": "Fuse 10A (2)"
+        },
+        {
+          "id": "C11",
+          "name": "A/C relay"
+        },
+        {
+          "id": "C12",
+          "name": "Idle-up relay circuit",
+          "terminals": [
+            "3",
+            "1",
+            "4",
+            "5",
+            "2"
+          ]
+        },
+        {
+          "id": "C13",
+          "name": "Magnetic clutch"
+        },
+        {
+          "id": "C14",
+          "name": "E.C.U.",
+          "terminals": [
+            "25",
+            "14"
+          ]
+        },
+        {
+          "id": "C15",
+          "name": "F.I.C.D. solenoid"
+        },
+        {
+          "id": "C16",
+          "name": "ABS C/U",
+          "terminals": [
+            "32"
+          ]
+        }
+      ],
+      "wires": [
+        {
+          "from": "C8",
+          "to": "C9"
+        },
+        {
+          "from": "C8",
+          "to": "C10"
+        },
+        {
+          "from": "C10",
+          "to": "C12.3"
+        },
+        {
+          "from": "C12.1",
+          "to": "C12 idle-up relay circuit"
+        },
+        {
+          "from": "C11",
+          "to": "C12.4"
+        },
+        {
+          "from": "C12.5",
+          "to": "C14.25"
+        },
+        {
+          "from": "C12.2",
+          "to": "C14.25"
+        },
+        {
+          "from": "C13",
+          "to": "C14"
+        },
+        {
+          "from": "C15",
+          "to": "ground"
+        },
+        {
+          "from": "C14.14",
+          "to": "C16.32",
+          "label": "A.B.S. signal"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Go to A.B.S. signal or idle-up relay circuit check.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "(See note:)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: A.B.S. warning light will flash, this is test purposes only.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "electromagnetic clutch coil circuit check",
+    "line pressure solenoid circuit check",
+    "torque signal circuit check",
+    "A.B.S. signal or idle-up relay circuit check"
+  ],
+  "model_notes": "N-CVT (Continuously Variable Transmission) self diagnosis without CONSULT tool. Blink codes 4\u20137 described. A.B.S. warning light will flash during blink 7 diagnosis \u2014 test purposes only."
+}

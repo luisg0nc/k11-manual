@@ -1,0 +1,349 @@
+{
+  "page_code": "AT-10",
+  "section": "AT",
+  "title": "FUNCTION \u2014 N\u00b7CVT ELECTRONIC CONTROL UNIT",
+  "page_type": "wiring_diagram",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT013",
+      "type": "wiring_schematic",
+      "description": "N\u00b7CVT Electronic Control Unit wiring schematic showing all input and output connections including inhibit switch details table, starter motor, brake lamp, reverse lamp, accelerator SW, throttle pos. SW, vehicle speed sensor, CONSULT connector, stoplamp SW, N\u00b7CVT relay, idle up relay, battery, FICD solenoid, ABS control unit, check lamp, electromagnetic clutch, line pressure solenoid, engine control unit, aircon relay, aircon compressor, and power (ACC).",
+      "bbox_percent": [
+        2,
+        8,
+        98,
+        55
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "FUNCTION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "N\u00b7CVT ELECTRONIC CONTROL UNIT"
+    },
+    {
+      "block_type": "wiring_schematic",
+      "title": "N\u00b7CVT Electronic Control Unit",
+      "components": [
+        {
+          "id": "inhibit_sw",
+          "name": "INHIBIT SW.",
+          "notes": "See inhibit switch details table"
+        },
+        {
+          "id": "ign_signal",
+          "name": "IGN. SIGNAL"
+        },
+        {
+          "id": "starter_motor",
+          "name": "STARTER MOTOR"
+        },
+        {
+          "id": "brake_lamp",
+          "name": "BRAKE LAMP"
+        },
+        {
+          "id": "reverse_lamp",
+          "name": "REVERSE LAMP"
+        },
+        {
+          "id": "accelerator_sw",
+          "name": "ACCELERATOR SW."
+        },
+        {
+          "id": "throttle_pos_sw",
+          "name": "THROTTLE POS. SW."
+        },
+        {
+          "id": "vehicle_speed_sensor",
+          "name": "VEHICLE SPEED SENSOR"
+        },
+        {
+          "id": "consult",
+          "name": "CONSULT"
+        },
+        {
+          "id": "stoplamp_sw",
+          "name": "STOPLAMP SW."
+        },
+        {
+          "id": "ncvt_control_unit",
+          "name": "N\u00b7CVT CONTROL UNIT"
+        },
+        {
+          "id": "ncvt_relay",
+          "name": "N\u00b7CVT RELAY"
+        },
+        {
+          "id": "idle_up_relay",
+          "name": "IDLE UP RELAY"
+        },
+        {
+          "id": "battery",
+          "name": "BATTERY"
+        },
+        {
+          "id": "ficd_solenoid",
+          "name": "FICD SOLENOID"
+        },
+        {
+          "id": "abs_control_unit",
+          "name": "ABS CONTROL UNIT"
+        },
+        {
+          "id": "check_lamp",
+          "name": "CHECK LAMP"
+        },
+        {
+          "id": "electromagnetic_clutch",
+          "name": "ELECTROMAGNETIC CLUTCH"
+        },
+        {
+          "id": "line_pressure_solenoid",
+          "name": "LINE PRESSURE SOLENOID"
+        },
+        {
+          "id": "engine_control_unit",
+          "name": "ENGINE CONTROL UNIT"
+        },
+        {
+          "id": "power_acc",
+          "name": "POWER (ACC)"
+        },
+        {
+          "id": "aircon_relay",
+          "name": "AIRCON RELAY"
+        },
+        {
+          "id": "aircon_compressor",
+          "name": "AIRCON COMPRESSOR"
+        },
+        {
+          "id": "ign_sw",
+          "name": "IGN SW."
+        }
+      ],
+      "wires": []
+    },
+    {
+      "block_type": "table",
+      "title": "INHIBIT SWITCH DETAILS",
+      "columns": [
+        {
+          "key": "pin",
+          "label": "Pin"
+        },
+        {
+          "key": "P",
+          "label": "P"
+        },
+        {
+          "key": "R",
+          "label": "R"
+        },
+        {
+          "key": "N",
+          "label": "N"
+        },
+        {
+          "key": "D",
+          "label": "D"
+        },
+        {
+          "key": "Ds",
+          "label": "Ds"
+        },
+        {
+          "key": "function",
+          "label": "Function"
+        }
+      ],
+      "rows": [
+        {
+          "pin": "1",
+          "P": "0",
+          "R": "0",
+          "N": "0",
+          "D": "0",
+          "Ds": "0",
+          "function": "IGN SW"
+        },
+        {
+          "pin": "2",
+          "P": "0",
+          "R": "",
+          "N": "",
+          "D": "",
+          "Ds": "",
+          "function": "RANGE SW-P"
+        },
+        {
+          "pin": "3",
+          "P": "0",
+          "R": "",
+          "N": "",
+          "D": "",
+          "Ds": "",
+          "function": "RANGE SW-R"
+        },
+        {
+          "pin": "4",
+          "P": "",
+          "R": "",
+          "N": "0",
+          "D": "",
+          "Ds": "",
+          "function": "RANGE SW-N"
+        },
+        {
+          "pin": "5",
+          "P": "",
+          "R": "",
+          "N": "",
+          "D": "0",
+          "Ds": "",
+          "function": "RANGE SW-D"
+        },
+        {
+          "pin": "6",
+          "P": "",
+          "R": "",
+          "N": "",
+          "D": "",
+          "Ds": "0",
+          "function": "RANGE SW-Ds"
+        },
+        {
+          "pin": "7",
+          "P": "0",
+          "R": "",
+          "N": "0",
+          "D": "",
+          "Ds": "",
+          "function": "IGN ST. SW"
+        },
+        {
+          "pin": "8",
+          "P": "0",
+          "R": "",
+          "N": "0",
+          "D": "",
+          "Ds": "",
+          "function": "ST MTR"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "INPUT SIGNALS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "1. Engine Speed."
+    },
+    {
+      "block_type": "prose",
+      "text": "When starting, current is supplied to the clutch proportional to the cranking speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "2. Accelerator ON/OFF."
+    },
+    {
+      "block_type": "prose",
+      "text": "A micro switch on the accelerator pedal detects pedal movement and tells the ECU to energise the clutch. The switch also prevents stalling when the vehicle comes to a halt.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "3. Throttle position."
+    },
+    {
+      "block_type": "prose",
+      "text": "Throttle movement is detected by the ECU, and clutch current is adjusted accordingly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "4. Brakes."
+    },
+    {
+      "block_type": "prose",
+      "text": "Brake system operation is monitored, and clutch current modified accordingly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "5. Selector lever position."
+    },
+    {
+      "block_type": "prose",
+      "text": "Switches located adjacent to the selector lever detect \"D\", \"Ds\" and \"R\" modes.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "6. Vehicle speed."
+    },
+    {
+      "block_type": "prose",
+      "text": "A vehicle speed sensor is located in the transmission casing, and senses output shaft speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "7. Coolant temperature."
+    },
+    {
+      "block_type": "prose",
+      "text": "Clutch current is adjusted to compensate for variations in engine temperature, ie if the engine is cold, the stalling point is raised.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "8. Air conditioning."
+    },
+    {
+      "block_type": "prose",
+      "text": "Aircon operation is sensed, and clutch current is adjusted to ensure that the engine stalling point is correct.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "9. ABS."
+    },
+    {
+      "block_type": "prose",
+      "text": "Clutch current is switched off during ABS operation.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N\u00b7CVT (Nissan Continuously Variable Transmission) automatic transmission variant. Inhibit switch details show P, R, N, D, Ds selector positions."
+}

@@ -1,0 +1,192 @@
+{
+  "page_code": "AT-33",
+  "section": "AT",
+  "title": "Final Drive and Reduction Gear \u2014 Component Parts",
+  "page_type": "parts_diagram",
+  "source_image": "AT-33.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT042",
+      "type": "parts_diagram",
+      "description": "Exploded view of Final Drive and Reduction Gear assembly showing all component parts with torque specifications",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        90
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPONENT PARTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Final Drive and Reduction Gear"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Needle bearing",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Retaining plate",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Drive pinion",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Reduction drive gear",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Retainer plate",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Locknut",
+          "note": "Do not re-use"
+        },
+        {
+          "number": 7,
+          "name": "Washer",
+          "note": null
+        },
+        {
+          "number": 8,
+          "name": "Bearing",
+          "note": null
+        },
+        {
+          "number": 9,
+          "name": "Pinion gear",
+          "note": null
+        },
+        {
+          "number": 10,
+          "name": "Side gear",
+          "note": null
+        },
+        {
+          "number": 11,
+          "name": "Side gear",
+          "note": null
+        },
+        {
+          "number": 12,
+          "name": "Washer",
+          "note": null
+        },
+        {
+          "number": 13,
+          "name": "Pinion shaft",
+          "note": null
+        },
+        {
+          "number": 14,
+          "name": "Pin",
+          "note": null
+        },
+        {
+          "number": 15,
+          "name": "Final drive gear",
+          "note": null
+        },
+        {
+          "number": 16,
+          "name": "Bearing",
+          "note": null
+        },
+        {
+          "number": 17,
+          "name": "Speedometer drive gear",
+          "note": null
+        },
+        {
+          "number": 18,
+          "name": "Speedometer drive gear retainer",
+          "note": null
+        },
+        {
+          "number": 19,
+          "name": "Bearing",
+          "note": null
+        },
+        {
+          "number": 20,
+          "name": "Adjusting shim",
+          "note": "Select correct thickness"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Torque \u2014 small bolts (near drive pinion area)",
+          "value": "6 - 7",
+          "unit": "N\u00b7m",
+          "condition": "(0.61 - 0.71 Kgm, 4 - 5 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 differential bolts",
+          "value": "22 - 26",
+          "unit": "N\u00b7m",
+          "condition": "(2.2 - 2.7 Kgm, 16 - 20 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 final drive gear bolts",
+          "value": "74 - 88",
+          "unit": "N\u00b7m",
+          "condition": "(7.5 - 9.0 Kgm, 54 - 65 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 Locknut",
+          "value": "137 - 157",
+          "unit": "N\u00b7m",
+          "condition": "(14 - 16 Kgm, 101 - 116 ft\u00b7lb)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Torque symbol: N\u00b7m (Kgm, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "* : Select correct thickness",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not re-use symbol applies to: Locknut",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Automatic Transmission (AT) section. Applies to K11 Nissan Micra 1993-2003 with automatic transmission final drive and reduction gear assembly."
+}

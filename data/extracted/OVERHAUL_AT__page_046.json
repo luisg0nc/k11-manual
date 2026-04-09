@@ -1,0 +1,236 @@
+{
+  "page_code": "AT-46",
+  "section": "AT",
+  "title": "TROUBLE DIAGNOSIS \u2014 Component Location",
+  "page_type": "component_photo",
+  "source_image": "AT-46.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Speedometer/instrument cluster showing km/h scale (20\u2013180 km/h)",
+      "bbox_percent": [
+        2,
+        4,
+        30,
+        18
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Engine bay showing Idle up relay (ABS), P.A.S. reservoir, with Front indicator",
+      "bbox_percent": [
+        2,
+        17,
+        32,
+        42
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT094",
+      "type": "vehicle_diagram",
+      "description": "Overall vehicle diagram (Nissan Micra K11 hatchback) showing arrow pointers to all component locations",
+      "bbox_percent": [
+        5,
+        40,
+        62,
+        75
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Engine bay close-up showing: Relay box, Solenoid connector, Dipstick, Brush holder connector, Inhibitor connector, Inhibitor switch, Line pressure solenoid connector, Speed sensor connector, Speed sensor, Brush holder connector, Line pressure solenoid",
+      "bbox_percent": [
+        50,
+        4,
+        98,
+        35
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Engine bay showing N-CVT relay, Battery, with Front indicator",
+      "bbox_percent": [
+        55,
+        36,
+        98,
+        55
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Interior footwell area showing N-CVT E.C.U. location near foot rest (R.H.D.)",
+      "bbox_percent": [
+        55,
+        56,
+        98,
+        73
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig7",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Accelerator pedal area showing Accelerator position switch, Accelerator switch, Accelerator pedal, and Connector",
+      "bbox_percent": [
+        2,
+        75,
+        38,
+        97
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig8",
+      "ref_code": "UAT094",
+      "type": "component_photo",
+      "description": "Brake pedal/steering column area showing Brake light switch, Steering column, Brake pedal",
+      "bbox_percent": [
+        45,
+        76,
+        98,
+        97
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Component Location"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "UAT094",
+      "description": "Component locations for N-CVT trouble diagnosis on 1993 Nissan Micra K11",
+      "callouts": [
+        {
+          "label": "Relay box",
+          "position": "engine bay top area"
+        },
+        {
+          "label": "Solenoid connector",
+          "position": "engine bay right side"
+        },
+        {
+          "label": "Dipstick",
+          "position": "engine bay right side"
+        },
+        {
+          "label": "Brush holder connector",
+          "position": "engine bay right side"
+        },
+        {
+          "label": "Inhibitor connector",
+          "position": "transmission area"
+        },
+        {
+          "label": "Inhibitor switch",
+          "position": "transmission area"
+        },
+        {
+          "label": "Line pressure solenoid connector",
+          "position": "transmission area"
+        },
+        {
+          "label": "Speed sensor connector",
+          "position": "transmission area"
+        },
+        {
+          "label": "Speed sensor",
+          "position": "transmission area"
+        },
+        {
+          "label": "Brush holder connector",
+          "position": "transmission area"
+        },
+        {
+          "label": "Line pressure solenoid",
+          "position": "transmission area"
+        },
+        {
+          "label": "N-CVT relay",
+          "position": "engine bay battery area"
+        },
+        {
+          "label": "Battery",
+          "position": "engine bay right side"
+        },
+        {
+          "label": "N-CVT E.C.U.",
+          "position": "interior footwell near foot rest (R.H.D.)"
+        },
+        {
+          "label": "Foot rest",
+          "position": "interior footwell"
+        },
+        {
+          "label": "Idle up relay",
+          "position": "engine bay left side (A.B.S.)"
+        },
+        {
+          "label": "P.A.S. reservoir",
+          "position": "engine bay left side"
+        },
+        {
+          "label": "Accelerator position switch",
+          "position": "accelerator pedal assembly"
+        },
+        {
+          "label": "Accelerator switch",
+          "position": "accelerator pedal assembly"
+        },
+        {
+          "label": "Accelerator pedal",
+          "position": "accelerator pedal assembly"
+        },
+        {
+          "label": "Connector",
+          "position": "accelerator pedal assembly"
+        },
+        {
+          "label": "Brake light switch",
+          "position": "brake pedal area"
+        },
+        {
+          "label": "Steering column",
+          "position": "brake pedal area"
+        },
+        {
+          "label": "Brake pedal",
+          "position": "brake pedal area"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "R.H.D. variant shown for N-CVT E.C.U. location. A.B.S. variant noted for idle up relay location."
+}

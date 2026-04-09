@@ -1,0 +1,69 @@
+{
+  "page_code": "GI",
+  "section": "GI",
+  "title": "GENERAL INFORMATION",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "GI-6002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "<SUPPLEMENT-VI>"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "GENERAL INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SECTION GI"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "GI-6002"
+        },
+        {
+          "topic": "Precautions for Supplement Restraint System (SRS) \"AIR BAG\" and \"SEAT BELT PRE-TENSIONER\"",
+          "page": "GI-6002"
+        },
+        {
+          "topic": "MODIFICATIONS",
+          "page": "GI-6003"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "GI-6002",
+    "GI-6003"
+  ],
+  "model_notes": null
+}

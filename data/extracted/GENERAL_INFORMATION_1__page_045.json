@@ -1,0 +1,163 @@
+{
+  "page_code": "GI-5007",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NGI031",
+      "type": "vehicle_diagram",
+      "description": "Vehicle diagram showing locations of identification number, tyre placard (glove box) for Australia, build-date plate for Australia, and vehicle identification plate",
+      "bbox_percent": [
+        2,
+        3,
+        98,
+        30
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Vehicle Identification Number arrangement diagram showing VIN code breakdown: SJN E B A K11 A 3 XXXXXX with Nissan logo markers",
+      "bbox_percent": [
+        2,
+        33,
+        98,
+        72
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Identification Number"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Locations of identification information on the vehicle",
+      "callouts": [
+        {
+          "label": "Vehicle identification number (chassis number)",
+          "position": "dashboard/windscreen area"
+        },
+        {
+          "label": "Tyre placard (glove box) (for Australia)",
+          "position": "glove box area"
+        },
+        {
+          "label": "Build-date plate (for Australia)",
+          "position": "engine bay/firewall area"
+        },
+        {
+          "label": "Vehicle identification plate",
+          "position": "driver door sill/B-pillar area"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "VEHICLE IDENTIFICATION NUMBER ARRANGEMENT"
+    },
+    {
+      "block_type": "table",
+      "title": "VIN Arrangement",
+      "columns": [
+        {
+          "key": "position",
+          "label": "VIN Position"
+        },
+        {
+          "key": "code",
+          "label": "Code"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "position": "1-3",
+          "code": "SJN",
+          "meaning": "Nissan, Passenger vehicle"
+        },
+        {
+          "position": "4",
+          "code": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "position": "4",
+          "code": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "position": "5",
+          "code": "B",
+          "meaning": "CG13DE engine"
+        },
+        {
+          "position": "5",
+          "code": "A",
+          "meaning": "CG10DE engine"
+        },
+        {
+          "position": "5",
+          "code": "C",
+          "meaning": "VJZ engine"
+        },
+        {
+          "position": "6",
+          "code": "A",
+          "meaning": "2-wheel drive model"
+        },
+        {
+          "position": "7-9",
+          "code": "K11",
+          "meaning": "Model"
+        },
+        {
+          "position": "10",
+          "code": "A",
+          "meaning": "For Australia"
+        },
+        {
+          "position": "10",
+          "code": "U",
+          "meaning": "For Europe"
+        },
+        {
+          "position": "11",
+          "code": "3",
+          "meaning": "Fixed digit"
+        },
+        {
+          "position": "12-17",
+          "code": "XXXXXX",
+          "meaning": "Vehicle serial number"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Australia-specific items noted: Tyre placard (glove box), Build-date plate. Market designators: A = For Australia, U = For Europe."
+}

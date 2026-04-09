@@ -1,0 +1,222 @@
+{
+  "page_code": "EM-6",
+  "section": "EM",
+  "title": "PREPARATION \u2014 COMMERCIAL SERVICE TOOLS",
+  "page_type": "spec_table",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Spark plug wrench \u2014 16 mm (0.63 in) hex socket tool",
+      "bbox_percent": [
+        30,
+        5,
+        65,
+        14
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Valve seat cutter set \u2014 finishing valve seat dimensions",
+      "bbox_percent": [
+        30,
+        16,
+        65,
+        24
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Piston ring expander \u2014 removing and installing piston ring",
+      "bbox_percent": [
+        30,
+        26,
+        65,
+        36
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Valve guide drift \u2014 two-diameter drift tool; A = 9.5 mm (0.374 in) dia., B = 5.5 mm (0.217 in) dia., Intake & Exhaust",
+      "bbox_percent": [
+        30,
+        37,
+        65,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Valve guide reamer \u2014 two reamers: D1 = 5.5 mm (0.217 in), D2 = 9.68 mm (0.381 in)",
+      "bbox_percent": [
+        30,
+        52,
+        65,
+        65
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig6",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Front oil seal drift \u2014 A = 75 mm (2.95 in) dia., B = 45 mm (1.77 in) dia.",
+      "bbox_percent": [
+        30,
+        66,
+        65,
+        78
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig7",
+      "ref_code": null,
+      "type": "tool_illustration",
+      "description": "Rear oil seal drift \u2014 A = 110 mm (4.33 in) dia., B = 80 mm (3.15 in) dia.",
+      "bbox_percent": [
+        30,
+        79,
+        65,
+        91
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PREPARATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "COMMERCIAL SERVICE TOOLS"
+    },
+    {
+      "block_type": "table",
+      "title": "Commercial Service Tools",
+      "columns": [
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        },
+        {
+          "key": "cg10de",
+          "label": "Engine application \u2014 CG10DE"
+        },
+        {
+          "key": "cg13de",
+          "label": "Engine application \u2014 CG13DE"
+        }
+      ],
+      "rows": [
+        {
+          "tool_name": "Spark plug wrench",
+          "description": "Removing and installing spark plug. 16 mm (0.63 in)",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_name": "Valve seat cutter set",
+          "description": "Finishing valve seat dimensions",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_name": "Piston ring expander",
+          "description": "Removing and installing piston ring",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_name": "Valve guide drift",
+          "description": "Removing and installing valve guide. Intake & Exhaust: A = 9.5 mm (0.374 in) dia., B = 5.5 mm (0.217 in) dia.",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_name": "Valve guide reamer",
+          "description": "Reaming valve guide (1) or hole for oversize valve guide (2). D1 = 5.5 mm (0.217 in), D2 = 9.68 mm (0.381 in)",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_name": "Front oil seal drift",
+          "description": "Installing front oil seal. A = 75 mm (2.95 in) dia., B = 45 mm (1.77 in) dia.",
+          "cg10de": "O",
+          "cg13de": "O"
+        },
+        {
+          "tool_name": "Rear oil seal drift",
+          "description": "Installing rear oil seal. A = 110 mm (4.33 in) dia., B = 80 mm (3.15 in) dia.",
+          "cg10de": "O",
+          "cg13de": "O"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Spark plug wrench",
+      "usage": "Removing and installing spark plug; 16 mm (0.63 in)"
+    },
+    {
+      "part_number": "",
+      "name": "Valve seat cutter set",
+      "usage": "Finishing valve seat dimensions"
+    },
+    {
+      "part_number": "",
+      "name": "Piston ring expander",
+      "usage": "Removing and installing piston ring"
+    },
+    {
+      "part_number": "",
+      "name": "Valve guide drift",
+      "usage": "Removing and installing valve guide; Intake & Exhaust A = 9.5 mm (0.374 in) dia., B = 5.5 mm (0.217 in) dia."
+    },
+    {
+      "part_number": "",
+      "name": "Valve guide reamer",
+      "usage": "Reaming valve guide (1) or hole for oversize valve guide (2); D1 = 5.5 mm (0.217 in), D2 = 9.68 mm (0.381 in)"
+    },
+    {
+      "part_number": "",
+      "name": "Front oil seal drift",
+      "usage": "Installing front oil seal; A = 75 mm (2.95 in) dia., B = 45 mm (1.77 in) dia."
+    },
+    {
+      "part_number": "",
+      "name": "Rear oil seal drift",
+      "usage": "Installing rear oil seal; A = 110 mm (4.33 in) dia., B = 80 mm (3.15 in) dia."
+    }
+  ],
+  "cross_references": [],
+  "model_notes": "Engine applications indicated for CG10DE and CG13DE engines. All tools listed apply to both engine variants."
+}

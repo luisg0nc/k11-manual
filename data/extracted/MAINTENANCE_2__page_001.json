@@ -1,0 +1,80 @@
+{
+  "page_code": "MA",
+  "section": "MA",
+  "title": "MAINTENANCE",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "MA-7002"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MAINTENANCE"
+    },
+    {
+      "block_type": "prose",
+      "text": "<SUPPLEMENT-VII>",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION MA"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "table",
+      "title": "Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PERIODIC MAINTENANCE (For Europe)",
+          "page": "MA-7002"
+        },
+        {
+          "topic": "PERIODIC MAINTENANCE (Except for Europe)",
+          "page": "MA-7008"
+        },
+        {
+          "topic": "RECOMMENDED FLUIDS AND LUBRICANTS",
+          "page": "MA-7012"
+        },
+        {
+          "topic": "CHASSIS AND BODY MAINTENANCE",
+          "page": "MA-7013"
+        },
+        {
+          "topic": "SERVICE DATA AND SPECIFICATIONS",
+          "page": "MA-7015"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "MA-7002",
+    "MA-7008",
+    "MA-7012",
+    "MA-7013",
+    "MA-7015"
+  ],
+  "model_notes": null
+}

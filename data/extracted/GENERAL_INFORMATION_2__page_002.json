@@ -1,0 +1,123 @@
+{
+  "page_code": "",
+  "section": "",
+  "title": "HOW TO USE THIS MANUAL / IMPORTANT SAFETY NOTICE",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Diagram showing Quick Reference Index with YES/NO branches indicating which sections are covered in this supplement versus the original service manual",
+      "bbox_percent": [
+        10,
+        18,
+        90,
+        47
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO USE THIS MANUAL"
+    },
+    {
+      "block_type": "prose",
+      "text": "This Service Manual contains the new service procedures, service data and specifications for the facelifted model K11 series which has been in production since June, 2000.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "This Service Manual Supplement does not contain the service procedures, etc. which are the same as those for former models*. Please use this manual in conjunction with the NISSAN model K11 series Service Manual (Pub. No. SM2E-0K11E0E, SM4E-K11SE0E, SM5E-K11SE0E, SM5E-K11SA0E, SM5E-K11SE1E, SM8E-K11SE0E and SM8E-K11SE1E).",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Follow the instruction below when using this supplement.",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Manual Usage Guide",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "start",
+          "text": "Specific sections titles are printed white on a black background in the QUICK REFERENCE INDEX."
+        },
+        {
+          "id": "n2",
+          "type": "start",
+          "text": "Those sections which are printed black on a white background are not contained in this manual."
+        },
+        {
+          "id": "n3",
+          "type": "terminal",
+          "text": "Service procedures and service data are added or changed. Use this SUPPLEMENT. Only the added or changed points are introduced in these chapters."
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Service procedures are the same as for the former models.* Refer to NISSAN model K11 series Service Manual (Pub. No. SM2E-0K11E0E, SM4E-K11SE0E, SM5E-K11SE0E, SM5E-K11SA0E, SM5E-K11SE1E, SM8E-K11SE0E and SM8E-K11SE1E)."
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "YES"
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "NO"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "* Former models: Models before the model K11 series introduced in June, 2000.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IMPORTANT SAFETY NOTICE"
+    },
+    {
+      "block_type": "prose",
+      "text": "The proper performance of service is essential for both the safety of the mechanic and the efficient functioning of the vehicle. The service methods in this Service Manual are described in such a manner that the service may be performed safely and accurately.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Service varies with the procedures used, the skills of the mechanic and the tools and parts available. Accordingly, anyone using service procedures, tools or parts which are not specifically recommended by NISSAN must first completely satisfy himself that neither his safety nor the vehicle's safety will be jeopardized by the service method selected.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "NISSAN EUROPE N.V.\nService Operations Section\nAmsterdam, The Netherlands",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "SM2E-0K11E0E",
+    "SM4E-K11SE0E",
+    "SM5E-K11SE0E",
+    "SM5E-K11SA0E",
+    "SM5E-K11SE1E",
+    "SM8E-K11SE0E",
+    "SM8E-K11SE1E"
+  ],
+  "model_notes": "Applicable to facelifted K11 series introduced in June 2000. Former models refer to K11 series before June 2000."
+}

@@ -1,0 +1,310 @@
+{
+  "page_code": "AT-87",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Electrical Component Inspection N-CVT Control Unit (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "AT-87.jpg",
+  "continuation": {
+    "continues_from": "AT-86",
+    "continues_to": "AT-88"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT142",
+      "type": "component_photo",
+      "description": "Inhibit switch with ohmmeter connected, showing terminal numbering (3,5,6,7,8,9 and 1,2)",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "inhibitor_switch_check"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT143",
+      "type": "component_photo",
+      "description": "Vehicle speed sensor disconnected with ohmmeter connected to terminals 1, 2, 3",
+      "bbox_percent": [
+        0,
+        38,
+        38,
+        58
+      ],
+      "associated_step": "vehicle_speed_sensor_check"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT144",
+      "type": "component_photo",
+      "description": "Line pressure solenoid connector disconnected at N-CVT dipstick location, ohmmeter connected",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        77
+      ],
+      "associated_step": "line_pressure_solenoid_check"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT145",
+      "type": "component_photo",
+      "description": "Stop lamp switch at steering column with connector terminals 1 and 2, ohmmeter connected to ground",
+      "bbox_percent": [
+        0,
+        77,
+        38,
+        98
+      ],
+      "associated_step": "stop_lamp_switch_check"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electrical Component Inspection N-CVT Control Unit (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "INHIBITOR SWITCH"
+    },
+    {
+      "block_type": "prose",
+      "text": "Move selector lever and check for continuity between terminals.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Inhibitor Switch Continuity Table",
+      "columns": [
+        {
+          "key": "position",
+          "label": "Position"
+        },
+        {
+          "key": "t1",
+          "label": "1"
+        },
+        {
+          "key": "t2",
+          "label": "2"
+        },
+        {
+          "key": "t3",
+          "label": "3"
+        },
+        {
+          "key": "t5",
+          "label": "5"
+        },
+        {
+          "key": "t6",
+          "label": "6"
+        },
+        {
+          "key": "t7",
+          "label": "7"
+        },
+        {
+          "key": "t8",
+          "label": "8"
+        },
+        {
+          "key": "t9",
+          "label": "9"
+        }
+      ],
+      "rows": [
+        {
+          "position": "P",
+          "t1": "O\u2014\u2014O",
+          "t2": "",
+          "t3": "O",
+          "t5": "",
+          "t6": "",
+          "t7": "\u2014\u2014O",
+          "t8": "",
+          "t9": ""
+        },
+        {
+          "position": "R",
+          "t1": "",
+          "t2": "",
+          "t3": "O",
+          "t5": "",
+          "t6": "",
+          "t7": "",
+          "t8": "\u2014\u2014O",
+          "t9": ""
+        },
+        {
+          "position": "N",
+          "t1": "O\u2014\u2014O",
+          "t2": "",
+          "t3": "O",
+          "t5": "",
+          "t6": "",
+          "t7": "",
+          "t8": "",
+          "t9": "\u2014\u2014O"
+        },
+        {
+          "position": "D",
+          "t1": "",
+          "t2": "",
+          "t3": "O",
+          "t5": "",
+          "t6": "\u2014\u2014O",
+          "t7": "",
+          "t8": "",
+          "t9": ""
+        },
+        {
+          "position": "Ds",
+          "t1": "",
+          "t2": "",
+          "t3": "O\u2014\u2014O",
+          "t5": "",
+          "t6": "",
+          "t7": "",
+          "t8": "",
+          "t9": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VEHICLE SPEED SENSOR"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to \"On-Vehicle Service\" for assembly and disassembly procedures.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check resistance between terminals # 1, # 2 and # 3",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Vehicle Speed Sensor Resistance Table",
+      "columns": [
+        {
+          "key": "terminal_no",
+          "label": "Terminal No."
+        },
+        {
+          "key": "resistance",
+          "label": "Resistance"
+        }
+      ],
+      "rows": [
+        {
+          "terminal_no": "1  2",
+          "resistance": "510 - 630\u03a9"
+        },
+        {
+          "terminal_no": "2  3",
+          "resistance": "Continuity should not exist"
+        },
+        {
+          "terminal_no": "1  3",
+          "resistance": "Continuity should not exist"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "LINE PRESSURE SOLENOID"
+    },
+    {
+      "block_type": "prose",
+      "text": "Disconnect line pressure solenoid connector. Check resistance between terminal (1) and ground.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Line Pressure Solenoid Resistance Table",
+      "columns": [
+        {
+          "key": "solenoid",
+          "label": "Solenoid"
+        },
+        {
+          "key": "terminal_no",
+          "label": "Terminal No."
+        },
+        {
+          "key": "ground",
+          "label": ""
+        },
+        {
+          "key": "resistance",
+          "label": "Resistance"
+        }
+      ],
+      "rows": [
+        {
+          "solenoid": "Line pressure solenoid",
+          "terminal_no": "1",
+          "ground": "ground",
+          "resistance": "10-20\u03a9"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "STOP LAMP SWITCH"
+    },
+    {
+      "block_type": "prose",
+      "text": "Disconnect stop lamp switch connector. Check resistance between terminal connectors and ground.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Stop Lamp Switch Resistance Table",
+      "columns": [
+        {
+          "key": "standard_value",
+          "label": "Standard Value"
+        },
+        {
+          "key": "brake_depressed",
+          "label": "Brake depressed"
+        },
+        {
+          "key": "brake_released",
+          "label": "Brake released"
+        }
+      ],
+      "rows": [
+        {
+          "standard_value": "",
+          "brake_depressed": "0\u03a9",
+          "brake_released": "\u221e \u03a9"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "On-Vehicle Service"
+  ],
+  "model_notes": "N-CVT (Nissan Continuously Variable Transmission) application"
+}

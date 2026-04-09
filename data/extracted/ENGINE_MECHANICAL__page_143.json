@@ -1,0 +1,115 @@
+{
+  "page_code": "EM-5010",
+  "section": "EM",
+  "title": "OIL PAN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM909B",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing liquid gasket application location on inner sealing surface, 7 mm (0.28 in) from bolt hole, indicating groove and inner side",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        28
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM249",
+      "type": "tool_illustration",
+      "description": "Illustration of applying a continuous bead of liquid gasket to the mating surface of the oil pan using a sealant applicator gun",
+      "bbox_percent": [
+        0,
+        28,
+        35,
+        55
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OIL PAN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "oil_pan_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 2,
+          "text": "Apply liquid gasket to inner sealing surface as shown at left.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Apply a continuous bead of liquid gasket to mating surface of oil pan.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Attaching should be done within 5 minutes after coating."
+          ]
+        },
+        {
+          "step": 4,
+          "text": "Install oil pan and tighten bolts gradualy in two or three stages.",
+          "figure_ref": null,
+          "warnings": [
+            "Wait at least 30 minutes before refilling engine oil."
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Oil pan bolts torque",
+          "value": "10",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Oil pan bolts torque",
+          "value": "1.02",
+          "unit": "kg-m",
+          "condition": ""
+        },
+        {
+          "label": "Oil pan bolts torque",
+          "value": "88.5",
+          "unit": "in-lb",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Liquid gasket application: 7 mm (0.28 in) from bolt hole, applied to inner side sealing surface. Groove and bolt hole locations shown in diagram.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

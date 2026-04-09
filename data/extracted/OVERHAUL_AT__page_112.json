@@ -1,0 +1,184 @@
+{
+  "page_code": "AT-112",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-112.jpg",
+  "continuation": {
+    "continues_from": "AT-111",
+    "continues_to": "AT-113"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT231",
+      "type": "tool_illustration",
+      "description": "Gauge tools KV319-K0020 and KV319-K0130 shown secured to transmission case",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        18
+      ],
+      "associated_step": "step_4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT232",
+      "type": "parts_diagram",
+      "description": "Cross-section diagram showing gauge, primary pulley, secondary pulley, side case, mating surface, and 70 mm (2.76 in) dia. hole measurement location",
+      "bbox_percent": [
+        0,
+        18,
+        35,
+        52
+      ],
+      "associated_step": "step_5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT233",
+      "type": "tool_illustration",
+      "description": "Illustration of depth gauge tool being used to measure the stepped portion",
+      "bbox_percent": [
+        0,
+        52,
+        35,
+        72
+      ],
+      "associated_step": "step_5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Primary pulley end play"
+    },
+    {
+      "block_type": "procedure",
+      "id": "primary_pulley_end_play",
+      "title": "Primary pulley end play",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove all traces of old liquid gasket from the mating surface of the transmission case and clean, as required.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Dress the mating surface of the side case to remove burrs.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Wash clean the side case to remove all traces of grease.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Secure the gauge Tool to the transmission case using bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Using the gauge and the depth gauge Tool, measure the \"depth\" (distance) between the mating surface of the transmission case and the stepped portion at the 70 mm (2.76 in) dia. hole.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Equation for calculation (Unit: mm): X = C + Lp - D - 2t\n\nwhere:\nT: Snap ring thickness (Select a suitable snap ring whose thickness is determined by the above calculation (x) from among those listed in the table below.)\nC: Depth or distance between upper surface of gauge and the recess for the snap ring at the 70 mm (2.76 in) hole (Average value of fourpoint measurements)\nLp: Dimension measured under \"Adjusting the pulley alignment\"\nD: Indicated primary pulley dimension\nt: Gauge thickness (stamped on the side of gauge)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Snap Ring Selection Table",
+      "columns": [
+        {
+          "key": "x_mm",
+          "label": "x mm (Calculated value)"
+        },
+        {
+          "key": "T_mm_in",
+          "label": "T mm (in) (Snap ring thickness)"
+        }
+      ],
+      "rows": [
+        {
+          "x_mm": "1.2 - 1.28",
+          "T_mm_in": "1.35 (0.0531)"
+        },
+        {
+          "x_mm": "1.28 - 1.36",
+          "T_mm_in": "1.43 (0.0563)"
+        },
+        {
+          "x_mm": "1.36 - 1.44",
+          "T_mm_in": "1.51 (0.0594)"
+        },
+        {
+          "x_mm": "1.44 - 1.52",
+          "T_mm_in": "1.59 (0.0626)"
+        },
+        {
+          "x_mm": "1.52 - 1.60",
+          "T_mm_in": "1.67 (0.0657)"
+        },
+        {
+          "x_mm": "1.60 - 1.68",
+          "T_mm_in": "1.75 (0.0689)"
+        },
+        {
+          "x_mm": "1.68 - 1.76",
+          "T_mm_in": "1.83 (0.0720)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If the snap ring thickness determined by calculation overlaps the value in the next range, use a snap ring in either range. For example, if the calculated thickness is 1.36 mm, either a 1.43 or 1.51 mm (0.0563 or 0.0594 in) snap ring can be used.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV319-K0020",
+      "name": "Gauge Tool",
+      "usage": "Secured to transmission case to measure depth for primary pulley end play calculation"
+    },
+    {
+      "part_number": "KV319-K0130",
+      "name": "Gauge Tool (secondary component)",
+      "usage": "Used together with KV319-K0020 for primary pulley end play measurement"
+    }
+  ],
+  "cross_references": [
+    "Adjusting the pulley alignment"
+  ],
+  "model_notes": null
+}

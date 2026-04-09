@@ -1,0 +1,185 @@
+{
+  "page_code": "AT-73",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Vehicle Creeps",
+  "page_type": "flowchart",
+  "source_image": "page_AT-73.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "AT-74"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT151",
+      "type": "component_photo",
+      "description": "CONSULT tool connected in vehicle interior, showing the diagnostic connector location",
+      "bbox_percent": [
+        2,
+        58,
+        48,
+        85
+      ],
+      "associated_step": "Note 1 \u2014 Measure clutch current procedure step 1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Vehicle Creeps"
+    },
+    {
+      "block_type": "prose",
+      "text": "Symptom: The vehicle moves slowly when shifting to driving range from a complete standstill. (When accelerator pedal is released)\nNOTE: It is normal to have an almost imperceptible creep or a slight creep (less than the creep of a conventional hydraulic A/T)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Diagnosis item:\n\u2022 Accelerator switch or accelerator position switch is faulty\n\u2022 N-CVT control unit is faulty\n\u2022 Electromagnetic clutch is faulty\n\u2022 Insulation is faulty on harness between electromagnetic clutch and N-CVT control unit",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECK SEQUENCE"
+    },
+    {
+      "block_type": "prose",
+      "text": "(Refer to diagnosis chart on following page)",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Vehicle Creeps \u2014 Check Sequence",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Check accelerator switch circuit\nChart reference number: 1"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Repair or replace accelerator switch, accelerator position switch or harness"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Measure clutch current\nChart reference number: 2,3\n[Note 1]"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Check or replace brush holder harness."
+        },
+        {
+          "id": "n5",
+          "type": "terminal",
+          "text": "Replace electromagnetic clutch"
+        },
+        {
+          "id": "n6",
+          "type": "terminal",
+          "text": "Replace N-CVT control unit"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "N.G."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n4",
+          "to": "n6",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "procedure",
+      "id": "note1_procedure",
+      "title": "Note 1 \u2014 Measure clutch current",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Connect CONSULT and start engine",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Select \"DATA MONITOR\"",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Pull handbrake securely, depress brake pedal, shift selector lever from \"N\" to \"D\" range while idling. Read \"ACTUAL CURRENT\" value on screen. Standard value: 0.1 - 0.2 A",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Measure current while depressing and releasing the accelerator pedal after having fulfilled conditions mentioned under item 3. (Set accelerator switch ON and OFF)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Clutch current \u2014 Accelerator pedal is released (Accelerator switch \"ON\")",
+          "value": "0.1 - 0.2",
+          "unit": "A",
+          "condition": "Selector in D, engine idling, handbrake applied, accelerator pedal released"
+        },
+        {
+          "label": "Clutch current \u2014 Accelerator pedal is depressed (Accelerator switch \"OFF\")",
+          "value": "Minimum 0.2",
+          "unit": "A",
+          "condition": "Selector in D, engine idling, handbrake applied, accelerator pedal depressed"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "CONSULT",
+      "name": "CONSULT diagnostic tool",
+      "usage": "Connect to vehicle to monitor \"ACTUAL CURRENT\" via DATA MONITOR function"
+    }
+  ],
+  "cross_references": [
+    "AT-74"
+  ],
+  "model_notes": "N-CVT (automatic transmission variant). Creep behaviour note: slight creep less than conventional hydraulic A/T is normal."
+}

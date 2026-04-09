@@ -1,0 +1,213 @@
+{
+  "page_code": "ST-23",
+  "section": "ST",
+  "title": "POWER STEERING GEAR AND LINKAGE \u2014 Removal (Cont'd) / Installation",
+  "page_type": "prose_procedure",
+  "source_image": "st-23.jpg",
+  "continuation": {
+    "continues_from": "ST-22",
+    "continues_to": "ST-24"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST036",
+      "type": "component_photo",
+      "description": "Photo showing boot retaining strap and mounting bolts on steering gear assembly",
+      "bbox_percent": [
+        0,
+        0,
+        45,
+        14
+      ],
+      "associated_step": "10-11"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST581B",
+      "type": "component_photo",
+      "description": "Photo showing steering gear being displaced through wheel arch for removal",
+      "bbox_percent": [
+        0,
+        14,
+        45,
+        30
+      ],
+      "associated_step": "12"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UST028",
+      "type": "parts_diagram",
+      "description": "Diagram showing rack mounting bolt tightening sequence \u2014 temporary tightening bolts 1 and 2, final tightening bolts 3 and 4, sequence: 1\u21922\u21923\u21924\u21921\u21922",
+      "bbox_percent": [
+        0,
+        50,
+        45,
+        70
+      ],
+      "associated_step": "installation_bolt_sequence"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UST037",
+      "type": "parts_diagram",
+      "description": "Diagram showing high pressure line and low pressure line retaining clip with torque values",
+      "bbox_percent": [
+        0,
+        70,
+        45,
+        90
+      ],
+      "associated_step": "installation_fluid_lines"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "POWER STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 10,
+          "text": "Remove steering gear mounting bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Slacken dust boot retaining strap and remove dust boot from pinion.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "For LHD vehicles, rotate gear and displace through right-hand wheel arch until left-hand tie rod is clear to drop out through bottom of engine bay, then remove assembly.\n\nFor RHD vehicles, rotate gear and displace through left-hand wheel arch until right-hand tie rod is clear to drop out through bottom of engine bay, then remove assembly.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Installation is basically the reverse procedure to removal.",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Ensure there are no cracks or splits in any of the dust boots; all fluid lines and glands are secure and free from leaks prior to installation.",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Ensure that the correct mounting clamps and rubbers are used for the power steering rack and they are oriented correctly with the oval holes located at the top.",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "When replacing steering gear, ensure correct rack length is selected. Short travel is for vehicles fitted with wide tyres (175/60-13). Standard length rack is used for all other vehicles.",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "When fitting rack mounting bolts, initially install bolts 1 and 2 so that the mating parts are not clamped and then install bolts 3 and 4 and tighten in the sequence shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Ensure that the steering gear is correctly aligned in housing brackets, and that transfer tubes do not foul bulkhead or subframe.",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Refit high and low pressure fluid lines. Ensure high pressure line gland is tightened to the recommended torque. Ensure low pressure line is fitted up to flare nut before tightening hose retaining clip.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "High pressure line",
+          "value": "15 - 25",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "High pressure line",
+          "value": "1.5 - 2.5",
+          "unit": "kg\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "High pressure line",
+          "value": "14 - 19",
+          "unit": "ft\u00b7lb",
+          "condition": ""
+        },
+        {
+          "label": "Low pressure line retaining clip",
+          "value": "3.5 - 4.6",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Low pressure line retaining clip",
+          "value": "0.36 - 0.47",
+          "unit": "kg\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Low pressure line retaining clip",
+          "value": "2.6 - 3.4",
+          "unit": "ft\u00b7lb",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Excessive tightening can damage threads or connector O-ring.\n\u2022 The O-ring in low pressure pipe connector is larger than for high-pressure connector. Take care to install the correct O-ring.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "ST-22"
+  ],
+  "model_notes": "LHD vehicles: displace gear through right-hand wheel arch. RHD vehicles: displace gear through left-hand wheel arch. Short travel rack for vehicles fitted with wide tyres (175/60-13); standard length rack for all other vehicles."
+}

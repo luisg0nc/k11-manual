@@ -1,0 +1,83 @@
+{
+  "page_code": "AT-5",
+  "section": "AT",
+  "title": "PRECAUTIONS \u2014 Service Notice",
+  "page_type": "prose_procedure",
+  "source_image": "page_AT-5.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Service Notice"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before proceeding with disassembly, thoroughly clean the outside of the transaxle. It is important to prevent the internal parts from becoming contaminated by dirt or other foreign matter.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Disassembly should be done in a clean work area.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Use lint-free cloth or towels for wiping parts clean. Common shop rags can leave fibers that could interfere with the operation of the transaxle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "When disassembling parts, place them in order in a parts rack so that they can be put back into the unit in their proper positions.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "All parts should be carefully cleaned with a general purpose, non-flammable solvent before inspection or reassembly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Gaskets, seals, O-rings, circlips and split pins should be replaced any time the transaxle is disassembled.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "It is very important to perform functional tests whenever they are indicated.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The valve body contains precision parts and requires extreme care when removed during service.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Before assembly, apply a coat of recommended A.T.F. to all parts. Petroleum jelly may be applied to O-rings and seals and used to hold small bearings and washers in place during reassembly. Do not use grease.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Extreme care should be taken to avoid damage to O-rings, seals and gaskets when assembling.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "After overhaul, refill the transaxle with new A.T.F.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

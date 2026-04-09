@@ -1,0 +1,152 @@
+{
+  "page_code": "GI-7003",
+  "section": "GI",
+  "title": "CONSULT-II CHECKING SYSTEM",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI083A",
+      "type": "tool_illustration",
+      "description": "NISSAN CONSULT-II unit (item 1) and program card (item 2)",
+      "bbox_percent": [
+        38,
+        8,
+        78,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NGI059",
+      "type": "component_location",
+      "description": "CONSULT-II Data Link Connector location showing DDL-2 connector (Petrol & Diesel engine models) and DDL-1 connector (Diesel engine models only)",
+      "bbox_percent": [
+        2,
+        38,
+        45,
+        58
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CONSULT-II CHECKING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Checking Equipment"
+    },
+    {
+      "block_type": "prose",
+      "text": "When ordering the below equipment, contact your NISSAN distributor.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Checking Equipment",
+      "columns": [
+        {
+          "key": "tool_name",
+          "label": "Tool name"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "rows": [
+        {
+          "tool_name": "NISSAN CONSULT-II\n\u2460 CONSULT-II unit and accessories\n\u2461 Program card AED00A and AEN00A (For NATS)\nTo confirm the best combination of tester internal software and the above mentioned software, refer to CONSULT-II Operation Manual.",
+          "description": "[See figure SGI083A]"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "NOTE:\n\u2022 The CONSULT-II must be used in conjunction with a program card. CONSULT-II does not require loading (Initialization) procedure.\n\u2022 Be sure the CONSULT-II is turned off before installing or removing a program card.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONSULT-II Data Link Connector"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig2",
+      "description": "CONSULT-II Data Link Connector location in vehicle",
+      "callouts": [
+        {
+          "label": "DDL-2 connector (Petrol & Diesel engine models) \u2014 Petrol: all available systems \u2014 Diesel: ABS, airbag",
+          "position": "upper left area of connector diagram"
+        },
+        {
+          "label": "DDL-1 connector (Diesel engine models only) Diesel: NATS",
+          "position": "lower area of connector diagram"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "INSPECTION PROCEDURE"
+    },
+    {
+      "block_type": "prose",
+      "text": "If the CONSULT-II cannot diagnose the system properly, check the following items.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Inspection Procedure",
+      "columns": [
+        {
+          "key": "symptom",
+          "label": "Symptom"
+        },
+        {
+          "key": "check_item",
+          "label": "Check item"
+        }
+      ],
+      "rows": [
+        {
+          "symptom": "CONSULT-II cannot access any system.",
+          "check_item": "\u2022 CONSULT-II DLC power supply circuit (Terminal 8) and ground circuit (Terminal 4) (For detailed circuit, refer to EF&EC-7251, \"MI & Data Link Connectors Wiring Diagram\".)\n\u2022 CONSULT-II DDL cable"
+        },
+        {
+          "symptom": "CONSULT-II cannot access individual system. (Other systems can be accessed.)",
+          "check_item": "\u2022 CONSULT-II program card (Check the approprite CONSULT-II program card for the system. Refer to \"Checking Equipment\" above.)\n\u2022 Power supply and ground circuit for the control unite of the system (For detailed circuit, refer to wiring diagram for each system.)\n\u2022 Open or short circuit between the system and CONSULT-II DLC (For detailed circuit, refer to wiring diagram for each system.)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "AED00A",
+      "name": "CONSULT-II Program Card",
+      "usage": "Used with NISSAN CONSULT-II for system diagnosis"
+    },
+    {
+      "part_number": "AEN00A",
+      "name": "CONSULT-II Program Card (For NATS)",
+      "usage": "Used with NISSAN CONSULT-II for NATS system diagnosis"
+    }
+  ],
+  "cross_references": [
+    "EF&EC-7251"
+  ],
+  "model_notes": "DDL-2 connector: Petrol & Diesel engine models (Petrol: all available systems; Diesel: ABS, airbag). DDL-1 connector: Diesel engine models only (Diesel: NATS)."
+}

@@ -1,0 +1,163 @@
+{
+  "page_code": "AT-118",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-118.jpg",
+  "continuation": {
+    "continues_from": "AT-117",
+    "continues_to": "AT-119"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT249",
+      "type": "component_photo",
+      "description": "Installing the reverse idle gear into the transmission case",
+      "bbox_percent": [
+        0,
+        3,
+        38,
+        22
+      ],
+      "associated_step": "17"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT250",
+      "type": "component_photo",
+      "description": "Synchroniser assembly showing thick spring and thin spring positions",
+      "bbox_percent": [
+        0,
+        23,
+        38,
+        43
+      ],
+      "associated_step": "18"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT251",
+      "type": "component_photo",
+      "description": "Fitting the counter gear (small end facing drive belt) to the shaft",
+      "bbox_percent": [
+        0,
+        43,
+        38,
+        62
+      ],
+      "associated_step": "20"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT252",
+      "type": "component_photo",
+      "description": "Installing the counter gear assembly with synchroniser sleeve lifted",
+      "bbox_percent": [
+        0,
+        62,
+        38,
+        81
+      ],
+      "associated_step": "21"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT253",
+      "type": "component_photo",
+      "description": "Installing the engine brake valve assembly",
+      "bbox_percent": [
+        0,
+        81,
+        38,
+        100
+      ],
+      "associated_step": "24"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 17,
+          "text": "Install the reverse idle gear.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Ensure the pin is positioned correctly in the transmission case."
+          ]
+        },
+        {
+          "step": 18,
+          "text": "Assemble the synchroniser using clean ATF.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Note the two wire springs are different thicknesses. Fit the thinner spring facing the transmission casing, and the thicker one facing the clutch housing. Align the spring gaps."
+          ]
+        },
+        {
+          "step": 19,
+          "text": "Install the sleeve and hub assembly, shift fork and reverse gear.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Fit the counter gear (small end facing the drive belt) to the shaft as shown.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Install the counter gear assembly.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Lift the synchroniser sleeve assembly up slightly for access. Lower the counter gear assembly into position. Lower the synchroniser. Ensure the counter shaft pin is correctly located in the transmission casing groove."
+          ]
+        },
+        {
+          "step": 22,
+          "text": "Fit the circlip.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Install the needle bearing.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Install the engine brake valve assembly.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

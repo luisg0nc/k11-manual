@@ -1,0 +1,156 @@
+{
+  "page_code": "GI-5008",
+  "section": "GI",
+  "title": "Identification Number (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi5008.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NGI028",
+      "type": "component_photo",
+      "description": "Identification plate layout for NISSAN EUROPE N.V. showing fields A through J with their positions",
+      "bbox_percent": [
+        5,
+        8,
+        70,
+        28
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NGI032",
+      "type": "component_photo",
+      "description": "Engine serial number location on engine, shown with arrow indicator",
+      "bbox_percent": [
+        2,
+        32,
+        45,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NGI033",
+      "type": "component_photo",
+      "description": "Manual transaxle number location on transaxle, shown with arrow indicator",
+      "bbox_percent": [
+        47,
+        32,
+        90,
+        52
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Identification Number (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "IDENTIFICATION PLATE"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Identification plate for NISSAN EUROPE N.V. with labeled fields",
+      "callouts": [
+        {
+          "label": "A",
+          "position": "top-center of plate \u2014 Except Australia: Blank; Australia: Build date"
+        },
+        {
+          "label": "B",
+          "position": "below A \u2014 Vehicle identification number (chassis number)"
+        },
+        {
+          "label": "C",
+          "position": "right side \u2014 Gross vehicle weight (GVW), in Kg"
+        },
+        {
+          "label": "D",
+          "position": "right side \u2014 Gross combination weight (GCW), in Kg"
+        },
+        {
+          "label": "E",
+          "position": "right side \u2014 Gross axle weight (Front), in Kg"
+        },
+        {
+          "label": "F",
+          "position": "right side \u2014 Gross axle weight (Rear), in Kg"
+        },
+        {
+          "label": "G",
+          "position": "bottom-left \u2014 Vehicle type specification"
+        },
+        {
+          "label": "H",
+          "position": "bottom-center \u2014 Body colour code"
+        },
+        {
+          "label": "I",
+          "position": "bottom-center \u2014 Trim colour code"
+        },
+        {
+          "label": "J",
+          "position": "bottom-center \u2014 Model"
+        },
+        {
+          "label": "1-",
+          "position": "left-center row 1"
+        },
+        {
+          "label": "2-",
+          "position": "left-center row 2"
+        },
+        {
+          "label": "TYPE/TYP",
+          "position": "bottom-left label"
+        },
+        {
+          "label": "COLOUR, TRIM / FARBE, POLST",
+          "position": "bottom-center label"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "ENGINE SERIAL NUMBER"
+    },
+    {
+      "block_type": "prose",
+      "text": "Engine serial number location shown on engine assembly (see fig2, NGI032).",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "MANUAL TRANSAXLE NUMBER"
+    },
+    {
+      "block_type": "prose",
+      "text": "Manual transaxle number location shown on transaxle assembly (see fig3, NGI033).",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Identification plate is for Nissan Europe N.V. Field A is blank except for Australia market where it shows build date."
+}

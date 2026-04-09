@@ -1,0 +1,82 @@
+{
+  "page_code": "AT-64",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Line Pressure Solenoid Circuit Check (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "AT-64.jpg",
+  "continuation": {
+    "continues_from": "AT-63",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT127",
+      "type": "connector_diagram",
+      "description": "Diagram B: Illustration showing a driver depressing the brake pedal in a vehicle, with N-CVT C/U connected to connector pin 19, and a voltmeter measuring voltage at that pin.",
+      "bbox_percent": [
+        0,
+        8,
+        35,
+        57
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Line Pressure Solenoid Circuit Check (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Continued from previous page",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Line Pressure Solenoid Circuit Check (Cont'd)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Perform self diagnosis after test drive"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Inspection END"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "\u2022 Check N-CVT control unit I/O signal\n\u2022 Re-check N-CVT control unit pin terminals for damage or incorrect connection of control unit harness connector"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "O.K."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "N.G."
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-63"
+  ],
+  "model_notes": "Applies to N-CVT (Nissan Continuously Variable Transmission) equipped models. Diagram B references connector pin 19 of N-CVT C/U with connector connected."
+}

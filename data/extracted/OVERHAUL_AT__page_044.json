@@ -1,0 +1,78 @@
+{
+  "page_code": "AT-44",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Brush Holder",
+  "page_type": "prose_procedure",
+  "source_image": "AT-44.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT074",
+      "type": "component_photo",
+      "description": "Photograph showing the brush holder location on the transmission housing, with the brush holder indicated by a label and arrow.",
+      "bbox_percent": [
+        0,
+        3,
+        32,
+        32
+      ],
+      "associated_step": "1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Brush Holder"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "brush_holder_installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Insert the brush holder straight into the hole on upper side of housing and tighten the two bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tightening torque",
+          "value": "6.0 to 8.0",
+          "unit": "N-m",
+          "condition": null
+        },
+        {
+          "label": "Tightening torque",
+          "value": "0.6 to 0.8",
+          "unit": "kg-m",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note:\n(1) When the transmission has been removed from the engine, install the brush holder after the transmission is reinstalled.\n(2) Be careful when inserting the brush holder. Excessive force may damage the brush connection surface and brush sliding surface.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

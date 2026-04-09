@@ -1,0 +1,173 @@
+{
+  "page_code": "AT-115",
+  "section": "AT",
+  "title": "Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "AT-115.jpg",
+  "continuation": {
+    "continues_from": "AT-114",
+    "continues_to": "AT-116"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT238",
+      "type": "parts_diagram",
+      "description": "Top-down view of transmission assembly showing bolt/component locations marked with X symbols",
+      "bbox_percent": [
+        0,
+        0,
+        35,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT239",
+      "type": "tool_illustration",
+      "description": "Cross-section diagram showing Gauge and Lp measurement location on primary pulley assembly",
+      "bbox_percent": [
+        0,
+        22,
+        35,
+        45
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ASSEMBLY"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Snap Ring Selection Table",
+      "columns": [
+        {
+          "key": "condition_number",
+          "label": "Condition #"
+        },
+        {
+          "key": "condition",
+          "label": "Condition"
+        },
+        {
+          "key": "action",
+          "label": "Action"
+        }
+      ],
+      "rows": [
+        {
+          "condition_number": "1",
+          "condition": "If Lp2 - Lp1 is less than 0.05",
+          "action": "use a new snap ring whose thickness is the same as that used on the old primary pulley side (\"old shim\")."
+        },
+        {
+          "condition_number": "2",
+          "condition": "If Lp2 - Lp1 is equal to or greater than 0.05, but less than 0.13",
+          "action": "use a new snap ring one rank higher in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "3",
+          "condition": "If Lp2 - Lp1 is equal to or greater than 0.13, but less than 0.21",
+          "action": "use a new snap ring two ranks higher in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "4",
+          "condition": "If Lp2 - Lp1 is equal to or greater than 0.21, but less than 0.29",
+          "action": "use a new snap ring three ranks higher in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "5",
+          "condition": "If Lp2 - Lp1 is equal to or greater than 0.29, but less than 0.37",
+          "action": "use a new snap ring four ranks higher in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "6",
+          "condition": "If Lp2 - Lp1 is equal to or greater than 0.37, but less than 0.45",
+          "action": "use a new snap ring five ranks higher in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "7",
+          "condition": "Lp1 - Lp2 is less than 0.01",
+          "action": "Same as (1) above."
+        },
+        {
+          "condition_number": "8",
+          "condition": "If Lp1 - Lp2 is equal to or greater than 0.01, but less than 0.09",
+          "action": "use a snap ring one rank lower in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "9",
+          "condition": "If Lp1 - Lp2 is equal to or greater than 0.09, but less than 0.17",
+          "action": "use a new snap ring two ranks lower in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "10",
+          "condition": "If Lp1 - Lp2 is equal to or greater than 0.17, but less than 0.25",
+          "action": "use a new snap ring three ranks lower in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "11",
+          "condition": "If Lp1 - Lp2 is equal to or greater than 0.25, but less than 0.33",
+          "action": "use a new snap ring four ranks lower in thickness than the old snap ring."
+        },
+        {
+          "condition_number": "12",
+          "condition": "If Lp1 - Lp2 is equal to or greater than 0.33, but less than 0.41",
+          "action": "use a new snap ring five ranks lower in thickness than the old snap ring."
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Snap Ring Thickness Values",
+      "columns": [
+        {
+          "key": "thickness_mm_in",
+          "label": "T mm (in) (Snap ring thickness)"
+        }
+      ],
+      "rows": [
+        {
+          "thickness_mm_in": "1.35 (0.0531)"
+        },
+        {
+          "thickness_mm_in": "1.43 (0.0563)"
+        },
+        {
+          "thickness_mm_in": "1.51 (0.0594)"
+        },
+        {
+          "thickness_mm_in": "1.59 (0.0626)"
+        },
+        {
+          "thickness_mm_in": "1.67 (0.0657)"
+        },
+        {
+          "thickness_mm_in": "1.75 (0.0689)"
+        },
+        {
+          "thickness_mm_in": "1.83 (0.0720)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

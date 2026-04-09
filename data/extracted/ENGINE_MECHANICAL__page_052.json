@@ -1,0 +1,235 @@
+{
+  "page_code": "EM-49",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-49.jpg",
+  "continuation": {
+    "continues_from": "EM-48",
+    "continues_to": "EM-50"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM012D",
+      "type": "tool_illustration",
+      "description": "Illustration showing measurement of piston skirt diameter with a micrometer, with dimension 'A' indicated",
+      "bbox_percent": [
+        0,
+        0,
+        30,
+        18
+      ],
+      "associated_step": "3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM316A",
+      "type": "component_photo",
+      "description": "Diagram of crankshaft journal showing taper measurement points A and B, and out-of-round measurement points X and Y",
+      "bbox_percent": [
+        0,
+        55,
+        30,
+        80
+      ],
+      "associated_step": "2"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_block_inspection_contd",
+      "title": "Cylinder Block Inspection (Continued)",
+      "steps": [
+        {
+          "step": 3,
+          "text": "Measure piston skirt diameter.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Check that piston-to-bore clearance is within specification.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Determine piston oversize according to amount of cylinder wear.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Oversize pistons are available for service. Refer to S.D.S."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Cylinder bore size is determined by adding piston-to-bore clearance to piston diameter \"A\".\nRebored size calculation:\nD = A + B - C\nwhere,\nD: Bored diameter\nA: Piston diameter as measured\nB: Piston-to-bore clearance\nC: Honing allowance 0.02 mm (0.0008 in)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Install main bearing caps, and tighten to the specified torque to prevent distortion of cylinder bores in final assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Cut cylinder bores.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "When any cylinder needs boring, all other cylinders must also be bored.",
+            "Ensure that boring machines intructions are closely followed."
+          ]
+        },
+        {
+          "step": 9,
+          "text": "Hone cylinders to obtain specified piston-to-bore clearance.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Measure finished cylinder bore for out-of-round and taper.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Measurement should be done after cylinder bore cools down."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Piston diameter \"A\"",
+          "value": "70.980 - 71.010",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Piston diameter \"A\"",
+          "value": "2.7945 - 2.7957",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Measuring point \"a\" (Distance from the bottom)",
+          "value": "9.5",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Measuring point \"a\" (Distance from the bottom)",
+          "value": "0.374",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Piston-to-bore clearance \"B\"",
+          "value": "0.010 - 0.030",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Piston-to-bore clearance \"B\"",
+          "value": "0.0004 - 0.0012",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Honing allowance C",
+          "value": "0.02",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Honing allowance C",
+          "value": "0.0008",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_inspection",
+      "title": "Crankshaft Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check crankshaft main and pin journals for score, wear or cracks.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "With a micrometer, measure journals for taper and out-of-round.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Out-of-round (X - Y)",
+          "value": "Less than 0.005",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Out-of-round (X - Y)",
+          "value": "Less than 0.0002",
+          "unit": "in",
+          "condition": null
+        },
+        {
+          "label": "Taper (A - B)",
+          "value": "Less than 0.002",
+          "unit": "mm",
+          "condition": null
+        },
+        {
+          "label": "Taper (A - B)",
+          "value": "Less than 0.0001",
+          "unit": "in",
+          "condition": null
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": null
+}

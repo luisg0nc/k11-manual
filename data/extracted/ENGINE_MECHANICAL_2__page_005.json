@@ -1,0 +1,172 @@
+{
+  "page_code": "EM-7005",
+  "section": "EM",
+  "title": "COMPRESSION PRESSURE",
+  "page_type": "prose_procedure",
+  "source_image": "compression_pressure_em7005.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM361",
+      "type": "component_photo",
+      "description": "View of engine showing ignition coils and spark plug locations on cylinder head",
+      "bbox_percent": [
+        2,
+        10,
+        45,
+        30
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM387C",
+      "type": "tool_illustration",
+      "description": "Compression tester tool illustration showing rubber portion diameter of 20 mm (0.79 in). Note: Use compressor tester whose end (rubber portion) is less than 20 mm (0.79 in) dia. Otherwise, it may be caught by cylinder head during removal.",
+      "bbox_percent": [
+        2,
+        30,
+        45,
+        50
+      ],
+      "associated_step": "6"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "COMPRESSION PRESSURE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Measurement of Compression Pressure"
+    },
+    {
+      "block_type": "procedure",
+      "id": "compression_pressure_procedure",
+      "title": "Measurement of Compression Pressure",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Warm up engine.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Turn ignition switch off.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Release fuel pressure. Refer to section EF & EC.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Disconnect and remove ignition coils.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove all spark plugs.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Attach a compression tester to No. 1 cylinder.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Use compressor tester whose end (rubber portion) is less than 20 mm (0.79 in) dia. Otherwise, it may be caught by cylinder head during removal."
+          ]
+        },
+        {
+          "step": 7,
+          "text": "Depress accelerator pedal fully to keep throttle valve wide open.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Crank engine and record highest gauge indication.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Repeat the measurement on each cylinder as shown above.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Always use a fully-charged battery to obtain specified engine revolution."
+          ]
+        },
+        {
+          "step": 10,
+          "text": "If cylinder compression in one or more cylinders is low, pour a small amount of engine oil into cylinders through spark plug holes and retest compression.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "If adding oil helps compression, piston rings may be worn or damaged. If so, replace piston rings after checking piston.",
+            "If pressure stays low, a valve may be sticking or seating improperly. Inspect and repair valve and valve seat. (Refer to S.D.S.) If valve or valve seat is damaged excessively, replace them.",
+            "If compression in any two adjacent cylinders is low and if adding oil does not help compression, there is leakage past the gasket surface. If so, replace cylinder head gasket."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Compression pressure \u2014 Standard",
+          "value": "1324 (13.2, 13.5, 192)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)",
+          "condition": "at 350 rpm"
+        },
+        {
+          "label": "Compression pressure \u2014 Minimum",
+          "value": "1128 (11.3, 11.5, 164)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)",
+          "condition": "at 350 rpm"
+        },
+        {
+          "label": "Difference limit between cylinders",
+          "value": "98 (0.98, 1.0, 14)",
+          "unit": "kPa (bar, kg/cm\u00b2, psi)",
+          "condition": "at 350 rpm"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "",
+      "name": "Compression tester",
+      "usage": "Attach to each cylinder to measure compression pressure. Rubber portion must be less than 20 mm (0.79 in) diameter."
+    }
+  ],
+  "cross_references": [
+    "EF & EC",
+    "S.D.S."
+  ],
+  "model_notes": null
+}

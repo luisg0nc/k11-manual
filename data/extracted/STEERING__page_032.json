@@ -1,0 +1,252 @@
+{
+  "page_code": "ST-31",
+  "section": "ST",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)",
+  "page_type": "spec_table",
+  "source_image": "st-31.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST583B",
+      "type": "component_photo",
+      "description": "Steering column assembly showing length measurement 'L'",
+      "bbox_percent": [
+        2,
+        38,
+        45,
+        55
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST592B",
+      "type": "component_photo",
+      "description": "Steering gear rack assembly showing length measurements 'L' on both sides",
+      "bbox_percent": [
+        40,
+        72,
+        100,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "General Specifications"
+    },
+    {
+      "block_type": "table",
+      "title": "General Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "manual_155SR13",
+          "label": "Manual steering / 155SR13 Tire"
+        },
+        {
+          "key": "manual_175_60_13",
+          "label": "Manual steering / 175/60-13 Tire"
+        },
+        {
+          "key": "power_155SR13",
+          "label": "Power steering / 155SR13 Tire"
+        },
+        {
+          "key": "power_175_60_13",
+          "label": "Power steering / 175/60-13 Tire"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Applied model",
+          "manual_155SR13": "155SR13 Tire",
+          "manual_175_60_13": "175/60-13 Tire",
+          "power_155SR13": "155SR13 Tire",
+          "power_175_60_13": "175/60-13 Tire"
+        },
+        {
+          "item": "Steering model",
+          "manual_155SR13": "Manual steering",
+          "manual_175_60_13": "Manual steering",
+          "power_155SR13": "Power steering",
+          "power_175_60_13": "Power steering"
+        },
+        {
+          "item": "Steering gear type",
+          "manual_155SR13": "R25T",
+          "manual_175_60_13": "R25T",
+          "power_155SR13": "PR25T",
+          "power_175_60_13": "PR25T"
+        },
+        {
+          "item": "Steering overall gear ratio",
+          "manual_155SR13": "33.99",
+          "manual_175_60_13": "33.99",
+          "power_155SR13": "42.0",
+          "power_175_60_13": "42.0"
+        },
+        {
+          "item": "Turn of steering wheel (Lock to lock)",
+          "manual_155SR13": "3.80",
+          "manual_175_60_13": "3.57",
+          "power_155SR13": "3.08",
+          "power_175_60_13": "2.88"
+        },
+        {
+          "item": "Steering column type",
+          "manual_155SR13": "Collapsible",
+          "manual_175_60_13": "Collapsible",
+          "power_155SR13": "Collapsible",
+          "power_175_60_13": "Collapsible"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "STEERING WHEEL AND COLUMN"
+    },
+    {
+      "block_type": "table",
+      "title": "Steering Wheel and Column Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "non_tilt",
+          "label": "Non-tilt"
+        },
+        {
+          "key": "tilt",
+          "label": "Tilt"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Steering wheel axial play mm (in)",
+          "non_tilt": "0 (0)",
+          "tilt": "0 (0)"
+        },
+        {
+          "item": "Steering wheel play mm (in)",
+          "non_tilt": "35 (1.38) or less",
+          "tilt": "35 (1.38) or less"
+        },
+        {
+          "item": "Steering column length \"L\" mm (in)",
+          "non_tilt": "RHD: 555.9 - 558.1 (21.89 - 21.97)\nLHD: 545.9 - 548.1 (21.49 - 21.58)",
+          "tilt": "RHD: 555.9 - 558.1 (21.89 - 21.97)\nLHD: 545.9 - 548.1 (21.49 - 21.58)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "STEERING GEAR"
+    },
+    {
+      "block_type": "table",
+      "title": "Steering Gear Specifications",
+      "columns": [
+        {
+          "key": "item",
+          "label": "Item"
+        },
+        {
+          "key": "manual_155SR13",
+          "label": "Manual R25T / 155SR13 Tire"
+        },
+        {
+          "key": "manual_175_60_13",
+          "label": "Manual R25T / 175/60-13 Tire"
+        },
+        {
+          "key": "power_155SR13",
+          "label": "Power PR25T / 155SR13 Tire"
+        },
+        {
+          "key": "power_175_60_13",
+          "label": "Power PR25T / 175/60-13 Tire"
+        }
+      ],
+      "rows": [
+        {
+          "item": "Steering gear type",
+          "manual_155SR13": "155SR13 Tire",
+          "manual_175_60_13": "175/60-13 Tire",
+          "power_155SR13": "155SR13 Tire",
+          "power_175_60_13": "175/60-13 Tire"
+        },
+        {
+          "item": "Rack stroke \"L\" mm (in)",
+          "manual_155SR13": "64.6 (2.54)",
+          "manual_175_60_13": "60.6 (2.38)",
+          "power_155SR13": "64.6 (2.45)",
+          "power_175_60_13": "60.6 (2.38)"
+        },
+        {
+          "item": "Pinion rotating torque N\u00b7m (kg-cm, in-lb)",
+          "manual_155SR13": "0.7 - 0.9 (7 - 9, 6.1 - 7.8)",
+          "manual_175_60_13": "0.7 - 0.9 (7 - 9, 6.1 - 7.8)",
+          "power_155SR13": "0.8 - 1.3 (8 - 13, 6.9 - 11.3)",
+          "power_175_60_13": "0.8 - 1.3 (8 - 13, 6.9 - 11.3)"
+        },
+        {
+          "item": "Rack sliding force N (kg, lb)",
+          "manual_155SR13": "250 (25.5, 56)",
+          "manual_175_60_13": "250 (25.5, 56)",
+          "power_155SR13": "284 (29.0, 64)",
+          "power_175_60_13": "284 (29.0, 64)"
+        },
+        {
+          "item": "Steering wheel turning force (Measured at one full turn from neutral) N (kg, lb)",
+          "manual_155SR13": "\u2014",
+          "manual_175_60_13": "\u2014",
+          "power_155SR13": "44.1 (4.5, 9.9)",
+          "power_175_60_13": "44.1 (4.5, 9.9)"
+        },
+        {
+          "item": "Fluid capacity (Approximate) \u2113 (Imp qt)",
+          "manual_155SR13": "\u2014",
+          "manual_175_60_13": "\u2014",
+          "power_155SR13": "1.0 (7/8)",
+          "power_175_60_13": "1.0 (7/8)"
+        },
+        {
+          "item": "Oil pump relief pressure kPa (bar, kg/cm\u00b2, psi)",
+          "manual_155SR13": "\u2014",
+          "manual_175_60_13": "\u2014",
+          "power_155SR13": "5,800 - 6,400 (58 - 64, 59.16 - 65.28, 841 - 928)",
+          "power_175_60_13": "5,800 - 6,400 (58 - 64, 59.16 - 65.28, 841 - 928)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "RHD and LHD variants have different steering column lengths. Manual steering uses R25T gear type; Power steering uses PR25T gear type. Applied tire sizes are 155SR13 and 175/60-13."
+}

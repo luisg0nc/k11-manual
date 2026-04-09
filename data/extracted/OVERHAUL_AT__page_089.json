@@ -1,0 +1,83 @@
+{
+  "page_code": "AT-89",
+  "section": "AT",
+  "title": "Electrical Component Inspection N\u00b7CVT Control Unit (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_AT-89.jpg",
+  "continuation": {
+    "continues_from": "AT-88",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT150",
+      "type": "connector_diagram",
+      "description": "N\u00b7CVT relay component view and connector terminal layout showing terminals 1, 2, 3, 5 and ohmmeter connection points",
+      "bbox_percent": [
+        0,
+        5,
+        30,
+        28
+      ],
+      "associated_step": "step1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electrical Component Inspection N\u00b7CVT Control Unit (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "N\u00b7CVT RELAY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "ncvt_relay_inspection",
+      "title": "N\u00b7CVT Relay Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the N\u00b7CVT relay. Check the resistance between terminal # 1 and # 2.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "N\u00b7CVT Relay Resistance Specification",
+      "columns": [
+        {
+          "key": "condition",
+          "label": "Standard value"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "condition": "Standard value",
+          "value": "Approx 70 - 80\u03a9"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-88"
+  ],
+  "model_notes": null
+}

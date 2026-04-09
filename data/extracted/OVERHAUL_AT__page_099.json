@@ -1,0 +1,135 @@
+{
+  "page_code": "AT-99",
+  "section": "AT",
+  "title": "DISASSEMBLY",
+  "page_type": "prose_procedure",
+  "source_image": "AT-99.jpg",
+  "continuation": {
+    "continues_from": "AT-98",
+    "continues_to": "AT-100"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT180",
+      "type": "component_photo",
+      "description": "Removing the reverse idler gear from the transmission assembly, with callout indicating 'Reverse idler gear'",
+      "bbox_percent": [
+        2,
+        1,
+        38,
+        18
+      ],
+      "associated_step": "29"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT181",
+      "type": "component_photo",
+      "description": "Removing the engine brake pipe and valve body, with callouts for 'Brake pipe' and 'Valve body'",
+      "bbox_percent": [
+        2,
+        19,
+        38,
+        37
+      ],
+      "associated_step": "30"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT182",
+      "type": "component_photo",
+      "description": "Removing the oil pan from the transmission",
+      "bbox_percent": [
+        2,
+        38,
+        38,
+        55
+      ],
+      "associated_step": "31"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT183",
+      "type": "component_photo",
+      "description": "Disconnecting the control cable from the transmission",
+      "bbox_percent": [
+        2,
+        56,
+        38,
+        73
+      ],
+      "associated_step": "32"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UAT184",
+      "type": "component_photo",
+      "description": "Removing the oil strainer from the transmission, with arrows indicating the O-ring location",
+      "bbox_percent": [
+        2,
+        74,
+        38,
+        97
+      ],
+      "associated_step": "33"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "DISASSEMBLY"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 29,
+          "text": "Remove the reverse idler gear and shaft.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 30,
+          "text": "Remove the engine brake pipe and valve body.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 31,
+          "text": "Remove the oil pan. Discard the gasket.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "There may still be some ATF in the oil pan. Have a container ready."
+          ]
+        },
+        {
+          "step": 32,
+          "text": "Disconnect the control cable.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 33,
+          "text": "Remove the oil strainer. Remove and discard the O-ring.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": [
+            "A considerable amount of ATF will flow from the inlet port. Have a container ready."
+          ]
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

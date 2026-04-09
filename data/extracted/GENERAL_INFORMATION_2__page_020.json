@@ -1,0 +1,167 @@
+{
+  "page_code": "GI-17",
+  "section": "GI",
+  "title": "IDENTIFICATION INFORMATION \u2014 Model Variation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi17.jpg",
+  "continuation": {
+    "continues_from": "GI-16",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": null,
+      "type": "parts_diagram",
+      "description": "Prefix and suffix designation chart showing VIN code breakdown for K11 Micra model variants, with letter codes and their meanings connected by lines",
+      "bbox_percent": [
+        0,
+        5,
+        100,
+        50
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "IDENTIFICATION INFORMATION"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Model Variation (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Prefix and suffix designations:"
+    },
+    {
+      "block_type": "table",
+      "title": "Prefix and Suffix Designation Codes \u2014 Position Breakdown",
+      "columns": [
+        {
+          "key": "position",
+          "label": "Position in code"
+        },
+        {
+          "key": "code",
+          "label": "Code letter"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "position": "1st character (body style)",
+          "code": "E",
+          "meaning": "3-door Hatchback"
+        },
+        {
+          "position": "1st character (body style)",
+          "code": "F",
+          "meaning": "5-door Hatchback"
+        },
+        {
+          "position": "2nd\u20133rd characters (engine)",
+          "code": "AE",
+          "meaning": "CG10DE"
+        },
+        {
+          "position": "2nd\u20133rd characters (engine)",
+          "code": "AN",
+          "meaning": "CG13DE"
+        },
+        {
+          "position": "4th character (drive)",
+          "code": "A",
+          "meaning": "2-wheel drive"
+        },
+        {
+          "position": "5th character (steering)",
+          "code": "R",
+          "meaning": "Right-hand drive"
+        },
+        {
+          "position": "5th character (steering)",
+          "code": "L",
+          "meaning": "Left-hand drive"
+        },
+        {
+          "position": "6th character (grade)",
+          "code": "B",
+          "meaning": "L grade"
+        },
+        {
+          "position": "6th character (grade)",
+          "code": "D",
+          "meaning": "LX grade"
+        },
+        {
+          "position": "6th character (grade)",
+          "code": "F",
+          "meaning": "SLX grade"
+        },
+        {
+          "position": "6th character (grade)",
+          "code": "T",
+          "meaning": "SUPER S grade"
+        },
+        {
+          "position": "7th character (transmission)",
+          "code": "F",
+          "meaning": "5-speed manual transaxle"
+        },
+        {
+          "position": "7th character (transmission)",
+          "code": "Z",
+          "meaning": "N-CVT"
+        },
+        {
+          "position": "Model series",
+          "code": "K11",
+          "meaning": "K11 series"
+        },
+        {
+          "position": "Suffix 1 (fuel system)",
+          "code": "E",
+          "meaning": "E.G.I."
+        },
+        {
+          "position": "Suffix 2 (market/equipment)",
+          "code": "A",
+          "meaning": "Standard equipment"
+        },
+        {
+          "position": "Suffix 2 (market/equipment)",
+          "code": "E",
+          "meaning": "For R.H.D. markets"
+        },
+        {
+          "position": "Suffix 2 (market/equipment)",
+          "code": "F",
+          "meaning": "For South Europe"
+        },
+        {
+          "position": "Suffix 2 (market/equipment)",
+          "code": "G",
+          "meaning": "For Central Europe"
+        },
+        {
+          "position": "Suffix 2 (market/equipment)",
+          "code": "S",
+          "meaning": "For North Europe"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "R = Right-hand drive, L = Left-hand drive. Suffix codes distinguish R.H.D. markets (E), South Europe (F), Central Europe (G), North Europe (S), and Standard equipment (A). Engine variants: CG10DE (AE) and CG13DE (AN). Transmission variants: 5-speed manual transaxle (F) and N-CVT (Z)."
+}

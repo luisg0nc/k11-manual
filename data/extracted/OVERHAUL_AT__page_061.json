@@ -1,0 +1,244 @@
+{
+  "page_code": "AT-61",
+  "section": "AT",
+  "title": "Electromagnetic Clutch Circuit Check (Cont'd)",
+  "page_type": "flowchart",
+  "source_image": "page_AT-61.jpg",
+  "continuation": {
+    "continues_from": "AT-60",
+    "continues_to": "AT-62"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT120",
+      "type": "wiring_schematic",
+      "description": "Section B diagram showing harness connector and brush holder connector with voltmeter (V) connected, brake pedal and selector shown, labels: Harness connector, Brush holder connector, terminals 1 and 2 on each side, label A and D",
+      "bbox_percent": [
+        0,
+        2,
+        50,
+        32
+      ],
+      "associated_step": "B - Check input signal"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT121",
+      "type": "component_photo",
+      "description": "CONSULT monitor display showing: MONITOR NO FAIL, CAR SPEED SEN 0 km/h, ENGINE REV 0 rpm, CLUTCH CRRNT* 0.0A, CLUTCH CRRNT 0.2A, PULLEY RATIO 0.00, ACCEL SW OFF, THRTL OPEN SW OFF, AIR/C SIGNAL OFF, STOP LAMP SW OFF, with RECORD button",
+      "bbox_percent": [
+        0,
+        33,
+        50,
+        56
+      ],
+      "associated_step": "B - Check input signal note"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT122",
+      "type": "connector_diagram",
+      "description": "Section C diagram showing brush holder connector (terminals 1, 2) connected via ohmmeter to N-CVT C/U connector (terminals 1, 28), with DISCONNECT symbol",
+      "bbox_percent": [
+        0,
+        57,
+        50,
+        92
+      ],
+      "associated_step": "C - Check harness continuity"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Electromagnetic Clutch Circuit Check (Cont'd)"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Electromagnetic Clutch Circuit Check - Section B (Continued from previous page)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "start",
+          "text": "Continued from previous page (Section B)"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Check input signal\n1. Remove brush holder connector as shown in figure and perform following procedures:\n\u2022 Start engine and maintain at idle speed\n\u2022 Pull parking brake lever and move selector to \"D\"\nCheck that voltage and current conform to following values:\nCurrent: 0.1 to 0.2 A\nVoltage: 0.2 to 1.8 V\nNote: the CONSULT data monitor (actual clutch current) can be used to read the current value"
+        },
+        {
+          "id": "n3",
+          "type": "terminal",
+          "text": "Go to Section (1) below"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Replace electromagnetic clutch"
+        },
+        {
+          "id": "n5",
+          "type": "start",
+          "text": "Section C - (1)"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "Check harness continuity\n1. Remove N-CVT control unit connector and brush holder connector\n2. Check continuity between the N-CVT control unit harness connector terminals #1 and #28 and brush holder connector terminals #1 and #2\n#1 \u2192 #1: 0\u03a9\n#28 \u2192 #2: 0\u03a9"
+        },
+        {
+          "id": "n7",
+          "type": "terminal",
+          "text": "Repair or replace harness between N-CVT control unit and brush holder"
+        },
+        {
+          "id": "n8",
+          "type": "terminal",
+          "text": "Go to next page"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": "N.G."
+        },
+        {
+          "from": "n2",
+          "to": "n4",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": ""
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": ""
+        },
+        {
+          "from": "n6",
+          "to": "n7",
+          "label": "N.G."
+        },
+        {
+          "from": "n6",
+          "to": "n8",
+          "label": "O.K."
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Clutch Current",
+          "value": "0.1 to 0.2",
+          "unit": "A",
+          "condition": "Engine at idle, parking brake pulled, selector in D, brush holder connector removed"
+        },
+        {
+          "label": "Clutch Voltage",
+          "value": "0.2 to 1.8",
+          "unit": "V",
+          "condition": "Engine at idle, parking brake pulled, selector in D, brush holder connector removed"
+        },
+        {
+          "label": "Harness continuity #1 \u2192 #1",
+          "value": "0",
+          "unit": "\u03a9",
+          "condition": "N-CVT control unit connector and brush holder connector removed"
+        },
+        {
+          "label": "Harness continuity #28 \u2192 #2",
+          "value": "0",
+          "unit": "\u03a9",
+          "condition": "N-CVT control unit connector and brush holder connector removed"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: the CONSULT data monitor (actual clutch current) can be used to read the current value",
+      "style": "note"
+    },
+    {
+      "block_type": "table",
+      "title": "CONSULT Monitor Data Display (UAT121)",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "MONITOR",
+          "value": "NO FAIL"
+        },
+        {
+          "parameter": "CAR SPEED SEN",
+          "value": "0 km/h"
+        },
+        {
+          "parameter": "ENGINE REV",
+          "value": "0 rpm"
+        },
+        {
+          "parameter": "CLUTCH CRRNT*",
+          "value": "0.0A"
+        },
+        {
+          "parameter": "CLUTCH CRRNT",
+          "value": "0.2A"
+        },
+        {
+          "parameter": "PULLEY RATIO",
+          "value": "0.00"
+        },
+        {
+          "parameter": "ACCEL SW",
+          "value": "OFF"
+        },
+        {
+          "parameter": "THRTL OPEN SW",
+          "value": "OFF"
+        },
+        {
+          "parameter": "AIR/C SIGNAL",
+          "value": "OFF"
+        },
+        {
+          "parameter": "STOP LAMP SW",
+          "value": "OFF"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "AT-60",
+    "AT-62"
+  ],
+  "model_notes": "N-CVT (continuously variable transmission) electromagnetic clutch circuit. Applies to automatic transmission variant of K11 Micra."
+}

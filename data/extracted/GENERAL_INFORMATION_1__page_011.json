@@ -1,0 +1,237 @@
+{
+  "page_code": "GI-7",
+  "section": "GI",
+  "title": "HOW TO READ WIRING DIAGRAMS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi7.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI543",
+      "type": "wiring_schematic",
+      "description": "Example wiring diagram showing symbols: connector, power supply, ignition switch, fuse block, switch, branch (M/T and A/T models), lamp, body ground, location number, harness layout, wire color coding, and abbreviations",
+      "bbox_percent": [
+        2,
+        5,
+        98,
+        62
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEL764E",
+      "type": "component_photo",
+      "description": "Switch position symbols: normally open and normally closed switch diagrams",
+      "bbox_percent": [
+        2,
+        63,
+        40,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO READ WIRING DIAGRAMS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "WIRING DIAGRAM"
+    },
+    {
+      "block_type": "prose",
+      "text": "Symbols used in WIRING DIAGRAM are shown below:",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Example wiring diagram with annotated symbols",
+      "callouts": [
+        {
+          "label": "CONNECTOR \u2014 This shows that these connectors are white 6 terminal connectors.",
+          "position": "top-center"
+        },
+        {
+          "label": "POWER SUPPLY \u2014 This shows the ignition switch position in which the system can be operated. See POWER SUPPLY ROUTING in EL section for the detailed wiring diagram.",
+          "position": "top-right"
+        },
+        {
+          "label": "IGNITION SWITCH ACC or ON",
+          "position": "center-top"
+        },
+        {
+          "label": "FUSE BLOCK",
+          "position": "center-top-right"
+        },
+        {
+          "label": "SWITCH \u2014 This shows that continuity exists between terminals 1 and 3 when the switch is turned to ON position.",
+          "position": "right"
+        },
+        {
+          "label": "BRANCH \u2014 M/T model; A/T model",
+          "position": "left"
+        },
+        {
+          "label": "LAMP",
+          "position": "center-left"
+        },
+        {
+          "label": "BODY GROUND",
+          "position": "center"
+        },
+        {
+          "label": "LOCATION NUMBER \u2014 This number shows where the connector is located. See HARNESS LAYOUT in EL section. The number is identical with the one in HARNESS LAYOUT. I: Instrument harness; M: Main harness",
+          "position": "center-bottom"
+        },
+        {
+          "label": "ABBREVIATIONS \u2014 M: M/T model; A: A/T model",
+          "position": "bottom-left"
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "WIRE COLOR CODING",
+      "columns": [
+        {
+          "key": "abbrev",
+          "label": "Abbreviation"
+        },
+        {
+          "key": "color",
+          "label": "Color"
+        }
+      ],
+      "rows": [
+        {
+          "abbrev": "B",
+          "color": "Black"
+        },
+        {
+          "abbrev": "W",
+          "color": "White"
+        },
+        {
+          "abbrev": "R",
+          "color": "Red"
+        },
+        {
+          "abbrev": "G",
+          "color": "Green"
+        },
+        {
+          "abbrev": "L",
+          "color": "Blue"
+        },
+        {
+          "abbrev": "Y",
+          "color": "Yellow"
+        },
+        {
+          "abbrev": "LG",
+          "color": "Light Green"
+        },
+        {
+          "abbrev": "BR",
+          "color": "Brown"
+        },
+        {
+          "abbrev": "OR",
+          "color": "Orange"
+        },
+        {
+          "abbrev": "P",
+          "color": "Pink"
+        },
+        {
+          "abbrev": "PU",
+          "color": "Purple"
+        },
+        {
+          "abbrev": "GY",
+          "color": "Gray"
+        },
+        {
+          "abbrev": "SB",
+          "color": "Sky Blue"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "When the wire color is striped, the base color is given first, followed by the stripe color as shown below: Example: L/W = Blue with White Stripe",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SWITCH POSITIONS"
+    },
+    {
+      "block_type": "prose",
+      "text": "Wiring diagram switches are shown with the vehicle in the following condition.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "switch_positions",
+      "title": "Switch Positions",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Ignition switch \"OFF\".",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Doors, hood and trunk lid/back door closed.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Pedals are not depressed and parking brake is released.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig2",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Normally open switch symbol",
+          "note": "Two switch symbols shown"
+        },
+        {
+          "number": 2,
+          "name": "Normally closed switch symbol",
+          "note": "Two switch symbols shown"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "EL \u2014 POWER SUPPLY ROUTING",
+    "EL \u2014 HARNESS LAYOUT"
+  ],
+  "model_notes": "Branch symbols differentiate M/T model (M) and A/T model (A) in wiring diagrams."
+}

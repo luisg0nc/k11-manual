@@ -1,0 +1,211 @@
+{
+  "page_code": "AT-82",
+  "section": "AT",
+  "title": "Engine Races When Driving",
+  "page_type": "flowchart",
+  "source_image": "AT-82.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Engine Races When Driving"
+    },
+    {
+      "block_type": "prose",
+      "text": "Symptom: The engine races when driving",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Diagnosis item: Inhibitor switch is faulty; Manual control linkage adjustment or control linkage is faulty; Control valve is faulty; N-CVT control unit power supply or N-CVT control unit is faulty; Belt slipping (A loud noise that sounds like rubbing metal objects); Electromagnetic clutch is faulty",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "CHECK PROCEDURE"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Engine Races When Driving \u2014 Check Procedure",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "Perform self diagnosis"
+        },
+        {
+          "id": "n2",
+          "type": "terminal",
+          "text": "Inspect and repair based on trouble code. When O.K. code or trouble code is not output, check N-CVT control unit."
+        },
+        {
+          "id": "n3",
+          "type": "decision",
+          "text": "Can the symptom be reproduced?"
+        },
+        {
+          "id": "n4",
+          "type": "terminal",
+          "text": "Cannot be reproduced easily"
+        },
+        {
+          "id": "n5",
+          "type": "action",
+          "text": "Drive the vehicle while \"CLUTCH CURRENT\" is displayed on CONSULT screen"
+        },
+        {
+          "id": "n6",
+          "type": "decision",
+          "text": "When the engine speed is increased, does the clutch current flow?"
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "Check control linkage"
+        },
+        {
+          "id": "n8",
+          "type": "terminal",
+          "text": "Adjust or replace selector arm or control linkage"
+        },
+        {
+          "id": "n9",
+          "type": "action",
+          "text": "Check inhibitor switch circuit"
+        },
+        {
+          "id": "n10",
+          "type": "terminal",
+          "text": "Repair or replace inhibitor switch harness or connector"
+        },
+        {
+          "id": "n11",
+          "type": "action",
+          "text": "Check electromagnetic clutch circuit"
+        },
+        {
+          "id": "n12",
+          "type": "terminal",
+          "text": "Repair or replace electromagnetic clutch main unit, brush holder or harness."
+        },
+        {
+          "id": "n13",
+          "type": "action",
+          "text": "Replace N-CVT control unit"
+        },
+        {
+          "id": "n14",
+          "type": "decision",
+          "text": "Does vibration or shock occur after the engine speed is increased?"
+        },
+        {
+          "id": "n15",
+          "type": "terminal",
+          "text": "Replace electromagnetic clutch"
+        },
+        {
+          "id": "n16",
+          "type": "action",
+          "text": "Check or repair main unit: 1. Oil pump 2. Control valve 3. Belt and pulley mechanism"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": "N.G."
+        },
+        {
+          "from": "n1",
+          "to": "n3",
+          "label": "O.K."
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": "Cannot be reproduced easily"
+        },
+        {
+          "from": "n3",
+          "to": "n5",
+          "label": "Can be reproduced easily"
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": ""
+        },
+        {
+          "from": "n6",
+          "to": "n7",
+          "label": "Yes"
+        },
+        {
+          "from": "n6",
+          "to": "n9",
+          "label": "No"
+        },
+        {
+          "from": "n7",
+          "to": "n8",
+          "label": "N.G."
+        },
+        {
+          "from": "n7",
+          "to": "n9",
+          "label": "O.K."
+        },
+        {
+          "from": "n9",
+          "to": "n10",
+          "label": "N.G."
+        },
+        {
+          "from": "n9",
+          "to": "n11",
+          "label": "O.K."
+        },
+        {
+          "from": "n11",
+          "to": "n12",
+          "label": "N.G."
+        },
+        {
+          "from": "n11",
+          "to": "n13",
+          "label": "O.K."
+        },
+        {
+          "from": "n13",
+          "to": "n14",
+          "label": ""
+        },
+        {
+          "from": "n14",
+          "to": "n15",
+          "label": "No"
+        },
+        {
+          "from": "n14",
+          "to": "n16",
+          "label": "Yes"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "N-CVT transmission diagnosis. Applies to K11 Micra with N-CVT (automatic) transmission."
+}

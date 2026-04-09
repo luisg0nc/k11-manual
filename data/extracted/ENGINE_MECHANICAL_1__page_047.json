@@ -1,0 +1,169 @@
+{
+  "page_code": "EM-49",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-49.jpg",
+  "continuation": {
+    "continues_from": "EM-48",
+    "continues_to": "EM-50"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM316A",
+      "type": "parts_diagram",
+      "description": "Diagram illustrating crankshaft journal taper (A-B) and out-of-round (X-Y) measurement directions",
+      "bbox_percent": [
+        2,
+        52,
+        42,
+        72
+      ],
+      "associated_step": "Crankshaft step 2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM346D",
+      "type": "component_photo",
+      "description": "Photo showing measurement of crankshaft runout using a dial indicator",
+      "bbox_percent": [
+        2,
+        72,
+        42,
+        92
+      ],
+      "associated_step": "Crankshaft step 3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_block_inspection_contd",
+      "title": "Cylinder Block Inspection (Continued)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Determine piston oversize according to amount of cylinder wear.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Oversize pistons are available for service. Refer to S.D.S."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Cylinder bore size is determined by adding piston-to-bore clearance to piston diameter \"A\".\nRebored size calculation:\nD = A + B - C\nwhere,\nD: Bored diameter\nA: Piston diameter as measured\nB: Piston-to-bore clearance\nC: Honing allowance 0.02 mm (0.0008 in)",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Install main bearing caps, and tighten to the specified torque to prevent distortion of cylinder bores in final assembly.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Cut cylinder bores.",
+          "figure_ref": null,
+          "warnings": [
+            "When any cylinder needs boring, all other cylinders must also be bored.",
+            "Ensure that boring machines instructions are closely followed."
+          ],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Hone cylinders to obtain specified piston-to-bore clearance.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Measure finished cylinder bore for out-of-round and taper.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Measurement should be done after cylinder bore cools down."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CRANKSHAFT"
+    },
+    {
+      "block_type": "procedure",
+      "id": "crankshaft_inspection",
+      "title": "Crankshaft Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check crankshaft main and pin journals for score, wear or cracks.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "With a micrometer, measure journals for taper and out-of-round.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Measure crankshaft runout.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Out-of-round (X - Y)",
+          "value": "Less than 0.005",
+          "unit": "mm (0.0002 in)",
+          "condition": "Crankshaft main and pin journals"
+        },
+        {
+          "label": "Taper (A - B)",
+          "value": "Less than 0.002",
+          "unit": "mm (0.0001 in)",
+          "condition": "Crankshaft main and pin journals"
+        },
+        {
+          "label": "Runout (Total indicator reading)",
+          "value": "Less than 0.05",
+          "unit": "mm (0.0020 in)",
+          "condition": "Crankshaft runout"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "S.D.S."
+  ],
+  "model_notes": null
+}

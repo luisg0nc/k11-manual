@@ -1,0 +1,128 @@
+{
+  "page_code": "EM-39",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "parts_diagram",
+  "source_image": "page_em39.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM064",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of engine mounting components for N-CVT and M/T (CG10DE) variants, showing torque values for all fasteners",
+      "bbox_percent": [
+        0,
+        2,
+        100,
+        75
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "UEM064",
+      "parts": []
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Torque \u2014 N-CVT top bracket bolt (small)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT; (3.6 - 4.6 kg\u00b7m, 26 - 33 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 N-CVT top bracket bolt (large)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT; (4.6 - 5.6 kg\u00b7m, 33 - 40 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 N-CVT top bracket bolt (medium)",
+          "value": "35 - 45",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT; (3.6 - 4.6 kg\u00b7m, 26 - 33 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount bracket bolts (general, N-CVT)",
+          "value": "64 - 74",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT; (6.5 - 7.5 kg\u00b7m, 47 - 54 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount centre bolt (N-CVT)",
+          "value": "50 - 60",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT; (5.1 - 6.1 kg\u00b7m, 37 - 44 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount side bracket (N-CVT)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m",
+          "condition": "N-CVT; (4.6 - 5.6 kg\u00b7m, 33 - 40 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount bracket bolts (general, M/T)",
+          "value": "64 - 74",
+          "unit": "N\u00b7m",
+          "condition": "M/T; (6.5 - 7.5 kg\u00b7m, 47 - 54 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount rear bracket bolts (M/T)",
+          "value": "59 - 69",
+          "unit": "N\u00b7m",
+          "condition": "M/T; (6.0 - 7.0 kg\u00b7m, 43 - 51 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount front lower bracket (M/T)",
+          "value": "44 - 54",
+          "unit": "N\u00b7m",
+          "condition": "M/T; (4.5 - 5.5 kg\u00b7m, 33 - 40 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount centre bolt (M/T)",
+          "value": "50 - 60",
+          "unit": "N\u00b7m",
+          "condition": "M/T; (5.1 - 6.1 kg\u00b7m, 37 - 44 ft\u00b7lb)"
+        },
+        {
+          "label": "Torque \u2014 engine mount side bracket (M/T)",
+          "value": "45 - 55",
+          "unit": "N\u00b7m",
+          "condition": "M/T; (4.6 - 5.6 kg\u00b7m, 33 - 40 ft\u00b7lb)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "N\u00b7m (kg\u00b7m, ft\u00b7lb)",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "N-CVT \u2014 label applied to N-CVT specific mounting configuration shown in upper diagram.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "CG10DE \u2014 label applied to M/T specific mounting configuration shown in lower diagram.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Page shows two separate exploded diagrams: upper diagram for N-CVT transmission variant, lower diagram for M/T (manual transmission) CG10DE engine variant. Torque values differ between variants for certain fasteners."
+}

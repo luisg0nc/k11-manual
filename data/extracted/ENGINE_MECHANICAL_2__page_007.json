@@ -1,0 +1,221 @@
+{
+  "page_code": "EM-7007",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Removal (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM363",
+      "type": "component_photo",
+      "description": "Camshaft position sensor (PHASE) removal location on engine",
+      "bbox_percent": [
+        0,
+        2,
+        42,
+        18
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM047",
+      "type": "component_photo",
+      "description": "Chain tensioner, idler sprocket bolt, camshaft sprocket bolts and camshaft sprockets removal",
+      "bbox_percent": [
+        0,
+        20,
+        42,
+        37
+      ],
+      "associated_step": "13"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM364",
+      "type": "component_photo",
+      "description": "Cylinder head front bolts and idler sprocket bolt removal",
+      "bbox_percent": [
+        0,
+        38,
+        42,
+        54
+      ],
+      "associated_step": "17"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM371",
+      "type": "component_photo",
+      "description": "Engine with upper timing chain, oil pan, oil strainer and crankshaft pulley removal",
+      "bbox_percent": [
+        0,
+        55,
+        42,
+        72
+      ],
+      "associated_step": "19"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM048",
+      "type": "component_photo",
+      "description": "Engine front mounting bracket removal with jack support",
+      "bbox_percent": [
+        0,
+        73,
+        42,
+        89
+      ],
+      "associated_step": "24"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Removal (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_removal_contd",
+      "title": "Removal (Cont'd)",
+      "steps": [
+        {
+          "step": 11,
+          "text": "Remove camshaft position sensor (PHASE).",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Do not allow any magnetic materials to contact the camshaft position sensor (PHASE).",
+            "Be careful not to damage sensor."
+          ]
+        },
+        {
+          "step": 12,
+          "text": "Remove cam sprocket cover.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Remove chain tensioner.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Loosen idler sprocket bolt.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 15,
+          "text": "Remove camshaft sprocket bolts.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 16,
+          "text": "Remove camshaft sprockets.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 17,
+          "text": "Remove cylinder head front bolts.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 18,
+          "text": "Remove idler sprocket bolt.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 19,
+          "text": "Drain engine oil.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 20,
+          "text": "Remove upper timing chain.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 21,
+          "text": "Remove oil pan. Refer to \"Removal\" in \"OIL PAN\".",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 22,
+          "text": "Remove oil strainer.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 23,
+          "text": "Remove crankshaft pulley.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 24,
+          "text": "Support engine with a suitable jack.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 25,
+          "text": "Remove engine front mounting bracket.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not allow any magnetic materials to contact the camshaft position sensor (PHASE).",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "Be careful not to damage sensor.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "OIL PAN \u2014 Removal"
+  ],
+  "model_notes": null
+}

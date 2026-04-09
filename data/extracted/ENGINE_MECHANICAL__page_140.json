@@ -1,0 +1,253 @@
+{
+  "page_code": "EM-5007",
+  "section": "EM",
+  "title": "OUTER COMPONENT PARTS",
+  "page_type": "parts_diagram",
+  "source_image": "EM-5007.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM246",
+      "type": "parts_diagram",
+      "description": "Exploded diagram of outer component parts of the VJZ engine, showing torque values and part locations for glow plugs, injection nozzle, spill hose, injection tube, injection pump, injection pump bracket, vacuum pump, thermostat housing, thermostat, cold start device, water temperature sensor, engine slinger, power steering oil pump bracket, oil pressure sensor, alternator, and oil filter.",
+      "bbox_percent": [
+        2,
+        2,
+        98,
+        75
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OUTER COMPONENT PARTS"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Glow plug",
+          "note": ""
+        },
+        {
+          "number": 2,
+          "name": "Injection nozzle",
+          "note": ""
+        },
+        {
+          "number": 3,
+          "name": "Spill hose",
+          "note": ""
+        },
+        {
+          "number": 4,
+          "name": "Injection tube",
+          "note": ""
+        },
+        {
+          "number": 5,
+          "name": "Injection pump",
+          "note": ""
+        },
+        {
+          "number": 6,
+          "name": "Injection pump bracket",
+          "note": ""
+        },
+        {
+          "number": 7,
+          "name": "Vacuum pump",
+          "note": ""
+        },
+        {
+          "number": 8,
+          "name": "Thermostat housing",
+          "note": ""
+        },
+        {
+          "number": 9,
+          "name": "Thermostat",
+          "note": ""
+        },
+        {
+          "number": 10,
+          "name": "Cold start device",
+          "note": ""
+        },
+        {
+          "number": 11,
+          "name": "Water temperature sensor",
+          "note": ""
+        },
+        {
+          "number": 12,
+          "name": "Engine slinger",
+          "note": ""
+        },
+        {
+          "number": 13,
+          "name": "Power steering oil pump bracket",
+          "note": ""
+        },
+        {
+          "number": 14,
+          "name": "Oil pressure sensor",
+          "note": ""
+        },
+        {
+          "number": 15,
+          "name": "Alternator",
+          "note": ""
+        },
+        {
+          "number": 16,
+          "name": "Oil filter",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Glow plug torque",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Injection nozzle torque",
+          "value": "55 (5.6, 40.6)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Spill hose torque",
+          "value": "3 (0.31, 26.6)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Injection tube torque (upper)",
+          "value": "25 (2.6, 18.4)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Injection pump torque bolt",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Injection pump bracket torque",
+          "value": "34 (3.5, 25.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Alternator bracket lower bolt torque",
+          "value": "45 (4.6, 33.2)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Alternator bracket upper bolt torque",
+          "value": "34 (3.5, 25.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Injection pump bracket / engine bolt torque",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Lower engine bolt torque",
+          "value": "20 (2.0, 14.8)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Bottom center bolt torque",
+          "value": "25 (2.6, 18.4)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Thermostat housing torque",
+          "value": "8 (0.82 - 70.8)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Vacuum pump torque",
+          "value": "15 (1.5, 11.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Oil pressure sensor torque",
+          "value": "14 (1.4, 10.3)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Power steering oil pump bracket bolt torque",
+          "value": "30 (3.1, 22.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Alternator / power steering bracket bolt torque",
+          "value": "15 (1.5, 11.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Cold start device torque",
+          "value": "10 (1.0, 88.5)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Water temperature sensor torque",
+          "value": "10 (1.0, 88.5)",
+          "unit": "N\u00b7m (kg-m, in-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Oil pressure sensor lower torque",
+          "value": "34 (3.5, 25.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        },
+        {
+          "label": "Alternator lower bracket torque (side)",
+          "value": "15 (1.5, 11.1)",
+          "unit": "N\u00b7m (kg-m, ft-lb)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Legend: filled circle arrow = N\u00b7m (kg-m, in-lb); open circle arrow = N\u00b7m (kg-m, ft-lb); X = Do not re-use; shaded square = Apply liquid gasket",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ engine variant. Diagram reference code NEM246."
+}

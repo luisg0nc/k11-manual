@@ -1,0 +1,58 @@
+{
+  "page_code": "GI-6002",
+  "section": "GI",
+  "title": "Supplemental Restraint System (SRS) \"AIR BAG\" and \"SEAT BELT PRE-TENSIONER\"",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "PRECAUTIONS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Supplemental Restraint System (SRS) \"AIR BAG\" and \"SEAT BELT PRE-TENSIONER\""
+    },
+    {
+      "block_type": "prose",
+      "text": "The Supplemental Restraint System \"Air Bag\" and \"Seat Belt Pre-tensioner\", used along with a seat belt, help to reduce the risk or severity of injury to the driver and front passenger in a frontal collision. The Supplemental Restraint System consists of air bag modules (located in the center of the steering wheel and on the instrument panel on the passenger side), seat belt pre-tensioners, a diagnosis sensor unit, warning lamp, wiring harness and spiral cable.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "If the vehicle is equipped with side air bag as the Supplemental Restraint System, the side air bag used along with the seat belt helps to reduce the risk or severity of injury to the driver and front passenger in a side collision. The side air bag consists of air bag modules (located in the outer side of front seats), satellite sensor, diagnosis sensor unit (which is one of components of air bags for a frontal collision), wiring harness, warning lamp (which is one of components of air bags for a frontal collision).",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "WARNING:",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "To avoid rendering the SRS inoperative, which could increase the risk of personal injury or death (in the event of a collision which would result in air bag inflation), all maintenance must be performed by an authorized NISSAN dealer.",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "Improper maintenance, including incorrect removal and installation of the SRS, can lead to personal injury caused by unintentional activation of the system.",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not use electrical test equipment on any circuit related to the SRS unless instructed to do so in this Service Manual. SRS wiring harnesses are covered with yellow insulation (either just before the harness connectors or for the complete harness), for easy identification.",
+      "style": "warning"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

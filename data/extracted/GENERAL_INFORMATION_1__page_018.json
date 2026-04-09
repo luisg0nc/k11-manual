@@ -1,0 +1,139 @@
+{
+  "page_code": "GI-14",
+  "section": "GI",
+  "title": "CONSULT CHECKING SYSTEM",
+  "page_type": "component_photo",
+  "source_image": "GI-14.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SGI619",
+      "type": "component_photo",
+      "description": "Outside view of CONSULT checking system unit showing all external components and probes",
+      "bbox_percent": [
+        5,
+        5,
+        95,
+        42
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CONSULT CHECKING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Outside View"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Outside view of CONSULT diagnostic tool showing labeled components",
+      "callouts": [
+        {
+          "label": "Power ON switch",
+          "position": "top-left area of unit"
+        },
+        {
+          "label": "Power OFF switch",
+          "position": "top-left area of unit, below Power ON switch"
+        },
+        {
+          "label": "Printer",
+          "position": "left side of unit"
+        },
+        {
+          "label": "Battery pack",
+          "position": "lower-left of unit"
+        },
+        {
+          "label": "Touch screen",
+          "position": "center-bottom of unit"
+        },
+        {
+          "label": "Function keys",
+          "position": "bottom of unit"
+        },
+        {
+          "label": "Program card",
+          "position": "center-bottom, between unit and connector"
+        },
+        {
+          "label": "Diagnostic connector",
+          "position": "top-right, separate connector assembly"
+        },
+        {
+          "label": "Voltage probe",
+          "position": "right side, attached to connector assembly"
+        },
+        {
+          "label": "Pulse probe",
+          "position": "right side, attached to connector assembly, below voltage probe"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "System Application"
+    },
+    {
+      "block_type": "table",
+      "title": "System Application",
+      "columns": [
+        {
+          "key": "diagnostic_mode",
+          "label": "Diagnostic mode"
+        },
+        {
+          "key": "eccs",
+          "label": "E.C.C.S."
+        }
+      ],
+      "rows": [
+        {
+          "diagnostic_mode": "Work support",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Self-diagnostic results",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Data monitor",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Active test",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "E.C.U. part number",
+          "eccs": "X"
+        },
+        {
+          "diagnostic_mode": "Function test",
+          "eccs": "X"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "X: Applicable",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

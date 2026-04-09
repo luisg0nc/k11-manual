@@ -1,0 +1,125 @@
+{
+  "page_code": "GI-9",
+  "section": "GI",
+  "title": "HOW TO READ WIRING DIAGRAMS",
+  "page_type": "prose_procedure",
+  "source_image": "page_gi9.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEL653F",
+      "type": "wiring_schematic",
+      "description": "Example illustration showing how the S.M.J. (Super Multiple Junction) is represented in a simplified wiring diagram and how it corresponds to the terminal arrangement in the foldout, including a Starting System wiring diagram example and the S.M.J. terminal layout for both main harness and instrument harness connectors.",
+      "bbox_percent": [
+        5,
+        18,
+        95,
+        82
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO READ WIRING DIAGRAMS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SUPER MULTIPLE JUNCTION (S.M.J.)"
+    },
+    {
+      "block_type": "prose",
+      "text": "The \"S.M.J.\" indicated in wiring diagrams is shown in a simplified form. The terminal arrangement should therefore be referred to in the foldout at the end of the Service Manual.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The foldout should be spread to read the entire wiring diagram.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Example wiring diagram showing Starting System with S.M.J. simplified representation and corresponding terminal arrangement. The S.M.J. in wiring diagrams shows connectors labeled with alphanumeric terminal IDs (e.g. A1, B1, C1... through G0, F0, E0, D0, C0, B0, A0) for Main harness and Instrument harness sides.",
+      "callouts": [
+        {
+          "label": "STARTING SYSTEM Wiring Diagram",
+          "position": "upper-left of example"
+        },
+        {
+          "label": "STARTING SYSTEM (book page)",
+          "position": "upper-center of example"
+        },
+        {
+          "label": "SUPER MULTIPLE JUNCTION (S.M.J.) Terminal Arrangement",
+          "position": "upper-right of example"
+        },
+        {
+          "label": "S.M.J. \u2014 Refer to last page (Foldout page)",
+          "position": "lower-left of example"
+        },
+        {
+          "label": "Super Multiple Junction (S.M.J.)",
+          "position": "lower-right arrow label"
+        },
+        {
+          "label": "Main harness",
+          "position": "lower-left connector label"
+        },
+        {
+          "label": "Instrument harness",
+          "position": "lower-center connector label"
+        },
+        {
+          "label": "Main harness (bottom)",
+          "position": "lower-center of S.M.J. grid"
+        },
+        {
+          "label": "Instrument harness (right side)",
+          "position": "right side of S.M.J. grid"
+        },
+        {
+          "label": "BR",
+          "position": "far right of instrument harness"
+        },
+        {
+          "label": "R",
+          "position": "wire label left side"
+        },
+        {
+          "label": "B",
+          "position": "wire label left side lower"
+        },
+        {
+          "label": "L",
+          "position": "wire label right side"
+        },
+        {
+          "label": "B1",
+          "position": "connector terminal label"
+        },
+        {
+          "label": "D0",
+          "position": "connector terminal label"
+        },
+        {
+          "label": "BR",
+          "position": "wire color label"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Foldout page (end of Service Manual) \u2014 S.M.J. Terminal Arrangement"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,185 @@
+{
+  "page_code": "AT-93",
+  "section": "AT",
+  "title": "REMOVAL & INSTALLATION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-93.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT087",
+      "type": "component_photo",
+      "description": "Continuity check being performed on electromagnetic clutch slip ring with a tester",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        22
+      ],
+      "associated_step": "Continuity Check"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT088",
+      "type": "component_photo",
+      "description": "Insulation check being performed between slip ring and electromagnetic clutch main unit bracket with a tester",
+      "bbox_percent": [
+        0,
+        23,
+        35,
+        43
+      ],
+      "associated_step": "Insulation Check"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT089",
+      "type": "component_photo",
+      "description": "Electromagnetic clutch slip ring placed flat side down on clean surface for condition check",
+      "bbox_percent": [
+        0,
+        44,
+        35,
+        62
+      ],
+      "associated_step": "Condition Check"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT279",
+      "type": "parts_diagram",
+      "description": "Assembly diagram showing A spline shaft, B spline shaft, and O-ring locations for electromagnetic clutch installation",
+      "bbox_percent": [
+        0,
+        63,
+        35,
+        85
+      ],
+      "associated_step": "Assembly"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Continuity Check"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the resistance between the electromagnetic clutch slip rings with a tester. Check that the resistance is within the following range.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Standard value",
+          "value": "2 to 4",
+          "unit": "\u03a9",
+          "condition": "Resistance between electromagnetic clutch slip rings"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If there is no continuity or the resistance value is extremely low, replace the electromagnetic clutch assembly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not press the tester probe with excessive force against the slip ring and do not damage the outside surface.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Insulation Check"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the continuity between the slip ring and electromagnetic clutch main unit bracket (aluminium) with a tester. Replace the electromagnetic clutch if continuity exists.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Do not press the tester probe with excessive force against the slip ring and do not damage the outside surface.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Condition Check"
+    },
+    {
+      "block_type": "prose",
+      "text": "Wipe off any dust, debris or oil that adheres to the outside of the slip ring with thinner or solvent. Check the slip ring for damage.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Performing the inspection on a flat, clean surface free from dust and oil. Make sure that the slip ring side faces up.",
+      "style": "note"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "prose",
+      "text": "Perform the following procedures to install the electromagnetic clutch in the main unit.",
+      "style": "normal"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_proc",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Rotate the oil pump shaft (B spline shaft) and check that the splines are engaged correctly.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Insert the electromagnetic clutch main unit and check that it is engaged correctly with both the A and B spline shafts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Rotate the electromagnetic clutch slightly if it is difficult to insert, because the splines engage at two locations.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "(1) Do not apply excessive force to the A and B spline shafts.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(2) If the electromagnetic clutch is inserted with excessive force, it may interfere at the location indicated by an asterisk (*). This may cause damage to the clutch assembly and internal components.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "(3) If the electromagnetic clutch is removed and installed, always replace the O-rings on the shaft with new parts.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

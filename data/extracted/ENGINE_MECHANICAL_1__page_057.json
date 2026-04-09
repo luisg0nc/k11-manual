@@ -1,0 +1,207 @@
+{
+  "page_code": "EM-59",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 Inspection and Adjustment (Cont'd)",
+  "page_type": "spec_table",
+  "source_image": "EM-59.jpg",
+  "continuation": {
+    "continues_from": "EM-58",
+    "continues_to": "EM-60"
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection and Adjustment (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve guide"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve guide",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "intake_standard",
+          "label": "Intake \u2014 Standard"
+        },
+        {
+          "key": "intake_service",
+          "label": "Intake \u2014 Service"
+        },
+        {
+          "key": "exhaust_standard",
+          "label": "Exhaust \u2014 Standard"
+        },
+        {
+          "key": "exhaust_service",
+          "label": "Exhaust \u2014 Service"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Engine Model",
+          "intake_standard": "CG10DE, CG13DE",
+          "intake_service": "CG10DE, CG13DE",
+          "exhaust_standard": "CG10DE, CG13DE",
+          "exhaust_service": "CG10DE, CG13DE"
+        },
+        {
+          "parameter": "Valve guide \u2014 Outer diameter",
+          "intake_standard": "9.523 - 9.534 (0.3749 - 0.3754)",
+          "intake_service": "9.723 - 9.734 (0.3828 - 0.3832)",
+          "exhaust_standard": "9.523 - 9.534 (0.3749 - 0.3754)",
+          "exhaust_service": "9.723 - 9.734 (0.3828 - 0.3832)"
+        },
+        {
+          "parameter": "Valve guide \u2014 Inner diameter [Finished size]",
+          "intake_standard": "5.500 - 5.515 (0.2165 - 0.2171)",
+          "intake_service": "5.500 - 5.515 (0.2165 - 0.2171)",
+          "exhaust_standard": "5.500 - 5.515 (0.2165 - 0.2171)",
+          "exhaust_service": "5.500 - 5.515 (0.2165 - 0.2171)"
+        },
+        {
+          "parameter": "Cylinder head valve guide hole diameter",
+          "intake_standard": "9.470 - 9.485 (0.3729 - 0.3734)",
+          "intake_service": "9.680 - 9.695 (0.3811 - 0.3817)",
+          "exhaust_standard": "9.470 - 9.485 (0.3729 - 0.3734)",
+          "exhaust_service": "9.680 - 9.695 (0.3811 - 0.3817)"
+        },
+        {
+          "parameter": "Interference fit of valve guide",
+          "intake_standard": "0.038 - 0.064 (0.0015 - 0.0025)",
+          "intake_service": "0.028 - 0.054 (0.0011 - 0.0021)",
+          "exhaust_standard": "0.038 - 0.064 (0.0015 - 0.0025)",
+          "exhaust_service": "0.028 - 0.054 (0.0011 - 0.0021)"
+        },
+        {
+          "parameter": "Stem to guide clearance mm (in)",
+          "intake_standard": "0.020 - 0.053 (0.0008 - 0.0021)",
+          "intake_service": "0.020 - 0.053 (0.0008 - 0.0021)",
+          "exhaust_standard": "0.040 - 0.073 (0.0016 - 0.0029)",
+          "exhaust_service": "0.040 - 0.073 (0.0016 - 0.0029)"
+        },
+        {
+          "parameter": "Valve deflection limit (Dial gauge reading)",
+          "intake_standard": "0.2 (0.0079)",
+          "intake_service": "0.2 (0.0079)",
+          "exhaust_standard": "0.2 (0.0079)",
+          "exhaust_service": "0.2 (0.0079)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve spring"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve spring",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "condition",
+          "label": "Condition"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Engine model",
+          "condition": "",
+          "value": "CG10DE, CG13DE"
+        },
+        {
+          "parameter": "Free height mm (in)",
+          "condition": "",
+          "value": "40.0 (1.5748)"
+        },
+        {
+          "parameter": "Pressure N (kg, lb) at height mm (in)",
+          "condition": "Standard",
+          "value": "370 (37.7, 83) at 23.64 (0.9370)"
+        },
+        {
+          "parameter": "Pressure N (kg, lb) at height mm (in)",
+          "condition": "Limit",
+          "value": "330.41 (33.7, 74) at 23.64 (0.9370)"
+        },
+        {
+          "parameter": "Out-of-square mm (in)",
+          "condition": "",
+          "value": "Less than 1.74 mm (0.0685)"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve lifter"
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve lifter",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "value",
+          "label": "Value"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Engine Model",
+          "value": "CG10DE, CG13DE"
+        },
+        {
+          "parameter": "Valve lifter outside diameter",
+          "value": "29.960 - 29.975 (1.1795 - 1.1801)"
+        },
+        {
+          "parameter": "Lifter guide inside diameter",
+          "value": "30.00 - 30.021 (1.1811 - 1.1819)"
+        },
+        {
+          "parameter": "Clearance between lifter and lifter guide",
+          "value": "0.025 - 0.061 mm (0.0010 - 0.0024)"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Specifications apply to engine models CG10DE and CG13DE."
+}

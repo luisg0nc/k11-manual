@@ -1,0 +1,87 @@
+{
+  "page_code": "ST-11",
+  "section": "ST",
+  "title": "Steering Wheel and Steering Column \u2014 Steering Column (Cont'd) Installation",
+  "page_type": "prose_procedure",
+  "source_image": "ST-11.jpg",
+  "continuation": {
+    "continues_from": "ST-10",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST800A",
+      "type": "parts_diagram",
+      "description": "Illustration showing column shaft cutout portion alignment with lower joint slit and tightening bolt",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        22
+      ],
+      "associated_step": "1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING WHEEL AND STEERING COLUMN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steering Column (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "INSTALLATION"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_column_installation",
+      "title": "Steering Column Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Attach column shaft to lower joint, making sure the cutout portion of the shaft faces the lower joint slit and tightening bolt. Fit lower joint bolt but do not tighten yet.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Fit steering column securing nuts and bolts; firstly finger-tighten lower bracket and clamp retaining bolts, then tighten to the specified torque. Do not apply undue stress to the steering column. Tighten lower joint bolt to specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Tighten nuts securing steering column boot to body and tighten boot retaining clip.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Replace combination switches, steering wheel, horn pad, column covers and dashboard shelf.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "After installing steering column, turn steering wheel to ensure it moves smoothly and that the number of turns from the straight forward position to left and right locks are equal. Be sure that the steering wheel is in a neutral position when driving straight ahead.",
+      "style": "caution"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

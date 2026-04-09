@@ -1,0 +1,111 @@
+{
+  "page_code": "EM-5016",
+  "section": "EM",
+  "title": "TIMING BELT \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM261",
+      "type": "component_photo",
+      "description": "Engine view showing sprocket bolts being tightened with arrows indicating bolt locations",
+      "bbox_percent": [
+        0,
+        2,
+        38,
+        30
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM253",
+      "type": "component_photo",
+      "description": "Engine view showing timing belt covers being installed with arrows indicating cover locations",
+      "bbox_percent": [
+        0,
+        31,
+        38,
+        58
+      ],
+      "associated_step": "8"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING BELT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_belt_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 6,
+          "text": "Tighten sprocket bolts to the specified torque while holding the sprockets from rotating with SST KV109B0070.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove all locking pins. Turn crankshaft two revolutions and check timing and belt tension using SST KV109B0030 and the 3 locking pins. Belt tension should be between: 51 - 57 SEEM units for a new belt; 41 - 47 SEEM units for used belt.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Install timing belt covers.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Belt tension \u2014 new belt",
+          "value": "51 - 57",
+          "unit": "SEEM units",
+          "condition": "New belt"
+        },
+        {
+          "label": "Belt tension \u2014 used belt",
+          "value": "41 - 47",
+          "unit": "SEEM units",
+          "condition": "Used belt"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0070",
+      "name": "Sprocket holding tool (SST)",
+      "usage": "Hold sprockets from rotating while tightening sprocket bolts"
+    },
+    {
+      "part_number": "KV109B0030",
+      "name": "Belt tension gauge (SST)",
+      "usage": "Check timing belt tension after turning crankshaft two revolutions"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

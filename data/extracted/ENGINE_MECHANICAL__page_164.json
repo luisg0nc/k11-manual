@@ -1,0 +1,112 @@
+{
+  "page_code": "EM-5031",
+  "section": "EM",
+  "title": "ENGINE REMOVAL",
+  "page_type": "parts_diagram",
+  "source_image": "EM-5031.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": true,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM314",
+      "type": "parts_diagram",
+      "description": "Exploded diagram showing engine mounting components including front left mount, front right mount with insulator, and rear insulate crossmember/stay assembly with torque specifications for all fasteners.",
+      "bbox_percent": [
+        0,
+        3,
+        100,
+        88
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ENGINE REMOVAL"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": null,
+          "name": "Rear insulate",
+          "note": "Label pointing to rear engine mount insulator on crossmember"
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Front left engine mount upper bracket bolt",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1 kg-m, 36.9 - 44.3 ft-lb)",
+          "condition": "Engine mount upper bracket fastener"
+        },
+        {
+          "label": "Front left engine mount insulator through bolt",
+          "value": "50 - 60",
+          "unit": "N\u00b7m (5.1 - 6.1 kg-m, 36.9 - 44.3 ft-lb)",
+          "condition": "Insulator to bracket fastener"
+        },
+        {
+          "label": "Front right engine mount upper bolt",
+          "value": "60 - 70",
+          "unit": "N\u00b7m (6.1 - 7.1 kg-m, 44.3 - 51.6 ft-lb)",
+          "condition": "Right mount upper fastener"
+        },
+        {
+          "label": "Front right engine mount bracket bolt (upper)",
+          "value": "29 - 39",
+          "unit": "N\u00b7m (3.0 - 4.0 kg-m, 21.4 - 28.8 ft-lb)",
+          "condition": "Right mount bracket upper fastener"
+        },
+        {
+          "label": "Front right engine mount insulator bolt",
+          "value": "21 - 27",
+          "unit": "N\u00b7m (2.1 - 2.8 kg-m, 15.5 - 19.9 ft-lb)",
+          "condition": "Right mount insulator fastener"
+        },
+        {
+          "label": "Rear crossmember to body bolt (right side)",
+          "value": "62 - 78",
+          "unit": "N\u00b7m (6.3 - 8.0 kg-m, 45.7 - 57.5 ft-lb)",
+          "condition": "Rear crossmember right fastener"
+        },
+        {
+          "label": "Rear crossmember center bolt",
+          "value": "64 - 73",
+          "unit": "N\u00b7m (6.5 - 7.4 kg-m, 47.2 - 53.8 ft-lb)",
+          "condition": "Rear crossmember center fastener"
+        },
+        {
+          "label": "Rear crossmember to body bolt (lower center)",
+          "value": "74 - 83",
+          "unit": "N\u00b7m (7.5 - 8.5 kg-m, 54.6 - 61.2 ft-lb)",
+          "condition": "Rear crossmember lower center fastener"
+        },
+        {
+          "label": "Rear crossmember to body bolt (left side)",
+          "value": "64 - 73",
+          "unit": "N\u00b7m (6.5 - 7.4 kg-m, 47.2 - 53.8 ft-lb)",
+          "condition": "Rear crossmember left fastener"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": ": N\u00b7m (kg-m, ft-lb)",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "VJZ variant. Rear insulate crossmember assembly shown. Front direction indicated on diagram."
+}

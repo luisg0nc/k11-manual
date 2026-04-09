@@ -1,0 +1,151 @@
+{
+  "page_code": "ST",
+  "section": "ST",
+  "title": "STEERING SYSTEM",
+  "page_type": "index_toc",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING SYSTEM"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "SECTION ST"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "CONTENTS"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<1ST REVISION>"
+    },
+    {
+      "block_type": "table",
+      "title": "1ST REVISION Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS",
+          "page": "ST-2"
+        },
+        {
+          "topic": "PREPARATION",
+          "page": "ST-3"
+        },
+        {
+          "topic": "ON-VEHICLE INSPECTION",
+          "page": "ST-4"
+        },
+        {
+          "topic": "ON-VEHICLE INSPECTION (Power steering)",
+          "page": "ST-6"
+        },
+        {
+          "topic": "STEERING WHEEL AND STEERING COLUMN",
+          "page": "ST-9"
+        },
+        {
+          "topic": "MANUAL STEERING GEAR AND LINKAGE",
+          "page": "ST-15"
+        },
+        {
+          "topic": "POWER STEERING GEAR AND LINKAGE",
+          "page": "ST-21"
+        },
+        {
+          "topic": "POWER STEERING OIL PUMP",
+          "page": "ST-28"
+        },
+        {
+          "topic": "POWER STEERING RESERVOIR",
+          "page": "ST-30"
+        },
+        {
+          "topic": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)",
+          "page": "ST-31"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-I>"
+    },
+    {
+      "block_type": "table",
+      "title": "SUPPLEMENT-I Contents",
+      "columns": [
+        {
+          "key": "topic",
+          "label": "Topic"
+        },
+        {
+          "key": "page",
+          "label": "Page"
+        }
+      ],
+      "rows": [
+        {
+          "topic": "PRECAUTIONS AND PREPARATION",
+          "page": "ST-1002"
+        },
+        {
+          "topic": "STEERING WHEEL AND STEERING COLUMN",
+          "page": "ST-1003"
+        },
+        {
+          "topic": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)",
+          "page": "ST-1004"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "<SUPPLEMENT-II>"
+    },
+    {
+      "block_type": "prose",
+      "text": "NO CHANGES",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "ST-2",
+    "ST-3",
+    "ST-4",
+    "ST-6",
+    "ST-9",
+    "ST-15",
+    "ST-21",
+    "ST-28",
+    "ST-30",
+    "ST-31",
+    "ST-1002",
+    "ST-1003",
+    "ST-1004"
+  ],
+  "model_notes": null
+}

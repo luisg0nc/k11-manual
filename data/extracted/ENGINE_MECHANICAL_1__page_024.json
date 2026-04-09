@@ -1,0 +1,164 @@
+{
+  "page_code": "EM-24",
+  "section": "EM",
+  "title": "TIMING CHAIN \u2014 Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": "EM-23",
+    "continues_to": "EM-25"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM131D",
+      "type": "component_photo",
+      "description": "Distributor installed on engine showing camshaft position",
+      "bbox_percent": [
+        2,
+        4,
+        32,
+        22
+      ],
+      "associated_step": "22"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM059",
+      "type": "parts_diagram",
+      "description": "Cam sprocket cover showing liquid gasket application bead width 2.0-3.0 mm (0.079-0.118 in)",
+      "bbox_percent": [
+        2,
+        22,
+        32,
+        40
+      ],
+      "associated_step": "23"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM033",
+      "type": "parts_diagram",
+      "description": "Plan view and cross-section of cylinder head showing liquid gasket application dimensions: 3.0 (0.118) and 3.0 (0.018) mm, with sealant and cylinder head labels",
+      "bbox_percent": [
+        2,
+        52,
+        32,
+        72
+      ],
+      "associated_step": "25"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM034",
+      "type": "parts_diagram",
+      "description": "Plan view of distributor bracket aperture rubber showing gasket and sealant application with dimensions 20 (0.79) mm on both sides",
+      "bbox_percent": [
+        2,
+        72,
+        32,
+        92
+      ],
+      "associated_step": "26"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING CHAIN"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "timing_chain_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 22,
+          "text": "Install distributor.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Make sure that position of camshaft is as shown in figure."
+          ]
+        },
+        {
+          "step": 23,
+          "text": "Install cam sprocket cover.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Liquid gasket bead width: 2.0 - 3.0 mm (0.079 - 0.118 in)"
+          ]
+        },
+        {
+          "step": 24,
+          "text": "Clean the rocker cover, ensure it is free from grease.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Fit the gasket & cover within 5 minutes of applying the liquid gasket, as follows:"
+          ]
+        },
+        {
+          "step": 25,
+          "text": "Apply liquid gasket to the cylinder head as shown. Fit the gasket to the cover.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": [
+            "Liquid gasket application dimensions: 3.0 (0.118) mm and 3.0 (0.018) mm",
+            "Unit: mm (in)"
+          ]
+        },
+        {
+          "step": 26,
+          "text": "Apply liquid gasket to the rubber in the distributor bracket aperture, as shown.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Apply sealant 20 (0.79) mm on each side of the gasket at the distributor bracket aperture.",
+            "Unit: mm (in)"
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Cam sprocket cover liquid gasket bead width",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Step 23"
+        },
+        {
+          "label": "Cylinder head liquid gasket application width (dimension 1)",
+          "value": "3.0",
+          "unit": "mm (0.118 in)",
+          "condition": "Step 25"
+        },
+        {
+          "label": "Cylinder head liquid gasket application width (dimension 2)",
+          "value": "3.0",
+          "unit": "mm (0.018 in)",
+          "condition": "Step 25"
+        },
+        {
+          "label": "Distributor bracket aperture sealant application length",
+          "value": "20",
+          "unit": "mm (0.79 in)",
+          "condition": "Step 26, both sides"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

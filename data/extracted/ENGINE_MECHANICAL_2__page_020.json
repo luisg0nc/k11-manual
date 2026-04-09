@@ -1,0 +1,158 @@
+{
+  "page_code": "EM-7020",
+  "section": "EM",
+  "title": "CYLINDER HEAD - Installation (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM056",
+      "type": "tool_illustration",
+      "description": "Illustration showing hands rotating and pushing the ratchet up the spiral on the tensioner piston assembly",
+      "bbox_percent": [
+        0,
+        1,
+        38,
+        18
+      ],
+      "associated_step": "10"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM057",
+      "type": "component_photo",
+      "description": "View of timing chain area showing tensioner installed with chain and sprockets visible",
+      "bbox_percent": [
+        0,
+        19,
+        38,
+        36
+      ],
+      "associated_step": "10"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM048",
+      "type": "component_photo",
+      "description": "Thermostat housing with liquid gasket application bead shown at 2.0-3.0 mm (0.079-0.118 in)",
+      "bbox_percent": [
+        0,
+        38,
+        38,
+        55
+      ],
+      "associated_step": "11"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM049",
+      "type": "component_photo",
+      "description": "Cam sprocket cover showing liquid gasket application points with bead dimension 2.0-3.0 mm (0.079-0.118 in)",
+      "bbox_percent": [
+        0,
+        56,
+        38,
+        74
+      ],
+      "associated_step": "13"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "cylinder_head_installation_contd",
+      "title": "Installation (Cont'd)",
+      "steps": [
+        {
+          "step": 10,
+          "text": "Assemble the tensioner by rotating and pushing the ratchet up the spiral until it stops. The tensioner is now pre-set. Chain lash will automatically set the tensioner when the engine is started. Install the tensioner.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "CAUTION: Check no problems occur when engine is rotated.",
+            "CAUTION: Make sure that No. 1 piston is set at T.D.C. on its compression stroke."
+          ]
+        },
+        {
+          "step": 11,
+          "text": "Apply liquid gasket to thermostat housing; Ensure mating surfaces are clean and free from dirt, grease and traces of old liquid gasket.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Install thermostat housing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 13,
+          "text": "Apply liquid gasket to cam sprocket cover as illustrated. Then install cam sprocket cover.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 14,
+          "text": "Clean the rocker cover, ensure it is free from grease. Fit the gasket & cover within 5 minutes of applying the liquid gasket, as follows:",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION:\n\u2022 Check no problems occur when engine is rotated.\n\u2022 Make sure that No. 1 piston is set at T.D.C. on its compression stroke.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "Ensure mating surfaces are clean and free from dirt, grease and traces of old liquid gasket.",
+      "style": "important"
+    },
+    {
+      "block_type": "prose",
+      "text": "Fit the gasket & cover within 5 minutes of applying the liquid gasket, as follows:",
+      "style": "important"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Liquid gasket bead width - thermostat housing",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Application to thermostat housing mating surface"
+        },
+        {
+          "label": "Liquid gasket bead width - cam sprocket cover",
+          "value": "2.0 - 3.0",
+          "unit": "mm (0.079 - 0.118 in)",
+          "condition": "Application to cam sprocket cover mating surface"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

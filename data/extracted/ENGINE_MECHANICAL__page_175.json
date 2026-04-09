@@ -1,0 +1,179 @@
+{
+  "page_code": "EM-5042",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Inspection (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-5042.jpg",
+  "continuation": {
+    "continues_from": "EM-5041",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM301",
+      "type": "tool_illustration",
+      "description": "Dial indicator (KV109B0060) mounted on dial support (KV109B0050) positioned above calibration piston on cylinder block deck \u2014 setup for TDC zeroing",
+      "bbox_percent": [
+        2,
+        13,
+        38,
+        35
+      ],
+      "associated_step": "6"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM302",
+      "type": "tool_illustration",
+      "description": "Dial indicator (KV109B0060) mounted on support moved onto the cylinder block deck to measure piston protrusion difference",
+      "bbox_percent": [
+        2,
+        36,
+        38,
+        58
+      ],
+      "associated_step": "9"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc1",
+      "title": "Piston Height Selection Procedure (Cont'd)",
+      "steps": [
+        {
+          "step": 5,
+          "text": "Install the connecting rod bearing cap and tighten to the specified torque.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Install the dial indicator on the dial support.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Place the indicator/support above the center of calibration piston.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 8,
+          "text": "Turn the crankshaft to TDC, and zero out the dial indicator.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 9,
+          "text": "Move the indicator/support onto the deck.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 10,
+          "text": "Take a precise reading of the difference in level between calibration piston and the deck.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 11,
+          "text": "Follow the same procedure for the other cylinders, using the corresponding connecting rods.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 12,
+          "text": "Select piston height types according to the following table.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "table",
+      "title": "Piston Height Selection Table",
+      "columns": [
+        {
+          "key": "dial_reading",
+          "label": "Reading from Dial Indicator"
+        },
+        {
+          "key": "piston_ref",
+          "label": "Piston Reference"
+        },
+        {
+          "key": "final_protrusion",
+          "label": "Final Protrusion Dimension"
+        }
+      ],
+      "rows": [
+        {
+          "dial_reading": "Below 2.26 (0.089)",
+          "piston_ref": "Check dimensions of all elements",
+          "final_protrusion": "1.09 \u00b1 0.05 (0.043 \u00b1 0.002)"
+        },
+        {
+          "dial_reading": "2.50 - 2.40 (0.098 - 0.094)",
+          "piston_ref": "A",
+          "final_protrusion": "1.09 \u00b1 0.05 (0.043 \u00b1 0.002)"
+        },
+        {
+          "dial_reading": "2.43 - 2.33 (0.096 - 0.092)",
+          "piston_ref": "B",
+          "final_protrusion": "1.09 \u00b1 0.05 (0.043 \u00b1 0.002)"
+        },
+        {
+          "dial_reading": "2.36 - 2.26 (0.093 - 0.089)",
+          "piston_ref": "C",
+          "final_protrusion": "1.09 \u00b1 0.05 (0.043 \u00b1 0.002)"
+        },
+        {
+          "dial_reading": "Above 2.5 (0.098)",
+          "piston_ref": "Check dimensions of all elements",
+          "final_protrusion": "1.09 \u00b1 0.05 (0.043 \u00b1 0.002)"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Unit: mm (in)",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0060",
+      "name": "Dial Indicator",
+      "usage": "Measure piston height relative to deck surface"
+    },
+    {
+      "part_number": "KV109B0050",
+      "name": "Dial Support",
+      "usage": "Support for dial indicator when measuring piston protrusion"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

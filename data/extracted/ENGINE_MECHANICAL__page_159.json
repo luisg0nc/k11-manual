@@ -1,0 +1,276 @@
+{
+  "page_code": "EM-5026",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Assembly and Installation",
+  "page_type": "prose_procedure",
+  "source_image": "scanned_page.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "NEM278",
+      "type": "component_photo",
+      "description": "Camshaft and brackets installed on cylinder head, showing bracket numbering sequence (3, 2, 1) from left to right",
+      "bbox_percent": [
+        2,
+        12,
+        32,
+        30
+      ],
+      "associated_step": "Assembly step 2"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "NEM275",
+      "type": "component_photo",
+      "description": "Camshaft hub and sprocket installed on cylinder head with timing chain/belt",
+      "bbox_percent": [
+        2,
+        30,
+        32,
+        48
+      ],
+      "associated_step": "Assembly step 3"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "NEM279",
+      "type": "tool_illustration",
+      "description": "Cylinder head bolt showing maximum length L measurement; Hex head max 197.5 mm, TORX head max 197.1 mm",
+      "bbox_percent": [
+        2,
+        48,
+        32,
+        65
+      ],
+      "associated_step": "Installation step 2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "NEM280",
+      "type": "parts_diagram",
+      "description": "Cylinder head bolt tightening sequence diagram showing numbered bolt positions 1-10 with flywheel side indicated",
+      "bbox_percent": [
+        2,
+        65,
+        32,
+        82
+      ],
+      "associated_step": "Installation step 3 \u2014 Tightening procedure"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install valve component parts.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Always install new valve oil seals. Refer to \"OIL SEAL REPLACEMENT\", (EM-00).",
+            "When installing valve, apply engine oil on the valve stem and lip of valve oil seal.",
+            "Check whether the valve face is free from foreign matter."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Install camshaft and brackets and tighten bracket nuts to the specified torque in two or three stages.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Camshaft-bracket nuts: 20 N\u00b7m (2.0 kg-m, 14.8 ft-lb)",
+            "Tighten bracket from center to outside.",
+            "Apply sealant to brackets No. 1 and No. 3.",
+            "Install new camshaft oil seal. Refer to \"OIL SEAL REPLACEMENT\", (EM-5017)."
+          ]
+        },
+        {
+          "step": 3,
+          "text": "Install camshaft hub and sprocket and tighten hub bolt to the specified torque using special service tool or a suitable tool.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Install camshaft locking pin SST KV109B0111.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Install intake and exhaust manifold, EGR valve, vacuum-pump and thermostat housing.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "procedure",
+      "id": "installation",
+      "title": "Installation",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install cylinder head gasket, with printing facing up.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": [
+            "Confirm that the flywheel and injection pump locking pins are still fitted.",
+            "When replacing or repairing cylinder block, piston, connecting rod and crankshaft, select piston referring to \"DETERMINING THE PISTON TYPE\", (EM-5041)."
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Check cylinder head bolt length, and replace if limit is exceeded.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Install cylinder head and tighten cylinder head bolts according to the following sequence.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Tightening procedure"
+    },
+    {
+      "block_type": "prose",
+      "text": "Apply MOLYKOTE G RAPID PLUS to threads and under-head seating face of each bolt.",
+      "style": "important"
+    },
+    {
+      "block_type": "procedure",
+      "id": "tightening_procedure",
+      "title": "Tightening procedure",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Tighten bolts in the numerical order shown in the figure and following the steps below using angle wrenchs SST KV10112100.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Tightening procedure: (a) Tighten all bolts to 40 N\u00b7m (4.1 kg-m, 29.5 ft-lb); (b) Turn all bolts 255\u00b0 - 265\u00b0"
+          ]
+        },
+        {
+          "step": 2,
+          "text": "Install timing belt. Refer to \"TIMING BELT\", (EM-5011).",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Camshaft-bracket nuts torque",
+          "value": "20",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Camshaft-bracket nuts torque",
+          "value": "2.0",
+          "unit": "kg-m",
+          "condition": ""
+        },
+        {
+          "label": "Camshaft-bracket nuts torque",
+          "value": "14.8",
+          "unit": "ft-lb",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder head bolt maximum length \u2014 Hex head",
+          "value": "197.5",
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder head bolt maximum length \u2014 TORX head",
+          "value": "197.1",
+          "unit": "mm",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder head bolt tightening torque step (a)",
+          "value": "40",
+          "unit": "N\u00b7m",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder head bolt tightening torque step (a)",
+          "value": "4.1",
+          "unit": "kg-m",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder head bolt tightening torque step (a)",
+          "value": "29.5",
+          "unit": "ft-lb",
+          "condition": ""
+        },
+        {
+          "label": "Cylinder head bolt angle tightening step (b)",
+          "value": "255\u00b0 - 265\u00b0",
+          "unit": "degrees",
+          "condition": ""
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV109B0111",
+      "name": "Camshaft locking pin",
+      "usage": "Install camshaft locking pin"
+    },
+    {
+      "part_number": "KV10112100",
+      "name": "Angle wrench",
+      "usage": "Tighten cylinder head bolts using angle tightening method"
+    }
+  ],
+  "cross_references": [
+    "EM-00",
+    "EM-5017",
+    "EM-5041",
+    "EM-5011"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,63 @@
+{
+  "page_code": "AT-41",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Vehicle Speed Sensor",
+  "page_type": "prose_procedure",
+  "source_image": "AT-41.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT068",
+      "type": "component_photo",
+      "description": "Illustration showing the vehicle speed sensor (output shaft speed sensor) location on the A/T unit, with the sensor callout label pointing to the component.",
+      "bbox_percent": [
+        2,
+        3,
+        40,
+        30
+      ],
+      "associated_step": "step1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Vehicle Speed Sensor"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Replacement"
+    },
+    {
+      "block_type": "procedure",
+      "id": "proc1",
+      "title": "Replacement",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the vehicle speed sensor (output shaft speed sensor) from the A/T.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": [
+            "Always replace the O-ring with a new one. Do not reuse."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Always replace the O-ring with a new one. Do not reuse.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Procedure applies to A/T (automatic transmission) equipped vehicles."
+}

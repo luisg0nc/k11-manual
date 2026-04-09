@@ -1,0 +1,136 @@
+{
+  "page_code": "EM-5013",
+  "section": "EM",
+  "title": "TIMING BELT \u2014 Inspection",
+  "page_type": "spec_table",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM394A",
+      "type": "parts_diagram",
+      "description": "Illustration of broken tooth / cracked tooth root on timing belt",
+      "bbox_percent": [
+        20,
+        10,
+        55,
+        22
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM395A",
+      "type": "parts_diagram",
+      "description": "Illustration of cracked/worn back surface of timing belt",
+      "bbox_percent": [
+        20,
+        24,
+        55,
+        36
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM396A",
+      "type": "parts_diagram",
+      "description": "Illustration of worn side surface of timing belt, showing worn/round corners and frayed wicks",
+      "bbox_percent": [
+        20,
+        38,
+        55,
+        52
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM397A",
+      "type": "parts_diagram",
+      "description": "Illustration of worn teeth on timing belt, showing canvas wear and rubber layer wear, with rotating direction arrows",
+      "bbox_percent": [
+        20,
+        53,
+        55,
+        70
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TIMING BELT"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Timing belt"
+    },
+    {
+      "block_type": "prose",
+      "text": "Visually check the condition of timing belt. Replace if any abnormality is found.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Timing Belt Inspection Table",
+      "columns": [
+        {
+          "key": "item_to_check",
+          "label": "Item to check"
+        },
+        {
+          "key": "problem",
+          "label": "Problem"
+        },
+        {
+          "key": "cause",
+          "label": "Cause"
+        }
+      ],
+      "rows": [
+        {
+          "item_to_check": "Tooth is broken/tooth root is cracked.",
+          "problem": "See figure SEM394A \u2014 broken teeth and cracked tooth root illustrations",
+          "cause": "Camshaft jamming; Damaged camshaft/crankshaft oil seal"
+        },
+        {
+          "item_to_check": "Back surface is cracked/worn.",
+          "problem": "See figure SEM395A \u2014 cracked/worn back surface illustration",
+          "cause": "Tensioner jamming; Overheated engine; Interference with belt cover"
+        },
+        {
+          "item_to_check": "Side surface is worn.",
+          "problem": "See figure SEM396A \u2014 worn side surface illustration. Belt corners are worn and round. Wicks are frayed and coming out.",
+          "cause": "Improper installation of belt; Malfunctioning crankshaft pulley plate/timing belt plate"
+        },
+        {
+          "item_to_check": "Teeth are worn.",
+          "problem": "See figure SEM397A \u2014 worn teeth illustration with rotating direction indicated. Canvas on tooth face is worn down. Canvas on tooth is fluffy, rubber layer is worn down and faded white, or welt is worn down and invisible.",
+          "cause": "Poor belt cover sealing; Coolant leakage at water pump; Camshaft not functioning properly; Excessive belt tension"
+        },
+        {
+          "item_to_check": "Oil, coolant or water is stuck to belt.",
+          "problem": "\u2014",
+          "cause": "Poor oil sealing of each oil seal; Coolant leakage at water pump; Poor belt cover sealing"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

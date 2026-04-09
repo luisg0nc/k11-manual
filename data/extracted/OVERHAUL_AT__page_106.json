@@ -1,0 +1,165 @@
+{
+  "page_code": "AT-106",
+  "section": "AT",
+  "title": "REPAIR FOR COMPONENT PARTS \u2014 Main Drive Shaft Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "AT-106.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT209",
+      "type": "component_photo",
+      "description": "View of main drive shaft assembly in clutch housing showing securing bolts location",
+      "bbox_percent": [
+        0,
+        2,
+        35,
+        20
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT210",
+      "type": "component_photo",
+      "description": "Tapping the end of the shaft with a plastic hammer to remove",
+      "bbox_percent": [
+        0,
+        20,
+        35,
+        38
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UAT211",
+      "type": "tool_illustration",
+      "description": "Press tool pressing out the bearing from the retainer",
+      "bbox_percent": [
+        0,
+        38,
+        35,
+        57
+      ],
+      "associated_step": "5"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UAT212",
+      "type": "parts_diagram",
+      "description": "Diagram showing synchroniser baulk ring and cone with clearance C indicated, Ring and Cone labelled",
+      "bbox_percent": [
+        0,
+        72,
+        35,
+        98
+      ],
+      "associated_step": "synchroniser_inspection"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "REPAIR FOR COMPONENT PARTS \u2014 Main Drive Shaft Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly",
+      "title": "Disassembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Remove the securing bolts.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Tap the end of the shaft with a plastic hammer to remove.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove and discard the oil seals from drive shaft and the clutch housing.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Remove the circlip.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Press out the bearing.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Gears/bearings"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check for broken or worn teeth.\nCheck for damaged or seized cone surface.\nCheck bearing contact surface.\nCheck for noisy operation and signs of seizure.\nReplace parts as necessary.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Sychroniser"
+    },
+    {
+      "block_type": "prose",
+      "text": "Check the clearance between the baulk ring and cone.",
+      "style": "normal"
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Clearance between baulk ring and cone (C) \u2014 Standard",
+          "value": "1.0",
+          "unit": "mm (0.039 in)",
+          "condition": "Standard"
+        },
+        {
+          "label": "Clearance between baulk ring and cone (C) \u2014 Limit",
+          "value": "0.4",
+          "unit": "mm (0.016 in)",
+          "condition": "Limit"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Check contact surfaces for wear or damage.\nCheck the hub shift insert for wear marks.\nReplace parts as necessary.",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

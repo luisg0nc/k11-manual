@@ -1,0 +1,186 @@
+{
+  "page_code": "EM-7023",
+  "section": "EM",
+  "title": "SERVICE DATA AND SPECIFICATIONS (S.D.S.) \u2014 General Specifications",
+  "page_type": "spec_table",
+  "source_image": "unknown",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "EM120",
+      "type": "parts_diagram",
+      "description": "Valve timing diagram showing TDC/BDC positions with intake opens/closes and exhaust opens/closes reference points (a, b, c, d, e, f) and direction of rotation",
+      "bbox_percent": [
+        5,
+        30,
+        55,
+        58
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "SERVICE DATA AND SPECIFICATIONS (S.D.S.)"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "General Specifications"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "GENERAL SPECIFICATIONS"
+    },
+    {
+      "block_type": "table",
+      "title": "General Specifications",
+      "columns": [
+        {
+          "key": "parameter",
+          "label": "Parameter"
+        },
+        {
+          "key": "cg10de",
+          "label": "CG10DE"
+        },
+        {
+          "key": "cga3de",
+          "label": "CGA3DE"
+        }
+      ],
+      "rows": [
+        {
+          "parameter": "Engine",
+          "cg10de": "CG10DE",
+          "cga3de": "CGA3DE"
+        },
+        {
+          "parameter": "Classification",
+          "cg10de": "Gasoline",
+          "cga3de": "Gasoline"
+        },
+        {
+          "parameter": "Cylinder arrangement",
+          "cg10de": "4 in-line",
+          "cga3de": "4 in-line"
+        },
+        {
+          "parameter": "Displacement cm\u00b3 (cu in)",
+          "cg10de": "998 (60.9)",
+          "cga3de": "1348 (82.25)"
+        },
+        {
+          "parameter": "Bore x stroke mm (in)",
+          "cg10de": "71 x 63 (2.79 x 2.48)",
+          "cga3de": "72 x 82.85 (2.83 - 3.26)"
+        },
+        {
+          "parameter": "Valve arrangement",
+          "cg10de": "D.O.H.C.",
+          "cga3de": "D.O.H.C."
+        },
+        {
+          "parameter": "Firing order",
+          "cg10de": "1-3-4-2",
+          "cga3de": "1-3-4-2"
+        },
+        {
+          "parameter": "Number of piston rings \u2014 Compression",
+          "cg10de": "2",
+          "cga3de": "2"
+        },
+        {
+          "parameter": "Number of piston rings \u2014 Oil",
+          "cg10de": "1",
+          "cga3de": "1"
+        },
+        {
+          "parameter": "Number of main bearings",
+          "cg10de": "5",
+          "cga3de": "5"
+        },
+        {
+          "parameter": "Compression ratio",
+          "cg10de": "9.5",
+          "cga3de": "9.5"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "Valve timing"
+    },
+    {
+      "block_type": "prose",
+      "text": "Valve timing diagram (EM120). Unit: degree. Reference points: a = intake opens (BTDC), b = intake closes (ABDC), c = exhaust opens (BBDC), d = exhaust closes (ATDC), e and f correspond to overlap/closing points. Direction of rotation shown. TDC at top, BDC at bottom.",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Valve Timing (Unit: degree)",
+      "columns": [
+        {
+          "key": "engine",
+          "label": "Engine"
+        },
+        {
+          "key": "a",
+          "label": "a"
+        },
+        {
+          "key": "b",
+          "label": "b"
+        },
+        {
+          "key": "c",
+          "label": "c"
+        },
+        {
+          "key": "d",
+          "label": "d"
+        },
+        {
+          "key": "e",
+          "label": "e"
+        },
+        {
+          "key": "f",
+          "label": "f"
+        }
+      ],
+      "rows": [
+        {
+          "engine": "CG10DE",
+          "a": "196\u00b0",
+          "b": "196\u00b0",
+          "c": "0\u00b0",
+          "d": "16\u00b0",
+          "e": "0\u00b0",
+          "f": "16\u00b0"
+        },
+        {
+          "engine": "CGA3DE",
+          "a": "222\u00b0",
+          "b": "222\u00b0",
+          "c": "0\u00b0",
+          "d": "42\u00b0",
+          "e": "0\u00b0",
+          "f": "42\u00b0"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": null
+}

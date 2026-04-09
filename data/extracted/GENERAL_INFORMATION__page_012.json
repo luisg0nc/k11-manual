@@ -1,0 +1,171 @@
+{
+  "page_code": "GI-6",
+  "section": "GI",
+  "title": "HOW TO USE THIS MANUAL",
+  "page_type": "prose_procedure",
+  "source_image": "GI-6.jpg",
+  "continuation": {
+    "continues_from": "GI-5",
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "HOW TO USE THIS MANUAL"
+    },
+    {
+      "block_type": "prose",
+      "text": "7. The following SYMBOLS AND ABBREVIATIONS are used:",
+      "style": "normal"
+    },
+    {
+      "block_type": "table",
+      "title": "Symbols and Abbreviations",
+      "columns": [
+        {
+          "key": "symbol",
+          "label": "Symbol/Abbreviation"
+        },
+        {
+          "key": "meaning",
+          "label": "Meaning"
+        }
+      ],
+      "rows": [
+        {
+          "symbol": "[tightening torque icon]",
+          "meaning": "Tightening torque"
+        },
+        {
+          "symbol": "[lubricate with grease icon]",
+          "meaning": "Should be lubricated with grease. Unless otherwise indicated, use recommended multi-purpose grease."
+        },
+        {
+          "symbol": "[lubricate with oil icon]",
+          "meaning": "Should be lubricated with oil."
+        },
+        {
+          "symbol": "[sealing point icon]",
+          "meaning": "Sealing point"
+        },
+        {
+          "symbol": "[checking point icon]",
+          "meaning": "Checking point"
+        },
+        {
+          "symbol": "[always replace icon]",
+          "meaning": "Always replace after every disassembly."
+        },
+        {
+          "symbol": "L.H., R.H.",
+          "meaning": "Left-Hand, Right-Hand"
+        },
+        {
+          "symbol": "FR, RR",
+          "meaning": "Front, Rear"
+        },
+        {
+          "symbol": "2WD",
+          "meaning": "2-Wheel Drive"
+        },
+        {
+          "symbol": "[petroleum jelly icon] (P)",
+          "meaning": "Apply petroleum jelly."
+        },
+        {
+          "symbol": "(ATF)",
+          "meaning": "Apply A.T.F."
+        },
+        {
+          "symbol": "[star icon]",
+          "meaning": "Select with proper thickness."
+        },
+        {
+          "symbol": "[adjustment icon]",
+          "meaning": "Adjustment is required."
+        },
+        {
+          "symbol": "M/T",
+          "meaning": "Manual Transaxle/Transmission"
+        },
+        {
+          "symbol": "A/T",
+          "meaning": "Automatic Transaxle/Transmission"
+        },
+        {
+          "symbol": "A/C",
+          "meaning": "Air Conditioner"
+        },
+        {
+          "symbol": "P/S",
+          "meaning": "Power Steering"
+        },
+        {
+          "symbol": "S.S.T.",
+          "meaning": "Special Service Tools"
+        },
+        {
+          "symbol": "S.D.S.",
+          "meaning": "Service Data and Specifications"
+        },
+        {
+          "symbol": "SAE",
+          "meaning": "Society of Automotive Engineers, Inc."
+        },
+        {
+          "symbol": "L.H.D.",
+          "meaning": "Left-Hand Drive"
+        },
+        {
+          "symbol": "R.H.D.",
+          "meaning": "Right-Hand Drive"
+        },
+        {
+          "symbol": "A.T.F.",
+          "meaning": "Automatic Transmission Fluid"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "8. The UNITS given in this manual are primarily expressed as SI UNITS (International System of Unit), and alternatively expressed in the metric system and in the imperial system.\n\"Example\"\nTightening torque:\n59 - 78 N\u00b7m (6.0 - 8.0 kg-m, 43 - 58 ft-lb)",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "9. TROUBLE DIAGNOSES are included in sections dealing with complicated components.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "10. SERVICE DATA AND SPECIFICATIONS are contained at the end of each section for quick reference of data.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "11. The captions WARNING and CAUTION warn you of steps that must be followed to prevent personal injury and/or damage to some part of the vehicle.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "WARNING indicates the possibility of personal injury if instructions are not followed.",
+      "style": "warning"
+    },
+    {
+      "block_type": "prose",
+      "text": "CAUTION indicates the possibility of component damage if instructions are not followed.",
+      "style": "caution"
+    },
+    {
+      "block_type": "prose",
+      "text": "BOLD TYPED STATEMENTS except WARNING and CAUTION give you helpful information.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Abbreviations distinguish L.H.D. (Left-Hand Drive) and R.H.D. (Right-Hand Drive), as well as M/T (Manual Transaxle/Transmission) and A/T (Automatic Transaxle/Transmission)."
+}

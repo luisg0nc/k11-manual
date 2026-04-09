@@ -1,0 +1,179 @@
+{
+  "page_code": "EM-55",
+  "section": "EM",
+  "title": "CYLINDER BLOCK - Assembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-55.jpg",
+  "continuation": {
+    "continues_from": "EM-54",
+    "continues_to": "EM-56"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM086",
+      "type": "parts_diagram",
+      "description": "Diagram showing cylinder bore grade numbers location on cylinder block and piston grade number location on piston crown, with FRONT orientation indicated.",
+      "bbox_percent": [
+        0,
+        0,
+        38,
+        16
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM098",
+      "type": "parts_diagram",
+      "description": "Diagram showing connecting rod number location on connecting rod.",
+      "bbox_percent": [
+        0,
+        16,
+        38,
+        34
+      ],
+      "associated_step": "4"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM293C",
+      "type": "tool_illustration",
+      "description": "Illustration showing piston ring compressor tool being used to install piston with connecting rod into cylinder bore.",
+      "bbox_percent": [
+        0,
+        34,
+        38,
+        52
+      ],
+      "associated_step": "5a"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM099",
+      "type": "component_photo",
+      "description": "Photo showing installation of connecting rod bearing caps on engine.",
+      "bbox_percent": [
+        0,
+        52,
+        38,
+        70
+      ],
+      "associated_step": "5b"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM100",
+      "type": "component_photo",
+      "description": "Photo showing measurement of connecting rod side clearance.",
+      "bbox_percent": [
+        0,
+        70,
+        38,
+        88
+      ],
+      "associated_step": "6"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly_contd",
+      "title": "Assembly (Cont'd)",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Install connecting rod bearings in connecting rods and connecting rod caps.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Confirm that correct bearings are used. Refer to \"Inspection\"."
+          ]
+        },
+        {
+          "step": 5,
+          "text": "Install pistons with connecting rods.",
+          "figure_ref": "fig3",
+          "warnings": [
+            "Be careful not to scratch cylinder wall by connecting rod.",
+            "Arrange so that front mark on piston head faces toward front of engine."
+          ],
+          "notes": [],
+          "sub_steps": [
+            {
+              "sub_step": "a",
+              "text": "Install them into corresponding cylinders with Tool.",
+              "figure_ref": "fig3"
+            },
+            {
+              "sub_step": "b",
+              "text": "Install connecting rod bearing caps. Tighten connecting rod bearing cap nuts to the specified torque.",
+              "figure_ref": "fig4",
+              "torque_spec": {
+                "fastener": "Connecting rod bearing nut",
+                "step1": "Tighten to 14 to 16 N\u00b7m (1.4 to 1.6 kg-m, 10 to 12 ft-lb).",
+                "step2": "Turn nuts to 45\u00b0 to 50\u00b0 degrees clockwise with an angle wrench."
+              }
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Measure connecting rod side clearance.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Connecting rod side clearance - Standard",
+          "value": "0.200 - 0.470",
+          "unit": "mm (0.0079 - 0.0185 in)",
+          "condition": ""
+        },
+        {
+          "label": "Connecting rod side clearance - Limit",
+          "value": "0.55",
+          "unit": "mm (0.0217 in)",
+          "condition": "If beyond the limit, replace connecting rod and/or crankshaft."
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "If beyond the limit, replace connecting rod and/or crankshaft.",
+      "style": "important"
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "unspecified",
+      "name": "Piston ring compressor",
+      "usage": "Used to compress piston rings when installing pistons with connecting rods into cylinders."
+    },
+    {
+      "part_number": "unspecified",
+      "name": "Angle wrench",
+      "usage": "Used to tighten connecting rod bearing cap nuts an additional 45\u00b0 to 50\u00b0 clockwise."
+    }
+  ],
+  "cross_references": [
+    "Inspection"
+  ],
+  "model_notes": null
+}

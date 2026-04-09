@@ -1,0 +1,193 @@
+{
+  "page_code": "AT-49",
+  "section": "AT",
+  "title": "Trouble Diagnosis \u2014 Preliminary Check (Cont'd) \u2014 Self Diagnosis",
+  "page_type": "flowchart",
+  "source_image": "page_image.jpg",
+  "continuation": {
+    "continues_from": "AT-48",
+    "continues_to": "AT-50"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "ATN0728D",
+      "type": "wiring_schematic",
+      "description": "N-CVT Warning Lamp operation timing diagrams \u2014 showing OK (normal) and Fault (blinking) lamp behaviour relative to IGN-SW ON and Engine start events over time",
+      "bbox_percent": [
+        0,
+        4,
+        38,
+        30
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "TROUBLE DIAGNOSIS"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Preliminary Check (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "SELF DIAGNOSIS"
+    },
+    {
+      "block_type": "prose",
+      "text": "The N-CVT warning lamp normally lights when the electrical system malfunctions and a problem is detected. The N-CVT warning lamp blinks if the electromagnetic clutch coil temperature rises excessively, or the motor stalls for a long period of time. The lamp goes off if the temperature lowers or the engine stall stops.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "Refer to \"Quick and Accurate Trouble Diagnosis\" when the lamp blinks frequently.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "In models equipped with ABS, turn ignition switch \"ON\", turn on power to CONSULT and touch \"START\". When the engine runs, the N-CVT warning lamp lights and self-diagnosis displayed indicates that the ABS operation signal path circuit is damaged. This is not the case, it is for test purpose only.",
+      "style": "normal"
+    },
+    {
+      "block_type": "flowchart",
+      "title": "Self Diagnosis Flowchart (A)",
+      "nodes": [
+        {
+          "id": "n1",
+          "type": "action",
+          "text": "A fault occurs (see note 1)"
+        },
+        {
+          "id": "n2",
+          "type": "action",
+          "text": "Perform self diagnosis (see note 2)"
+        },
+        {
+          "id": "n3",
+          "type": "action",
+          "text": "Perform test drive (see note 3)"
+        },
+        {
+          "id": "n4",
+          "type": "action",
+          "text": "Perform self diagnosis (see note 4)"
+        },
+        {
+          "id": "n5",
+          "type": "decision",
+          "text": "Does self diagnosis indicate problem?"
+        },
+        {
+          "id": "n6",
+          "type": "action",
+          "text": "Check other troubles. Refer to \"Diagnostic Procedures\""
+        },
+        {
+          "id": "n7",
+          "type": "action",
+          "text": "Repair/Replace malfunctioning parts"
+        },
+        {
+          "id": "n8",
+          "type": "action",
+          "text": "Perform test drive: Drive at full acceleration up to 50 km/h, then constant speed for 5 seconds. Decelerate to 30 km/h without pressing the brake pedal"
+        },
+        {
+          "id": "n9",
+          "type": "decision",
+          "text": "Any fault occurs?"
+        },
+        {
+          "id": "n10",
+          "type": "terminal",
+          "text": "End"
+        }
+      ],
+      "edges": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "label": ""
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "label": ""
+        },
+        {
+          "from": "n3",
+          "to": "n4",
+          "label": ""
+        },
+        {
+          "from": "n4",
+          "to": "n5",
+          "label": ""
+        },
+        {
+          "from": "n5",
+          "to": "n6",
+          "label": "No"
+        },
+        {
+          "from": "n5",
+          "to": "n7",
+          "label": "Yes"
+        },
+        {
+          "from": "n7",
+          "to": "n8",
+          "label": ""
+        },
+        {
+          "from": "n8",
+          "to": "n9",
+          "label": ""
+        },
+        {
+          "from": "n9",
+          "to": "n7",
+          "label": "Yes"
+        },
+        {
+          "from": "n9",
+          "to": "n10",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note 1: The N-CVT warning lamp lights when there is trouble in the electrical system. After the ignition switch is turned \"OFF\" and engine is started again, N-CVT warning lamp goes off.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note 2: Check problem that occurred during driving. Record diagnosis results.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note 3: Verify problem condition.",
+      "style": "note"
+    },
+    {
+      "block_type": "prose",
+      "text": "Note 4: Check problem that occurred during driving test. Record inspection results.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "Diagnostic Procedures",
+    "Quick and Accurate Trouble Diagnosis"
+  ],
+  "model_notes": "ABS-equipped models: N-CVT warning lamp behaviour during CONSULT test is for test purpose only and does not indicate actual ABS signal path damage."
+}

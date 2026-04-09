@@ -1,0 +1,137 @@
+{
+  "page_code": "EM-45",
+  "section": "EM",
+  "title": "CYLINDER BLOCK \u2014 Disassembly (Cont'd)",
+  "page_type": "prose_procedure",
+  "source_image": "EM-45.jpg",
+  "continuation": {
+    "continues_from": "EM-44",
+    "continues_to": "EM-46"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UEM076",
+      "type": "component_photo",
+      "description": "Removing clutch and flywheel using tool KV10105610",
+      "bbox_percent": [
+        2,
+        2,
+        42,
+        18
+      ],
+      "associated_step": "step4"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UEM077",
+      "type": "component_photo",
+      "description": "Removing rear oil seal housing",
+      "bbox_percent": [
+        2,
+        19,
+        42,
+        35
+      ],
+      "associated_step": "step5"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "UEM078",
+      "type": "component_photo",
+      "description": "Close-up of rear oil seal housing removal using tool",
+      "bbox_percent": [
+        2,
+        36,
+        42,
+        51
+      ],
+      "associated_step": "step5"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "UEM079",
+      "type": "component_photo",
+      "description": "Removing connecting rod bearing cap nuts and pistons/connecting rods as assemblies",
+      "bbox_percent": [
+        2,
+        52,
+        42,
+        68
+      ],
+      "associated_step": "step6"
+    },
+    {
+      "fig_id": "fig5",
+      "ref_code": "UEM080",
+      "type": "component_photo",
+      "description": "Removing piston rings from piston",
+      "bbox_percent": [
+        2,
+        69,
+        42,
+        85
+      ],
+      "associated_step": "step7"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER BLOCK"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Disassembly (Cont'd)"
+    },
+    {
+      "block_type": "procedure",
+      "id": "disassembly_contd",
+      "title": "Disassembly (Cont'd)",
+      "steps": [
+        {
+          "step": 4,
+          "text": "Remove clutch and flywheel.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove rear oil seal housing. Oil seal must be replaced.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": [
+            "Oil seal must be replaced."
+          ]
+        },
+        {
+          "step": 6,
+          "text": "Remove connecting rod bearing cap nuts. Remove pistons and connecting rods as assemblies.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 7,
+          "text": "Remove piston rings.",
+          "figure_ref": "fig5",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "KV10105610",
+      "name": "Flywheel holding tool",
+      "usage": "Hold flywheel/clutch during removal (step 4)"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}

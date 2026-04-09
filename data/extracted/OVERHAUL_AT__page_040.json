@@ -1,0 +1,182 @@
+{
+  "page_code": "AT-40",
+  "section": "AT",
+  "title": "ON VEHICLE SERVICE \u2014 Control Linkage",
+  "page_type": "prose_procedure",
+  "source_image": "AT-40.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": null
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT066",
+      "type": "parts_diagram",
+      "description": "Selector lever shift pattern diagram showing P, R, N, D, Ds positions with arrows indicating when release button operation is required or not required",
+      "bbox_percent": [
+        2,
+        5,
+        32,
+        25
+      ],
+      "associated_step": "Inspection step 3"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "UAT067",
+      "type": "parts_diagram",
+      "description": "Control linkage adjustment diagram showing cable, lock nut A, lock nut B, and rod components",
+      "bbox_percent": [
+        2,
+        50,
+        32,
+        72
+      ],
+      "associated_step": "Adjustment step 5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "ON VEHICLE SERVICE \u2014 Control Linkage"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection"
+    },
+    {
+      "block_type": "procedure",
+      "id": "inspection",
+      "title": "Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Move the selector lever and make sure it does not catch or make any abnormal noise.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Move the selector lever from the \"P\" range to the \"Ds\" range. The detents in each range should be felt. If the detents cannot be felt or the pointer indicating the range is improperly aligned, the cable needs adjustment.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Procedures to shift into each operation position are shown in the figure.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Ensure that reversing lamp lights and warning buzzer sounds in reverse gear.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Ensure the engine can only be started in \"P\" and \"N\" range.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 6,
+          "text": "Check the transmission is locked completely in \"P\" range.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "Selector lever shift pattern showing P, R, N, D, Ds positions",
+      "callouts": [
+        {
+          "label": "Operation of release button required",
+          "position": "lower left of diagram"
+        },
+        {
+          "label": "Operation of release button not required",
+          "position": "lower left of diagram"
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Adjustment"
+    },
+    {
+      "block_type": "procedure",
+      "id": "adjustment",
+      "title": "Adjustment",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Slacken off lock nuts \"A\" and \"B\".",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Move selector lever to the \"P\" range.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Move the transaxle select lever to the \"P\" range.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Ensure transmission is locked.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Hold the rod front end and cable adjustment screw at a right angle and run the lock nuts up to each side of the rod plate. Hold lock nut \"A\" while applying final torque tightening to \"B\".",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Lock nut tightening torque",
+          "value": "12 to 15 (1.2 to 1.5)",
+          "unit": "N-m (kg-m)",
+          "condition": "Lock nuts A and B on control linkage rod plate"
+        }
+      ]
+    },
+    {
+      "block_type": "prose",
+      "text": "Note: Do not move the select lever or inner rod during adjustment.",
+      "style": "note"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to automatic transmission (A/T) control linkage adjustment only."
+}

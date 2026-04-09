@@ -1,0 +1,161 @@
+{
+  "page_code": "EM-35",
+  "section": "EM",
+  "title": "CYLINDER HEAD \u2014 Inspection (Cont'd) / Assembly / Installation",
+  "page_type": "prose_procedure",
+  "source_image": "EM-35.jpg",
+  "continuation": {
+    "continues_from": "EM-34",
+    "continues_to": "EM-36"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SEM160D",
+      "type": "component_photo",
+      "description": "Valve lifter showing contact and sliding surfaces with arrows indicating inspection areas",
+      "bbox_percent": [
+        0,
+        1,
+        32,
+        17
+      ],
+      "associated_step": "valve_lifter_inspection_step1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SEM161D",
+      "type": "tool_illustration",
+      "description": "Measuring valve lifter diameter with a micrometer",
+      "bbox_percent": [
+        0,
+        17,
+        32,
+        33
+      ],
+      "associated_step": "valve_lifter_inspection_step2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SEM162D",
+      "type": "component_photo",
+      "description": "Measuring valve lifter guide bore diameter in the cylinder head",
+      "bbox_percent": [
+        0,
+        33,
+        32,
+        50
+      ],
+      "associated_step": "valve_lifter_inspection_step2"
+    },
+    {
+      "fig_id": "fig4",
+      "ref_code": "SEM638B",
+      "type": "parts_diagram",
+      "description": "Valve spring orientation diagram showing wide pitch (top) and narrow pitch (bottom, cylinder head side)",
+      "bbox_percent": [
+        0,
+        50,
+        32,
+        68
+      ],
+      "associated_step": "assembly_step1"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "CYLINDER HEAD"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Inspection (Cont'd)"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "VALVE LIFTER"
+    },
+    {
+      "block_type": "procedure",
+      "id": "valve_lifter_inspection",
+      "title": "Valve Lifter Inspection",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Check contact and sliding surfaces for wear or scratches.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Check diameter of valve lifter and valve lifter guide bore.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Valve lifter diameter",
+          "value": "29.960 - 29.975",
+          "unit": "mm (1.1795 - 1.1801 in)",
+          "condition": ""
+        },
+        {
+          "label": "Lifter guide bore diameter",
+          "value": "30.000 - 30.021",
+          "unit": "mm (1.1811 - 1.1819 in)",
+          "condition": ""
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Install valve component parts.",
+          "figure_ref": "fig4",
+          "warnings": [],
+          "notes": [
+            "Always use new valve oil seal. Refer to OIL SEAL REPLACEMENT.",
+            "Before installing valve oil seal, install valve spring seat.",
+            "Install uneven pitch type spring with narrow pitch end toward cylinder head.",
+            "After installing valve component parts, use plastic hammer to lightly tap valve stem tip to assure a proper fit."
+          ]
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Installation"
+    },
+    {
+      "block_type": "prose",
+      "text": "This installation is the same procedure as those for timing chain. Refer to \"Installation\" in \"TIMING CHAIN\".",
+      "style": "normal"
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [
+    "OIL SEAL REPLACEMENT",
+    "TIMING CHAIN \u2014 Installation"
+  ],
+  "model_notes": null
+}

@@ -1,0 +1,187 @@
+{
+  "page_code": "AT-20",
+  "section": "AT",
+  "title": "OPERATION",
+  "page_type": "prose_procedure",
+  "source_image": "AT-20.jpg",
+  "continuation": {
+    "continues_from": "AT-19",
+    "continues_to": "AT-21"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UAT027",
+      "type": "wiring_schematic",
+      "description": "Hydraulic circuit diagram for D range (OVERDRIVE) showing primary pulley, secondary pulley, belt lubrication, oil pump, oil cooler, oil filter, check valve, lubricating valve, line pressure control solenoid valve, regulator valve, modulator linkage, shift control valve, engine brake valve, shift lock valve, sensor shoe, Ds modifier lever, plunger (engine brake), shift cam, pitot pressure, spring, spool, and associated oil passages. X = Drain.",
+      "bbox_percent": [
+        3,
+        38,
+        97,
+        95
+      ],
+      "associated_step": null
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "OPERATION"
+    },
+    {
+      "block_type": "prose",
+      "text": "The shift control valve controls continuous speed changes from low to overdrive in \"D\" and \"Ds\" modes. This valve controls the pulley ratio by controlling the flow of line pressure into the primary pulley according to input signals from the accelerator position and engine speed.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "In low, the shift control valve is positioned to the left. As engine speed increases, pitot pressure moves the control valve to the right, and line pressure is directed to the primary pulley via circuit. As the pulley ratio changes from low to overdrive, a \"rise characteristic\" increases engine speed to the required rev/min. This is achieved by the modulator linkage connecting the pulley ratio sensor to the shift control valve and compensation plunger.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "The pin and spring 4 prevent sudden draining of hydraulic pressure from the primary pulley by slowing down the movement of the shift control valve when the accelerator pedal is pressed suddenly.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "A shift lock valve also prevents oil draining from the primary pulley circuit.",
+      "style": "normal"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "3) Engine brake valve"
+    },
+    {
+      "block_type": "prose",
+      "text": "The engine brake valve enables the engine to maintain a comparatively high speed during deceleration when the selector lever is in the \"Ds\" position.",
+      "style": "normal"
+    },
+    {
+      "block_type": "prose",
+      "text": "In \"D\" position, the engine brake plunger blocks the oil passage, pressure is directed to the engine brake valve, valve spring force is overcome and the valve spool moves to the right.",
+      "style": "normal"
+    },
+    {
+      "block_type": "component_location",
+      "ref_figure": "fig1",
+      "description": "D range (OVERDRIVE) hydraulic circuit diagram",
+      "callouts": [
+        {
+          "label": "Primary pulley",
+          "position": "upper-left area"
+        },
+        {
+          "label": "Belt lubrication",
+          "position": "left-center area"
+        },
+        {
+          "label": "Secondary pulley",
+          "position": "left-center lower area"
+        },
+        {
+          "label": "Primary pressure",
+          "position": "lower-left area"
+        },
+        {
+          "label": "Check valve",
+          "position": "lower-left area"
+        },
+        {
+          "label": "Oil cooler",
+          "position": "far left lower"
+        },
+        {
+          "label": "Oil pump",
+          "position": "lower-left center"
+        },
+        {
+          "label": "Oil filter",
+          "position": "lower-left center"
+        },
+        {
+          "label": "Lubricating valve",
+          "position": "lower-center-left"
+        },
+        {
+          "label": "Line pressure",
+          "position": "lower-center"
+        },
+        {
+          "label": "Lubricating oil pressure",
+          "position": "upper-center"
+        },
+        {
+          "label": "Line pressure control solenoid valve",
+          "position": "center-left"
+        },
+        {
+          "label": "Check valve",
+          "position": "center"
+        },
+        {
+          "label": "Shift control valve",
+          "position": "center-lower"
+        },
+        {
+          "label": "Pitot pressure",
+          "position": "center-lower"
+        },
+        {
+          "label": "Spring",
+          "position": "center-lower"
+        },
+        {
+          "label": "Shift lock valve",
+          "position": "lower-center"
+        },
+        {
+          "label": "Regulator valve",
+          "position": "center"
+        },
+        {
+          "label": "Modulator linkage",
+          "position": "center-right"
+        },
+        {
+          "label": "Sensor shoe",
+          "position": "upper-right"
+        },
+        {
+          "label": "Ds modifier lever",
+          "position": "right"
+        },
+        {
+          "label": "Plunger (Engine brake)",
+          "position": "right"
+        },
+        {
+          "label": "Shift cam",
+          "position": "right-center"
+        },
+        {
+          "label": "Spool",
+          "position": "lower-right"
+        },
+        {
+          "label": "Engine brake valve",
+          "position": "lower-right"
+        },
+        {
+          "label": "Pitot supply",
+          "position": "far-left center"
+        },
+        {
+          "label": "X = Drain",
+          "position": "lower-right legend"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Applies to CVT (automatic transmission) equipped Nissan Micra K11. Selector positions: R, N, D, Ds."
+}

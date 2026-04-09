@@ -1,0 +1,119 @@
+{
+  "page_code": "ST-20",
+  "section": "ST",
+  "title": "MANUAL STEERING GEAR AND LINKAGE \u2014 Assembly",
+  "page_type": "prose_procedure",
+  "source_image": "ST-20.jpg",
+  "continuation": {
+    "continues_from": "ST-19",
+    "continues_to": "ST-21"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "SST093B",
+      "type": "component_photo",
+      "description": "Tie-rod assembly showing length dimension L",
+      "bbox_percent": [
+        2,
+        3,
+        42,
+        20
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST603B",
+      "type": "component_photo",
+      "description": "Rack and pinion assembly showing rack stroke dimension L on both sides",
+      "bbox_percent": [
+        2,
+        22,
+        42,
+        42
+      ],
+      "associated_step": "2"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST589B",
+      "type": "component_photo",
+      "description": "Boot and tie-rod assembly showing grease application area",
+      "bbox_percent": [
+        2,
+        43,
+        42,
+        62
+      ],
+      "associated_step": "3"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "MANUAL STEERING GEAR AND LINKAGE"
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Assembly"
+    },
+    {
+      "block_type": "procedure",
+      "id": "assembly",
+      "title": "Assembly",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Tighten outer socket lock nut.",
+          "figure_ref": "fig1",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Measure rack stroke.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Before installing boot, coat the contact surfaces between boot and tie-rod with grease.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Tie-rod length \"L\"",
+          "value": "183.6",
+          "unit": "mm (7.23 in)",
+          "condition": "After tightening outer socket lock nut"
+        },
+        {
+          "label": "Rack stroke \"L\" \u2014 Short track",
+          "value": "60.6",
+          "unit": "mm (2.386 in)",
+          "condition": "Short track"
+        },
+        {
+          "label": "Rack stroke \"L\" \u2014 Standard track",
+          "value": "64.6",
+          "unit": "mm (2.543 in)",
+          "condition": "Standard track"
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [],
+  "cross_references": [],
+  "model_notes": "Rack stroke differs between short track and standard track variants: Short track = 60.6 mm, Standard track = 64.6 mm."
+}

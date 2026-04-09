@@ -1,0 +1,244 @@
+{
+  "page_code": "ST-9",
+  "section": "ST",
+  "title": "STEERING WHEEL AND STEERING COLUMN",
+  "page_type": "prose_procedure",
+  "source_image": "st-9.jpg",
+  "continuation": {
+    "continues_from": null,
+    "continues_to": "ST-10"
+  },
+  "full_page_figure": false,
+  "figures_detected": [
+    {
+      "fig_id": "fig1",
+      "ref_code": "UST017",
+      "type": "parts_diagram",
+      "description": "Exploded view of steering wheel and steering column assembly showing all components with torque specifications",
+      "bbox_percent": [
+        0,
+        0,
+        100,
+        38
+      ],
+      "associated_step": null
+    },
+    {
+      "fig_id": "fig2",
+      "ref_code": "SST110B",
+      "type": "tool_illustration",
+      "description": "Illustration showing removal of horn pad from steering wheel",
+      "bbox_percent": [
+        0,
+        39,
+        38,
+        58
+      ],
+      "associated_step": "1"
+    },
+    {
+      "fig_id": "fig3",
+      "ref_code": "SST572B",
+      "type": "tool_illustration",
+      "description": "Illustration showing removal of steering wheel using a puller tool",
+      "bbox_percent": [
+        0,
+        58,
+        38,
+        78
+      ],
+      "associated_step": "5"
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_type": "heading",
+      "level": 1,
+      "text": "STEERING WHEEL AND STEERING COLUMN"
+    },
+    {
+      "block_type": "parts_diagram",
+      "ref_figure": "fig1",
+      "parts": [
+        {
+          "number": 1,
+          "name": "Horn pad",
+          "note": null
+        },
+        {
+          "number": 2,
+          "name": "Steering wheel",
+          "note": null
+        },
+        {
+          "number": 3,
+          "name": "Upper column cover",
+          "note": null
+        },
+        {
+          "number": 4,
+          "name": "Lower column cover",
+          "note": null
+        },
+        {
+          "number": 5,
+          "name": "Ignition switch grommet",
+          "note": null
+        },
+        {
+          "number": 6,
+          "name": "Steering column assembly",
+          "note": null
+        },
+        {
+          "number": 7,
+          "name": "Boot",
+          "note": null
+        }
+      ]
+    },
+    {
+      "block_type": "specs",
+      "items": [
+        {
+          "label": "Steering wheel nut torque",
+          "value": "29 - 39",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Steering wheel nut torque",
+          "value": "3.0 - 4.0",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Steering wheel nut torque",
+          "value": "22 - 29",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        },
+        {
+          "label": "Steering column upper mounting bolt torque",
+          "value": "14.7 - 18.6",
+          "unit": "N\u00b7m",
+          "condition": "upper position"
+        },
+        {
+          "label": "Steering column upper mounting bolt torque",
+          "value": "1.5 - 1.9",
+          "unit": "kg\u00b7m",
+          "condition": "upper position"
+        },
+        {
+          "label": "Steering column upper mounting bolt torque",
+          "value": "10.8 - 13.7",
+          "unit": "ft\u00b7lb",
+          "condition": "upper position"
+        },
+        {
+          "label": "Steering column lower mounting bolt torque",
+          "value": "14.7 - 18.6",
+          "unit": "N\u00b7m",
+          "condition": "lower position"
+        },
+        {
+          "label": "Steering column lower mounting bolt torque",
+          "value": "1.5 - 1.9",
+          "unit": "kg\u00b7m",
+          "condition": "lower position"
+        },
+        {
+          "label": "Steering column lower mounting bolt torque",
+          "value": "10.8 - 13.7",
+          "unit": "ft\u00b7lb",
+          "condition": "lower position"
+        },
+        {
+          "label": "Boot clamp bolt torque",
+          "value": "3.9 - 4.9",
+          "unit": "N\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Boot clamp bolt torque",
+          "value": "0.4 - 0.5",
+          "unit": "kg\u00b7m",
+          "condition": null
+        },
+        {
+          "label": "Boot clamp bolt torque",
+          "value": "2.9 - 2.4",
+          "unit": "ft\u00b7lb",
+          "condition": null
+        }
+      ]
+    },
+    {
+      "block_type": "heading",
+      "level": 2,
+      "text": "Steering Wheel"
+    },
+    {
+      "block_type": "heading",
+      "level": 3,
+      "text": "REMOVAL"
+    },
+    {
+      "block_type": "procedure",
+      "id": "steering_wheel_removal",
+      "title": "Steering Wheel Removal",
+      "steps": [
+        {
+          "step": 1,
+          "text": "Pull out horn pad.",
+          "figure_ref": "fig2",
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 2,
+          "text": "Remove horn connections.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 3,
+          "text": "Remove steering wheel nut.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 4,
+          "text": "Disconnect horn earth terminal from top face of steering wheel.",
+          "figure_ref": null,
+          "warnings": [],
+          "notes": []
+        },
+        {
+          "step": 5,
+          "text": "Remove steering wheel with puller.",
+          "figure_ref": "fig3",
+          "warnings": [],
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "tools_referenced": [
+    {
+      "part_number": "SST110B",
+      "name": "Horn pad removal tool",
+      "usage": "Pull out horn pad from steering wheel"
+    },
+    {
+      "part_number": "SST572B",
+      "name": "Steering wheel puller",
+      "usage": "Remove steering wheel from column"
+    }
+  ],
+  "cross_references": [],
+  "model_notes": null
+}
