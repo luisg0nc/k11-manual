@@ -310,13 +310,15 @@ export function SearchDialogProvider({
               onValueChange={setQuery}
             />
             <CommandList>
-              <CommandEmpty>
-                {error
-                  ? "Search unavailable — rebuild the site to generate index."
-                  : loading
-                    ? "Loading search index…"
-                    : "No results found."}
-              </CommandEmpty>
+              {query.trim() ? (
+                <CommandEmpty>
+                  {error
+                    ? "Search unavailable — rebuild the site to generate index."
+                    : loading
+                      ? "Loading search index…"
+                      : "No results found."}
+                </CommandEmpty>
+              ) : null}
               {results.length > 0 && (
                 <CommandGroup heading="Results">
                   {results.map((doc) => (
