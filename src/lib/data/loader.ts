@@ -58,7 +58,17 @@ export function getAllPages(): ManualPage[] {
     return sortPageCodes(a.page_code, b.page_code);
   });
 
-  _allPages = validPages;
+  // Deduplicate by section+page_code, keeping the version with the most content_blocks
+  const seen = new Map<string, ManualPage>();
+  for (const page of validPages) {
+    const key = `${page.section}::${page.page_code}`;
+    const existing = seen.get(key);
+    if (!existing || page.content_blocks.length > existing.content_blocks.length) {
+      seen.set(key, page);
+    }
+  }
+
+  _allPages = Array.from(seen.values());
   return _allPages;
 }
 
